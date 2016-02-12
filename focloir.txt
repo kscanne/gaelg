@@ -1078,6 +1078,7 @@ aynjee_pronm	aynjeeish	0	0
 ayn-jee_pronm	ayn-jeeish	0	aynjee_pronm
 ayn rish foddey_a	0	0	0
 ayns_prep	0	0	0
+ayns aght ennagh_adv	0	0	er aght ennagh_adv
 ayns dy vel_conj	0	0	0
 ayns ennym_prep	0	0	0
 ayns glayst ny sooill_adv	0	0	0
@@ -2009,6 +2010,7 @@ braar keeilley_n	0	0	0
 braaroil_a	0	0	0
 braaroilid_nm	0	0	0
 brabbanagh_nf	0	0	0
+bracelet_nm	0	bracelettyn	brashleid_nf
 brack_a	0	0	breck_a
 brack_nm	0	brick	breck_nm
 brack_v	brackey_nm	0	breck_v
@@ -3035,6 +3037,7 @@ cheet_nm	0	0	çheet_nm
 çheghnaiçhum_nm	0	0	0
 cheh_a	choe	0	çheh_a
 çheh_a	çhoe	0	0
+çheh1_a	çheo	çhehey	çheh_a
 çheh-chreeagh_a	0	0	0
 cheid_a	0	0	chied_a
 cheilley_a	0	0	0
@@ -5991,6 +5994,7 @@ eggoalleeaght_nf	0	0	eggoaylleeaght_nf
 eggoalleeaght_nm	0	0	eggoaylleeaght_nf
 eggoaylleeaght_nf	0	0	0
 eggoayllys_nm	0	1	eggoaylleeaght_nf
+eggochorys_nm	0	0	0
 eggyssagh_a	0	0	0
 egin_nf	0	0	0
 eginit_a	0	0	eignit_a
@@ -7091,6 +7095,7 @@ Flandyryn_nf	0	1	0
 flaoill_a	0	0	flaaoil_a
 flapperagh_nm	0	0	0
 flaunys_nm	0	0	0
+flaunyss_nm	0	0	flaunys_nm
 flaunyssagh_a	0	0	0
 flaunyssagh_nm	0	0	0
 fledjyn_nm	0	0	0
@@ -7741,6 +7746,7 @@ Garnagh_nm	0	0	0
 garnaid_nf	0	0	0
 garrad_nm	0	0	0
 garraghtee_nm	0	0	garaghtee_nm
+garran_nm	0	0	giarran_nm
 garran yiarn_n	0	0	0
 garrastan_nm	0	0	0
 garrey_nm	0	0	0
@@ -8752,6 +8758,8 @@ gyn ughtarys_a	0	0	0
 gyn voirey_a	0	0	0
 gyn vree_a	0	0	0
 gyn vun_a	0	0	0
+gyn vyghin_adv	0	0	gyn-vyghin_adv
+gyn-vyghin_adv	0	0	0
 gyn yeearree_a	0	0	0
 gyn ynnyd_a	0	0	0
 gyn ynsaghey_a	0	0	0
@@ -9754,6 +9762,7 @@ kern keylley_n	0	0	0
 kern-uillin_nf	0	0	0
 kerosene_nm	0	0	0
 kerragh_nm	0	0	0
+kerragh1_nm	0	kerraghyn	kerragh_nm
 kerraghey_nm	0	0	0
 kerraghey1_nm	0	kerraghyn	kerraghey_nm
 kerraghey callinagh_n	0	0	0
@@ -13054,6 +13063,7 @@ nish_adv	0	0	0
 nish as reesht_adv	0	0	0
 nish hene_adv	0	0	0
 nish ny dyn dy bragh_adv	0	0	0
+nitrageen_nm	0	0	neetragien_nm
 nittal_nm	0	1	0
 niumoan_nm	0	0	0
 niurin_nm	0	0	0
@@ -14258,6 +14268,8 @@ preevaadjagh_a	0	0	0
 preevaadjee_v	0	0	0
 preevaadjys_nm	0	0	0
 preevaaidjagh_a	0	0	preevaadjagh_a
+preis_nf	0	0	preays_nf
+preish_nf	0	0	preays_nf
 prelaid_nm	0	0	0
 premmee_nf	0	0	0
 prent_v	prental_nm	0	0
@@ -14441,6 +14453,8 @@ quassia_nm	0	0	0
 queellag_nf	0	0	0
 queeyl_nf	queeylagh	0	0
 queeyl1_nf	0	queeyllyn	queeyl_nf
+queeylagh_nf	0	queeyleeyn	queeyllagh_nf
+queeyllagh_nf	0	queeylleeyn	0
 queeylleyder_nm	0	0	0
 queeyl oltagh_nf	0	0	0
 queeyl sneeuee_nf	0	0	0
@@ -15137,6 +15151,7 @@ rybban jiarg_n	0	0	0
 rybban towsh_n	0	0	0
 ry cheilley_adv	0	0	ry-cheilley_adv
 ry-cheilley_adv	0	0	0
+rychlashtyn_adv	0	0	ry-chlashtyn_adv
 ry chlashtyn_adv	0	0	ry-chlashtyn_adv
 ry-chlashtyn_adv	0	0	0
 ry-chlastyn_adv	0	0	ry-chlashtyn_adv
@@ -17351,6 +17366,7 @@ stiagh_adv	0	0	0
 stiagh_prep	0	0	0
 stiagh-scoltey_nm	0	0	0
 stiagh-vleaystey_nm	0	0	0
+still_adv	0	0	sthill_adv
 stiptagh_a	0	0	0
 stiptagh_nm	0	0	0
 stiur_nf	0	0	0
@@ -18636,6 +18652,7 @@ uail_nm	0	0	0
 uddan_nm	0	0	0
 uddanagh_a	0	0	0
 udlan_nf	0	0	0
+ughtagh_nm	0	0	0
 ughtar_nm	0	0	0
 ughtvoalley_nm	0	0	0
 uhllin_nf	uhlley	0	0

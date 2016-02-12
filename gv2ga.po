@@ -6350,9 +6350,11 @@ msgstr "brollach_nm"
 msgid "broid_nm"
 msgstr "brocamas_nm"
 
+# vn of next
 msgid "broie_n"
 msgstr "bruith_nf"
 
+# cf cloie_v
 msgid "broie_v"
 msgstr "bruith_v"
 
@@ -9887,10 +9889,11 @@ msgstr "bréidín_nm"
 
 # a game (noun), but also vn "playing"
 msgid "cloie_nm"
-msgstr "cluiche_nm;imirt_nf;dráma_nm"
+msgstr "cluiche_nm;imirt_nf;dráma_nm;fiuchadh_nm"
 
+# play (cognate), also "boil" (cf broie_v)
 msgid "cloie_v"
-msgstr "imir_v"
+msgstr "imir_v;fiuch_v"
 
 msgid "cloie bwoallee_n"
 msgstr "comórtas buillí"
@@ -16580,6 +16583,7 @@ msgid "eajeeys_nm"
 msgstr "uafás_nm;gráiniúlacht_nf;urghráin_nf"
 
 # with def. art in both
+# although not usually with alt spelling "Egypt" in Bible => multi-gv
 msgid "Eajipt_nf"
 msgstr "Éigipt_nf"
 
@@ -17270,6 +17274,9 @@ msgstr "uige_nf;líon_nm"
 msgid "eggoaylleeaght_nf"
 msgstr "éiceolaíocht_nf"
 
+msgid "eggochorys_nm"
+msgstr "éiceachóras_nm"
+
 msgid "eggyssagh_a"
 msgstr "treibheach_a"
 
@@ -17374,7 +17381,7 @@ msgstr "oidhreach_a"
 msgid "eirys_nm"
 msgstr "oidhreacht_nf"
 
-# focal doiléir
+# focal doiléir; or even f.f.: éist?
 msgid "eisht_adv"
 msgstr "ansin_adv"
 
@@ -19904,9 +19911,9 @@ msgstr "éalú_nm"
 msgid "feolee_v"
 msgstr "éalaigh_v"
 
-# also sometimes "ceann_nm" like in GD
+# also sometimes "ceann_nm" like in GD => false friend
 msgid "fer_nm"
-msgstr "fear_nm"
+msgstr "fear_nm;ceann_nm"
 
 msgid "feraghtys_nf"
 msgstr "fearúlacht_nf"
@@ -25354,6 +25361,9 @@ msgstr "gan bhrí"
 
 msgid "gyn vun_a"
 msgstr "gan bhun"
+
+msgid "gyn-vyghin_adv"
+msgstr "gan trócaire;gan trua"
 
 msgid "gyn yeearree_a"
 msgstr "gan iarraidh"
@@ -41372,6 +41382,8 @@ msgid "pram_nm"
 msgstr "pram_nm"
 
 # often "cré-umha" in parallel corpus (cf ooha)
+# this is a consequence of old KJV translation as "brass" where
+# modern translations have "bronze"
 msgid "prash_nf"
 msgstr "prás_nm"
 
@@ -41963,6 +41975,11 @@ msgstr "rothánach_nm"
 msgid "queeyl_nf"
 msgstr "roth_nm"
 
+# sheaf band, bandster
+# http://www.isle-of-man.com/manxnotebook/fulltext/mr1911/ch06.htm
+msgid "queeyllagh_nf"
+msgstr "beanstar_nm"
+
 # not in corpus
 msgid "queeylleyder_nm"
 msgstr "rothadóir_nm"
@@ -42501,7 +42518,8 @@ msgid "reagheyder_nm"
 msgstr "eagarthóir_nm;eagraí_nm"
 
 # + organization (state, act; not a group) - some calques in corpus
-# will hold the line for now
+# including many instances of this in the plural - interestingly
+# the same phenomenon is occurring with "riarachán" in Ir.
 msgid "reagheydys_nm"
 msgstr "riarachán_nm;eagarthóireacht_nf"
 
@@ -50564,8 +50582,9 @@ msgid "sthie-hyndaagh_a"
 msgstr "indíritheach_a"
 
 # cf Joshua 3:8 'shassoo ~' = standing still
+# Paradise Lost: still ayns pooar
 msgid "sthill_adv"
-msgstr "ina stad"
+msgstr "ina stad;fós_adv"
 
 msgid "sthill_nf"
 msgstr "stil_nf"
@@ -54550,6 +54569,9 @@ msgstr "cnapánach_a"
 
 msgid "udlan_nf"
 msgstr "udalán_nm"
+
+msgid "ughtagh_nm"
+msgstr "fána_nf"
 
 msgid "ughtar_nm"
 msgstr "údar_nm"
