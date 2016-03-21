@@ -11269,6 +11269,7 @@ lourane1_nm	0	0	lourane_nm
 lourane2_nm	0	louranyn	lourane_nm
 louraneys_nf	0	1	loihrey_nf
 lourey_nf	0	1	loihrey_nf
+lout_nm	0	0	0
 low_v	lowal_n	0	0
 lowal_n	0	0	0
 lowaltys_nm	0	0	0

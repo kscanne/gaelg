@@ -32609,6 +32609,10 @@ msgstr "lobhrach_a"
 msgid "lourane_nm"
 msgstr "lobhar_nm"
 
+# beware "my lout" could also mean my+flout (len.)
+msgid "lout_nm"
+msgstr "lochta_nm;deic_nf"
+
 msgid "low_v"
 msgstr "ceadaigh_v"
 
