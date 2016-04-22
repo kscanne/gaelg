@@ -18260,7 +18260,7 @@ msgid "er yn ushtey_a"
 msgstr "ar an uisce"
 
 msgid "er-y-skyn_prep"
-msgstr "os cionn"
+msgstr "os a cionn;os a chionn;os a gcionn"
 
 # de Bhaldraithe:  The clock is right, tá an clog ar an am
 # Kelly: My watch is right. Ta my ooreyder er y traa kiart.

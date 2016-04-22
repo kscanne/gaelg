@@ -2658,6 +2658,7 @@ caillt_a	0	0	0
 Caillyn_nf	0	0	0
 cailt_a	0	0	caillt_a
 cainle_nf	cainleagh	0	0
+cainle1_nf	cainley	0	cainle_nf
 cainle eayil_nf	0	0	0
 cainle gheirrey_nf	0	0	0
 cainlere_nm	0	0	cainleyr_nm
@@ -6351,6 +6352,7 @@ er shaghryn_a	0	0	er-shaghryn_a
 er-shaghryn_a	0	0	0
 er shen_adv	0	0	0
 er shlee_adv	0	0	0
+erskin_prep	0	0	erskyn_prep
 erskyn_prep	0	0	0
 er skyn_prep	0	0	erskyn_prep
 er-skyn_prep	0	0	erskyn_prep
@@ -7247,6 +7249,7 @@ foastagh_adv	0	0	foast_adv
 foaun_nm	0	0	0
 foawr_nm	fowragh	foawir	0
 foawr1_nm	0	foawir	foawr_nm
+foawr2_nm	foawir	foawir	foawr_nm
 foawragh_a	0	0	0
 foawraght_nf	0	0	0
 foaynoo_nm	0	0	0
@@ -9549,6 +9552,7 @@ joanlagh_nm	0	0	0
 joanlee_a	0	0	0
 joaree_a	0	0	joarree_a
 joarey_nm	0	0	0
+joarey1_nm	joarree	0	joarey_nm
 joarree_a	0	0	0
 joarree_nm	0	0	0
 joarreeaght_nf	0	0	0
