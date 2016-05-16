@@ -62,7 +62,7 @@ pairs-gv.txt: gv2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/g
 	sed -i "/^m'[^ ]* [Ss][aeiouáéíóúlnr]/s/^m'\([^ ]*\) \(.\)\(.*\)/m'\1 mo \2h\3/" $@
 	sed -i "/^m'[^ ]* [HLNRVhlnqrv]/s/^m'\([^ ]*\) \(.*\)/m'\1 mo \2/" $@
 	sed -i "/^m'[^ ]* [Ss][^haeiouáéíóúlnr]/s/^m'\([^ ]*\) \(.*\)/m'\1 mo \2/" $@
-	sed -i "/ym .*idh$$/s/$$/ mé/" $@
+	sed -i "/ym .*idh$$/s/$$/ mé/; /^[hj]em .*idh$$/s/$$/ mé/" $@
 	sed "/^.[^'][^ ]* m'/s/^/my_/" $@ | perl leniter.pl > temp.txt
 	mv -f temp.txt $@
 	cat gv2ga.po | sed '/^#/d' | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | sed 's/^msgid "//' | sed 's/"msgstr "/ /' | sed 's/"$$//' | bash split.sh | LC_ALL=C sort -k1,1 > po-temp-proc.txt
