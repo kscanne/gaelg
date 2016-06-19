@@ -365,7 +365,7 @@ msgid "aareirey_n"
 msgstr "athriar_nf"
 
 # 1. kidney 2. ladder 3. scale (e.g. music)
-# cognate is literary only in Irish
+# cognate is literary only in Irish (ladder)
 msgid "aarey_nf"
 msgstr "áradh_nm;dréimire_nm;scála_nm;duán_nm"
 
@@ -4840,6 +4840,9 @@ msgstr "binn_a"
 msgid "bing_nf"
 msgstr "coiste_nm;giúiré_nm;binse_nm"
 
+msgid "bingo_nf"
+msgstr "biongó_nm"
+
 msgid "bing reiht_nf"
 msgstr "roghchoiste_nm"
 
@@ -6750,7 +6753,7 @@ msgstr "bonnán_nm"
 
 # vn buirroogh_v above
 msgid "buirrooghey_nm"
-msgstr "búireadh_nm"
+msgstr "búireadh_nm;búireach_nf"
 
 msgid "buitçh_nf"
 msgstr "cailleach_nf;bandraoi_nm"
@@ -7329,7 +7332,7 @@ msgid "cabbal_nm"
 msgstr "séipéal_nm"
 
 msgid "cabbane_nm"
-msgstr "both_nf;cábán_nm"
+msgstr "both_nf;cábán_nm;tábhairne_nm"
 
 msgid "cabbane-agglish_nm"
 msgstr "taibearnacal_nm"
@@ -8151,9 +8154,10 @@ msgstr "cairpéad_nm"
 msgid "carpallagh_a"
 msgstr "carpasach_a"
 
-# 1st of two "carr_nm" senses in IG; don't include "1" here
+# msgstr contains 1st of two "carr_nm" senses in IG; don't include "1" here
+# gv also means "melody, tune"; one example in Skeealaght
 msgid "carr_nm"
-msgstr "carr_nm"
+msgstr "carr_nm;port_nm"
 
 msgid "carraboo_nm"
 msgstr "carabú_nm"
@@ -9025,11 +9029,17 @@ msgstr "tréine_nf"
 msgid "çhent_nm"
 msgstr "splanc_nf"
 
+msgid "çhent_v"
+msgstr "splanc_v"
+
 msgid "çhentag_nf"
 msgstr "tine ealaíne"
 
 msgid "çhentagh_a"
 msgstr "tintrí_a"
+
+msgid "çhentyn_n"
+msgstr "splancadh_nm"
 
 msgid "çheorit_a"
 msgstr "teoranta_a"
@@ -9608,7 +9618,7 @@ msgid "claaseyr_nm"
 msgstr "cláirseoir_nm"
 
 msgid "clabberey_nm"
-msgstr "gliogarnach_nf"
+msgstr "gliogarnach_nf;clagarnach_nf"
 
 msgid "clabbid_nm"
 msgstr "trombas_nm"
@@ -9734,7 +9744,7 @@ msgid "clagh vane_nf"
 msgstr "iathchloch_nf"
 
 msgid "clagh vooar_nf"
-msgstr "bollán_nm"
+msgstr "bollán_nm;cloch mhór"
 
 msgid "clagh vun_nf"
 msgstr "cloch bhoinn"
@@ -10096,9 +10106,9 @@ msgstr "cluich_v"
 msgid "cloh mooar_nm"
 msgstr "bréidín_nm"
 
-# a game (noun), but also vn "playing"
+# a game (noun), but also vn "playing", including music (Skeealaght)
 msgid "cloie_nm"
-msgstr "cluiche_nm;imirt_nf;dráma_nm;fiuchadh_nm"
+msgstr "cluiche_nm;imirt_nf;seinm_nf;dráma_nm;fiuchadh_nm"
 
 # play (cognate), also "boil" (cf broie_v)
 msgid "cloie_v"
@@ -11796,6 +11806,9 @@ msgstr "poblacht_nf"
 msgid "co-phobble_nm"
 msgstr "comhphobal_nm"
 
+msgid "coppyl_nm"
+msgstr "copail_nf"
+
 msgid "coptyr_nm"
 msgstr "héileacaptar_nm;ingearán_nm"
 
@@ -12766,7 +12779,7 @@ msgid "cray vroit_nf"
 msgstr "cré bhruite"
 
 msgid "cre_interr"
-msgstr "céard a;cad a"
+msgstr "céard a;cad a;céard"
 
 # creed
 msgid "crea_nf"
@@ -12920,6 +12933,10 @@ msgstr "críon_a"
 
 msgid "creen_v"
 msgstr "críon_v"
+
+# brushwood, etc.
+msgid "creenagh_nm"
+msgstr "críonach_nm"
 
 msgid "creenaghey_nm"
 msgstr "críonadh_nm"
@@ -13988,7 +14005,7 @@ msgstr "cumhachtach_a"
 
 # focal doiléir
 msgid "cummal_nm"
-msgstr "cónaí_nm"
+msgstr "cónaí_nm;coinneáil_nf"
 
 # sustaining
 msgid "cummalagh_a"
@@ -14006,7 +14023,7 @@ msgid "cummaltys_nm"
 msgstr "gabháltas_nm;seilbh_nf;forghabháil_nf"
 
 msgid "cummey_nm"
-msgstr "cuma_nf"
+msgstr "cuma_nf;cruth_nm;plean_nm"
 
 # able, powerful, competent
 msgid "cummeydagh_a"
@@ -14818,7 +14835,7 @@ msgstr "deindrít_nf"
 
 # false friend
 msgid "derrey_conj"
-msgstr "go dtí go;go dtí gur"
+msgstr "go dtí;go dtí go;go dtí gur"
 
 msgid "derrey_ord"
 msgstr "dara"
@@ -15016,6 +15033,9 @@ msgstr "umar peitril"
 # good condition, etc.
 msgid "doaie_nf"
 msgstr "dóigh_nf"
+
+msgid "doaieagh_a"
+msgstr "muinteartha_a;cineálta_a;garúil_a"
 
 # not in corpus
 msgid "doaieid_nm"
@@ -16672,7 +16692,7 @@ msgid "dy resoonagh_adv"
 msgstr "go réasúnta"
 
 msgid "dys_prep"
-msgstr "go_prep;chuig_prep"
+msgstr "go_prep;go dtí;chuig_prep"
 
 msgid "dy-sauçhey_adv"
 msgstr "slán sábháilte"
@@ -18082,6 +18102,10 @@ msgstr "ar cairde"
 msgid "er-dy-henney_adv"
 msgstr "ó shin_adv"
 
+# since
+msgid "er-dyn_conj"
+msgstr "ó"
+
 # parallel corpus
 msgid "er-dyn toshiaght_adv"
 msgstr "ó thús;ón tús"
@@ -18887,6 +18911,9 @@ msgstr "miontuarastal_nm"
 msgid "faill vioghee_nf"
 msgstr "pá maireachtála"
 
+msgid "failt_a"
+msgstr "fostaithe_a"
+
 msgid "failt_nf"
 msgstr "fáilte_nf"
 
@@ -19614,6 +19641,9 @@ msgstr "feadán_nm"
 # tubular, vascular, whistling, etc.
 msgid "feddanagh_a"
 msgstr "feadánach_a"
+
+msgid "feddanaghey_nm"
+msgstr "feadaíl_nf"
 
 msgid "feddaneyr_nm"
 msgstr "fliúiteadóir_nm"
@@ -23582,6 +23612,9 @@ msgstr "gioblach_a"
 msgid "giubbylaght_nf"
 msgstr "gioblacht_nf"
 
+msgid "giucklagh_nf"
+msgstr "giolcach_nf"
+
 # er glaare nyn gree = ar chlár a gcroí
 msgid "glaare_nm"
 msgstr "clár_nm"
@@ -24838,6 +24871,9 @@ msgstr "inneall níocháin"
 # 1 equipment (general, e.g. ~ drappal in corpus) 2. harness (horse, ox)
 msgid "greienys_nm"
 msgstr "trealamh_nm;úim_nf"
+
+msgid "greie-rollian_nm"
+msgstr "roithleán_nm"
 
 msgid "greie scoltan_n"
 msgstr "meaisín sliotáin"
@@ -26202,6 +26238,10 @@ msgstr "Iodálach_nm"
 
 msgid "Iddaalish_nm"
 msgstr "Iodáilis_nf"
+
+# string
+msgid "idley_nm"
+msgstr "téad_nf;corda_nm"
 
 # not in Fargher?!
 # only in "Old Version" of Book of Common Prayer
@@ -27936,6 +27976,12 @@ msgstr "deoch an dorais"
 msgid "jouish_nf"
 msgstr "deimheas_nm"
 
+msgid "joushag_nf"
+msgstr "báirseach_nf"
+
+msgid "joushagagh_a"
+msgstr "báirsiúil_a"
+
 msgid "jouyl_nm"
 msgstr "diabhal_nm"
 
@@ -28012,8 +28058,11 @@ msgstr "siurnal_nm"
 msgid "jus_adv"
 msgstr "ar éigean"
 
+# same comment on "giuthas" in gd...
+# gv means both "fir" (genus Abies) and "pine" (genus Pinus)
+# no analogue of Ir. word "péine"
 msgid "juys_nm"
-msgstr "giúis_nf"
+msgstr "giúis_nf;péine_nm"
 
 msgid "jymmoogh_a"
 msgstr "diomúch_a"
@@ -28207,7 +28256,8 @@ msgstr "ceanúlacht_nf"
 msgid "keanagh_nm"
 msgstr "cadás_nm"
 
-# pier; cf. keiy_nm (quay, etc. - masculine in gv)
+# pier; cf. keiy_nm (quay, etc. - but that's masculine in Fargher)
+# still probably the same, merge?
 msgid "keay_nf"
 msgstr "cé_nf"
 
@@ -32162,6 +32212,12 @@ msgstr "licéar_nm;biotáille_nf"
 msgid "liggrys_nm"
 msgstr "liocras_nm"
 
+# not in dicts but see
+# https://listserv.heanet.ie/cgi-bin/wa?A2=ind0102&L=GAELG&P=5490
+# one corpus example in multi-gv
+msgid "likal_n"
+msgstr "taitneamh a bhaint as"
+
 # sometimes with copula (s'liklee = is dócha in pairs-local-gv)
 msgid "liklee_a"
 msgstr "dócha_a;dóchúil_a"
@@ -33119,6 +33175,9 @@ msgstr "lus síoda"
 msgid "lus ny Frank_nf"
 msgstr "franclus_nm;lus na bhfrancach"
 
+msgid "lus ny freenaghyn mooarey_nf"
+msgstr "crobh fola"
+
 msgid "lus ny garee_nf"
 msgstr "báchrán_nm;pónaire chorraigh"
 
@@ -33209,8 +33268,16 @@ msgstr "ór Muire"
 msgid "lus volganagh_nf"
 msgstr "lus an bhorraigh"
 
+# woodruff
+msgid "lus vollagh_nf"
+msgstr "lus molach"
+
 msgid "lus y chadlee_nf"
 msgstr "lus an chodlata;cocán dearg;poipín_nm"
+
+# "lus y chaddee clieau" in dicts
+msgid "lus y chadlee clieau_nf"
+msgstr "poipín Breatnach"
 
 msgid "lus y chalmane_nf"
 msgstr "lus an choilm"
@@ -33418,6 +33485,10 @@ msgstr "cóip_nf"
 
 msgid "macnaght_nm"
 msgstr "macnacht_nf"
+
+# lit "mac na braiche", no cognate in Ir.
+msgid "mac ny braih_nm"
+msgstr "sú na heorna"
 
 msgid "macro-hengey_nf"
 msgstr "macratheanga_nf"
@@ -34200,6 +34271,9 @@ msgstr "miotalóir_nm"
 
 msgid "meain gheayil_nf"
 msgstr "mianach guail"
+
+msgid "meain-leoaie_nf"
+msgstr "mianach luaidhe"
 
 msgid "meain-oaylee_nm"
 msgstr "mianreolaí_nm"
@@ -35555,6 +35629,10 @@ msgstr "mallintinneach_a"
 msgid "moalit_a"
 msgstr "maolaithe_a"
 
+# not in dicts; Skeealaght
+msgid "moal-ynsit_a"
+msgstr "tearcmhúinte_a"
+
 msgid "moalys_nm"
 msgstr "moill_nf"
 
@@ -35786,6 +35864,9 @@ msgstr "meall_v"
 
 msgid "mollag_nf"
 msgstr "baoi_nm"
+
+msgid "mollag aeragh_nf"
+msgstr "balún_nm"
 
 # corpus examples are usually lenited "bollagh"
 msgid "mollagh_a"
@@ -37987,6 +38068,9 @@ msgstr "neamhniú_nm"
 msgid "neuoayllaght_nf"
 msgstr "éagoitiantacht_nf;neamhchoitiantacht_nf"
 
+msgid "neuoayshagh_a"
+msgstr "neamhchoitianta_a"
+
 msgid "neuobbalagh_a"
 msgstr "doshéanta_a"
 
@@ -38893,7 +38977,7 @@ msgstr "a_poss;bhur_poss;ár_poss"
 
 # cf 'ny haaue' + "ny taaue" below
 msgid "nyn daaue_adv"
-msgstr "inár dtámh;in bhur dtámh;ina dtámh"
+msgstr "inár dtámh;in bhur dtámh;ina dtámh;as obair"
 
 msgid "nyn lurg_adv"
 msgstr "ina ndiaidh;inár ndiaidh;in bhur ndiaidh"
@@ -40227,6 +40311,10 @@ msgstr "amhrasach_a"
 
 msgid "ouryssagh_nm"
 msgstr "amhrasán_nm"
+
+# gravy
+msgid "ownee_nf"
+msgstr "súlach_nm"
 
 # focal doiléir
 msgid "oyr_nm"
@@ -43918,7 +44006,7 @@ msgstr "reatha_a"
 
 # Fargher @before
 msgid "roie_adv"
-msgstr "roimhe sin"
+msgstr "roimhe sin;roimhe seo"
 
 msgid "roie_n"
 msgstr "rith_nm"
@@ -48231,13 +48319,13 @@ msgid "simental_nm"
 msgstr "suimintiú_nm"
 
 msgid "sincroan_v"
-msgstr "sioncrónaigh_v"
+msgstr "sioncronaigh_v"
 
 msgid "sincroanagh_a"
-msgstr "sioncrónach_a"
+msgstr "sioncronach_a"
 
 msgid "sincroaney_n"
-msgstr "sioncrónú_nm"
+msgstr "sioncronú_nm"
 
 # no article in either
 msgid "Singapore_nf"
@@ -48437,10 +48525,10 @@ msgstr "paróisteachas_nm"
 msgid "skeerey_nf"
 msgstr "paróiste_nm"
 
-# 1. news, gossip 2. sneak
+# 1. news, gossip 2. sneak 3. glance/peek? (Skeealaght 2x)
 # Culture Vannin used this in the sense of a person: Cha nee skeet mish
 msgid "skeet_nm"
-msgstr "ráflálaí_nm;scéal scéil"
+msgstr "ráflálaí_nm;scéal scéil;spléachadh_nm"
 
 msgid "skeetagh_a"
 msgstr "cunórach_a;fiosrach_a"
@@ -52341,8 +52429,10 @@ msgstr "gearán_v"
 msgid "talleyder_nm"
 msgstr "canránaí_nm"
 
+# distance and time in gv; Ir. tamall is usually time
+# including Ir. "achar" since it works ok for both
 msgid "tammylt_nm"
-msgstr "tamall_nm"
+msgstr "tamall_nm;achar_nm"
 
 msgid "tammylt feayr_n"
 msgstr "tamall fuachta"
@@ -54441,6 +54531,13 @@ msgstr "ochón"
 msgid "treihys_nf"
 msgstr "ainnise_nf;anró_nm;truamhéala_nf"
 
+msgid "trein_v"
+msgstr "tairneáil_v"
+
+msgid "treinaghey_nm"
+msgstr "tairneáil_nf"
+
+# a nail (carpentry); also vn of trein_v (alt treinaghey)
 msgid "treiney_nf"
 msgstr "tairne_nm"
 
@@ -55980,6 +56077,9 @@ msgstr "bardach_nm;maor_nm"
 # but Fargher lists it under "trio" also)
 msgid "warp_nm"
 msgstr "triúr_nm"
+
+msgid "warrag_nm"
+msgstr "fear grinn"
 
 # facetious, knowing, wary, witty (Fargher no help beyond these)
 # corpus examples are lenited "marree"

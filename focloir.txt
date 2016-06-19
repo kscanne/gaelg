@@ -1024,6 +1024,7 @@ asslaynt_nf	0	0	0
 asslayntagh_a	0	0	0
 asslayntagh_nm	0	0	0
 ass-lieh_prep	0	0	0
+ass mychyn_adv	0	0	ass myghin_adv
 ass myghin_adv	0	0	0
 ass myghyn_adv	0	0	ass myghin_adv
 ass my hilley_a	0	0	0
@@ -1160,6 +1161,7 @@ ayr hallooin_n	0	0	0
 ayr-losserey_nm	0	0	0
 ayrn_nm	0	0	0
 ayrneen_nm	0	0	0
+ayr-nieu_nm	0	ayr-nieughyn	aarnieu_nm
 ayrn spaare_n	0	0	0
 ayroil_a	0	0	0
 ayr 'sy leigh_nm	ayrey	ayraghyn	ayr-'sy-leigh_nm
@@ -1735,6 +1737,7 @@ bineen_nm	0	0	0
 bine fliaghee_n	0	0	0
 bing_a	0	0	0
 bing_nf	bingey	bingaghyn	0
+bingo_nf	0	1	0
 bing reiht_nf	0	0	0
 bing vaaish_nf	0	0	0
 bingys_nf	0	0	0
@@ -1964,6 +1967,7 @@ boggaghey_nm	0	0	0
 boggaghys_nf	0	1	0
 boggee_v	0	0	0
 boggeeys_nm	0	0	0
+boggeragh_a	0	0	boggoil_a
 boggey_nm	0	0	0
 boggit_a	0	0	0
 boggoil_a	0	0	0
@@ -2391,6 +2395,7 @@ buinnagh_nm	0	0	0
 buinney_nm	0	0	0
 buinneyder_nm	0	0	0
 buinniag-nieu_nm	0	0	0
+buirroogh_nm	0	1	buirrooghey_nm
 buirroogh_v	buirrooghey_nm	0	0
 buirrooghagh_a	0	0	0
 buirrooghane_nm	0	0	0
@@ -2508,6 +2513,7 @@ bwaane rioee_n	0	0	0
 bwane_nm	0	0	bwaane_nm
 bwee_a	0	bweey	buigh_a
 bwee_nm	0	1	buigh_nm
+bwhid_nm	0	0	bwoid_nm
 bwilleen_nf	0	0	0
 bwilloght_nf	0	0	0
 bwinnican_nm	0	0	0
@@ -3188,6 +3194,7 @@ chellveeish_v	chellveeishey_nm	0	çhellveeish_v
 çhellveeish chullyr_nf	0	0	0
 chellveeishey_nm	0	0	çhellveeishey_nm
 çhellveeishey_nm	0	0	0
+çhelvaanee_v	0	0	çhellvane_v
 chelveeish_nf	0	0	çhellveeish_nf
 chemmal_nm	0	0	çhemmal_nm
 çhemmal_nm	0	0	0
@@ -3217,8 +3224,10 @@ chengey_nf	0	0	çhengey_nf
 çhennoil_a	0	0	0
 çhennoilys_nm	0	0	0
 çhent_nm	0	0	0
+çhent_v	çhentyn_n	0	0
 çhentag_nf	0	0	0
 çhentagh_a	0	0	0
+çhentyn_n	0	1	0
 çheorey_nm	0	0	joarrey_nm
 çheorit_a	0	0	0
 çherbium_nm	0	0	0
@@ -3462,6 +3471,7 @@ claasagh1_nf	0	claasaghyn	claasagh_nf
 claasaght_nf	0	0	0
 claaseyder_nm	0	0	0
 claaseyr_nm	0	0	0
+clabberaghey_nm	0	1	clabberey_nm
 clabberey_nm	0	1	0
 clabbid_nm	0	0	0
 clabbid folley_n	0	0	0
@@ -3749,6 +3759,7 @@ coayl chooinaght_n	0	0	0
 coayll_nm	0	0	coayl_nm
 coaym_nm	0	0	0
 cobalt_nm	0	0	0
+cobbyl_nm	0	cobbyllyn	coppyl_nm
 cobbyragh_a	0	0	0
 cobrey_nm	0	0	0
 cocaine_nm	0	0	0
@@ -4209,8 +4220,10 @@ cophartnagh_nm	0	0	0
 co-phobblaght_nf	0	0	0
 cophobble_nm	0	0	co-phobble_nm
 co-phobble_nm	0	0	0
+coppyl_nm	0	coppyllyn	0
 coptyr_nm	0	0	0
 copy_n	0	1	coip_nf
+copyl_nm	0	copyllyn	coppyl_nm
 cor_a	0	0	0
 cor_nm	0	0	0
 coraa_nf	0	coraaghyn	0
@@ -4321,7 +4334,7 @@ co-screeuagh_nm	0	0	0
 co-screeuyn çhymnee_n	0	0	0
 cosh_nf	coshey	0	cass_nf
 coshal_nf	0	coshallyn	0
-coshal1_nf	0	coshallyn	coshal_nf
+coshal1_nf	0	coshalyn	coshal_nf
 coshaleen_nm	0	0	0
 coshee_nm	0	0	0
 cosheeaght_nf	0	0	0
@@ -4595,6 +4608,8 @@ creeley_nm	0	0	0
 creeleyder_nm	0	0	0
 creen_a	0	0	0
 creen_v	creenaghey_nm	0	0
+creenagh_a	0	0	creeney_a
+creenagh_nm	0	0	0
 creenaghey_nm	0	0	0
 creenaght_nf	0	1	0
 creeney_a	0	0	0
@@ -5318,7 +5333,9 @@ doagan_nm	0	0	0
 doagh_nf	0	0	0
 doagh mooynlee_n	0	0	0
 doagh phedryl_nf	0	0	0
+doaiagh_a	0	0	doaieagh_a
 doaie_nf	0	0	0
+doaieagh_a	0	0	0
 doaieid_nm	0	0	0
 do-akin_a	0	0	0
 doal_a	0	doail	0
@@ -5380,6 +5397,7 @@ dogmey_nm	0	0	0
 do-haragh_a	0	0	0
 do-hoiggal_a	0	0	0
 do-hoiggalys_nm	0	0	0
+doiagh_a	0	0	doaieagh_a
 doib_nm	0	0	0
 doillee_a	0	0	0
 doilleeid_nm	0	0	0
@@ -5390,6 +5408,7 @@ doirrin_nm	0	0	dorrin_nm
 doirrinagh_a	0	0	dorrinagh_a
 dolhaggit_a	0	0	0
 do-lhoobaght_nf	0	0	0
+doll_nm	0	0	dhull_nm
 doll_v	dolley_nm	0	0
 dollan_nm	0	0	0
 dollanagh_nm	0	0	0
@@ -5785,6 +5804,7 @@ duillagys_nm	0	0	0
 duilleen_nm	0	0	0
 duinid_nf	0	1	0
 duke_nm	0	0	0
+dull_nm	0	0	dhull_nm
 dulleyder_nm	0	0	0
 dullish_nf	0	0	0
 dullish awin_nf	0	0	0
@@ -6004,6 +6024,7 @@ eayn-caisht_nm	0	eayin-caisht	0
 eayney_nm	0	0	0
 eaynin_nm	eaynnee	0	0
 eaynlee_nm	0	0	eeanlee_nm
+eaynyn_nm	eaynnee	0	eaynin_nm
 eayst_nf	0	0	0
 eayst eairkagh_nf	0	0	0
 eayst noa_n	0	0	0
@@ -6393,6 +6414,8 @@ er daayl_a	0	0	0
 er dy henney_adv	0	0	er-dy-henney_adv
 er-dy-henney_adv	0	0	0
 er dy henny_adv	0	0	er-dy-henney_adv
+er dyn_conj	0	0	er-dyn_conj
+er-dyn_conj	0	0	0
 er-dyn toshiaght_adv	0	0	0
 er dyn traa_adv	0	0	0
 er dy rieau_adv	0	0	0
@@ -6686,6 +6709,7 @@ faill sloo_n	0	0	0
 faillt_nf	0	0	failt_nf
 faill treih_n	0	0	0
 faill vioghee_nf	0	0	0
+failt_a	0	0	0
 failt_nf	0	0	0
 failtagh_a	0	0	0
 failtaghey_nm	0	0	0
@@ -6928,6 +6952,7 @@ feddagh_a	0	0	0
 feddag volvaneagh_nf	0	0	0
 feddan_nm	0	0	0
 feddanagh_a	0	0	0
+feddanaghey_nm	0	1	0
 feddaneyr_nm	0	0	0
 feddan folley_n	0	0	0
 feddan jaagh_n	0	0	0
@@ -7255,6 +7280,7 @@ fidder_nm	fidderagh	0	feeder_nm
 fidderagh_nm	0	0	0
 fidderaght_nf	0	0	0
 fiddyl_nm	0	0	0
+fiddyr_nm	0	0	feeder_nm
 fidleragh_nm	0	0	0
 fidleyr_nm	0	0	0
 fieau_n	0	0	0
@@ -7380,6 +7406,7 @@ flyderaght_nf	0	0	0
 fo_prep	0	0	0
 fo_pronm	fosyn	0	0
 fo1_pronm	fo-syn	0	fo_pronm
+foad_nm	0	0	foaid_nm
 foad_v	foaddey_n	0	foadd_v
 foadd_v	foaddey_n	0	0
 foaddan_nm	0	0	0
@@ -8271,6 +8298,7 @@ giubbagh_a	0	0	0
 giubbyl_nm	0	0	0
 giubbylagh_a	0	0	0
 giubbylaght_nf	0	0	0
+giucklagh_nf	0	0	0
 glaare_nm	0	0	0
 glaare eddin_n	0	0	glaare-eddin_n
 glaare-eddin_n	0	0	0
@@ -8286,6 +8314,7 @@ glare chowree_nf	0	0	0
 glare-oaylleeagh_a	0	0	0
 glare-vroghe_nf	0	0	0
 Glaschu_nm	0	0	0
+Glascoe_nm	0	1	Glaschu_nm
 glasheen_nm	0	0	0
 glashtin_nm	0	0	0
 glashtyn_nm	0	0	glashtin_nm
@@ -8725,6 +8754,7 @@ greie-kiaullee1_nm	0	greinyn-kiaullee	greie-kiaull_nm
 greie-kiaullee2_nm	0	greienyn-kiaullee	greie-kiaull_nm
 greie niaghyn_n	0	0	0
 greienys_nm	0	0	0
+greie-rollian_nm	0	greienyn-roillian	0
 greie scoltan_n	0	0	0
 greie skeabee_n	0	0	0
 greie sneeuee_n	0	0	0
@@ -9196,6 +9226,9 @@ iddaalagh_a	0	0	0
 Iddaalagh_a	0	0	0
 Iddaalagh_nm	0	0	0
 Iddaalish_nm	0	0	0
+idlee_nm	0	0	idley_nm
+idley_nm	0	0	0
+idley1_nm	0	idleeyn	idley_nm
 ienchys_nm	0	0	0
 ienchyssagh_a	0	0	0
 iguaan_nm	0	0	0
@@ -9724,6 +9757,7 @@ jingit_a	0	0	0
 jingoe_nm	0	0	0
 jinnag sneeuee_nf	0	0	0
 jinnair_nm	jinnairagh	0	0
+jinnair1_nm	0	0	jinnair_nm
 jinshar_nm	0	0	0
 jioarey_nm	0	0	joarrey_nm
 jioin_nm	0	0	join_nm
@@ -9778,6 +9812,7 @@ jollyssagh_a	0	0	0
 jollyssid_nf	0	0	jollysid_nm
 joltagh_nm	0	0	jolteyder_nm
 jolteyder_nm	0	0	0
+joogh_a	0	0	jioogh_a
 joostey_nm	0	0	0
 Jordaan_nf	0	1	0
 jough_nf	0	0	0
@@ -9789,9 +9824,12 @@ jough vioyral_nf	0	0	0
 jough yn dorrys_nf	0	0	0
 jouish_nf	0	0	0
 jouishan_nf	0	0	jouish_nf
+joushag_nf	0	0	0
+joushagagh_a	0	0	0
 jouyl_nm	0	jouyil	0
 jouyll_nm	0	0	jouyl_nm
 jouyllagh_a	0	0	0
+jouyshagh_a	0	0	joushagagh_a
 juail_nm	0	0	0
 Juan Doo_n	0	0	0
 Juan Gorree_n	0	0	0
@@ -9799,6 +9837,7 @@ Juan Haink Noal_n	0	0	0
 Juan Joarree_n	0	0	Juan Gorree_n
 jubile_nm	0	0	jubilee_nm
 jubilee_nm	0	0	0
+jucklagh_nf	0	0	giucklagh_nf
 juit_nm	0	0	0
 jum_v	jummal_n	0	jumm_v
 jumm_v	jummal_n	0	0
@@ -9892,7 +9931,7 @@ keainal_a	0	0	0
 keainid_nm	0	0	0
 keanagh_nm	0	0	0
 keart_nf	0	0	keayrt_nf
-keay_nf	0	0	0
+keay_nf	0	keayghyn	0
 keayll_nf	0	0	keeall_nf
 keayllagh_a	0	0	keeallagh_a
 keayn_nf	keayin	0	0
@@ -10101,6 +10140,7 @@ kesteyder_nm	0	0	0
 ketçhup_nm	0	0	0
 kevys_interr	0	0	0
 kewyl_nm	0	0	0
+key_nf	0	keyaghyn	keay_nf
 key_nm	0	1	0
 keyl_a	0	0	0
 keyl_v	keyley_n	0	0
@@ -11272,6 +11312,7 @@ lieutenant_nm	0	0	0
 Liffey_nf	0	1	0
 liggar_nm	0	0	0
 liggrys_nm	0	0	0
+likal_n	0	1	0
 liklee_a	0	0	0
 lilee_nf	0	0	0
 lileeagh_a	0	0	0
@@ -11615,6 +11656,7 @@ lus ny buighey_nf	0	0	0
 lus ny cam-ching_nf	0	0	0
 lus ny cooag_nf	0	0	0
 lus ny Frank_nf	0	0	0
+lus ny freenaghyn mooarey_nf	0	lussyn	0
 lus ny garee_nf	0	0	0
 lus ny glionney_nf	0	0	0
 lus ny graih_nf	0	0	0
@@ -11644,7 +11686,9 @@ lus veein_nf	0	0	0
 lus veg ny greiney_nf	0	0	0
 lus Voirrey_nf	0	0	0
 lus volganagh_nf	0	0	0
+lus vollagh_nf	0	lussyn	0
 lus y chadlee_nf	0	0	0
+lus y chadlee clieau_nf	0	lussyn	0
 lus y chalmane_nf	0	0	0
 lus y charran_nf	0	lussyn	0
 lus y chladdee_nf	0	0	0
@@ -11711,6 +11755,8 @@ mac-awin_nm	mic-awin	mec-awin	maghouin_nm
 mac imshee_n	0	0	0
 maclioar_nf	0	0	0
 macnaght_nm	0	0	0
+mac ny braghey_nm	mic	mec	mac ny braih_nm
+mac ny braih_nm	mic	mec	0
 macro-hengey_nf	0	0	0
 mac-soylley_nm	0	0	0
 mac sporran_n	0	0	0
@@ -11988,6 +12034,9 @@ meaineyder_nm	0	0	0
 meaineyder geayil_n	0	0	0
 meaineyr_nm	0	0	0
 meain gheayil_nf	0	0	0
+meain leoaie_nf	meainey	0	meain-leoaie_nf
+meain-leoaie_nf	meainey-leoaie	meainyn-leoaie	0
+meain-loaie_nf	meainey-loaie	meainyn-loaie	meain-leoaie_nf
 meain-oaylee_nm	0	0	0
 meainoayllys_nm	0	0	0
 meaish_nm	0	0	0
@@ -12459,6 +12508,7 @@ moal-hushtagh_nm	0	0	0
 moal-hustagh_nm	0	0	moal-hushtagh_nm
 moal-inçhynagh_a	0	0	0
 moalit_a	0	0	0
+moal-ynsit_a	0	0	0
 moalys_nm	0	0	0
 moanag_nm	0	0	0
 moandid_nm	0	0	0
@@ -12538,6 +12588,8 @@ molkid_nm	0	0	0
 moll_nm	0	0	0
 moll_v	molley_nm	0	0
 mollag_nf	0	0	0
+mollag aeragh_nf	0	0	0
+mollag-earagh_nf	0	mollagyn-earagh	mollag aeragh_nf
 mollagh_a	0	0	0
 mollaght_nf	0	mollaghtyn	0
 mollaghtagh_a	0	0	0
@@ -13249,6 +13301,7 @@ neuheshaghtagh_a	0	0	0
 neuheshaghtys_nm	0	0	0
 neuheshoilys_nm	0	0	0
 neuhickyr_a	0	0	0
+neu-hickyr_a	0	0	neuhickyr_a
 neuhickyragh_a	0	0	0
 neuhickyrys_nf	0	0	0
 neuhoiggaltys_nf	0	0	0
@@ -13290,6 +13343,8 @@ neunhee_nm	0	0	0
 neunhee_v	neunheeaghey_nm	0	0
 neunheeaghey_nm	0	0	0
 neuoayllaght_nf	0	0	0
+neuoayshagh_a	0	0	0
+neu-oayshagh_a	0	0	neuoayshagh_a
 neuobbalagh_a	0	0	0
 neuoikoil_a	0	0	0
 neuorgaanagh_a	0	0	0
@@ -13579,6 +13634,7 @@ ny h-Ellanyn Balearagh_n	0	0	0
 ny h-Injyn_n	0	0	0
 ny Hondooraghyn_n	0	0	0
 ny keayrtyn_adv	0	0	0
+ny-keayrtyn_adv	0	0	ny keayrtyn_adv
 ny-lomarcan_adv	0	0	0
 ny mast'oc_adv	0	0	0
 nymphagh_nf	0	0	0
@@ -14050,6 +14106,7 @@ ourys_nf	0	0	0
 ouryssagh_a	0	0	0
 ouryssagh_nm	0	0	0
 ouyrys_nf	0	0	ourys_nf
+ownee_nf	0	0	0
 oyr_nm	0	0	0
 oyraghys_nm	0	0	0
 oyr erreeish_n	0	0	0
@@ -14244,6 +14301,7 @@ peegagh_nm	0	peeagaghyn	0
 peegagh breck_n	0	0	0
 peeikear_nm	0	0	speeikeyr_nm
 peeikearagh_a	0	0	0
+peeikearagh_nf	0	1	peeikearys_nf
 peeikearys_nf	0	0	0
 peeikeayrys_nf	0	0	peeikearys_nf
 peesh_nf	0	0	0
@@ -16024,6 +16082,8 @@ scroig viljagh_nf	0	0	0
 scrolley_nm	0	0	0
 scrub_nf	0	0	0
 scrudeyr_nm	0	0	0
+scrugh_v	scrughey_nm	0	scugh_v
+scrughey_nm	0	1	scughey_nm
 scruit_a	0	0	0
 scruppylagh_a	0	0	0
 scrutaghey_nm	0	0	0
@@ -16081,6 +16141,7 @@ Seeragh_nm	0	0	0
 segg_nf	0	0	0
 segg vooar choshey_nf	0	0	0
 seihll_nm	seihill	0	0
+seihll1_nm	0	0	seihll_nm
 Seihll Heear_n	0	0	0
 seihllt_a	0	0	0
 seihlltagh_a	0	0	0
@@ -16754,6 +16815,7 @@ shliggane_nm	0	0	0
 shlingan_nf	0	0	0
 shlissag_nf	0	0	slissag_nf
 sho_a	0	0	shoh_a
+shoal_adv	0	0	hoal_adv
 shocklaid_nf	0	0	0
 shocklaid vainnagh_nf	0	0	0
 shoggyl_nf	0	0	0
@@ -17531,7 +17593,10 @@ sou-cheeayll_nf	0	0	0
 sou-cheeayllagh_a	0	0	0
 sou-chredjuagh_a	0	0	0
 sou-chredjue_nm	0	0	0
+souir_a	0	0	souyr_a
+sour_a	0	0	souyr_a
 sourey_nm	souree	0	0
+sourey1_nm	0	0	sourey_nm
 sourey beg_n	0	0	0
 sourid_nm	0	1	souyrid_nm
 sourinagh_a	0	0	0
@@ -18220,6 +18285,7 @@ talk_v	talkal_nm	0	0
 talkal_nm	0	0	0
 talkeyder_nm	0	0	0
 tallagh_nm	0	0	0
+tallee_a	0	0	thollee_a
 tallee_v	tallagh_nm	0	0
 talleyder_nm	0	0	0
 tammylt_nm	0	0	0
@@ -18400,6 +18466,7 @@ thalhear_nm	thalhearagh	0	0
 thalhearaght_nf	0	0	0
 thallium_nm	0	0	0
 thalloo_nm	thallooin	0	0
+thalloo1_nm	0	0	thalloo_nm
 thalloo-campal_nm	0	0	0
 thalloo çhirrym_nm	0	0	0
 thalloo eirinagh_nm	0	0	0
@@ -18877,6 +18944,7 @@ trass_nm	0	0	0
 trassagh_a	0	0	0
 trassagh_nm	0	0	0
 traueit_a	0	0	traaueit_a
+tre_conj	0	0	tra_conj
 trean_a	0	0	0
 treanagh_nm	0	0	0
 treanaght_nm	0	0	0
@@ -18922,7 +18990,10 @@ treih_excl	0	0	0
 treihid_nm	0	0	treihys_nf
 treihys_nf	0	0	0
 trein_nm	0	0	traen_nm
+trein_v	treinaghey_nm	0	0
+treinaghey_nm	0	1	0
 treiney_nf	0	0	0
+treiney1_nm	0	1	treinaghey_nm
 treiney vraag_nf	0	0	0
 treisht_nf	0	0	0
 treishtagh_a	0	0	0
@@ -19132,6 +19203,7 @@ tungsten_nm	0	0	0
 tunneen_nm	0	0	0
 tunney_nm	0	0	thunney_nm
 tunneyder_nm	0	0	0
+tunneyder1_nm	0	0	thiollane_nm
 tunneyder geayee_n	0	0	0
 turban_nm	0	0	0
 turbeen_nm	0	0	0
@@ -19419,6 +19491,8 @@ wappin_nm	0	0	0
 ward_nm	0	0	0
 wardoon_nm	0	wardoonee	0
 warp_nm	0	0	0
+warrag_nf	0	0	warrag_nm
+warrag_nm	0	0	0
 warree_a	0	0	0
 wass_adv	0	0	0
 watch_nm	0	0	0
