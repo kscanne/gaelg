@@ -5665,6 +5665,9 @@ msgstr "amadán_nm;bobarún_nm"
 msgid "bolvaneagh_a"
 msgstr "amaideach_a;amadánta_a;dobhránta_a;seafóideach_a"
 
+msgid "bolvaneys_nm"
+msgstr "amadántacht_nf"
+
 # bondage, slavery (parallel corpus)
 msgid "bondiaght_nf"
 msgstr "daoirse_nf;braighdeanas_nm"

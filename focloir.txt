@@ -2022,6 +2022,8 @@ bollan_nf	0	0	0
 bollan feailleoin_nm	0	0	0
 bolvane_nm	0	0	0
 bolvaneagh_a	0	0	0
+bolvaneys_nm	0	1	0
+bolvanid_nf	0	1	bolvaneys_nm
 bondeeaght_nf	0	0	bondiaght_nf
 bondiaght_nf	0	0	0
 bonkan_nm	0	0	0
@@ -9886,6 +9888,7 @@ kaart Nollick_n	0	0	0
 kaart ny feeyney_n	0	0	0
 kaart ruggyree_n	0	0	0
 kaart skensh_n	0	0	0
+kaffee_nm	0	0	caffee_nm
 kahngyr_nm	0	0	kanghyr_nm
 kainlere_nm	0	0	cainleyr_nm
 kainlt_a	0	0	0
@@ -19564,6 +19567,7 @@ yiarn cummit_n	0	0	0
 yiarnee_v	0	0	0
 yiarn jiarg_n	0	0	0
 yiarnrey_nm	0	0	0
+yindessagh_a	0	0	yindyssagh_a
 yindissagh_a	0	0	yindyssagh_a
 yindys_nm	0	0	0
 yindys1_nm	0	yindyssyn	yindys_nm
