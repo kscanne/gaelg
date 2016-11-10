@@ -1788,7 +1788,7 @@ msgid "apag_nf"
 msgstr "moncaí_nm"
 
 msgid "Apash_nf"
-msgstr "Apáis_nf"
+msgstr "Apáitsis_nf"
 
 msgid "apey jiarg_n"
 msgstr "órang-útan_nm"
@@ -5872,6 +5872,10 @@ msgstr "bráithriúil_a"
 msgid "braaroilid_nm"
 msgstr "bráithriúlacht_nf"
 
+# a warm before the fire
+msgid "brabbag_nf"
+msgstr "goradh_nm"
+
 # purple moor grass
 msgid "brabbanagh_nf"
 msgstr "fionnán_nm"
@@ -6909,7 +6913,7 @@ msgstr "bunaithe_a"
 
 # false friend != bunús
 msgid "bunnys_adv"
-msgstr "beagnach_adv;ar éigean"
+msgstr "beagnach_adv"
 
 msgid "bun ny speyrey_n"
 msgstr "bun na spéire"
@@ -8057,6 +8061,10 @@ msgstr "caraf_nm"
 msgid "caraig_nf"
 msgstr "ciaróg_nf"
 
+# minotaur beetle (tarroo/tarbh)
+msgid "caraig harrooagh_nf"
+msgstr "ciaróg tharbhach"
+
 msgid "caramel_nm"
 msgstr "caramal_nm"
 
@@ -9033,12 +9041,17 @@ msgstr "teasaí_a;tréan_a"
 msgid "çhennoilys_nm"
 msgstr "tréine_nf"
 
+# != "çhentag_nf"
+msgid "çhenntag_nf"
+msgstr "sornóg_nf;tinteog_nf"
+
 msgid "çhent_nm"
 msgstr "splanc_nf"
 
 msgid "çhent_v"
 msgstr "splanc_v"
 
+# != "çhenntag_nf"
 msgid "çhentag_nf"
 msgstr "tine ealaíne"
 
@@ -18031,6 +18044,13 @@ msgstr "inrochtana_a"
 msgid "entreilaght_nf"
 msgstr "inrochtaineacht_nf"
 
+# Corpus examples:
+# access (computing), entry (in a competition), entrance (to a place)
+# entrance (admission, e.g. "entrance exam"),
+# admittance ("no admittance" = "gyn ~" = "cosc ar iontráil", "gan iontráil")
+msgid "entreilys_nm"
+msgstr "rochtain_nf;iontráil_nf;bealach isteach"
+
 # parallel corpus split
 msgid "eoylley_nf"
 msgstr "aoileach_nm;otrach_nm"
@@ -20618,6 +20638,9 @@ msgstr "suiríoch_nm"
 
 msgid "fer soyllaragh_nm"
 msgstr "macnasaí_nm"
+
+msgid "fer thammag_nm"
+msgstr "bastard_nm"
 
 # "fer thie" is an alt; beware of lenited "er thie"
 # which is sometimes just "ar theach", etc.
@@ -33548,6 +33571,11 @@ msgstr "méileach_nf"
 msgid "maaley_nm"
 msgstr "méileach_nf"
 
+# absorbing (WP example, figuratively); keeping wet (as roots of a plant)
+msgid "maanal_n"
+msgstr "ionsú_nm"
+
+# see previous
 msgid "maanalagh_a"
 msgstr "ionsúiteach_a"
 
@@ -36821,6 +36849,15 @@ msgstr "Maenmar_nm"
 msgid "mychione_prep"
 msgstr "faoi_prep"
 
+msgid "my-dty-chione_pronm"
+msgstr "fút_pronm"
+
+msgid "my-e-chione_pronm"
+msgstr "faoi_pronm"
+
+msgid "my-e-kione_pronm"
+msgstr "fúithi_pronm"
+
 msgid "mygeayrt_adv"
 msgstr "máguaird_adv;timpeall_adv"
 
@@ -36875,6 +36912,9 @@ msgstr "ar liobarna"
 
 msgid "myleeaney_adv"
 msgstr "i mbliana"
+
+msgid "my-my-chione_pronm"
+msgstr "fúm_pronm"
 
 msgid "myn_a"
 msgstr "mion_a"
@@ -37094,6 +37134,9 @@ msgstr "mionbhriseadh_nm;miondealú_nm"
 # from giarreyder_nm  = gearrthóir_nm
 msgid "mynyiarreyder_nm"
 msgstr "mionghearrthóir_nm"
+
+msgid "my-nyn-gione_pronm"
+msgstr "fúibh_pronm;fúinn_pronm;fúthu_pronm"
 
 msgid "myr_conj"
 msgstr "mar_conj"
@@ -37374,6 +37417,9 @@ msgstr "aint_nf;aintín_nf"
 
 msgid "nauntee_nf"
 msgstr "aintín_nf"
+
+msgid "Neanderthalagh_nm"
+msgstr "Néandartálach_nm"
 
 msgid "nearag_nf"
 msgstr "néaróg_nf"
