@@ -544,6 +544,8 @@ sub gramadoir_output {
 			$plnum = 4;
 			$genplnum = 4;
 		}
+		#my $genplstr = $plcode;
+		my $genplstr = 'xx';
 		unless ($constit_p ) {
 			push @$ret, "$plcode$tail $plnum";
 			push @$ret, lenite($plcode)."$tail $plnum";
@@ -553,13 +555,14 @@ sub gramadoir_output {
 			push @$ret, prefixb($plcode)."$tail $plnum";
 			push @$ret, prefixh($plcode)."$tail $plnum";
 			push @$ret, "$plcode$tail $plnum";
-			push @$ret, "$plcode$tail $genplnum";
-			push @$ret, lenite($plcode)."$tail $genplnum";
-			push @$ret, eclipse($plcode)."$tail $genplnum";
-			push @$ret, prefixm($plcode)."$tail $genplnum";
-			push @$ret, prefixd($plcode)."$tail $genplnum";
-			push @$ret, prefixh($plcode)."$tail $genplnum";
-			push @$ret, "$plcode$tail $genplnum";
+			# gpl's follow
+			push @$ret, "$genplstr$tail $genplnum";
+			push @$ret, lenite($genplstr)."$tail $genplnum";
+			push @$ret, eclipse($genplstr)."$tail $genplnum";
+			push @$ret, prefixm($genplstr)."$tail $genplnum";
+			push @$ret, prefixd($genplstr)."$tail $genplnum";
+			push @$ret, prefixh($genplstr)."$tail $genplnum";
+			push @$ret, "$genplstr$tail $genplnum";
 		}
 	}
 	# adjs: 4 nom, 2 gsm, 3 gsf, 3 pl = 12 total
