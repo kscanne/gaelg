@@ -7530,8 +7530,9 @@ msgstr "bunúsaí_nm"
 msgid "bunneyder_nm"
 msgstr "bunaitheoir_nm"
 
+# Brian Stowell's translation of "Buntús Cainte"
 msgid "bunneydys_nm"
-msgstr "bunús_nm"
+msgstr "bunús_nm;buntús_nm"
 
 msgid "bunnit_a"
 msgstr "bunaithe_a"
