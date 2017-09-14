@@ -68,9 +68,9 @@ pairs-gv.txt: gv2ga.po focloir.txt GA.txt i.pl makefile ${HOME}/seal/idirlamha/g
 	cat gv2ga.po | sed '/^#/d' | sed '/msgid/s/ \([^"]\)/_\1/g' | tr -d "\n" | sed 's/msgid/\n&/g' | sed '1d' | egrep -v 'msgstr ""' | sed 's/^msgid "//' | sed 's/"msgstr "/ /' | sed 's/"$$//' | bash split.sh | LC_ALL=C sort -k1,1 > po-temp-proc.txt
 	(cat $@; cat po-temp-proc.txt | sed 's/[0-9]*_[a-z][a-z]* / /' | sed 's/_[a-z][a-z]*$$//' | sed 's/[0-9]*$$//'; egrep '[^0]$$' focloir.txt | sed 's/^\([^\t]*\)\t*[^\t]*\t*[^\t]*\t\([^\t]*\)$$/\1~\2/' | sed 's/ /_/g' | sed 's/~/ /' | LC_ALL=C sort -k2,2 | LC_ALL=C join -1 2 -2 1 - po-temp-proc.txt | sed 's/^[^ ]* //' | sed 's/[0-9]*_[a-z][a-z]* / /' | sed 's/[0-9]*_[a-z][a-z]*$$//'; cat ${HOME}/seal/idirlamha/gv/freq/immutable.txt | sed 's/.*/& &/') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	cat temp.txt | egrep -v '_' > $@
-	cp -f $@ $(GIT)
+	if ! diff -q $@ $(GIT)/$@; then cp -f $@ $(GIT); fi
 	(cat $(GIT)/multi-gv.txt; cat temp.txt | egrep '_') | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > multi-gv.txt
-	cp -f multi-gv.txt $(GIT)
+	if ! diff -q multi-gv.txt $(GIT)/multi-gv.txt; then cp -f multi-gv.txt $(GIT); fi
 	rm -f po-temp-proc.txt temp.txt
 
 all-gv.txt: GV.txt
