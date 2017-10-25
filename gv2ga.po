@@ -1941,7 +1941,7 @@ msgid "Anvashtagh_a"
 msgstr "Anabaisteach_a"
 
 msgid "Anvashtagh_nm"
-msgstr "Anabaisteach_a"
+msgstr "Anabaisteach_nm"
 
 # cf maynrey_a, neuvaynrey_a
 msgid "anvaynrey_a"
@@ -2399,6 +2399,9 @@ msgstr "aimiréal_nm"
 # metro area; see "ard_nm" above
 msgid "ard moirvaljagh_nm"
 msgstr "mórcheantar_nm"
+
+msgid "ard-noid_nm"
+msgstr "príomhnamhaid_nm"
 
 msgid "ard-obbree_nm"
 msgstr "ailtire_nm"
@@ -8931,9 +8934,6 @@ msgstr "Cairibeach_a"
 msgid "Caribagh_nm"
 msgstr "Cairibeach_nm"
 
-msgid "carkyl_nm"
-msgstr "ciorcal_nm"
-
 msgid "carlan oast_nf"
 msgstr "móstán_nm;carróstlann_nf"
 
@@ -9330,6 +9330,7 @@ msgid "castys_nm"
 msgstr "coisceas_nm"
 
 # def. article in both langs
+# sometimes alt "Pobblaght Chatalonia" w/o article, see pairs-local/multi
 msgid "Cataloan_nf"
 msgstr "Catalóin_nf"
 
@@ -14053,6 +14054,9 @@ msgstr "croíúil_a"
 msgid "creeoilaght_nm"
 msgstr "croíúlacht_nf"
 
+msgid "cre erbee_interr"
+msgstr "cibé"
+
 msgid "Creest_nm"
 msgstr "Críost_nm"
 
@@ -15420,7 +15424,7 @@ msgstr "curra_nm"
 msgid "curriglym_nm"
 msgstr "curaclam_nm"
 
-# ~ peccah/olk/mee-chairys
+# ~ peccah/olk/mee-chairys/roosteyrys (gadaíocht)
 msgid "cur-rish_nm"
 msgstr "déanamh;ag déanamh"
 
@@ -17834,6 +17838,9 @@ msgstr "go cothrom"
 
 msgid "dy crauee_adv"
 msgstr "go cráifeach;go diaganta"
+
+msgid "dy creeoil_adv"
+msgstr "go croíúil"
 
 msgid "dy cruinn_adv"
 msgstr "go cruinn"
@@ -22493,8 +22500,9 @@ msgstr "snámhraic_nf"
 msgid "floag_nf"
 msgstr "calóg_nf;giota_nm"
 
+# corpus examples both in water and in the air...
 msgid "floateil_n"
-msgstr "snámh_nm"
+msgstr "snámh_nm;foluain_nf"
 
 # flock (Tex.)
 msgid "flockys_nm"
@@ -23328,6 +23336,9 @@ msgstr "fúthu_pronm"
 msgid "fo urryssaght_a"
 msgstr "faoi árachas"
 
+msgid "fo ushtey_adv"
+msgstr "faoi uisce"
+
 # not in corpus
 msgid "foutagh_a"
 msgstr "fabhtach_a"
@@ -23471,7 +23482,10 @@ msgstr "Proinsiasach_a"
 msgid "Fransiscagh_nm"
 msgstr "Proinsiasach_nm"
 
-# smacking, often of lips in corpus
+msgid "frap_n"
+msgstr "pléasc_nf;smeach_nm"
+
+# smacking, often of lips in corpus; cf prev
 msgid "frappal_n"
 msgstr "smeachadh_nm"
 
@@ -25813,6 +25827,9 @@ msgstr "gabháil_nf"
 
 msgid "goaillagh_a"
 msgstr "gabhálach_a"
+
+msgid "goaill foalley_n"
+msgstr "ionchollú_nm"
 
 msgid "goaill neeal_n"
 msgstr "titim i bhfanntais;titim i laige"
@@ -29558,6 +29575,9 @@ msgstr "deilgneach_a"
 msgid "jialg broghil_n"
 msgstr "biorán brollaigh"
 
+msgid "jialgheer_nm"
+msgstr "laghairt_nf"
+
 msgid "jialg oashyr_nf"
 msgstr "biorán cniotála"
 
@@ -32810,6 +32830,8 @@ msgstr "treoraigh_v"
 msgid "leeidagh_a"
 msgstr "leideach_a"
 
+# almost always literally "leading" (Ir. treorú), sometimes
+# "dy leeideil bea" (saol a chaitheamh)
 msgid "leeideil_n"
 msgstr "treorú_nm"
 
@@ -35093,8 +35115,12 @@ msgid "lourane_nm"
 msgstr "lobhar_nm"
 
 # beware "my lout" could also mean my+flout (len.)
+# cf lout-eaghtyr below
 msgid "lout_nm"
 msgstr "lochta_nm;deic_nf"
+
+msgid "lout-eaghtyr_nm"
+msgstr "deic_nf"
 
 msgid "low_v"
 msgstr "ceadaigh_v"
@@ -37340,7 +37366,7 @@ msgid "meiyghey_nm"
 msgstr "maolú_nm;bogadh_nm"
 
 msgid "meiyghid_nm"
-msgstr "maoithe_nf"
+msgstr "maoithe_nf;ceansacht_nf;séimhe_nf"
 
 # this in FGB
 msgid "meiyghid cree_n"
@@ -41565,6 +41591,7 @@ msgstr "ordaithe_a"
 msgid "oardoil_a"
 msgstr "ordúil_a"
 
+# cf goardrail in pairs-local (and alt ordrail)
 msgid "oardrail_nf"
 msgstr "forordú_nm;ordú_nm"
 
@@ -53254,6 +53281,7 @@ msgstr "Somáil_nf"
 msgid "son_prep"
 msgstr "ar son"
 
+# O'Rahilly: ~ saobhnós
 msgid "sonaase_nf"
 msgstr "uabhar_nm;mórtas_nm"
 
@@ -57709,6 +57737,9 @@ msgstr "feall_nm;tréatúireacht_nf"
 
 msgid "tram_nm"
 msgstr "tram_nm"
+
+msgid "tram-cabbil_nm"
+msgstr "tram capaill"
 
 msgid "tramman_a"
 msgstr "achrannach_a;in aimhréidh"
