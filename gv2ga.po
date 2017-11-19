@@ -10680,7 +10680,7 @@ msgid "clarinagh vane_n"
 msgstr "cloch ghréine"
 
 msgid "clarinaid_nm"
-msgstr "cláirnéid_nf"
+msgstr "clairinéad_nm"
 
 msgid "clash_nf"
 msgstr "clais_nf"
@@ -18840,7 +18840,7 @@ msgid "eelipsagh_a"
 msgstr "éilipseach_a"
 
 msgid "eelipsoyd_nm"
-msgstr "éilipsóideach_nm"
+msgstr "éileapsóideach_nm"
 
 msgid "eem_nf"
 msgstr "im_nm"
@@ -29723,7 +29723,7 @@ msgid "jiooldagh_a"
 msgstr "diúltach_a"
 
 msgid "jiooldaght_nm"
-msgstr "diúltacht_nf"
+msgstr "diúltachas_nm"
 
 msgid "jiooldey_nm"
 msgstr "diúltú_nm"
@@ -35670,7 +35670,7 @@ msgid "mac ny braih_nm"
 msgstr "sú na heorna"
 
 msgid "macro-hengey_nf"
-msgstr "macratheanga_nf"
+msgstr "macraitheanga_nf"
 
 msgid "mac-soylley_nm"
 msgstr "macasamhail_nf"
@@ -50545,7 +50545,7 @@ msgid "shenn yiarn_n"
 msgstr "seaniarann_nm"
 
 msgid "sheroot_nm"
-msgstr "searút_nm"
+msgstr "seiriút_nm"
 
 msgid "sherrish_nf"
 msgstr "seiris_nf"
