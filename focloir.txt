@@ -3618,6 +3618,7 @@ chelleeragh_adv	0	0	çhelleeragh_adv
 chelleragh_adv	0	0	çhelleeragh_adv
 çhellinsh_nf	0	1	0
 çhell-inshagh_nm	0	1	çhellinsh_nf
+çhellooishan_nm	0	0	çhellveeishan_nm
 çhellurium_nm	0	0	0
 chellvane_v	chellvaney_nm	0	çhellvane_v
 çhellvane_nm	0	0	0
