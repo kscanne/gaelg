@@ -2331,10 +2331,6 @@ msgid "anneydagh_a"
 msgstr "riachtanach_a"
 
 # GAOL:
-msgid "annooinid_nm"
-msgstr "laige_nf"
-
-# GAOL:
 msgid "annooinit_a"
 msgstr "lagaithe_a"
 
@@ -6247,11 +6243,6 @@ msgstr "bia coitianta"
 msgid "bee cooag_n"
 msgstr "seamsóg_nf;bia éadáin"
 
-# fatted (e.g. Bible "fatted calf", etc.)
-# GAOL: ~
-msgid "beeit_a"
-msgstr "biata_a"
-
 # beaker ("Arch." in both Fargher and de Bh.)
 # GAOL: ~
 msgid "beekyr_nm"
@@ -6286,7 +6277,8 @@ msgstr "biatas_nm"
 msgid "beeviandagh_a"
 msgstr "blasta_a"
 
-# GAOL:
+# fatted (e.g. Bible w/ spelling beeit_a "fatted calf", etc.)
+# GAOL: biata_a
 msgid "beeyt_a"
 msgstr "beathaithe_a;biata_a"
 
@@ -8308,10 +8300,6 @@ msgstr "boinéad sciathánach"
 # GAOL: ~
 msgid "bonnag_nf"
 msgstr "bonnóg_nf"
-
-# GAOL: ~
-msgid "bonnett_nm"
-msgstr "boinéad_nm"
 
 # Ir. bó1_nf is (rare) for "beau"
 # GAOL: ~
@@ -27146,10 +27134,12 @@ msgstr "ionadach_a"
 msgid "fascadagh_nm"
 msgstr "scáth fearthainne"
 
+# also spelled fassan (Fargher)
 # GAOL: ~
 msgid "fashan_nm"
 msgstr "faisean_nm"
 
+# also spelled fassanagh (Fargher)
 # GAOL: ~
 msgid "fashanagh_a"
 msgstr "faiseanta_a"
@@ -27200,14 +27190,6 @@ msgstr "iníor_nm;beathú_nm;aoireacht_nf;buachailleacht_nf"
 # GAOL:
 msgid "fassaght_nm"
 msgstr "féarach_nm"
-
-# GAOL: ~
-msgid "fassan_nm"
-msgstr "faisean_nm"
-
-# GAOL: ~
-msgid "fassanagh_a"
-msgstr "faiseanta_a"
 
 # to pasture (Fargher), graze
 # GAOL:
@@ -34370,12 +34352,8 @@ msgstr "áilleacht_nf"
 msgid "grainn_v"
 msgstr "grean_v"
 
-# vn
-# "frainnaghey" in Kelly list is a mistake for this word?
-# GAOL: ~
-msgid "grainnaghey_nm"
-msgstr "greanadh_nm"
-
+# vn; also side by side with spelling "grainnaghey" in Fargher usually
+# "frainnaghey" in Kelly list is a mistake for this?
 # GAOL: ~
 msgid "grainney_nm"
 msgstr "greanadh_nm"
@@ -42217,7 +42195,9 @@ msgstr "lánaimseartha_a"
 # not in corpus
 # GAOL:
 msgid "lane-ghooisht_a"
-msgstr "ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;inár lándúiseacht"
+msgstr ""
+"ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;"
+"inár lándúiseacht"
 
 # from "towshanagh" = measurable, dimensional
 # GAOL:
@@ -46107,6 +46087,10 @@ msgid "lus-oayllee_nm"
 msgstr "luibheolaí_nm"
 
 # GAOL:
+msgid "lus-oaylleeagh_a"
+msgstr "luibheolaíoch_a"
+
+# GAOL:
 msgid "lus-oaylleeaght_nm"
 msgstr "luibheolaíocht_nf"
 
@@ -46121,10 +46105,6 @@ msgstr "Brian breá;créachtach_nm"
 # GAOL: ~
 msgid "lusslann_nf"
 msgstr "luslann_nf"
-
-# GAOL:
-msgid "luss-oaylleeagh_a"
-msgstr "luibheolaíoch_a"
 
 # dill
 # GAOL: ~
@@ -69449,6 +69429,10 @@ msgid "sooie_nf"
 msgstr "súiche_nm"
 
 # GAOL: ~
+msgid "sooieagh_a"
+msgstr "súicheach_a"
+
+# GAOL: ~
 msgid "sooill_nf"
 msgstr "súil_nf"
 
@@ -70135,6 +70119,11 @@ msgstr "aerga_a"
 # GAOL: ~
 msgid "sphinx_n"
 msgstr "sfioncs_nm"
+
+# spigot/tap of a barrel
+# GAOL: ~
+msgid "spiggad_nm"
+msgstr "spiogóid_nf"
 
 # John 12:3 ("pure nard" in modern translations, and hence "nard" in OF81)
 # GAOL: ~
@@ -71598,10 +71587,6 @@ msgstr "drabhlás_nm;aimhleas_nm"
 msgid "stroialtys joinagh_n"
 msgstr "sabaitéireacht_nf"
 
-# GAOL:
-msgid "stroider_nm"
-msgstr "scriostóir_nm"
-
 # vn of next; see HLSM (from Eng.?)
 # GAOL:
 msgid "stroie_n"
@@ -72077,10 +72062,6 @@ msgstr "suimiú_nm"
 # GAOL:
 msgid "sym-glout_nm"
 msgstr "cnapshuim_nf"
-
-# GAOL: ~
-msgid "symm_nm"
-msgstr "suim_nf"
 
 # 1. summon, convene 2. cite 3. publish (as banns of matrimony)
 # GAOL:
@@ -78640,4 +78621,3 @@ msgstr "Iúgslavach_nm"
 # GAOL: ~
 msgid "Yugoslaavey_nf"
 msgstr "Iúgslaiv_nf"
-
