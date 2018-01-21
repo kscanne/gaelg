@@ -4148,7 +4148,7 @@ msgstr "aislingeach_nm;físí_nm"
 msgid "ashlins_nf"
 msgstr "aisling_nf"
 
-# GAOL aisling_nf
+# GAOL: aisling_nf
 msgid "ashlish_nf"
 msgstr "aisling_nf;brionglóid_nf"
 
@@ -7582,9 +7582,10 @@ msgstr "bloc ulóige"
 msgid "block y Nollick_n"
 msgstr "bloc na Nollag"
 
+# blade
 # GAOL:
 msgid "blod_nm"
-msgstr "lann_nf"
+msgstr "lann1_nf"
 
 # GAOL:
 msgid "blod baaree_n"
@@ -11168,9 +11169,10 @@ msgstr "Cairtéiseach_a"
 msgid "Cairteesagh_nm"
 msgstr "Cairtéiseach_nm"
 
+# "carter"
 # GAOL: ~
 msgid "cairteyr_nm"
-msgstr "cairteoir_nm"
+msgstr "cairteoir2_nm"
 
 # don't see "cairt láimhe" in Ir. corpus
 # GAOL:
@@ -11740,7 +11742,7 @@ msgstr "carpasach_a"
 # gv also means "melody, tune"; one example in Skeealaght
 # GAOL: carr_nm
 msgid "carr_nm"
-msgstr "carr_nm;port_nm"
+msgstr "carr_nm;port1_nm"
 
 # GAOL: ~
 msgid "carraboo_nm"
@@ -13392,9 +13394,9 @@ msgid "çhiow_nm"
 msgstr "téamh_nm"
 
 # first sense of "téigh"
-# GAOL: téigh1_v
+# GAOL: ~
 msgid "çhiow_v"
-msgstr "téigh_v"
+msgstr "téigh1_v"
 
 # GAOL:
 msgid "çhiow banglaneagh_n"
@@ -16045,9 +16047,10 @@ msgstr "coinbhintiúil_a"
 msgid "coo_nm"
 msgstr "cú_nm;madra_nm"
 
+# cuckoo
 # GAOL: ~
 msgid "cooag_nf"
-msgstr "cuach_nf"
+msgstr "cuach1_nf"
 
 # cooing (as a dove), mourning; see Ez. 7:16, Isaiah 38:14, etc.
 # GAOL:
@@ -16887,7 +16890,7 @@ msgstr "Corantach_nm"
 # "finch"; cognate corcán in Ir. means "pot" - no bird senses I know
 # GAOL:
 msgid "corkan_nm"
-msgstr "glasán_nm"
+msgstr "glasán1_nm"
 
 # siskin
 # GAOL:
@@ -18124,11 +18127,12 @@ msgstr "céard a;cad a;céard"
 msgid "crea_nf"
 msgstr "cré_nf"
 
-# "clais" in parallel corpus (furrow?)
-# first sense of cruach_nf in GA.txt (so no "1")
+# furrow, stack
+# "clais" in parallel corpus (furrow)
+# first sense of cruach_nf in GA.txt
 # GAOL: cruach_nf
 msgid "creagh_nf"
-msgstr "cruach_nf;stáca_nm;clais_nf"
+msgstr "cruach1_nf;stáca_nm;clais_nf"
 
 # GAOL:
 msgid "creagh fendeilagh_nf"
@@ -20705,7 +20709,7 @@ msgstr "dearnáil_nf"
 # this is sense 1 of sail_nf in GA.txt (sense 2 in FGB)
 # GAOL: dair_nf
 msgid "darrag_nf"
-msgstr "sail_nf;dair_nf"
+msgstr "sail1_nf;dair_nf"
 
 # oak; also inflection of "tar" (thiocfadh)
 # GAOL: ~
@@ -20717,15 +20721,15 @@ msgid "darragh scarleod_nm"
 msgstr "dair thoilm"
 
 # 1. dash (Fargher: Morse code)  2. stack, heap (parallel corpus)
-# first sense of cruach_nf in GA.txt (so no "1")
+# first sense of cruach_nf in GA.txt
 # GAOL: dais_nf
 msgid "dash_nm"
-msgstr "dais_nf;carn_nm;cruach_nf"
+msgstr "dais_nf;carn_nm;cruach1_nf"
 
-# this spelling Fargher
+# this spelling Fargher, both senses
 # GAOL: ~
 msgid "date_nm"
-msgstr "dáta_nm"
+msgstr "dáta1_nm;dáta2_nm"
 
 # GAOL: ~
 msgid "daue_pronm"
@@ -24564,15 +24568,15 @@ msgid "eeirey_nm"
 msgstr "guairneán_nm"
 
 # rick, stack; also an alt (OCR?) of eck_pronm in focloir.txt
-# first sense of cruach_nf in GA.txt (so no "1")
+# first sense of cruach_nf in GA.txt
 # GAOL:
 msgid "eek_nf"
-msgstr "cruach_nf"
+msgstr "cruach1_nf"
 
-# first sense of cruach_nf in GA.txt (so no "1")
+# first sense of cruach_nf in GA.txt
 # GAOL:
 msgid "eekad_nf"
-msgstr "cruach_nf"
+msgstr "cruach1_nf"
 
 # GAOL: ~
 msgid "eelips_nm"
@@ -24883,9 +24887,10 @@ msgstr "fearg_nf"
 msgid "elgyssagh_a"
 msgstr "i bhfearg;feargach_a;díoltasach_a"
 
+# hiccup
 # GAOL:
 msgid "ellag_nf"
-msgstr "faileog_nf;snag_nm"
+msgstr "faileog_nf;snag1_nm"
 
 # GAOL: ~
 msgid "ellan_nm"
@@ -28007,7 +28012,7 @@ msgstr "ar feadh;ar fud"
 # 1. game, venison 2. wildness
 # GAOL:
 msgid "feieys_nm"
-msgstr "fiántas_nm;fiach_nm;seilg_nf"
+msgstr "fiántas_nm;fiach3_nm;seilg_nf"
 
 # gs is foalley (see Fargher "flesh")
 # GAOL: ~
@@ -28525,7 +28530,7 @@ msgstr "deisceartach_nm"
 
 # GAOL:
 msgid "fer-joarree_nm"
-msgstr "deoraí_nm"
+msgstr "deoraí2_nm"
 
 # pl. in 1 Chron 4:14, Acts 19:38, etc.
 # GAOL:
@@ -29303,7 +29308,7 @@ msgstr "leathbháite_a"
 # sense 1 of taise_nf in GA.txt and FGB
 # GAOL: fliuchras_nm
 msgid "fliughys_nm"
-msgstr "fliuchras_nm;taise_nf"
+msgstr "fliuchras_nm;taise1_nf"
 
 # GAOL:
 msgid "floadran_nm"
@@ -30840,10 +30845,10 @@ msgstr "coinnigh_v;coimeád_v"
 msgid "freilleyder_nm"
 msgstr "caomhnóir_nm;coimeádaí_nm;airíoch_nm"
 
-# heather; this is sense 1 of fraoch_nm in GA.txt (and FGB) - don't include "1"
+# heather; this is sense 1 of fraoch_nm in GA.txt (and FGB)
 # GAOL: ~
 msgid "freoagh_nm"
-msgstr "fraoch_nm"
+msgstr "fraoch1_nm"
 
 # GAOL: ~
 msgid "freoaghagh_a"
@@ -32858,7 +32863,7 @@ msgstr "gile_nf"
 
 # GAOL:
 msgid "gilpin_nm"
-msgstr "glasán_nm;liúdar_nm"
+msgstr "glasán1_nm;liúdar_nm"
 
 # GAOL: ~
 msgid "gimbyl_nm"
@@ -33057,7 +33062,7 @@ msgstr "glas_nm"
 # wagtail (glasóg), Hipparcia semele (glasán)
 # GAOL: glasóg_nf
 msgid "glassag_nf"
-msgstr "glasóg_nf;glasán_nm"
+msgstr "glasóg_nf;glasán1_nm"
 
 # GAOL: ~
 msgid "glassag gharagh_nf"
@@ -34169,10 +34174,10 @@ msgstr "Gotach_a"
 msgid "Gothagh_nm"
 msgstr "Gotach_nm"
 
-# sense 1 of léas_nm (don't include the "1")
+# sense 1 of léas_nm (beam of light)
 # GAOL:
 msgid "goull_nm"
-msgstr "ga_nm;léas_nm"
+msgstr "ga_nm;léas1_nm"
 
 # GAOL:
 msgid "goull-baaish_nm"
@@ -38805,7 +38810,7 @@ msgstr "deoranta_a;iasachta_a"
 # foreigner, outlander, stranger
 # GAOL: ~
 msgid "joarree_nm"
-msgstr "deoraí_nm"
+msgstr "deoraí2_nm"
 
 # GAOL: ~
 msgid "joarreeaght_nf"
@@ -39109,7 +39114,7 @@ msgstr "cárta gnó"
 # mapmaker; cf next
 # GAOL: ~
 msgid "kaarteyr_nm"
-msgstr "cairteoir_nm"
+msgstr "cairteoir1_nm"
 
 # cartographer; cf prev
 # GAOL: ~
@@ -43208,7 +43213,7 @@ msgstr "Liatroim_nm"
 # blade
 # GAOL: lián_nm
 msgid "lheean_nm"
-msgstr "lián_nm;lann_nf"
+msgstr "lián_nm;lann1_nf"
 
 # meadow (adj.)
 # GAOL:
@@ -43516,7 +43521,7 @@ msgstr "liom-leat"
 # lamina; not connected to lhiann_v
 # GAOL: ~
 msgid "lhiann_nf"
-msgstr "lann_nf"
+msgstr "lann1_nf"
 
 # also "mangle (Laund.)" - fáisc?
 # GAOL: lean_v
@@ -43993,9 +43998,9 @@ msgstr "eisceacht_nf"
 
 # 1. age, period 2. pool 3. ling
 # linn2_nf is "pool" (sense 1 in FGB), vice versa for "age, period"
-# GAOL: linn_nf
+# GAOL: ~
 msgid "lhing_nf"
-msgstr "linn2_nf;linn_nf;langa_nm"
+msgstr "linn2_nf;linn1_nf;langa_nm"
 
 # pool, pond; see above
 # GAOL: ~
@@ -57320,9 +57325,9 @@ msgid "plastaseen_nm"
 msgstr "plastaicín_nm"
 
 # Ex. 39:30, Lev. 8:9, etc.
-# GAOL:
+# GAOL: eng:plate
 msgid "plate_nm"
-msgstr "lann_nf"
+msgstr "lann1_nf"
 
 # GAOL: ~
 msgid "platinum_nm"
@@ -58723,7 +58728,7 @@ msgstr "clampar_nm;broimfhéar_nm"
 
 # GAOL: ~
 msgid "punt_nm"
-msgstr "punt_nm"
+msgstr "punt3_nm"
 
 # GAOL: ~
 msgid "punt Sostynagh_n"
@@ -58757,7 +58762,7 @@ msgstr "corcra_nm"
 
 # GAOL: ~
 msgid "purt_nf"
-msgstr "port_nm"
+msgstr "port2_nm"
 
 # cf aerphurt
 # GAOL:
@@ -59263,10 +59268,10 @@ msgstr "iarnród_nm;bóthar iarainn"
 # 1. good luck, prosperity, success (Ir. rath)
 # 2. rath, ring fort, vallum (Ir ráth)
 # 3. scent, taste, strong smell
-# this is sense 1 of ráth_nm in FGB/GA.txt - don't include "1" here!
+# this is sense 1 of ráth_nm in FGB/GA.txt
 # GAOL: ~
 msgid "raah_nm"
-msgstr "rath_nm;ráth_nm"
+msgstr "rath_nm;ráth1_nm"
 
 # GAOL: rathúil_a
 msgid "raahoil_a"
@@ -59916,7 +59921,7 @@ msgstr "rud sin eile"
 
 # GAOL: ~
 msgid "ree_nm"
-msgstr "rí_nm"
+msgstr "rí1_nm"
 
 # ree is alt
 # GAOL: ~
@@ -64180,7 +64185,7 @@ msgstr "ar éigean"
 # chad, shad (fish)
 # GAOL: ~
 msgid "shad_nf"
-msgstr "sead_nf"
+msgstr "sead3_nf"
 
 # GAOL: ~
 msgid "Shad_nf"
@@ -67035,7 +67040,7 @@ msgstr "scaoilteach_a"
 
 # GAOL:
 msgid "skeayltagh_nm"
-msgstr "deoraí_nm;scarúnaí_nm"
+msgstr "deoraí2_nm;scarúnaí_nm"
 
 # lavishness
 # GAOL: ~
@@ -68937,7 +68942,7 @@ msgstr "sofaisticiúil_a"
 # sob, moan (of wind), groan, sigh
 # GAOL:
 msgid "sogh_nf"
-msgstr "snag_nm;cnead_nf"
+msgstr "snag1_nm;cnead_nf"
 
 # sob, moan (of wind), groan, sigh; no good lexical verb for "sob"
 # GAOL:
@@ -71038,7 +71043,7 @@ msgstr "dealbh_nf"
 
 # GAOL: strapa_nm
 msgid "sthrap_nm"
-msgstr "strapa_nm;iall_nf"
+msgstr "strapa1_nm;iall_nf"
 
 # GAOL: ~
 msgid "sthrap_v"
@@ -72772,13 +72777,13 @@ msgstr "tais_a"
 # sense 1 of taise_nf in GA.txt and FGB
 # GAOL: ~
 msgid "tashey_nm"
-msgstr "taise_nf"
+msgstr "taise1_nf"
 
 # dampness, moisture, etc.
 # sense 1 of taise_nf in GA.txt and FGB
 # GAOL: ~
 msgid "tashid_nm"
-msgstr "taise_nf"
+msgstr "taise1_nf"
 
 # GAOL: ~
 msgid "tashjeenagh_a"
@@ -74254,7 +74259,7 @@ msgstr "tachta_a"
 # dowry, etc.  This is sense 1 of spré in GA.txt (and FGB)
 # GAOL: tochra_nm
 msgid "toghyr_nf"
-msgstr "tochra_nm;spré_nf"
+msgstr "tochra_nm;spré1_nf"
 
 # GAOL: ~
 msgid "toghyragh_a"
@@ -75111,7 +75116,7 @@ msgstr "achrannach_a;in aimhréidh"
 # first sense of trom_nm in GA.txt and FGB
 # GAOL:
 msgid "tramman_nf"
-msgstr "trom_nm"
+msgstr "trom1_nm"
 
 # GAOL: ~
 msgid "tram-vollagh_nm"
@@ -76150,7 +76155,7 @@ msgstr "truaillíocht_nf"
 # parallel corpus
 # GAOL: trumpa_nm
 msgid "trumpet_nm"
-msgstr "trumpa_nm;stoc_nm;adharc_nf"
+msgstr "trumpa2_nm;stoc_nm;adharc_nf"
 
 # GAOL: ~
 msgid "trumpeter_nm"
@@ -76159,7 +76164,7 @@ msgstr "trumpadóir_nm"
 # FGB 1. trumpet 2. Jew's harp
 # GAOL: ~
 msgid "trumpey_nm"
-msgstr "trumpa_nm"
+msgstr "trumpa2_nm"
 
 # thrush (Vet.); Fargher/de Bh.
 # GAOL: ~
@@ -77490,7 +77495,7 @@ msgstr "fánach_a;seachránach_a;deorach_a"
 # Modern translations have "will be shepherds", hence "ina n-aoirí" in OF81
 # GAOL: eng:vagabond
 msgid "wagaantagh_nm"
-msgstr "fánaí_nm;seachránaí_nm;deoraí_nm"
+msgstr "fánaí_nm;seachránaí_nm;deoraí2_nm"
 
 # GAOL: <d wagaantagh_nm
 msgid "wagaantys_nm"
