@@ -328,6 +328,8 @@ Africkey_nf	0	1	Affrick_nf
 Africkey Yiass_nf	0	1	Affrick Yiass_nf
 agaid_nf	0	0	agate_nm
 agate_nm	0	0	0
+agg_nm	0	0	0
+aggad_nm	0	0	agg_nm
 aggagh_a	0	0	0
 aggair_nf	0	0	0
 aggairagh_a	0	0	0
@@ -1762,7 +1764,7 @@ beer_nm	0	0	0
 beesyl_nm	0	0	0
 beetys_nf	0	0	0
 beeviandagh_a	0	0	0
-beeyit_a	0	0	beeit_a
+beeyit_a	0	0	beeyt_a
 beeyt_a	0	0	0
 beg_a	0	beggey	0
 beg-aignagh_a	0	0	0
@@ -1803,8 +1805,8 @@ beishteig snaieagh_nf	0	0	0
 beisht yn daa hooill yeig_n	0	0	0
 beisteig_nf	0	0	beishteig_nf
 beiyaghey_nm	0	0	beaghey_nm
-beiyht_a	0	0	beeit_a
-beiyt_a	0	0	beeit_a
+beiyht_a	0	0	beeyt_a
+beiyt_a	0	0	beeyt_a
 Belaroosh_n	0	0	0
 Belarooshagh_a	0	0	0
 Belarooshagh_nm	0	0	0
@@ -3294,6 +3296,7 @@ carnane_nf	0	0	0
 carnane oanluckee_n	0	0	0
 carnoain_nm	0	0	0
 carob_nm	0	0	0
+caroo_nm	0	kerriu	carroo_nm
 carpad_nm	0	0	0
 carpallagh_a	0	0	0
 carr_nm	0	0	0
@@ -6739,6 +6742,7 @@ eayn_nm	0	eayin	0
 eaynagh_a	0	0	0
 eaynagh_nm	0	eayneeyn	0
 eayn-caisht_nm	0	eayin-caisht	0
+eaynee_nf	0	0	0
 eayney_nm	0	0	0
 eaynin_nm	eaynnee	0	0
 eaynlee_nm	0	0	eeanlee_nm
@@ -6995,6 +6999,7 @@ eirrinagh_nm	0	0	eirinagh_nm
 eirys_nm	0	0	0
 eisht_adv	0	0	0
 eishtagh_adv	0	0	eisht_adv
+eistyr_nm	0	0	eiystyr_nm
 eit_a	0	0	0
 eiyr_v	eiyrt_n	0	0
 eiyreyder_nm	0	0	0
@@ -8577,7 +8582,7 @@ foyraght_nf	0	0	0
 foyr bevyllit_n	0	0	0
 foyr skynney_n	0	0	0
 fraaue_nm	0	0	faaue_nm
-frainnaghey_nm	0	0	grainnaghey_nm
+frainnaghey_nm	0	0	grainney_nm
 frangagh_a	0	0	0
 Frangagh_a	0	0	0
 Frangagh_nm	0	0	0
@@ -15187,8 +15192,10 @@ oaylleeaght_nf	0	oaylleeaghtyn	0
 oaylleeaght sheshoil_nf	0	0	0
 oayllys_nf	0	0	0
 oayllys ushtey_nf	0	0	0
+oaysh_nf	0	0	oash_nf
 oayshagh_a	0	0	0
 ob_v	obbal_nm	0	obb_v
+obb_nf	0	0	0
 obb_v	obbal_nm	0	0
 obbal_nm	0	0	0
 obballagh_a	0	0	0
@@ -15893,6 +15900,7 @@ Philippeenagh_a	0	0	0
 Philistine_nm	0	Philistinee	0
 phylum_nm	0	1	0
 phynnoderee_nm	0	0	fynnodderee_nm
+piaghane_nm	0	0	peeaghane_nm
 piagh erbee_n	0	1	pagh erbee_n
 pian_nm	0	0	0
 pian cree_n	0	0	0
@@ -16054,6 +16062,7 @@ plooghey_nm	0	0	0
 plooghit_a	0	0	0
 ploorasee_nm	0	0	0
 plooreen_nm	0	0	0
+plucan_nm	0	0	0
 pluck_v	pluckey_n	0	0
 pluckey_n	0	0	0
 plug_nm	0	pluggyn	0
@@ -16623,6 +16632,7 @@ radio-oaylleeaght_nf	0	0	0
 radio-oaylleeaghteyr_nm	0	0	0
 radlin_nm	0	0	0
 radling fendeilys_n	0	0	0
+rag_a	0	0	0
 raggyrnoilee_nm	0	0	0
 raghlid_nm	0	1	0
 raght_nm	0	0	0
@@ -19181,10 +19191,12 @@ sniengan bane_n	0	0	0
 sniengan caggee_n	0	0	0
 sniessey_a	0	0	0
 snig_nf	0	0	sneg_nf
+snoaid_nf	0	0	snooid_nf
 snog_nm	0	snoggyn	0
 snog_v	snoggal_nm	0	0
 snoggal_nm	0	1	0
 snoggeyder_nm	0	0	0
+snooid_nf	0	0	0
 snooker_nm	0	0	0
 snug_nm	0	snuggyn	snog_nm
 snug_v	snuggal_nm	0	snog_v
@@ -20378,6 +20390,7 @@ tennalt_nm	0	0	0
 tennis_nm	0	1	tennys_nm
 tenniu_nm	0	1	theinniu_nm
 tennor_nm	0	0	0
+tennue_nm	0	1	theinniu_nm
 tennys_nm	0	1	0
 tensoor_nm	0	0	0
 tent_nm	0	0	0
@@ -21165,6 +21178,7 @@ trughanys_nm	0	0	0
 truh_nm	0	0	0
 truitlag_nf	0	0	0
 truitlag Injinagh_nf	0	0	0
+truitling_nf	0	0	truitlag_nf
 trullee_a	0	0	0
 trulleeaght_nf	0	0	0
 trumpet_nm	0	0	0

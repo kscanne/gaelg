@@ -1182,7 +1182,12 @@ msgstr "Afganastáin_nf"
 msgid "agate_nm"
 msgstr "agáit_nf"
 
-# GAOL:
+# cf MacBain @eag
+# GAOL: ~
+msgid "agg_nm"
+msgstr "eang_nf"
+
+# GAOL: ~
 msgid "aggagh_a"
 msgstr "eangach_a"
 
@@ -1392,15 +1397,16 @@ msgstr "áith_nf"
 msgid "aiee eayil_nf"
 msgstr "áith aoil"
 
-# GAOL:
+# given as cognates in MacBain
+# GAOL: ~
 msgid "aigh_nf"
 msgstr "ádh_nm"
 
-# GAOL:
+# GAOL: <d aigh_nf
 msgid "aigharagh_a"
 msgstr "ádhúil_a"
 
-# GAOL:
+# GAOL: ~
 msgid "aighoil_a"
 msgstr "ádhúil_a"
 
@@ -1408,7 +1414,7 @@ msgstr "ádhúil_a"
 msgid "aigh-vie_nf"
 msgstr "ádh mór"
 
-# GAOL:
+# GAOL: <d aigney_nf
 msgid "aignagh_a"
 msgstr "intinne;aigne"
 
@@ -1443,7 +1449,7 @@ msgstr "bruthach_a;lasrach_a"
 msgid "aile Greagagh_n"
 msgstr "tine Gréagach"
 
-# GAOL:
+# GAOL: ~
 msgid "ain_pronm"
 msgstr "againn_pronm"
 
@@ -1456,8 +1462,9 @@ msgstr "aithne_nf;aitheantas_nm"
 msgid "ainjyssagh_a"
 msgstr "aitheanta_a"
 
+# an angel
 # NB Ir. ainle == peevish person (spurious-gv); no need to mark f.f. though
-# GAOL:
+# GAOL: ~
 msgid "ainle_nm"
 msgstr "aingeal_nm"
 
@@ -3875,6 +3882,7 @@ msgstr "arán coirce"
 msgid "arran dhone_n"
 msgstr "arán donn"
 
+# cognates in MacBain
 # GAOL: ~
 msgid "arrane_nm"
 msgstr "amhrán_nm"
@@ -7239,6 +7247,7 @@ msgstr "Bioscáin_nf"
 msgid "biseps_nm"
 msgstr "bícéips_nf"
 
+# linked with gd:piseach and ga:biseach by MacBain
 # GAOL: ~
 msgid "bishagh_nm"
 msgstr "biseach_nm"
@@ -7415,6 +7424,9 @@ msgstr "bléin_nf"
 msgid "bleayn-asney_nm"
 msgstr "bléineasna_nf"
 
+# MacBain links "Manx pleayse" (pleayst?) with ga/gd:plaosg
+# and in same entry says "Seemingly blaosg is another form
+# (Manx bleayst, Middle Irish blaesc, Welsh blisg)"
 # GAOL: ~
 msgid "bleayst_nf"
 msgstr "blaosc_nf"
@@ -10003,7 +10015,8 @@ msgstr "bunleabhar_nm"
 msgid "bunneeaght_nf"
 msgstr "bunaíocht_nf;bunú_nm"
 
-# GAOL:
+# linked with ga punann/gd punnan in MacBain
+# GAOL: ~
 msgid "bunney_nf"
 msgstr "punann_nf"
 
@@ -10760,6 +10773,7 @@ msgstr "codail_v"
 msgid "caddoyd_nm"
 msgstr "catóid_nf"
 
+# see MacBain e.g.
 # GAOL: ~
 msgid "cadee_nm"
 msgstr "cadás_nm"
@@ -11831,10 +11845,11 @@ msgstr "carrchlós_nm"
 msgid "carr-lheihys_nm"
 msgstr "otharcharr_nm"
 
-# bream, sea bream
-# GAOL:
+# bream, sea bream; also "carp" in Cregeen, MacBain ("caroo")
+# carbhán is alt spelling of carbán in FGB; linked in MacBain
+# GAOL: carbán_nm
 msgid "carroo_nm"
-msgstr "bran_nm"
+msgstr "bran_nm;carbán_nm"
 
 # cf "kiarrooghys_nm"
 # GAOL: ~
@@ -15911,6 +15926,7 @@ msgid "Connaghtey_nm"
 msgstr "Connacht_nm"
 
 # 1. gorse 2. firewood (cognate) 3. fuel (in corpus, pl too!)
+# MacBain links this with gd "conas, conasg" (furze, whins), Ir. conasg?
 # GAOL: connadh_nm
 msgid "conney_nm"
 msgstr "aiteann_nm;connadh_nm;breosla_nm"
@@ -16421,6 +16437,7 @@ msgstr "conarthach_a"
 msgid "coonree_v"
 msgstr "conraigh_v;malartaigh_v"
 
+# MacBain links this with gd/ga
 # GAOL: conradh_nm
 msgid "coonrey_nm"
 msgstr "conradh_nm;malartú_nm"
@@ -23198,7 +23215,7 @@ msgstr "fuath_nm;gráin_nf"
 
 # PM 7.2.4 for overview of conjunction senses
 # dy beagh = dá mbeadh (if), OR "go mbeadh"
-# GAOL: dá
+# GAOL: dá_conj
 msgid "dy_conj"
 msgstr "go;gur;dá"
 
@@ -23940,10 +23957,16 @@ msgstr "fásach_nm;díthreabh_nf"
 msgid "eayn-caisht_nm"
 msgstr "uan Cásca"
 
+# steep place (cf. eaynin_nm), e.g. Mark 5:13, Matthew 8:32 (the pigs)
+# GAOL: gd:aoineadh_nm
+msgid "eaynee_nf"
+msgstr "fána_nf"
+
 # GAOL: ~
 msgid "eayney_nm"
 msgstr "uaine_nf"
 
+# a cliff, cf eaynee_nf
 # cf. neaynin = nóinín
 # GAOL:
 msgid "eaynin_nm"
@@ -24555,7 +24578,8 @@ msgstr "íochtarán_nm"
 # 1. fat 2. hives, nettle rash (the first much more common in parallel corpus)
 # preceded by def. article in gv in the second sense... so rare
 # as to not need special handling
-# GAOL: aodh_nf
+# First sense is cognate with M.Ir. íth (eDIL 1 íth); gd:igh (see MacBain)
+# GAOL: gd:ìgh_nf;aodh_nf
 msgid "eeh_nf"
 msgstr "saill_nf;aodh_nf"
 
@@ -24866,7 +24890,8 @@ msgstr "iarmhartach_a;comhleantach_a"
 msgid "eiyrtyssagh_nm"
 msgstr "lorgaire_nm;leantóir_nm;deisceabal_nm"
 
-# GAOL:
+# noted as cognates in MacBain
+# GAOL: ~
 msgid "eiystyr_nm"
 msgstr "adhastar_nm"
 
@@ -26337,8 +26362,10 @@ msgstr "spúinsiúil_a"
 msgid "faaue_nm"
 msgstr "leid_nf"
 
+# a turf spade
 # false friend; cognate with Ir. "fál"
-# GAOL:
+# gd:fàl shares this sense 
+# GAOL: fál_nm
 msgid "faayl_nf"
 msgstr "sleán_nm"
 
@@ -26754,6 +26781,7 @@ msgid "famlagh mooar_n"
 msgstr "ruálach_nf"
 
 # marking focal doiléir; cognate but "feam" is sufficiently unusual in Ir.
+# MacBain links this with gd:feaman and ga:feam
 # GAOL: feam_nm
 msgid "famman_nm"
 msgstr "eireaball_nm;feam_nm"
@@ -29329,7 +29357,10 @@ msgstr "snámh_nm;foluain_nf"
 msgid "flockys_nm"
 msgstr "flocas_nm"
 
+# a fleet
 # flít rare in Ir. side
+# MacBain links "Manx plod" with gd:plod (from Norse floti),
+# but nothing in Irish
 # GAOL:
 msgid "flod_nm"
 msgstr "cabhlach_nm;loingeas_nm;flít_nm"
@@ -33045,7 +33076,8 @@ msgid "glasheen_nm"
 msgstr "glaise_nf;caislín_nm"
 
 # agus "glashtyn" in Skeealaght (beware clashtyn)
-# GAOL:
+# MacBain links this to gd:glaistig
+# GAOL: gd:glaistig
 msgid "glashtin_nm"
 msgstr "gruagach_nm"
 
@@ -39526,7 +39558,7 @@ msgstr "Cill Mhantáin"
 msgid "keeir_a"
 msgstr "ciar_a"
 
-# cud
+# cud; cf kere_nf
 # GAOL: ~
 msgid "keeir_nf"
 msgstr "cíor_nf"
@@ -39903,6 +39935,7 @@ msgid "kerçheenys_nf"
 msgstr "ainnise_nf;dearóile_nf"
 
 # 1. wax 2. comb
+# see also keeir (Ir. cíor for "cud")
 # GAOL: ~
 msgid "kere_nf"
 msgstr "céir_nf;cíor_nf"
@@ -44017,7 +44050,8 @@ msgid "lhiu_pronm"
 msgstr "libh_pronm"
 
 # sometimes "lhiy sharragh" = searrach
-# GAOL:
+# linked with gd:loth_nf in MacBain
+# GAOL: gd:loth_nf
 msgid "lhiy_nf"
 msgstr "searrach_nm;bromach_nm"
 
@@ -45705,8 +45739,10 @@ msgstr "lobhrach_a"
 msgid "lourane_nm"
 msgstr "lobhar_nm"
 
+# loft
 # beware "my lout" could also mean my+flout (len.)
 # cf lout-eaghtyr below
+# this is linked with gd:lobht and ga:lochta (lota) in MacBain
 # GAOL: lochta_nm
 msgid "lout_nm"
 msgstr "lochta_nm;deic_nf"
@@ -46513,6 +46549,7 @@ msgid "magh_adv"
 msgstr "amach_adv"
 
 # used for "field of study" too
+# cognate with gd:machair and ga:machaire in MacBain
 # GAOL: machaire_nm
 msgid "magher_nm"
 msgstr "machaire_nm;páirc_nf;gort_nm;réimse_nm"
@@ -54173,8 +54210,8 @@ msgstr "maor_nm;saoiste_nm"
 msgid "oaseirys_nm"
 msgstr "coimisiún_nm;maoracht_nf"
 
-# cf Gàidhlig àbhaist
-# GAOL:
+# cf Gàidhlig àbhaist, linked in MacBain
+# GAOL: gd:àbhaist_nf
 msgid "oash_nf"
 msgstr "nós_nm"
 
@@ -54285,33 +54322,38 @@ msgstr "hiodrálaic_nf"
 msgid "oayshagh_a"
 msgstr "faiseanta_a"
 
+# see MacBain @ubag
+# GAOL: upa_nf
+msgid "obb_nf"
+msgstr "ortha_nf;upa_nf"
+
 # cognate + parallel corpus
 # GAOL: ob_v
 msgid "obb_v"
 msgstr "ob_v;séan_v;diúltaigh_v"
 
-# GAOL: obadh_nm
+# GAOL: obadh_nm;<i obb_v
 msgid "obbal_nm"
 msgstr "obadh_nm;séanadh_nm;diúltú_nm"
 
-# GAOL:
+# GAOL: <d obbal_nm
 msgid "obballagh_a"
 msgstr "diúltach_a"
 
-# GAOL:
+# GAOL: <d obbal_nm
 msgid "obbaltagh_nm"
 msgstr "staonaire_nm"
 
-# gd as adj
-# GAOL:
+# gs as adj
+# GAOL: <d obb_nf
 msgid "obbee_a"
 msgstr "draíochta"
 
-# GAOL:
+# GAOL: <d obb_nf
 msgid "obbeeys_nf"
 msgstr "asarlaíocht_nf;draíocht_nf"
 
-# GAOL: obtha_a
+# GAOL: obtha_a;<i obb_v
 msgid "obbit_a"
 msgstr "obtha_a;séanta_a"
 
@@ -54525,6 +54567,7 @@ msgstr "ogham_nm"
 msgid "oghe_nf"
 msgstr "sorn_nm;oigheann_nm"
 
+# cognate with gd:iuchair, ga:eochair in MacBain
 # GAOL: ~
 msgid "ogher_nf"
 msgstr "eochair_nf"
@@ -55777,7 +55820,10 @@ msgstr "ábhar trua;díol trua"
 
 # SCC says cognate with "póiteach" ("heavy-drinking")
 # but that's not a usable def., and not a worrying f.f.
-# GAOL:
+# MacBain links with gd:padhadh/pathadh ("thirst"), "seemingly formed by
+# regressive analogy from the adjective pàiteach, thirsty, a side-form
+# of pòiteach, drinking, bibulous..."
+# GAOL: gd:pathadh_nm
 msgid "paa_a"
 msgstr "tartmhar_a"
 
@@ -55789,6 +55835,7 @@ msgstr "pápach_a"
 msgid "paabaght_nf"
 msgstr "pápacht_nf"
 
+# MacBain pòg
 # GAOL: ~
 msgid "paag_nf"
 msgstr "póg_nf"
@@ -55817,7 +55864,7 @@ msgstr "laghdaigh_v"
 msgid "paarail_n"
 msgstr "laghdú_nm"
 
-# GAOL:
+# GAOL: eng:parent
 msgid "paarant_nm"
 msgstr "tuismitheoir_nm"
 
@@ -56079,16 +56126,19 @@ msgstr "Palaistíneach_nm"
 
 # not in corpus
 # 1. copious, abundant 2. well-off, well-to-do, affluent
-# GAOL:
+# GAOL: <d palçhey_nm
 msgid "palçhagh_a"
 msgstr "flúirseach_a;saibhir_a"
 
+# see next for etym.
 # abundance, plenty; focal doiléir
-# GAOL:
+# GAOL: gd:pailteas_nm
 msgid "palçhey_nm"
 msgstr "flúirse_nf;neart_nm"
 
-# GAOL:
+# linked to gd:pailteas by MacBain
+# and alt. palçhys_nf
+# GAOL: gd:pailteas_nm
 msgid "palçhid_nf"
 msgstr "flúirse_nf"
 
@@ -56494,6 +56544,7 @@ msgstr "peadairín_nm"
 msgid "pedryl_nm"
 msgstr "peitreal_nm"
 
+# MacBain links this with gd:pìochan
 # GAOL: ~
 msgid "peeaghane_nm"
 msgstr "piachán_nm"
@@ -56716,6 +56767,7 @@ msgstr "Peiriúch_a"
 msgid "Peroovagh_nm"
 msgstr "Peiriúch_nm"
 
+# see MacBain @peiteag; == peddee?
 # GAOL:
 msgid "perree_nm"
 msgstr "veist_nf"
@@ -57101,6 +57153,7 @@ msgstr "pistil_nf"
 msgid "pistol_nm"
 msgstr "piostal_nm"
 
+# linked with gd/ga in MacBain
 # GAOL: ~
 msgid "pitt_nf"
 msgstr "pit_nf"
@@ -57397,6 +57450,7 @@ msgstr "cabaire_nm"
 msgid "plinthey_nm"
 msgstr "plionta_nm"
 
+# MacBain plùch
 # GAOL: ~
 msgid "ploogh_v"
 msgstr "plúch_v"
@@ -57429,11 +57483,17 @@ msgstr "pliúraisí_nm"
 msgid "plooreen_nm"
 msgstr "plúirín_nm"
 
-# GAOL:
-msgid "pluck_v"
-msgstr "stoith_v"
+# pimple; linked with gd in MacBain
+# GAOL: gd:plucan_nm
+msgid "plucan_nm"
+msgstr "goirín_nm"
 
-# GAOL:
+# linked to gd:pluc_v in MacBain
+# GAOL: plucáil_v
+msgid "pluck_v"
+msgstr "stoith_v;plucáil_v"
+
+# GAOL: <i pluck_v
 msgid "pluckey_n"
 msgstr "stoitheadh_nm"
 
@@ -57794,6 +57854,7 @@ msgid "ponkagh_a"
 msgstr "poncaithe_a"
 
 # "pohniar" (typo?) in Skeealaght
+# MacBain links with gd:ponach
 # GAOL:
 msgid "ponniar_nm"
 msgstr "leaid_nm"
@@ -58160,6 +58221,7 @@ msgstr "pram_nm"
 # often "cré-umha" in parallel corpus (cf ooha)
 # this is a consequence of old KJV translation as "brass" where
 # modern translations have "bronze"
+# linked to gd:prais + ga in MacBain
 # GAOL: ~
 msgid "prash_nf"
 msgstr "prás_nm"
@@ -58313,7 +58375,8 @@ msgstr "Preispitéireachas_nm"
 msgid "press-feeyney_n"
 msgstr "cantaoir fíona"
 
-# GAOL:
+# a press, cupboard; linked to gd in MacBain
+# GAOL: gd:preas
 msgid "prest_nm"
 msgstr "vardrús_nm;cóifrín_nm"
 
@@ -58458,8 +58521,9 @@ msgstr "prócarót_nm"
 msgid "promaiçhum_nm"
 msgstr "próiméitiam_nm"
 
+# see vn below for link in MacBain
 # cram, overcrowd, ram home, stuff... not in corpus
-# GAOL:
+# GAOL: gd:pronn_v
 msgid "pronn_v"
 msgstr "pulc_v;stuáil_v"
 
@@ -58467,12 +58531,13 @@ msgstr "pulc_v;stuáil_v"
 msgid "pronnag_nf"
 msgstr "ispín_nm"
 
-# GAOL:
+# MacBain links this with gd:pronn_v
+# GAOL: gd:pronnadh_nm;<i pronn_v
 msgid "pronney_nm"
 msgstr "pulcadh_nm;stuáil_nf"
 
 # stuffer
-# GAOL:
+# GAOL: <d pronn_v
 msgid "pronneyder_nm"
 msgstr "stuálaí_nm"
 
@@ -58484,7 +58549,7 @@ msgstr "seitheadóir_nm"
 msgid "pronney shehghyn_n"
 msgstr "seitheadóireacht_nf"
 
-# GAOL:
+# GAOL: <i pronn_v
 msgid "pronnit_a"
 msgstr "stuáilte_a;pluctha_a;dingthe_a"
 
@@ -58854,15 +58919,16 @@ msgstr "meamhlaigh_v"
 msgid "pyshagey_n"
 msgstr "meamhlach_nf"
 
-# GAOL:
+# MacBain @puinsean "from the English"
+# GAOL: eng:poison
 msgid "pyshoon_nm"
 msgstr "nimh_nf"
 
-# GAOL:
+# GAOL: eng:poison
 msgid "pyshoon_v"
 msgstr "nimhigh_v"
 
-# GAOL:
+# GAOL: pyshoon_nm+-(e)agh
 msgid "pyshoonagh_a"
 msgstr "nimhneach_a;nimhiúil_a;marfach_a"
 
@@ -58870,7 +58936,7 @@ msgstr "nimhneach_a;nimhiúil_a;marfach_a"
 msgid "pyshoonaght leoaie_n"
 msgstr "nimhiú ó luaidhe"
 
-# GAOL:
+# GAOL: <i pyshoon_v
 msgid "pyshooney_nm"
 msgstr "nimhiú_nm"
 
@@ -59395,6 +59461,11 @@ msgstr "ráille_nm"
 # GAOL:
 msgid "radling fendeilys_n"
 msgstr "sonnach_nm;pailis_nf"
+
+# stiff (Fargher); MacBain links with gd:rag_a
+# GAOL: gd:rag_a
+msgid "rag_a"
+msgstr "righin_a"
 
 # Fargher, de Bh. (sense 1)
 # GAOL: ~
@@ -59970,6 +60041,7 @@ msgstr "rianaigh_v"
 msgid "reeaney_nm"
 msgstr "rianú_nm"
 
+# MacBain links with ga/gd riasg
 # GAOL: riasc_nm
 msgid "reeast_nm"
 msgstr "riasc_nm;móinteach_nm"
@@ -60572,7 +60644,8 @@ msgstr "rigín_nm"
 msgid "rill_nm"
 msgstr "stualainn_nf"
 
-# GAOL:
+# MacBain links this with gd:driamlach
+# GAOL: gd:driamlach_nf
 msgid "rimlagh_nf"
 msgstr "dorú_nm"
 
@@ -60791,6 +60864,7 @@ msgstr "duine ramhar;feolamán_nm"
 msgid "roauyraghey_nm"
 msgstr "ramhrú_nm"
 
+# linked with gd/ga in MacBain @rabhart
 # GAOL: ~
 msgid "roayrt_nf"
 msgstr "rabharta_nm"
@@ -61782,6 +61856,7 @@ msgstr "cailleach_nf"
 msgid "ruightagh_a"
 msgstr "ruaigtheach_a"
 
+# linked in MacBain
 # GAOL: ~
 msgid "ruillick_nf"
 msgstr "reilig_nf"
@@ -62436,7 +62511,7 @@ msgid "sancteyr_nm"
 msgstr "sanctóir_nm"
 
 # 1. hint 2. whisper
-# cognate "sanas" means "hint" too
+# cognate "sanas" means "hint" too; linked in MacBain @sanas
 # GAOL: sanas_nm
 msgid "sannish_nf"
 msgstr "sanas_nm;cogar_nm"
@@ -62577,6 +62652,7 @@ msgstr "sais_nf"
 
 # vn of saue_v
 # usually slánú in NT
+# linked with gd/ga in MacBain
 # GAOL: sábháil_nf
 msgid "sauail_n"
 msgstr "sábháil_nf;slánú_nm"
@@ -67332,6 +67408,7 @@ msgstr "sciathán céarach"
 msgid "skiark_nm"
 msgstr "caiteachán_nm"
 
+# MacBain says this is from English skip (@sgiobag)
 # hopper, skipper, jumper
 # GAOL:
 msgid "skibbag_nf"
@@ -67345,6 +67422,7 @@ msgstr "glasóg liath"
 msgid "skibbalt_nm"
 msgstr "scioból_nm"
 
+# linked in MacBain @sgiobalta
 # GAOL: sciobalta_a
 msgid "skibbylt_a"
 msgstr "lúfar_a;aclaí_a;sciobalta_a"
@@ -68750,6 +68828,7 @@ msgstr "snaidhmthe_a"
 msgid "sniem roie_nf"
 msgstr "snaidhm reatha"
 
+# MacBain links with gd/ga
 # GAOL: ~
 msgid "sniengan_nm"
 msgstr "seangán_nm"
@@ -68784,6 +68863,11 @@ msgstr "sméideadh_nm;bogadach_nf"
 # GAOL:
 msgid "snoggeyder_nm"
 msgstr "cnagaire_nm;snag darach"
+
+# snood (as on a fishing line); cf MacBain snòd
+# GAOL: ~
+msgid "snooid_nf"
+msgstr "snúda_nm"
 
 # GAOL: ~
 msgid "snooker_nm"
@@ -69835,6 +69919,7 @@ msgstr "sóúlacht_nf"
 # Lev 11:27; er e spaagyn "on its paws" (Ir. adj spadchosach)
 # Dinneen shares senses "club foot, paw" etc for "spág"
 # 1. paw, clubfoot, etc.  2. paddle 3. club (cards)
+# MacBain links this with ga/gd in sense 1
 # GAOL: spág_nf
 msgid "spaag_nf"
 msgstr "spág_nf;céasla_nf;triuf_nm"
@@ -70071,11 +70156,13 @@ msgid "speiltey_nm"
 msgstr "sliseadh_nm;scealpadh_nm"
 
 # HLSM links "Don.Ir. spàin" (sic)
-# GAOL:
+# MacBain links with gd:spàin, and says these are from Norse spánn,
+# as opposed to ir. spúnóg which "is from the English"!
+# GAOL: gd:spàin_nf
 msgid "spein_nm"
 msgstr "spúnóg_nf"
 
-# GAOL:
+# GAOL: <d spein_nm
 msgid "spein_v"
 msgstr "úsáid spúnóg"
 
@@ -70083,7 +70170,7 @@ msgstr "úsáid spúnóg"
 msgid "spein buird_nf"
 msgstr "spúnóg bhoird"
 
-# GAOL:
+# GAOL: <i spein_v
 msgid "speiney_nm"
 msgstr "spúnóg a úsáid"
 
@@ -70871,6 +70958,7 @@ msgstr "stáplóir_nm"
 msgid "steelys_nm"
 msgstr "stíleas_nm"
 
+# MacBain links this to gd:stìd "peep" (vn, Dwelly only)
 # GAOL:
 msgid "steetagh_a"
 msgstr "sleamhain_a;slítheánta_a"
@@ -72358,6 +72446,7 @@ msgstr "caint_nf;comhrá_nm;agallamh_nm"
 msgid "tagglooagh_a"
 msgstr "cainteach_a"
 
+# link in MacBain
 # GAOL: gd:tachair_v
 msgid "taghyr_v"
 msgstr "tarlaigh_v"
@@ -73474,6 +73563,7 @@ msgid "theillagh_a"
 msgstr "aolmhar_a"
 
 # vn of next; no cognate?
+# MacBain has "tennue" (alt of this) linked with gd:tainneamh
 # GAOL:
 msgid "theinniu_nm"
 msgstr "coscairt_nf"
@@ -76136,7 +76226,8 @@ msgid "truh_nm"
 msgstr "triuch_nm"
 
 # Ir. alt spellings druideog, truideog
-# GAOL:
+# MacBain links this with gd/ga druid_nf
+# GAOL: ~
 msgid "truitlag_nf"
 msgstr "druid_nf"
 
