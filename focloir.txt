@@ -1380,6 +1380,7 @@ baaie_nf	0	0	baie_nf
 baaieagh_nm	0	0	0
 baaish_nf	0	0	0
 baanragh_a	0	0	0
+baanrey_nm	0	1	baanrid_nm
 baanreydagh_a	0	0	0
 baanreydagh_nm	0	0	0
 baanrid_nm	0	0	0
@@ -1610,6 +1611,7 @@ barney veill_nf	0	0	0
 baromeadragh_a	0	0	0
 baron_nm	0	0	barran_nm
 baroose_nm	0	0	barroose_nm
+barouche_nm	0	0	barroose_nm
 barr_nm	0	barraghyn	0
 barr1_nm	0	0	barr_nm
 barrag_nf	0	0	0
@@ -1677,6 +1679,7 @@ bastal_n	0	0	0
 basyn_nm	0	0	0
 bath_nm	0	0	0
 batteyder_nm	0	0	0
+baulk_nm	0	0	0
 Baveyr_nf	0	1	0
 Baveyragh_a	0	0	0
 Baveyragh_nm	0	0	0

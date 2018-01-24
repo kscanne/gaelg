@@ -5017,7 +5017,8 @@ msgstr "athair céile"
 msgid "baa_nm"
 msgstr "póigín_nm"
 
-# GAOL:
+# HLSM links Ir. beathach which is an alt of beithíoch in FGB
+# GAOL: beithíoch_nm
 msgid "baagh_nm"
 msgstr "beithíoch_nm;ainmhí_nm"
 
@@ -5059,10 +5060,13 @@ msgstr "fanaiceach_a"
 msgid "baanreydagh_nm"
 msgstr "fanaiceach_nm"
 
+# also alt baanrey_nm
 # GAOL:
 msgid "baanrid_nm"
 msgstr "báiní_nf;buile_nf"
 
+# HLSM only says "cf. OIr. banrád?" (which eDIL defines as ben+rád:
+# women's talk, prattle, etc.)
 # GAOL:
 msgid "baanrit_a"
 msgstr "le báiní;craiceáilte_a"
@@ -5072,22 +5076,24 @@ msgid "baanrys_nm"
 msgstr "gealtacht_nf"
 
 # 1.spend, expend (vn baarail)  2. shave (vn baarey)
-# GAOL: bearr_v
+# for first sense, HLSM links E. "wear"
+# GAOL: eng:wear;bearr_v
 msgid "baar_v"
 msgstr "caith_v;bearr_v"
 
-# GAOL:
+# GAOL: eng:wear
 msgid "baarail_nm"
 msgstr "caitheamh_nm"
 
-# GAOL:
+# GAOL: <d barrail_nm
 msgid "baarailagh_a"
 msgstr "diomailteach_a;róchaifeach_a"
 
-# GAOL:
+# GAOL: <d barrail_nm
 msgid "baarailagh_nm"
 msgstr "baothchaiteoir_nm;diomailteoir_nm"
 
+# HLSM: "Ir. bárr"
 # GAOL: ~
 msgid "baare_nm"
 msgstr "barr_nm"
@@ -5104,6 +5110,7 @@ msgstr "barrán_nm"
 msgid "baarey_nm"
 msgstr "bearradh_nm"
 
+# HLSM links Ir. bearradóir which is an alt of bearrthóir in FGB
 # GAOL: ~
 msgid "baareyder_nm"
 msgstr "bearrthóir_nm"
@@ -5116,18 +5123,19 @@ msgstr "bearradh gruaige"
 msgid "baarium_nm"
 msgstr "bairiam_nm"
 
-# GAOL: ~
+# GAOL: <d Baarle_nf
 msgid "Baarlagh_a"
 msgstr "Béarla"
 
-# GAOL:
+# GAOL: Baarlagh_a+Yernish_nf
 msgid "Baarlagh-Yernish_a"
 msgstr "Béarla-Gaeilge"
 
-# GAOL: ~
+# GAOL: ~;Baarlagh_a+-ys
 msgid "Baarlaghys_nm"
 msgstr "Béarlachas_nm"
 
+# HLSM
 # GAOL: ~
 msgid "Baarle_nf"
 msgstr "Béarla_nm"
@@ -5140,6 +5148,7 @@ msgstr "Albainis_nf"
 msgid "Baarleyr_nm"
 msgstr "Béarlóir_nm"
 
+# limpet; in HLSM as "barnagh" (with gd cognate)
 # GAOL: ~
 msgid "baarnagh_nf"
 msgstr "bairneach_nm"
@@ -5149,11 +5158,12 @@ msgstr "bairneach_nm"
 msgid "baarnaghey_nm"
 msgstr "dul ar gcúl"
 
+# HLSM
 # GAOL: ~
 msgid "baase_nm"
 msgstr "bás_nm"
 
-# GAOL: ~
+# GAOL: bás_nm
 msgid "Baase_nm"
 msgstr "Bás_nm"
 
@@ -5166,6 +5176,7 @@ msgstr "marfach_a"
 msgid "baasoilid_nm"
 msgstr "básmhaireacht_nf"
 
+# HLSM
 # GAOL: ~
 msgid "baatey_nm"
 msgstr "bád_nm"
@@ -5214,6 +5225,7 @@ msgstr "bád iomartha"
 msgid "bab_nm"
 msgstr "báb_nf"
 
+# HLSM (in phrase)
 # GAOL: bábán_nm
 msgid "babban_nm"
 msgstr "babaí_nm;bábóg_nf;bábán_nm"
@@ -5264,6 +5276,7 @@ msgstr "bac_nm"
 msgid "bac aer_n"
 msgstr "aerbhac_nm"
 
+# HLSM
 # GAOL: ~
 msgid "baccagh_a"
 msgstr "bacach_a"
@@ -5280,7 +5293,8 @@ msgstr "bacaí_nf;bacadaíl_nf"
 msgid "bacilleen_nm"
 msgstr "bachaillín_nm"
 
-# GAOL:
+# HLSM
+# GAOL: eng:back
 msgid "back_adv"
 msgstr "ar ais"
 
@@ -5322,6 +5336,7 @@ msgstr "bagair_v"
 msgid "baggyrey_nm"
 msgstr "bagróir_nm"
 
+# HLSM
 # GAOL: ~
 msgid "baggyrt_nm"
 msgstr "bagairt_nf"
@@ -5363,6 +5378,7 @@ msgid "baghtag_nf"
 msgstr "nóta_nm"
 
 # false friend
+# HLSM analyses as b' + gd:achd + -ail
 # GAOL:
 msgid "baghtal_a"
 msgstr "soiléir_a"
@@ -5377,6 +5393,7 @@ msgstr "bagún_nm"
 
 # bay, haven; this is the first of two Irish senses for "bá_nf";
 # other one is "sympathy"; *don't* include a 1 here...
+# HLSM links gd:bàgh
 # GAOL: bá1_nf
 msgid "baie_nf"
 msgstr "bá_nf"
@@ -5394,6 +5411,7 @@ msgstr "báfhuinneog_nf"
 msgid "baighey_nm"
 msgstr "bá_nm"
 
+# HLSM
 # GAOL: ~
 msgid "baih_v"
 msgstr "báigh_v"
@@ -5402,6 +5420,7 @@ msgstr "báigh_v"
 msgid "baiheyder argid_n"
 msgstr "infheisteoir_nm"
 
+# HLSM
 # GAOL: ~
 msgid "baiht_a"
 msgstr "báite_a"
@@ -5415,6 +5434,7 @@ msgstr "bail_nf"
 msgid "bainnagh_a"
 msgstr "bainniúil_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bainney_nm"
 msgstr "bainne_nm"
@@ -5492,6 +5512,7 @@ msgstr "ballasta_nm"
 msgid "ballay_nm"
 msgstr "bailé_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "balley_nm"
 msgstr "baile_nm"
@@ -5532,6 +5553,7 @@ msgstr "balaistíocht_nf"
 msgid "ballister_nm"
 msgstr "balastar_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "balloo_a"
 msgstr "balbh_a"
@@ -5584,6 +5606,7 @@ msgstr "baincéireacht_nf"
 msgid "banc-vrisht_a"
 msgstr "bancbhriste_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bane_a"
 msgstr "bán_a"
@@ -5626,6 +5649,7 @@ msgstr "bánghorm_a"
 msgid "banegloagh_nm"
 msgstr "bánghlóthach_nf"
 
+# HLSM
 # GAOL: ~
 msgid "baneid_nm"
 msgstr "báine_nf"
@@ -5650,15 +5674,18 @@ msgstr "Banglaidéis_nf"
 msgid "banglanagh_a"
 msgstr "beangánach_a"
 
+# also spelled bangan (Ir. also has beangán and beanglán, both
+# given as cognates, respectively, in HLSM)
 # GAOL: beangán_nm
 msgid "banglane_nm"
 msgstr "beangán_nm;géag_nf;craobh_nf"
 
-# GAOL:
+# GAOL: beangánach_a;banglane_nm+-(e)agh
 msgid "banglaneagh_a"
 msgstr "craobhach_a;géagach_a"
 
-# GAOL:
+# HLSM links (rare) gd:bainnseach (== Ir. báinseach?)
+# GAOL: báinseach_nf
 msgid "banjagh_nf"
 msgstr "branar_nm;bán_nm"
 
@@ -5674,6 +5701,7 @@ msgstr "banna_nm;banda_nm"
 msgid "bannag_nf"
 msgstr "bailéad_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bannaght_nf"
 msgstr "beannacht_nf"
@@ -5695,6 +5723,7 @@ msgstr "beannaithe_a"
 msgid "bannee_v"
 msgstr "beannaigh_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bannish_nf"
 msgstr "bainis_nf"
@@ -5816,6 +5845,7 @@ msgstr "bearnach_a"
 msgid "barnaghey_nm"
 msgstr "bearnú_nm"
 
+# alt baarney is in HLSM, links Ir. beárna
 # GAOL: ~
 msgid "barney_nf"
 msgstr "bearna_nf"
@@ -5829,6 +5859,7 @@ msgid "baromeadragh_a"
 msgstr "baraiméadrach_a"
 
 # strictly a f.f. but context should be clear
+# HLSM, from English "bar"
 # GAOL: ~
 msgid "barr_nm"
 msgstr "barra_nm"
@@ -5841,6 +5872,7 @@ msgstr "sobal_nm;uachtar_nm"
 msgid "barragagh_a"
 msgstr "cúránach_a"
 
+# HLSM cognates
 # GAOL: ~
 msgid "barragh_nf"
 msgstr "barrach_nm"
@@ -5853,8 +5885,10 @@ msgstr "bairéad_nm"
 msgid "barran_nm"
 msgstr "barún_nm"
 
-# parallel corpus
-# GAOL:
+# dicts: confidence, reliance, voucher, warrant
+# parallel corpus => muinín
+# HLSM "Ir. baránta"
+# GAOL: baránta_nm
 msgid "barrant_nm"
 msgstr "muinín_nf"
 
@@ -5879,6 +5913,7 @@ msgstr "barántúlacht_nf"
 msgid "barrant-shirree_nm"
 msgstr "barántas cuardaigh"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "barrantys_nm"
 msgstr "barántas_nm"
@@ -5900,9 +5935,9 @@ msgstr "sneaicbheár_nm"
 msgid "barrey queeylagh_n"
 msgstr "bara rotha"
 
-# != Ir. barraíocht (excess, surplus, etc.) => false friend
+# != Ir. cognate barraíocht (excess, surplus, etc.) => false friend
 # pl ok in gv (tree ~yn = "hat trick")
-# GAOL:
+# GAOL: barraíocht_nf
 msgid "barriaght_nf"
 msgstr "bua_nm"
 
@@ -5925,15 +5960,18 @@ msgstr "beairic_nf"
 msgid "barril_nm"
 msgstr "bairille_nm"
 
+# alt spelling barouche in HLSM, which says it's from Fr. but
+# the English word is from Latin via German
 # focal doiléir
-# GAOL:
+# GAOL: eng:barouche
 msgid "barroose_nm"
 msgstr "bus_nm"
 
-# bundle, parcel, etc.  1st sense of beart_nm in GA (don't include a 1!)
+# bundle, parcel, etc.  1st sense of beart_nm in GA
+# HLSM cognates
 # GAOL: ~
 msgid "bart_nm"
-msgstr "beart_nm"
+msgstr "beart1_nm"
 
 # GAOL: ~
 msgid "bartagh_a"
@@ -5992,14 +6030,17 @@ msgstr "bastall_nm"
 msgid "bashtee_a"
 msgstr "baistí_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bashtey_nm"
 msgstr "baisteadh_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bashtit_a"
 msgstr "baiste"
 
+# cognates in HLSM
 # parallel corpus
 # GAOL: ~
 msgid "bass_nf"
@@ -6056,6 +6097,12 @@ msgstr "folcadán_nm"
 msgid "batteyder_nm"
 msgstr "slacaí_nm"
 
+# long line for fishing
+# HLSM says this is from English, but what?
+# GAOL:
+msgid "baulk_nm"
+msgstr "spiléar_nm"
+
 # GAOL: ~
 msgid "Baveyr_nf"
 msgstr "Baváir_nf"
@@ -6072,6 +6119,7 @@ msgstr "Bavárach_nm"
 msgid "baylee_nm"
 msgstr "báille_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bayr_nm"
 msgstr "bóthar_nm"
@@ -6089,6 +6137,7 @@ msgstr "mótarbhealach_nm"
 msgid "bayr mooar_n"
 msgstr "mórbhóthar_nm;bóthar mór"
 
+# in HLSM but no etymology
 # GAOL:
 msgid "bayrn_nm"
 msgstr "bairéad_nm"
@@ -6109,6 +6158,7 @@ msgstr "béasa_a"
 msgid "baysh_nm"
 msgstr "béas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bea_nf"
 msgstr "beatha_nf"
@@ -6138,6 +6188,7 @@ msgstr "maireachtáil_nf;beathú_nm"
 msgid "beagyl_n"
 msgstr "bathlach_nm"
 
+# HLSM says from Middle Eng.
 # GAOL: ~
 msgid "beam_nm"
 msgstr "bíoma_nm"
@@ -6170,6 +6221,7 @@ msgstr "buaircíneach_a"
 msgid "bearkanagh_nm"
 msgstr "buaircíneach_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "beasagh_a"
 msgstr "béasach_a"
@@ -8954,10 +9006,10 @@ msgstr "Brasaíl_nf"
 msgid "brastyl_nm"
 msgstr "rang_nm"
 
-# mantle, cloak; first sense of brat_nm in FGB (don't include 1 here)
+# mantle, cloak; first sense of brat_nm in FGB
 # GAOL: ~
 msgid "brat_nf"
-msgstr "brat_nm"
+msgstr "brat1_nm"
 
 # GAOL:
 msgid "brat-chooyl_nf"
@@ -11894,11 +11946,11 @@ msgstr "cairpéad_nm"
 msgid "carpallagh_a"
 msgstr "carpasach_a"
 
-# msgstr contains 1st of two "carr_nm" senses in IG; don't include "1" here
+# msgstr contains 1st of two "carr_nm" senses in IG
 # gv also means "melody, tune"; one example in Skeealaght
 # GAOL: carr_nm
 msgid "carr_nm"
-msgstr "carr_nm;port1_nm"
+msgstr "carr1_nm;port1_nm"
 
 # GAOL: ~
 msgid "carraboo_nm"
@@ -33429,10 +33481,10 @@ msgstr "cinéimitic_nf"
 msgid "gleashiddagh_a"
 msgstr "cinéiteach_a"
 
-# 1st of two "carr_nm" senses in IG; don't include "1" here
+# 1st of two "carr_nm" senses in IG
 # GAOL: gluaisteán_nm
 msgid "gleashtan_nm"
-msgstr "gluaisteán_nm;carr_nm"
+msgstr "gluaisteán_nm;carr1_nm"
 
 # GAOL:
 msgid "gleashtan eillit_n"
@@ -41869,10 +41921,10 @@ msgstr "mar gheall ar"
 msgid "kyndid_nm"
 msgstr "ciontacht_nf"
 
-# affection, love; 1st sense of cion_nm in IG - don't include "1"!
+# affection, love; 1st sense of cion_nm in IG
 # GAOL: ~
 msgid "kynn_nm"
-msgstr "cion_nm"
+msgstr "cion1_nm"
 
 # GAOL: ciníoch_a
 msgid "kynneeagh_a"
@@ -44641,10 +44693,10 @@ msgid "lhuss-ny-moal-moirrey_nm"
 msgstr "lus na míol mór"
 
 # níl ~ agam ar = cha vel ~ aym er; "likeness, fondness"
-# 1st sense of cion_nm in IG - don't include "1"!
+# 1st sense of cion_nm in IG
 # GAOL:
 msgid "liaee_nm"
-msgstr "cion_nm"
+msgstr "cion1_nm"
 
 # GAOL: ~
 msgid "Liam_nm"
@@ -51377,10 +51429,10 @@ msgstr "miontuairiscí"
 msgid "myn-ingagh_nm"
 msgstr "mioneangach_nf"
 
-# bundle, parcel, etc.  1st sense of beart_nm in GA (don't include a 1!)
+# bundle, parcel, etc.  1st sense of beart_nm in GA
 # GAOL:
 msgid "mynjeig_nf"
-msgstr "beart_nm;pacáiste_nm"
+msgstr "beart1_nm;pacáiste_nm"
 
 # GAOL: ~
 msgid "mynlagh_nm"
