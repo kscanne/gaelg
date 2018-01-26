@@ -201,6 +201,11 @@ msgstr "athlas_v"
 msgid "aafoaddey_n"
 msgstr "athlasadh_nm"
 
+# HLSM
+# GAOL: aa-+ee_nm
+msgid "aa-gee_nm"
+msgstr "ithe arís"
+
 # GAOL:
 msgid "aagherr_v"
 msgstr "athghair_v"
@@ -263,6 +268,11 @@ msgstr "éadomhain_a"
 # GAOL:
 msgid "aaght_nm"
 msgstr "aíocht_nf;lóistín_nm"
+
+# HLSM
+# GAOL: aa-+iu_nm
+msgid "aa-giu_nm"
+msgstr "ól arís"
 
 # ford
 # GAOL: ~
@@ -3003,7 +3013,8 @@ msgid "ard-chuishley_nm"
 msgstr "aorta_nm"
 
 # from parallel corpus
-# GAOL:
+# HLSM has alt spelling ard-ghooinney, links ard- + duine of course
+# GAOL: ard_a+dooinney_nm
 msgid "ard-dooinney_nm"
 msgstr "uachtarán_nm;taoiseach_nm"
 
@@ -3774,6 +3785,11 @@ msgstr "torcán craobhach"
 # HLSM
 # GAOL: arkan_nm+sonney_a
 msgid "arkan-sonney_nm"
+msgstr "gráinneog_nf"
+
+# HLSM
+# GAOL: arkan_nm+mollagh_a
+msgid "arkan-vollagh_nm"
 msgstr "gráinneog_nf"
 
 # parallel corpus
@@ -6248,6 +6264,11 @@ msgstr "beathaisnéiseach_a"
 msgid "bea-skeeal_nf"
 msgstr "beathaisnéis_nf"
 
+# HLSM only: "beating", from Eng.
+# GAOL: eng:beat
+msgid "beatal_n"
+msgstr "bualadh_nm"
+
 # plankton
 # GAOL: ~
 msgid "bea varrey_n"
@@ -6257,6 +6278,7 @@ msgstr "beatha mhara"
 msgid "beayf_nm"
 msgstr "buaf_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "beayn_a"
 msgstr "buan_a"
@@ -6269,6 +6291,7 @@ msgstr "buanchuimhne_nf"
 msgid "beaynchrooagh_a"
 msgstr "buanchruthach_a"
 
+# cognates in HLSM (pl.)
 # GAOL: ~
 msgid "beaynee_nm"
 msgstr "buanaí_nm"
@@ -6281,7 +6304,8 @@ msgstr "buanseasmhach_a"
 msgid "beayn-hassooaght_nf"
 msgstr "buanseasmhacht_nf"
 
-# GAOL: ~
+# HLSM; beayn+id
+# GAOL: ~;beayn_a+-id
 msgid "beaynid_nm"
 msgstr "buaine_nf"
 
@@ -6305,6 +6329,7 @@ msgstr "Beidiúnach_a"
 msgid "Bedjoonagh_nm"
 msgstr "Beidiúnach_nm"
 
+# HLSM
 # GAOL: ~
 msgid "bee_nm"
 msgstr "bia_nm"
@@ -6317,7 +6342,7 @@ msgstr "bí_v"
 msgid "beeagheyder_nm"
 msgstr "beathaitheoir_nm"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "beeal_nm"
 msgstr "béal_nm"
@@ -6356,8 +6381,10 @@ msgstr "béalscaoilte_a"
 msgid "beealeragh_nm"
 msgstr "béalastán_nm"
 
+# HLSM links MIr. bélairecht
 # prattling, talkativeness
-# GAOL:
+# Ir. béalaireacht = "oral tradition", so sort of a f.f. (though Ir is rare)
+# GAOL: béalaireacht_nf
 msgid "beealeraght_nf"
 msgstr "cabaireacht_nf"
 
@@ -6463,11 +6490,13 @@ msgstr "biatas_nm"
 msgid "beeviandagh_a"
 msgstr "blasta_a"
 
+# HLSM has alt beiyht_a == biata
 # fatted (e.g. Bible w/ spelling beeit_a "fatted calf", etc.)
 # GAOL: biata_a
 msgid "beeyt_a"
 msgstr "beathaithe_a;biata_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "beg_a"
 msgstr "beag_a"
@@ -6481,10 +6510,12 @@ msgstr "beagintinneach_a"
 msgid "beg-chummaghtagh_a"
 msgstr "beagchumhachtach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "beggan_adv"
 msgstr "beagán_adv"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "beggan_nm"
 msgstr "beagán_nm"
@@ -6542,6 +6573,7 @@ msgstr "béil;bhéil"
 msgid "bein_nm"
 msgstr "broghais_nf"
 
+# HLSM in phrase ~ ny straidey
 # GAOL: ~
 msgid "beinn_nm"
 msgstr "binn_nf"
@@ -6555,6 +6587,7 @@ msgid "beisagh_nm"
 msgstr "dordveidhleadóir_nm"
 
 # pl form in idiom: "ny beishtyn aym" = "I have a toothache"
+# HLSM cognates
 # GAOL: béist_nf
 msgid "beisht_nf"
 msgstr "béist_nf;beithíoch_nm;ainmhí_nm"
@@ -6572,6 +6605,7 @@ msgstr "béistiúlacht_nf"
 msgid "beishteen_nm"
 msgstr "péistín_nm"
 
+# HLSM cognates
 # GAOL: péisteog_nf
 msgid "beishteig_nf"
 msgstr "péisteog_nf;péist_nf"
@@ -6632,7 +6666,7 @@ msgstr "Beilgeach_nm"
 msgid "Belgraaid_nf"
 msgstr "Béalgrád_nm"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "ben_nf"
 msgstr "bean_nf"
@@ -6658,7 +6692,9 @@ msgstr "cailín_nm"
 msgid "benaeglagh_nf"
 msgstr "banóglach_nm"
 
-# GAOL:
+# cf mainshtyr_nm
+# HLSM links "bean-mhaighistir"
+# GAOL: ben_nf+mainshtyr_nm
 msgid "benainshtyr_nf"
 msgstr "máistreás_nf"
 
@@ -6758,6 +6794,7 @@ msgstr "bean gan smál"
 msgid "ben harvaant_nf"
 msgstr "banseirbhíseach_nm"
 
+# HLSM @ben
 # cf sheshey
 # GAOL:
 msgid "ben-heshey_nf"
@@ -6794,6 +6831,7 @@ msgstr "ladhrálaí_nm"
 msgid "ben oainjyragh_nf"
 msgstr "meirdreach_nf"
 
+# HLSM: "landlady"!
 # GAOL:
 msgid "ben-oast_nf"
 msgstr "striapach_nf"
@@ -6839,6 +6877,7 @@ msgstr "bean chabhrach;bean ghlúine"
 msgid "ben reill_nf"
 msgstr "máistreás_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "benrein_nf"
 msgstr "banríon_nf"
@@ -6879,10 +6918,12 @@ msgstr "banstiúrthóir_nm"
 msgid "ben-thie_nf"
 msgstr "bean tí"
 
+# HLSM cognates
 # GAOL: ~
 msgid "ben-treoghe_nf"
 msgstr "baintreach_nf"
 
+# HLSM links close cognate gd:beantainn (so in turn baint_nf)
 # GAOL: ~
 msgid "bentyn_n"
 msgstr "baint_nf"
@@ -6945,16 +6986,18 @@ msgstr "cinniúnaí_nm"
 msgid "beoyneydys_nm"
 msgstr "cinniúnachas_nm"
 
-# GAOL:
+# HLSM links gd cognate, link that and worry about it there
+# GAOL: gd:beairteach_a
 msgid "berçhagh_a"
 msgstr "saibhir_a"
 
 # noun and adj. in Ir.
-# GAOL:
+# GAOL: <d berçhagh_a
 msgid "berçhagh_nm"
 msgstr "saibhir_nm"
 
-# GAOL:
+# see notes w/ berçhagh_a
+# GAOL: beairteas_nm
 msgid "berçhys_nf"
 msgstr "saibhreas_nm"
 
@@ -6971,6 +7014,7 @@ msgid "Berleen_nm"
 msgstr "Beirlín_nf"
 
 # with "ar" in both langs; "overtake"
+# HLSM @ berrey
 # GAOL: ~
 msgid "berr_v"
 msgstr "beir_v"
@@ -6981,6 +7025,8 @@ msgid "berraghtyn_nm"
 msgstr "breith_nf"
 
 # parallel corpus
+# HLSM notes alt spelling berree_nf is a back-formation
+# and also gives bairghean (alt of bairín) as cognate
 # GAOL: bairín_nm
 msgid "berreen_nf"
 msgstr "cáca_nm;toirtín_nm;bairín_nm"
@@ -6989,7 +7035,8 @@ msgstr "cáca_nm;toirtín_nm;bairín_nm"
 msgid "berreman_nm"
 msgstr "adhastar_nm"
 
-# GAOL:
+# HLSM links Eng. plural berries "taken as sing."
+# GAOL: eng:berries
 msgid "berrish_nf"
 msgstr "caor_nf"
 
@@ -7025,6 +7072,7 @@ msgstr "gealltóir_nm"
 msgid "bevyl_nm"
 msgstr "beibheal_nm"
 
+# cognates in HLSM
 # spit (roasting); cf "birr"
 # GAOL: ~
 msgid "bher_nm"
@@ -7063,6 +7111,7 @@ msgstr "géillsineach_nm"
 msgid "biallagh da'n leigh_a"
 msgstr "géilliúil don dlí;umhal don dlí"
 
+# HLSM: "ME. 'obey' w. ail w. eas"
 # GAOL:
 msgid "biallys_nm"
 msgstr "géilleadh_nm;umhlaíocht_nf"
@@ -7071,7 +7120,8 @@ msgstr "géilleadh_nm;umhlaíocht_nf"
 msgid "bibbernee_nm"
 msgstr "crith_nm"
 
-# GAOL:
+# HLSM: from English
+# GAOL: ~
 msgid "bible_nf"
 msgstr "Bíobla_nm"
 
@@ -7087,7 +7137,8 @@ msgstr "mear_a;tapa_a"
 msgid "bieau chassagh_a"
 msgstr "luathchosach_a"
 
-# GAOL:
+# HLSM based on bieau <-> beo
+# GAOL: bieau_a+-id
 msgid "bieauid_nf"
 msgstr "luas_nm"
 
@@ -7107,6 +7158,7 @@ msgstr "billéad_nm"
 msgid "billagh_a"
 msgstr "coillteach_a"
 
+# tree sense in HLSM
 # focal doiléir
 # 1. tree 2. bill (legislation); several examples of #2 in corpus
 # GAOL: bile_nm;bille_nm
@@ -7226,11 +7278,12 @@ msgstr "billiún_nm"
 msgid "billy yn tweet_n"
 msgstr "riabhóg mhóna"
 
-# GAOL:
+# HLSM says cognate with Ir. bainne
+# GAOL: bainne_nm
 msgid "bine_nm"
 msgstr "braon_nm"
 
-# GAOL:
+# GAOL: bine_nm+-een
 msgid "bineen_nm"
 msgstr "braonán_nm"
 
@@ -7262,9 +7315,14 @@ msgstr "roghchoiste_nm"
 msgid "bing vaaish_nf"
 msgstr "ionchoisne_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bingys_nf"
 msgstr "binneas_nm"
+
+# GAOL: bingys_nf+-(e)agh
+msgid "bingyssagh_a"
+msgstr "binn_a"
 
 # GAOL:
 msgid "binjean_nf"
@@ -7274,6 +7332,7 @@ msgstr "iógart_nm;gruth_nm"
 msgid "binjit_a"
 msgstr "gruthach_a"
 
+# HLSM: from Eng dialect
 # GAOL: ~
 msgid "bink_nf"
 msgstr "binse_nm"
@@ -7291,6 +7350,7 @@ msgstr "binid_nf"
 msgid "binsh_nm"
 msgstr "binse_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bio_a"
 msgstr "beo_a"
@@ -7345,11 +7405,12 @@ msgstr "beobhreitheach_a"
 msgid "bioyr_a"
 msgstr "beoga_a"
 
-# GAOL: ~
+# GAOL: ~;bioyr_a+-id
 msgid "bioyrid_nm"
 msgstr "beogacht_nf"
 
-# GAOL:
+# HLSM links Ir. beodhas, alt of beocht in FGB
+# GAOL: beocht_nf
 msgid "bioys_n"
 msgstr "beatha_nf;anam_nm"
 
@@ -7395,6 +7456,7 @@ msgstr "géarán_nm"
 msgid "birrag eeackle_nf"
 msgstr "bior fiacla_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "birragh_a"
 msgstr "biorach_a"
@@ -7432,6 +7494,7 @@ msgstr "bícéips_nf"
 msgid "bishagh_nm"
 msgstr "biseach_nm"
 
+# HLSM "cf biseach"
 # GAOL: bisiú_nm
 msgid "bishaghey_nm"
 msgstr "bisiú_nm;méadú_nm"
@@ -7469,6 +7532,11 @@ msgstr "briosca_nm"
 msgid "bismut_nm"
 msgstr "biosmat_nm"
 
+# HLSM
+# GAOL: eng:bit
+msgid "bit_nm"
+msgstr "giota_nm"
+
 # 1. bait 2. wick (candle)
 # GAOL: baoite_nm
 msgid "bite_nm"
@@ -7479,7 +7547,7 @@ msgstr "baoite_nm;buaiceas_nm"
 msgid "bitumenagh_a"
 msgstr "biotúmanach_a"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "blaa_nm"
 msgstr "bláth_nm"
@@ -7525,8 +7593,9 @@ msgstr "caoróg léana;caoróg mhara;lus na gile"
 msgid "blaa vreck_a"
 msgstr "bláthbhreac_a"
 
+# HLSM links gd
 # false friend (same as gd blàth_a)
-# GAOL:
+# GAOL: gd:blàth_a
 msgid "blah_a"
 msgstr "bogthe_a"
 
@@ -7584,6 +7653,7 @@ msgstr "blastán_nm"
 msgid "blassteyder_nm"
 msgstr "blastóir_nm"
 
+# HLSM
 # GAOL: ~
 msgid "blasstyn_nm"
 msgstr "blaiseadh_nm"
@@ -7608,6 +7678,7 @@ msgstr "bléineasna_nf"
 # MacBain links "Manx pleayse" (pleayst?) with ga/gd:plaosg
 # and in same entry says "Seemingly blaosg is another form
 # (Manx bleayst, Middle Irish blaesc, Welsh blisg)"
+# HLSM links blaosc
 # GAOL: ~
 msgid "bleayst_nf"
 msgstr "blaosc_nf"
@@ -7641,6 +7712,7 @@ msgstr "crotal cnó"
 msgid "bleaystee_v"
 msgstr "scil_v"
 
+# pp. in HLSM, no etym.
 # GAOL:
 msgid "bleaystey_nm"
 msgstr "pléascadh_nm"
@@ -7649,10 +7721,12 @@ msgstr "pléascadh_nm"
 msgid "bleaysteyder_nm"
 msgstr "maidhmitheoir_nm"
 
+# HLSM has "?ScG. blob" (which means 'blubber-lip')
 # GAOL:
 msgid "bleb_nm"
 msgstr "amadán_nm"
 
+# HLSM has alt sp blebban, no etym.
 # GAOL:
 msgid "blebbin_nm"
 msgstr "breallán_nm"
@@ -7682,15 +7756,20 @@ msgstr "blianacht_nf"
 msgid "bleeanaghteyr_nm"
 msgstr "blianachtóir_nm"
 
+# also beihll
+# vn of next
+# also a second sense "~ dy X" - a poor X, unskilled X
+# HLSM has this second sense with spelling "bleie"
 # GAOL:
 msgid "bleih_nm"
-msgstr "meilt_nf"
+msgstr "meilt_nf;útamálaí_nm"
 
+# also beihll
 # GAOL:
 msgid "bleih_v"
 msgstr "meil_v"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "blein_nf"
 msgstr "bliain_nf"
@@ -7724,6 +7803,7 @@ msgstr "blonag_nf"
 msgid "blest_nm"
 msgstr "bleaist_nf;gaoth_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "blieaun_nm"
 msgstr "bleán_nm"
@@ -7793,6 +7873,12 @@ msgstr "blag_nm"
 msgid "bloggal_nm"
 msgstr "blagáil_nf"
 
+# coalfish
+# HLSM has this with sp blockan (no etym.)
+# GAOL: ~
+msgid "bloghan_nm"
+msgstr "blocán_nm"
+
 # cf blennick
 # GAOL: ~
 msgid "blonnag_nf"
@@ -7853,11 +7939,13 @@ msgstr "blurba_nm"
 msgid "boaddagh_nm"
 msgstr "bodach_nm"
 
-# GAOL:
+# HLSM cognates
+# GAOL: ~
 msgid "Boaldyn_nf"
 msgstr "Bealtaine_nf"
 
 # wall
+# cognates in HLSM
 # GAOL: ~
 msgid "boalley_nm"
 msgstr "balla_nm"
@@ -7886,6 +7974,7 @@ msgstr "daingean_a"
 msgid "boanderey_nm"
 msgstr "altra_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "boandey_nm"
 msgstr "banda_nm"
@@ -7898,8 +7987,9 @@ msgstr "leathanbhanda_nm"
 msgid "boandey-rubbyr_nm"
 msgstr "banda rubair"
 
+# cognates in HLSM
 # (female) nurse - Fargher
-# GAOL:
+# GAOL: ~
 msgid "boandyr_nf"
 msgstr "banaltra_nf"
 
@@ -7908,8 +7998,9 @@ msgstr "banaltra_nf"
 msgid "boandyr_v"
 msgstr "feighil_v"
 
+# linked in HLSM
 # vn. of prev., but also more generally "nursing" (profession)
-# GAOL:
+# GAOL: banaltracht_nf
 msgid "boandyrys_n"
 msgstr "feighil_nf;banaltracht_nf"
 
@@ -8034,6 +8125,7 @@ msgstr "garrán préachán"
 msgid "boayneyder_nm"
 msgstr "cliathánaí_nm"
 
+# cognates in HLSM
 # GAOL: bord_nm
 msgid "boayrd_nm"
 msgstr "bord_nm;clár_nm"
@@ -8083,6 +8175,10 @@ msgstr "clár scóir"
 msgid "boayrd yn ushtey_n"
 msgstr "slat boird;gunail_nf"
 
+# GAOL: eng:bobby
+msgid "bobbee_nm"
+msgstr "garda_nm"
+
 # to herd; only reasonable lexical verb in Ir.
 # GAOL:
 msgid "bochil_v"
@@ -8094,12 +8190,14 @@ msgid "bochillagh_a"
 msgstr "tréadach_a"
 
 # vn of bochil; parallel corpus
+# also spelled with -t
 # GAOL: buachailleacht_nf
 msgid "bochillagh_nm"
 msgstr "aoireacht_nf;buachailleacht_nf"
 
 # cognate with buachaill, but leave that out of msgstr
 # since I prefer the narrower translations; false friend for this reason
+# also spelled bochill (HLSM)
 # GAOL: buachaill_nm
 msgid "bochilley_nm"
 msgstr "tréadaí_nm;aoire_nm"
@@ -8118,6 +8216,7 @@ msgstr "buachaill bó"
 msgid "bochilley muickey_n"
 msgstr "muicí_nm"
 
+# cognates in HLSM
 # GAOL: boc_nm
 msgid "bock_nm"
 msgstr "boc_nm;poc_nm"
@@ -8156,7 +8255,8 @@ msgstr "bodach_nm"
 msgid "boddaght_nf"
 msgstr "bodúlacht_nf"
 
-# GAOL:
+# HLSM links gd:baideal (for which see gd2ga for discussion)
+# GAOL: gd:baideal_nm
 msgid "bodjal_nm"
 msgstr "néal_nm;scamall_nm"
 
@@ -8186,6 +8286,7 @@ msgstr "Bórach_nm"
 msgid "boesyn_nm"
 msgstr "bósan_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bog_a"
 msgstr "bog_a"
@@ -8194,6 +8295,7 @@ msgstr "bog_a"
 msgid "bogee_nm"
 msgstr "bógaí_nm"
 
+# also spelled boggey_nm (in HLSM)
 # GAOL: bogadh_nm
 msgid "boggaghey_nm"
 msgstr "bogadh_nm;séimhiú_nm"
@@ -8211,7 +8313,9 @@ msgstr "bog_v;séimhigh_v"
 msgid "boggeeys_nm"
 msgstr "drúis_nf"
 
+# this is also an alt spelling of boggaghey
 # false friend
+# this sense in HLSM, but no etym.
 # GAOL:
 msgid "boggey_nm"
 msgstr "lúcháir_nf;áthas_nm"
@@ -8221,6 +8325,7 @@ msgid "boggit_a"
 msgstr "bogtha_a;séimhithe_a"
 
 # false friend
+# in HLSM but no etym.
 # GAOL:
 msgid "boggoil_a"
 msgstr "sásta_a;áthasach_a;ríméadach_a"
@@ -8229,11 +8334,12 @@ msgstr "sásta_a;áthasach_a;ríméadach_a"
 msgid "boggys_nm"
 msgstr "maíteacht_nf;mórtas_nm"
 
+# boggyssagh_a in HLSM, linked to MIr. 1 bocásach (arrogant, proud)
 # GAOL:
 msgid "boggysagh_a"
 msgstr "maíteach_a;mórtasach_a;bladhmannach_a"
 
-# GAOL:
+# GAOL: boggysagh_a+-t
 msgid "boggysaght_nf"
 msgstr "maíteacht_nf;mórtas_nm"
 
@@ -8247,6 +8353,7 @@ msgstr "bladhmaire_nm"
 msgid "boghlanagh_a"
 msgstr "sceiteach_a"
 
+# HLSM cognates
 # GAOL: ~
 msgid "boght_a"
 msgstr "bocht_a"
@@ -8274,14 +8381,21 @@ msgstr "donnóg_nf"
 
 # 1. nonsense 2. poverty
 # first sense more common in modern texts => false friend
+# HLSM links bochtaine, alt of bochtaineacht in FGB
 # GAOL: bochtaineacht_nf
 msgid "boghtynid_nf"
 msgstr "seafóid_nf;bochtaineacht_nf"
 
-# bog
-# GAOL:
-msgid "boglee_nm"
-msgstr "portach_nm;bogán_nm"
+# bog, swamp
+# HLSM links Ir. boglach which is alt of bogach_nm in FGB
+# GAOL: bogach_nm
+msgid "boglagh_nm"
+msgstr "bogach_nm;portach_nm;bogán_nm"
+
+# Fargher bog (adj!)
+# GAOL: <i boglagh_nm
+msgid "boglee_a"
+msgstr "móna"
 
 # milksop
 # GAOL:
@@ -8296,8 +8410,9 @@ msgstr "bogbhéalach_a"
 msgid "bog-vroiet_a"
 msgstr "bogbhruite_a"
 
-# cod
-# GAOL:
+# cod; HLSM has this with sp boaddagh
+# Ir. has "bodach donn" for cod in addition to usual trosc
+# GAOL: bodach_nm
 msgid "boiddagh_nm"
 msgstr "trosc_nm"
 
@@ -8306,7 +8421,8 @@ msgid "boir_v"
 msgstr "buair_v"
 
 # vexing, unsettling, etc.
-# GAOL:
+# HLSM links OIr. búaidr- w. -ach
+# GAOL: boir_v+-(e)agh
 msgid "boiragh_a"
 msgstr "coscrach_a"
 
@@ -8319,11 +8435,13 @@ msgstr "méigrim_nf;buarthóir_nm"
 msgid "boiraneagh_a"
 msgstr "bearránach_a;racánach_a"
 
+# alt spelling boiranys in HLSM, no explicit etym.
 # GAOL: ~
 msgid "boiraneys_nm"
 msgstr "buaireamh_nm"
 
 # plural "boiraghyn" relatively common; include "trioblóid" for that
+# cognates in HLSM
 # GAOL: buaireamh_nm
 msgid "boirey_nm"
 msgstr "buaireamh_nm;trioblóid_nf"
@@ -8336,7 +8454,7 @@ msgstr "buarthóir_nm"
 msgid "boirit_a"
 msgstr "buartha_a"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "bolg_nm"
 msgstr "bolg_nm"
@@ -8380,6 +8498,7 @@ msgstr "bolgchaint_nf"
 msgid "bolg-loayrtagh_nm"
 msgstr "bolgchainteoir_nm"
 
+# HLSM cognates
 # GAOL: ~
 msgid "bolgum_nm"
 msgstr "bolgam_nm"
@@ -8405,6 +8524,12 @@ msgstr "Bolaiv_nf"
 msgid "bollad_nm"
 msgstr "mullard_nm"
 
+# skull, crankum
+# HLSM links gd:ballag with same sense; figure out link with Ir. there...
+# GAOL: gd:ballag_nf
+msgid "bollag_nf"
+msgstr "blaosc_nf"
+
 # also "dy bollagh" in multi
 # GAOL: ~
 msgid "bollagh_nm"
@@ -8422,6 +8547,7 @@ msgstr "bealach caoch"
 msgid "bollagh magh_n"
 msgstr "bealach amach"
 
+# HLSM cognates
 # GAOL: ~
 msgid "bollan_nf"
 msgstr "ballán_nm"
@@ -8438,7 +8564,7 @@ msgstr "luibh Eoin Baiste"
 # "boll" (unit of dry measure in Scotland)
 # there's no Irish term for this that I can see anywhere
 # Using "ból" which is actually in FGG for "bole" (a reddish clay)
-# GAOL:
+# GAOL: gd:bolla_nm
 msgid "bolley_nm"
 msgstr "ból_nm"
 
@@ -8488,6 +8614,7 @@ msgstr "abhlóir_nm;breallán_nm"
 msgid "bonkanagh_a"
 msgstr "amhlánta_a"
 
+# HLSM
 # GAOL: ~
 msgid "bonnad_nm"
 msgstr "boinéad_nm"
@@ -8497,11 +8624,13 @@ msgstr "boinéad_nm"
 msgid "bonnad skianagh_n"
 msgstr "boinéad sciathánach"
 
+# HLSM
 # GAOL: ~
 msgid "bonnag_nf"
 msgstr "bonnóg_nf"
 
 # Ir. bó1_nf is (rare) for "beau"
+# HLSM cognates
 # GAOL: ~
 msgid "booa_nf"
 msgstr "bó2_nf"
@@ -8518,10 +8647,13 @@ msgstr "bó bhleacht"
 msgid "booa varrey_nf"
 msgstr "bó mhara"
 
+# see next for etym.
 # GAOL:
 msgid "boodee_adv"
 msgstr "i gcomhar;i gcomhpháirt;i gcomhar le chéile"
 
+# community, copartnership, partnership
+# HLSM has alt sp boodeeaght: "?E. 'booty'"
 # GAOL:
 msgid "boodeeys_nm"
 msgstr "comhphobal_nm;comhpháirtíocht_nf"
@@ -8547,11 +8679,13 @@ msgid "booisal_a"
 msgstr "buíoch_a;taitneamhach_a"
 
 # SCC has alt bwooise of this linked with buíochas
+# HLSM links buíochas
 # GAOL: ~
 msgid "booise_nm"
 msgstr "buíochas_nm"
 
-# GAOL:
+# HLSM has alt booidal with no etym., and also bwooishagh (eng:wish?)
+# GAOL: eng:wish
 msgid "booishal_nm"
 msgstr "ag iarraidh"
 
@@ -8627,6 +8761,7 @@ msgstr "briogadán uisce"
 msgid "bossan keylley_n"
 msgstr "bodán coille"
 
+# HLSM has this as "bodeil"; from English
 # GAOL: ~
 msgid "boteil_nf"
 msgstr "buidéal_nm"
@@ -8634,6 +8769,11 @@ msgstr "buidéal_nm"
 # GAOL: ~
 msgid "boteil heh_nf"
 msgstr "buidéal te"
+
+# HLSM: from English
+# GAOL: eng:bother
+msgid "botheral_n"
+msgstr "buaireamh_nm"
 
 # GAOL: ~
 msgid "botleyr_nm"
@@ -8644,6 +8784,7 @@ msgstr "buitléir_nm"
 msgid "Botswaan_nf"
 msgstr "Botsuáin_nf"
 
+# HLSM links gd:boghainn
 # GAOL:
 msgid "bouin_nf"
 msgstr "básta_nm"
@@ -8653,14 +8794,20 @@ msgstr "básta_nm"
 msgid "bouinagh_a"
 msgstr "cabhailfhada_a"
 
-# GAOL:
+# HLSM: from English
+# GAOL: ~
+msgid "boull_nm"
+msgstr "babhla_nm"
+
+# GAOL: <d boull_nm
 msgid "boulleraght_nf"
 msgstr "babhláil_nf"
 
-# GAOL:
+# GAOL: <d boull_nm
 msgid "boulleyder_nm"
 msgstr "babhlálaí_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "bouyr_a"
 msgstr "bodhar_a"
@@ -8695,6 +8842,7 @@ msgid "bouyrit_a"
 msgstr "bodhraithe_a"
 
 # beware of vow = bhogha!
+# HLSM has bhow for this
 # GAOL: ~
 msgid "bow_nm"
 msgstr "bogha_nm"
@@ -8703,6 +8851,8 @@ msgstr "bogha_nm"
 msgid "bowder_nm"
 msgstr "boghdóir_nm"
 
+# submerged rock, tidal rock
+# HLSM: "ON. bodi"
 # GAOL:
 msgid "bowe_nm"
 msgstr "fochais_nf"
@@ -8714,6 +8864,7 @@ msgstr "Bealach na Bó Finne"
 
 # works for senses "tread of shoe, medal"
 # sáil for sense "heel (of foot)"
+# HLSM links Ir. bonn
 # GAOL: bonn_nm
 msgid "boyn_nf"
 msgstr "bonn_nm;sáil_nf"
@@ -8726,6 +8877,7 @@ msgstr "bonnbhuaiteoir_nm"
 msgid "boyn sthie_n"
 msgstr "bonn istigh"
 
+# pl. in HLSM + cognate
 # GAOL: ~
 msgid "braag_nf"
 msgstr "bróg_nf"
@@ -8743,6 +8895,7 @@ msgstr "bróg ghleacaíochta"
 msgid "braaid_nm"
 msgstr "altán_nm"
 
+# HLSM in phrase
 # GAOL:
 msgid "braain_nm"
 msgstr "bró_nf"
@@ -8752,7 +8905,8 @@ msgstr "bró_nf"
 msgid "braain-laue_nm"
 msgstr "bró láimhe"
 
-# false friend since Ir. bráthair isn't a blood brother
+# cognate in HLSM
+# false friend since Ir. bráthair isn't a blood brother, same as gd
 # GAOL: bráthair_nm
 msgid "braar_nm"
 msgstr "deartháir_nm"
@@ -8774,6 +8928,11 @@ msgstr "bráithriúlacht_nf"
 msgid "brabbag_nf"
 msgstr "goradh_nm"
 
+# dry snot; Irish doesn't capture the "dry" bit :D
+# alt breban in Fargher and HLSM, no etym.
+msgid "brabban_nm"
+msgstr "smuga_nm"
+
 # purple moor grass
 # GAOL:
 msgid "brabbanagh_nf"
@@ -8783,10 +8942,12 @@ msgstr "fionnán_nm"
 msgid "braddag_nm"
 msgstr "bratóg_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "braddagh_a"
 msgstr "bradach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "braddan_nm"
 msgstr "bradán_nm"
@@ -8813,6 +8974,7 @@ msgstr "bradaí_nm"
 msgid "braddid_nm"
 msgstr "bradaíl_nf"
 
+# HLSM links to "ME. brave" and *not* ga/gd
 # GAOL: ~
 msgid "braew_a"
 msgstr "breá_a"
@@ -8874,6 +9036,7 @@ msgid "brah_nm"
 msgstr "brath_nm"
 
 # betray
+# HLSM cognates
 # GAOL: ~
 msgid "brah_v"
 msgstr "braith_v"
@@ -8908,11 +9071,13 @@ msgstr "branda_nm"
 msgid "branglash_nf"
 msgstr "caimiléireacht_nf;séitéireacht_nf"
 
-# GAOL:
+# see next for etym.
+# GAOL: ~
 msgid "branlaadagh_a"
 msgstr "brionglóideach_a"
 
-# GAOL:
+# alt branlaadee in HLSM w/ cognate brionglóidí
+# GAOL: brionglóid_nf
 msgid "branlaadys_nm"
 msgstr "aislingeacht_nf;rámhaille_nf"
 
@@ -8953,6 +9118,7 @@ msgstr "snaidhm_nf;taom_nm;breis_nf"
 msgid "brashagh_a"
 msgstr "breisíoch_a"
 
+# in HLSM but no etym.
 # charlock in corpus examples
 # GAOL:
 msgid "brashlagh_nf"
@@ -8979,6 +9145,7 @@ msgstr "Brasaíleach_a"
 msgid "Brasillagh_nm"
 msgstr "Brasaíleach_nm"
 
+# HLSM (plural), link to cognate
 # GAOL: ~
 msgid "brasnag_nf"
 msgstr "brosna_nm"
@@ -8988,6 +9155,7 @@ msgid "brasnagan_nm"
 msgstr "rífear_nm"
 
 # Hebrews 3:8, 3:15 "provocation" in KJV (rebellion in modern translations)
+# HLSM links gd:brosnachadh (and hence ga:brostú), see verb
 # GAOL: ~
 msgid "brasnagh_nm"
 msgstr "brostú_nm"
@@ -9002,10 +9170,12 @@ msgid "Brasseel_nf"
 msgstr "Brasaíl_nf"
 
 # cognate with freastal; false friend
+# HLSM: "Ir. freastal, or comp. of scoil?"
 # GAOL: freastal_nm
 msgid "brastyl_nm"
 msgstr "rang_nm"
 
+# cognates in HLSM
 # mantle, cloak; first sense of brat_nm in FGB
 # GAOL: ~
 msgid "brat_nf"
@@ -9023,6 +9193,12 @@ msgstr "brat urláir;cairpéad_nm"
 msgid "bratlhong_nf"
 msgstr "bratlong_nf"
 
+# HLSM: ~ dy red = rag of a thing, links gd:bratag
+# GAOL: ~
+msgid "brattag_nf"
+msgstr "bratóg_nf"
+
+# also alt brattag (missp?) in web corpus
 # GAOL: ~
 msgid "brattagh_nm"
 msgstr "bratach_nf"
@@ -9033,6 +9209,12 @@ msgstr "bratach_nf"
 msgid "brawn_nm"
 msgstr "mart_nm"
 
+# HLSM: swingltree, links gd:bràghadach (bràighdeach_nf in gd2ga)
+# GAOL: ~
+msgid "breadagh_nm"
+msgstr "braighdeán_nm"
+
+# cognates in HLSM
 # GAOL: ~
 msgid "breag_nf"
 msgstr "bréag_nf"
@@ -9045,6 +9227,7 @@ msgstr "bréagach_a"
 msgid "breageen_nm"
 msgstr "bréigín_nm"
 
+# HLSM (and alt breagagh_nm)
 # sic
 # GAOL: ~
 msgid "breagerey_nm"
@@ -9076,10 +9259,12 @@ msgstr "ciceáil_v;speach_v"
 msgid "brebbal_nm"
 msgstr "ciceáil_nf;speachadh_nm"
 
+# HLSM cognates
 # GAOL: ~
 msgid "breck_a"
 msgstr "breac_a"
 
+# HLSM cognates
 # trout
 # GAOL: ~
 msgid "breck_nm"
@@ -9123,6 +9308,11 @@ msgstr "breacadh cearnógach"
 msgid "breck frangagh_n"
 msgstr "bolmán_nm;bolgach fhrancach"
 
+# HLSM (only), from Eng.
+# GAOL: ~
+msgid "breckfys_nm"
+msgstr "bricfeasta_nm"
+
 # spotty-eyed, wall-eyed
 # GAOL: breacshúileach_a
 msgid "breck-hooillagh_a"
@@ -9141,11 +9331,17 @@ msgstr "maicréal_nm;ronnach_nm"
 msgid "breck-oallys_nf"
 msgstr "breaceolas_nm"
 
+# no Ir. breacréaltógach (sadly!)
+# GAOL: breck_a+roltageagh_a
+msgid "breckroltageagh_a"
+msgstr "réaltógach_a"
+
 # GAOL: ~
 msgid "breck 'sy vainney_n"
 msgstr "breac sa bhainne"
 
 # also "energy" in sense of physics
+# cognates in HLSM
 # GAOL: brí_nf
 msgid "bree_nm"
 msgstr "brí_nf;fuinneamh_nm"
@@ -9162,29 +9358,32 @@ msgstr "brí_nf"
 msgid "breear_nm"
 msgstr "briathar_nm"
 
-# verbal
+# verbal, cf breearragh_a
 # GAOL: ~
 msgid "breearagh_a"
 msgstr "briathartha_a"
 
-# GAOL:
+# GAOL: gd:briathraich_v
 msgid "breearr_v"
 msgstr "móidigh_v;mionnaigh_v"
 
-# != previous; "votive"
+# != breearagh_a; "votive"
 # GAOL:
 msgid "breearragh_a"
 msgstr "móideach_a"
 
 # vn of breearr_v, but also a count noun (pl. "vows"), hence "móid"
-# GAOL:
+# HLSM (breearey), links gd:briathrachadh
+# GAOL: gd:briathrachadh_nm
 msgid "breearrey_nf"
 msgstr "móidiú_nm;mionnú_nm;móid_nf"
 
-# GAOL:
+# HLSM connects gd (note senses tho)
+# GAOL: gd:briathradair_nm
 msgid "breearreyder_nm"
 msgstr "móideach_nm;mionnadóir_nm"
 
+# cognates HLSM
 # GAOL: ~
 msgid "breeçhyn_nm"
 msgstr "bríste_nm"
@@ -9221,7 +9420,7 @@ msgstr "bríce Ollannach"
 msgid "breenagh_a"
 msgstr "meirbh_a;brothallach_a"
 
-# GAOL:
+# GAOL: breeockle_nm+-(e)agh
 msgid "breeocklagh_a"
 msgstr "guthach_a"
 
@@ -9233,7 +9432,7 @@ msgstr "guta_nm"
 msgid "breeoil_a"
 msgstr "bríomhar_a"
 
-# GAOL:
+# GAOL: breeoil_a+-id
 msgid "breeoilid_nm"
 msgstr "éifeachtacht_nf"
 
@@ -9276,6 +9475,7 @@ msgstr "bréagadh_nm;mealladh_nm"
 msgid "breigeyder_nm"
 msgstr "bréagadóir_nm;mealltóir_nm"
 
+# HLSM cognates
 # GAOL: ~
 msgid "breim_nm"
 msgstr "broim_nm"
@@ -9284,16 +9484,18 @@ msgstr "broim_nm"
 msgid "breim_v"
 msgstr "broim_v"
 
+# HLSM cognates
 # vn of breim_v
-# GAOL: ~
+# GAOL: broimneach_nf
 msgid "breimeragh_n"
-msgstr "bromadh_nm"
+msgstr "bromadh_nm;broimneach_nf"
 
 # GAOL: ~
 msgid "breimeyder_nm"
 msgstr "bromaire_nm"
 
 # womb, uterus; parallel corpus
+# cognates HLSM
 # GAOL: ~
 msgid "brein_nf"
 msgstr "broinn_nf"
@@ -9302,6 +9504,7 @@ msgstr "broinn_nf"
 msgid "breinchlagh_nf"
 msgstr "bréanchloch_nf"
 
+# cognates HLSM
 # GAOL: ~
 msgid "breinn_a"
 msgstr "bréan_a"
@@ -9310,7 +9513,8 @@ msgstr "bréan_a"
 msgid "breinnagh_nm"
 msgstr "bréantachán_nm"
 
-# GAOL: bréine_nf
+# cognates HLSM
+# GAOL: bréine_nf;breinn_a+-id
 msgid "breinnid_nm"
 msgstr "bréantas_nm;bréine_nf"
 
@@ -9329,7 +9533,7 @@ msgid "breneen_nf"
 msgstr "cáithnín_nm;adamh_nm"
 
 # focal doiléir
-# GAOL:
+# GAOL: breneen_nf+-(e)agh
 msgid "breneenagh_a"
 msgstr "adamhach_a"
 
@@ -9377,10 +9581,13 @@ msgstr "Briotánach_a"
 msgid "Bretonagh_nm"
 msgstr "Briotánach_nm"
 
+# 1. brill (fish), Ir broit 2. alt spelling of broit_nm below (broth)
+# latter is in HLSM
 # GAOL: ~
 msgid "brett_nf"
 msgstr "broit_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "brey_n"
 msgstr "breith_nf"
@@ -9425,7 +9632,7 @@ msgid "bridjeen_nm"
 msgstr "giolla Bríde;roilleach_nm"
 
 # false friend; SCC says cognate with "brath"
-# see notes above for briaght
+# HLSM: see notes above for briaght
 # GAOL:
 msgid "brie_v"
 msgstr "fiafraigh_v;fiosraigh_v"
@@ -9447,11 +9654,17 @@ msgstr "briogáidire_nm"
 msgid "briggin_nm"
 msgstr "bricín_nm"
 
+# worthless creature: Cregeen, HLSM: "?ScG. briogach"
+# rare in both
+# GAOL:
+msgid "briggyl_nm"
+msgstr "sceathrachán_nm"
+
 # GAOL: ~
 msgid "brillane_nm"
 msgstr "brillín_nm"
 
-# GAOL:
+# GAOL: eng:brimstone
 msgid "brimstone_nm"
 msgstr "ruibhchloch_nf"
 
@@ -9468,6 +9681,7 @@ msgstr "bris_v"
 msgid "brish-chiaulleeaght_nf"
 msgstr "brischeol_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "brishey_nm"
 msgstr "briseadh_nm"
@@ -9517,6 +9731,7 @@ msgstr "briosc_a;sobhriste_a"
 msgid "brishlid_nm"
 msgstr "brisce_nf;sobhristeacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "brisht_a"
 msgstr "briste_a"
@@ -9541,6 +9756,7 @@ msgstr "Briotánach_nm"
 msgid "Britaanish_nf"
 msgstr "Briotáinis_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "briw_nm"
 msgstr "breitheamh_nm"
@@ -9553,6 +9769,7 @@ msgstr "breithiúnach_a"
 msgid "briw beg_n"
 msgstr "giúistís_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "briwnys_nf"
 msgstr "breithiúnas_nm"
@@ -9574,6 +9791,7 @@ msgid "brocaid_nm"
 msgstr "broicéad_nm"
 
 # 1. bungle: déan ~ de; 2. badger
+# sense 2 (pl.) in HLSM, with cognate broc
 # GAOL: broc_nm
 msgid "brock_nm"
 msgstr "brachán_nm;praiseach_nf;broc_nm"
@@ -9586,6 +9804,7 @@ msgstr "praiseachán_nm;útamálaí_nm"
 msgid "brockeyr_nm"
 msgstr "brocaire_nm"
 
+# cognates in HLSM
 # goad
 # GAOL: ~
 msgid "brod_nm"
@@ -9619,6 +9838,7 @@ msgstr "brugh_nm"
 msgid "broghan_nm"
 msgstr "brachán_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "broghe_a"
 msgstr "broghach_a"
@@ -9631,8 +9851,9 @@ msgstr "brollach_nm"
 msgid "broid_nm"
 msgstr "brocamas_nm"
 
+# cognates in HLSM
 # vn of next
-# GAOL: ~
+# GAOL: ~;<i broie_v
 msgid "broie_n"
 msgstr "bruith_nf"
 
@@ -9645,7 +9866,7 @@ msgstr "bruith_v"
 msgid "broieder_nm"
 msgstr "coire_nm"
 
-# GAOL: ~
+# GAOL: ~;<i broie_v
 msgid "broieit_a"
 msgstr "bruite_a"
 
@@ -9673,7 +9894,7 @@ msgstr "leadradh_nm"
 msgid "broish_nm"
 msgstr "bróis_nf"
 
-# broth
+# broth; HLSM @brett w/ cognate gd:brot
 # GAOL: ~
 msgid "broit_nm"
 msgstr "brat2_nm"
@@ -9704,6 +9925,7 @@ msgstr "bronnadh_nm"
 msgid "bronnit_a"
 msgstr "bronnta_a"
 
+# HLSM cognates
 # GAOL: ~
 msgid "broo_nm"
 msgstr "brú_nm"
@@ -9724,6 +9946,7 @@ msgstr "brúchnaipe_nm"
 msgid "broo-folley_nm"
 msgstr "brú fola"
 
+# HLSM cognates
 # GAOL: ~
 msgid "broogh_nf"
 msgstr "bruach_nm"
@@ -9749,12 +9972,14 @@ msgstr "brúcht_v"
 msgid "brooightagh_nm"
 msgstr "brúchtach_nf"
 
+# HLSM has "brooightooil", linked with brúchtghail (brúchtaíl alt brúchtadh)
 # GAOL: ~
 msgid "brooightey_nm"
 msgstr "brúchtadh_nm"
 
 # pl. sense in en, sing. in ga/gv
-# GAOL:
+# HLSM links Ir. brúireach
+# GAOL: brúireach_nm
 msgid "brooillagh_nm"
 msgstr "bruar_nm;bruscar_nm"
 
@@ -9811,12 +10036,13 @@ msgstr "Bruiséil_nf"
 msgid "brynnagh_a"
 msgstr "brionnach_a;mealltach_a"
 
-# flatterer; don't see a cognate like brionnach_a above
-# GAOL:
+# flatterer; Dinneen has brionnach_nm "flatterer" but not in FGB
+# GAOL: <d brynnagh_a
 msgid "brynneragh_nm"
 msgstr "bladaire_nm"
 
-# GAOL:
+# HLSM links gd:brionnalachd_nf
+# GAOL: gd:brionnalachd_nf
 msgid "brynneraght_nf"
 msgstr "bladar_nm;plámás_nm;mealladh_nm"
 
@@ -9852,10 +10078,13 @@ msgstr "Búdaíoch_a"
 msgid "Buddhagh_nm"
 msgstr "Búdaí_nm"
 
+# HLSM from English
 # GAOL: ~
 msgid "buggad_nm"
 msgstr "buicéad_nm"
 
+# HLSM links Ir. bocán,
+# for which Dinneen has "in the pl. certain spiritual beings"
 # GAOL:
 msgid "buggane_nm"
 msgstr "púca_nm"
@@ -9892,6 +10121,7 @@ msgstr "boige_nf"
 msgid "buiggys_nf"
 msgstr "boigéis_nf"
 
+# HLSM, buigh and bwee, link Ir. buidhe
 # GAOL: ~
 msgid "buigh_a"
 msgstr "buí_a"
@@ -9932,6 +10162,7 @@ msgstr "foirgneamh_nm;tógáil_nf"
 msgid "buillagh_a"
 msgstr "bíogach_a;díoltach_a"
 
+# HLSM cognate
 # also as alt of bwoaill, bwoalley
 # GAOL: ~
 msgid "builley_nm"
@@ -9977,10 +10208,12 @@ msgstr "ollmhéid_nf"
 msgid "builtagh_nm"
 msgstr "buailteoir_nm"
 
+# HLSM links buain
 # GAOL: ~
 msgid "buinn_n"
 msgstr "buain_nf"
 
+# HLSM links buain
 # also "bain_v"?
 # GAOL: ~
 msgid "buinn_v"
@@ -10008,6 +10241,7 @@ msgstr "bithnimh_nf"
 msgid "buinnt_a"
 msgstr "bainte_a"
 
+# HLSM links Ir. búirfeadhach (see búireach w/ vn below)
 # GAOL: ~
 msgid "buirroogh_v"
 msgstr "búir_v"
@@ -10027,11 +10261,11 @@ msgstr "bonnán_nm"
 msgid "buirrooghey_nm"
 msgstr "búireadh_nm;búireach_nf"
 
-# GAOL:
+# GAOL: eng:witch
 msgid "buitçh_nf"
 msgstr "cailleach_nf;bandraoi_nm"
 
-# GAOL:
+# GAOL: <d buitçh_nf
 msgid "buitçheraght_nf"
 msgstr "asarlaíocht_nf"
 
@@ -10072,7 +10306,8 @@ msgstr "Bulgáiris_nf"
 msgid "bulkeen_nm"
 msgstr "builcín_nm"
 
-# GAOL:
+# HLSM in phrase
+# GAOL: eng:bullet
 msgid "bullad_nm"
 msgstr "piléar_nm"
 
@@ -10139,19 +10374,20 @@ msgstr "bunchúrsa_nm"
 msgid "bun-chreg_nf"
 msgstr "buncharraig_nf"
 
-# GAOL:
+# HLSM from English
+# GAOL: eng:bundle
 msgid "bundeil_nm"
 msgstr "burla_nm;mála_nm;pacáiste_nm"
 
-# GAOL:
+# GAOL: <d bundeil_nm;eng:bundle
 msgid "bundeil_v"
 msgstr "burláil_v"
 
-# GAOL:
+# GAOL: <d bundeil_nm
 msgid "bundeiler_nm"
 msgstr "burlaire_nm"
 
-# GAOL:
+# GAOL: <i bundeil_v
 msgid "bundeiley_n"
 msgstr "burláil_nf"
 
@@ -10236,7 +10472,8 @@ msgid "bunnit_a"
 msgstr "bunaithe_a"
 
 # false friend != bunús
-# GAOL:
+# HLSM says cognate with bunadhas (alt bunús) though
+# GAOL: bunús_nm
 msgid "bunnys_adv"
 msgstr "beagnach_adv"
 
@@ -10281,6 +10518,7 @@ msgstr "bunreachtúil_a"
 msgid "bun ry baare_a"
 msgstr "bunoscionn_a"
 
+# HLSM links bunoscionn
 # GAOL:
 msgid "bun ry skyn_a"
 msgstr "bunoscionn"
@@ -10388,7 +10626,8 @@ msgstr "bóidicín_nm"
 msgid "Burkina Faso_n"
 msgstr "Buircíne Fasó"
 
-# GAOL:
+# HLSM says cognate
+# GAOL: ~
 msgid "burley_nm"
 msgstr "biolar_nm"
 
@@ -10460,22 +10699,25 @@ msgstr "Bútáin_nf"
 msgid "buttag_nf"
 msgstr "eang_nf"
 
+# HLSM links bothóg
 # parallel corpus 
-# GAOL:
+# GAOL: bothóg_nf
 msgid "bwaag_nf"
-msgstr "both_nf;bothán_nm"
+msgstr "both_nf;bothán_nm;bothóg_nf"
 
 # hermitage
 # GAOL:
 msgid "bwaagaght_nf"
 msgstr "díseart_nm"
 
+# HLSM links gd:bòidheach
 # parallel corpus
-# GAOL:
+# GAOL: gd:bòidheach_a
 msgid "bwaagh_a"
 msgstr "sciamhach_a;dathúil_a"
 
-# GAOL:
+# HLSM links bothán
+# GAOL: ~
 msgid "bwaane_nm"
 msgstr "bothán_nm"
 
@@ -10491,6 +10733,7 @@ msgstr "wigwam_nm"
 msgid "bwaane rioee_n"
 msgstr "íoglú_nm"
 
+# HLSM links Ir. builbhín
 # GAOL: ~
 msgid "bwilleen_nf"
 msgstr "builín_nm"
@@ -10503,10 +10746,15 @@ msgstr "lus buí Bealtaine"
 msgid "bwinnican_nm"
 msgstr "buíocán_nm"
 
+# HLSM
 # GAOL: ~
 msgid "bwoaill_v"
 msgstr "buail_v"
 
+# 1. milking fold 2. circle, halo, ring around the sun/moon
+# both senses in HLSM, which gives Ir. buaile as cognate for first
+# and links ("cf. ScG. buaile") gd for the second since it shares that sense
+# In Ir. this would be "lios"
 # GAOL: ~
 msgid "bwoaillee_nf"
 msgstr "buaile_nf"
@@ -10515,6 +10763,7 @@ msgstr "buaile_nf"
 msgid "bwoailt_a"
 msgstr "buailte_a"
 
+# HLSM links these
 # GAOL: ~
 msgid "bwoailtagh_a"
 msgstr "buailteach_a"
@@ -10528,6 +10777,7 @@ msgstr "buailtín_nm"
 msgid "bwoallee_nm"
 msgstr "bualadh_nm"
 
+# HLSM cognates
 # GAOL: ~
 msgid "bwoalley_nm"
 msgstr "bualadh_nm"
@@ -10541,6 +10791,7 @@ msgstr "bualadh boid"
 msgid "bwoalteyr_nm"
 msgstr "buailteoir_nm;tosaí_nm"
 
+# linked in HLSM
 # GAOL: ~
 msgid "bwoid_nm"
 msgstr "bod_nm"
@@ -10571,7 +10822,9 @@ msgstr "lus na magairlí"
 msgid "bwoid skeddan_n"
 msgstr "snáthaid an phúca"
 
-# GAOL:
+# alt spelling bwoirryn in HLSM, links gd:boirionn (alt boireann)
+# link that and sort it out there...
+# GAOL: gd:boireann_a
 msgid "bwoirrin_a"
 msgstr "baineann_a"
 
@@ -10598,11 +10851,12 @@ msgstr "ba neasa do;in aice le"
 
 # opportunity; cognate with "caoi"? (means "opportunity" in Ir too)
 # false friend
-# GAOL:
+# HLSM has "SIr. cae", which is in eDIL linked with modern caoi
+# GAOL: caoi_nf
 msgid "caa_nf"
 msgstr "deis_nf"
 
-# to coo
+# to coo; cf cooey_n
 # GAOL:
 msgid "caa_v"
 msgstr "durdáil_v"
@@ -10611,6 +10865,7 @@ msgstr "durdáil_v"
 msgid "caabley_n"
 msgstr "cáblú_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caabyl_nm"
 msgstr "cábla_nm"
@@ -10637,7 +10892,8 @@ msgid "caader_nm"
 msgstr "seansálaí_nm"
 
 # ingot
-# GAOL:
+# HLSM; "wedge", links gd:cadhag (Dwelly/MacBain)
+# GAOL: gd:cadhag_nf
 msgid "caag_nf"
 msgstr "uinge_nf;tinne_nm"
 
@@ -10645,6 +10901,7 @@ msgstr "uinge_nf;tinne_nm"
 msgid "caaidje_nm"
 msgstr "caighean_nm"
 
+# a jay
 # GAOL: ~
 msgid "caaig_nm"
 msgstr "cág_nm"
@@ -10746,6 +11003,7 @@ msgstr "leabhal_nm"
 msgid "caartyr_v"
 msgstr "aithisigh_v;maslaigh_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caashey_nm"
 msgstr "cáis_nf"
@@ -10754,6 +11012,7 @@ msgstr "cáis_nf"
 msgid "caashey bog_n"
 msgstr "cáis uachtair"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caayl_nm"
 msgstr "cál_nm"
@@ -10814,18 +11073,23 @@ msgid "caays_nm"
 msgstr "caoithiúlacht_nf"
 
 # 1. jaw 2. cab
+# Ir. "cab" also has sense mouth, jaw, etc.; cognate either way (HLSM)
 # GAOL: cab_nm
 msgid "cab_nm"
 msgstr "giall_nm;cab_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cabbag_nf"
 msgstr "copóg_nf"
 
-# GAOL:
+# HLSM links gd:caibeal; worry about connection to Irish there...
+# also an entry at "chabbal_nm" which says from English
+# GAOL: gd:caibeal_nm
 msgid "cabbal_nm"
 msgstr "séipéal_nm"
 
+# cognates in HLSM
 # GAOL: cábán_nm
 msgid "cabbane_nm"
 msgstr "both_nf;cábán_nm;tábhairne_nm"
@@ -10837,6 +11101,11 @@ msgstr "taibearnacal_nm"
 # GAOL:
 msgid "cabbane-casherick_nm"
 msgstr "sanctóir_nm"
+
+# HLSM "talkative"
+# GAOL: ~
+msgid "cabbaragh_a"
+msgstr "cabach_a"
 
 # GAOL: ~
 msgid "cabbaragh_nm"
@@ -10874,10 +11143,13 @@ msgstr "cabanta_a"
 msgid "cabberey_nm"
 msgstr "cabaire_nm"
 
+# stammer, stammering, stutter, stuttering
+# cf cabbagh in HLSM (noun?), links Ir. cabach
 # GAOL:
 msgid "cabbid_nm"
-msgstr "stad_nm"
+msgstr "stad_nm;stadaireacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cabbyl_nm"
 msgstr "capall_nm"
@@ -11048,6 +11320,7 @@ msgstr "támhshuan_nm;codlatacht_nf"
 msgid "cadleen_nm"
 msgstr "codlaidín_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cadley_nm"
 msgstr "codladh_nm"
@@ -11085,6 +11358,7 @@ msgstr "caiféin_nf"
 msgid "cagg_v"
 msgstr "troid_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caggey_nm"
 msgstr "cogadh_nm"
@@ -11155,11 +11429,11 @@ msgid "caghlaays_nm"
 msgstr "éagsúlacht_nf"
 
 # "border"; in phrases
-# GAOL:
+# GAOL: <i cagliagh_nm
 msgid "caglee_a"
 msgstr "teorann"
 
-# GAOL:
+# GAOL: coigríoch_nm
 msgid "cagliagh_nm"
 msgstr "teorainn_nf"
 
@@ -11167,7 +11441,7 @@ msgstr "teorainn_nf"
 msgid "cagliagh bieauid_n"
 msgstr "teorainn luais"
 
-# GAOL:
+# GAOL: <d cagliagh_nm
 msgid "caglit_a"
 msgstr "teoranta_a"
 
@@ -11191,7 +11465,8 @@ msgstr "cá fhad_interr"
 msgid "caign_v"
 msgstr "cogain_v"
 
-# GAOL: ~
+# HLSM cognates
+# GAOL: ~;<i caign_v
 msgid "caigney_nm"
 msgstr "cogaint_nf"
 
@@ -11199,10 +11474,11 @@ msgstr "cogaint_nf"
 msgid "caigney-cheeilley_nm"
 msgstr "cogaint na círe"
 
-# GAOL: ~
+# GAOL: ~;caigney_nm+-der
 msgid "caigneyder_nm"
 msgstr "cogantóir_nm"
 
+# cf coau_v
 # GAOL: ~
 msgid "caih_v"
 msgstr "cáith_v"
@@ -11215,6 +11491,7 @@ msgstr "cáitheadh_nm"
 msgid "cailjey_a"
 msgstr "caillte_a"
 
+# cognates in HLSM @chaill
 # GAOL: ~
 msgid "caill_v"
 msgstr "caill_v"
@@ -11223,6 +11500,7 @@ msgstr "caill_v"
 msgid "caillag_nf"
 msgstr "cailín_nm;caile_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caillagh_nf"
 msgstr "cailleach_nf"
@@ -11246,6 +11524,7 @@ msgstr "síolta gheal"
 msgid "caillagh vreck_nf"
 msgstr "cailleach bhreac"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caillin_nm"
 msgstr "cailín_nm"
@@ -11290,6 +11569,7 @@ msgstr "caillte_a"
 msgid "Caillyn_nf"
 msgstr "caileann_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cainle_nf"
 msgstr "coinneal_nf"
@@ -11308,6 +11588,7 @@ msgstr "coinneal gheire;fáideog_nf"
 msgid "cainleyder_nm"
 msgstr "coinnealóir_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cainleyr_nm"
 msgstr "coinnleoir_nm"
@@ -11316,15 +11597,18 @@ msgstr "coinnleoir_nm"
 msgid "cainleyr banglaneagh_n"
 msgstr "coinnealra_nm;coinnleoir craobhach"
 
-# GAOL:
+# HLSM: cognate with cóir
+# GAOL: cóir_nf
 msgid "cair_nf"
 msgstr "ceart_nm"
 
-# GAOL:
+# HLSM
+# GAOL: cóir_a
 msgid "cairagh_a"
 msgstr "ceart_a;cóir_a"
 
-# GAOL:
+# HLSM
+# GAOL: cóir_a
 msgid "cairal_a"
 msgstr "cóir_a;ionraic_a"
 
@@ -11392,6 +11676,7 @@ msgstr "cairrín_nm"
 msgid "cairys_nf"
 msgstr "cothrom_nm;ionracas_nm;ceart_nm;fíréantacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caisht_nf"
 msgstr "cáisc_nf"
@@ -11435,6 +11720,7 @@ msgstr "calafóirniam_nm"
 msgid "callee_nm"
 msgstr "caladh_nm"
 
+# cognates in HLSM
 # parallel corpus
 # GAOL: colainn_nf
 msgid "callin_nf"
@@ -11458,6 +11744,7 @@ msgstr "brocailí_nm"
 msgid "calloo_nm"
 msgstr "bábhún_nm;caladh_nm"
 
+# cognates in HLSM
 # GAOL: colmán_nm
 msgid "calmane_nm"
 msgstr "colm_nm;colmán_nm;colúr_nm"
@@ -11490,6 +11777,7 @@ msgstr "Cailvíneach_nm"
 msgid "Calveenaghys_nm"
 msgstr "Cailvíneachas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cam_a"
 msgstr "cam_a"
@@ -11517,6 +11805,7 @@ msgstr "ceamaradóir_nm"
 msgid "Cameroon_nf"
 msgstr "Camarún_nm"
 
+# cognates in HLSM
 # GAOL: camshúileach_a
 msgid "cam-hooillagh_a"
 msgstr "fiarshúileach_a;camshúileach_a"
@@ -11538,6 +11827,7 @@ msgstr "caimiléir_nm"
 msgid "camlaagys_nm"
 msgstr "caime_nf;caimiléireacht_nf;camastaíl_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "camlurgagh_a"
 msgstr "camloirgneach_a"
@@ -11739,6 +12029,7 @@ msgstr "caipitliú_nm"
 msgid "capitlaghys_nm"
 msgstr "caipitleachas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cappan_nm"
 msgstr "cupán_nm"
@@ -11761,6 +12052,7 @@ msgstr "bratóg Mhuire"
 msgid "cappee_nm"
 msgstr "cime_nm;príosúnach_nm;braighdeanach_nm"
 
+# in HLSM but noy etymology
 # all from parallel corpus
 # GAOL:
 msgid "cappeeys_nm"
@@ -11787,6 +12079,7 @@ msgstr "Caipisíneach_a"
 msgid "Capusheenagh_nm"
 msgstr "Caipisíneach_nm"
 
+# HLSM links gd:car_nm (hence Ir. cor_nm)
 # GAOL: ~
 msgid "car_nm"
 msgstr "cor_nm"
@@ -11800,6 +12093,7 @@ msgstr "le linn;i rith"
 msgid "caraafe_nm"
 msgstr "caraf_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "caraig_nf"
 msgstr "ciaróg_nf"
@@ -11861,6 +12155,7 @@ msgstr "carbradóir_nm"
 msgid "carbuncle_nm"
 msgstr "carbuncal_nm"
 
+# cognates in HLSM (links OIr. carpat)
 # cf carbad above
 # GAOL: ~
 msgid "carbyd_nm"
@@ -11873,6 +12168,11 @@ msgstr "carbad bia"
 # GAOL:
 msgid "carbyd clienney_n"
 msgstr "naíchóiste_nm"
+
+# HLSM (also corwhuaillag)
+# GAOL: ~
+msgid "carchuillag_nf"
+msgstr "carrchuil_nf"
 
 # GAOL: ~
 msgid "cardiagh_a"
@@ -11910,6 +12210,7 @@ msgstr "Cairmilíteach_a"
 msgid "Carmelagh_nm"
 msgstr "Cairmilíteach_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carn_nm"
 msgstr "carn_nm"
@@ -11922,6 +12223,7 @@ msgstr "carnach_a"
 msgid "carnanaghey_nm"
 msgstr "carnadh_nm"
 
+# cognates in HLSM
 # GAOL: carnán_nm
 msgid "carnane_nf"
 msgstr "carnán_nm;carn_nm"
@@ -11930,6 +12232,7 @@ msgstr "carnán_nm;carn_nm"
 msgid "carnane oanluckee_n"
 msgstr "dumha adhlactha"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carnoain_nm"
 msgstr "cearnamhán_nm"
@@ -11948,6 +12251,7 @@ msgstr "carpasach_a"
 
 # msgstr contains 1st of two "carr_nm" senses in IG
 # gv also means "melody, tune"; one example in Skeealaght
+# HLSM has this with one "r": car, carryn
 # GAOL: carr_nm
 msgid "carr_nm"
 msgstr "carr1_nm;port1_nm"
@@ -11956,6 +12260,7 @@ msgstr "carr1_nm;port1_nm"
 msgid "carraboo_nm"
 msgstr "carabú_nm"
 
+# HLSM as "carraidyn" (pl)
 # GAOL: ~
 msgid "carradje_nm"
 msgstr "cairéad_nm"
@@ -11965,6 +12270,7 @@ msgstr "cairéad_nm"
 msgid "carradje feie_nf"
 msgstr "mealbhacán_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carragh_a"
 msgstr "carrach_a"
@@ -11974,6 +12280,7 @@ msgstr "carrach_a"
 msgid "carran_nm"
 msgstr "corrán_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carrane_nf"
 msgstr "cuarán_nm"
@@ -11990,6 +12297,7 @@ msgstr "cuarán sneachta"
 msgid "carr cleeahnagh_n"
 msgstr "carr cliathánach"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carrey_nm"
 msgstr "cara_nm"
@@ -12014,6 +12322,7 @@ msgstr "carráiste_nm"
 msgid "carriads cadlee_n"
 msgstr "carráiste codlata"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "carrick_nf"
 msgstr "carraig_nf"
@@ -12135,7 +12444,8 @@ msgstr "cearbhas_nm"
 msgid "case_nm"
 msgstr "cás_nm"
 
-# GAOL:
+# cognates in HLSM
+# GAOL: coisricthe_a
 msgid "casherick_a"
 msgstr "naofa_a"
 
@@ -12147,7 +12457,7 @@ msgstr "naomhaigh_v;beannaigh_v;coisric_v"
 msgid "casherickey_n"
 msgstr "coisreacan_nm;naomhú_nm;beannú_nm"
 
-# GAOL:
+# GAOL: casherick_a+-ys
 msgid "casherickys_nm"
 msgstr "naofacht_nf"
 
@@ -12250,7 +12560,7 @@ msgstr "cartún_nm"
 msgid "caslys-soilshey_nm"
 msgstr "grianghraf_nm"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "cass_nf"
 msgstr "cos_nf"
@@ -12276,6 +12586,7 @@ msgstr "casachtach_nf"
 msgid "cassagys_nm"
 msgstr "caisníneacht_nf"
 
+# HLSM in phrase
 # GAOL: ~
 msgid "cassan_nm"
 msgstr "cosán_nm"
@@ -12301,6 +12612,7 @@ msgstr "cam reilige"
 msgid "casseroil_nm"
 msgstr "casaról_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cassey_n"
 msgstr "casadh_nm"
@@ -12337,6 +12649,7 @@ msgstr "cúiseoir_nm"
 msgid "cassider_nm"
 msgstr "cúiseoir_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cassit_a"
 msgstr "casta_a"
@@ -12375,8 +12688,9 @@ msgstr "cóta_nm;casal_nm"
 msgid "cast_a"
 msgstr "casta_a"
 
+# see etym. under vn
 # Fargher: "defeat, appease, inhibit"
-# GAOL:
+# GAOL: coisc_v
 msgid "cast_v"
 msgstr "cloígh_v;coisc_v"
 
@@ -12393,12 +12707,13 @@ msgstr "castacht_nf"
 msgid "castan_nm"
 msgstr "castán_nm"
 
+# HLSM links gd:cosgadh which is another spelling of gd:casgadh ~ ga:cosc
 # vn. cast_v above
-# GAOL:
+# GAOL: cosc_nm;<i cast_v
 msgid "castey_n"
 msgstr "cloí_nm;cosc_nm"
 
-# GAOL:
+# GAOL: coiscthe_a;<i cast_v
 msgid "castit_a"
 msgstr "coiscthe_a;cloíte_a"
 
@@ -12469,6 +12784,7 @@ msgstr "Caitliceachas_nm"
 msgid "cauaigey_n"
 msgstr "grágaíl_nf"
 
+# irritation, petulance
 # GAOL: ~
 msgid "caulg_nf"
 msgstr "colg_nm"
@@ -12494,6 +12810,7 @@ msgstr "fínicín_nm"
 msgid "Cavan_nm"
 msgstr "Cabhán_nm"
 
+# cognates in HLSM
 # GAOL: corn_nm
 msgid "cayrn_nm"
 msgstr "stoc_nm;corn_nm"
@@ -12541,6 +12858,7 @@ msgstr "athrú_nm;malartú_nm"
 msgid "ceaghlit_a"
 msgstr "athraithe_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "ceau_n"
 msgstr "caitheamh_nm"
@@ -12557,6 +12875,7 @@ msgstr "caiteoir_nm"
 msgid "ceau niaghtee_n"
 msgstr "titim sneachta"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "ceaut_a"
 msgstr "caite_a"
@@ -12646,6 +12965,7 @@ msgstr "teicniúil_a"
 msgid "çhaghter_nm"
 msgstr "teachtaire_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhaghteraght_nf"
 msgstr "teachtaireacht_nf"
@@ -12676,6 +12996,7 @@ msgstr "bailitheoir_nm;cruinnitheoir_nm"
 msgid "çhagleyder keesh_n"
 msgstr "bailitheoir cánach"
 
+# HLSM links OIr. teclaim
 # cognate teaglaim; vn of çhaggil_v
 # GAOL: teaglaim_nf
 msgid "çhaglym_nm"
@@ -12690,6 +13011,7 @@ msgid "çhaglymit_a"
 msgstr "cnuasaithe_a"
 
 # lenited?
+# cognates in HLSM
 # GAOL: ~
 msgid "chaie_a"
 msgstr "caite_a"
@@ -12707,12 +13029,14 @@ msgstr "Caildéach_nm"
 msgid "cha leah as_conj"
 msgstr "chomh luath agus"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "chammah_a"
 msgstr "chomh maith"
 
+# HLSM links gd "cha mhó" (sic)
 # "ná" in imperative
-# GAOL:
+# GAOL: gd:cha+gd:mhò
 msgid "chamoo_conj"
 msgstr "agus ní;agus níor;agus ná"
 
@@ -12735,6 +13059,7 @@ msgstr "séiplíneacht_nf"
 msgid "çharbaa_n"
 msgstr "scoitheadh_nm"
 
+# HLSM has çharbit_a but no etym.
 # GAOL:
 msgid "çharbaa_v"
 msgstr "scoith_v"
@@ -12748,7 +13073,7 @@ msgstr "duibheagán_nm"
 msgid "çharvaalagh_a"
 msgstr "duibheagánach_a"
 
-# cognates in SCC
+# cognates in SCC/HLSM
 # GAOL: ~;<i çhea_v
 msgid "çhea_n"
 msgstr "teitheadh_nm"
@@ -12765,11 +13090,13 @@ msgstr "teifeach_nm"
 msgid "çheb_nm"
 msgstr "tomhas_nm"
 
+# HLSM: "E. dial. acc. to O'Rahilly... but unidentified"
 # GAOL:
 msgid "çheb_v"
 msgstr "tairg_v;ofráil_v"
 
-# GAOL:
+# in HLSM but not etym beyond what's above w/ çheb
+# GAOL: ¸<i çheb_v
 msgid "çhebbal_nm"
 msgstr "tairiscint_nf;ofráil_nf"
 
@@ -12795,7 +13122,8 @@ msgstr "ofráilte_a"
 msgid "cheddin_a"
 msgstr "céanna;chéanna"
 
-# GAOL:
+# HLSM links OIr. tige, tiget (both are headwords in eDIL)
+# GAOL: ~
 msgid "çheeid_nf"
 msgstr "tiús_nm"
 
@@ -12815,16 +13143,17 @@ msgstr "tíliú_nm"
 msgid "çheelit_a"
 msgstr "tílithe_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çheer_nf"
 msgstr "tír_nf"
 
 # a native
-# GAOL: ~
+# GAOL: ~;çheer_nf+-agh
 msgid "çheeragh_nm"
 msgstr "tíreach_nm"
 
-# GAOL:
+# GAOL: çheer_nf+ard_a
 msgid "çheer-ard_nf"
 msgstr "ard_nm"
 
@@ -12927,6 +13256,7 @@ msgstr "an Ghraonlainn"
 msgid "Çheer y Vagheragh_nf"
 msgstr "an Ísiltír"
 
+# HLSM links tidheacht = tíocht = teacht
 # GAOL: ~
 msgid "çheet_nm"
 msgstr "teacht_nm"
@@ -12943,6 +13273,7 @@ msgstr "teacht isteach"
 msgid "çheghnaiçhum_nm"
 msgstr "teicnéitiam_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çheh_a"
 msgstr "te_a"
@@ -12967,6 +13298,7 @@ msgstr "teileapaiteach_a"
 msgid "çhellapattys_nm"
 msgstr "teileapaite_nf"
 
+# HLSM says from Ir. "tul" with "díreach"?
 # and "dy ~" in multi-gv; focal doiléir
 # GAOL:
 msgid "çhelleeragh_adv"
@@ -13055,7 +13387,7 @@ msgstr "teoranta_a"
 msgid "çhengagh_a"
 msgstr "teangach_a"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "çhengey_nf"
 msgstr "teanga_nf"
@@ -13116,13 +13448,15 @@ msgstr "tionóntán_nm"
 msgid "çhennel_nf"
 msgstr "foracha_nf"
 
+# in HLSM in phrase (below)
 # also "rickets"
-# GAOL:
+# GAOL: ~
 msgid "çhenney_nm"
 msgstr "tine_nf"
 
-# FGB: St. Anthony's fire
-# GAOL:
+# in HLSM (with hyphen)
+# FGB: St. Anthony's fire (sic, not "dé")
+# GAOL: ~
 msgid "çhenney Jee_nf"
 msgstr "tine dhia"
 
@@ -13131,7 +13465,7 @@ msgid "çhenney taarnee_nf"
 msgstr "splanc thoirní"
 
 # parallel corpus
-# GAOL:
+# GAOL: çhionn_a+-id;teinne_nf
 msgid "çhennid_nf"
 msgstr "anró_nm;cruatan_nm;anachain_nf"
 
@@ -13150,16 +13484,17 @@ msgstr "tréine_nf"
 msgid "çhenntag_nf"
 msgstr "sornóg_nf;tinteog_nf"
 
-# GAOL:
+# HLSM: backformed from plural çhentyn which is from gd:teintean (pl. teine)
+# GAOL: tine_nf
 msgid "çhent_nm"
 msgstr "splanc_nf"
 
-# GAOL:
+# GAOL: <d çhent_nm
 msgid "çhent_v"
 msgstr "splanc_v"
 
 # != "çhenntag_nf"
-# GAOL:
+# GAOL: çhent_nm+-ag
 msgid "çhentag_nf"
 msgstr "tine ealaíne"
 
@@ -13167,7 +13502,8 @@ msgstr "tine ealaíne"
 msgid "çhentagh_a"
 msgstr "tintrí_a"
 
-# GAOL:
+# in HLSM w/o etym.
+# GAOL: <i çhent_v
 msgid "çhentyn_n"
 msgstr "splancadh_nm"
 
@@ -13201,7 +13537,8 @@ msgstr "meatach_a"
 
 # vn-like, no corresponding verb?  perish, fade, fail, vanish
 # these defs from parallel corpus
-# GAOL:
+# HLSM links gd:teireachdainn_nf
+# GAOL: gd:teireachdainn_nf
 msgid "çherraghtyn_n"
 msgstr "cailleadh_nm;milleadh_nm;scriosadh_nm;díothú_nm"
 
@@ -13218,7 +13555,7 @@ msgstr "ceiribín_nm"
 msgid "çheshvean_nm"
 msgstr "ceartlár_nm;croílár_nm;núicléas_nm"
 
-# GAOL:
+# GAOL: çheshvean_nm+-(e)agh
 msgid "çhesh-veanagh_a"
 msgstr "núicléach_a"
 
@@ -13226,6 +13563,7 @@ msgstr "núicléach_a"
 msgid "çheshvean trimmid_n"
 msgstr "meáchanlár_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çheu_nf"
 msgstr "taobh_nm"
@@ -13301,6 +13639,7 @@ msgstr "taobhlíne_nf"
 msgid "çheumooie_prep"
 msgstr "lasmuigh"
 
+# HLSM
 # GAOL: ~
 msgid "çheu-mooie_nf"
 msgstr "taobh amuigh"
@@ -13309,14 +13648,17 @@ msgstr "taobh amuigh"
 msgid "çheu-mooieys_nm"
 msgstr "oibiachtúlacht_nf"
 
+# HLSM
 # GAOL: ~
 msgid "çheusthie_a"
 msgstr "taobh istigh"
 
+# HLSM
 # GAOL: taobh istigh
 msgid "çheusthie_prep"
 msgstr "laistigh"
 
+# HLSM
 # GAOL: ~
 msgid "çheu-sthie_nf"
 msgstr "taobh istigh"
@@ -13355,6 +13697,7 @@ msgstr "seachtú"
 msgid "çhiamblagh_nm"
 msgstr "Teamplóir_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhiamble_nm"
 msgstr "teampall_nm"
@@ -13363,6 +13706,7 @@ msgstr "teampall_nm"
 msgid "çhiamble argid_n"
 msgstr "scrín_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhiarn_nm"
 msgstr "tiarna_nm"
@@ -13383,6 +13727,7 @@ msgstr "ardmhéara_nm"
 msgid "çhiarnys_nm"
 msgstr "tiarnas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhiass_nm"
 msgstr "teas_nm"
@@ -13436,6 +13781,7 @@ msgid "çhiass-niartallaght_nf"
 msgstr "teirmidinimic_nf"
 
 # well, spring; cf tobbyr_nf !
+# HLSM links OIr. tipra and MIr. tiobrait via alt spelling çhibbyrt
 # GAOL: ~
 msgid "çhibbyr_nf"
 msgstr "tobar_nm"
@@ -13452,6 +13798,7 @@ msgstr "Tiobraid Árann"
 msgid "çhicada_nm"
 msgstr "ciocáid_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "chied_a"
 msgstr "chéad"
@@ -13469,6 +13816,7 @@ msgstr "teilifíseán_nm"
 msgid "çhimpansee_nm"
 msgstr "simpeansaí_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhing_a"
 msgstr "tinn_a"
@@ -13482,6 +13830,7 @@ msgstr "othras_nm;cneá_nf"
 msgid "çhing lhiabbagh_n"
 msgstr "anacair leapa"
 
+# cognates in HLSM
 # GAOL: tinneas_nm
 msgid "çhingys_nf"
 msgstr "tinneas_nm;galar_nm"
@@ -13539,6 +13888,7 @@ msgstr "sions_nm"
 msgid "chioee_adv"
 msgstr "choíche_adv"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhiollagh_nm"
 msgstr "teallach_nm"
@@ -13548,6 +13898,7 @@ msgstr "teallach_nm"
 msgid "çhion_prep"
 msgstr "thart_prep;teann"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhionn_a"
 msgstr "teann_a"
@@ -13575,6 +13926,7 @@ msgstr "brúite_a"
 msgid "çhionnal_nm"
 msgstr "tionól_nm"
 
+# cognates in HLSM
 # vn of çhionn_v above
 # GAOL: ~
 msgid "çhionney_n"
@@ -13597,6 +13949,7 @@ msgstr "teannas_nm"
 msgid "çhionn lesh moyrn_a"
 msgstr "i mborr le bród"
 
+# HLSM as "çhonse"
 # GAOL: ~
 msgid "çhionse_nm"
 msgstr "seans_nm"
@@ -13609,6 +13962,7 @@ msgstr "tiúnadóir_nm"
 msgid "çhiow_nm"
 msgstr "téamh_nm"
 
+# cognates in HLSM (via gd:teòdhadh)
 # first sense of "téigh"
 # GAOL: ~
 msgid "çhiow_v"
@@ -13626,7 +13980,8 @@ msgstr "téitheoir uisce"
 msgid "çhiow ny cruinney_n"
 msgstr "téamh domhanda"
 
-# GAOL: ~
+# HLSM links gd:tiormachadh
+# GAOL: ~;<i çhirmee_v
 msgid "çhirmaghey_nm"
 msgstr "triomú_nm"
 
@@ -13634,10 +13989,12 @@ msgstr "triomú_nm"
 msgid "çhirmee_v"
 msgstr "triomaigh_v"
 
-# GAOL: ~
+# HLSM
+# GAOL: ~;çhirrym_a+-id
 msgid "çhirmid_nm"
 msgstr "triomacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhirrym_a"
 msgstr "tirim_a"
@@ -13658,6 +14015,7 @@ msgstr "tirimghlanadh_nm"
 msgid "çhitaanium_nm"
 msgstr "tíotáiniam_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhiu_a"
 msgstr "tiubh_a"
@@ -13682,6 +14040,7 @@ msgstr "clóraifill_nf"
 msgid "chloroplast_nm"
 msgstr "clóraplast_nm"
 
+# HLSM as "cha_adv" w/ cognate
 # GAOL: ~
 msgid "cho_adv"
 msgstr "chomh_adv"
@@ -13690,8 +14049,14 @@ msgstr "chomh_adv"
 msgid "çhoarym_nm"
 msgstr "teoirim_nf"
 
+# only in HLSM: "cuckoo" (no etym.)
+# GAOL: ~
+msgid "çhoggyl_nf"
+msgstr "cuach_nf"
+
+# HLSM links gd:'fhad's
 # choud's is an alt
-# GAOL:
+# GAOL: chomh fada is
 msgid "choud as_conj"
 msgstr "chomh fada agus"
 
@@ -13736,15 +14101,18 @@ msgstr "timpeallach_a"
 msgid "çhymbyllaght_nf"
 msgstr "timpeallacht_nf"
 
+# HLSM has alt sp. çhimlee_nf: from English
 # GAOL: ~
 msgid "çhymlee_nf"
 msgstr "simléar_nm"
 
-# GAOL:
+# pity
+# HLSM links gd:tioma  (Ir. time)
+# GAOL: time_nf
 msgid "çhymmey_nm"
 msgstr "trua_nf"
 
-# GAOL:
+# GAOL: <d çhymmey_nm
 msgid "çhymmoil_a"
 msgstr "atruach_a"
 
@@ -13770,7 +14138,8 @@ msgstr "gintlí_nm"
 msgid "çhymmyltaghtoil_a"
 msgstr "imshaolach_a;comhshaoil"
 
-# GAOL:
+# HLSM has çhymmylit + cognate
+# GAOL: ~
 msgid "çhymmyltey_nm"
 msgstr "timpeallghearradh_nm"
 
@@ -13786,6 +14155,7 @@ msgstr "tiomnacht_nf"
 msgid "çhymnee_v"
 msgstr "tiomnaigh_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "çhymney_nm"
 msgstr "tiomna_nm"
@@ -13798,6 +14168,7 @@ msgstr "tiomnóir_nm"
 msgid "çhymnit_a"
 msgstr "tiomanta_a"
 
+# cognates in HLSM (via gd:tiomsach); Ir. tiomsach is alt tiomsaitheach
 # adj only in Fargher: "inclined to gather, hoarding, saving"
 # also in phrase "ennym ~"
 # GAOL: ~
@@ -13808,6 +14179,7 @@ msgstr "tiomsaitheach_a"
 msgid "çhymsagh vaa_nf"
 msgstr "róidió_nm"
 
+# vn in HLSM
 # GAOL: ~
 msgid "çhymsee_v"
 msgstr "tiomsaigh_v"
@@ -13825,10 +14197,12 @@ msgstr "timthriallach_a"
 msgid "çhymshallys_nm"
 msgstr "ciorcadra_nm"
 
+# cognates in HLSM
 # GAOL: tiontú_nm
 msgid "çhyndaa_nm"
 msgstr "tiontú_nm;iompú_nm"
 
+# cognates in HLSM
 # GAOL: tiontaigh_v
 msgid "çhyndaa_v"
 msgstr "tiontaigh_v;iompaigh_v"
@@ -13882,12 +14256,12 @@ msgstr "tionsclaí_nm"
 
 # == turrys, but with additional sense "message" the most common one
 # in modern corpus...
-# GAOL:
+# GAOL: turas_nm
 msgid "çhyrrys_nm"
 msgstr "teachtaireacht_nf"
 
 # courier, messenger
-# GAOL:
+# GAOL: çhyrrys_nm+-(e)agh
 msgid "çhyrrysagh_nm"
 msgstr "teachtaire_nm"
 
@@ -13900,6 +14274,7 @@ msgstr "an tSiléis;na Siléise"
 msgid "claaraghey_nm"
 msgstr "clárú_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "claare_nf"
 msgstr "clár_nm"
@@ -13954,6 +14329,7 @@ msgstr "clár smúdála"
 msgid "claare yiarnal_n"
 msgstr "clár iarnála"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "claasagh_nf"
 msgstr "cláirseach_nf"
@@ -13994,6 +14370,7 @@ msgstr "trombóis_nf"
 msgid "clabbinagh_a"
 msgstr "scalóideach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "claddagh_nm"
 msgstr "cladach_nm"
@@ -14006,6 +14383,7 @@ msgstr "calóg shneachta"
 msgid "claddan sniaghtee_n"
 msgstr "calóg shneachta"
 
+# cognates in HLSM
 # bell, clock
 # GAOL: ~
 msgid "clag_nm"
@@ -14048,7 +14426,7 @@ msgstr "clogaireacht_nf"
 msgid "claggys_nm"
 msgstr "clogás_nm"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "clagh_nf"
 msgstr "cloch_nf"
@@ -14058,6 +14436,7 @@ msgstr "cloch_nf"
 msgid "clagh_v"
 msgstr "cloch_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "claghagh_a"
 msgstr "clochach_a"
@@ -14167,6 +14546,7 @@ msgstr "clogra_nm"
 msgid "claigaid_nm"
 msgstr "clogad_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "claigin_nm"
 msgstr "cloigeann_nm"
@@ -14186,6 +14566,12 @@ msgstr "barróg_nf;cuachadh_nm"
 msgid "clampeydys_nm"
 msgstr "sceadacht_nf"
 
+# HLSM @clappit
+# in corpus as ~ bassan => just bualadh for bualadh bos
+# GAOL: eng:clap
+msgid "clappal_n"
+msgstr "bualadh_nm"
+
 # GAOL: ~
 msgid "claraid_nf"
 msgstr "cláiréad_nm"
@@ -14198,6 +14584,7 @@ msgstr "cloch ghréine"
 msgid "clarinaid_nm"
 msgstr "clairinéad_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "clash_nf"
 msgstr "clais_nf"
@@ -14220,7 +14607,7 @@ msgid "clasht_v"
 msgstr "clois_v"
 
 # Ir. cloistinn is an alt spelling
-# cognates in SCC
+# cognates in SCC/HLSM
 # GAOL: ~
 msgid "clashtyn_nm"
 msgstr "cloisteáil_nf"
@@ -14241,6 +14628,7 @@ msgstr "inchloisteacht_nf"
 msgid "classicagh_a"
 msgstr "clasaiceach_a"
 
+# HLSM links "Ir. cléithe" but I don't see that...
 # parallel corpus; 1. roof 2. palate
 # GAOL:
 msgid "clea_nf"
@@ -14256,7 +14644,8 @@ msgid "cleagh_a"
 msgstr "príobháideach_a"
 
 # cradle, cage; parallel corpus gives cléibhín
-# GAOL:
+# HLSM links cognate cliabhán
+# GAOL: cliabhán_nm
 msgid "clean_nm"
 msgstr "cléibhín_nm;cliabhán_nm"
 
@@ -14303,6 +14692,7 @@ msgstr "claonaí_nm"
 msgid "cleaynaghys_nm"
 msgstr "claonachas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cleayney_nm"
 msgstr "claonadh_nm"
@@ -14332,7 +14722,7 @@ msgstr "cleasach_a"
 msgid "cleaysaght_nf"
 msgstr "cleasaíocht_nf"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "cleaysh_nf"
 msgstr "cluas_nf"
@@ -14370,6 +14760,7 @@ msgid "clee_nm"
 msgstr "clé_nf"
 
 # lattice, etc.
+# cognates in HLSM (pl. cleain)
 # GAOL: ~
 msgid "cleeah_nf"
 msgstr "cliath_nf"
@@ -14378,16 +14769,17 @@ msgstr "cliath_nf"
 msgid "cleeah scudlee_nf"
 msgstr "iomprán bagáiste"
 
-# GAOL:
+# GAOL: ~
 msgid "cleeah-vocs_nf"
 msgstr "cliathbhosca_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cleeau_nf"
 msgstr "cliabh_nm;ucht_nm"
 
 # no cognate; pectoral
-# GAOL:
+# GAOL: cleeau_nf+-(e)agh
 msgid "cleeauagh_a"
 msgstr "uchtach_a"
 
@@ -14412,6 +14804,7 @@ msgstr "cúpláil_nf;clíth_nm"
 msgid "cleiee_v"
 msgstr "cúpláil_v"
 
+# HLSM links OIr. clad
 # GAOL: claí_nm
 msgid "cleigh_nf"
 msgstr "claí_nm;fál_nm"
@@ -14424,8 +14817,9 @@ msgstr "claítheoir_nm;fálaitheoir_nm"
 msgid "cleigh marrey_n"
 msgstr "claí mara"
 
+# HLSM links OIr. claide (eDIL headword)
 # vn of next
-# GAOL:
+# GAOL: <i cleiy_v
 msgid "cleiy_n"
 msgstr "rómhar_nm;tochailt_nf"
 
@@ -14434,7 +14828,7 @@ msgstr "rómhar_nm;tochailt_nf"
 msgid "cleiy_v"
 msgstr "rómhair_v;tochail_v"
 
-# GAOL:
+# GAOL: <i cleiy_v
 msgid "cleiyt_a"
 msgstr "tochailte_a;gearrtha_a"
 
@@ -14458,20 +14852,24 @@ msgstr "cliarscoil_nf"
 msgid "clesp_nf"
 msgstr "claspa_nm"
 
-# not in corpus
+# obstacle, rock nearer large one, submerged reef
+# also "clett", common in Manx coastal place names, and pl clettyn
+# HLSM says from ON. klettr 'rock'
 # GAOL:
 msgid "clet_nf"
-msgstr "líonán_nm"
+msgstr "líonán_nm;fochais_nf"
 
 # full of reefs, rocks
 # GAOL:
 msgid "clettagh_a"
 msgstr "sceireach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cleuin_nm"
 msgstr "cliamhain_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cleuinys_nf"
 msgstr "cleamhnas_nm"
@@ -14486,6 +14884,7 @@ msgstr "cleacht_v"
 msgid "cliaghtagh_a"
 msgstr "gnách_a;cleachtach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cliaghtey_nm"
 msgstr "cleachtadh_nm"
@@ -14536,6 +14935,7 @@ msgstr "cliniciúil_a"
 msgid "clink_v"
 msgstr "cling_v"
 
+# HLSM says from English
 # GAOL: ~
 msgid "clinkeragh_nm"
 msgstr "clingeadh_nm"
@@ -14576,6 +14976,7 @@ msgstr "léimneach_a"
 msgid "clistey_n"
 msgstr "cliseadh_nm;preabadh_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cliwe_nm"
 msgstr "claíomh_nm"
@@ -14610,6 +15011,7 @@ msgstr "claimhteoireacht_nf"
 msgid "cloag_v"
 msgstr "ceil_v"
 
+# cognates in HLSM
 # also vn of prev.
 # GAOL: ~
 msgid "cloagey_nm"
@@ -14620,6 +15022,7 @@ msgstr "clóca_nm"
 msgid "cloaie_a"
 msgstr "cloiche_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cloan_nf"
 msgstr "clann_nf"
@@ -14653,6 +15056,7 @@ msgstr "bréidín_nm"
 msgid "cloie_nm"
 msgstr "cluiche_nm;imirt_nf;seinm_nf;dráma_nm;fiuchadh_nm"
 
+# HLSM links Ir. cluiche
 # play (cognate), also "boil" (cf broie_v)
 # GAOL: cluiche_nm
 msgid "cloie_v"
@@ -14666,7 +15070,8 @@ msgstr "comórtas buillí"
 msgid "cloie cruinn_n"
 msgstr "cluiche corr"
 
-# GAOL:
+# HLSM in pl.
+# GAOL: <d cloie_nm
 msgid "cloieder_nm"
 msgstr "aisteoir_nm;imreoir_nm;seinnteoir_nm"
 
@@ -14711,6 +15116,7 @@ msgid "cloit_a"
 msgstr "imeartha_a"
 
 # afterbirth
+# in HLSM, no etym.
 # GAOL:
 msgid "clonchour_nm"
 msgstr "slánú_nm"
@@ -14757,6 +15163,11 @@ msgstr "clóirín_nm"
 # GAOL: ~
 msgid "cloreenaghey_nm"
 msgstr "clóiríniú_nm"
+
+# HLSM from Eng.
+# GAOL: eng:close
+msgid "closal_n"
+msgstr "dúnadh_nm"
 
 # GAOL: ~
 msgid "close_nm"
@@ -14806,8 +15217,9 @@ msgstr "cló Gaelach"
 msgid "clou-ghiarescreeuder_nm"
 msgstr "gearr-chlóscríobhaí_nm"
 
-# tongs (pl in gv)
-# GAOL:
+# tongs (pl in gv); pl. of "clou" or "clouw" (Cregeen, latter in HLSM)
+# HLSM links gd:clobha, worry about link to Ir., if any, there.
+# GAOL: gd:cloba_nm
 msgid "cloughyn_nm"
 msgstr "tlú"
 
@@ -14963,6 +15375,7 @@ msgid "coagyraght_nf"
 msgstr "cócaireacht_nf"
 
 # a cook; also alt of vn above
+# cognates in HLSM
 # GAOL: ~
 msgid "coagyrey_nm"
 msgstr "cócaire_nm"
@@ -15001,7 +15414,8 @@ msgid "coamree_v"
 msgstr "gléas_v;feistigh_v"
 
 # "clothing"; from dialect English; no cognate
-# GAOL:
+# HLSM says "cf. ScG. comradh and comrachadh"
+# GAOL: <i coamree_v
 msgid "coamrey_nm"
 msgstr "éadach_nm"
 
@@ -15010,18 +15424,21 @@ msgstr "éadach_nm"
 msgid "coamrey-reeoil_nm"
 msgstr "fallaing ríoga"
 
-# GAOL:
+# GAOL: <i coamree_v
 msgid "coamrit_a"
 msgstr "gléasta_a;feistithe_a"
 
-# GAOL:
+# HLSM links cabhán (which has sense "valley" in Dinneen)
+# GAOL: cabhán_nm
 msgid "coan_nm"
 msgstr "com_nm;gleann_nm"
 
+# cognates in HLSM
 # GAOL: cóir_a
 msgid "coar_a"
 msgstr "cóir_a;múinte_a"
 
+# cognates in HLSM (in phrases)
 # crane (bird)
 # GAOL: ~
 msgid "coar_nf"
@@ -15038,7 +15455,7 @@ msgid "coaraght_nm"
 msgstr "cineáltas_nm"
 
 # agree, assent
-# GAOL:
+# GAOL: gd:còrd_v
 msgid "coard_v"
 msgstr "aontaigh_v;comhaontaigh_v"
 
@@ -15047,12 +15464,12 @@ msgid "co-ard_a"
 msgstr "comh-ard_a"
 
 # cognate with En.?  accord, concord, etc.
-# GAOL:
+# GAOL: <i coard_v;gd:còrdadh_nm
 msgid "coardail_nm"
 msgstr "aontú_nm;comhaontú_nm"
 
 # concordant, congruent
-# GAOL:
+# GAOL: coardail_nm+-(e)agh
 msgid "coardailagh_a"
 msgstr "comhaontach_a;comhréireach_a"
 
@@ -15062,7 +15479,7 @@ msgstr "de réir"
 
 # an agreement; also in phrase with "ayns" - see multi-gv
 # cf coardail above
-# GAOL:
+# GAOL: coardail_nm+-ys
 msgid "coardailys_nm"
 msgstr "comhaontú_nm"
 
@@ -15098,10 +15515,12 @@ msgid "coasan_nm"
 msgstr "comhaois_nf"
 
 # chaff
+# HLSM says from "E. dial. caff 'chaff'"?
 # GAOL: ~
 msgid "coau_nf"
 msgstr "cáith_nf"
 
+# cf caih_v
 # winnow
 # GAOL: ~
 msgid "coau_v"
@@ -15112,6 +15531,7 @@ msgid "coaughey_n"
 msgstr "cáitheadh_nm"
 
 # Fargher: vn of "caill"; SCC links Ir. verb caill_v
+# HLSM links gd:call
 # GAOL: ~
 msgid "coayl_nm"
 msgstr "cailleadh_nm"
@@ -15185,6 +15605,7 @@ msgstr "comhraiceoir_nm"
 msgid "cochasley rish_a"
 msgstr "cosúil le"
 
+# HLSM has co-caslys w/o etym
 # GAOL:
 msgid "cochaslys_nm"
 msgstr "íomhá_nf;pictiúr_nm"
@@ -15238,6 +15659,7 @@ msgstr "comhchealgaire_nm"
 msgid "cochiangle_v"
 msgstr "comhcheangail_v"
 
+# HLSM co-kiangley
 # GAOL: ~
 msgid "cochiangley_nm"
 msgstr "comhcheangal_nm"
@@ -15464,7 +15886,7 @@ msgstr "comhainmneach_nm"
 msgid "cofioosagh_a"
 msgstr "comhfhiúsach_a"
 
-# cockle
+# cockle; Cregeen has "yn choggyl"
 # GAOL: ~
 msgid "coggyl_nf"
 msgstr "cogal_nm"
@@ -15502,6 +15924,7 @@ msgstr "comhghreamaitheach_a"
 msgid "co-ghuillag_nf"
 msgstr "comhdhuille_nm"
 
+# cf. coghal in HLSM
 # 1 caul 2 cowl (Av. + Nau. in both Fargher and de Bh.)
 # GAOL: cochall_nm
 msgid "coghyl_nf"
@@ -15670,6 +16093,7 @@ msgid "cohymsagh_a"
 msgstr "comhthiomsaitheach_a"
 
 # loom
+# in HLSM but not etym.
 # GAOL:
 msgid "coigee_nf"
 msgstr "seol_nm"
@@ -15738,10 +16162,12 @@ msgstr "comhionannas_nm"
 msgid "colb_nf"
 msgstr "corp_nm;colainn_nf;cabhail_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "colbagh_nf"
 msgstr "colpach_nf"
 
+# HLSM: "compound containing luath" (gv:leah)
 # GAOL:
 msgid "coleayrtys_nm"
 msgstr "clapsholas_nm"
@@ -15760,6 +16186,7 @@ msgid "co-lheie_nm"
 msgstr "comhleá_nm"
 
 # bedfellow, etc.
+# HLSM w/o etym.
 # GAOL: comhleapach_nm
 msgid "colhiabbagh_nm"
 msgstr "comhleapach_nm;leannán_nm"
@@ -15772,11 +16199,12 @@ msgstr "comhlíneach_a"
 msgid "collag_nf"
 msgstr "canna baoite"
 
+# cognates in HLSM
 # GAOL: collach_nm
 msgid "collagh_nm"
 msgstr "collach_nm;stail_nf"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM (pl. in latter)
 # GAOL: ~
 msgid "collane_nf"
 msgstr "caolán_nm"
@@ -15886,6 +16314,7 @@ msgstr "Colómach_nm"
 msgid "Colombey_nf"
 msgstr "Colóim_nf"
 
+# HLSM from English
 # GAOL: ~
 msgid "coltar_nm"
 msgstr "coltar_nm"
@@ -15907,6 +16336,7 @@ msgstr "cóiméad_nm"
 msgid "combaasal_n"
 msgstr "timpeallú_nm"
 
+# HLSM from M.E. compass
 # 1. detour, roundabout route 2. compass
 # GAOL: compás_nm
 msgid "combaase_nm"
@@ -16142,10 +16572,12 @@ msgstr "Connacht_nm"
 
 # 1. gorse 2. firewood (cognate) 3. fuel (in corpus, pl too!)
 # MacBain links this with gd "conas, conasg" (furze, whins), Ir. conasg?
+# HLSM links connadh_nm
 # GAOL: connadh_nm
 msgid "conney_nm"
 msgstr "aiteann_nm;connadh_nm;breosla_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "conning_nf"
 msgstr "coinín_nm"
@@ -16245,7 +16677,8 @@ msgid "contraartagh_a"
 msgstr "contrártha_a"
 
 # neap tide; cf. gd conntraigh!
-# GAOL:
+# HLSM links gd:contraigh
+# GAOL: gd:conntraigh_nf
 msgid "contraie_nf"
 msgstr "mallmhuir_nf"
 
@@ -16266,6 +16699,7 @@ msgid "contrey-phoynt_nm"
 msgstr "cuntraphointe_nm"
 
 # carrion; parallel corpus; "corpse" in Skeealaght
+# HLSM has "con-mhárt" but I don't know what that means
 # GAOL:
 msgid "convayrt_nm"
 msgstr "conablach_nm;marbhán_nm"
@@ -16274,11 +16708,13 @@ msgstr "conablach_nm;marbhán_nm"
 msgid "conventoil_a"
 msgstr "coinbhintiúil_a"
 
+# cognates in HLSM
 # GAOL: cú_nm
 msgid "coo_nm"
 msgstr "cú_nm;madra_nm"
 
 # cuckoo
+# HLSM links gd:cubhag (hence cuach)
 # GAOL: ~
 msgid "cooag_nf"
 msgstr "cuach1_nf"
@@ -16371,6 +16807,7 @@ msgid "coo conveyrt_n"
 msgstr "seacál_nm"
 
 # folder is "coodagh fillit" in Fargher, but just "coodagh" in software xlation
+# cognates in HLSM
 # GAOL: cumhdach_nm
 msgid "coodagh_nm"
 msgstr "cumhdach_nm;clúdach_nm;fillteán_nm"
@@ -16396,6 +16833,11 @@ msgstr "taiseagán_nm"
 msgid "coodee_v"
 msgstr "cumhdaigh_v;clúdaigh_v"
 
+# cooing; HLSM but not etym.
+# GOAL:
+msgid "cooey_n"
+msgstr "durdáil_nf"
+
 # GAOL: ~
 msgid "coo folley_n"
 msgstr "cú fola"
@@ -16404,6 +16846,7 @@ msgstr "cú fola"
 msgid "coogar_nm"
 msgstr "cúgar_nm"
 
+# cognates in HLSM
 # GAOL: cuid_nf
 msgid "cooid_nf"
 msgstr "cuid_nf;earraí"
@@ -16424,8 +16867,9 @@ msgstr "eastát réadach"
 msgid "cooid-hie_nm"
 msgstr "troscán_nm"
 
+# HLSM links gd:cuideachd
 # or "i gcuideachta"; soiléir!
-# GAOL:
+# GAOL: cuideachta_nf
 msgid "cooidjagh_a"
 msgstr "le chéile"
 
@@ -16467,6 +16911,7 @@ msgstr "cuid is lú;chuid is lú"
 msgid "cooid vog_nf"
 msgstr "bogearra_nm"
 
+# HLSM links OIr. cubaid
 # GAOL: cuí_a
 msgid "cooie_a"
 msgstr "cuí_a;iomchuí_a"
@@ -16489,7 +16934,8 @@ msgstr "comhlíon_v;cúitigh_v"
 msgid "cooilleenee_a"
 msgstr "cúiteach_a"
 
-# GAOL: comhlíonadh_nm
+# cognates in HLSM
+# GAOL: comhlíonadh_nm;<i cooilleen_v
 msgid "cooilleeney_nm"
 msgstr "comhlíonadh_nm;cúiteamh_nm"
 
@@ -16515,6 +16961,8 @@ msgstr "cúilín_nm"
 msgid "cooin_v"
 msgstr "cúnaigh_v;cum_v"
 
+# HLSM links this w/ gd:cuimhneachd (cuimhneachadh better sense-wise?)
+# HLSM also has spelling "cooinee" for noun "memory" -> cuimhne
 # cf. ~ + yn below
 # GAOL: cuimhneamh_nm
 msgid "cooinaght_nm"
@@ -16528,6 +16976,7 @@ msgstr "cuimhneach_a"
 msgid "cooinaghtane_nm"
 msgstr "cuimhneachán_nm"
 
+# HLSM
 # GAOL: cuimhneamh_nm
 msgid "cooinaghtyn_nm"
 msgstr "cuimhneamh_nm;comóradh_nm"
@@ -16566,11 +17015,13 @@ msgstr "cuimhneolaíocht_nf"
 msgid "cooinsheansaght_nf"
 msgstr "coinsiasacht_nf"
 
+# HLSM says from ME.
 # GAOL: ~
 msgid "cooinsheanse_nf"
 msgstr "coinsias_nm"
 
 # not really a f.f. but "cúrsa" is frequently a better translation than cúis
+# cognates in HLSM
 # GAOL: cúis_nf
 msgid "cooish_nf"
 msgstr "cúis_nf;cúrsa_nm"
@@ -16603,6 +17054,11 @@ msgstr "cúis dlí"
 msgid "cooitinagh_nm"
 msgstr "cúitineach_nm"
 
+# HLSM: from English
+# GAOL: ~
+msgid "cookal_n"
+msgstr "cócaráil_nf"
+
 # greyhound; just "cú" in de Bhaldraithe; calque "cú fada" not in corpus
 # GAOL:
 msgid "coo liauyr_n"
@@ -16620,6 +17076,7 @@ msgstr "comhpháirt_nf"
 msgid "co-oltagh_a"
 msgstr "comhpháirteach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "coon_a"
 msgstr "cúng_a"
@@ -16628,6 +17085,7 @@ msgstr "cúng_a"
 msgid "coonee_a"
 msgstr "cúnta_a"
 
+# cognates in HLSM
 # GAOL: cúnamh_nm
 msgid "cooney_nm"
 msgstr "cúnamh_nm;cabhair_nf"
@@ -16640,6 +17098,7 @@ msgstr "cúntóir_nm"
 msgid "coonid_nm"
 msgstr "cúinge_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "coonlagh_nf"
 msgstr "coinleach_nm"
@@ -16687,6 +17146,7 @@ msgstr "Contae na Mí"
 msgid "Coontae yn Chlaair_nm"
 msgstr "Contae an Chláir"
 
+# HLSM links gd:cunndadh (== gd:cunntadh which links ga:cuntas)
 # GAOL: cuntas_nm
 msgid "coontey_nm"
 msgstr "cuntas_nm;comhaireamh_nm"
@@ -16750,6 +17210,7 @@ msgstr "cumhraithe_a"
 msgid "coorsagh_a"
 msgstr "rialta_a"
 
+# HLSM says from ME
 # GAOL: ~
 msgid "coorse_nm"
 msgstr "cúrsa_nm"
@@ -16789,6 +17250,7 @@ msgstr "gadhar sionnach"
 msgid "Coowait_nf"
 msgstr "Cuáit_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cooyl_nm"
 msgstr "cúl_nm"
@@ -16808,15 +17270,16 @@ msgstr "cúlú_nm"
 msgid "cooyl-caayntagh_nm"
 msgstr "cúlchainteoir_nm"
 
-# GAOL:
+# in HLSM @ çhengey ~
+# GAOL: cooyl_nm+cassid_nm
 msgid "cooyl-chassid_nf"
 msgstr "cúlchaint_nf;clúmhilleadh_nm"
 
-# GAOL:
+# GAOL: cooyl-chassid_nf+-(e)agh
 msgid "cooyl-chassidagh_a"
 msgstr "cúlchainteach_a"
 
-# GAOL:
+# GAOL: cooyl-chassid_nf+-(e)agh
 msgid "cooyl-chassidagh_nm"
 msgstr "cúlchainteoir_nm"
 
@@ -16958,6 +17421,7 @@ msgstr "cúl an mhuiníl"
 msgid "cooyrag_nf"
 msgstr "cúróg_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cooyrt_nf"
 msgstr "cúirt_nf"
@@ -17029,6 +17493,7 @@ msgstr "corr_a"
 msgid "cor_nm"
 msgstr "cor_nm"
 
+# cognates in HLSM
 # false friend; != comhrá, despite being cognate in SCC
 # GAOL: comhrá_nm
 msgid "coraa_nf"
@@ -17137,6 +17602,7 @@ msgstr "gealbhan gleoránach"
 msgid "Corkee_nf"
 msgstr "Corcaigh_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "corkey_nm"
 msgstr "coirce_nm"
@@ -17210,12 +17676,13 @@ msgstr "coirnéad_nm"
 msgid "corneesh_nf"
 msgstr "coirnis_nf"
 
+# cognates in HLSM
 # GAOL: coirnéal_nm
 msgid "corneil_nf"
 msgstr "coirnéal_nm;cúinne_nm"
 
 # gs?
-# GAOL:
+# GAOL: corneil_nf+-(e)agh
 msgid "corneilagh_a"
 msgstr "cúinne;chúinne;cearnógach_a"
 
@@ -17227,7 +17694,7 @@ msgstr "Coirnis_nf"
 msgid "coroanagh_a"
 msgstr "corónach_a"
 
-# GAOL:
+# GAOL: corockle_nm+-(e)agh
 msgid "corocklagh_a"
 msgstr "consanta_a"
 
@@ -17244,6 +17711,7 @@ msgstr "córúil_a"
 msgid "co-rollageys_nm"
 msgstr "réaltra_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "corp_nm"
 msgstr "corp_nm"
@@ -17292,11 +17760,13 @@ msgstr "corpdhioscadh_nm"
 msgid "corradoyr_nm"
 msgstr "dorchla_nm"
 
+# HLSM cognates in finger sense
 # 1. switch (e.g. electric) 2. bundle of osiers 3. index finger
 # GAOL: corróg_nf
 msgid "corrag_nf"
 msgstr "lasc_nf;corróg_nf;corrmhéar_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "corragh_a"
 msgstr "corrach_a"
@@ -17306,6 +17776,7 @@ msgstr "corrach_a"
 msgid "corraghys_nm"
 msgstr "corrabhuais_nf;corraí_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "corran_nm"
 msgstr "corrán_nm"
@@ -17320,14 +17791,17 @@ msgstr "corránach_a"
 msgid "corraneagh_a"
 msgstr "corránach_a"
 
-# GAOL:
+# HLSM has adj. and links Ir. corruighe (corraí?)
+# GAOL: corraithe_a
 msgid "corree_a"
 msgstr "feargach_a"
 
+# see prev.
 # GAOL: corraí_nm
 msgid "corree_nf"
 msgstr "corraí_nm;fearg_nf"
 
+# HLSM but no etym.
 # also phrases: ben chorrey = pregnant woman
 # and "rass correy" = seed.
 # GAOL:
@@ -17367,6 +17841,7 @@ msgstr "coiréal_nm"
 msgid "corrylagh_a"
 msgstr "coiréalach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "corrym_a"
 msgstr "cothrom_a"
@@ -17528,6 +18003,7 @@ msgstr "faigh_v;buaigh_v;gnóthaigh_v;teith_v"
 # false friend; != primary defs of cosaint
 # in corpus in plural "cosnaghyn" too, in sense "gains, proceeds, profits"
 # (see pairs-local and multi since Ir. brabús usually singular)
+# HLSM links gd:cosnadh
 # GAOL: cosaint_nf
 msgid "cosney_nm"
 msgstr "fáil_nf;buachan_nf;teitheadh_nm"
@@ -17541,12 +18017,13 @@ msgstr "saothraí_nm;buaiteoir_nm"
 msgid "cosoylagh_a"
 msgstr "cosúil_a"
 
+# HLSM links the gd, worry about it there
 # vn of cosoylee_v
-# GAOL:
+# GAOL: gd:cosamhlachadh_nm
 msgid "cosoylaghey_nm"
 msgstr "comparáid_nf;cóimheas_nm"
 
-# GAOL: ~
+# GAOL: ~;cosoylagh_a+-t
 msgid "cosoylaght_nf"
 msgstr "cosúlacht_nf"
 
@@ -17572,6 +18049,7 @@ msgstr "Cosacach_nm"
 msgid "Cossackagh_a"
 msgstr "Cosacach_a"
 
+# HLSM links gd:coslach (alt coltach?)
 # GAOL:
 msgid "cossyllagh_a"
 msgstr "measartha_a"
@@ -17587,6 +18065,7 @@ msgstr "cosain_v"
 msgid "costal_a"
 msgstr "lómhar_a;luachmhar_a;costasach_a"
 
+# HLSM says from English
 # SCC links costáil, but see note above about transitive vs. intransitive
 # GAOL:
 msgid "costal_n"
@@ -17642,6 +18121,7 @@ msgstr "cóisteoir_nm"
 msgid "co-uillinagh_a"
 msgstr "comhuilleach_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "coull_nm"
 msgstr "coll_nm"
@@ -17667,6 +18147,7 @@ msgstr "comhaontaithe_a"
 msgid "countee_nm"
 msgstr "contae_nm"
 
+# cognates in HLSM
 # GAOL:
 msgid "cour_prep"
 msgstr "i gcomhair"
@@ -17675,13 +18156,15 @@ msgstr "i gcomhair"
 msgid "couyr_nm"
 msgstr "cabhair_nf"
 
+# see vn for etym.
 # recover, mend (intransitive)
-# GAOL:
+# GAOL: eng:recover
 msgid "couyr_v"
 msgstr "bisigh_v;téarnaigh_v"
 
+# HLSM: from Eng. (re)cover
 # vn of prev.
-# GAOL:
+# GAOL: <i couyr_v
 msgid "couyral_n"
 msgstr "bisiú_nm;téarnamh_nm"
 
@@ -17789,6 +18272,7 @@ msgstr "clib_nf"
 msgid "cowree_v"
 msgstr "comharthaigh_v;marcáil_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cowrey_nm"
 msgstr "comhartha_nm"
@@ -17881,6 +18365,7 @@ msgid "coyr choadan_nf"
 msgstr "comhadchaibinéad_nm"
 
 # téad in parallel corpus
+# HLSM spells this coard
 # GAOL: corda_nm
 msgid "coyrd_nm"
 msgstr "corda_nm;téad_nf"
@@ -17910,6 +18395,7 @@ msgstr "comhairleoir_nm"
 msgid "coyrlaght_nf"
 msgstr "inmholtacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "coyrle_nf"
 msgstr "comhairle_nf"
@@ -17918,6 +18404,7 @@ msgstr "comhairle_nf"
 msgid "coyrle agglish_nf"
 msgstr "sionad_nm"
 
+# HLSM has coyrlagh as vn of this, linked with gd:comhairleachadh
 # GAOL: comhairligh_v
 msgid "coyrlee_v"
 msgstr "comhairligh_v;mol_v"
@@ -17938,7 +18425,8 @@ msgstr "cónra_nf"
 msgid "coyr rioee_nf"
 msgstr "cuisneoir_nm"
 
-# GAOL: cur_nm
+# HLSM: "Ir. tabhairt contaminated with cur"!
+# GAOL: ~
 msgid "coyrt_nm"
 msgstr "tabhairt_nf;cur_nm"
 
@@ -17955,7 +18443,8 @@ msgstr "bosca bruscair"
 msgid "coyr-verriu_nf"
 msgstr "cónra_nf"
 
-# GAOL:
+# HLSM @chraa, no etym.; @craa links Ir. crathadh
+# GAOL: croitheadh_nm
 msgid "craa_nm"
 msgstr "crith_nm;croitheadh_nm"
 
@@ -17963,6 +18452,7 @@ msgstr "crith_nm;croitheadh_nm"
 msgid "craa-chiaull_nf"
 msgstr "rac-cheol_nm"
 
+# HLSM
 # plus many combos (cá bhfuil/raibh...) in multi-gv
 # GAOL:
 msgid "c'raad_interr"
@@ -17990,6 +18480,7 @@ msgstr "crith talún"
 msgid "craaish_nm"
 msgstr "cúitineach_nm"
 
+# HLSM
 # GAOL: ~
 msgid "craait_a"
 msgstr "croite_a"
@@ -18010,6 +18501,11 @@ msgstr "creathach_nf"
 # GAOL: creathnach_a
 msgid "craaynagh_a"
 msgstr "creathánach_a;creathnach_a"
+
+# HLSM: from English
+# GAOL: ~
+msgid "crackal_n"
+msgstr "craiceáil_nf"
 
 # linked in HLSM
 # cognates in Kelly
@@ -18097,6 +18593,7 @@ msgstr "déan magadh"
 msgid "craidagh_a"
 msgstr "fonóideach_a;magúil_a;scigiúil_a;cnáideach_a"
 
+# HLSM
 # vn
 # SCC says cognate with crá
 # GAOL: <i craid_v
@@ -18104,6 +18601,7 @@ msgid "craidey_nm"
 msgstr "magadh_nm"
 
 # scigire in parallel corpus
+# HLSM analyses as cnàid+eamhal+ach
 # GAOL: <d craid_nf
 msgid "craidoilagh_nm"
 msgstr "magadóir_nm;scigire_nm"
@@ -18222,12 +18720,16 @@ msgstr "cnap_nm;cnag_nm"
 msgid "crank_v"
 msgstr "cnag_v"
 
+# HLSM says from English 'knock'
 # GAOL: <i crank_v
 msgid "crankal_nm"
 msgstr "cnagadh_nm"
 
+# also spelled cronnag_nf
 # pulpit in corpus (ec cass y chrannag) - Lovecraft translation
 # cognate works for pulpit also in Ir.
+# other senses: cross-tree, crow's nest, masthead, ... (this last 
+# also in HLSM, linked with gd:crannag == ga:crannóg)
 # GAOL: ~
 msgid "crannag_nf"
 msgstr "crannóg_nf"
@@ -18241,6 +18743,7 @@ msgid "crape_nf"
 msgstr "créip_nf"
 
 # wrinkle, furrow
+# HLSM says "cf. Ir. crapadh"
 # GAOL:
 msgid "craplag_nf"
 msgstr "clupaid_nf"
@@ -18265,7 +18768,7 @@ msgstr "raca_nm"
 msgid "cratçh scudlee_nf"
 msgstr "raca bagáiste"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "craue_nf"
 msgstr "cnámh_nf"
@@ -18283,6 +18786,7 @@ msgid "craue drommey_n"
 msgstr "cnámh droma"
 
 # cráifeach cognate, others parallel corpus
+# HLSM links gd:cràbhaidh (alt sp. of gd:cràbhach)
 # GAOL: cráifeach_a
 msgid "crauee_a"
 msgstr "cráifeach_a;diaganta_a;naofa_a"
@@ -18338,6 +18842,7 @@ msgstr "gró_nm"
 msgid "craue yn uillin_n"
 msgstr "cnáimhín súgartha"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cray_nf"
 msgstr "cré_nf"
@@ -18375,6 +18880,7 @@ msgstr "crián_nm"
 msgid "cray vroit_nf"
 msgstr "cré bhruite"
 
+# HLSM links gd:c'e
 # GAOL:
 msgid "cre_interr"
 msgstr "céard a;cad a;céard"
@@ -18387,6 +18893,7 @@ msgstr "cré_nf"
 # furrow, stack
 # "clais" in parallel corpus (furrow)
 # first sense of cruach_nf in GA.txt
+# cognates in HLSM
 # GAOL: cruach_nf
 msgid "creagh_nf"
 msgstr "cruach1_nf;stáca_nm;clais_nf"
@@ -18429,8 +18936,8 @@ msgstr "creatlach_nf"
 msgid "creauagh_a"
 msgstr "corraitheach_a"
 
-# FGB also has "creic_nf" buying, selling! (cf SCC)
-# GAOL: reic_nm
+# FGB also has literary "creic_nf" buying, selling! (cf SCC)
+# GAOL: creic_nf
 msgid "creck_nm"
 msgstr "díol_nm;reic_nm"
 
@@ -18450,7 +18957,7 @@ msgstr "díoltóir_nm"
 msgid "creckeyderys_nm"
 msgstr "díoltóireacht_nf"
 
-# GAOL:
+# GAOL: <i creck_v
 msgid "creckit_a"
 msgstr "díolta_a"
 
@@ -18464,6 +18971,7 @@ msgstr "cnead_nf"
 msgid "cred_v"
 msgstr "creid_v"
 
+# HLSM links Ir. créad
 # GAOL: céard_interr
 msgid "c'red_interr"
 msgstr "cad_interr;céard_interr"
@@ -18477,15 +18985,16 @@ msgstr "cneadach_a"
 msgid "creddal_n"
 msgstr "casachtach_nf"
 
+# HLSM links Ir. creidbheáil (which is an alt of creidiúint in FGB)
 # GAOL: ~
 msgid "credjal_nm"
 msgstr "creidiúint_nf"
 
-# GAOL:
+# GAOL: credjal_nm+-aght
 msgid "credjalaght_nf"
 msgstr "saontacht_nf"
 
-# GAOL:
+# GAOL: <d credjal_nm
 msgid "credjaltys_nm"
 msgstr "inchreidteacht_nf"
 
@@ -18493,7 +19002,7 @@ msgstr "inchreidteacht_nf"
 msgid "credjane_nm"
 msgstr "creideán_nm"
 
-# GAOL: ~
+# GAOL: ~;<i cred_v
 msgid "credjit_a"
 msgstr "creidte_a"
 
@@ -18510,11 +19019,13 @@ msgstr "creidiúnaithe_a"
 msgid "credjuagh_a"
 msgstr "creidmheach_a"
 
+# cognates in HLSM
 # believer (couple of alts too)
 # GAOL: ~
 msgid "credjuagh_nm"
 msgstr "creidmheach_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "credjue_nm"
 msgstr "creideamh_nm"
@@ -18523,7 +19034,7 @@ msgstr "creideamh_nm"
 msgid "credyragh_n"
 msgstr "cnead_nf"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "cree_nm"
 msgstr "croí_nm"
@@ -18537,6 +19048,7 @@ msgstr "críoch_nf"
 msgid "creeaght_nf"
 msgstr "misneach_nm"
 
+# cognates in HLSM
 # 1. sieve (cognate), 2. survey (false friend)
 # GAOL: criathar_nm
 msgid "creear_nf"
@@ -18547,6 +19059,7 @@ msgstr "criathar_nm;suirbhé_nm"
 msgid "creear_v"
 msgstr "criathraigh_v"
 
+# cognates in HLSM
 # vn of prev.
 # GAOL: ~
 msgid "creearey_n"
@@ -18578,6 +19091,11 @@ msgstr "croitheadh guaillí"
 msgid "Creeish_nf"
 msgstr "Craís_nf"
 
+# creel (basket)
+# GAOL: ~
+msgid "creel_nm"
+msgstr "críol_nm"
+
 # GAOL: ~
 msgid "creel_v"
 msgstr "craol_v"
@@ -18598,6 +19116,7 @@ msgstr "craoltóir_nm"
 msgid "creeley-fynneigagh_nm"
 msgstr "podchraoladh_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "creen_a"
 msgstr "críon_a"
@@ -18611,6 +19130,7 @@ msgstr "críon_v"
 msgid "creenagh_nm"
 msgstr "críonach_nm"
 
+# as "creenagh" in HLSM (gd:crìonachadh as cognate)
 # GAOL: ~
 msgid "creenaghey_nm"
 msgstr "críonadh_nm"
@@ -18620,6 +19140,7 @@ msgstr "críonadh_nm"
 msgid "creenaght_nf"
 msgstr "eagna_nf;críonnacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "creeney_a"
 msgstr "críonna_a"
@@ -18644,6 +19165,7 @@ msgstr "Críost_nm"
 msgid "Creestee_a"
 msgstr "Críostaí_a"
 
+# HLSM
 # GAOL: ~
 msgid "Creestee_nm"
 msgstr "Críostaí_nm"
@@ -18670,6 +19192,7 @@ msgstr "croíbhriste_a"
 msgid "cre fa_interr"
 msgstr "cén fáth"
 
+# HLSM links gd:creag (=> ga:creig)
 # usually carraig in parallel corpus
 # GAOL: creig_nf
 msgid "creg_nf"
@@ -18709,6 +19232,7 @@ msgstr "geolaíocht_nf"
 msgid "creg teaystagh_n"
 msgstr "magma_nm"
 
+# HLSM
 # GAOL:
 msgid "cre hon_interr"
 msgstr "cén fáth_interr"
@@ -18741,6 +19265,7 @@ msgid "cre'n_interr"
 msgstr "cén_interr"
 
 # with "tá" no "bhfuil" in gv
+# HLSM
 # GAOL:
 msgid "cre'n aght_interr"
 msgstr "conas_interr"
@@ -18749,10 +19274,12 @@ msgstr "conas_interr"
 msgid "cre'n-fa_interr"
 msgstr "cén fáth"
 
+# HLSM
 # GAOL:
 msgid "cre'n oyr_interr"
 msgstr "cén fáth"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "creoi_a"
 msgstr "crua_a"
@@ -18790,6 +19317,13 @@ msgstr "cruabhruite_a"
 # GAOL: cruamhuineálach_a
 msgid "creoi-wannallagh_a"
 msgstr "cruamhuineálach_a;ceanndána_a"
+
+# HLSM has this with sense "an old pot for keeping fish livers in"
+# and says it's from English "cresset"
+# oil lamp, small lamp (incl. corpus example)
+# GAOL:
+msgid "cressad_nm"
+msgstr "lampa_nm"
 
 # not in corpus
 # GAOL:
@@ -18926,10 +19460,12 @@ msgstr "abhcach_a"
 msgid "criy_nf"
 msgstr "croch_nf"
 
+# pl croiyn in HLSM, links Ir. cnó
 # GAOL: ~
 msgid "cro_nf"
 msgstr "cnó_nm"
 
+# cognates in HLSM (also alt. croae)
 # GAOL: ~
 msgid "croa_nf"
 msgstr "cró_nm"
@@ -18943,6 +19479,7 @@ msgstr "cró coinín"
 msgid "croag_nf"
 msgstr "crág_nf;crúb_nf"
 
+# HLSM: "deriv. of cróch w. -an"?
 # GAOL:
 msgid "croagan_nm"
 msgstr "creabhar_nm"
@@ -18952,6 +19489,12 @@ msgstr "creabhar_nm"
 msgid "croaganagh_a"
 msgstr "éilitheach_a"
 
+# duán in the one parallel corpus Job 41:1
+# HLSM links gd:cròcan (which is from Norse?) - no Irish mar sin
+# GAOL: cròcan_nm
+msgid "croagane_nf"
+msgstr "crúca_nm;duán_nm"
+
 # GAOL:
 msgid "croa ghoarneyrys_n"
 msgstr "cró dornálaíochta"
@@ -18960,6 +19503,7 @@ msgstr "cró dornálaíochta"
 msgid "croaglagh_nm"
 msgstr "crág_nf;dornán_nm"
 
+# cognates in HLSM
 # mast, pole, boom, but *not* tree, etc. (cf billey)
 # GAOL: ~
 msgid "croan_nm"
@@ -19017,6 +19561,7 @@ msgstr "cnó Brasaíleach"
 msgid "cro cabbyl_n"
 msgstr "cnó capaill"
 
+# also sp. "crock_nm", e.g. Fargher side-by-side with crockan and in HLSM
 # GAOL: croca_nm
 msgid "crockan_nm"
 msgstr "corcán_nm;croca_nm"
@@ -19080,6 +19625,7 @@ msgstr "spleáchríoch_nf"
 msgid "croghey_a"
 msgstr "ar crochadh"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "croghey_n"
 msgstr "crochadh_nm"
@@ -19160,12 +19706,14 @@ msgstr "crann creathach"
 msgid "cron folley_n"
 msgstr "smál fola"
 
+# also spelled cronkan, e.g. in HLSM
 # cognate + the one parallel corpus eg (Isea. 10:32)
 # GAOL: ~
 msgid "crongan_nm"
 msgstr "cnocán_nm"
 
 # SCC links pl. crink with cnoic too
+# cognates in HLSM
 # GAOL: ~
 msgid "cronk_nm"
 msgstr "cnoc_nm"
@@ -19195,6 +19743,7 @@ msgid "cronnal_a"
 msgstr "soiléir_a;suntasach_a"
 
 # one parallel corpus eg (Alice)
+# cognates in HLSM
 # GAOL: ~
 msgid "cronnane_nm"
 msgstr "crónán_nm"
@@ -19228,6 +19777,7 @@ msgstr "feic_v;aithin_v"
 msgid "cronneeaght_nm"
 msgstr "caoineadh_nm"
 
+# HLSM: "cf. OIr. cron": eDIL (a) crime, blame, fault (b) property, possession
 # portion, lot, fortune
 # GAOL:
 msgid "cronney_nm"
@@ -19248,7 +19798,8 @@ msgstr "crónaiméadar_nm"
 # often "cailís" in parallel corpus, not sure why... 
 # translation of "decorative knobs, bulbs" or something like that
 # in Exodus 27
-# GAOL:
+# HLSM: from English knot
+# GAOL: eng:knot
 msgid "cront_nm"
 msgstr "snaidhm_nf"
 
@@ -19273,7 +19824,8 @@ msgstr "crann tochrais"
 msgid "cron-towshan_nm"
 msgstr "slat tomhais"
 
-# GAOL: croo_nm
+# HLSM cognates
+# GAOL: cruthú_nm
 msgid "croo_nm"
 msgstr "cruth_nm;cruthú_nm"
 
@@ -19281,11 +19833,12 @@ msgstr "cruth_nm;cruthú_nm"
 msgid "croo_v"
 msgstr "cruthaigh_v"
 
+# HLSM links gd:cruimheag which is alt of cnuimheag -> Ir. crumhóg
 # GAOL: crumhóg_nf
 msgid "crooag_nf"
 msgstr "cruimh_nf;crumhóg_nf"
 
-# GAOL:
+# GAOL: crooag_nf+-(e)agh
 msgid "crooagagh_a"
 msgstr "cruimheach_a"
 
@@ -19314,6 +19867,7 @@ msgstr "cruanadh_nm"
 msgid "croob_nm"
 msgstr "crúb_nf"
 
+# HLSM links gd version
 # Ir. cognate also means "lame", but bacach much more common
 # GAOL: crúbach_a
 msgid "croobagh_a"
@@ -19328,6 +19882,7 @@ msgstr "bacach_nm"
 msgid "croobid_nf"
 msgstr "bacaí_nf"
 
+# HLSM links gd:crùn
 # GAOL: ~
 msgid "crooin_nf"
 msgstr "coróin_nf"
@@ -19360,6 +19915,7 @@ msgstr "cruthaitheoir_nm"
 msgid "crootaght_nf"
 msgstr "cruthaitheacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "crosh_nf"
 msgstr "cros_nf"
@@ -19493,10 +20049,13 @@ msgid "crottyl_nm"
 msgstr "gainnedhuille_nm"
 
 # 1. horseshoe 2. tire (of car, etc.)
+# HLSM links horseshoe sense with Ir. crobh; see eDIL 1 cró for 
+# the relationship here...
 # GAOL: crú_nm
 msgid "crou_nf"
 msgstr "crú_nm;bonn_nm"
 
+# HLSM
 # GAOL: ~
 msgid "crou_v"
 msgstr "crúigh_v"
@@ -19518,17 +20077,22 @@ msgstr "crúdóir_nm"
 msgid "croughey_n"
 msgstr "crú_nm"
 
+# trick, strategem; HLSM says from ME 'craft'
 # GAOL:
 msgid "crout_nf"
 msgstr "cleas_nm;cealg_nf"
 
-# GAOL:
+# GAOL: crout_nf+-(e)agh
 msgid "croutagh_a"
 msgstr "cleasach_a"
+
+msgid "croutanys_nm"
+msgstr "cleasaíocht_nf"
 
 # cognate craobh works for "branch (lit/fig)"
 # but not so much for the sense "bush, dwarf tree"
 # cf "grouw_a"
+# linked in HLSM
 # GAOL: craobh_nf
 msgid "crouw_nf"
 msgstr "craobh_nf;tor_nm"
@@ -19586,6 +20150,7 @@ msgstr "cromógach_a"
 msgid "croymmag ny geaylin_nf"
 msgstr "clabhacal_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "croymmey_n"
 msgstr "cromadh_nm"
@@ -19655,6 +20220,7 @@ msgstr "cruinn_a"
 msgid "cruinnag_nf"
 msgstr "cruinneog_nf"
 
+# cognates in HLSM
 # GAOL: cruinniú_nm
 msgid "cruinnaghey_nm"
 msgstr "cruinniú_nm;timpeallú_nm"
@@ -19665,6 +20231,7 @@ msgstr "ollchruinniú_nm"
 
 # only "co-chr~" in parallel corpus
 # yn_Ch~ in multi-gv for proper name
+# HLSM says "cf. ScG. cruinneachadh"
 # GAOL: ~
 msgid "cruinnaght_nf"
 msgstr "cruinniú_nm"
@@ -19715,10 +20282,12 @@ msgid "cruitçheragh_nm"
 msgstr "cruitire_nm"
 
 # hunch (cf. cruitçh, Fargher under "hump")
+# cognates in HLSM
 # GAOL: ~
 msgid "cruitt_nf"
 msgstr "cruit_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cruittagh_a"
 msgstr "cruiteach_a"
@@ -19754,6 +20323,7 @@ msgstr "crisilid_nf"
 msgid "cryslid_nf"
 msgstr "pupa_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cryss_nf"
 msgstr "crios_nm"
@@ -19837,7 +20407,7 @@ msgstr "starr_nf;cúplán_nm"
 msgid "cubbyl_nm"
 msgstr "cúpla_nm;cuingir_nf"
 
-# HLSM says from English
+# HLSM says from English (also alt sp. cubbad)
 # GAOL: ~
 msgid "cubbyrt_nm"
 msgstr "cupard_nm"
@@ -19880,7 +20450,14 @@ msgstr "cón_nm"
 msgid "cughlinagh_a"
 msgstr "cónach_a"
 
+# "nasty"
+# HLSM, no etym.
 # GAOL:
+msgid "cughtee_a"
+msgstr "gránna_a"
+
+# HLSM cognate with gd:cuilidh (=> ga:cuile_nf)
+# GAOL: cuile_nf
 msgid "cuillee_nf"
 msgstr "cúlseomra_nm"
 
@@ -19898,6 +20475,7 @@ msgstr "cuile_nf"
 msgid "cuilleig_nf"
 msgstr "cuasán_nm"
 
+# spelled "cooin" in HLSM, links gd:c'uine, cuin
 # GAOL: ~
 msgid "cuin_interr"
 msgstr "cathain_interr"
@@ -19922,15 +20500,18 @@ msgstr "cúinne_nm"
 msgid "cuinnsey_nm"
 msgstr "cainche_nf"
 
+# cognates in HLSM
 # sowing, planting, etc.
 # GAOL: ~
 msgid "cuirr_n"
 msgstr "cur_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cuirr_v"
 msgstr "cuir_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "cuirrey_nm"
 msgstr "cuireadh_nm"
@@ -20065,35 +20646,38 @@ msgid "cummaghtagh_a"
 msgstr "cumhachtach_a"
 
 # focal doiléir
-# GAOL:
+# HLSM links gd:cumail, sort it out there...
+# GAOL: gd:cumail_nf
 msgid "cummal_nm"
 msgstr "cónaí_nm;coinneáil_nf"
 
 # sustaining
-# GAOL:
+# GAOL: cummal_nm+-(e)agh
 msgid "cummalagh_a"
 msgstr "coinneálach_a"
 
-# GAOL:
+# GAOL: cummal_nm+rea_a
 msgid "cummal-rea_nm"
 msgstr "árasán_nm"
 
 # focal doiléir
-# GAOL:
+# plural in HLSM
+# GAOL: <d cummal_nm
 msgid "cummaltagh_nm"
 msgstr "áitritheoir_nm"
 
-# GAOL:
+# GAOL: <d cummal_nm
 msgid "cummaltit_a"
 msgstr "áitrithe_a"
 
 # 1. occupation (e.g. of a house - Fargher) 2. as in "army of occupation"
-# GAOL:
+# GAOL: <d cummal_nm
 msgid "cummaltys_nm"
 msgstr "gabháltas_nm;seilbh_nf;forghabháil_nf"
 
 # also a vn of cum_v (in sense "devise, invent") which is why SCC links cumadh
 # SCC also links gummey (sic) with cuma
+# HLSM links with cuma_nf
 # GAOL: cuma_nf
 msgid "cummey_nm"
 msgstr "cuma_nf;cruth_nm;plean_nm"
@@ -20202,17 +20786,24 @@ msgstr "comrádaíocht_nf"
 
 # vn cumree_v below
 # also "jean cumrail" = "déan moill" - see parallel corpus
-# GAOL:
+# HLSM links gd:coimrig
+# GAOL: <i cumree_v
 msgid "cumrail_nf"
 msgstr "cosc_nm;moill_nf"
 
+# hindersome
+# GAOL: cumrail_nf+-(e)agh
+msgid "cumrailagh_a"
+msgstr "coisctheach_a"
+
 # 1. hinderer 2. detainee
-# GAOL:
+# GAOL: cumrail_nf+-(e)agh
 msgid "cumrailagh_nm"
 msgstr "coscaire_nm;géibheannach_nm"
 
 # detain, encumber, hinder, prevent
-# GAOL:
+# see vn for etym. (link to eng:cumber in gd2ga)
+# GAOL: gd:coimrig_v
 msgid "cumree_v"
 msgstr "coisc_v"
 
@@ -20231,6 +20822,7 @@ msgid "cungit_a"
 msgstr "craptha_a"
 
 # false friend
+# HLSM cognates
 # GAOL: cur_nm
 msgid "cur_nm"
 msgstr "cur_nm;tabhairt_nf"
@@ -20288,7 +20880,8 @@ msgstr "ciúiriam_nm"
 msgid "curjeig_nf"
 msgstr "pláta ofrála"
 
-# GAOL:
+# HLSM: from Eng. (indeed coverlet given in 1866 gv/en dict)
+# GAOL: eng:coverlet
 msgid "curleid_nf"
 msgstr "cuilt_nf"
 
@@ -20296,6 +20889,7 @@ msgstr "cuilt_nf"
 msgid "curleid lhiabbagh_nf"
 msgstr "scaraoid leapa"
 
+# HLSM
 # GAOL: ~
 msgid "cur-lesh_nm"
 msgstr "cur leis"
@@ -20344,20 +20938,25 @@ msgstr "coimeádaí_nm;feidhm_nf"
 msgid "curmit_a"
 msgstr "ordaithe_a"
 
+# HLSM
 # GAOL:
 msgid "cur-mow_nm"
 msgstr "scriosadh_nm;milleadh_nm"
 
+# HLSM
 # also as imperative (pairs-local): "féach!" (behold!) in Bible
 # GAOL:
 msgid "cur-my-ner_nm"
 msgstr "tabhairt faoi deara"
 
-# GAOL:
+# "a can"
+# HLSM links Ir. corn (horn, cup, plate)
+# GAOL: corn_nm
 msgid "curn_nm"
 msgstr "canna_nm"
 
-# GAOL:
+# cognates in HLSM
+# GAOL: ~
 msgid "curnaght_nf"
 msgstr "cruithneacht_nf"
 
@@ -20382,6 +20981,7 @@ msgstr "fraschanna_nm"
 msgid "curp_nf"
 msgstr "más_nm"
 
+# HLSM has pl. and cognate
 # Fargher; feminine in sense "canoe, currach"
 # GAOL: ~
 msgid "curragh_nf"
@@ -20456,6 +21056,7 @@ msgstr "cúramóir_nm"
 msgid "currymid_nm"
 msgstr "cúram_nm"
 
+# HLSM
 # GAOL: ~
 msgid "cur seose_n"
 msgstr "cur suas"
@@ -20464,6 +21065,7 @@ msgstr "cur suas"
 msgid "cursit_a"
 msgstr "mallaithe_a"
 
+# HLSM
 # e.g. Ex. 23:16, 34:22 "in-gathering" (of harvest) => tabhairt isteach
 # GAOL: cur isteach
 msgid "cur stiagh_n"
@@ -20492,7 +21094,7 @@ msgid "curthooillaghey_nm"
 msgstr "dorchú_nm"
 
 # ragwort; in phrase "airh er ny cushagyn"
-# GAOL:
+# GAOL: gd:cuiseag_nf
 msgid "cushag_nf"
 msgstr "buachalán_nm"
 
@@ -20517,7 +21119,7 @@ msgid "custart_nm"
 msgstr "custard_nm"
 
 # accursed, cursed
-# GAOL:
+# GAOL: eng:curse
 msgid "custey_a"
 msgstr "mallaithe_a"
 
@@ -20554,7 +21156,8 @@ msgstr "abhac_nm"
 msgid "cuttyr_nm"
 msgstr "cuitéar_nm"
 
-# GAOL:
+# cognates in HLSM
+# GAOL: ~
 msgid "c'woad_interr"
 msgstr "cé mhéad"
 
@@ -20577,6 +21180,7 @@ msgstr "an Chipir;na Cipire"
 msgid "da_prep"
 msgstr "do_prep"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "da_pronm"
 msgstr "dó_pronm"
@@ -20656,6 +21260,7 @@ msgstr "dédhronnach_a"
 msgid "daaghys_nm"
 msgstr "déachas_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daah_nm"
 msgstr "dath_nm"
@@ -20666,6 +21271,7 @@ msgstr "dath_nm"
 msgid "daah_v"
 msgstr "dóigh_v"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daah1_v"
 msgstr "dathaigh_v"
@@ -20677,6 +21283,7 @@ msgstr "dathaigh_v"
 msgid "daa-hamyragh_a"
 msgstr "dhá sheomra"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daahder_nm"
 msgstr "dathadóir_nm"
@@ -20721,6 +21328,7 @@ msgstr "dathú_nm"
 msgid "daah greiney_n"
 msgstr "dath gréine"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daahit_a"
 msgstr "daite_a"
@@ -20778,6 +21386,7 @@ msgstr "dánacht_nf"
 msgid "daane moyllee_n"
 msgstr "dán molta"
 
+# cognates in HLSM (also daanagh)
 # GAOL: ~
 msgid "daaney_a"
 msgstr "dána_a"
@@ -20786,6 +21395,7 @@ msgstr "dána_a"
 msgid "daan mooar_n"
 msgstr "eipic_nf"
 
+# HLSM
 # GAOL: ~
 msgid "daanys_nm"
 msgstr "dánacht_nf"
@@ -20873,14 +21483,17 @@ msgstr "stangairt_nf"
 msgid "Daayt-linney Eddyrashoonagh_n"
 msgstr "Dátlíne Idirnáisiúnta"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daeed_a"
 msgstr "daichead"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daeed_card"
 msgstr "daichead_card"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daeed_nm"
 msgstr "daichead_nm"
@@ -20890,6 +21503,7 @@ msgid "daggar_nm"
 msgstr "daigéar_nm"
 
 # focal doiléir
+# cognates in HLSM
 # GAOL: ~
 msgid "dagh_a"
 msgstr "gach"
@@ -20919,9 +21533,11 @@ msgid "dahlley_nm"
 msgstr "dáilia_nf"
 
 # also in corpus, past of faill_v (d'fhostaigh)
+# in phrase "er ~" = on credit (ar cairde usu.)
+# HLSM has "cf. Ir. dáil"
 # GAOL:
 msgid "daill_nf"
-msgstr "creidmheas_nm"
+msgstr "creidmheas_nm;cairde_nm"
 
 # GAOL:
 msgid "dailleyder_nm"
@@ -20939,11 +21555,13 @@ msgstr "damascach_a"
 msgid "da'n_prep"
 msgstr "don_prep"
 
+# HLSM: from ME.
 # GAOL: ~
 msgid "danjeyr_nm"
 msgstr "dainséar_nm"
 
-# GAOL: ~
+# HLSM
+# GAOL: ~;danjeyr_nm+-(e)agh
 msgid "danjeyragh_a"
 msgstr "dainséarach_a"
 
@@ -20978,9 +21596,11 @@ msgstr "dearnáil_nf"
 
 # beam, log, oak; "sail" in parallel corpus
 # this is sense 1 of sail_nf in GA.txt (sense 2 in FGB)
-# GAOL: dair_nf
+# HLSM gives daróg for oak sense
+# HLSM has another sense - kind of fishing line (cognate "dorga" == dorú?)
+# GAOL: daróg_nf
 msgid "darrag_nf"
-msgstr "sail1_nf;dair_nf"
+msgstr "sail1_nf;dair_nf;daróg_nf"
 
 # oak; also inflection of "tar" (thiocfadh)
 # GAOL: ~
@@ -21002,6 +21622,7 @@ msgstr "dais_nf;carn_nm;cruach1_nf"
 msgid "date_nm"
 msgstr "dáta1_nm;dáta2_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "daue_pronm"
 msgstr "dóibh_pronm"
@@ -21018,6 +21639,7 @@ msgstr "damhsaigh_v"
 msgid "daunse-cliwe_nm"
 msgstr "damhsa claímh"
 
+# HLSM cognates
 # vn prev.
 # GAOL: ~
 msgid "daunsey_nm"
@@ -21032,6 +21654,7 @@ msgid "dayree_nm"
 msgstr "déirí_nm"
 
 # plank, board, deal (wood)
+# HLSM also has a vn sense: "dealing, haggling" from Eng.
 # GAOL: déil_nf
 msgid "deal_nm"
 msgstr "déil_nf;clár_nm"
@@ -21064,6 +21687,7 @@ msgstr "starrmhaide_nm"
 msgid "dean_nm"
 msgstr "báire_nm;aidhm_nf;sprioc_nf;cuspóir_nm"
 
+# linked in HLSM
 # GAOL: ~
 msgid "deayrt_v"
 msgstr "doirt_v"
@@ -21117,6 +21741,7 @@ msgstr "deileadóireacht_nf"
 msgid "deillit_a"
 msgstr "deilte_a"
 
+# HLSM just says "cf. Ir. doighean"
 # GAOL:
 msgid "deinagh_a"
 msgstr "tuirseach_a"
@@ -21127,7 +21752,7 @@ msgid "deinaghtagh_a"
 msgstr "cruálach_a"
 
 # not in corpus
-# GAOL:
+# GAOL: deinaghtagh_a+-t
 msgid "deinaghtaght_nf"
 msgstr "cruálacht_nf"
 
@@ -21141,14 +21766,15 @@ msgstr "daonchairdiúil_a"
 msgid "deiney_a"
 msgstr "daonna_a"
 
+# HLSM links cognate
 # also plural of dooinney_nm below, which handles mutations on both sides
-# GAOL: ~
+# GAOL: ~;<i dooinney_nm
 msgid "deiney_nm"
 msgstr "daoine"
 
 # fatigue, inconvenience, laboriousness
 # usually "saothar" in parallel corpus
-# GAOL:
+# GAOL: <d deinagh_a
 msgid "deinys_nf"
 msgstr "saothar_nm;crá_nm"
 
@@ -21171,6 +21797,7 @@ msgstr "deilfghorm_nm"
 msgid "dell_v"
 msgstr "déileáil_v"
 
+# HLSM has dellan for this
 # vn prev.
 # GAOL: déileáil_nf
 msgid "dellal_nm"
@@ -21223,11 +21850,13 @@ msgstr "mífhearúlacht_nf"
 msgid "dendreit_nf"
 msgstr "deindrít_nf"
 
+# HLSM analyzes this as "naggydere" = Ir. "nó go dtara" (that it may come)
 # false friend
 # GAOL:
 msgid "derrey_conj"
 msgstr "go dtí;go dtí go;go dtí gur"
 
+# HLSM links cognate (gd, but ok)
 # GAOL: ~
 msgid "derrey_ord"
 msgstr "dara"
@@ -21244,6 +21873,7 @@ msgstr "deiric_nf"
 msgid "desk_nm"
 msgstr "deasc_nf"
 
+# HLSM links OIr. debil (?) - see dowil_a
 # GAOL:
 msgid "dewil_a"
 msgstr "cruálach_a"
@@ -21253,7 +21883,8 @@ msgstr "cruálach_a"
 msgid "dewil-ghorrinagh_a"
 msgstr "stoirmeach_a"
 
-# GAOL:
+# alt. dewilys in HLSM ("fury"), no etym.
+# GAOL: dewil_a+-id
 msgid "dewilid_nm"
 msgstr "cruálacht_nf"
 
@@ -21295,6 +21926,7 @@ msgstr "daonlathaí_nm"
 msgid "deynphobblaght_nf"
 msgstr "daonphoblacht_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "deyr_a"
 msgstr "daor_a"
@@ -21308,6 +21940,7 @@ msgstr "daor_v"
 msgid "deyrchlaare_nm"
 msgstr "daorchlár_nm"
 
+# HLSM
 # vn deyr_v
 # GAOL: ~
 msgid "deyrey_nm"
@@ -21318,7 +21951,8 @@ msgstr "daoradh_nm"
 msgid "deyrey baaish_n"
 msgstr "breithiúnas báis"
 
-# GAOL: ~
+# HLSM
+# GAOL: ~;deyr_a+-id
 msgid "deyrid_nm"
 msgstr "daoire_nf"
 
@@ -21340,6 +21974,7 @@ msgstr "daoirse_nf"
 msgid "dhoanid_nm"
 msgstr "doinne_nf"
 
+# cognates in HLSM
 # with initial dh (sic)
 # GAOL: ~
 msgid "dhone_a"
@@ -21365,6 +22000,7 @@ msgstr "draein_nf;pluga_nm"
 msgid "dhullag_nm"
 msgstr "breiseán_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dhyt_pronm"
 msgstr "duit_pronm"
@@ -21395,11 +22031,13 @@ msgid "diamond_nm"
 msgstr "diamant_nm"
 
 # worm; don't know of a cognate; péist in parallel corpus egs
+# HLSM says "cf. Ir. daoi" (?)  
 # GAOL:
 msgid "diane_nm"
 msgstr "péist_nf"
 
 # not in corpus; "pap" sense is cognate
+# HLSM says from English
 # GAOL: ~
 msgid "didee_nf"
 msgstr "dide_nf"
@@ -21432,6 +22070,7 @@ msgstr "discréideach_a"
 msgid "disk_nm"
 msgstr "diosca_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "diu_pronm"
 msgstr "daoibh_pronm"
@@ -21446,7 +22085,8 @@ msgstr "diúc_nm"
 
 # depth, deep; parallel corpus
 # see also "diunid gyn-grunt" (multi-gv)
-# GAOL:
+# HLSM says "doimhne" + -id
+# GAOL: doimhne_nf
 msgid "diunid_nf"
 msgstr "doimhneacht_nf;duibheagán_nm"
 
@@ -21470,6 +22110,7 @@ msgstr "sa chaoi go;ionas go"
 msgid "doagan_nm"
 msgstr "tóirse_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "doagh_nf"
 msgstr "dabhach_nf"
@@ -21482,11 +22123,13 @@ msgstr "dabhach mhúnlaigh"
 msgid "doagh phedryl_nf"
 msgstr "umar peitril"
 
+# cognates in HLSM
 # good condition, etc.
 # GAOL: ~
 msgid "doaie_nf"
 msgstr "dóigh_nf"
 
+# HLSM no etym.
 # GAOL:
 msgid "doaieagh_a"
 msgstr "muinteartha_a;cineálta_a;garúil_a"
@@ -21500,6 +22143,7 @@ msgstr "dóighiúlacht_nf"
 msgid "do-akin_a"
 msgstr "dofheicthe_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "doal_a"
 msgstr "dall_a"
@@ -21562,6 +22206,7 @@ msgstr "dallraigh_v"
 msgid "doalleraght_nf"
 msgstr "dallintinn_nf"
 
+# in HLSM but no etym.
 # GAOL:
 msgid "doaltattym_a"
 msgstr "tobann_a"
@@ -21584,14 +22229,17 @@ msgid "Doaragh_nm"
 msgstr "Dórach_nm"
 
 # gap, opening; always "bearna" in parallel corpus
+# HLSM has "cf. ScG. doirling" (Ir. duirling), but semantics are weird
 # GAOL:
 msgid "doarlish_nf"
 msgstr "bearna_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "doarn_nf"
 msgstr "dorn_nm"
 
+# HLSM has this as dornaig_nf
 # GAOL: ~
 msgid "doarnaig_nf"
 msgstr "dornóg_nf"
@@ -21619,8 +22267,9 @@ msgstr "dornálaíocht_nf"
 msgid "do-arraghey_a"
 msgstr "do-athraithe_a"
 
+# cognate in HLSM
 # bewailing, lamenting, mourning; like a vn but no _v form
-# GAOL:
+# GAOL: dobrón_nm
 msgid "dobberan_nm"
 msgstr "caoineadh_nm"
 
@@ -21649,7 +22298,8 @@ msgstr "deacair_a"
 msgid "doccar_nf"
 msgstr "saothar_nm"
 
-# GAOL: saothrach_a
+# HLSM notes cf. OIr. doccair
+# GAOL:
 msgid "doccaragh_a"
 msgstr "saothrach_a;dian_a;trom_a"
 
@@ -21693,22 +22343,23 @@ msgstr "domhínithe_a"
 msgid "do-fendeil_a"
 msgstr "dochosanta_a"
 
+# HLSM links gd
 # parallel corpus
-# GAOL:
+# GAOL: gd:dochann_nm
 msgid "doghan_nm"
 msgstr "galar_nm"
 
 # diseased, ill, sickly
-# GAOL:
+# GAOL: doghan_nm+-(e)agh
 msgid "doghanagh_a"
 msgstr "galrach_a;breoite_a;tinn_a"
 
-# GAOL:
+# GAOL: doghan_nm+-(e)agh
 msgid "doghanagh_nm"
 msgstr "breoiteachán_nm;easlán_nm"
 
 # parallel corpus
-# GAOL:
+# GAOL: <d doghan_nm
 msgid "doghanit_a"
 msgstr "tinn_a;breoite_a;gortaithe_a"
 
@@ -21746,6 +22397,7 @@ msgstr "dothuigtheacht_nf"
 msgid "doib_nm"
 msgstr "dóib_nf"
 
+# cognates in HLSM
 # GAOL: doiligh_a
 msgid "doillee_a"
 msgstr "deacair_a;doiligh_a"
@@ -21780,6 +22432,7 @@ msgstr "dall_v;scrios_v"
 
 # 1. winnowing fan 2. drum, bodhrán
 # cognate is in de Bhaldraithe for "winnowing fan"
+# cognate linked in HLSM
 # GAOL: dallán_nm
 msgid "dollan_nm"
 msgstr "bodhrán_nm;dallán_nm"
@@ -21845,6 +22498,7 @@ msgstr "dailtíneach_a"
 msgid "dolteenaght_nf"
 msgstr "dailtíneacht_nf"
 
+# cognate linked in HLSM
 # GAOL: ~
 msgid "doltey_nm"
 msgstr "dalta_nm"
@@ -21883,14 +22537,17 @@ msgstr "tailm_nf"
 msgid "donnan_nm"
 msgstr "donán_nm"
 
+# cognate linked in HLSM
 # GAOL: ~
 msgid "donney_a"
 msgstr "dona_a"
 
+# HLSM has alt donnid, linked with gd:donad (hence ga:donas)
 # GAOL: ~
 msgid "donnys_nm"
 msgstr "donas_nm"
 
+# HLSM has alt "dhoo_a"  and cognate
 # GAOL: ~
 msgid "doo_a"
 msgstr "dubh_a"
@@ -21930,6 +22587,7 @@ msgstr "dúmhál_nm"
 msgid "dooaleyr_nm"
 msgstr "dúmhálaí_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dooan_nm"
 msgstr "duán_nm"
@@ -21987,6 +22645,7 @@ msgstr "dúbailte_a"
 msgid "dooblit_adv"
 msgstr "faoi dhó"
 
+# HLSM
 # GAOL: ~
 msgid "doobyl_v"
 msgstr "dúbail_v"
@@ -21999,6 +22658,7 @@ msgstr "dúchosach_a"
 msgid "doo-chliaghtey_nm"
 msgstr "dubhealaín_nf"
 
+# in HLSM but no etym.
 # GAOL:
 msgid "doodee_nf"
 msgstr "cailín_nm"
@@ -22030,6 +22690,7 @@ msgstr "dúchan_nf"
 msgid "doo-ghorrym_nm"
 msgstr "dúghorm_nm"
 
+# cognates in HLSM
 # pl. occurs in gv (not w/ Ir. cognate really); "traits", "temperaments",
 # "core values" - cf pairs-local
 # GAOL: ~
@@ -22057,6 +22718,7 @@ msgstr "dúshaothrú_nm"
 msgid "doo-hooillagh_a"
 msgstr "dúshúileach_a"
 
+# HLSM has "Ir. dubh w. -aid"
 # GAOL: ~
 msgid "dooid_nm"
 msgstr "duibhe_nf"
@@ -22080,10 +22742,12 @@ msgstr "dea-chroíoch_a"
 msgid "dooilliu_nm"
 msgstr "dúlra_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dooin_pronm"
 msgstr "dúinn_pronm"
 
+# in HLSM as "doon_v"
 # more often the pronm above
 # GAOL: ~
 msgid "dooin_v"
@@ -22093,6 +22757,7 @@ msgstr "dún_v"
 msgid "dooinnalys_nm"
 msgstr "daonnacht_nf"
 
+# cognates in HLSM
 # person, but also specifically "man" (though gv has "fer" too)
 # GAOL: ~
 msgid "dooinney_nm"
@@ -22205,10 +22870,12 @@ msgstr "fear deaslámhach"
 msgid "dooinnoil_a"
 msgstr "daonna_a;duiniúil_a"
 
+# HLSM
 # GAOL: ~
 msgid "dooint_a"
 msgstr "dúnta_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dooisht_v"
 msgstr "dúisigh_v"
@@ -22218,6 +22885,7 @@ msgstr "dúisigh_v"
 msgid "dooishtagh_a"
 msgstr "dúisitheach_a"
 
+# HLSM as dooishtagh
 # not in corpus
 # GAOL: dúiseacht_nf
 msgid "dooishtaght_nf"
@@ -22275,6 +22943,7 @@ msgstr "cill_nf"
 msgid "doonaght_nm"
 msgstr "sabóid_nf"
 
+# in HLSM as Doonagh
 # GAOL: ~
 msgid "Doonaght_nm"
 msgstr "Domhnach_nm"
@@ -22332,6 +23001,7 @@ msgstr "dubhfhocal_nm"
 
 # 1. discount (corpus examples; "argid loojey ~", "leagh ~")
 # 2. gratuity (cognate)
+# HLSM links cognate
 # GAOL: dúthracht_nf
 msgid "dooraght_nf"
 msgstr "lascaine_nf;dúthracht_nf"
@@ -22372,6 +23042,7 @@ msgstr "dúiseacht_nf"
 msgid "doour_nm"
 msgstr "damba_nm"
 
+# HLSM: from ME
 # GAOL: ~
 msgid "dooyt_nm"
 msgstr "dabht_nm"
@@ -22399,23 +23070,28 @@ msgstr "dorád_nm"
 msgid "do-roshtyn_a"
 msgstr "doshroichte_a"
 
+# HLSM links cognate
 # parallel corpus
 # GAOL: dorcha_a
 msgid "dorraghey_a"
 msgstr "dorcha_a;doiléir_a"
 
+# HLSM links dorchacht_nf; cf. dorrid
 # GAOL: ~
 msgid "dorraghys_nm"
 msgstr "dorchadas_nm"
 
-# GAOL:
+# cognate linked in HLSM
+# GAOL: doineann_nf
 msgid "dorrin_nm"
 msgstr "stoirm_nf;doineann_nf"
 
-# GAOL:
+# HLSM links doineannach, alt of doineanta
+# GAOL: doineanta_a;dorrin_nm+-(e)agh
 msgid "dorrinagh_a"
 msgstr "anfach_a;stoirmeach_a;doineanta_a"
 
+# HLSM links cognate
 # GAOL: ~
 msgid "dorrys_nm"
 msgstr "doras_nm"
@@ -22468,12 +23144,13 @@ msgstr "dosach_a"
 msgid "dottyl_nm"
 msgstr "gríodán_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dou_pronm"
 msgstr "dom_pronm"
 
-# no cognate?
-# GAOL:
+# HLSM links doghrainn
+# GAOL: doghrainn_nf
 msgid "dourin_nm"
 msgstr "galar_nm"
 
@@ -22482,7 +23159,12 @@ msgstr "galar_nm"
 msgid "Douvyr_nf"
 msgstr "Dobhar_nm"
 
-# GAOL:
+# HLSM links Ir. daidhbhir
+# GAOL: daibhir_a
+msgid "douyr_a"
+msgstr "doghrach_a;duairc_a"
+
+# GAOL: douyr_a+-id
 msgid "douyrid_nm"
 msgstr "doghra_nm;gruaim_nf;duairceas_nm"
 
@@ -22498,6 +23180,7 @@ msgstr "dobhriste_a"
 msgid "dovrishtaght_nf"
 msgstr "dobhristeacht_nf"
 
+# cognates in HLSM
 # pl "dew"
 # GAOL: ~
 msgid "dow_nm"
@@ -22537,6 +23220,7 @@ msgstr "domhanfhad_nm"
 msgid "dowil_a"
 msgstr "fiáin_a"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dowin_a"
 msgstr "domhain_a"
@@ -22609,6 +23293,7 @@ msgstr "brádánach_a;ceobhránach_a;draonánach_a"
 msgid "drammag_nf"
 msgstr "leisceoir_nm"
 
+# HLSM, no etym.
 # "poetry" in Fargher; some corpus examples are plural (poems)
 # GAOL:
 msgid "drane_nf"
@@ -22646,7 +23331,8 @@ msgstr "dreach_nm"
 msgid "dreain_nm"
 msgstr "dreoilín_nm"
 
-# GAOL:
+# HLSM from ME.
+# GAOL: eng:dream
 msgid "dreamal_nm"
 msgstr "brionglóid_nf;aisling_nf;taibhreamh_nm"
 
@@ -22680,12 +23366,13 @@ msgid "dreayst_adv"
 msgstr "ar feadh tamaill"
 
 # "tedious, slow" from dialect English; no cognate
+# HLSM also says from Eng.
 # also dull, boring
 # GAOL:
 msgid "dree_a"
 msgstr "leadránach_a"
 
-# cognates in Kelly
+# cognates in Kelly/HLSM
 # GAOL: ~
 msgid "dreeym_nm"
 msgstr "droim_nm"
@@ -22795,6 +23482,7 @@ msgstr "drithleach_a;drithleogach_a"
 
 # blackthorn; plural "drineyn" not uncommon, but "draighean" 
 # in Ir. is singular only, hence include count noun "dris" see Laoi 2:2
+# linked in HLSM
 # GAOL: draighean_nm
 msgid "drine_nm"
 msgstr "draighean_nm;dris_nf"
@@ -22805,11 +23493,12 @@ msgid "drineagh_a"
 msgstr "draighneach_a"
 
 # in phrases "tá ~ orrym/srl."
-# GAOL:
+# HLSM: cf. gd:greas (v.); Ir. has greasaigh, alt of dreasaigh (incite, etc.)
+# GAOL: dreasaigh_v
 msgid "driss_nm"
 msgstr "deifir_nf"
 
-# GAOL: ~
+# GAOL: droch-
 msgid "drogh_a"
 msgstr "droch"
 
@@ -22823,6 +23512,7 @@ msgstr "drochfháistineach_a"
 msgid "drogh-aaishnys_nm"
 msgstr "drochfháistine_nf"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "droghad_nm"
 msgstr "droichead_nm"
@@ -22934,6 +23624,7 @@ msgstr "drochthuairisc_nf;míchlú_nm"
 msgid "drogh-ghooinney_nm"
 msgstr "drochdhuine_nm"
 
+# HLSM
 # droch + taghyrt
 # GAOL:
 msgid "drogh-haghyrt_nm"
@@ -22980,7 +23671,7 @@ msgstr "míghnéitheach_a"
 msgid "drogh oor_n"
 msgstr "drochuair_nf"
 
-# SCC
+# SCC + HLSM
 # GAOL: ~
 msgid "drogh-ourys_nm"
 msgstr "drochamhras_nm"
@@ -23045,6 +23736,7 @@ msgstr "finíochas_nm"
 msgid "drogh-yannoo_nm"
 msgstr "míghníomh_nm;drochghníomh_nm"
 
+# HLSM
 # parallel corpus
 # GAOL:
 msgid "drogh-yantagh_nm"
@@ -23069,7 +23761,8 @@ msgstr "mícheart_a"
 msgid "drogh-ymmyrkey_nm"
 msgstr "drochiompar_nm"
 
-# GAOL:
+# cognate linked in HLSM
+# GAOL: dreolán_nm
 msgid "drollane_nm"
 msgstr "leisceoir_nm"
 
@@ -23107,10 +23800,12 @@ msgstr "dromán_nm"
 msgid "drommid_nm"
 msgstr "marbhántacht_nf"
 
+# HLSM spelled droun, links dronn_nf
 # GAOL: ~
 msgid "drone_nm"
 msgstr "dronn_nf"
 
+# HLSM has alt spelling drounagh_a
 # GAOL: ~
 msgid "dronnagh_a"
 msgstr "dronnach_a"
@@ -23128,6 +23823,13 @@ msgstr "dronuilleogach_a"
 msgid "dronvaccart_nm"
 msgstr "dronbhacart_nm"
 
+# HLSM: "poor wretch", not in corpus, links gd:druidh
+# which is alt spelling of draoidh, 'morose person' a def. along with 
+# wizard, etc.
+# GAOL: gd:draoidh_nm
+msgid "drooee_nm"
+msgstr "ainniseoir_nm"
+
 # GAOL: ~
 msgid "droop_nm"
 msgstr "drúp_nm"
@@ -23136,13 +23838,19 @@ msgstr "drúp_nm"
 msgid "droopeen_nm"
 msgstr "drúipín_nm"
 
+# HLSM
+# GAOL: eng:drop
+msgid "droppal_n"
+msgstr "titim_nf"
+
 # sense 2 of sail_nf
 # GAOL: dras_nm
 msgid "dross_nm"
 msgstr "sail2_nf;dras_nm;dríodar_nm"
 
 # not in corpus
-# GAOL:
+# HLSM says from ME "draff"
+# GAOL: eng:draff
 msgid "drow_nm"
 msgstr "triosc_nm"
 
@@ -23219,6 +23927,7 @@ msgid "druiaght_nf"
 msgstr "draíocht_nf"
 
 # def. masculine in Fargher, but see "yn ghruight yiarg" (German measles)
+# cognates in HLSM
 # GAOL: ~
 msgid "druight_nm"
 msgstr "drúcht_nm"
@@ -23231,6 +23940,7 @@ msgstr "drúchtín_nm"
 msgid "druight molley_n"
 msgstr "drúcht meala"
 
+# HLSM
 # GAOL: ~
 msgid "druightoilagh_a"
 msgstr "drúchtmhar_a"
@@ -23267,10 +23977,12 @@ msgstr "druma mór"
 msgid "drundin_nm"
 msgstr "moirt_nf;deascadh_nm;dríodar_nm"
 
+# HLSM
 # GAOL: ~
 msgid "dty_poss"
 msgstr "do_poss"
 
+# HLSM
 # GAOL: ~
 msgid "dubbey_nm"
 msgstr "linn2_nf;dabhach_nf"
@@ -23293,6 +24005,7 @@ msgstr "ducht_nm"
 msgid "duffyl_nm"
 msgstr "dufal_nm"
 
+# cognates in HLSM
 # GAOL: duilleog_nf
 msgid "duillag_nf"
 msgstr "duilleog_nf;leathanach_nm"
@@ -23397,6 +24110,7 @@ msgstr "ganntanas_nm"
 msgid "dulleyder_nm"
 msgstr "maolaitheoir_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dullish_nf"
 msgstr "duileasc_nm"
@@ -23436,14 +24150,17 @@ msgstr "cróga_a;calma_a;dána_a;misniúil_a"
 msgid "dunnallys_nm"
 msgstr "dánacht_nf;misneach_nm"
 
+# HLSM links cognate
 # GAOL: dúnmharfóir_nm
 msgid "dunver_nm"
 msgstr "dúnmharfóir_nm;marfóir_nm"
 
+# HLSM links cognate
 # GAOL: ~
 msgid "dunveragh_a"
 msgstr "dúnmharfach_a"
 
+# HLSM
 # GAOL: ~;dunver_nm+-ys
 msgid "dunverys_nm"
 msgstr "dúnmharú_nm"
@@ -23452,6 +24169,7 @@ msgstr "dúnmharú_nm"
 msgid "dunverys hene_nm"
 msgstr "féinmharú_nm"
 
+# cognates in HLSM
 # GAOL: ~
 msgid "dussan_nm"
 msgstr "dosaen_nm"
@@ -23465,9 +24183,16 @@ msgstr "gráiniúil_a;déistineach_a;gránna_a"
 msgid "dwoaiagh_nm"
 msgstr "gráiniúlacht_nf"
 
-# GAOL:
+# HLSM links gd
+# GAOL: gd:duaidh_nf
 msgid "dwoaie_nf"
 msgstr "fuath_nm;gráin_nf"
+
+# hateful
+# HLSM links gd
+# GAOL: gd:duaidheach_a
+msgid "dwoaieagh_a"
+msgstr "fuafar_a;gráiniúil_a"
 
 # PM 7.2.4 for overview of conjunction senses
 # dy beagh = dá mbeadh (if), OR "go mbeadh"
@@ -23516,6 +24241,7 @@ msgstr "go bog"
 msgid "dy bollagh_adv"
 msgstr "go hiomlán;ar fad"
 
+# HLSM
 # GAOL: ~
 msgid "dy bragh_adv"
 msgstr "go brách_adv"
@@ -23532,6 +24258,7 @@ msgstr "go coitianta;de ghnáth"
 msgid "dy cairagh_adv"
 msgstr "i gceart;mar is ceart"
 
+# HLSM
 # GAOL:
 msgid "dy-cheilley_adv"
 msgstr "le chéile"
@@ -23597,6 +24324,7 @@ msgstr "go teann"
 msgid "dy gammanagh_adv"
 msgstr "mar mhagadh"
 
+# HLSM
 # GAOL: go gairid
 msgid "dy gerrid_adv"
 msgstr "go gairid;go luath;sul i bhfad"
@@ -23609,7 +24337,8 @@ msgstr "go gann"
 msgid "dy imlee_adv"
 msgstr "go humhal"
 
-# GAOL:
+# HLSM
+# GAOL: go dearbh
 msgid "dy jarroo_adv"
 msgstr "go deimhin"
 
@@ -23672,6 +24401,7 @@ msgstr "go leith"
 msgid "dy lieragh_a"
 msgstr "go léir"
 
+# HLSM
 # GAOL: ~
 msgid "dy liooar_a"
 msgstr "go leor"
@@ -23697,6 +24427,7 @@ msgstr "go míosúil"
 msgid "dy mennick_adv"
 msgstr "go minic"
 
+# HLSM
 # GAOL: ~
 msgid "dy mie_adv"
 msgstr "go maith"
@@ -23717,6 +24448,7 @@ msgstr "go mór"
 msgid "dy myghinagh_adv"
 msgstr "go trócaireach"
 
+# cognates in HLSM
 # focal doiléir
 # GAOL: ~
 msgid "dyn_prep"
@@ -23754,6 +24486,7 @@ msgstr "go rialta"
 msgid "dy resoonagh_adv"
 msgstr "go réasúnta"
 
+# HLSM
 # GAOL:
 msgid "dys_prep"
 msgstr "go_prep;go dtí;chuig_prep"
@@ -24196,6 +24929,7 @@ msgstr "aol_nm"
 msgid "eaylagh_a"
 msgstr "aolmhar_a"
 
+# HLSM has alt deayn of this (in pl), uan linked
 # GAOL: ~
 msgid "eayn_nm"
 msgstr "uan_nm"
@@ -25652,6 +26386,7 @@ msgid "er-çhea_adv"
 msgstr "ar teitheadh"
 
 # SCC links çhee=tí (presumably w/ this one in mind)
+# HLSM has this @çhee, links OIr. tí
 # GAOL: ~
 msgid "er çhee_prep"
 msgstr "ar tí"
@@ -31846,6 +32581,7 @@ msgstr "gaelscolaíocht_nf"
 msgid "gaerr_nm"
 msgstr "garr_nm;otrach_nm;aoileach_nm"
 
+# cognates in HLSM (@dagh)
 # GAOL: ~
 msgid "gagh_aindec"
 msgstr "gach_aindec"
@@ -36418,6 +37154,7 @@ msgstr "thar lear"
 msgid "harree_pronm"
 msgstr "thairsti_pronm"
 
+# cognates in HLSM @chaie ~
 # GAOL: ~
 msgid "harrin_pronm"
 msgstr "tharainn_pronm"
@@ -37888,6 +38625,7 @@ msgstr "Dé Domhnaigh"
 msgid "jee_nm"
 msgstr "dia_nm"
 
+# HLSM as j'ee
 # GAOL: ~
 msgid "jee_pronm"
 msgstr "di_pronm"
@@ -41544,6 +42282,7 @@ msgstr "cíoscheannach_nm"
 msgid "kionnaghey stiagh_nm"
 msgstr "iompórtáil_nf"
 
+# cognates in HLSM @chionnee
 # GAOL: ~
 msgid "kionnee_v"
 msgstr "ceannaigh_v"
