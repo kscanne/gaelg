@@ -6827,6 +6827,7 @@ earroo rea_n	0	0	0
 earroo traa_n	0	0	0
 eary_nf	0	1	eairee_nf
 eas_nm	0	0	0
+easal_a	0	0	0
 eash_nf	0	0	0
 Eash Chloaie_n	0	0	0
 eashit_a	0	0	0
@@ -6994,6 +6995,7 @@ eeast shliggagh_n	0	0	0
 eebis_nf	0	0	0
 eebrit_a	0	0	0
 eebyr_v	eebyrt_nm	0	0
+eebyrey_nm	0	1	eebyrt_nm
 eebyrt_nm	0	0	0
 eebyrtagh_nm	0	0	0
 eebyrtys_nm	0	0	0
@@ -7014,9 +7016,11 @@ eeghtyraneyn_nm	0	0	0
 eeh_nf	0	1	0
 ee hene_pn	0	0	0
 eeirey_nm	0	0	0
+eeit_a	0	0	0
 eek_nf	0	0	0
 eek_pronm	eeksh	0	eck_pronm
 eekad_nf	0	0	0
+eel_nm	0	0	0
 eelips_nm	0	0	0
 eelipsagh_a	0	0	0
 eelipsoyd_nm	0	0	0
@@ -7133,6 +7137,7 @@ Ellan Wirrish_nf	0	0	0
 Ellan y Chaisht_nf	0	0	0
 ellen_nm	0	0	ellan_nm
 elley_a	0	0	0
+ellym_nm	0	0	0
 ellyn_nf	0	0	0
 ellynagh_a	0	0	0
 ellyneyr_nm	0	0	0
@@ -7268,6 +7273,7 @@ er-creau_adv	0	0	0
 er croo_adv	0	0	er-croo_adv
 er-croo_adv	0	0	0
 er daayl_a	0	0	0
+er-dheyr_adv	0	0	0
 er dy henney_adv	0	0	er-dy-henney_adv
 er-dy-henney_adv	0	0	0
 er dy henny_adv	0	0	er-dy-henney_adv
@@ -7289,6 +7295,8 @@ eretoor_nm	0	0	cretoor_nm
 er-fakin_a	0	0	0
 er feai-ny-crooinney_adv	0	0	er feai ny cruinney_adv
 er feai ny cruinney_adv	0	0	0
+er-fenniu_adv	0	0	er-finnue_adv
+er-finniu_adv	0	0	er-finnue_adv
 er-finnue_adv	0	0	0
 er foyr_adv	0	0	0
 ergatagh-jeeragh_a	0	0	0
@@ -7370,6 +7378,7 @@ erreish da'n cheim_a	0	0	0
 errey_nf	0	0	0
 erriu_pronm	erriuish	0	0
 erroo_nm	0	0	0
+erroo_pronm	erroosyn	0	orroo_pronm
 errooid_nm	0	0	0
 erroonagh_a	0	0	0
 erroort_nm	0	0	0
@@ -7377,10 +7386,12 @@ erroortagh_a	0	0	0
 er roul_a	0	0	er rouyl_a
 er rouyl_a	0	0	0
 er-rouyl_a	0	0	er rouyl_a
+errym_pronm	erryms	0	orrym_pronm
 er shaghryn_a	0	0	er-shaghryn_a
 er-shaghryn_a	0	0	0
 er shen_adv	0	0	0
 er shlee_adv	0	0	0
+er-shoh_adv	0	0	er hoh_adv
 erskin_prep	0	0	erskyn_prep
 erskyn_prep	0	0	0
 er skyn_prep	0	0	erskyn_prep
@@ -7404,6 +7415,7 @@ er-son_prep	0	0	er son_prep
 ersooyl_a	0	0	0
 er-sooyl_a	0	0	ersooyl_a
 er tayrn_a	0	0	0
+er-tessyn_adv	0	0	0
 er thalloo_adv	0	0	er-thalloo_adv
 er-thalloo_adv	0	0	0
 er toshiaght_adv	0	0	0
@@ -7412,6 +7424,7 @@ er-troailt_adv	0	0	0
 er troggloo_a	0	0	0
 er-troggloo_a	0	0	er troggloo_a
 er-twoaie_a	0	0	0
+er-veshtey_a	0	0	er meshtey_a
 er y cheayn_a	0	0	0
 er y çheer_a	0	0	0
 er y cheilley_adv	0	0	0
@@ -7531,6 +7544,7 @@ faarkey_nm	0	0	0
 faarkey brisht_n	0	0	0
 Faarkeydys_nm	0	1	Faarkeylann_nm
 Faarkeylann_nm	0	1	0
+faarkiaght_nf	0	0	0
 faarnagh_a	0	0	0
 Faaroagh_a	0	0	0
 Faaroagh_nm	0	0	0
@@ -7569,6 +7583,7 @@ fadeyragh_n	0	0	0
 fadeyraght_nf	0	0	fadeyrys_nm
 fadeyree_v	fadeyragh_n	0	0
 fadeyrys_nm	0	0	0
+fadoon_a	0	0	0
 fagail_nm	0	1	faagail_nm
 faggad_nm	0	0	0
 faggys_a	0	0	0
@@ -7628,7 +7643,7 @@ faishnagh1_nm	0	faishnaghyn	faaishnagh_nm
 faishnys_nm	0	1	0
 faitagh_a	0	0	0
 faitagh_nm	0	0	0
-faitçhagh_a	0	0	0
+faitçhagh_a	0	0	faitagh_a
 faitys_nm	0	0	0
 faiynt_a	0	0	0
 faiyr_nm	0	0	0
@@ -7825,6 +7840,7 @@ feayght_nf	0	0	0
 feayl_nm	0	0	0
 feaylagh_a	0	0	0
 feaylagh_nm	0	0	0
+feaylley_nm	0	0	0
 feayl-scoltey_nm	0	0	0
 feayn_a	0	0	0
 feaynid_nf	0	0	0
@@ -7867,6 +7883,7 @@ feddag volvaneagh_nf	0	0	0
 feddan_nm	0	0	0
 feddanagh_a	0	0	0
 feddanaghey_nm	0	1	0
+feddaney_nm	0	1	feddanaghey_nm
 feddaneyr_nm	0	0	0
 feddan folley_n	0	0	0
 feddan jaagh_n	0	0	0
@@ -7897,6 +7914,7 @@ feeagh1_nm	0	feeaghyn	feeagh_nm
 feeaghanagh_nm	0	0	0
 feeagheyder_nm	0	0	0
 feeagh mooar_n	0	0	0
+feeah_nm	0	0	feeaih_nm
 feeaih_nm	0	feeaihee	0
 feeaih firryn_n	0	0	0
 feeaih Loghlinagh_n	0	0	0
@@ -7988,6 +8006,7 @@ feh ny hyskid_nf	0	0	0
 feie_a	0	0	0
 feie_prep	0	0	0
 feieys_nm	0	1	0
+feigh_nm	0	0	feiy_nm
 feihl_nf	0	1	feill_nf
 feihll_nf	0	1	feill_nf
 feill_nf	foalley	0	0
@@ -8009,8 +8028,11 @@ feiosagh_nm	0	0	0
 feiosid_nm	0	0	0
 Feirshtey_n	0	0	0
 feish_nf	0	0	0
-feiy_nm	0	feiyghyn	faih_nm
+feiy_nm	0	0	0
+feiy_prep	0	0	feie_prep
 feiy_v	feiyal_n	0	0
+feiy1_nm	0	feighyn	feiy_nm
+feiy2_nm	0	feiyghyn	faih_nm
 feiyal_n	0	0	0
 feiyeyder_nm	0	0	0
 feiyr_nm	0	0	0
@@ -8049,6 +8071,7 @@ feoght_nf	0	0	0
 feoh_nm	0	0	0
 feoh çhionney_n	0	0	0
 feohdagh_a	0	0	feohdoil_a
+feohdaghey_nm	0	1	0
 feohder_nm	0	0	0
 feohder ben_n	0	0	0
 feohder Hostyn_n	0	0	0
@@ -8207,6 +8230,7 @@ festit_a	0	0	0
 feu_nm	0	0	0
 feudagh_a	0	0	0
 feue_pronm	feueish	0	0
+fey_nm	0	feiyn	feiy_nm
 fey-ny-laa_adv	0	0	0
 feysh_nf	0	0	0
 feysht_nf	0	0	0
@@ -8223,9 +8247,11 @@ fhyt_nm	0	0	0
 fial_a	0	0	0
 Fianna Fail_n	0	0	0
 fibbyl_nm	0	0	0
+fiddal_n	0	1	fidderagh_nm
 fidder_nm	fidderagh	0	feeder_nm
 fidderagh_nm	0	0	0
 fidderaght_nf	0	0	0
+fidderys_nm	0	1	fidderaght_nf
 fiddler_nm	0	0	fidleyr_nm
 fiddleraght_nf	0	0	fidleragh_nm
 fiddyl_nm	0	0	0
@@ -8345,6 +8371,7 @@ fliughys_nm	0	0	0
 floadey_nm	0	1	floateil_n
 floadran_nm	0	0	0
 floag_nf	0	0	0
+floagey_nm	0	1	0
 floaoil_a	0	0	flaaoil_a
 floateil_n	0	1	0
 flockys_nm	0	0	0
@@ -8399,6 +8426,7 @@ foar_nm	0	0	0
 fo-arctagh_a	0	0	0
 fo-ard_nm	0	0	0
 fo ardaneyn_a	0	0	0
+foarst_a	0	0	0
 foast_adv	0	0	0
 foastagh_adv	0	0	foast_adv
 foaun_nm	0	0	0
@@ -8525,6 +8553,7 @@ foiljagh_nm	0	0	0
 foill_nf	0	foiljyn	0
 foill1_nf	0	foilchin	foill_nf
 foillan_nf	0	0	0
+foilley_nm	0	1	filley_nm
 foilleyr_nm	0	0	0
 foillshirragh_a	0	0	0
 foillycan_nm	0	0	0
@@ -8532,6 +8561,9 @@ foin_pronm	foinyn	0	0
 foirb_nf	0	0	0
 foirran_nm	0	0	0
 folaue_nm	0	0	0
+folder_nm	0	0	folleyder_nm
+foldeyr_nm	0	0	folleyder_nm
+foldyr_nm	0	0	folleyder_nm
 fo-leese_nm	0	0	0
 fo-leigh_nm	0	0	0
 folican_nm	0	0	foillycan_nm
@@ -8550,6 +8582,7 @@ follanys_nm	0	1	follanid_nm
 follee_v	follaghey_nm	0	0
 follee1_v	follaghtyn_nm	0	follee_v
 folleeagh_a	0	0	0
+folleyder_nm	0	0	0
 folliaght_nf	0	folliaghtyn	0
 folliaghtagh_a	0	0	0
 follican_nm	0	0	foillycan_nm
@@ -8576,6 +8609,7 @@ fo-my-cheilley_adv	0	0	0
 fomys_nm	0	0	0
 fo'n_prep	0	0	0
 fo'n aer_adv	0	0	0
+fond_a	0	0	0
 fondagh_a	0	0	0
 fondee_v	0	0	0
 fondiaght_nm	0	0	0
@@ -8601,6 +8635,8 @@ fo-phossan_nm	0	0	0
 fo-raad_a	0	0	0
 fo-raad_adv	0	0	0
 forchan_nm	0	0	fortan_nm
+forçhan_nm	0	0	fortan_nm
+fordaag_nf	0	0	ordaag_nf
 fordrail_n	0	1	0
 fordree_v	fordrail_n	0	0
 fo-reihys_nm	0	0	0
@@ -8735,6 +8771,7 @@ freeghey_n	0	0	0
 freeghit_a	0	0	0
 freeghtag_nf	0	0	0
 freeghtane_nm	0	0	0
+freeiney_nm	0	0	freeney_nm
 freenaghan_nm	0	0	0
 freeney_nm	0	0	0
 freeney1_nm	0	freeniaghyn	freeney_nm
@@ -8766,6 +8803,7 @@ freoagh ny sooghyn_n	0	0	0
 freoghage_nf	0	0	freoghane_nf
 freoghane_nf	0	0	0
 frigaid_nm	0	0	0
+friogan_nm	0	0	frioggan_nm
 frioggan_nm	0	0	0
 friogganagh_a	0	0	0
 friogganagh_nm	0	0	0
@@ -8783,8 +8821,10 @@ froaish_nf	0	0	0
 froaishagh_a	0	0	0
 froaishagh_nm	0	0	0
 froaishid_nm	0	0	0
+froash_nm	0	1	0
 frog_nm	0	froggyn	0
 frog aeg_n	0	0	0
+frogh_a	0	0	0
 froghid_nm	0	0	0
 frough_nf	0	0	0
 frourtagh_a	0	0	0
@@ -8805,6 +8845,7 @@ fud-ny-h-oie_adv	0	0	fud ny hoie_adv
 fud y cheilley_a	0	0	0
 fud-y-cheilley_a	0	0	fud y cheilley_a
 fuill_nf	folley	0	0
+fuillagh_a	0	0	fuilltagh_a
 fuillagh_n	0	0	0
 fuillaghtagh_a	0	0	0
 fuillaghtaght_nf	0	0	0
@@ -8860,6 +8901,7 @@ fynn_nm	0	0	0
 fynnag_nf	0	0	0
 fynnagh_a	0	0	0
 fynneig_nf	0	0	0
+fynneig1_nf	0	0	fynnag_nf
 fynneigagh_a	0	0	0
 fynneig spoar_nf	0	0	0
 fynneraght_nm	0	0	fynnyraght_nm
