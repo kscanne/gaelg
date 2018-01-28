@@ -340,6 +340,7 @@ aggairagh_nm	0	0	0
 aggindagh_a	0	0	0
 aggindys_nm	0	0	0
 agglagh_a	0	0	0
+agglaghey_nm	0	1	0
 agglaghin_nm	0	0	0
 aggle_nm	0	0	0
 agglee_v	0	0	0
@@ -8968,6 +8969,8 @@ gaaue glish_n	0	0	0
 gaaue stainney_n	0	0	0
 gaberdeen_nm	0	0	0
 gaccan_n	0	0	0
+gaccyragh_a	0	0	accryssagh_a
+gaccyrys_nm	0	1	accrys_nm
 gad_nm	0	0	0
 gaddaghey_nm	0	1	gaddeeys_nm
 gaddee_nm	0	0	0
@@ -9002,6 +9005,7 @@ gah_nm	0	0	0
 gahagh_a	0	0	0
 gah greiney_n	0	0	0
 gahlagh_nm	0	0	0
+gaih_nm	0	gaihaghyn	0
 gailck_nf	0	1	Gaelg_nf
 Gailck_nf	0	1	Gaelg_nf
 Gailck1_nf	Gailckey	1	Gaelg_nf
@@ -9091,6 +9095,7 @@ Garnagh_a	0	0	0
 Garnagh_nm	0	0	0
 garnaid_nf	0	0	0
 garrad_nm	0	0	0
+garragh_nm	0	0	garrey_nm
 garraghtee_nm	0	0	garaghtee_nm
 garran_nm	0	0	giarran_nm
 garran yiarn_n	0	0	0
@@ -9135,6 +9140,7 @@ geanymnee_a	0	0	0
 gear_a	0	0	geayr_a
 gear_v	gearey_nm	0	0
 gearaghtee_nm	0	1	garaghtee_nm
+gearaghtyn_n	0	1	garaghtee_nm
 gear-cheim_nf	0	0	0
 gearey_nm	0	0	0
 geay_nf	geayee	geayghyn	0
@@ -9152,6 +9158,7 @@ geayl creoi_n	0	0	0
 geayleyder_nm	0	0	0
 geaylin_nm	0	geayltyn	0
 geayltagh_nm	0	0	0
+geayn_nm	0	geayin	eayn_nm
 geay neear ass_nf	0	0	0
 geayney_a	0	0	0
 geayney_nm	0	0	0
@@ -9162,6 +9169,7 @@ geayragh_a	0	0	geayr_a
 geayrane_nm	0	0	0
 geayr hiddracloaragh_n	0	0	0
 geaysh_nf	0	0	0
+geayshagh_a	0	0	0
 geaysh ghoair_nf	0	0	0
 geayshteenagh_a	0	0	0
 geay veeley_nf	0	0	0
@@ -9178,10 +9186,12 @@ geegey_n	0	0	0
 geeser_nm	0	0	0
 geid_nm	0	0	0
 geid_v	geid_nm	0	0
+geidey_nm	0	1	geid_nm
 geideyder_nm	0	0	0
 geidit_a	0	0	0
 geidvianeyder_nm	0	0	0
 geill_nm	0	0	0
+geill1_nm	0	0	geyll_nm
 geinnagh_nm	geinnee	geinneeyn	0
 geinnee_a	0	0	0
 geinniagh_nm	geinnee	geinneeyn	geinnagh_nm
@@ -9202,6 +9212,7 @@ genniagh_nm	geinnee	geinneeyn	geinnagh_nm
 gennid_nf	0	0	genney_nm
 gennish_a	0	0	0
 genre_n	0	0	0
+gentyn_nm	0	1	gientyn_nm
 genus_nm	0	genera	0
 geodesagh_a	0	0	0
 geodeseeaght_nf	0	0	0
@@ -9215,12 +9226,14 @@ gerjeyder_nm	0	0	0
 gerjoil_a	0	0	0
 gerjoilagh_a	0	0	0
 gerjolagh_a	0	0	gerjoilagh_a
+gerjys_nm	0	1	gerjagh_nm
 gerkyn_nm	0	0	0
 Germaan_nf	0	1	0
 Germaanagh_a	0	0	0
 Germaanagh_nm	0	0	0
 Germaanish_nf	0	0	0
 germaanium_nm	0	0	0
+gernooys_nm	0	1	groosniuys_nm
 gerr_v	gerrym_nf	0	0
 gerrey_nf	0	0	0
 gerrid_nf	0	0	0
@@ -9234,6 +9247,7 @@ gerrym caggee_n	0	0	0
 gerrymoil_a	0	0	0
 gerrymoilid_nm	0	0	0
 gess_nm	0	0	guess_nm
+geu_nm	0	0	0
 geul_v	geulaghey_nm	0	geulee_v
 geulaghey_nm	0	1	0
 geulee_v	0	0	0
@@ -9241,6 +9255,8 @@ geuley_nm	0	0	0
 geuley bee_n	0	0	0
 geuragh_a	0	0	0
 geurey_nm	geuree	0	0
+gew_nf	0	0	0
+geyll_nm	0	0	0
 geyragh_a	0	0	geayr_a
 geyraghey_nm	0	0	0
 geyre_a	0	0	geayr_a
@@ -9326,6 +9342,7 @@ giau_nf	0	0	0
 Giau Vooar ny Pershey_n	0	0	0
 gibbey_nf	0	0	0
 gibbey hiu_nf	0	0	0
+gibbin_nm	0	0	0
 Gibraaltar_nm	0	0	0
 gien_nm	0	1	0
 gien_v	gientyn_nm	0	0
@@ -9349,6 +9366,7 @@ gientyn_nm	0	0	0
 gientynagh_a	0	0	0
 gientynys_nm	0	0	0
 giffag_nm	0	0	0
+gig_nf	0	0	0
 giggleragh_n	0	1	0
 gigleragh_n	0	1	giggleragh_n
 gigleraght_n	0	0	giggleragh_n
@@ -9359,6 +9377,8 @@ gilpin_nm	0	0	0
 gimbyl_nm	0	gimbyllyn	0
 gimlad_nm	0	0	0
 gimmagh_nm	0	0	0
+gimman_nm	0	0	0
+gimmanagh_a	0	0	0
 gimmanys_nm	0	0	0
 gimmijey_nm	0	0	0
 ginnee_nf	0	0	0
@@ -9385,12 +9405,16 @@ girree_v	0	0	giar_v
 girree1_v	0	0	gerr_v
 girrid_nf	0	0	0
 girrit_a	0	0	giarrit_a
+girvan_nm	0	0	0
+girvane_nm	0	0	girvan_nm
 gitar_nm	0	0	0
+giub_nf	0	0	gubb_nf
 giubbagh_a	0	0	0
 giubbyl_nm	0	0	0
 giubbylagh_a	0	0	0
 giubbylaght_nf	0	0	0
 giucklagh_nf	0	0	0
+giuder_nm	0	0	iuder_nm
 glaare_nm	0	0	0
 glaare eddin_n	0	0	glaare-eddin_n
 glaare-eddin_n	0	0	0
@@ -9413,15 +9437,18 @@ glashtin_nm	0	0	0
 glashtyn_nm	0	0	glashtin_nm
 glass_a	0	glassey	0
 glass_nm	0	glish	0
+glass_v	glassey_nm	0	0
 glass1_nm	0	0	glass_nm
 glassag_nf	0	0	0
 glassag gharagh_nf	0	0	0
+glassagh_nm	0	0	0
 glassan_nf	0	0	0
 glassan chaayl_nf	0	0	0
 glassan ooh_n	0	0	0
 glass-eairkagh_nm	0	0	0
 glasseraght_nf	0	0	glassyraght_nm
 glass essynagh_n	0	0	0
+glassey_nm	0	1	0
 glass feeackle_n	0	0	0
 glass-ghorrym_a	0	0	0
 glass-hooillagh_a	0	0	0
@@ -9506,6 +9533,7 @@ glickys_nm	0	0	0
 glieemian_nf	0	0	0
 glieemianagh_a	0	0	0
 gligginaght_nf	0	0	0
+glimminagh_a	0	0	gimmanagh_a
 glion_nm	glionney	glionteenyn	0
 glion1_nm	glionney	glionteeyn	glion_nm
 glion2_nm	glionney	0	glion_nm
@@ -9529,6 +9557,7 @@ gloas1_v	gloassey_n	0	gloas_v
 gloasagh_a	0	0	0
 gloasey_nm	0	0	0
 gloaseyder_nm	0	0	0
+gloashagh_nm	0	1	gloasey_nm
 gloashaghey_nm	0	0	gloasey_nm
 gloasit_a	0	0	0
 gloassey_n	0	0	gloasey_nm
@@ -9566,6 +9595,8 @@ glugal_nm	0	1	0
 glugeraght_nm	0	0	glugal_nm
 glugernee_nm	0	1	glugal_nm
 gluggeragh_nm	0	1	glugal_nm
+gluggernagh_nm	0	1	glugal_nm
+glutter_nm	0	0	glutterey_nm
 glutteraght_nm	0	0	0
 glutterey_nm	0	gluttyryn	0
 gluttyn_nm	0	0	0
@@ -9595,6 +9626,7 @@ Goaldagh_a	0	0	0
 Goaldaght_nf	0	0	0
 Goaldaghys_nm	0	0	0
 Goalish_nf	0	1	0
+goal twoaie_n	0	0	goll twoaie_n
 goan_a	0	goaney	0
 goan_nm	0	1	0
 goan ayns obbreeyn_a	0	0	0
@@ -9607,6 +9639,7 @@ goan mollaghtagh_nm	0	0	goan-mollaghtagh_nm
 goan-mollaghtagh_nm	0	goanyn-mollaghtagh	0
 goan-veeit_a	0	0	0
 goar sleitagh_nf	0	0	goayr sleitagh_nf
+goashtag_nf	0	0	0
 goaun_a	0	0	goan_a
 goayn_nm	0	1	goan_nm
 goayr_nf	0	goair	0
@@ -9842,6 +9875,7 @@ greddaney_nm	0	0	greddey_nm
 greddee_a	0	0	0
 greddey_nm	0	0	0
 gred-hiass_nm	0	0	0
+greeasee_nm	0	0	greasee_nm
 greeish_nf	0	0	0
 greeish1_nf	0	greeshyn	greeish_nf
 greeish aile_nf	0	0	0
@@ -9900,8 +9934,10 @@ greim_nm	0	0	0
 greim_v	greimmey_nm	0	0
 greim aarnieu_n	0	0	0
 greimaghan_nm	0	0	0
+greimal_n	0	1	greimmey_nm
 greimane_nm	0	0	0
 greim collane_n	0	0	0
+greimey_nm	0	1	greimmey_nm
 greimeyryn_nm	0	0	0
 greimlyn_nm	0	0	0
 greimm_v	greimmey_nm	0	greim_v
@@ -9916,6 +9952,7 @@ greimmit_a	0	0	0
 greim rioee_n	0	0	0
 greim scoarnee_n	0	0	0
 grein_v	greinney_nm	0	greinnee_v
+greiney_nm	0	1	0
 greinn_v	greinney_nm	0	greinnee_v
 greinnagh_nm	0	0	greinneyder_nm
 greinnaghey_nm	0	0	0
@@ -9961,11 +9998,15 @@ groamagh_a	0	0	0
 groamaght_nf	0	0	0
 groamey_a	0	0	0
 groamid_nm	0	0	0
+groat_nm	0	0	0
 groe_nm	0	0	0
 grog_nm	0	0	0
+groo_nm	0	1	0
 grooish_nf	0	0	0
 grooish-voll_v	grooish-volley_n	0	0
 grooish-volley_n	0	0	0
+groonoays_nm	0	1	groosniuys_nm
+groosniuys_nm	0	1	0
 groseyr_nm	0	0	0
 groseyragh_a	0	0	0
 gross_nm	0	0	0
@@ -9993,11 +10034,14 @@ guaragh_a	0	0	0
 guaraght_nm	0	0	0
 Guatemaley_nf	0	1	0
 gubb_nf	0	0	0
+gubbon_nf	0	0	gubb_nf
+gubbyl_nm	0	0	giubbyl_nm
 guee_nf	0	0	0
 guee_v	guee_nf	0	0
 gueeder_nm	0	0	0
 gueshag_nf	0	0	0
 guess_nm	0	0	0
+guicklagh_nf	0	1	giucklagh_nf
 guilb_nf	0	0	gilb_nf
 guilley_nm	0	guillyn	0
 guilley1_nm	0	gillyn	guilley_nm
@@ -10085,6 +10129,8 @@ gybragh_adv	0	0	gy bragh_adv
 gy bragh_adv	0	0	0
 gy-bragh_adv	0	0	gy bragh_adv
 gyere_a	0	0	geayr_a
+gyereaghey_nm	0	0	geyraghey_nm
+gyerid_nm	0	1	geyrid_nm
 gy kione_adv	0	0	gy-kione_adv
 gy-kione_adv	0	0	0
 gymnosperm_nm	0	0	0
@@ -10234,6 +10280,7 @@ gyrneder_nm	0	0	gyrnder_nm
 gyroscope_nm	0	0	0
 gys_prep	0	0	0
 gys y jerrey_adv	0	0	0
+gyubb_nf	0	0	gubb_nf
 Haag_nf	0	0	0
 hafnium_nm	0	0	0
 haggish_nf	0	0	0
