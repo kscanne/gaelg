@@ -1901,7 +1901,7 @@ ben-rein_nf	0	0	benrein_nf
 ben-reiree_nf	mreih-reiree	mraane-reiree	0
 ben rochooishagh_nf	mreih	mraane	0
 ben saar_nf	mreih	mraane	0
-bensaggyrt_nf	mreih	mraane	0
+bensaggyrt_nf	0	0	0
 ben-seyr_nf	mreih-seyr	mraane-seyr	0
 ben shee_nf	mreih	mraane	0
 ben-shee_nf	mreih-shee	mraane-shee	ben shee_nf
@@ -4186,6 +4186,7 @@ cloagey_nm	0	0	0
 cloagey1_nm	0	cloaghaghyn	cloagey_nm
 cloaie_a	0	0	0
 cloan_nf	0	0	0
+cloan1_nf	clienney	0	cloan_nf
 cloan ny clienney_nf	0	0	0
 cloareen_nf	0	0	cloreen_nm
 cloart_nm	0	0	0
@@ -5092,6 +5093,7 @@ craa-chiaull_nf	0	0	0
 craad_interr	0	0	c'raad_interr
 c'raad_interr	0	0	0
 craader_nm	0	0	0
+craaee_a	0	0	0
 craag_nf	0	0	0
 craagh_a	0	0	0
 craa-hallooin_nm	0	1	0

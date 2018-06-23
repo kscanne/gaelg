@@ -515,6 +515,7 @@ msgstr "éadach boird;línéadach boird"
 msgid "aanrit keyl_n"
 msgstr "línéadach mín"
 
+# marray is (just) gs mooir
 # GAOL: aanrit_nm+marrey
 msgid "aanrit marrey_n"
 msgstr "muirbhréid_nf"
@@ -3217,6 +3218,7 @@ msgstr "ardaitheoir_nm"
 msgid "ardjid_nm"
 msgstr "airde_nf"
 
+# marray is (just) gs mooir
 # GAOL: ardjid_nm+ny_art+marrey
 msgid "ardjid ny marrey_nm"
 msgstr "leibhéal na farraige"
@@ -4339,6 +4341,7 @@ msgstr "aisbhuille_nm"
 msgid "askaid_nf"
 msgstr "neascóid_nf"
 
+# marray is (just) gs mooir
 # GAOL: askaid_nf+marrey
 msgid "askaid varrey_nf"
 msgstr "bundún leice"
@@ -4624,7 +4627,8 @@ msgid "astan faasaagagh_nf"
 msgstr "lota_nm"
 
 # sea eel; Ir. in de Bhaldraithe
-# GAOL:
+# marrey is (just) gs mooir
+# GAOL: astan_nf+marrey
 msgid "astan-marrey_nf"
 msgstr "eascann mhara"
 
@@ -5035,7 +5039,7 @@ msgstr "Airíoch_nm"
 msgid "ayr feyshtyney_n"
 msgstr "athair faoistine"
 
-# GAOL: ~;ayr_nm+thallooin
+# GAOL: ~;ayr_nm+thalloo_nm
 msgid "ayr hallooin_n"
 msgstr "athair thalún"
 
@@ -6325,6 +6329,7 @@ msgid "beatal_n"
 msgstr "bualadh_nm"
 
 # plankton
+# marrey is (just) gs mooir
 # GAOL: ~;bea_nf+marrey
 msgid "bea varrey_n"
 msgstr "beatha mhara"
@@ -8021,6 +8026,7 @@ msgid "boalley claare_n"
 msgstr "ballachlár_nm"
 
 # focal.ie ("seawall")
+# marrey is (just) gs mooir
 # GAOL: ~;boalley_nm+marrey
 msgid "boalley marrey_n"
 msgstr "balla mara"
@@ -8712,6 +8718,7 @@ msgstr "buac_nf"
 msgid "booa 'liught_nf"
 msgstr "bó bhleacht"
 
+# marrey is (just) gs mooir
 # GAOL: ~;booa_nf+marrey
 msgid "booa varrey_nf"
 msgstr "bó mhara"
@@ -9396,6 +9403,7 @@ msgid "breckit_a"
 msgstr "breactha_a"
 
 # No examples of breac mara
+# marrey is (just) gs mooir
 # GAOL: breck_nm+marrey
 msgid "breck marrey_n"
 msgstr "maicréal_nm;ronnach_nm"
@@ -12262,6 +12270,7 @@ msgstr "carbad_nm"
 msgid "carbyd bee_n"
 msgstr "carbad bia"
 
+# clienney is (just) gen. cloan_nf
 # GAOL: carbyd_nm+clienney
 msgid "carbyd clienney_n"
 msgstr "naíchóiste_nm"
@@ -12891,6 +12900,7 @@ msgstr "colg_nm"
 msgid "caulgagh_a"
 msgstr "colgach_a"
 
+# marrey is (just) gs mooir
 # GAOL: caulgan+marrey
 msgid "caulgan marrey_n"
 msgstr "cuán mara"
@@ -13492,7 +13502,7 @@ msgstr "teangach_a"
 msgid "çhengey_nf"
 msgstr "teanga_nf"
 
-# GAOL: çhengey_nf+brynneragh_nm
+# GAOL: çhengey_nf+brynneragh_a
 msgid "çhengey brynneragh_n"
 msgstr "milteanga_nf"
 
@@ -13720,7 +13730,7 @@ msgstr "taobh thall de"
 msgid "çheu hoal jeh_prep"
 msgstr "taobh thall de"
 
-# GAOL: ~;çheu_nf+hwoaie+jeh_prep
+# GAOL: ~;çheu_nf+hwoaie_adv+jeh_prep
 msgid "çheu hwoaie jeh_prep"
 msgstr "taobh thuaidh de"
 
@@ -13816,7 +13826,7 @@ msgstr "tiarna_nm"
 msgid "çhiarnoil_a"
 msgstr "tiarnúil_a"
 
-# GAOL: ~;çhiarn_nm+thallooin
+# GAOL: ~;çhiarn_nm+thalloo_nm
 msgid "çhiarn thallooin_n"
 msgstr "tiarna talún"
 
@@ -13838,7 +13848,7 @@ msgid "çhiassagh_a"
 msgstr "teasaí_a"
 
 # with def. article in both
-# GAOL: çhiassagh_a+buigh
+# GAOL: çhiassagh_a+buigh_a
 msgid "çhiassagh buigh_nm"
 msgstr "fiabhras buí"
 
@@ -13846,6 +13856,7 @@ msgstr "fiabhras buí"
 msgid "çhiassaghey_nm"
 msgstr "teasach_nf;fiabhras_nm"
 
+# sheeintyn (only) pl. of sheeint_nf
 # GAOL: çhiassaghey_nm+sheeintyn
 msgid "çhiassaghey sheeintyn_n"
 msgstr "maistíteas_nm"
@@ -13859,7 +13870,7 @@ msgstr "fiabhras dearg"
 msgid "çhiassaght_nf"
 msgstr "teasaíocht_nf"
 
-# GAOL:
+# GAOL: <d çhiass_nm
 msgid "çhiassan_nm"
 msgstr "calra_nm"
 
@@ -13867,7 +13878,7 @@ msgstr "calra_nm"
 msgid "çhiass bane_n"
 msgstr "gealbhruthaíl_nf"
 
-# GAOL: ~;çhiass_nm+graih_nm
+# GAOL: ~;çhiass-+graih_nm
 msgid "çhiass-ghraih_nm"
 msgstr "teasghrá_nm"
 
@@ -13887,11 +13898,11 @@ msgstr "teirmidinimic_nf"
 msgid "çhibbyr_nf"
 msgstr "tobar_nm"
 
-# GAOL: ~;çhibbyr_nf+ooill
+# GAOL: ~;çhibbyr_nf+ooil_nf
 msgid "çhibbyr ooill_nf"
 msgstr "tobar ola"
 
-# GAOL: ~;Çhibbyrt+Aarey
+# GAOL: ~
 msgid "Çhibbyrt Aarey_nf"
 msgstr "Tiobraid Árann"
 
@@ -13909,7 +13920,7 @@ msgstr "chéad"
 msgid "çhillee_nf"
 msgstr "cillí_nf"
 
-# GAOL:
+# GAOL: eng:telly
 msgid "çhilley_nm"
 msgstr "teilifíseán_nm"
 
@@ -13923,7 +13934,7 @@ msgid "çhing_a"
 msgstr "tinn_a"
 
 # Fargher: ulcer, sore
-# GAOL:
+# GAOL: <d çhing_a
 msgid "çhing_nm"
 msgstr "othras_nm;cneá_nf"
 
@@ -13932,7 +13943,7 @@ msgid "çhing lhiabbagh_n"
 msgstr "anacair leapa"
 
 # cognates in HLSM
-# GAOL: tinneas_nm;çhing+-ys
+# GAOL: tinneas_nm;çhing_a+-ys
 msgid "çhingys_nf"
 msgstr "tinneas_nm;galar_nm"
 
@@ -13940,44 +13951,49 @@ msgstr "tinneas_nm;galar_nm"
 msgid "çhingys aane_nf"
 msgstr "tinneas ae;heipitíteas_nm"
 
-# GAOL: çhingys_nf+aer
+# GAOL: çhingys_nf+aer_nf
 msgid "çhingys aer_nf"
 msgstr "tinneas aerthaistil"
 
-# GAOL: ~;çhingys_nf+builg
+# GAOL: ~;çhingys_nf+bolg_nm
 msgid "çhingys builg_nf"
 msgstr "tinneas boilg"
 
+# cleayshey is (only) gs cleaysh_nf
 # GAOL: ~;çhingys_nf+cleayshey
 msgid "çhingys cleayshey_nf"
 msgstr "tinneas cluaise"
 
+# clienney is (just) gen. cloan_nf
 # GAOL: ~;çhingys_nf+clienney
 msgid "çhingys clienney_nf"
 msgstr "tinneas clainne"
 
-# GAOL: çhingys_nf+craaee
+# GAOL: çhingys_nf+craaee_a
 msgid "çhingys craaee_nf"
 msgstr "galar creathach"
 
+# drommey is (just) gs of dreeym
 # GAOL: ~;çhingys_nf+drommey
 msgid "çhingys drommey_nf"
 msgstr "tinneas droma"
 
-# GAOL: ~;çhingys_nf+'eeackle
+# GAOL: ~;çhingys_nf+feeackle_nf
 msgid "çhingys 'eeackle_nf"
 msgstr "tinneas fiacaile"
 
+# marrey is (just) gs mooir
 # GAOL: çhingys_nf+marrey
 msgid "çhingys marrey_nf"
 msgstr "tinneas farraige;muirghalar_nm"
 
+# mraane is just pl ben
 # GAOL: çhingys_nf+ny_art+mraane
 msgid "çhingys ny mraane_nf"
 msgstr "cúrsa na mban"
 
 # def. article in both
-# GAOL: çhingys_nf+tuittymagh
+# GAOL: çhingys_nf+tuittymagh_a
 msgid "çhingys tuittymagh_nf"
 msgstr "galar titimeach"
 
@@ -14006,31 +14022,31 @@ msgstr "teann_a"
 
 # Fargher: firmly
 # HLSM appendix "very, as adv.", no etym.
-# GAOL: teann_a
+# GAOL: teann_a;<d çhionn_a
 msgid "çhionn_adv"
 msgstr "teann;go teann"
 
 # 1. clench, tighten, tauten 2. oblige, compel (with "er")
-# GAOL: ~
+# GAOL: ~;<d çhionn_a
 msgid "çhionn_v"
 msgstr "teann_v"
 
-# GAOL: ~;çhionn+-ag
+# GAOL: ~;çhionn_a+-ag
 msgid "çhionnag_nf"
 msgstr "teannóg_nf"
 
 # thronging (adj) in Fargher
-# GAOL: çhionn+-agh
+# GAOL: çhionn_a+-agh
 msgid "çhionnagh_a"
 msgstr "brúite_a"
 
-# GAOL: ~;çhionn+-al
+# GAOL: ~
 msgid "çhionnal_nm"
 msgstr "tionól_nm"
 
 # cognates in HLSM
 # vn of çhionn_v above
-# GAOL: ~
+# GAOL: ~;<i çhionn_v
 msgid "çhionney_n"
 msgstr "teannadh_nm"
 
@@ -14043,11 +14059,11 @@ msgstr "teannaire_nm;teanntóir_nm"
 msgid "çhionney stiagh_nm"
 msgstr "teannadh isteach"
 
-# GAOL: ~;çhionn+-id
+# GAOL: ~;çhionn_a+-id
 msgid "çhionnid_nm"
 msgstr "teannas_nm"
 
-# GAOL: çhionn+lesh+moyrn_nf
+# GAOL: çhionn_a+lesh_prep+moyrn_nf
 msgid "çhionn lesh moyrn_a"
 msgstr "i mborr le bród"
 
@@ -14070,7 +14086,7 @@ msgstr "téamh_nm"
 msgid "çhiow_v"
 msgstr "téigh1_v"
 
-# GAOL: çhiow+banglaneagh_a
+# GAOL: çhiow_nm+banglaneagh_a
 msgid "çhiow banglaneagh_n"
 msgstr "téamh lárnach"
 
@@ -14078,7 +14094,7 @@ msgstr "téamh lárnach"
 msgid "çhiowder ushtey_n"
 msgstr "téitheoir uisce"
 
-# GAOL: çhiow+ny_art+cruinney_nf
+# GAOL: çhiow_nm+ny_art+cruinney_nf
 msgid "çhiow ny cruinney_n"
 msgstr "téamh domhanda"
 
@@ -14105,11 +14121,11 @@ msgstr "tirim_a"
 msgid "çhirrym-choshagh_a"
 msgstr "costirim_a"
 
-# GAOL: ~;çhirrym_a+glen
+# GAOL: ~;çhirrym_a+glen_v
 msgid "çhirrym-ghlen_v"
 msgstr "tirimghlan_v"
 
-# GAOL: ~;çhirrym_a+glenney_nm
+# GAOL: ~;çhirrym_a+glenney_nm;<i çhirrym-ghlen_v
 msgid "çhirrym-ghlenney_n"
 msgstr "tirimghlanadh_nm"
 
@@ -14152,7 +14168,7 @@ msgid "çhoarym_nm"
 msgstr "teoirim_nf"
 
 # only in HLSM: "cuckoo" (no etym.)
-# GAOL: ~
+# GAOL:
 msgid "çhoggyl_nf"
 msgstr "cuach_nf"
 
@@ -14245,7 +14261,7 @@ msgstr "imshaolach_a;comhshaoil"
 msgid "çhymmyltey_nm"
 msgstr "timpeallghearradh_nm"
 
-# GAOL: ~
+# GAOL: ~;<i çhymnee_v
 msgid "çhymnaghey_nm"
 msgstr "tiomnú_nm"
 
@@ -14277,7 +14293,8 @@ msgstr "tiomanta_a"
 msgid "çhymsagh_a"
 msgstr "tiomsaitheach_a"
 
-# GAOL: çhymsagh_a+booa_nf
+# vaa from booa_nf
+# GAOL:
 msgid "çhymsagh vaa_nf"
 msgstr "róidió_nm"
 
@@ -14309,7 +14326,7 @@ msgstr "tiontú_nm;iompú_nm"
 msgid "çhyndaa_v"
 msgstr "tiontaigh_v;iompaigh_v"
 
-# GAOL: çhyndaa+-der
+# GAOL: çhyndaa_v+-der
 msgid "çhyndaader_nm"
 msgstr "aistritheoir_nm"
 
@@ -14323,20 +14340,20 @@ msgstr "piardálaí trá"
 msgid "çhyndaaee_a"
 msgstr "rothlach_a"
 
-# GAOL: tiontaithe_a
+# GAOL: tiontaithe_a;<i çhyndaa_v
 msgid "çhyndaait_a"
 msgstr "tiontaithe_a;aistrithe_a"
 
-# GAOL: Çhyndaa+yn_art+Ghoayr
+# GAOL: çhyndaa_nm+yn_art+goayr_nf
 msgid "Çhyndaa yn Ghoayr_n"
 msgstr "trópaic an Ghabhair"
 
-# GAOL: Çhyndaa+yn_art+Phartan
+# GAOL: çhyndaa_nm+yn_art+partan_nm
 msgid "Çhyndaa yn Phartan_n"
 msgstr "trópaic an Phortáin"
 
 # usually sense "aistriúchán" in corpus examples
-# GAOL: tiontú_nm;çhyndaa+-ys
+# GAOL: tiontú_nm;çhyndaa_nm+-ys
 msgid "çhyndaays_nm"
 msgstr "tiontú_nm;aistriúchán_nm"
 
@@ -14372,7 +14389,7 @@ msgstr "teachtaire_nm"
 msgid "Cilicia_nf"
 msgstr "an tSiléis;na Siléise"
 
-# GAOL: ~
+# GAOL: ~;<i claaree_v
 msgid "claaraghey_nm"
 msgstr "clárú_nm"
 
@@ -14394,11 +14411,11 @@ msgid "claare-costys_nm"
 msgstr "taraif_nf"
 
 # Fargher: "enrol"
-# GAOL: ~
+# GAOL: ~;<d claare_nf
 msgid "claaree_v"
 msgstr "cláraigh_v"
 
-# GAOL: ~
+# GAOL: ~;claare-+feeackle_nf
 msgid "claare-eeackle_nm"
 msgstr "clárfhiacail_nf"
 
@@ -14918,6 +14935,7 @@ msgstr "claí_nm;fál_nm"
 msgid "cleighder_nm"
 msgstr "claítheoir_nm;fálaitheoir_nm"
 
+# marrey is (just) gs mooir
 # GAOL: ~;cleigh_nf+marrey
 msgid "cleigh marrey_n"
 msgstr "claí mara"
@@ -15132,6 +15150,7 @@ msgstr "cloiche_a"
 msgid "cloan_nf"
 msgstr "clann_nf"
 
+# clienney is (just) gen. cloan_nf
 # GAOL: ~;cloan_nf+ny_art+clienney
 msgid "cloan ny clienney_nf"
 msgstr "clann na clainne"
@@ -16967,7 +16986,7 @@ msgstr "crua-chré_nf"
 msgid "cooid elley_nf"
 msgstr "cuid eile;chuid eile"
 
-# GAOL: cooid_nf+thallooin
+# GAOL: cooid_nf+thalloo_nm
 msgid "cooid hallooin_nf"
 msgstr "eastát réadach"
 
@@ -17430,7 +17449,7 @@ msgstr "cúléisteoir_nm"
 msgid "cooyl-eeacklagh_a"
 msgstr "ailbheolach_a"
 
-# GAOL: ~
+# GAOL: ~;cooyl_nm+feeackle_nf
 msgid "cooyl-eeackle_nf"
 msgstr "cúlfhiacail_nf"
 
@@ -18479,6 +18498,7 @@ msgstr "comhadchaibinéad_nm"
 msgid "coyrd_nm"
 msgstr "corda_nm;téad_nf"
 
+# drommey is (just) gs of dreeym
 # GAOL: coyrd_nm+drommey
 msgid "coyrd drommey_n"
 msgstr "corda an dromlaigh"
@@ -18573,6 +18593,11 @@ msgstr "cén áit"
 msgid "craader_nm"
 msgstr "croiteoir_nm"
 
+# Fargher: vibratory
+# GAOL: ~
+msgid "craaee_a"
+msgstr "creathach_a"
+
 # clutch (Aut.)
 # GAOL: ~
 msgid "craag_nf"
@@ -18582,7 +18607,7 @@ msgstr "crág_nf"
 msgid "craagh_a"
 msgstr "creathach_a"
 
-# GAOL: ~;craa_nm+thallooin
+# GAOL: ~;craa_nm+thalloo_nm
 msgid "craa-hallooin_nm"
 msgstr "crith talún"
 
@@ -18764,6 +18789,7 @@ msgid "crammag rio_n"
 msgstr "haca oighir"
 
 # sea snail
+# marrey is (just) gs mooir
 # GAOL: crammag_nf+marrey
 msgid "crammag varrey_nf"
 msgstr "seilide cladaigh"
@@ -18892,6 +18918,7 @@ msgstr "cnámhach_a"
 msgid "craue cleeau_n"
 msgstr "steirneam_nm"
 
+# drommey is (just) gs of dreeym
 # GAOL: ~;craue_nf+drommey
 msgid "craue drommey_n"
 msgstr "cnámh droma"
@@ -20132,7 +20159,7 @@ msgstr "céasta_a"
 msgid "crost_a"
 msgstr "crosta_a"
 
-# GAOL: ~;cro_nf+thallooin
+# GAOL: ~;cro_nf+thalloo_nm
 msgid "cro thallooin_n"
 msgstr "cnó talún"
 
@@ -20889,6 +20916,7 @@ msgstr "cumasach_a"
 msgid "cumraag_nm"
 msgstr "comrádaí_nm"
 
+# marrey is (just) gs mooir
 # GAOL: cumraag_nm+marrey
 msgid "cumraag marrey_n"
 msgstr "leathbhádóir_nm"
@@ -22926,6 +22954,7 @@ msgstr "fear gorm"
 
 # merman; not in corpus (and "duine mara" not in Ir. corpus)
 # see "dooinney_nm" re: gender
+# marrey is (just) gs mooir
 # GAOL: dooinney_nm+marrey
 msgid "dooinney marrey_n"
 msgstr "murúch fir"
@@ -23467,7 +23496,7 @@ msgstr "aisling_nf"
 msgid "drean ailey_n"
 msgstr "lasairchíor_nf"
 
-# GAOL: drean+buigh
+# GAOL: drean+buigh_a
 msgid "drean buigh_n"
 msgstr "dreoilín ceannbhuí"
 
@@ -25613,6 +25642,7 @@ msgstr "iasc_nm"
 msgid "eeastagh_nm"
 msgstr "iascach_nm;iascaireacht_nf"
 
+# marrey is (just) gs mooir
 # GAOL: ~
 msgid "eeastagh-marrey_nm"
 msgstr "iascaireacht mhara"
@@ -26481,6 +26511,7 @@ msgid "eoylley ollee_nf"
 msgstr "aoileach bó"
 
 # lit. "aoileach mara"
+# marrey is (just) gs mooir
 # GAOL: eoylley_nf+marrey
 msgid "eoylley varrey_nf"
 msgstr "guanó_nm"
@@ -27088,7 +27119,7 @@ msgid "er troggloo_a"
 msgstr "traochta_a"
 
 # twoaie also means "caution"
-# GAOL: er+twoaie
+# GAOL: er+twoaie_nf
 msgid "er-twoaie_a"
 msgstr "ar aire"
 
@@ -27110,7 +27141,7 @@ msgstr "ar a chéile"
 msgid "er y çheu heear_adv"
 msgstr "ar an taobh thiar"
 
-# GAOL: ~;er+y_art+çheu_nf+twoaie
+# GAOL: ~;er+y_art+çheu_nf+twoaie_a
 msgid "er y çheu twoaie_adv"
 msgstr "ar an taobh thuaidh"
 
@@ -27960,7 +27991,7 @@ msgstr "féar_nm"
 msgid "faiyragh_a"
 msgstr "féarmhar_a;féarúil_a"
 
-# GAOL: faiyr_nm+chraaee
+# GAOL: faiyr_nm+craaee_a
 msgid "faiyr chraaee_nf"
 msgstr "féar gortach"
 
@@ -28113,6 +28144,7 @@ msgid "fannag craue_nf"
 msgstr "feannóg charrach"
 
 # no "feannóg mhara"
+# marrey is (just) gs mooir
 # GAOL: fannag_nf+marrey
 msgid "fannag varrey_nf"
 msgstr "cailleach dhubh"
@@ -29786,7 +29818,7 @@ msgstr "fear bog"
 msgid "fer brisht_nm"
 msgstr "fear briste"
 
-# GAOL: ~;fer_nm+buigh
+# GAOL: ~;fer_nm+buigh_a
 msgid "fer buigh_nm"
 msgstr "fear buí"
 
@@ -30686,7 +30718,7 @@ msgstr "fliuch_v"
 msgid "fliughane_nm"
 msgstr "beacán_nm;muisiriún_nm"
 
-# GAOL: fliughane_nm+buigh
+# GAOL: fliughane_nm+buigh_a
 msgid "fliughane buigh_n"
 msgstr "cantarnaid_nf"
 
@@ -31594,7 +31626,7 @@ msgstr "umhlaíocht_nf;ómós_nm"
 msgid "fo'n_prep"
 msgstr "faoin_prep"
 
-# GAOL: ~;fo'n_prep+aer
+# GAOL: ~;fo'n_prep+aer_nf
 msgid "fo'n aer_adv"
 msgstr "faoin aer"
 
@@ -32608,7 +32640,7 @@ msgstr "fungaicíd_nf"
 msgid "furnish_nf"
 msgstr "foirnéis_nf"
 
-# GAOL: furnish_nf+aer
+# GAOL: furnish_nf+aer_nf
 msgid "furnish aer_n"
 msgstr "foirnéis soinneáin"
 
@@ -32650,6 +32682,7 @@ msgid "fuygh-cedar_nm"
 msgstr "adhmad céadair"
 
 # no "adhmad mara"
+# marrey is (just) gs mooir
 # GAOL: fuygh_nm+marrey
 msgid "fuygh marrey_n"
 msgstr "adhmad raice"
@@ -35525,6 +35558,7 @@ msgstr "abhóiséad_nm"
 msgid "goblagh_nm"
 msgstr "goblach_nm"
 
+# marrey is (just) gs mooir
 # GAOL: goblan+marrey
 msgid "goblan marrey_n"
 msgstr "cosdeargán_nm"
@@ -35658,7 +35692,7 @@ msgstr "dul suas"
 msgid "goll shaghey_n"
 msgstr "dul thart"
 
-# GAOL: ~;goll_n+sheese
+# GAOL: ~;goll_n+sheese_adv
 msgid "goll sheese_n"
 msgstr "dul síos"
 
@@ -35668,7 +35702,7 @@ msgstr "dul isteach"
 
 # HLSM w/o space, says "cf. Ir. tuaigh cheatha" (but surely that's
 # not a cognate)
-# GAOL: goll_n+twoaie
+# GAOL: goll_n+twoaie_adv
 msgid "goll twoaie_n"
 msgstr "bogha ceatha;bogha síne"
 
@@ -36855,6 +36889,7 @@ msgstr "meá iascaireachta"
 msgid "grunteyder_nm"
 msgstr "grúntálaí_nm"
 
+# marrey is (just) gs mooir
 # GAOL:
 msgid "grunt-marrey_nm"
 msgstr "grinneall farraige"
@@ -36997,6 +37032,7 @@ msgstr "dailtín sráide"
 msgid "guilley yn ushtey_n"
 msgstr "céasánach_nm"
 
+# drommey is (just) gs of dreeym
 # GAOL: guin+drommey
 msgid "guin drommey_n"
 msgstr "tinneas droma"
@@ -37339,6 +37375,7 @@ msgstr "gan chúis"
 msgid "gyn cooney_a"
 msgstr "gan chabhair;gan chuidiú;gan chúnamh"
 
+# drommey is (just) gs of dreeym
 # or "inveirteabrach"
 # GAOL: ~;gyn_prep+craue_nf+drommey
 msgid "gyn craue drommey_a"
@@ -37947,7 +37984,7 @@ msgstr "heicteár_nm"
 msgid "heear_adv"
 msgstr "thiar_adv"
 
-# GAOL: ~
+# GAOL: ~;heear_adv+hwoaie_adv
 msgid "heear-hwoaie_adv"
 msgstr "thiar thuaidh"
 
@@ -39114,7 +39151,7 @@ msgstr "íolbhriseadh_nm"
 msgid "jallyn_nm"
 msgstr "gealbhan_nm"
 
-# GAOL: jallyn_nm+buigh
+# GAOL: jallyn_nm+buigh_a
 msgid "jallyn buigh_n"
 msgstr "buíóg_nf;Siobháinín bhuí"
 
@@ -39200,7 +39237,7 @@ msgstr "indéanta_a"
 msgid "jantagh_nm"
 msgstr "déantóir_nm"
 
-# GAOL: jantagh+thallooin
+# GAOL: jantagh+thalloo_nm
 msgid "jantagh thallooin_n"
 msgstr "gníomhaire eastáit"
 
@@ -41254,6 +41291,7 @@ msgstr "cat fireann"
 msgid "kayt injinagh_n"
 msgstr "mongús_nm"
 
+# marrey is (just) gs mooir
 # GAOL: ~;kayt_nf+marrey
 msgid "kayt marrey_n"
 msgstr "cat mara"
@@ -41632,7 +41670,7 @@ msgstr "céimniú_nm"
 msgid "keimoilaght_nf"
 msgstr "céimiúlacht_nf"
 
-# GAOL: ~;keim_nf+sheese
+# GAOL: ~;keim_nf+sheese_adv
 msgid "keim sheese_nf"
 msgstr "céim síos"
 
@@ -41940,7 +41978,7 @@ msgstr "círín_nm"
 msgid "kereenagh_a"
 msgstr "círíneach_a"
 
-# GAOL: kere+thallooin
+# GAOL: kere+thalloo_nm
 msgid "kere hallooin_nf"
 msgstr "caorthann corraigh"
 
@@ -43203,7 +43241,7 @@ msgid "kioneysee_nm"
 msgstr "ceannasaí_nm"
 
 # "ceann an bhroma san aer"?
-# GAOL: kione_nm+y_art+vreimmey+'syn_prep+aer
+# GAOL: kione_nm+y_art+vreimmey+'syn_prep+aer_nf
 msgid "kione y vreimmey 'syn aer_a"
 msgstr "droim thar droim"
 
@@ -43323,6 +43361,7 @@ msgstr "guagaire_nm"
 msgid "kirkinagh_a"
 msgstr "guagach_a;luaineach_a"
 
+# marrey is (just) gs mooir
 # GAOL: kirree+marrey
 msgid "kirree varrey_nf"
 msgstr "guairdeall_nm;peadairín na stoirme"
@@ -43783,6 +43822,7 @@ msgid "laagh ruy_nf"
 msgstr "lacha rua"
 
 # no "lathach m[h]ara" in Ir.
+# marrey is (just) gs mooir
 # GAOL: ~;laagh+marrey
 msgid "laagh varrey_nf"
 msgstr "lathach mhara"
@@ -44282,7 +44322,9 @@ msgstr "lánaimseartha_a"
 # not in corpus
 # GAOL:
 msgid "lane-ghooisht_a"
-msgstr "ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;inár lándúiseacht"
+msgstr ""
+"ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;"
+"inár lándúiseacht"
 
 # from "towshanagh" = measurable, dimensional
 # GAOL:
@@ -44312,6 +44354,7 @@ msgid "lane lheegh_n"
 msgstr "liachlán_nm"
 
 # HLSM
+# marrey is (just) gs mooir
 # GAOL: ~;lane+marrey
 msgid "lane marrey_n"
 msgstr "lán mara"
@@ -45047,11 +45090,11 @@ msgstr "leis;le"
 msgid "lesh_pronm"
 msgstr "leis_pronm"
 
-# GAOL: lesh+co-earrooder_nm
+# GAOL: lesh_prep+co-earrooder_nm
 msgid "lesh co-earrooder_a"
 msgstr "le ríomhaire"
 
-# GAOL: ~;lesh+shoh_pn
+# GAOL: ~;lesh_pronm+shoh_pn
 msgid "lesh shoh_adv"
 msgstr "leis seo"
 
@@ -45070,7 +45113,7 @@ msgid "leshtallit_a"
 msgstr "scaoilte_a"
 
 # cognates in HLSM
-# GAOL: ~;lesh+y cheilley_adv
+# GAOL: ~;lesh_prep+y cheilley_adv
 msgid "lesh y cheilley_adv"
 msgstr "le chéile"
 
@@ -45348,6 +45391,7 @@ msgstr "coslia_nm"
 msgid "lheelann_nf"
 msgstr "lialann_nf"
 
+# mraane is just pl ben
 # GAOL: lhee+mraane
 msgid "lhee mraane_n"
 msgstr "lia ban"
@@ -45441,7 +45485,7 @@ msgstr "léim_nf"
 msgid "lheim_v"
 msgstr "léim_v"
 
-# GAOL: lheim_nf+aer
+# GAOL: lheim_nf+aer_nf
 msgid "lheim-aer_nm"
 msgstr "spéirthumadh_nm"
 
@@ -46404,7 +46448,7 @@ msgid "lhuingys_nf"
 msgstr "loingeas_nm;ar bord loinge"
 
 # cf aer-lhuingys
-# GAOL: lhuingys_nf+aer
+# GAOL: lhuingys_nf+aer_nf
 msgid "lhuingys aer_nf"
 msgstr "aerloingeas_nm;aerlíne_nf"
 
@@ -46931,7 +46975,7 @@ msgid "linneeaght gheaylee_nf"
 msgstr "líníocht ghualaigh"
 
 # Fargher/de Bh. "ground-plan"
-# GAOL: linneeaght_nf+thallooin
+# GAOL: linneeaght_nf+thalloo_nm
 msgid "linneeaght hallooin_nf"
 msgstr "líníocht ghinearálta"
 
@@ -47022,7 +47066,7 @@ msgstr "leabhar cuntas"
 msgid "lioar choontys_nf"
 msgstr "leabhar cúnta"
 
-# GAOL: lioar_nf+cur+sheese
+# GAOL: lioar_nf+cur+sheese_adv
 msgid "lioar chur sheese_nf"
 msgstr "leabhar tagartha"
 
@@ -47815,7 +47859,7 @@ msgstr "grianbhladhm_nf"
 msgid "lossan mea_nf"
 msgstr "bithlonracht_nf;tine ghealáin"
 
-# GAOL: lossan_nf+ny_art+twoaie
+# GAOL: lossan_nf+ny_art+twoaie_nf
 msgid "lossan ny twoaie_nf"
 msgstr "caor aduaidh;gealáin thuaidh"
 
@@ -48584,6 +48628,7 @@ msgstr "adhaltranas_nm;striapachas_nm;drúis_nf"
 msgid "maarliagh_nm"
 msgstr "meirleach_nm;gadaí_nm;robálaí_nm"
 
+# marrey is (just) gs mooir
 # GAOL: ~;maarliagh_nm+marrey
 msgid "maarliagh marrey_n"
 msgstr "meirleach mara"
@@ -50289,6 +50334,7 @@ msgstr "míthrócaireach_a"
 msgid "meehymmoilid_nm"
 msgstr "míthrócaire_nf"
 
+# marrey is (just) gs mooir
 # GAOL: meeiley+marrey
 msgid "meeiley varrey_nf"
 msgstr "muirmhíle_nm"
@@ -51264,7 +51310,7 @@ msgid "mianagh_nm"
 msgstr "mianach_nm"
 
 # mine (Mil.) is "meainagh" in Fargher
-# GAOL: ~;mianagh+thallooin
+# GAOL: ~;mianagh+thalloo_nm
 msgid "mianagh thallooin_n"
 msgstr "mianach talún"
 
@@ -51645,7 +51691,7 @@ msgid "mithan_nf"
 msgstr "miotán_nm"
 
 # only place "mittag" occurs...
-# GAOL: ~;mittag+buigh
+# GAOL: ~;mittag+buigh_a
 msgid "mittag vuigh_nf"
 msgstr "miotóg bhuí"
 
@@ -51896,6 +51942,7 @@ msgstr "maighdeanúil_a"
 msgid "moidynoilaght_nf"
 msgstr "maighdeanas_nm"
 
+# marrey is (just) gs mooir
 # GAOL: ~;moidyn_nf+marrey
 msgid "moidyn varrey_nf"
 msgstr "maighdean mhara"
@@ -52488,6 +52535,7 @@ msgstr "muintir_nf"
 msgid "mooinjerey_a"
 msgstr "muinteartha_a"
 
+# mraane is just pl ben
 # GAOL: ~;mooinjer_nf+ny_art+mraane
 msgid "mooinjer ny mraane_nf"
 msgstr "muintir na mná"
@@ -52847,7 +52895,7 @@ msgid "muc gheinnee_nf"
 msgstr "muc ghainimh"
 
 # no "muc ~" in Ir.
-# GAOL: muc_nf+thallooin
+# GAOL: muc_nf+thalloo_nm
 msgid "muc hallooin_nf"
 msgstr "arcán talún"
 
@@ -53286,7 +53334,7 @@ msgid "my-hoshtal_adv"
 msgstr "ar chlé"
 
 # SCC says cognate with "ó thuaidh"
-# GAOL: my+hwoaie
+# GAOL: my+hwoaie_adv
 msgid "my hwoaie_adv"
 msgstr "ó thuaidh;lastuaidh"
 
@@ -54152,7 +54200,7 @@ msgid "neear_nf"
 msgstr "iarthar_nm"
 
 # geay/gaoth ~
-# GAOL: neear+hwoaie
+# GAOL: neear+hwoaie_adv
 msgid "neear hwoaie_a"
 msgstr "aniar aduaidh"
 
@@ -56896,7 +56944,7 @@ msgstr "oibríocht_nf"
 msgid "obbree close_n"
 msgstr "oibrí clóis"
 
-# GAOL: obbree+thallooin
+# GAOL: obbree+thalloo_nm
 msgid "obbree hallooin_n"
 msgstr "oibrí feirme"
 
@@ -58605,7 +58653,7 @@ msgstr "páirc_nf"
 msgid "pairk_v"
 msgstr "páirceáil_v"
 
-# GAOL: pairk+aer
+# GAOL: pairk+aer_nf
 msgid "pairk aer_n"
 msgstr "aerpháirc_nf"
 
@@ -59514,7 +59562,7 @@ msgid "pickaid_nf"
 msgstr "picéad_nm"
 
 # no "pic thalún" in Ir.
-# GAOL: pick_nf+thallooin
+# GAOL: pick_nf+thalloo_nm
 msgid "pick hallooin_n"
 msgstr "biotúman_nm"
 
@@ -60174,6 +60222,7 @@ msgstr "mála_nm"
 msgid "poagey cadlee_n"
 msgstr "mála codlata"
 
+# drommey is (just) gs of dreeym
 # GAOL: poagey_nm+drommey
 msgid "poagey drommey_n"
 msgstr "mála droma"
@@ -66225,7 +66274,7 @@ msgstr "giolcadh_nm;gíoglach_nf"
 msgid "scraa_nf"
 msgstr "scraith_nf"
 
-# GAOL: scraa_nf+chraaee
+# GAOL: scraa_nf+craaee_a
 msgid "scraa chraaee_nf"
 msgstr "scraith ghlugair;portach creatha"
 
@@ -67959,7 +68008,7 @@ msgid "sheear-ass_n"
 msgstr "iardheisceart_nm"
 
 # often as noun: "ayns sheear hwoaie Choontae ny Mee" srl
-# GAOL: sheear+hwoaie
+# GAOL: sheear+hwoaie_adv
 msgid "sheear hwoaie_nm"
 msgstr "iarthuaisceart_nm"
 
@@ -68539,7 +68588,7 @@ msgstr "sealbhóir_nm;úinéir_nm;dílseánach_nm"
 msgid "shellooderaght_nm"
 msgstr "úinéireacht_nf"
 
-# GAOL: shellooder_nm+thallooin
+# GAOL: shellooder_nm+thalloo_nm
 msgid "shellooder thallooin_nm"
 msgstr "úinéir talún"
 
@@ -69021,7 +69070,7 @@ msgstr "soir_adv;lastoir_adv"
 msgid "shiar_nf"
 msgstr "oirthear_nm"
 
-# GAOL: shiar+hwoaie
+# GAOL: shiar+hwoaie_adv
 msgid "shiar hwoaie_n"
 msgstr "oirthuaisceart_nm"
 
@@ -70710,7 +70759,7 @@ msgstr "sciorradh_nm;sleamhnú_nm;scátáil_nf"
 msgid "skyrreyder_nm"
 msgstr "scátálaí_nm"
 
-# GAOL: sciorradh talún;skyrrey_nm+thallooin
+# GAOL: sciorradh talún;skyrrey_nm+thalloo_nm
 msgid "skyrrey thallooin_n"
 msgstr "sciorradh talún;maidhm thalún"
 
@@ -72859,7 +72908,7 @@ msgstr "taos fiacla"
 msgid "soost_nf"
 msgstr "súiste_nm"
 
-# GAOL: ~;soo+thallooin
+# GAOL: ~;soo+thalloo_nm
 msgid "soo thallooin_n"
 msgstr "sú talún"
 
@@ -74643,7 +74692,8 @@ msgstr "suí breithimh;suí breithiúnais"
 msgid "stoyl coshey_n"
 msgstr "stól coise"
 
-# GAOL:
+# drommey is (just) gs of dreeym
+# GAOL: stoyl_nm+drommey
 msgid "stoyl-drommey_nm"
 msgstr "cathaoir uilleann"
 
@@ -76395,7 +76445,7 @@ msgstr "téad rite;téad theann"
 msgid "tead-hooylleyder_nm"
 msgstr "téadchleasaí_nm"
 
-# GAOL: tead_nm+thallooin
+# GAOL: tead_nm+thalloo_nm
 msgid "tead thallooin_n"
 msgstr "téad tíre"
 
@@ -76498,7 +76548,7 @@ msgstr "toighseach_a"
 msgid "teim_nf"
 msgstr "tím_nf"
 
-# GAOL: teim_nf+thallooin
+# GAOL: teim_nf+thalloo_nm
 msgid "teim hallooin_nf"
 msgstr "lus mhic rí;lus na mbrat;tím chreige"
 
@@ -77445,7 +77495,7 @@ msgstr "tumoideachas_nm"
 msgid "thunnag_nf"
 msgstr "lacha_nf;tonóg_nf"
 
-# GAOL: thunnag_nf+hwoaie
+# GAOL: thunnag_nf+hwoaie_adv
 msgid "thunnag hwoaie_nf"
 msgstr "gadual_nm"
 
@@ -80427,7 +80477,7 @@ msgstr "Úránas_nm"
 msgid "urley_nm"
 msgstr "iolar1_nm"
 
-# GAOL: urley_nm+buigh
+# GAOL: urley_nm+buigh_a
 msgid "urley buigh_n"
 msgstr "iolar fíréan"
 
@@ -82244,4 +82294,3 @@ msgstr "Iúgslavach_nm"
 # GAOL: ~
 msgid "Yugoslaavey_nf"
 msgstr "Iúgslaiv_nf"
-
