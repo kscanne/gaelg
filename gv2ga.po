@@ -71581,12 +71581,12 @@ msgid "smeyr_nm"
 msgstr "sméar_nf"
 
 # to stain - Fargher
-# GAOL:
+# GAOL: <d smeyr_nm
 msgid "smeyr_v"
 msgstr "smálaigh_v"
 
 # cf smeireeagh
-# GAOL:
+# GAOL: <i smeyr_v
 msgid "smeyrey_n"
 msgstr "smálú_nm;piocadh sméar"
 
@@ -71632,7 +71632,7 @@ msgstr "tuairt_nf"
 msgid "smoash_v"
 msgstr "tuairteáil_v"
 
-# GAOL: smoash+-al
+# GAOL: smoash_v+-al
 msgid "smoashal_nm"
 msgstr "tuairteáil_nf"
 
