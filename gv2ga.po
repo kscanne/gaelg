@@ -14074,7 +14074,7 @@ msgstr "seans_nm"
 
 # GAOL: ~
 msgid "çhiooneyder_nm"
-msgstr "tiúnadóir_nm"
+msgstr "tiúnóir_nm"
 
 # GAOL: ~
 msgid "çhiow_nm"
@@ -31092,11 +31092,11 @@ msgstr "faoi chois"
 
 # GAOL: ~
 msgid "fochrackan_nm"
-msgstr "fochraiceann_nm"
+msgstr "fo-chraiceann_nm"
 
 # GAOL: ~;fochrackan_nm+-agh
 msgid "fochrackanagh_a"
-msgstr "fochraicneach_a"
+msgstr "fo-chraicneach_a"
 
 # GAOL: fochraobh_nf;fo-+crouw_nf
 msgid "fo-chrouw_nf"
@@ -58570,7 +58570,7 @@ msgstr "páipéar beartán"
 
 # GAOL: ~
 msgid "pachyderm_nf"
-msgstr "pacaideirm_nf"
+msgstr "pacaideirmeach_nm"
 
 # cognates in HLSM
 # GAOL: ~
@@ -69795,7 +69795,7 @@ msgstr "siúlach_a;soghluaiste_a"
 # m.sh. in Douglas
 # GAOL:
 msgid "shooylaghan_nm"
-msgstr "bóthar na trá;promanád_nm"
+msgstr "bóthar na trá;promanáid_nf"
 
 # article in both
 # GAOL: ~
@@ -70231,7 +70231,7 @@ msgstr "sceideal_nm"
 
 # GAOL: ~
 msgid "skedjalley_nm"
-msgstr "sceidealadh_nm"
+msgstr "sceidealú_nm"
 
 # false friend, just like sgìth_a in gd2ga.po (which HLSM links)
 # sort out connection with ga there
@@ -77812,7 +77812,7 @@ msgstr "tuisceanach_a"
 # Fargher: (an) intellectual
 # GAOL: <d toiggal_nf
 msgid "toiggaltagh_nm"
-msgstr "intleachtach_nm"
+msgstr "intleachtóir_nm"
 
 # parallel corpus
 # GAOL: toiggal_nf+-ys
@@ -81896,7 +81896,7 @@ msgstr "inmharthana_a"
 # "sustainability"
 # GAOL: yn-chummal+seose_adv
 msgid "yn-chummal seose_n"
-msgstr "inbhuaine_nf"
+msgstr "inbhuanaitheacht_nf"
 
 # GAOL: yn_art+curmal_n
 msgid "yn-churmal_a"
