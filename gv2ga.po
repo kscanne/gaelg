@@ -44795,9 +44795,7 @@ msgstr "lánaimseartha_a"
 # not in corpus
 # GAOL: ~
 msgid "lane-ghooisht_a"
-msgstr ""
-"ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;"
-"inár lándúiseacht"
+msgstr "ina lándúiseacht;i mo lándúiseacht;i do lándúiseacht;in bhur lándúiseacht;inár lándúiseacht"
 
 # from "towshanagh" = measurable, dimensional
 # GAOL: lane-+towshanagh_a
@@ -61857,7 +61855,7 @@ msgstr "prósaire_nm"
 
 # GAOL: ~
 msgid "prosoid_nf"
-msgstr "prósóid_nf"
+msgstr "prosóid_nf"
 
 # GAOL: ~
 msgid "prosoil_a"
@@ -67964,7 +67962,7 @@ msgstr "seomra_nm"
 msgid "shamyr-aarlee_nf"
 msgstr "cistin_nf"
 
-# GOAL: shamyr_nf+-agh
+# GAOL: shamyr_nf+-agh
 msgid "shamyragh_a"
 msgstr "seomrach"
 
