@@ -31,7 +31,7 @@ gv2ga.pot : focloir.txt
 	#cat focloir.txt | egrep '0 *$$' | egrep -v '^[^_]+ ' | sed 's/^\([^_]*_[^ \t]*\).*/msgid "\1"\nmsgstr ""\n/' >> $@
 
 gv2ga.po : gv2ga.pot
-	msgmerge -N -q --backup=off -U $@ gv2ga.pot > /dev/null 2>&1
+	msgmerge --no-wrap -N -q --backup=off -U $@ gv2ga.pot > /dev/null 2>&1
 	touch $@
 
 leabhar.pdf: sonrai.tex leabhar.tex
