@@ -1300,6 +1300,7 @@ msgstr "faiteachán_nm"
 msgid "aggle_nm"
 msgstr "eagla_nf"
 
+# past spelled "d'aggle" e.g. Daniel 4:5 (entered in pairs-local-gv)
 # GAOL: <d aggle_nm;eaglaigh_v
 msgid "agglee_v"
 msgstr "scanraigh_v"
@@ -11336,7 +11337,7 @@ msgstr "cathair_nf"
 
 # GAOL: ~;caayr_nf+Adrian
 msgid "Caayr Adrian_nf"
-msgstr "Cathair Aidriain"
+msgstr "Cathair Aidrian"
 
 # GAOL: ~;caayr_nf+-agh
 msgid "caayragh_a"
@@ -17629,6 +17630,10 @@ msgstr "conraigh_v;malartaigh_v"
 msgid "coonrey_nm"
 msgstr "conradh_nm;malartú_nm"
 
+# GAOL: cooonrey_nm+-der
+msgid "coonreyder_nm"
+msgstr "conraitheoir_nm"
+
 # top 1200, but clear since cognate with En.
 # GAOL: eng:council
 msgid "coonseil_nf"
@@ -19842,6 +19847,10 @@ msgstr "geolaíocht_nf"
 msgid "creg teaystagh_n"
 msgstr "magma_nm"
 
+# GAOL: creg_nf+boalley_nm
+msgid "creg-voalley_nm"
+msgstr "balla cloiche"
+
 # HLSM
 # GAOL: cre_interr+son_prep
 msgid "cre hon_interr"
@@ -19973,6 +19982,8 @@ msgstr "cén áit"
 msgid "crib_v"
 msgstr "crap_v"
 
+# Cregeen @cribbaghyn: "a silver sixpence is so called in ludicrous talk"
+# presumably related to stuff below
 # GAOL:
 msgid "cribbaghan_nm"
 msgstr "bonn airgid"
@@ -19982,6 +19993,7 @@ msgid "cribbey_nm"
 msgstr "crapadh_nm"
 
 # not in corpus
+# related to cribbey_nm?
 # GAOL:
 msgid "cribbidjagh_a"
 msgstr "ceachartha_a"
@@ -25075,7 +25087,7 @@ msgstr "mar mhagadh"
 # HLSM
 # GAOL: go gairid;dy_u+gerrid_nf
 msgid "dy gerrid_adv"
-msgstr "go gairid;go luath;sul i bhfad"
+msgstr "go gairid;go luath;sula i bhfad"
 
 # GAOL: ~;dy_u+goan_a
 msgid "dy goan_adv"
@@ -26370,6 +26382,11 @@ msgstr "réamhíoctha_a"
 # GAOL: eeck_nm+rolaue_a
 msgid "eeck rolaue_n"
 msgstr "réamhíocaíocht_nf"
+
+# pl ok in both
+# GAOL: eeck_nm+-ys
+msgid "eeckys_nm"
+msgstr "íocaíocht_nf"
 
 # GAOL: ~;ee_v+-der
 msgid "eeder_nm"
@@ -36596,7 +36613,7 @@ msgstr "gabhlóg_nf"
 
 # GAOL: gollage_nf+kiaull_nf
 msgid "gollage chiaullee_nf"
-msgstr "gabhlóg thiúnta;gabhailín ceoil"
+msgstr "gabhlóg thiúnáilte;gabhailín ceoil"
 
 # Fargher: "fork (Orn.) as in SWALLOW, MARTIN"
 # cf jallyn (gealbhan in Ir)?
@@ -42049,6 +42066,10 @@ msgstr "diabhlaí_a"
 msgid "jouylys_nm"
 msgstr "diabhlaíocht_nf"
 
+# GAOL: eng:join
+msgid "joynit_a"
+msgstr "ceangailte_a"
+
 # one corpus example "juail mooar" = "big loss/defeat" (WP)
 # GAOL:
 msgid "juail_nm"
@@ -45556,6 +45577,10 @@ msgstr "lán mara"
 msgid "lane-scaa_nm"
 msgstr "lánscáil_nf"
 
+# GAOL: lane-+scanshoil_a
+msgid "lane-scanshoil_a"
+msgstr "ríthábhachtach_a;barrthábhachtach_a"
+
 # panic-stricken
 # GAOL: lane_a+sevreain_nf
 msgid "lane sevreain_a"
@@ -45866,6 +45891,8 @@ msgid "laylac_nm"
 msgstr "líológ_nf"
 
 # flagstone, etc.
+# also spelled liack, e.g. Lamentations 3:53, although that spelling
+# can be confused with copula expression "cha liack lhiam", etc. (multi-gv)
 # GAOL: ~
 msgid "leac_nf"
 msgstr "leac_nf"
@@ -51066,7 +51093,7 @@ msgstr "manach_nm"
 # "manach Albanach" not a term
 # GAOL: maynagh_nm+Albinagh_a
 msgid "maynagh Albinagh_n"
-msgstr "céíle Dé"
+msgstr "céile Dé"
 
 # GAOL: ~;maynagh_nm+-oil
 msgid "maynaghoil_a"
@@ -54489,6 +54516,10 @@ msgstr "ciseán_nm;cliabh_nm"
 msgid "murran_nm"
 msgstr "slaghdán_nm"
 
+# GAOL:
+msgid "murtaghey_nm"
+msgstr "útamáil_nf"
+
 # GAOL: ~
 msgid "muscad_nm"
 msgstr "muscaed_nm"
@@ -56469,6 +56500,11 @@ msgstr "míthaitneamh_nm;neamhthaitneamh_nm"
 msgid "neuhaitnysagh_a"
 msgstr "míthaitneamhach_a"
 
+# e.g. Matthew 25:26 (Ir. leisciúil)
+# GAOL: neu-+tarroogh_a
+msgid "neuharroogh_a"
+msgstr "leisciúil_a"
+
 # GAOL: ~;neu-+shassooagh_a
 msgid "neuhassooagh_a"
 msgstr "neamhsheasmhach_a"
@@ -56870,6 +56906,11 @@ msgstr "neamhthábhachtach_a"
 # GAOL: neu-+scarreydagh_a
 msgid "neuscarreydagh_a"
 msgstr "do-scartha_a;doscaoilte_a"
+
+# ECRML: ayrn ~ = integral part (Ir. cuid dhílis, in multi-gv)
+# GAOL: neu-+scarrit_a
+msgid "neuscarrit_a"
+msgstr "dílis_a"
 
 # GAOL: neu-+scarr_v+-agh
 msgid "neuscartagh_a"
@@ -57689,7 +57730,7 @@ msgstr "antashubstaint_nf"
 # de Bh.
 # GAOL: noi_prep+cliaghtey_nm
 msgid "noi cliaghtey_a"
-msgstr "in aghaidh coinbhinsin"
+msgstr "in aghaidh coinbhinsiúin"
 
 # cognates in HLSM
 # GAOL: ~
@@ -58256,11 +58297,11 @@ msgstr "eorna_nf"
 msgid "oarnag_nf"
 msgstr "eornóg_nf"
 
-# GAOL: ~
+# GAOL: ~;<d Oarpey_nf
 msgid "Oarpagh_a"
 msgstr "Eorpach_a"
 
-# GAOL: ~
+# GAOL: ~;<d Oarpey_nf
 msgid "Oarpagh_nm"
 msgstr "Eorpach_nm"
 
@@ -58277,6 +58318,10 @@ msgstr "eoraipiam_nm"
 # GAOL: eng:overseer
 msgid "oaseir_nm"
 msgstr "maor_nm;saoiste_nm"
+
+# GAOL: <d oaseir_nm
+msgid "oaseiraghey_nm"
+msgstr "maoirseacht_nf"
 
 # focal doiléir; cf prev for explanation
 # GAOL: oaseir_nm+-ys
@@ -59596,6 +59641,10 @@ msgstr "úr_a"
 msgid "oor_nm"
 msgstr "uair_nf"
 
+# GAOL: oor_a+-agh
+msgid "ooragh_a"
+msgstr "úr_a"
+
 # Eccl. 10:17; neart a chothú (athnuachan?)
 # Deut 11:11; uisciú
 # Ex. 23:12 - refresh
@@ -60443,6 +60492,8 @@ msgstr "paindiachas_nm"
 msgid "pannag_nf"
 msgstr "pancóg_nf"
 
+# in Cregeen with this spelling, and plural pannaghyn 5x in OT (1 Chron, Ex)
+# Also "pan" in Lev, 1,2 Sam
 # GAOL: panna_nm
 msgid "panney_nm"
 msgstr "panna_nm;mias_nf"
@@ -66990,6 +67041,14 @@ msgstr "Saibíneach_nm"
 # GAOL: sac_nm
 msgid "sac_nm"
 msgstr "sac_nm;mála_nm"
+
+# Daniel Ch. 3 (verse 5,7,10,15)
+# KJV has sackbut (musical instrument), but a variety of choices
+# in more modern translations, including trigon (Ir. has gs triogóine)
+# Irish Bedell bible has "sacbut"!
+# GAOL: eng:sackbut
+msgid "sackbut_nm"
+msgstr "triogóin_nf"
 
 # GAOL: ~
 msgid "sacragh_a"
@@ -78477,6 +78536,7 @@ msgstr "tarbhghadhar_nm"
 msgid "tarrooder_nm"
 msgstr "tarbhadóir_nm"
 
+# gd trang?
 # parallel corpus; focal doiléir
 # GAOL:
 msgid "tarroogh_a"
@@ -79426,7 +79486,7 @@ msgstr "otharlann_nf;ospidéal_nm"
 # no "teach leapa", etc.
 # GAOL: thie_nm+lhiabbee_nf
 msgid "thie lhiabbee_n"
-msgstr "teach lóisín"
+msgstr "teach lóistín"
 
 # lhionney is (just) gs of lhune_nm
 # GAOL: teach leanna;thie_nm+lhionney
@@ -81101,7 +81161,7 @@ msgstr "trasraitheoir_nm"
 
 # GAOL: ~
 msgid "transubstanshaghey_nm"
-msgstr "transubstaintiú_nm"
+msgstr "tras-substaintiú_nm"
 
 # GAOL: ~
 msgid "trappagh_a"
