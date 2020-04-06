@@ -5811,19 +5811,15 @@ msgstr "bándearg_a"
 msgid "Bangladesh_nf"
 msgstr "Banglaidéis_nf"
 
-# GAOL: ~;banglane_nm+-agh
+# GAOL: beangánach_a;banglane_nm+-agh
 msgid "banglanagh_a"
-msgstr "beangánach_a"
+msgstr "beangánach_a;craobhach_a;géagach_a"
 
 # also spelled bangan (Ir. also has beangán and beanglán, both
 # given as cognates, respectively, in HLSM)
 # GAOL: beangán_nm
 msgid "banglane_nm"
 msgstr "beangán_nm;géag_nf;craobh_nf"
-
-# GAOL: beangánach_a;banglane_nm+-agh
-msgid "banglaneagh_a"
-msgstr "craobhach_a;géagach_a"
 
 # HLSM links (rare) gd:bainnseach (== Ir. báinseach?)
 # GAOL: báinseach_nf
@@ -5979,6 +5975,7 @@ msgstr "margadh_nm"
 msgid "barn_v"
 msgstr "bearnaigh_v"
 
+# also baarnagh_a
 # GAOL: ~;barn_v+-agh
 msgid "barnagh_a"
 msgstr "bearnach_a"
@@ -6339,6 +6336,7 @@ msgid "beaghey_nm"
 msgstr "maireachtáil_nf;beathú_nm"
 
 # barracks of a house
+# from de Bhaldraithe (?) cf. barracks(s) "2 Pej: F: (Of house) ... bathalach"
 # GAOL:
 msgid "beagyl_n"
 msgstr "bathlach_nm"
@@ -12297,7 +12295,12 @@ msgstr "canóntacht_nf"
 msgid "canoin_nm"
 msgstr "canóin_nf"
 
-# GAOL: ~
+# also "chanting"? cf canteyraght below
+# GAOL: ceantáil_nf
+msgid "cantal_n"
+msgstr "ceantáil_nf"
+
+# GAOL: ~;<d cantal_n
 msgid "canteyder_nm"
 msgstr "ceantálaí_nm"
 
@@ -15135,6 +15138,11 @@ msgstr "claonseantán_nm"
 # GAOL: ~;<i cleayn_v
 msgid "cleaynit_a"
 msgstr "claonta_a"
+
+# cognate? Manx looks more like claon* words in this neighborhood
+# GAOL:
+msgid "cleaynoil_a"
+msgstr "cluanach_a"
 
 # cline, dip
 # GAOL: ~;cleayn_nm+-ys
@@ -23120,6 +23128,10 @@ msgstr "dothuigthe_a"
 # GAOL: ~;do-hoiggal_a+-ys
 msgid "do-hoiggalys_nm"
 msgstr "dothuigtheacht_nf"
+
+# GAOL: do-+surransagh_a
+msgid "do-hurransagh_a"
+msgstr "dofhulaingthe_a"
 
 # cob (construction)
 # GAOL: ~
@@ -39023,6 +39035,10 @@ msgid "harrym_pronm"
 msgstr "tharam_pronm"
 
 # GAOL: ~
+msgid "hatçh_nm"
+msgstr "haiste_nm"
+
+# GAOL: ~
 msgid "Hawaiish_nf"
 msgstr "Haváis_nf"
 
@@ -49131,6 +49147,10 @@ msgstr "cloch bhácála"
 msgid "losht_v"
 msgstr "loisc_v;dóigh_v"
 
+# GAOL: ~;losht_v+-agh
+msgid "loshtagh_a"
+msgstr "loiscneach_a"
+
 # GAOL: loiscthe_a
 msgid "loshtit_a"
 msgstr "dóite_a;loiscthe_a"
@@ -53885,6 +53905,10 @@ msgstr "mórchumhacht_nf"
 msgid "mooar-rheynn_nf"
 msgstr "mór-roinn_nf;ilchríoch_nf"
 
+# GAOL: ~;mooar-+beeal_nm+-agh
+msgid "mooar-veeallagh_a"
+msgstr "mórbhéalach_a"
+
 # GAOL: ~;mooar-+bolgagh_a
 msgid "mooar-volgagh_a"
 msgstr "mórbholgach_a"
@@ -56625,6 +56649,10 @@ msgstr "neamhthrócaireach_a"
 # GAOL: neu-+surransagh_a
 msgid "neuhurransagh_a"
 msgstr "mífhoighneach_a;dofhulaingthe_a"
+
+# GAOL: neu-+surranse_nm
+msgid "neuhurranse_nm"
+msgstr "mífhoighne_nf"
 
 # HLSM
 # parallel corpus
@@ -62784,6 +62812,11 @@ msgstr "príobháidigh_v"
 # GAOL: ~
 msgid "preevaadjys_nm"
 msgstr "príobháideacht_nf"
+
+# Cregeen as vn; usage file as adj. (Ir. plódaithe)
+# GAOL: eng:press
+msgid "preissal_a"
+msgstr "plódaithe_a"
 
 # GAOL: ~
 msgid "prelaid_nm"
