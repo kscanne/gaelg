@@ -2477,6 +2477,10 @@ msgstr "aithne2_nf"
 msgid "anneydagh_a"
 msgstr "riachtanach_a"
 
+# GAOL: anney_nf+-der
+msgid "anneyder_nm"
+msgstr "ceannasaí_nm"
+
 # GAOL: <i annoonee_v
 msgid "annooinit_a"
 msgstr "lagaithe_a"
@@ -2915,7 +2919,8 @@ msgstr "ardán_nm;lochtán_nm"
 msgid "ard-anney_nf"
 msgstr "aithne mhór"
 
-# GAOL: ard-anney_nf+-der
+# *not* ard-anney+-der
+# GAOL: ard-+anneyder_nm
 msgid "ard-anneyder_nm"
 msgstr "ardcheannasaí_nm"
 
@@ -3226,6 +3231,10 @@ msgstr "príomhtheanga_nf"
 # GAOL: ~;ard-+çhiarnys_nm
 msgid "ard-hiarnys_nm"
 msgstr "ardtiarnas_nm"
+
+# GAOL: ard-+shilley_nm+-agh
+msgid "ard-hilleydagh_a"
+msgstr "álainn_a"
 
 # GAOL: ard-+shooyl_nm
 msgid "ard-hooyl_nm"
@@ -12148,8 +12157,14 @@ msgstr "camógaíocht_nf;camóg_nf"
 msgid "cammah_interr"
 msgstr "cén fáth"
 
-# not in corpus; malicious, piqued
+# see de Bhaldraithe "He bore me ill-will."
+# probable typo in usage file as "cramman"
 # GAOL:
+msgid "camman_nm"
+msgstr "drochrún_nm"
+
+# not in corpus; malicious, piqued
+# GAOL: camman_nm+-agh
 msgid "cammanagh_a"
 msgstr "mioscaiseach_a"
 
@@ -12275,7 +12290,7 @@ msgstr "drúis_nf"
 msgid "cannoo_nm"
 msgstr "drúis_nf"
 
-# GAOL: ~
+# GAOL:
 msgid "cannyssagh_a"
 msgstr "gnéasach_a"
 
@@ -12295,12 +12310,16 @@ msgstr "canóntacht_nf"
 msgid "canoin_nm"
 msgstr "canóin_nf"
 
+# GAOL: ~
+msgid "cant_nm"
+msgstr "ceant_nm"
+
 # also "chanting"? cf canteyraght below
-# GAOL: ceantáil_nf
+# GAOL: ceantáil_nf;<d cant_nm
 msgid "cantal_n"
 msgstr "ceantáil_nf"
 
-# GAOL: ~;<d cantal_n
+# GAOL: ~;cant_nm+-eyder
 msgid "canteyder_nm"
 msgstr "ceantálaí_nm"
 
@@ -12453,6 +12472,10 @@ msgstr "cairbíd_nf"
 msgid "carbeig_nf"
 msgstr "múcas_nm"
 
+# GAOL: carbeig_nf+-agh
+msgid "carbeigagh_a"
+msgstr "múcasach_a;sramach_a"
+
 # GAOL: ~
 msgid "carbey-hydraad_nm"
 msgstr "carbaihiodráit_nf"
@@ -12577,6 +12600,7 @@ msgstr "carpasach_a"
 # msgstr contains 1st of two "carr_nm" senses in IG
 # gv also means "melody, tune"; one example in Skeealaght
 # HLSM has this with one "r": car, carryn
+# also usage file @ "He changed his tune"
 # GAOL: carr_nm
 msgid "carr_nm"
 msgstr "carr1_nm;port1_nm"
@@ -13772,11 +13796,17 @@ msgstr "teanga bheag"
 msgid "çhengey vio_nf"
 msgstr "teanga bheo"
 
+# argumentative person (not in corpus), and also
+# "talkative person" from usage file, hence this
+# GAOL:
+msgid "çhengleyr_nm"
+msgstr "cabaire_nm"
+
 # GAOL: <d çhengleyrys_nm
 msgid "çhengleyragh_a"
 msgstr "aighneasach_a"
 
-# GAOL:
+# GAOL: çhengleyr_nm+-ys
 msgid "çhengleyrys_nm"
 msgstr "aighneas_nm;conspóid_nf"
 
@@ -15225,6 +15255,10 @@ msgstr "iomprán bagáiste"
 msgid "cleeah-vocs_nf"
 msgstr "cliathbhosca_nm"
 
+# GAOL: ~
+msgid "cleeantaght_nf"
+msgstr "cliantacht_nf"
+
 # cognates in HLSM
 # GAOL: cliabh_nm
 msgid "cleeau_nf"
@@ -15761,6 +15795,12 @@ msgstr "fráma_nm;teimpléad_nm"
 msgid "club_nm"
 msgstr "club_nm"
 
+# cf next
+# GAOL:
+msgid "cluge_nf"
+msgstr "cleas_nm"
+
+# cf prev
 # GAOL:
 msgid "cluic_nf"
 msgstr "cleas_nm;bob_nm"
@@ -19147,6 +19187,7 @@ msgstr "craiceann siorc"
 msgid "craen_nm"
 msgstr "craein_nf"
 
+# used in place of "tubaiste" in usage file ('disaster on disaster')
 # linked in HLSM
 # GAOL: ~
 msgid "cragh_nf"
@@ -21797,6 +21838,11 @@ msgstr "Cuirtín Iarainn"
 msgid "curteish_nf"
 msgstr "cúirtéis_nf"
 
+# "intimate"; see usage file
+# GAOL:
+msgid "curtheet_a"
+msgstr "caidreamhach_a"
+
 # FB @dorchaigh: Tá an spéir ag dorchú (chun báistí), the sky is becoming
 # overcast (with rain).
 # GAOL:
@@ -22040,6 +22086,7 @@ msgid "daah greiney_n"
 msgstr "dath gréine"
 
 # cognates in HLSM
+# a couple of times for "dóite" in usage file... cf. next and daahjit_a
 # GAOL: ~;<i daah1_v
 msgid "daahit_a"
 msgstr "daite_a"
@@ -23040,6 +23087,11 @@ msgstr "saothar_nm"
 msgid "doccaragh_a"
 msgstr "saothrach_a;dian_a;trom_a"
 
+# Cregeen, usage file
+# GAOL: doccar_nf+coraa_nm
+msgid "doccar coraa_nf"
+msgstr "béim_nf"
+
 # no parallel examples
 # GAOL: deacracht_nf;doccar_a+-ys
 msgid "doccarys_nm"
@@ -23198,6 +23250,7 @@ msgstr "dallán_nm"
 msgid "dollar_nm"
 msgstr "dollar_nm"
 
+# also "lack"? Usage file "dolley argid" = "easpa airgid"
 # GAOL: dalladh_nm;<i doll_v
 msgid "dolley_nm"
 msgstr "dalladh_nm;scriosadh_nm"
@@ -23509,7 +23562,7 @@ msgstr "daonnacht_nf"
 # person, but also specifically "man" (though gv has "fer" too)
 # GAOL: ~
 msgid "dooinney_nm"
-msgstr "duine_nm"
+msgstr "duine_nm;fear_nm"
 
 # GAOL: dooinney_nm+albeenagh_a
 msgid "dooinney albeenagh_n"
@@ -23795,7 +23848,7 @@ msgstr "dúiseacht_nf"
 # false friend; cognate with Ir. dobhar
 # GAOL: dobhar_nm
 msgid "doour_nm"
-msgstr "damba_nm"
+msgstr "damba_nm;taiscumar_nm"
 
 # HLSM: from ME
 # GAOL: ~
@@ -24955,6 +25008,7 @@ msgid "dwoaiagh_nm"
 msgstr "gráiniúlacht_nf"
 
 # HLSM links gd
+# note this also looks like eclipsed "twoaie"
 # GAOL: gd:duaidh_nf
 msgid "dwoaie_nf"
 msgstr "fuath2_nm;gráin_nf"
@@ -26639,6 +26693,10 @@ msgstr "gnó_nm;teachtaireacht_nf"
 msgid "eilkinagh_nm"
 msgstr "teachtaire_nm;postaire_nm"
 
+# GAOL: eilkin_nm+-ys
+msgid "eilkinys_nm"
+msgstr "seachadadh_nm"
+
 # armorial
 # GAOL: eilley_nf+-agh
 msgid "eillagh_a"
@@ -27296,6 +27354,10 @@ msgstr "ar bord"
 # GAOL: ~;er_prep+broogh_nf
 msgid "er broogh_a"
 msgstr "ar bhruach"
+
+# GAOL: er_prep+cannoo_nm
+msgid "er cannoo_a"
+msgstr "adharcach_a"
 
 # mostly in phrase "roie ~"
 # GAOL: er_prep+çhea_n
@@ -28160,6 +28222,10 @@ msgstr "fadálach_a"
 # GAOL: ~;faagail_nm+-agh
 msgid "faagailagh_nm"
 msgstr "fágálach_nm"
+
+# GAOL: ~;<i faag_v
+msgid "faagit_a"
+msgstr "fágtha_a"
 
 # cognates in HLSM
 # GAOL: faiche_nf
@@ -31206,6 +31272,11 @@ msgstr "faolchonda_a"
 msgid "fillosher_nm"
 msgstr "deideighe_nm"
 
+# fancy (adj)
+# GAOL: fillosher_nm+-agh
+msgid "fillosheragh_a"
+msgstr "maisiúil_a"
+
 # GAOL: ~
 msgid "filltag_nf"
 msgstr "fillteog_nf"
@@ -31538,7 +31609,7 @@ msgstr "flichshneachta_nm"
 # lit. "fliuchbháite"
 # GAOL: fliugh_a+baiht_a
 msgid "fliugh-vaiht_a"
-msgstr "leathbháite_a"
+msgstr "fliuch báite;leathbháite_a"
 
 # one corpus example is "humidity" I think
 # sense 1 of taise_nf in GA.txt and FGB
@@ -31758,6 +31829,10 @@ msgstr "falsacht_nf;bréag_nf"
 # GAOL: ~
 msgid "foanney_nm"
 msgstr "fonnadh_nm"
+
+# GAOL: fo-+anneyder_nm
+msgid "fo-anneyder_nm"
+msgstr "leascheannasaí_nm"
 
 # canyon
 # mutated "voar" conflicts with "moar"
@@ -32105,7 +32180,7 @@ msgstr "fadradharc_nm"
 msgid "foddey seihllagh_a"
 msgstr "fadsaolach_a"
 
-# GAOL: foddey_a+veih_prep+my_poss+cheilley_a
+# GAOL: foddey_a+veih-my-cheilley_adv
 msgid "foddey veih my cheilley_a"
 msgstr "i bhfad óna chéile"
 
@@ -32231,7 +32306,7 @@ msgstr "paraimíleatach_nm"
 
 # GAOL: fo-hidoor_nm+-agh
 msgid "fo-hidooragh_a"
-msgstr "paraimíleatach_a"
+msgstr "paraimíleata_a"
 
 # GAOL: fo-+straid_nf
 msgid "fo-hraid_nf"
@@ -32934,6 +33009,10 @@ msgstr "fiarfhaobhar_nm"
 msgid "foyr skynney_n"
 msgstr "faobhar scine;béal scine"
 
+# GAOL: ~
+msgid "frame_nm"
+msgstr "fráma_nm"
+
 # foreign, outlandish, strange
 # but also for "French" in lowercase, in combos where we have
 # "francach" in Ir. too
@@ -33272,6 +33351,10 @@ msgstr "crann caithne"
 # GAOL: ~;freoagh_nm+-ane
 msgid "freoghane_nf"
 msgstr "fraochán_nm"
+
+# GAOL: ~;freoaghane_nf+-agh
+msgid "freoghaneagh_a"
+msgstr "fraochmhar_a"
 
 # GAOL: ~
 msgid "frigaid_nm"
@@ -35990,6 +36073,8 @@ msgstr "glantach_a"
 
 # cognates in HLSM
 # != "gleann" (cf glion_nm)
+# also there are instances of this meaning "glass" which is
+# more often "glonney"; cf "glenney feeyney_nf" below
 # GAOL: ~;<i glen_v
 msgid "glenney_nm"
 msgstr "glanadh_nm"
@@ -37013,6 +37098,11 @@ msgstr "amhastrach_nf"
 # GAOL:
 msgid "gour_prep"
 msgstr "i dtreo"
+
+# drommey is (just) gs of dreeym
+# GAOL: gour_prep+e_poss+drommey
+msgid "gour-e-ghrommey_adv"
+msgstr "i leith a dhroma"
 
 # supposed to work for both "go" and "take" senses, Ir. "gabh" OK
 # But if I want "téigh" (rachaidh, etc.) for "go", probably best
@@ -39069,6 +39159,12 @@ msgstr "thiar theas"
 msgid "heese_adv"
 msgstr "thíos_adv"
 
+# not in corpus
+# "half grown girl; hoyden"
+# GAOL:
+msgid "heishan_nf"
+msgstr "toice2_nf"
+
 # GAOL:
 msgid "heiss_n"
 msgstr "síob_nf"
@@ -39619,6 +39715,8 @@ msgstr "imeanach_a"
 
 # cognates in HLSM
 # vn. goll
+# translates as "téigh" frequently; should probably include that here!
+# rise to f.f. level?
 # GAOL: ~
 msgid "immee_v"
 msgstr "imigh_v"
@@ -39930,6 +40028,10 @@ msgstr "inis_nf"
 # GAOL: ~
 msgid "Innyd_nf"
 msgstr "Inid_nf"
+
+# GAOL: ~
+msgid "innyl_nm"
+msgstr "inneall_nm"
 
 # SCC links ginsh=inse
 # HLSM links ginsh
@@ -41770,6 +41872,11 @@ msgstr "plódaithe_a;dingthe_a;plúchta_a"
 # GAOL: ~
 msgid "jingoe_nm"
 msgstr "diongó_nm"
+
+# confinement
+# GAOL: <d jing_v
+msgid "jingyr_nf"
+msgstr "gaibhniú_nm"
 
 # here just for following entry
 # GAOL: eng:jenny
@@ -45250,6 +45357,10 @@ msgstr "oibrigh_v;saothraigh_v"
 msgid "laccal_nm"
 msgstr "ag iarraidh"
 
+# GAOL: laccal_nm+-ys
+msgid "laccalys_nm"
+msgstr "dochar_nm"
+
 # GAOL: ~
 msgid "lacyr_nm"
 msgstr "laicear_nm"
@@ -46615,6 +46726,10 @@ msgstr "léithe_nf"
 msgid "lheeah_a"
 msgstr "liath_a"
 
+# GAOL: ~
+msgid "lheeahghey_nm"
+msgstr "liathadh_nm"
+
 # pl. in gv corpus
 # GAOL: lheeah_a+-id
 msgid "lheeahid_nm"
@@ -47183,6 +47298,11 @@ msgstr "leisce_nf;falsacht_nf"
 msgid "lhiastyn_nm"
 msgstr "i bhfiacha"
 
+# like previous, but more like a real adj
+# GAOL: lhiastyn_nm+-agh
+msgid "lhiastynagh_a"
+msgstr "i bhfiacha"
+
 # debt, etc.; that's sense 4 in GA.txt of fiach_nm
 # HLSM links gd:dleastanas_nm
 # GAOL: lhiastyn_nm+-ys
@@ -47383,6 +47503,8 @@ msgstr "bactha_a;coiscthe_a"
 # Even messier: spelling "lhiettrymys" usually "difference" (difríocht)
 # in corpus, and Bible has two more spellings, with sense "idirdhealú"
 # lhietrymys in Ex. 11:7, liettrimys Acts 15:9
+# One usage example "Jannoo lhiettrimmys" corresponds directly
+# to de Bhaldraithe's "leatrom a dhéanamh"...
 # HLSM links gd:leatromas (alt gd:leatromachd_nf = ga:toircheas)
 # GAOL:
 msgid "lhiettrimys_nm"
@@ -47498,6 +47620,10 @@ msgstr "libh_pronm"
 # GAOL: gd:loth_nf
 msgid "lhiy_nf"
 msgstr "searrach_nm;bromach_nm"
+
+# GAOL: ~
+msgid "lhoamit_a"
+msgstr "lomtha_a"
 
 # Fargher @family (in idiom)
 # Cha nel lhiannoo ny lhoirran [echey] == Níl leanbh ná lorán [acu] (FGB)
@@ -47646,7 +47772,7 @@ msgid "lhon ushtey_n"
 msgstr "lon uisce"
 
 # pole, shaft, staff, thill
-# cf loogh
+# cf loogh, cf. loo (e.g. lhoo oaiagh)
 # GAOL:
 msgid "lhoo_nm"
 msgstr "laí_nm"
@@ -52664,6 +52790,8 @@ msgstr "measc_v"
 msgid "mestagh_nm"
 msgstr "meascach_nm"
 
+# also "mastey"; nice idiom in Cregeen
+# "laue vastee" lit "mixing hand" for "helping hand"
 # vn mest_v
 # GAOL: ~;<i mest_v
 msgid "mestey_nm"
@@ -53590,6 +53718,8 @@ msgstr "mealladh_nm"
 msgid "molleydagh_nm"
 msgstr "duine somheallta;mothaolaí_nm"
 
+# also includes sense "disappointed" that doesn't work in Irish;
+# f.f. in that once sense I guess
 # GAOL: ~;<i moll_v
 msgid "mollit_a"
 msgstr "meallta_a"
@@ -57143,6 +57273,10 @@ msgstr "mídhílis_a;easumhal_a;neamhumhal_a"
 msgid "neuvilleydagh_a"
 msgstr "dochlaonta_a"
 
+# GAOL: ~;neu-+millish_a
+msgid "neuvillish_a"
+msgstr "neamh-mhilis_a"
+
 # GAOL: ~;neu-+bio_a
 msgid "neuvio_a"
 msgstr "neamhbheo_a"
@@ -59407,6 +59541,12 @@ msgstr "ubh bhruite"
 # GAOL:
 msgid "ooig_nf"
 msgstr "uaimh_nf;pluais_nf"
+
+# Jeremiah 2:6, "full of pits"; nothing in Ir. translation captures
+# this... "trí fhearann lom fásaigh"
+# GAOL: ooig_nf+-agh
+msgid "ooiganagh_a"
+msgstr "pollach_a"
 
 # GAOL: ~;ooig_nf+oaylleeaght_nf
 msgid "ooig-oaylleeaght_nf"
@@ -61713,6 +61853,8 @@ msgid "plaiynt_nf"
 msgstr "gearán_nm"
 
 # HLSM from English
+# see also idiom "ar an phlean" for a "local preacher"; for more explanation:
+# http://www.isle-of-man.com/manxnotebook/methdism/plans.htm
 # GAOL: ~
 msgid "plan_nm"
 msgstr "plean_nm"
@@ -61879,6 +62021,10 @@ msgstr "cabaire_nm"
 # GAOL: ~
 msgid "plinthey_nm"
 msgstr "plionta_nm"
+
+# GAOL:
+msgid "ploddan_nm"
+msgstr "linn lapadaíola"
 
 # MacBain plùch
 # GAOL: ~
@@ -66034,6 +66180,10 @@ msgid "Romanish_nf"
 msgstr "Romainis_nf"
 
 # GAOL: ~
+msgid "romanoil_a"
+msgstr "Rómhánúil_a"
+
+# GAOL: ~
 msgid "Romanoilaght_nf"
 msgstr "Rómhánúlachas_nm"
 
@@ -67853,6 +68003,8 @@ msgid "scape_nm"
 msgstr "sciath_nf"
 
 # past tense form in Hebrews 11:34
+# note on example in usage file "scape-jee" that's intended to mean
+# "scaipigí" from de Bhaldraithe (mistake?)
 # GAOL: eng:escape
 msgid "scape_v"
 msgstr "éalaigh_v"
@@ -69178,6 +69330,10 @@ msgstr "saorthoil_nf"
 # GAOL: ~;seyr-hoill_nf+-agh
 msgid "seyr-hoillagh_a"
 msgstr "saorthoilteanach_a"
+
+# GAOL: ~;seyr-+turrys_nf
+msgid "seyrhurrys_nm"
+msgstr "saorthuras_nm"
 
 # doesn't decompose in Manx, since seyr=saor, cf. f.f. siyr_nm
 # GAOL: ~
@@ -72255,6 +72411,7 @@ msgid "skah_nm"
 msgstr "scoitheadh_nm"
 
 # caul, diaphragm, midriff
+# missp. as "skiart" once in Kelly dict?
 # Hosea 13:8 "skairt y chree oc" = "caul of their heart" (KJV)
 # == cochall a gcroí
 # GAOL: ~
@@ -74389,6 +74546,10 @@ msgstr "sacar_nm"
 # GAOL: socair_a;<d soccar_nm
 msgid "soccoil_a"
 msgstr "socair_a;sócúlach_a"
+
+# GAOL: soccoil_a+-id
+msgid "soccoilid_nf"
+msgstr "sócúlacht_nf"
 
 # coadey = cosaint
 # GAOL: so-+coadey_nm
@@ -78799,6 +78960,10 @@ msgstr "tarraingt_nf"
 msgid "tayrn_v"
 msgstr "tarraing_v"
 
+# GAOL: tayrn_nm+-ag
+msgid "tayrnag_nf"
+msgstr "tarraiceán_nm"
+
 # GAOL: ~;tayrn_nm+-agh
 msgid "tayrnagh_a"
 msgstr "tarraingteach_a"
@@ -80409,6 +80574,7 @@ msgstr "tonúlacht_nf"
 # + toil (intrans)
 # beware "thooill(ey)" in corpus, deluge, flood etc.
 # cf tooilleil for HLSM reference
+# also note that lenited past "hooill" is mistakable for "shiúil..."
 # GAOL: enm:toil
 msgid "tooill_v"
 msgstr "saothraigh_v"
@@ -81642,6 +81808,7 @@ msgid "tro_nf"
 msgstr "tréith_nf"
 
 # current, direction, drift, trend
+# ~ niar = feacht aniar in usage-gv
 # bad calque in Gnome l10n: "current locale" = troa ynnydagh"
 # GAOL: ~
 msgid "troa_nf"
@@ -81930,6 +82097,10 @@ msgstr "tromchúiseach_a"
 msgid "trome-chooishaght_nf"
 msgstr "tromchúis_nf;dáiríreacht_nf"
 
+# GAOL: ~;trome_a+cass_nf+-agh
+msgid "trome-choshagh_a"
+msgstr "tromchosach_a"
+
 # GAOL: ~;trome-+cree_nm+-agh
 msgid "trome-chreeagh_a"
 msgstr "tromchroíoch_a"
@@ -81962,6 +82133,10 @@ msgstr "tromán_nm"
 # GAOL: ~;tromman_nm+pabyragh_a
 msgid "tromman pabyragh_n"
 msgstr "tromán páipéir"
+
+# GAOL: trome_a+-ys
+msgid "trommys_nm"
+msgstr "troime_nf"
 
 # HLSM cognates
 # GAOL: tnúth_nm
@@ -83284,15 +83459,16 @@ msgstr "vacsaínigh_v"
 msgid "vaghtoor_nm"
 msgstr "veicteoir_nm"
 
-# this means "just now"; only one real example and that's
+# This means "just now"; only one real example and that's
 # in Fargher under "just", and it's past tense
 # one Twitter example in present, maybe misused?
+# Also as "a while ago" in usage file (haink mee gys shoh vaidjin)
 # also beware lenited version of plural maidjey, e.g.
 # Ezekiel 27:6 "dty vaidjyn" = "your oars"
 # or Alice: "carnane dy vaidyn" = "carn de chipíní"
 # GAOL:
 msgid "vaidjyn_adv"
-msgstr "anois beag;anois go díreach"
+msgstr "anois beag;anois go díreach;tamall ó shin"
 
 # GAOL: ~
 msgid "valoor_nm"
@@ -83393,7 +83569,7 @@ msgstr "ó_prep"
 # HLSM: gd:bho mu chéile
 # GAOL:
 msgid "veih-my-cheilley_adv"
-msgstr "as a chéile"
+msgstr "as a chéile;ó chéile;óna chéile"
 
 # GAOL: ~;veih_prep+yn_art
 msgid "veih'n_prep"
