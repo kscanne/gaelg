@@ -36,7 +36,6 @@ gv2ga.po : gv2ga.pot
 
 leabhar.pdf: sonrai.tex leabhar.tex
 	pdflatex leabhar.tex
-	cp $@ ${HOME}/public_html/pub/gv2ga.pdf
 
 sonrai.xml: sonrai.tex tex2xml.sh
 	cat sonrai.tex | bash tex2xml.sh > $@
