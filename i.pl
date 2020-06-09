@@ -459,7 +459,7 @@ sub default_plural
 		$word =~ s/ey$/aghyn/;
 	}
 	elsif ($word =~ m/aght$/) {  # foalsaght, creenaght, etc.
-		$word = 'x';
+		$word = 'xx';
 	}
 	else {
 		$word =~ s/$/yn/;	
