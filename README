@@ -1,11 +1,14 @@
 gaelg: NLP resources for Manx Gaelic 
 
-The main things of interest here are the Manx lexicon focloir.txt,
-and the bilingual mappings in gv2ga.po that are used in the
-development of the gv2ga MT engine (for which, see
-https://github.com/kscanne/caighdean).
+The main things of interest here are:
 
-Copyright 2015-2016 Kevin Scannell <kscanne@gmail.com>
+(1) the Manx lexicon focloir.txt
+(2) the bilingual mappings in gv2ga.po that are used in the
+development of the gv2ga MT engine (for which, see
+https://github.com/kscanne/caighdean) and a print dictionary
+(3) the upstream sources for the Manx Universal Dependencies corpus, in ud/
+
+Copyright 2015-2020 Kevin Scannell <kscanne@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
