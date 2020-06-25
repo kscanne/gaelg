@@ -41,8 +41,11 @@ alts.tsv: ${GA2GV}/focloir.txt
 
 BATCH=5
 corpus.txt:
+	make gold-corpus.txt
 	cat ${HOME}/seal/idirlamha/gv/freq/corpus.txt | shuf | keepif -n gold-corpus.txt | egrep -v '[=<>×~|`+{}_#]' | egrep -v ' (of|the|you|or|in|an|to|npl|mpl) ' | sed 's/^[0-9][0-9]*:[0-9][0-9]*: *//' | sed 's/^[0-9][0-9]*[.)]\?  *\([A-Z]\)/\1/' | egrep '^[A-ZÇ“"‘]' | egrep '[.?!”"’]$$' | head -n $(BATCH) > $@
 
+# Always safe to run this, as long as not in the middle
+# of editing edit.tsv, tagged.tsv, or pedit.tsv!
 clean: 
 	rm -f corpus.txt ig-output.txt draft.tsv edit.tsv tagged.tsv pedit.tsv
 	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu
