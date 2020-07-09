@@ -32,7 +32,7 @@ while (<STDIN>) {
 			my $tok = $pieces[1];  # surface token should match currsent!
 			if (substr($currsent,0,length($tok)) eq $tok) {
 				substr($currsent,0,length($tok),'');
-				if ($currsent =~ m/^ /) {
+				if ($currsent =~ m/^ / or $currsent eq '') {
 					$currsent =~ s/^ +//;
 				}
 				else {

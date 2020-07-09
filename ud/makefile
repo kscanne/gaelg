@@ -1,9 +1,12 @@
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
+DIST=${HOME}/seal/UD_Manx-Cadhan
 
-# NEVER EDIT THIS MANUALLY
+# NEVER EDIT THIS MANUALLY; make fixes in gold.tsv...
 gv_cadhan-ud-test.conllu: gold.tsv todist.pl
 	rm -f $@
 	cat gold.tsv | perl todist.pl > $@
+	cp -f $@ $(DIST)
+	chmod 644 $(DIST)/$@
 	chmod 400 $@
 
 pedit.tsv: tagged.tsv draftparse.pl renumber.pl
