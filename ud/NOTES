@@ -85,7 +85,12 @@ aa_106  as/agus as a SCONJ; "agus iad ag iompar..."
 See https://universaldependencies.org/ga/dep/mark.html for what Irish does;
 as is a SCONJ+mark, points to following pronoun, and that pronoun is the
 head (probably pointing to some higher clause as an advcl), and the VN
-is xcomp of the PRON. See also aa_161.
+is xcomp of the PRON. See also aa_146, aa_161, aa_251
+Colin Batchelor's paper discusses this as cosubordination
+and handles differently with the second pronoun connected
+back to the first with special "conj:cosub" subtag
+https://www.aclweb.org/anthology/W19-6902.pdf
+
 
 aa_106 and aa_110 are first examples of "raad" as an ADV, which 
 I've tagged just like English "where"  (the place *where* he ate...)
