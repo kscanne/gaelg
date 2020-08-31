@@ -42,6 +42,9 @@ alts.tsv: ${GA2GV}/focloir.txt
 	cat ${GA2GV}/focloir.txt | egrep -v '0$$' | egrep -v ' ' | cut -f 1,4 | sed 's/[0-9]_/_/' | sed 's/_prep/|ADP/g; s/_v/|VERB/g; s/_n[a-z]*/|NOUN/g; s/_adv/|ADV/g; s/_a/|ADJ/g; s/_pronm/|ADP/g; s/_conj/|SCONJ/g; s/_interr/|PRON/g; s/_pn/|PRON/g; s/_card/|NUM/g; s/_excl/|INTJ/g; s/_poss/|DET/g' | egrep -v "^([A-Za-zÇç'-]+\|[A-Z]+)[^A-Z]\1$$" | sort -u | sort -k1,1 > $@
 	sed -i '/^[A-ZÇ]/s/|NOUN/|PROPN/g' $@
 
+gv.udpipe: gv_cadhan-ud-test.conllu tagdict.tsv
+	cat gv_cadhan-ud-test.conllu | udpipe --parser "dictionary_file=tagdict.tsv" --train $@
+
 BATCH=5
 corpus.txt:
 	make gold-corpus.txt
