@@ -13,7 +13,7 @@ $ make edit.tsv
 Manually correct the POS tags in column 3 (best guess made already).
 
 Pay attention to tokenization of 3rd person masc. pronomials:
-ass, da, er, fo, jeh, jee, lesh, marish, rish, roish, veih, voish.
+ass, da, er, fo, jeh, jee, lesh, marish, ree, rish, roish, veih, voish.
 
 Add Irish or English translations in comments as appropriate.
 
