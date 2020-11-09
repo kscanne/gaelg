@@ -1,4 +1,5 @@
 ta/va used as a copula?  Sentences aa_003, aa_005, aa_037 (tok 22), aa_039 "ta shen", aa_044 "dy ve nearey foshlit" = "chun bheith (i do) náire oscailte"?, aa_057 (similar to aa_005 in structure, but without explicit copula "is é sin a bhí..."), aa_064 (cre ta my hie = cad é mo theach/theaghlach), aa_075 (similar to aa_057), aa_077 "ta'n doonaght", aa_081 (a bit like aa_064, "quoi vees ny cosneyderyn" = "cé a bheidh na buaiteoirí", which in true Irish would be "ina mbuaiteoirí" or "cé iad na buaiteoirí"), aa_089 "dy beigns y mooadys kiart" (if I had been the right size... Ir. has "an mhéid cheart *ionam*"), aa_164 "dy row eh eairkag", aa_180 (cre ta'n Courey == cad é an comhartha), aa_234 "Is é a chleachtadh..."?
+More: alice_11, alice_28
 
 reported speech; ccomp vs. parataxis (e.g. aa_022 since speech verb comes first and b/c of quotes/colon), or reversed parataxis (e.g. aa_001 because speech verb is in the middle).  List of speech verbs for grepping later: ghra,gra,graite,denee,dooyrt,dreggyr,yllagh(aa_051),(f)o(c)kley (magh),jir,niarragh,as(rarely, like Irish arsa, see aa_047),geamagh(aa_206)
 
@@ -95,6 +96,9 @@ https://www.aclweb.org/anthology/W19-6902.pdf
 aa_106 and aa_110 are first examples of "raad" as an ADV, which 
 I've tagged just like English "where"  (the place *where* he ate...)
 verb (ate) is acl:relcl point back to the noun (place)
+See also alice_21, with same bigram  boayl + raad which is common 
+enough in Manx (Bible included), but wouldn't be phrased this way in Irish
+which usually has "áit a raibh..."
 
 aa_113  "by what power I do..." is tricky, hard to find parallel examples
 cf Eng.  You do not understand with whom you are dealing.
@@ -142,6 +146,7 @@ combines with the copula into one word); "dá mba mise" in sentence
 432, and there Teresa has the "dá" pointing to the subject
 (same as where the cop points). Not sure if that's a hack but it at
 least avoids the warning. 
+See also alice_31.
 
 aa_174; copula word order is opposite of Irish;
 cre ny lhottyn ad shoh = cad na créachta iad seo
@@ -217,6 +222,27 @@ English treebank
 ab_011 lit. translation not grammatical in Irish;
 I'm treating "rere y sorçh..." as the predicate which sounds weird
 
+alice_15
+"slooyn"; this is a pun from an earlier sentence in Alice (in English)...
+“That’s the reason they’re called lessons,” the Gryphon remarked:
+“because they lessen from day to day.”
+Trying to translate the pun here; ga/gd don't even try!
+
+alice_39
+She == Is é here!  Split?  Irish has one "'Sé seo", but there they
+can treat "seo" as the root
+
+alice_41
+"Shegin"; decompose to "she egin"?
+
+alice_52
+First "orphan"; analysing this as an ellipsis of "va"
+before "e roihaghyn"
+https://universaldependencies.org/u/dep/orphan.html
+
+Also first "goll rish" or "gollrish" as preposition;
+prefer treating this with "fixed" so the two will be the same
+
 =============
 
 Irish corrections?
@@ -224,6 +250,8 @@ Irish corrections?
 (1)  obl -> xcomp:pred
 a bhí as cló  in sent 769 
 cosúil leis in sent 1541
+*fhios ag*   e.g. 2356, and elsewhere as well
+and then what about "bhí a fhios agam faoi/ar"
 
 (2)
 ó foilsíodh
@@ -236,3 +264,5 @@ obl not nmod for PP after verbal nouns
 ó X go Y   inconsistent?
 
 (5) beagnach + number inconsistent  (chaill mé beagnach 100 euro; "I lost almost 100 euro" is not the same as "I almost lost 100 euro"!)
+
+(6) Séard PROPN?
