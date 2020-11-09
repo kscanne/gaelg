@@ -3977,7 +3977,11 @@ chionneyder_nm	0	0	çhionneyder_nm
 çhionney stiagh_nm	0	0	0
 çhionnid_nm	0	0	0
 çhionn lesh moyrn_a	0	0	0
+çhionnraa_nm	0	çhionnraaghyn	0
+çhionnraa_v	çhionnraaghey_n	0	0
+çhionnraaghey_n	0	1	0
 chionnys_n	0	0	çhionney_n
+çhionraa_nm	0	çhionraaghyn	çhionnraa_nm
 çhionse_nm	0	0	0
 çhiooneyder_nm	0	0	0
 chiow_nm	0	0	çhiow_nm
@@ -4643,6 +4647,7 @@ colloonagh_nm	0	0	0
 colloo ny merriu_n	0	0	0
 collyr_nm	0	1	0
 colmane_nm	0	0	calmane_nm
+coloartys_nm	0	0	coloayrtys_nm
 coloayr_v	coloayrt_nf	0	0
 coloayrt_nf	0	0	0
 coloayrtagh_nm	0	0	0
@@ -7343,6 +7348,7 @@ eirinys_nm	0	0	0
 eirinys bainney_n	0	0	0
 eirit_a	0	0	0
 eirrinagh_nm	0	0	eirinagh_nm
+eirtys_nm	0	0	eiyrtys_nm
 eirys_nm	0	0	0
 eisht_adv	0	0	0
 eishtagh_adv	0	0	eisht_adv
@@ -13265,7 +13271,7 @@ Lion_nm	0	0	0
 lionn-doo_nm	0	1	lioon doo_nm
 liooar_a	0	1	0
 lioon doo_nm	0	1	0
-lioor_n	0	1	liooar_n
+lioor_a	0	1	liooar_a
 lior_nf	0	0	lioar_nf
 lioree_pronm	lioreeish	0	0
 liorin_pronm	liorinyn	0	0

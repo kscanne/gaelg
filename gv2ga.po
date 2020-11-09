@@ -14425,6 +14425,18 @@ msgstr "teannas_nm"
 msgid "çhionn lesh moyrn_a"
 msgstr "i mborr le bród"
 
+# GAOL: çhionn_a+raa_nm
+msgid "çhionnraa_nm"
+msgstr "agóid_nf"
+
+# GAOL: <d çhionnraa_nm
+msgid "çhionnraa_v"
+msgstr "léirsigh_v"
+
+# GAOL: <i çhionnraa_v
+msgid "çhionnraaghey_n"
+msgstr "léirsiú_nm"
+
 # HLSM as "çhonse"
 # GAOL: ~
 msgid "çhionse_nm"
@@ -49491,9 +49503,10 @@ msgstr "leoraí_nm"
 
 # baking stone; no Ir. term?
 # connected with losht_v?
-# GAOL:
+# cf. Nós 2020-10-30; losaid?
+# GAOL: losaid_nf
 msgid "losht_nf"
-msgstr "cloch bhácála"
+msgstr "cloch bhácála;losaid_nf"
 
 # vn lostey_nm (sic)
 # GAOL: loisc_v
