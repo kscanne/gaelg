@@ -5117,7 +5117,7 @@
 3	roshee	rosh	VERB	_	_	0	root	_	sroichfidh
 4	uss	oo	PRON	_	_	3	nsubj	_	tusa
 5	y	yn	DET	_	_	7	det	_	an
-6	nah	nah	NUM	_	_	7	nummod	_	dara
+6	nah	nah	ADJ	_	_	7	amod	_	dara
 7	valley	balley	NOUN	_	_	3	obj	_	bhaile
 8	noght	noght	ADV	_	_	3	advmod	_	anocht
 9	mannagh	mannagh	SCONJ	_	_	10	mark	_	mura
@@ -6658,7 +6658,7 @@
 2	haink	tar	VERB	_	_	8	advcl	_	tháinig
 3	eh	eh	PRON	_	_	2	nsubj	_	sé
 4	yn	yn	DET	_	_	5	det	_	an
-5	nah	nah	NUM	_	_	6	nummod	_	dara
+5	nah	nah	ADJ	_	_	6	amod	_	dara
 6	cheayrt	keayrt	NOUN	_	_	2	obl	_	uair
 7	,	,	PUNCT	_	_	2	punct	_	,
 8-9	va'n	_	_	_	_	_	_	_	
