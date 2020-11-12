@@ -32,6 +32,9 @@ draft.tsv: tagdict.tsv ig2draft.pl ig-output.txt
 tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv gold.tsv alts.tsv
 	cat ${GA2GV}/GV.txt | perl tag2ud.pl | sort -u | sort -k1,1 > $@
 
+udpipe-dict.tsv: tagdict.tsv
+	cat tagdict.tsv | sed 's/$$/\t_\t_/' > $@
+
 numbers.tsv: ${GA2GV}/GV.txt ${GA2GV}/focloir.txt getnums.sh
 	bash getnums.sh > $@
 
@@ -42,8 +45,25 @@ alts.tsv: ${GA2GV}/focloir.txt
 	cat ${GA2GV}/focloir.txt | egrep -v '0$$' | egrep -v ' ' | cut -f 1,4 | sed 's/[0-9]_/_/' | sed 's/_prep/|ADP/g; s/_v/|VERB/g; s/_n[a-z]*/|NOUN/g; s/_adv/|ADV/g; s/_a/|ADJ/g; s/_pronm/|ADP/g; s/_conj/|SCONJ/g; s/_interr/|PRON/g; s/_pn/|PRON/g; s/_card/|NUM/g; s/_excl/|INTJ/g; s/_poss/|DET/g' | egrep -v "^([A-Za-zÇç'-]+\|[A-Z]+)[^A-Z]\1$$" | sort -u | sort -k1,1 > $@
 	sed -i '/^[A-ZÇ]/s/|NOUN/|PROPN/g' $@
 
-gv.udpipe: gv_cadhan-ud-test.conllu tagdict.tsv
-	cat gv_cadhan-ud-test.conllu | udpipe --parser "dictionary_file=tagdict.tsv" --train $@
+gv.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv
+	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --train $@
+
+gv-dict.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv
+	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --tagger "dictionary_file=udpipe-dict.tsv" --train $@
+
+gv-best.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv gv.vec
+	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --tagger "dictionary_file=udpipe-dict.tsv" --parser "embedding_form_file=gv.vec" --train $@
+
+gv-all.udpipe: alice/alice_gv.conllu gv_cadhan-ud-test.conllu udpipe-dict.tsv gv.vec
+	cat gv_cadhan-ud-test.conllu alice/alice_gv.conllu | udpipe --tokenizer "epochs=50" --tagger "dictionary_file=udpipe-dict.tsv" --parser "embedding_form_file=gv.vec" --train $@
+
+gv.vec: ${HOME}/seal/idirlamha/gv/word2vec/gv.vec
+	cp ${HOME}/seal/idirlamha/gv/word2vec/gv.vec $@
+
+evaluate: FORCE
+	udpipe --accuracy --tokenize --tag --parse gv.udpipe alice/alice_gv.conllu 
+	udpipe --accuracy --tokenize --tag --parse gv-dict.udpipe alice/alice_gv.conllu 
+	udpipe --accuracy --tokenize --tag --parse gv-best.udpipe alice/alice_gv.conllu 
 
 BATCH=5
 corpus.txt:
@@ -55,5 +75,6 @@ corpus.txt:
 clean: 
 	rm -f corpus.txt ig-output.txt draft.tsv edit.tsv tagged.tsv pedit.tsv
 	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu
+	rm -f *.udpipe gv.vec
 
 FORCE:

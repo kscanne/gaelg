@@ -1,2 +1,2 @@
 #!/bin/bash
-udpipe --tokenize --tag --parse gv.udpipe
+udpipe --tokenize --tag --parse gv-all.udpipe
