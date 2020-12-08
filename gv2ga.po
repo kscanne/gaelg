@@ -4015,11 +4015,13 @@ msgid "arrag_nf"
 msgstr "eireog_nf"
 
 # focal doiléir
+# also used nominally in this sense: "gyn arragh y ghra"
 # GAOL:
 msgid "arragh_adv"
 msgstr "níos mó"
 
 # cognates in HLSM
+# see notes on adv above re: nominal usage
 # GAOL: ~
 msgid "arragh_nm"
 msgstr "earrach_nm"
@@ -8783,6 +8785,12 @@ msgstr "mullard_nm"
 msgid "bollag_nf"
 msgstr "blaosc_nf"
 
+# in phrase "dy ~"
+# Rob's gd/gv list connects gd:buileach
+# GAOL: baileach_a
+msgid "bollagh_a"
+msgstr "iomlán_a;baileach_a"
+
 # also "dy bollagh" in multi
 # GAOL: ~
 msgid "bollagh_nm"
@@ -8918,6 +8926,11 @@ msgstr "i gcomhar;i gcomhpháirt;i gcomhar le chéile"
 # GAOL: boodee_adv+-ys
 msgid "boodeeys_nm"
 msgstr "comhphobal_nm;comhpháirtíocht_nf"
+
+# bow of boat
+# GAOL: eng:bow
+msgid "boogh_nm"
+msgstr "tosach_nm"
 
 # cognate with buíoch (SCC/HLSM); false friend. cf. booisal below
 # also spelled "bwooiagh"; sásta overwhelming in parallel corpus
@@ -15772,6 +15785,7 @@ msgstr "clós scoile"
 msgid "closet_nm"
 msgstr "clóiséad_nm"
 
+# cf cloughyn_nm, and one usage example in singular with sense "tongs"
 # GAOL: ~
 msgid "clou_nm"
 msgstr "cló1_nm"
@@ -25210,7 +25224,7 @@ msgstr "go buan"
 msgid "dy bog_adv"
 msgstr "go bog"
 
-# GAOL: dy_u+bollagh_nm
+# GAOL: dy_u+bollagh_a
 msgid "dy bollagh_adv"
 msgstr "go hiomlán;ar fad"
 
@@ -27129,6 +27143,9 @@ msgid "emshir_nf"
 msgstr "aimsir_nf"
 
 # aaragh nó laaragh?
+# Fargher has "emshir aaragh" @present (K.)
+# and "emshit laaragh" (sic) @tense
+# Usage file has "Yn emshyr arragh", surely a typo
 # GAOL:
 msgid "emshir aaragh_nf"
 msgstr "aimsir láithreach"
@@ -39693,14 +39710,6 @@ msgstr "hurá_excl"
 msgid "hoshiaght_adv"
 msgstr "ar dtús"
 
-# fanciful etymology in Cregeen: "Would the etymology of this word be
-# too far fetched, if it were said to be from tasht?—the hand kept or stored
-# up more than the other." (Yes. -ed.)
-# focal doiléir
-# GAOL:
-msgid "hoshtal_a"
-msgstr "clé_a"
-
 # focal doiléir
 # GAOL:
 msgid "hoshtal_adv"
@@ -41433,6 +41442,7 @@ msgid "jeianagh_a"
 msgstr "déanach_a;nua-aoiseach_a;deireanach_a"
 
 # progressive (n.)
+# Usage file: "Yn ~" = the last/final one
 # GAOL: <d jeianagh_a
 msgid "jeianagh_nm"
 msgstr "forásach_nm"
@@ -49339,8 +49349,12 @@ msgstr "aonar"
 msgid "lomarcanys_nm"
 msgstr "uaigneas_nm"
 
-# blight, scorch, parch
 # GAOL:
+msgid "lomman_nm"
+msgstr "sonnghaoth_nf"
+
+# blight, scorch, parch
+# GAOL: <d lomman_nm
 msgid "lomman_v"
 msgstr "smol_v;searg_v"
 
@@ -53961,6 +53975,7 @@ msgstr "mionn mór;eascaine_nf"
 msgid "mollee_nf"
 msgstr "mala_nf"
 
+# also Fargher @pack "molley breagyn" = "pack of lies" (Ir. moll, de Bh)
 # cognates in HLSM
 # GAOL: ~;<i moll_v
 msgid "molley_nm"
@@ -64831,11 +64846,13 @@ msgid "rayon_nm"
 msgstr "réón_nm"
 
 # cognates in HLSM
+# some nominal examples; "er yn ~"
 # GAOL: ~
 msgid "rea_a"
 msgstr "réidh_a"
 
 # cognates in HLSM
+# sometimes with sense of rea_a
 # GAOL: ~
 msgid "rea_nm"
 msgstr "reithe_nm"
@@ -66859,6 +66876,7 @@ msgid "rosejiarg_a"
 msgstr "rósdearg_a"
 
 # cognate given based on note on vn below
+# past "raink"
 # GAOL: rochtaigh_v
 msgid "rosh_v"
 msgstr "sroich_v"
@@ -71690,6 +71708,7 @@ msgid "shiauilley_n"
 msgstr "seinm_nf"
 
 # cognates in HLSM
+# also "octave" in usage file
 # GAOL: ~
 msgid "shiaull_nm"
 msgstr "seol_nm"
@@ -81150,8 +81169,13 @@ msgstr "tosaitheoir_nm"
 msgid "Toshiaght Gheuree_nf"
 msgstr "mí na Samhna;Samhain"
 
+# fanciful etymology in Cregeen (@hoshtal):
+# "Would the etymology of this word be too far fetched, if it were
+# said to be from tasht?—the hand kept or stored
+# up more than the other." (Yes. -ed.)
 # SCC cognate with tuathal
 # HLSM derives from "sushtal", literally "gospel hand"
+# focal doiléir
 # GAOL: <d sushtal_nm
 msgid "toshtal_a"
 msgstr "clé_a"

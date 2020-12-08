@@ -2405,6 +2405,7 @@ Boliveeagh_nm	0	0	0
 Bolivia_nf	0	1	0
 bollad_nm	0	0	0
 bollag_nf	0	0	0
+bollagh_a	0	0	0
 bollagh_nm	0	0	0
 bollagh dooblit_n	0	0	0
 bollagh kyagh_n	0	0	0
@@ -2439,6 +2440,7 @@ boodee_adv	0	0	0
 boodeeaght_nf	0	0	boodeeys_nm
 boodeeys_nm	0	boodeeyssyn	0
 boodeeys1_nm	0	0	boodeeys_nm
+boogh_nm	0	0	0
 booiagh_a	booie	0	0
 booidal_nm	0	1	booishal_nm
 booie_nm	0	0	0
@@ -8639,6 +8641,7 @@ fleeagh_nm	0	0	flee_nf
 fleshag_nf	0	0	0
 fliaghagh_a	0	0	0
 fliaghey_nm	0	0	0
+fliaghey1_nm	fliaghee	0	fliaghey_nm
 flibbag_nf	0	0	0
 flid_nm	0	0	0
 flideragh_nm	0	0	0
@@ -10758,7 +10761,7 @@ hookah_nm	0	0	0
 hooker_nm	0	0	0
 horaa_excl	0	0	0
 hoshiaght_adv	0	0	0
-hoshtal_a	0	0	0
+hoshtal_a	0	0	toshtal_a
 hoshtal_adv	0	0	0
 hough_nm	0	0	0
 huc_pronm	hucsyn	0	0
@@ -13408,6 +13411,7 @@ lomarcan_a	0	0	0
 lomarcan_nm	0	1	0
 lomarcanys_nm	0	0	0
 lome lane_a	0	0	lhome-lane_a
+lomman_nm	0	0	0
 lomman_v	lommaney_n	0	0
 lommaney_n	0	0	0
 lommanit_a	0	0	0
