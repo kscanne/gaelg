@@ -33,7 +33,7 @@ tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv gold.tsv alts.tsv
 	cat ${GA2GV}/GV.txt | perl tag2ud.pl | sort -u | sort -k1,1 > $@
 
 udpipe-dict.tsv: tagdict.tsv
-	cat tagdict.tsv | sed 's/$$/\t_\t_/' > $@
+	cat tagdict.tsv | sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed 's/$$/\t_\t_/' > $@
 
 numbers.tsv: ${GA2GV}/GV.txt ${GA2GV}/focloir.txt getnums.sh
 	bash getnums.sh > $@
@@ -60,7 +60,7 @@ gv-all.udpipe: alice/alice_gv.conllu gv_cadhan-ud-test.conllu udpipe-dict.tsv gv
 gv.vec: ${HOME}/seal/idirlamha/gv/word2vec/gv.vec
 	cp ${HOME}/seal/idirlamha/gv/word2vec/gv.vec $@
 
-evaluate: FORCE
+evaluate: FORCE gv.udpipe gv-dict.udpipe gv-best.udpipe gv-all.udpipe
 	udpipe --accuracy --tokenize --tag --parse gv.udpipe alice/alice_gv.conllu 
 	udpipe --accuracy --tokenize --tag --parse gv-dict.udpipe alice/alice_gv.conllu 
 	udpipe --accuracy --tokenize --tag --parse gv-best.udpipe alice/alice_gv.conllu 
