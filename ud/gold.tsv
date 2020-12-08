@@ -1713,7 +1713,7 @@
 21	ashoon	ashoon	NOUN	_	_	17	obl	_	náisiún
 22-24	ain-hene	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	againn féin
-23	shin	shin	ADP	_	_	21	nmod	_	
+23	shin	shin	PRON	_	_	21	nmod	_	
 24	hene	hene	PRON	_	_	23	nmod	_	
 25-27	er-lhiam	_	_	_	_	_	_	_	
 25	er	er	VERB	_	_	1	advcl	_	dar liom
