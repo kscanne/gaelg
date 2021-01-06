@@ -70643,6 +70643,7 @@ msgstr "searbhas_nm;seirbhe_nf"
 msgid "shartreuse_nm"
 msgstr "seártrús_nm"
 
+# masculine in Fargher, but always fem. in Bible (y charvaant)
 # cognates in HLSM
 # GAOL: searbhónta_nm
 msgid "sharvaant_nm"
