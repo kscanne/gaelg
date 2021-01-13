@@ -33679,6 +33679,11 @@ msgstr "foras_nm"
 msgid "fosaid_nm"
 msgstr "fóiséad_nm"
 
+# subtitle (not in Fargher)
+# GAOL: fo-+screeu_nm
+msgid "fo-screeu_nm"
+msgstr "fotheideal_nm"
+
 # subscriber (document)
 # GAOL: ~
 msgid "fo-screeuder_nm"
@@ -33690,6 +33695,7 @@ msgstr "foscríobhaí_nm"
 msgid "fo-screeuit_a"
 msgstr "foscríofa_a"
 
+# footnote, postscript, subscription
 # GAOL: ~;fo-+screeuyn_nm
 msgid "fo-screeuyn_nf"
 msgstr "foscríobh_nm"
@@ -40842,6 +40848,8 @@ msgstr "iomaire_nm"
 
 # cognates in HLSM
 # masc. in Cregeen and in Fargher @ anxiety
+# pl. imneaghyn = cares, worries; should handle in pairs-local-gv
+# since "imní" doesn't work in plural in Irish
 # GAOL: ~
 msgid "imnea_nm"
 msgstr "imní_nf"
@@ -41716,6 +41724,14 @@ msgstr "dícheallach_a;dúthrachtach_a;díograiseach_a"
 # GAOL: <d jeadagh_a
 msgid "jeadys_nm"
 msgstr "dúthracht_nf;dícheall1_nm;díograis_nf"
+
+# lit. "industrial", used in Manx Radio articles
+# but likely the wrong sense being used; articles referring to
+# tionsclaíoch, hence providing that as translation, but
+# Manx word probably means "díograiseach"
+# GAOL: jeadys_nm+-agh
+msgid "jeadyssagh_a"
+msgstr "tionsclaíoch_a"
 
 # HLSM
 # GAOL: ~
@@ -45521,6 +45537,11 @@ msgstr "i gcónaí_adv"
 msgid "kinjaght_nf"
 msgstr "leanúnachas_nm"
 
+# masc. in Cregeen and in Fargher @ constancy
+# GAOL: <d kinjagh_a
+msgid "kinjid_nm"
+msgstr "seasmhacht_nf;buaine_nf"
+
 # "fits of laughter" in Fargher; plural in gv
 # want something that works in both languages with orrym/orm
 # GAOL:
@@ -47597,6 +47618,11 @@ msgstr "dílis_a"
 msgid "leighaltagh_nm"
 msgstr "dílseoir_nm"
 
+# masc. in Fargher @ loyalty
+# GAOL: <d leighalagh_a
+msgid "leighaltys_nm"
+msgstr "dílseacht_nf"
+
 # GAOL: leigh_nf+kerree_a
 msgid "leigh cherree_nf"
 msgstr "péindlí_nm"
@@ -48498,6 +48524,12 @@ msgstr "leasaithe_a"
 # GAOL: ~
 msgid "lhiass_nm"
 msgstr "leas_nm"
+
+# pl. is lhiassaghyn "allegations"
+# masc. in Fargher @ allegation
+# GAOL: <d lhiasee_v
+msgid "lhiassagh_nm"
+msgstr "líomhain_nf"
 
 # GAOL: lhiass-+ard-cheeill_nf
 msgid "lhiass ard-cheeill_n"
@@ -60275,6 +60307,11 @@ msgstr "oibrí bóthair;náibhí_nm"
 # GAOL: obbree_nm+snaidey+laatshagh_a
 msgid "obbree-snaidey laatshagh_n"
 msgstr "bróidnéir_nm"
+
+# masc. in Fargher @ operator
+# GAOL: ~
+msgid "obbreyder_nm"
+msgstr "oibreoir_nm"
 
 # GAOL:
 msgid "obbrinagh_a"
@@ -84804,6 +84841,7 @@ msgstr "turasóir_nm;cuairteoir_nm"
 msgid "turrysagh iu_n"
 msgstr "raimleálaí óil"
 
+# tourism; also turrysid, turryssid
 # GAOL: ~;turrysagh_nm+-t
 msgid "turrysaght_nf"
 msgstr "turasóireacht_nf"

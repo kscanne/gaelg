@@ -7301,6 +7301,7 @@ eearlaght_nf	0	0	0
 eearley_nm	0	0	0
 eearlys_nm	0	0	0
 eear-oltey_nm	0	0	0
+eearree_nf	0	0	yeearree_nf
 eear-vaaree_a	0	0	0
 Eearvee_nf	0	1	0
 Eearvooir_nf	0	1	0
@@ -9058,6 +9059,7 @@ forum_nm	0	0	forym_nm
 forym_nm	0	0	0
 forys_nm	0	0	0
 fosaid_nm	0	0	0
+fo-screeu_nm	0	0	0
 fo-screeuder_nm	0	0	0
 fo-screeuit_a	0	0	0
 fo-screeuyn_nf	0	0	0
@@ -10288,6 +10290,7 @@ granganagh_a	0	0	0
 granganid_nm	0	0	0
 granganys_nm	0	0	granganid_nm
 granid_nm	0	1	0
+granit_a	0	0	grainnit_a
 grannag_nf	0	0	0
 grannee_v	0	0	grainn_v
 granooyl_nf	0	0	0
@@ -10937,6 +10940,7 @@ immeeaght_nf	0	immeeaghtyn	0
 immeeaghtagh_nm	0	0	0
 immyr_nf	0	immraghyn	0
 imnea_nm	0	0	0
+imnea1_nm	0	imneaghyn	imnea_nm
 imneagh_a	0	0	0
 impir_nm	0	0	0
 impiraght_nf	0	0	0
@@ -11163,6 +11167,7 @@ jea_nm	0	0	0
 jeaaghyn_nm	0	1	jeeaghyn_nm
 jeadagh_a	0	0	0
 jeadys_nm	0	0	0
+jeadyssagh_a	0	0	0
 jeaghyn_nm	0	1	jeeaghyn_nm
 jean_v	jannoo_nm	0	0
 jean airhey_n	0	0	0
@@ -11177,6 +11182,7 @@ jeant seyr-obbragh_a	0	0	0
 jeant 'sy thie_a	0	0	0
 jeantys_nm	0	0	0
 jeanymnee_a	0	0	geanymnee_a
+jeaynt_a	0	0	jeant_a
 jeays_nf	0	0	jeayst_nf
 jeayst_nf	0	0	0
 Jecrean_n	0	0	0
@@ -12190,6 +12196,7 @@ kilometer_nm	0	0	kilomeadar_nm
 kilowatt_nm	0	0	0
 kimmagh_nm	0	0	0
 kimmee_a	0	0	0
+kimmeeagh_a	0	0	kimmee_a
 kimmeeys_nm	0	0	0
 kimm-oaylleeaght_nf	0	0	0
 kindagh_a	0	0	kyndagh_a
@@ -12199,6 +12206,7 @@ Kingeesh_nf	0	1	0
 kinjagh_a	0	0	0
 kinjagh_adv	0	0	0
 kinjaght_nf	0	0	0
+kinjid_nm	0	0	0
 kinkyn_nm	0	0	0
 kinneig_nf	0	0	0
 kinneigey_nm	0	1	0
@@ -12753,6 +12761,7 @@ leighagh_a	0	0	leighoil_a
 leighaghtaght_nf	0	0	0
 leighalagh_a	0	0	0
 leighaltagh_nm	0	0	0
+leighaltys_nm	0	0	0
 leigh cherree_nf	0	0	0
 leighder_nm	0	0	0
 leighderaght_nf	0	0	0
@@ -13024,6 +13033,7 @@ lhiasee_v	0	0	0
 lhiaseyder_nm	0	0	0
 lhiasit_a	0	0	0
 lhiass_nm	0	0	0
+lhiassagh_nm	0	lhiassaghyn	0
 lhiassaghey_nm	0	0	lhiasaghey_nm
 lhiass ard-cheeill_n	0	0	0
 lhiass-ayr_nm	0	0	0
@@ -14199,6 +14209,7 @@ mean-eashit_a	0	0	0
 Mean Fouyir_nf	0	0	0
 mean-howleyder_nm	0	0	0
 mean-linney_nf	0	0	0
+meannal_nm	0	0	meanal_nm
 meanoie_n	0	1	mean oie_n
 mean oie_n	0	0	0
 mean-oie_n	0	1	mean oie_n
@@ -16168,6 +16179,7 @@ obbree hallooin_n	0	0	0
 obbree ooreyder_n	0	0	0
 obbree raad_n	0	0	0
 obbree-snaidey laatshagh_n	0	0	0
+obbreyder_nm	0	0	0
 obbrinagh_a	0	0	0
 obbrinagh_nm	0	0	0
 obbrinaght_nf	0	0	0
@@ -21204,6 +21216,7 @@ streeuailtagh_a	0	0	0
 streeuailtagh_nm	0	0	0
 streeuailtys_nm	0	0	0
 streeu chirkinagh_nf	0	0	stroo kirkinagh_nm
+streeue_nf	0	1	streeu_nf
 streighraght_nf	0	0	0
 streighraght houree_nf	0	0	0
 streighryaght_nf	0	0	streighraght_nf
@@ -22607,8 +22620,9 @@ turrysagh1_nm	0	0	turrysagh_nm
 turrysagh iu_n	0	0	0
 turrysaght_nf	0	0	0
 turrys ayn as er ash_n	0	0	0
-turrysid_nm	0	1	turrysaght_nf
+turrysid_nm	0	0	turrysaght_nf
 turryssagh_nm	0	0	turrysagh_nm
+turryssid_nm	0	0	turrysaght_nf
 turtle_nm	0	0	turtyl_nm
 turtyl_nm	0	0	0
 Tuscaan_nf	0	1	0
