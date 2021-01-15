@@ -242,27 +242,3 @@ https://universaldependencies.org/u/dep/orphan.html
 
 Also first "goll rish" or "gollrish" as preposition;
 prefer treating this with "fixed" so the two will be the same
-
-=============
-
-Irish corrections?
-
-(1)  obl -> xcomp:pred
-a bhí as cló  in sent 769 
-cosúil leis in sent 1541
-*fhios ag*   e.g. 2356, and elsewhere as well
-and then what about "bhí a fhios agam faoi/ar"
-
-(2)
-ó foilsíodh
-ó + VERB  always tagged ADP but these are SCONJ; Ó Dónaill ó.II
-
-(3)
-obl not nmod for PP after verbal nouns
-
-(4) 
-ó X go Y   inconsistent?
-
-(5) beagnach + number inconsistent  (chaill mé beagnach 100 euro; "I lost almost 100 euro" is not the same as "I almost lost 100 euro"!)
-
-(6) Séard PROPN?
