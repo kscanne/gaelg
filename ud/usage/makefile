@@ -29,7 +29,7 @@ frasleabhar.pdf: frasleabhar.tex parsed.tex brollach.tex
 
 # SAFE
 clean:
-	rm -f parsed.json Usage Usage-b frasleabhar.log frasleabhar.out frasleabhar.toc frasleabhar.pdf frasleabhar.aux usage.conllu
+	rm -f parsed.json Usage Usage-b frasleabhar.log frasleabhar.out frasleabhar.toc frasleabhar.pdf frasleabhar.aux usage.conllu parsed.tex
 
 ##########################################################################
 # remainder no longer needed...                                          #
