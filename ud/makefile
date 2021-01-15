@@ -4,7 +4,7 @@ DIST=${HOME}/seal/UD_Manx-Cadhan
 # NEVER EDIT THIS MANUALLY; make fixes in the various input files
 gv_cadhan-ud-test.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl alice/alice_gv.conllu
 	rm -f $@
-	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/usage.conllu | perl usage/todist.pl) > $@
+	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) > $@
 	#cp -f $@ $(DIST)
 	#chmod 644 $(DIST)/$@
 	chmod 400 $@
