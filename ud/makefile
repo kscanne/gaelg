@@ -5,8 +5,8 @@ DIST=${HOME}/seal/UD_Manx-Cadhan
 gv_cadhan-ud-test.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl alice/alice_gv.conllu
 	rm -f $@
 	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) > $@
-	#cp -f $@ $(DIST)
-	#chmod 644 $(DIST)/$@
+	cp -f $@ $(DIST)
+	chmod 644 $(DIST)/$@
 	chmod 400 $@
 
 tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv gold.tsv alts.tsv
