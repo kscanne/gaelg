@@ -84,7 +84,7 @@ sub add_oveerrides {
 }
 
 sub add_gold_tags {
-	open(GOLD, "<:utf8", "gold.tsv") or die "Could not open gold.tsv: $!";
+	open(GOLD, "<:utf8", "all.conllu") or die "Could not open all.conllu: $!";
 	while (<GOLD>) {
 		chomp;
 		next if (m/^$/);

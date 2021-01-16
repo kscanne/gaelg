@@ -1,5 +1,5 @@
 #!/bin/bash
-CONLLU=${HOME}/gaeilge/ga2gv/ga2gv/ud/gv_cadhan-ud-test.conllu
+CONLLU=${HOME}/gaeilge/ga2gv/ga2gv/ud/all.conllu
 echo "Sentence count:" `cat ${CONLLU} | egrep '^# sent_id' | wc -l`
 echo "Word count:" `cat ${CONLLU} | egrep '^[0-9]+[^-]' | wc -l`
 cd ${HOME}/seal/temp/udtools

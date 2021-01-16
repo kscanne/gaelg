@@ -1,15 +1,23 @@
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 DIST=${HOME}/seal/UD_Manx-Cadhan
 
-# NEVER EDIT THIS MANUALLY; make fixes in the various input files
-gv_cadhan-ud-test.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl alice/alice_gv.conllu
-	rm -f $@
-	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) > $@
-	cp -f $@ $(DIST)
-	chmod 644 $(DIST)/$@
-	chmod 400 $@
+# NEVER EDIT THESE MANUALLY; make fixes in the various input files
+gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu: all.conllu
+	rm -f gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
+	cp all.conllu gv_cadhan-ud-test.conllu
+	touch gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
+	chmod 444 gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
+	cp -f gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu $(DIST)
+	chmod 644 $(DIST)/gv_cadhan-ud-test.conllu $(DIST)/gv_cadhan-ud-dev.conllu $(DIST)/gv_cadhan-ud-train.conllu
 
-tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv gold.tsv alts.tsv
+# NEVER EDIT THIS MANUALLY; make fixes in the various input files
+all.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl alice/alice_gv.conllu
+	rm -f $@
+	#(cat gold/gold.tsv | perl gold/todist.pl) | perl dupecheck.pl > $@
+	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) | perl dupecheck.pl > $@
+	chmod 444 $@
+
+tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv all.conllu alts.tsv
 	cat ${GA2GV}/GV.txt | perl tag2ud.pl | sort -u | sort -k1,1 > $@
 
 udpipe-dict.tsv: tagdict.tsv
@@ -48,7 +56,7 @@ corpus.txt:
 # of editing edit.tsv, tagged.tsv, or pedit.tsv!
 clean: 
 	rm -f corpus.txt ig-output.txt draft.tsv edit.tsv tagged.tsv pedit.tsv
-	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu udpipe-dict.tsv
+	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu udpipe-dict.tsv all.conllu
 	rm -f *.udpipe gv.vec
 
 FORCE:
