@@ -26570,7 +26570,7 @@ eu => agaibh
 \n => \n
 <div text="Have you had enough?"/> => <div text="Have you had enough?"/>
 Vel => An bhfuil
-dy => do
+dty => do
 haie => sháith
 ayd => agat
 ? => ?
