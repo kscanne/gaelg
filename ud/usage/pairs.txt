@@ -108853,6 +108853,7 @@ ny mast'ayd => i do mheasc
 , => ,
 ashoon => a náisiún
 aym => agam
+. => .
 \n => \n
 <div text="The dogs have put their heads in the pot."/> => <div text="The dogs have put their heads in the pot."/>
 Ta => Tá
