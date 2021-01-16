@@ -3,7 +3,9 @@ corpus.txt
 draft.tsv
 edit.tsv
 gold-corpus.txt
+gv_cadhan-ud-dev.conllu
 gv_cadhan-ud-test.conllu
+gv_cadhan-ud-train.conllu
 gv.udpipe
 ig-output.txt
 numbers.tsv
