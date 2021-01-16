@@ -21729,8 +21729,10 @@ Thaimish_nf	0	1	0
 thaish_nf	0	0	0
 thalhear_nm	thalhearagh	0	0
 thalhearaght_nf	0	0	0
+thalhearys_nm	0	1	thalhearaght_nf
 thalk noa_a	0	0	0
 thalk-noa_a	0	0	thalk noa_a
+thallearys_nm	0	1	thalhearaght_nf
 thallium_nm	0	0	0
 thalloo_nm	thallooin	0	0
 thalloo1_nm	0	0	thalloo_nm
