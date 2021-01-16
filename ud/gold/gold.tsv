@@ -2182,11 +2182,11 @@
 2	eiraght	eiraght	NOUN	_	_	1	nsubj	_	oidhreacht
 3	cloan	cloan	NOUN	_	_	2	nmod	_	clann
 4	Venjamin	Benjamin	PROPN	_	_	3	nmod	_	Bhiniáimin
-5	,	,	PUNCT	_	_	9	punct	_	,
-6	cordail	cordail	ADP	_	_	9	case	_	de réir
-7	rish	rish	ADP	_	_	6	fixed	_	
+5	,	,	PUNCT	_	_	6	punct	_	,
+6	cordail	cordail	NOUN	_	_	2	acl	_	de réir
+7	rish	rish	ADP	_	_	9	case	_	
 8	nyn	nyn	DET	_	_	9	nmod:poss	_	a
-9	gynneeyn	kynney	NOUN	_	_	2	nmod	_	gciníocha
+9	gynneeyn	kynney	NOUN	_	_	6	obl	_	gciníocha
 10	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_085
@@ -2778,8 +2778,8 @@
 14	ad	ad	PRON	_	_	12	obl	_	
 15	foddey	foddey	ADV	_	_	16	advmod	_	i bhfad níos mó
 16	smoo	mooar	ADJ	_	_	12	amod	_	
-17	ny	ny	SCONJ	_	_	18	mark	_	a bhfuil
-18	ta	bee	VERB	_	_	16	advcl	_	
+17	ny	ny	SCONJ	_	_	18	mark	_	ná
+18	ta	bee	VERB	_	_	16	advcl	_	mar atá
 19	ymmyrchagh	ymmyrchagh	ADJ	_	_	18	xcomp:pred	_	riachtanach
 20	son	son	ADP	_	_	21	case	_	ar son
 21	shirveish	shirveish	NOUN	_	_	19	obl	_	seirbhís
@@ -2865,11 +2865,11 @@
 49	thieyn	thie	NOUN	_	_	48	nmod	_	tithe
 50	nagh	nagh	PART	_	_	51	mark	_	nach bhfuil
 51	vel	bee	VERB	_	_	44	acl:relcl	_	
-52	,	,	PUNCT	_	_	55	punct	_	,
-53	cordail	cordail	ADP	_	_	55	case	_	de réir
-54	rish	rish	ADP	_	_	53	fixed	_	
-55	CIG	CIG	PROPN	_	_	51	obl	_	CIG
-56	,	,	PUNCT	_	_	55	punct	_	,
+52	,	,	PUNCT	_	_	53	punct	_	,
+53	cordail	cordail	NOUN	_	_	51	advcl	_	de réir
+54	rish	rish	ADP	_	_	55	case	_	
+55	CIG	CIG	PROPN	_	_	53	obl	_	CIG
+56	,	,	PUNCT	_	_	53	punct	_	,
 57	goaill	goaill	NOUN	_	_	51	xcomp	_	ag gabháil
 58	stiagh	stiagh	ADV	_	_	57	advmod	_	isteach
 59	kiarailyn	kiarail	NOUN	_	_	57	obj	_	forálacha
@@ -2899,7 +2899,7 @@
 1-2	V'ad	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	_	0	root	_	Bhí siad
 2	ad	ad	PRON	_	_	1	nsubj	_	
-3	ooilley	ooilley	ADV	_	_	1	advmod	_	uile
+3	ooilley	ooilley	ADJ	_	_	2	amod	_	uile
 4	ayns	ayns	ADP	_	_	5	case	_	in aisce
 5	fardail	fardail	NOUN	_	_	1	xcomp:pred	_	
 6	.	.	PUNCT	_	_	1	punct	_	.
@@ -4304,8 +4304,8 @@
 47	d'obbree	obbree	VERB	_	_	2	parataxis	_	d'oibrigh
 48	eh	eh	PRON	_	_	47	nsubj	_	sé
 49	shen	shen	PRON	_	_	47	obj	_	sin
-50	ny	ny	SCONJ	_	_	51	mark	_	a raibh
-51	va	bee	VERB	_	_	49	acl	_	
+50	ny	ny	PART	_	_	51	mark	_	a bhí
+51	va	bee	VERB	_	_	49	acl:relcl	_	
 52	olk	olk	ADJ	_	_	51	xcomp:pred	_	olc
 53	ayns	ayns	ADP	_	_	54	case	_	i bhfianaise
 54	shilley	shilley	NOUN	_	_	52	obl	_	
@@ -4322,9 +4322,9 @@
 # sent_id = aa_164
 # text = Foddee dy row eh Eairkag, agh cha nel shin shickyr mychione shen.
 # text_ga = B'fhéidir gur earc é, ach nílimid cinnte faoi sin.
-1	Foddee	foddee	ADV	_	_	0	root	_	B'fhéidir
+1	Foddee	fod	VERB	_	_	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go raibh
-3	row	bee	VERB	_	_	1	csubj:cop	_	
+3	row	bee	VERB	_	_	1	ccomp	_	
 4	eh	eh	PRON	_	_	3	nsubj	_	sé
 5	Eairkag	eairkag	NOUN	_	_	3	xcomp:pred	_	ina Earc
 6	,	,	PUNCT	_	_	9	punct	_	,
@@ -4622,9 +4622,9 @@
 
 # sent_id = aa_173
 # text = Foddee dy screeuym mychione nyn ngoair, ny smoo jeeragh, goair my ven.
-1	Foddee	foddee	ADV	_	_	0	root	_	B'fhéidir
+1	Foddee	fod	VERB	_	_	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go
-3	screeuym	screeu	VERB	_	_	1	csubj:cop	_	scríobhfaidh mé
+3	screeuym	screeu	VERB	_	_	1	ccomp	_	scríobhfaidh mé
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
 5	nyn	nyn	DET	_	_	6	nmod:poss	_	bhur
 6	ngoair	goayr	NOUN	_	_	3	obl	_	ngabhair
@@ -4760,7 +4760,7 @@
 31	eh	eh	PRON	_	_	28	obl	_	
 32	,	,	PUNCT	_	_	34	punct	_	,
 33	ny	ny	CCONJ	_	_	34	cc	_	nó
-34	foddee	fod	VERB	_	_	15	conj	_	is féidir leat
+34	foddee	fod	VERB	_	_	15	conj	_	d'fhéadfá
 35	oo	oo	PRON	_	_	34	nsubj	_	
 36	creck	creck	NOUN	_	_	34	xcomp	_	díol
 37	eh	eh	PRON	_	_	36	obj	_	é
@@ -6789,9 +6789,9 @@
 4	jeh	jeh	ADP	_	_	5	case	_	di
 5	ee	ee	PRON	_	_	2	obl	_	
 6	ooilley	ooilley	NOUN	_	_	2	obj	_	gach a raibh an
-7	ny	ny	SCONJ	_	_	8	mark	_	
+7	ny	ny	PART	_	_	8	mark	_	
 8-9	va'n	_	_	_	_	_	_	_	
-8	va	bee	VERB	_	_	6	acl	_	
+8	va	bee	VERB	_	_	6	acl:relcl	_	
 9	'n	yn	DET	_	_	10	det	_	
 10	dooinney	dooinney	NOUN	_	_	8	nsubj	_	fear
 11	er	er	ADP	_	_	13	case	_	tar éis déanamh
@@ -7659,9 +7659,9 @@
 4	eh	eh	PRON	_	_	5	nmod	_	é
 5	yiarn	yiarn	NOUN	_	_	2	nsubj	_	iarann
 6	son	son	ADP	_	_	8	case	_	ar son
-7	dagh	dagh	DET	_	_	8	det	_	gach uile
-8	ooilley	ooilley	NOUN	_	_	2	obl	_	
-9	organe	organe	NOUN	_	_	8	nmod	_	orgán
+7	dagh	dagh	DET	_	_	9	det	_	gach uile
+8	ooilley	ooilley	DET	_	_	9	det	_	
+9	organe	organe	NOUN	_	_	3	obl	_	orgán
 10	bioag	bioag	NOUN	_	_	9	nmod	_	orgánach
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	faggys	faggys	ADV	_	_	7	advmod	_	beagnach

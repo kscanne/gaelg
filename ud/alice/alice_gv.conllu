@@ -1105,9 +1105,9 @@
 3	lhisagh	lhis	VERB	_	_	0	root	_	_
 4	oo	oo	PRON	_	_	3	nsubj	_	_
 5	gra	gra	NOUN	_	_	3	xcomp	_	_
-6	ny	ny	PART	_	_	7	mark	_	_
+6	ny	ny	PRON	_	_	5	obj	_	_
 7-8	t'ou	_	_	_	_	_	_	_	_
-7	t'	bee	VERB	_	_	5	ccomp	_	_
+7	t'	bee	VERB	_	_	6	acl:relcl	_	_
 8	ou	ou	PRON	_	_	7	nsubj	_	_
 9	çheet	çheet	NOUN	_	_	7	xcomp	_	_
 10-11	er	_	_	_	_	_	_	_	SpaceAfter=No
