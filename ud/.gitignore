@@ -1,3 +1,4 @@
+all.conllu
 alts.tsv
 corpus.txt
 draft.tsv
@@ -7,8 +8,11 @@ gv_cadhan-ud-dev.conllu
 gv_cadhan-ud-test.conllu
 gv_cadhan-ud-train.conllu
 gv.udpipe
+gv-best.udpipe
+gv.vec
 ig-output.txt
 numbers.tsv
 pedit.tsv
 tagdict.tsv
 tagged.tsv
+udpipe-dict.tsv
