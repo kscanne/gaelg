@@ -36,8 +36,8 @@ gv.udpipe: gv_cadhan-ud-test.conllu
 gv-dict.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv
 	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --tagger "dictionary_file=udpipe-dict.tsv" --train $@
 
-gv-best.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv gv.vec
-	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=50" --tagger "dictionary_file=udpipe-dict.tsv" --parser "embedding_form_file=gv.vec" --train $@
+gv-best.udpipe: all.conllu udpipe-dict.tsv gv.vec
+	cat all.conllu | udpipe --tokenizer "epochs=50" --tagger "dictionary_file=udpipe-dict.tsv" --parser "embedding_form_file=gv.vec" --train $@
 
 gv.vec: ${HOME}/seal/idirlamha/gv/word2vec/gv.vec
 	cp ${HOME}/seal/idirlamha/gv/word2vec/gv.vec $@
@@ -56,7 +56,7 @@ corpus.txt:
 # of editing edit.tsv, tagged.tsv, or pedit.tsv!
 clean: 
 	rm -f corpus.txt ig-output.txt draft.tsv edit.tsv tagged.tsv pedit.tsv
-	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu udpipe-dict.tsv all.conllu
+	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu udpipe-dict.tsv all.conllu
 	rm -f *.udpipe gv.vec
 
 FORCE:
