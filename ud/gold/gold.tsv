@@ -23,12 +23,12 @@
 5	ve	ve	NOUN	_	_	1	xcomp	_	bheith
 6-7	eu	_	_	_	_	_	_	_	
 6	ec	ec	ADP	_	_	7	case	_	agaibh
-7	shiu	shiu	PRON	_	_	5	obl	_	
+7	shiu	shiu	PRON	_	_	5	xcomp:pred	_	
 8	nagh	nagh	PART	_	_	9	mark	_	nach
-9	nee	she	AUX	_	_	5	ccomp	_	
+9	nee	she	AUX	_	_	12	cop	_	
 10	er	er	ADP	_	_	12	case	_	ar
 11	y	yn	DET	_	_	12	det	_	an
-12	ghraih	graih	NOUN	_	_	9	ccomp	_	ghrá
+12	ghraih	graih	NOUN	_	_	3	acl	_	ghrá
 13-14	euish	_	_	_	_	_	_	_	
 13	ec	ec	ADP	_	_	14	case	_	agaibhse
 14	shiuish	shiu	PRON	_	_	12	nmod	_	
@@ -750,7 +750,7 @@
 
 # sent_id = aa_031
 # text = Cha noddym geddyn barriaght er!
-1	Cha	cha	PART	_	_	2	advmod	_	Ní féidir liom
+1	Cha	cha	PART	_	_	2	mark	_	Ní féidir liom
 2	noddym	fod	VERB	_	_	0	root	_	
 3	geddyn	geddyn	NOUN	_	_	2	xcomp	_	ag fáil
 4	barriaght	barriaght	NOUN	_	_	3	obj	_	bua
@@ -928,12 +928,12 @@
 2	nee	jean	VERB	_	_	0	root	_	déanfaidh
 3	Fer-ny-gherjagh	fer-ny-gherjagh	PROPN	_	_	2	nsubj	_	An tAbhcóide
 4	,	,	PUNCT	_	_	5	punct	_	,
-5	ta	bee	VERB	_	_	9	obl	_	tá
-6	shen	shen	PRON	_	_	5	fixed	_	sin
+5	ta	bee	VERB	_	_	2	parataxis	_	tá
+6	shen	shen	PRON	_	_	5	nsubj	_	sin
 7	,	,	PUNCT	_	_	5	punct	_	,
 8	yn	yn	DET	_	_	9	det	_	an
-9	Spyrryd	spyrryd	PROPN	_	_	3	appos	_	Spiorad Naomh
-10	Noo	Noo	PROPN	_	_	9	amod	_	
+9	Spyrryd	spyrryd	NOUN	_	_	3	appos	_	Spiorad Naomh
+10	Noo	noo	ADJ	_	_	9	amod	_	
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	eh	eh	PRON	_	_	3	appos	_	sé
 13	nee	jean	VERB	_	_	12	acl:relcl	_	an
@@ -1268,7 +1268,7 @@
 3-4	rhyt's	_	_	_	_	_	_	_	
 3	rish	rish	ADP	_	_	4	case	_	leatsa
 4	uss	oo	PRON	_	_	0	root	_	
-5	eisht	eisht	ADV	_	_	4	nmod	_	ansin
+5	eisht	eisht	ADV	_	_	4	advmod	_	ansin
 6	ta	bee	VERB	_	_	4	acl:relcl	_	tá
 7	mee	mee	PRON	_	_	6	nsubj	_	mé
 8	loayrt	loayrt	NOUN	_	_	6	xcomp	_	ag labhairt
@@ -1899,7 +1899,7 @@
 15	dy	dy	DET	_	_	17	det	_	gach uile
 16	chooilley	chooilley	DET	_	_	15	fixed	_	
 17	nhee	nhee	NOUN	_	_	14	nsubj	_	rud
-18	dorraghey	dorraghey	ADJ	_	_	14	xcomp	_	ag dorchú
+18	dorraghey	dorraghey	ADJ	_	_	14	xcomp:pred	_	ag dorchú
 19	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_073
@@ -3210,7 +3210,7 @@
 2	eh	eh	PRON	_	_	1	nsubj	_	sé
 3	stiagh	stiagh	ADV	_	_	1	advmod	_	isteach
 4	yn	yn	DET	_	_	5	det	_	an
-5	kiarroo	kiarroo	ADJ	_	_	1	obj	_	ceathrú
+5	kiarroo	kiarroo	NOUN	_	_	1	obl	_	ceathrú
 6	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_123
@@ -3225,8 +3225,8 @@
 8	as	as	CCONJ	_	_	9	cc	_	agus
 9	hie	gow	VERB	_	_	4	conj	_	chuaigh
 10	eh	eh	PRON	_	_	9	nsubj	_	sé
-11	stiagh	stiagh	ADV	_	_	14	case	_	isteach
-12	ayns	ayns	ADP	_	_	11	fixed	_	sna
+11	stiagh	stiagh	ADV	_	_	9	advmod	_	isteach
+12	ayns	ayns	ADP	_	_	14	case	_	sna
 13	ny	ny	DET	_	_	14	det	_	
 14	Arryltee	arryltagh	NOUN	_	_	9	obl	_	Sásta
 15	Yernagh	Yernagh	ADJ	_	_	14	amod	_	Éireannacha
@@ -5616,7 +5616,7 @@
 2	da	da	ADP	_	_	3	case	_	dó
 3	eh	eh	PRON	_	_	1	obl	_	
 4	tuittym	tuittym	NOUN	_	_	1	xcomp	_	titim
-5	neealloo	neealloo	ADV	_	_	4	obj	_	i bhfanntais
+5	neealloo	neealloo	ADV	_	_	4	advmod	_	i bhfanntais
 6	agh	agh	CCONJ	_	_	7	cc	_	ach
 7	ren	jean	VERB	_	_	1	conj	_	rinne
 8	eh	eh	PRON	_	_	7	nsubj	_	sé
@@ -7277,7 +7277,7 @@
 5	cha	cha	PART	_	_	6	mark	_	níl
 6	vel	bee	VERB	_	_	0	root	_	
 7	ad	ad	PRON	_	_	6	nsubj	_	siad
-8	shoh	shoh	PRON	_	_	7	det	_	seo
+8	shoh	shoh	DET	_	_	7	det	_	seo
 9	nish	nish	ADV	_	_	6	advmod	_	anois
 10	er	er	ADP	_	_	11	case	_	tar éis cur
 11	choyrt	coyrt	NOUN	_	_	6	xcomp	_	
