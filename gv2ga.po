@@ -10583,6 +10583,7 @@ msgid "brouteraght_nf"
 msgstr "luifearnach_nf"
 
 # def. article in both langs
+# also with alt spelling y Vrusheyl
 # GAOL: ~
 msgid "Brussyl_nf"
 msgstr "Bruiséil_nf"
@@ -31885,6 +31886,11 @@ msgstr "feirm_nf"
 msgid "ferrym keeshagh_n"
 msgstr "tuairisceán cánach"
 
+# cf ungendered screeudeyr_nm
+# GAOL: fer_nm+screeuee_a
+msgid "fer screeuee_nm"
+msgstr "scríbhneoir_nm;rúnaí_nm"
+
 # GAOL: ~;fer_nm+seyr_a
 msgid "fer-seyr_nm"
 msgstr "fear saor"
@@ -37257,6 +37263,10 @@ msgstr "glúin_nf"
 # GAOL: <d glioon_nf
 msgid "glioon_v"
 msgstr "sléacht_v"
+
+# GAOL: glioon_nf+-ag
+msgid "glioonag_nf"
+msgstr "ríomhaire glúine"
 
 # GAOL: glioon_nf+-een
 msgid "gliooneen_nf"
@@ -55245,6 +55255,11 @@ msgstr "móimint_nf"
 msgid "momentum_nm"
 msgstr "móiminteam_nm"
 
+# lenited in corpus "Vonaco"
+# GAOL: ~
+msgid "Monaco_nf"
+msgstr "Monacó_nm"
+
 # GAOL: ~
 msgid "monagraf_nm"
 msgstr "monagraf_nm"
@@ -70383,6 +70398,7 @@ msgstr "scríobh_v"
 msgid "screeuaght_nf"
 msgstr "scríbhneoireacht_nf;litríocht_nf"
 
+# also masc. fer-screeuee, same two senses
 # GAOL: scríbhneoir_nm;screeu_v+-eyr
 msgid "screeudeyr_nm"
 msgstr "scríbhneoir_nm;rúnaí_nm"

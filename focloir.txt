@@ -2851,6 +2851,7 @@ broutaght_nf	0	0	0
 brouteraght_nf	0	0	0
 bruight_v	bruightey_nm	0	brooight_v
 bruightey_nm	0	0	brooightey_nm
+Brusheyl_nf	0	1	Brussyl_nf
 Brussyl_nf	0	1	0
 bry_nf	0	1	braih_nf
 brynnagh_a	0	0	0
@@ -3829,6 +3830,7 @@ chelleeragh_adv	0	0	çhelleeragh_adv
 chelleragh_adv	0	0	çhelleeragh_adv
 çhellinsh_nf	0	1	0
 çhell-inshagh_nm	0	1	çhellinsh_nf
+chellooish_nf	0	0	çhellveeish_nf
 çhellooishan_nm	0	0	çhellveeishan_nm
 çhellurium_nm	0	0	0
 chellvane_nm	0	0	çhellvane_nm
@@ -4446,6 +4448,7 @@ clout king_n	0	0	0
 clowan_nm	0	0	0
 clowanit_a	0	0	0
 club_nm	0	0	0
+club1_nm	0	clubbyn	club_nm
 cluge_nf	0	0	0
 cluic_nf	0	0	0
 cluicagh_a	0	0	cluigagh_a
@@ -8581,6 +8584,8 @@ fer ronney_nm	0	0	0
 ferroogh_nm	0	0	0
 ferrym_nm	0	0	0
 ferrym keeshagh_n	0	0	0
+fer screeuee_nm	0	fir	0
+fer-screeuee_nm	0	fir-screeuee	fer screeuee_nm
 fer-seyr_nm	0	fir-seyr	0
 fer shee_nm	0	0	0
 fer shenn screeuyn_nm	0	0	0
@@ -9988,6 +9993,7 @@ gliontan_nm	0	0	0
 glioon_nf	0	0	0
 glioon_v	gliooney_n	0	0
 glioon1_nf	gliooney	0	glioon_nf
+glioonag_nf	0	0	0
 gliooneen_nf	0	0	0
 gliooney_n	0	0	0
 glioonjys_nm	0	1	0
@@ -10515,6 +10521,7 @@ guilley cayrn_n	0	0	0
 guilley cloie_n	0	0	0
 guilleydagh_a	0	0	0
 guilley drid_n	0	0	0
+guilley-drid_n	0	guillyn-drid	guilley drid_n
 guilleydys_nm	0	1	0
 guilley erin_n	0	0	0
 guilley glass_n	0	0	0
@@ -10943,7 +10950,7 @@ imnea_nm	0	0	0
 imnea1_nm	0	imneaghyn	imnea_nm
 imneagh_a	0	0	0
 impir_nm	0	0	0
-impiraght_nf	0	0	0
+impiraght_nf	0	impiraghtyn	0
 impiroil_a	0	0	0
 impiroilaghys_nm	0	0	0
 impressionagh_a	0	0	0
@@ -12800,6 +12807,7 @@ Lerphooyl_nf	0	1	Lerphoyll_nf
 Lerphoyl_nf	0	1	Lerphoyll_nf
 Lerphoyll_nf	0	0	0
 Lerphul_nf	0	1	Lerphoyll_nf
+Lerpool_nf	0	1	Lerphoyll_nf
 Lerpoyll_nf	0	1	Lerphoyll_nf
 lesbeeagh_a	0	0	0
 lesbeeagh_nf	0	0	0
@@ -14845,6 +14853,7 @@ moltoil_a	0	0	0
 molybdenum_nm	0	0	0
 moment_nf	0	0	0
 momentum_nm	0	0	0
+Monaco_nf	0	1	0
 monagraf_nm	0	0	0
 monagram_nm	0	0	0
 monalittagh_a	0	0	0
