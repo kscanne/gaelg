@@ -72125,7 +72125,7 @@ msgstr "iardheisceart_nm"
 msgid "sheear hwoaie_nm"
 msgstr "iarthuaisceart_nm"
 
-# GAO:
+# GAOL:
 msgid "sheeb_nm"
 msgstr "scread_nf"
 
