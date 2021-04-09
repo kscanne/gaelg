@@ -59475,7 +59475,7 @@ msgstr "frithchléireach_a"
 
 # GAOL: noi-+corpeen_nm
 msgid "noi-chorpeen_nm"
-msgstr "antashubstaint_nf"
+msgstr "antasubstaint_nf"
 
 # de Bh.
 # GAOL: noi_prep+cliaghtey_nm
