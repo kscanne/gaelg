@@ -14,8 +14,9 @@ Usage: pairs.txt ${HOME}/seal/caighdean/detokenize.pl
 #parsed.conllu: pairs.txt ${HOME}/seal/caighdean/detokenize.pl ${HOME}/gaeilge/ga2gv/ga2gv/ud/gv-all.udpipe
 #	cat pairs.txt |  perl ${HOME}/seal/caighdean/detokenize.pl -s | sed 's/^<div[^>]*>/\n/' | udpipe --tokenize --tag --parse ${HOME}/gaeilge/ga2gv/ga2gv/ud/gv-all.udpipe > $@
 
-usage.conllu: parsed.conllu
-	cat parsed.conllu | perl todist.pl > $@
+# we do this directly in ../makefile when building all.conllu
+#usage.conllu: parsed.conllu
+#	cat parsed.conllu | perl todist.pl > $@
 
 parsed.json: parsed.conllu conllu2json.pl ${HOME}/gaeilge/ga2gv/ga2gv/focloir.txt addenda.txt
 	cat parsed.conllu | perl conllu2json.pl > $@
@@ -29,7 +30,7 @@ frasleabhar.pdf: frasleabhar.tex parsed.tex brollach.tex
 
 # SAFE
 clean:
-	rm -f parsed.json Usage Usage-b frasleabhar.log frasleabhar.out frasleabhar.toc frasleabhar.pdf frasleabhar.aux usage.conllu parsed.tex
+	rm -f parsed.json Usage Usage-b frasleabhar.log frasleabhar.out frasleabhar.toc frasleabhar.pdf frasleabhar.aux parsed.tex
 
 ##########################################################################
 # remainder no longer needed...                                          #
