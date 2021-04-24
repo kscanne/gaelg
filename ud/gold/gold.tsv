@@ -24,7 +24,7 @@
 6-7	eu	_	_	_	_	_	_	_	
 6	ec	ec	ADP	_	_	7	case	_	agaibh
 7	shiu	shiu	PRON	_	_	5	xcomp:pred	_	
-8	nagh	nagh	PART	_	_	9	mark	_	nach
+8	nagh	nagh	PART	_	_	12	mark	_	nach
 9	nee	she	AUX	_	_	12	cop	_	
 10	er	er	ADP	_	_	12	case	_	ar
 11	y	yn	DET	_	_	12	det	_	an
@@ -51,7 +51,7 @@
 30	as	as	CCONJ	_	_	31	cc	_	agus
 31	bee-jee	bee	VERB	_	_	27	conj	_	bígí
 32-33	nyn-dhost	_	_	_	_	_	_	_	
-32	nyn	nyn	DET	_	_	33	nmod:poss	_	in bhur dtost
+32	nyn	nyn	DET	_	Number=Plur|Person=2|Poss=Yes	33	nmod:poss	_	in bhur dtost
 33	dhost	tost	NOUN	_	_	31	xcomp:pred	_	
 34	son	son	ADP	_	_	36	case	_	do na
 35	ny	ny	DET	_	_	36	det	_	
@@ -427,7 +427,7 @@
 4	toshiaght	toshiaght	NOUN	_	_	2	obj	_	
 5	dy	dy	ADP	_	_	6	case	_	
 6	vriaght	briaght	NOUN	_	_	4	xcomp	_	fhiosrú
-7	nyn	nyn	DET	_	_	8	nmod:poss	_	ina measc
+7	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	8	nmod:poss	_	ina measc
 8	mast'	mastey	NOUN	_	_	6	obl	_	
 9-10	oc	_	_	_	_	_	_	_	
 9	ec	ec	ADP	_	_	10	case	_	
@@ -465,7 +465,7 @@
 18	t'	bee	VERB	_	_	10	advcl	_	tá siad
 19	ad	ad	PRON	_	_	18	nsubj	_	
 20	cur	cur	NOUN	_	_	18	xcomp	_	ag cur
-21	nyn	nyn	DET	_	_	22	nmod:poss	_	a
+21	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	ghing	kione	NOUN	_	_	20	obj	_	gcinn
 23	cooidjagh	cooidjagh	ADV	_	_	20	advmod	_	le chéile
 24	,	,	PUNCT	_	_	26	punct	_	,
@@ -963,7 +963,7 @@
 35	chooilley	chooilley	DET	_	_	34	fixed	_	
 36	nhee	nhee	NOUN	_	_	32	obj	_	rud
 37	gys	gys	ADP	_	_	39	case	_	go dtí
-38	nyn	nyn	DET	_	_	39	nmod:poss	_	bhur
+38	nyn	nyn	DET	_	Number=Plur|Person=2|Poss=Yes	39	nmod:poss	_	bhur
 39	gooinaghtyn	cooinaghtyn	NOUN	_	_	32	obl	_	gcuimhne
 40	,	,	PUNCT	_	_	41	punct	_	,
 41-42	cre-erbee	_	_	_	_	_	_	_	
@@ -986,7 +986,7 @@
 3	ny	ny	DET	_	_	4	det	_	na
 4	cherubim	cherub	NOUN	_	_	2	nsubj	_	ceiribíní
 5	magh	magh	ADV	_	_	2	advmod	_	amach
-6	nyn	nyn	DET	_	_	8	nmod:poss	_	a
+6	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	8	nmod:poss	_	a
 7	daa	daa	NUM	_	_	8	nummod	_	dhá
 8	skian	skian	NOUN	_	_	2	obj	_	sciathán
 9	harrish	harrish	ADP	_	_	10	case	_	thar
@@ -1019,13 +1019,13 @@
 4	Israel	Israel	PROPN	_	_	2	nsubj	_	Iosrael
 5	,	,	PUNCT	_	_	8	punct	_	,
 6	as	as	CCONJ	_	_	8	cc	_	agus
-7	nyn	nyn	DET	_	_	8	nmod:poss	_	ina
+7	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	8	nmod:poss	_	ina
 8	shanstyr	shanstyr	NOUN	_	_	4	conj	_	seanóir
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	fir-oik	fer-oik	NOUN	_	_	4	conj	_	oifigigh
 11	,	,	PUNCT	_	_	14	punct	_	,
 12	as	as	CCONJ	_	_	14	cc	_	agus
-13	nyn	nyn	DET	_	_	14	nmod:poss	_	ina
+13	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	14	nmod:poss	_	ina
 14	mriwnyn	briw	NOUN	_	_	4	conj	_	mbreithiúna
 15	,	,	PUNCT	_	_	16	punct	_	,
 16	shassoo	shassoo	NOUN	_	_	2	xcomp	_	seasamh
@@ -1187,7 +1187,7 @@
 7	nearey	nearey	NOUN	_	_	6	xcomp:pred	_	náire
 8	foshlit	foshlit	ADJ	_	_	7	amod	_	oscailte
 9	da	da	ADP	_	_	11	case	_	do bhur
-10	nyn	nyn	DET	_	_	11	nmod:poss	_	
+10	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	11	nmod:poss	_	
 11	noidyn	noid	NOUN	_	_	8	obl	_	naimhde
 12	:	:	PUNCT	_	_	14	punct	_	:
 13	eer	eer	ADV	_	_	14	advmod	_	fiú
@@ -1529,7 +1529,7 @@
 10	s'	she	AUX	_	_	11	cop	_	is
 11	neu-shickyr	neu-shickyr	ADJ	_	_	3	conj	_	neamhchinnte
 12	ta	bee	VERB	_	_	11	csubj:cleft	_	atá
-13	nyn	nyn	DET	_	_	14	nmod:poss	_	ár
+13	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	14	nmod:poss	_	ár
 14	saaseyn	saase	NOUN	_	_	12	nsubj	_	n-áiseanna
 15	!	!	PUNCT	_	_	3	punct	_	!
 
@@ -1709,7 +1709,7 @@
 17	chur	cur	NOUN	_	_	1	xcomp	_	
 18	scansh	scansh	NOUN	_	_	17	obj	_	tábhacht
 19	da	da	ADP	_	_	21	case	_	dár
-20	nyn	nyn	DET	_	_	21	nmod:poss	_	
+20	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	21	nmod:poss	_	
 21	ashoon	ashoon	NOUN	_	_	17	obl	_	náisiún
 22-24	ain-hene	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	againn féin
@@ -1829,7 +1829,7 @@
 1	T'	bee	VERB	_	_	0	root	_	Tá siadsan
 2	adsyn	ad	PRON	_	_	1	nsubj	_	
 3	er	er	ADP	_	_	5	case	_	á gcur
-4	nyn	nyn	DET	_	_	5	nmod:poss	_	
+4	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	
 5	goyrt	coyrt	NOUN	_	_	1	xcomp	_	
 6-7	fo-chosh	_	_	_	_	_	_	_	
 6	fo	fo	ADP	_	_	7	case	_	faoi chois
@@ -2185,7 +2185,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	,
 6	cordail	cordail	NOUN	_	_	2	acl	_	de réir
 7	rish	rish	ADP	_	_	9	case	_	
-8	nyn	nyn	DET	_	_	9	nmod:poss	_	a
+8	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	9	nmod:poss	_	a
 9	gynneeyn	kynney	NOUN	_	_	6	obl	_	gciníocha
 10	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -2843,7 +2843,7 @@
 28	oor	oor	NOUN	_	_	26	obj	_	huaire
 29	as	as	CCONJ	_	_	30	cc	_	agus
 30	feed	feed	NUM	_	_	28	conj	_	fiche
-31	nyn	nyn	DET	_	_	32	nmod:poss	_	ina
+31	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	32	nmod:poss	_	ina
 32	drostey	trostey	NOUN	_	_	26	obl	_	dtroscadh
 33	as	as	SCONJ	_	_	34	mark	_	agus
 34	ad	ad	PRON	_	_	5	advcl	_	iad
@@ -3469,7 +3469,7 @@
 4	'n	yn	DET	_	_	5	det	_	
 5	pobble	pobble	NOUN	_	_	3	nmod	_	pobal
 6	er	er	ADP	_	_	8	case	_	á dtionól
-7	nyn	nyn	DET	_	_	8	nmod:poss	_	
+7	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	8	nmod:poss	_	
 8	jaglym	çhaglym	NOUN	_	_	2	xcomp	_	
 9	noi	noi	ADP	_	_	10	case	_	in aghaidh
 10	Jeremiah	Jeremiah	PROPN	_	_	8	obl	_	Irimia
@@ -3764,7 +3764,7 @@
 16	as	as	SCONJ	_	_	17	mark	_	agus
 17	adsyn	ad	PRON	_	_	5	advcl	_	iadsan
 18	er	er	ADP	_	_	20	case	_	á
-19	nyn	nyn	DET	_	_	20	nmod:poss	_	
+19	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	20	nmod:poss	_	
 20	maroo	marroo	NOUN	_	_	17	xcomp	_	
 21	nish	nish	ADV	_	_	20	advmod	_	anois
 22	)	)	PUNCT	_	_	17	punct	_	)
@@ -4228,7 +4228,7 @@
 13	;	;	PUNCT	_	_	18	punct	_	;
 14	agh	agh	CCONJ	_	_	18	cc	_	ach
 15	ayns	ayns	ADP	_	_	17	case	_	ina
-16	nyn	nyn	DET	_	_	17	nmod:poss	_	
+16	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	17	nmod:poss	_	
 17	obbraghyn	obbyr	NOUN	_	_	18	obl	_	oibreacha
 18-19	t'ad	_	_	_	_	_	_	_	
 18	t'	bee	VERB	_	_	1	conj	_	atá siad
@@ -4247,7 +4247,7 @@
 31	obbyr	obbyr	NOUN	_	_	35	obl	_	obair
 32	vie	mie	ADJ	_	_	31	amod	_	mhaith
 33	er	er	ADP	_	_	35	case	_	á
-34	nyn	nyn	DET	_	_	35	nmod:poss	_	
+34	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	35	nmod:poss	_	
 35	groghey	croghey	NOUN	_	_	20	conj	_	gcrochadh
 36	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -4358,7 +4358,7 @@
 2	ta	bee	VERB	_	_	0	root	_	
 3	ooilley	ooilley	NOUN	_	_	2	nsubj	_	hiomlán
 4	er	er	ADP	_	_	6	case	_	ar a son
-5	nyn	nyn	DET	_	_	6	nmod:poss	_	
+5	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	6	nmod:poss	_	
 6	son	son	NOUN	_	_	2	xcomp:pred	_	
 7	hene	hene	PRON	_	_	6	nmod	_	féin
 8	,	,	PUNCT	_	_	9	punct	_	,
@@ -4399,7 +4399,7 @@
 17	y	yn	DET	_	_	18	det	_	an
 18	cheayn	keayn	NOUN	_	_	15	obl	_	fharraige
 19	er	er	ADP	_	_	21	case	_	ar ár son
-20	nyn	nyn	DET	_	_	21	nmod:poss	_	
+20	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	21	nmod:poss	_	
 21	son	son	NOUN	_	_	15	obl	_	
 22	,	,	PUNCT	_	_	24	punct	_	,
 23	dy	dy	ADP	_	_	24	case	_	le tabhairt
@@ -4592,7 +4592,7 @@
 9	mysh	mysh	ADP	_	_	7	fixed	_	
 10	shiaght	shiaght	NUM	_	_	11	nummod	_	seacht
 11	mraane	ben	NOUN	_	_	1	obj	_	mná
-12	nyn	nyn	DET	_	_	13	nmod:poss	_	ina suí
+12	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	13	nmod:poss	_	ina suí
 13	soie	soie	NOUN	_	_	11	xcomp	_	
 14	er	er	ADP	_	_	16	case	_	ar
 15	y	yn	DET	_	_	16	det	_	an
@@ -4626,7 +4626,7 @@
 2	dy	dy	PART	_	_	3	mark	_	go
 3	screeuym	screeu	VERB	_	_	1	ccomp	_	scríobhfaidh mé
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
-5	nyn	nyn	DET	_	_	6	nmod:poss	_	bhur
+5	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	6	nmod:poss	_	bhur
 6	ngoair	goayr	NOUN	_	_	3	obl	_	ngabhair
 7	,	,	PUNCT	_	_	10	punct	_	,
 8	ny	ny	PART	_	_	9	mark	_	níos mó
@@ -6263,7 +6263,7 @@
 1	Ta	bee	VERB	_	_	0	root	_	Tá
 2	plannyn	plan	NOUN	_	_	1	nsubj	_	pleananna
 3	er	er	ADP	_	_	5	case	_	á gcur
-4	nyn	nyn	DET	_	_	5	nmod:poss	_	
+4	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	
 5	gur	cur	NOUN	_	_	1	xcomp	_	
 6-7	roish	_	_	_	_	_	_	_	
 6	roish	roish	ADP	_	_	7	case	_	roimh
@@ -6605,7 +6605,7 @@
 # text = Bee-jee er nyn arrey, shass-jee shickyr 'sy chredjue, ymmyrk-jee shiu hene myr deiney, bee-jee dunnal.
 1	Bee-jee	bee	VERB	_	_	0	root	_	Bígí
 2	er	er	ADP	_	_	4	case	_	ar bhur n-aire
-3	nyn	nyn	DET	_	_	4	nmod:poss	_	
+3	nyn	nyn	DET	_	Number=Plur|Person=2|Poss=Yes	4	nmod:poss	_	
 4	arrey	arrey	NOUN	_	_	1	xcomp:pred	_	
 5	,	,	PUNCT	_	_	6	punct	_	,
 6	shass-jee	shass	VERB	_	_	1	conj	_	seasaigí
@@ -6759,12 +6759,12 @@
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	ny	ny	CCONJ	_	_	8	cc	_	ná
 8	croymmey	croymmey	NOUN	_	_	5	conj	_	cromadh
-9	nyn	nyn	DET	_	_	10	nmod:poss	_	ina
+9	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	10	nmod:poss	_	ina
 10	gleaysh	cleaysh	NOUN	_	_	8	obj	_	gléas
 11	dy	dy	ADP	_	_	12	case	_	le tiontú
 12	hyndaa	çhyndaa	NOUN	_	_	8	xcomp	_	
 13	veih	veih	ADP	_	_	15	case	_	óna
-14	nyn	nyn	DET	_	_	15	nmod:poss	_	
+14	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	15	nmod:poss	_	
 15	olk	olk	NOUN	_	_	12	obl	_	olc
 16	,	,	PUNCT	_	_	19	punct	_	,
 17	gyn	gyn	ADP	_	_	19	case	_	gan
@@ -7239,7 +7239,7 @@
 2	Thurrock	Thurrock	PROPN	_	_	1	nsubj	_	Thurrock
 3	as	as	CCONJ	_	_	4	cc	_	agus
 4	Southend-on-Sea	Southend-on-Sea	PROPN	_	_	2	conj	_	Southend-on-Sea
-5	nyn	nyn	DET	_	_	6	nmod:poss	_	a
+5	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	6	nmod:poss	_	a
 6	lughtyn-reilley	lught-reilley	NOUN	_	_	1	xcomp:pred	_	n-údaráis
 7	unnaneagh	unnaneagh	ADJ	_	_	6	amod	_	uatha
 8	nagh	nagh	PART	_	_	9	mark	_	nach bhfuil
@@ -7387,7 +7387,7 @@
 21	:	:	PUNCT	_	_	22	punct	_	:
 22	nee	jean	VERB	_	_	2	conj	_	déanfaidh
 23	ad	ad	PRON	_	_	22	nsubj	_	siad
-24	nyn	nyn	DET	_	_	25	nmod:poss	_	a
+24	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	25	nmod:poss	_	a
 25	laue	laue	NOUN	_	_	27	obj	_	lámh
 26	y	y	ADP	_	_	27	mark	_	a
 27	lhie	lhie	NOUN	_	_	22	xcomp	_	leagan

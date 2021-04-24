@@ -137,7 +137,7 @@ main clause starting at 12 (bee) doesn't have a predicate; should
 I change token 3 to xcomp:pred?  cf the Irish with similar word order,
 but notice they graft the bit about pillars to the main clause with le!
 
-aa_166 (see also aa_256)
+aa_166 (see also aa_256 and in fact aa_001!!!)
 "cha nee" is a negative copula, but UD doesn't allow any
 words to modify a copula (so "cha" can't point to "nee" as a mark).
 There's only one example of a similar modifier of the copula in the 

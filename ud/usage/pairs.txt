@@ -46606,7 +46606,7 @@ kyndagh rish => ciontach ann
 \n => \n
 <div text="I am not friends with him any more."/> => <div text="I am not friends with him any more."/>
 Cha nel shin => Nílimid
-nyn => ina
+nyn => inár
 gaarjyn => gcairde
 nish => anois
 . => .
