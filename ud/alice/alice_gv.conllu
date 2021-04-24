@@ -568,7 +568,7 @@
 7	Lugh	lugh	NOUN	_	_	5	nsubj	_	_
 8	Vagheragh	magher	NOUN	_	_	7	nmod	_	_
 9	gyn	gyn	ADP	_	_	10	case	_	_
-10	smooinaght	ssmooinaght	NOUN	_	_	5	obl	_	_
+10	smooinaght	smooinaght	NOUN	_	_	5	obl	_	_
 11	erbee	erbee	ADJ	_	_	10	amod	_	_
 12	y	yn	DET	_	_	13	det	_	_
 13	keayrt	keayrt	NOUN	_	_	5	obl	_	_

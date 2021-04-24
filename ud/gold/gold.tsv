@@ -5668,7 +5668,7 @@
 14	Cashtal	cashtal	NOUN	_	_	13	nsubj	_	Caisleán
 15	Phurt	purt	NOUN	_	_	14	nmod	_	Phort
 16	ny	ny	DET	_	_	17	det	_	na
-17	h-Inshey	innis_nf	NOUN	_	_	15	nmod	_	hInse
+17	h-Inshey	innis	NOUN	_	_	15	nmod	_	hInse
 18	troggit	troggit	ADJ	_	_	13	xcomp:pred	_	tógtha
 19	er	er	ADP	_	_	20	case	_	ar
 20	boayl	boayl	NOUN	_	_	18	obl	_	ball
