@@ -438,7 +438,7 @@
 14-15	jeu	_	_	_	_	_	_	_	
 14	jeh	jeh	ADP	_	_	15	case	_	díobh
 15	ad	ad	PRON	_	_	13	obl	_	
-16	yinnagh	jean	VERB	_	_	13	acl:relcl	_	dhéanfadh
+16	yinnagh	jean	VERB	_	Mood=Cnd	13	acl:relcl	_	dhéanfadh
 17	shoh	shoh	PRON	_	_	16	obj	_	seo
 18	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -767,7 +767,7 @@
 3	ad	ad	PRON	_	_	2	nsubj	_	
 4	credjal	credjal	NOUN	_	_	2	xcomp	_	ag creidiúint
 5	dy	dy	PART	_	_	6	mark	_	go
-6	yinnagh	jean	VERB	_	_	4	ccomp	_	ndéanfadh
+6	yinnagh	jean	VERB	_	Mood=Cnd	4	ccomp	_	ndéanfadh
 7	saase	saase	NOUN	_	_	6	nsubj	_	modh
 8	ennagh	ennagh	ADJ	_	_	7	amod	_	éigin
 9	ad	ad	PRON	_	_	11	obj	_	iad
@@ -1340,7 +1340,7 @@
 5	ushagyn	ushag	NOUN	_	_	2	vocative	_	éin
 6	!	!	PUNCT	_	_	2	punct	_	!
 7	’	’	PUNCT	_	_	2	punct	_	’
-8	yinnagh	jean	VERB	_	_	2	parataxis	_	ndéanfaidís
+8	yinnagh	jean	VERB	_	Mood=Cnd	2	parataxis	_	ndéanfaidís
 9	ad	ad	PRON	_	_	8	nsubj	_	
 10	yllagh	yllagh	NOUN	_	_	8	xcomp	_	béic
 11	magh	magh	ADV	_	_	10	advmod	_	amach
@@ -1372,7 +1372,7 @@
 7	,	,	PUNCT	_	_	10	punct	_	,
 8	myr	myr	SCONJ	_	_	10	mark	_	mar
 9	dy	dy	PART	_	_	10	mark	_	go
-10	beagh	bee	VERB	_	_	4	advcl	_	mbeadh
+10	beagh	bee	VERB	_	Mood=Cnd	4	advcl	_	mbeadh
 11	shiu	shiu	PRON	_	_	10	nsubj	_	sibh
 12	dy	dy	ADP	_	_	13	case	_	á dtarraingt
 13	hayrn	tayrn	NOUN	_	_	10	xcomp	_	
@@ -1488,7 +1488,7 @@
 9	laghyn-seyrey	laa-seyr	NOUN	_	_	7	obj	_	laethanta saoire
 10	as	as	CCONJ	_	_	12	cc	_	agus
 11	dy	dy	PART	_	_	12	mark	_	go ndéanfadh
-12	jinnagh	jean	VERB	_	_	5	conj	_	
+12	jinnagh	jean	VERB	_	Mood=Cnd	5	conj	_	
 13	y	yn	DET	_	_	14	det	_	an
 14	ghrian	grian	NOUN	_	_	12	nsubj	_	ghrian
 15	Valearagh	Balearagh	ADJ	_	_	14	amod	_	Bhailéaracha
@@ -2473,7 +2473,7 @@
 4	chaghteryn	chaghter	NOUN	_	_	2	nsubj	_	teachtairí
 5	feer	feer	ADV	_	_	6	advmod	_	fíor
 6	tastagh	tastagh	ADJ	_	_	2	xcomp:pred	_	aireach
-7	darragh	tar	VERB	_	_	6	ccomp	_	go dtiocfadh
+7	darragh	tar	VERB	_	Mood=Cnd	6	ccomp	_	go dtiocfadh
 8	fockle	fockle	NOUN	_	_	7	nsubj	_	focal
 9	erbee	erbee	ADJ	_	_	8	amod	_	ar bith
 10-11	voish	_	_	_	_	_	_	_	
@@ -2949,13 +2949,13 @@
 2	cho	cho	ADV	_	_	1	fixed	_	
 3	mennick	mennick	ADJ	_	_	5	advmod	_	minic
 4	as	as	SCONJ	_	_	5	mark	_	agus
-5	oddagh	fod	VERB	_	_	11	advcl	_	d'fhéadfadh
+5	oddagh	fod	VERB	_	Mood=Cnd	11	advcl	_	d'fhéadfadh
 6	eh	eh	PRON	_	_	5	nsubj	_	sé
 7	shen	shen	PRON	_	_	9	obj	_	sin
 8	y	y	ADP	_	_	9	mark	_	a
 9	yannoo	jannoo	NOUN	_	_	5	xcomp	_	dhéanamh
 10	,	,	PUNCT	_	_	5	punct	_	,
-11	yinnagh	jean	VERB	_	_	0	root	_	dhéanfadh
+11	yinnagh	jean	VERB	_	Mood=Cnd	0	root	_	dhéanfadh
 12	eh	eh	PRON	_	_	11	nsubj	_	sé
 13	gliooney	gliooney	NOUN	_	_	11	xcomp	_	sléachtadh
 14	sheese	sheese	ADV	_	_	13	advmod	_	síos
@@ -4390,7 +4390,7 @@
 8	aarkey	faarkey	NOUN	_	_	4	nmod	_	fharraige
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	dy	dy	PART	_	_	11	mark	_	dá
-11	niarragh	abbyr	VERB	_	_	2	advcl	_	ndéarfá
+11	niarragh	abbyr	VERB	_	Mood=Cnd	2	advcl	_	ndéarfá
 12	oo	oo	PRON	_	_	11	nsubj	_	
 13	,	,	PUNCT	_	_	14	punct	_	,
 14	Quoi	quoi	PRON	_	_	15	nsubj	_	Cé
@@ -4898,7 +4898,7 @@
 5	er	er	ADP	_	_	6	case	_	orthu
 6	ad	ad	PRON	_	_	3	xcomp:pred	_	
 7	nagh	nagh	PART	_	_	8	mark	_	nach
-8	jinnagh	jean	VERB	_	_	3	ccomp	_	ndéanfadh
+8	jinnagh	jean	VERB	_	Mood=Cnd	3	ccomp	_	ndéanfadh
 9	sleih	sleih	NOUN	_	_	8	nsubj	_	slua
 10	elley	elley	ADJ	_	_	9	amod	_	eile
 11	toiggal	toiggal	NOUN	_	_	8	xcomp	_	tuiscint
@@ -5679,7 +5679,7 @@
 # sent_id = aa_215
 # text = Cha jinnagh peiagh erbee feddyn magh my-e-chione.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
-2	jinnagh	jean	VERB	_	_	0	root	_	dhéanfadh
+2	jinnagh	jean	VERB	_	Mood=Cnd	0	root	_	dhéanfadh
 3	peiagh	peiagh	NOUN	_	_	2	nsubj	_	duine
 4	erbee	erbee	ADJ	_	_	3	amod	_	ar bith
 5	feddyn	feddyn	NOUN	_	_	2	xcomp	_	fáil amach
@@ -5883,7 +5883,7 @@
 # text_ga = "Is dócha gur ag fiafraí díot féin atá tú cén fáth nár chuir mé mo lámh i do thimpeall," arsa an Bandiúc tar éis scaithimh, "Is é an fáth atá leis go bhfuil amhras orm faoi mheon an lasairéin sin agatsa.
 # text_en = “I dare say you’re wondering why I don’t put my arm round your waist,” the Duchess said after a pause: “the reason is, that I’m doubtful about the temper of your flamingo.
 1	"	"	PUNCT	_	_	2	punct	_	"
-2	Yiarrins	abbyr	VERB	_	_	0	root	_	Déarfainnse
+2	Yiarrins	abbyr	VERB	_	Mood=Cnd|Number=Sing|Person=1	0	root	_	Déarfainnse
 3	dy	dy	PART	_	_	4	mark	_	go bhfuil
 4	vel	bee	VERB	_	_	2	ccomp	_	
 5	oo	oo	PRON	_	_	4	nsubj	_	tú
@@ -6239,7 +6239,7 @@
 9	:	:	PUNCT	_	_	12	punct	_	:
 10	agh	agh	CCONJ	_	_	12	cc	_	ach
 11	dy	dy	PART	_	_	12	mark	_	go
-12	beagh	bee	VERB	_	_	20	advcl	_	mbeadh
+12	beagh	bee	VERB	_	Mood=Cnd	20	advcl	_	mbeadh
 13	eh	eh	PRON	_	_	12	nsubj	_	sé
 14	er	er	ADP	_	_	16	case	_	á fhoilsiú
 15	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	

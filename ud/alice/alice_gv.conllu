@@ -172,16 +172,16 @@
 2	sampleyr	sampleyr	NOUN	_	_	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	dy	dy	PART	_	_	5	mark	_	_
-5	beagh	bee	VERB	_	_	9	advcl	_	_
+5	beagh	bee	VERB	_	Mood=Cnd	9	advcl	_	_
 6	uss	oo	PRON	_	_	5	nsubj	_	_
 7	çheu-sthie	çheu-sthie	ADJ	_	_	5	xcomp:pred	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	oddagh	fod	VERB	_	_	0	root	_	_
+9	oddagh	fod	VERB	_	Mood=Cnd	0	root	_	_
 10	oo	oo	PRON	_	_	9	nsubj	_	_
 11	crankal	crankal	NOUN	_	_	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	as	as	CCONJ	_	_	14	cc	_	_
-14	oddins	fod	VERB	_	_	9	conj	_	_
+14	oddins	fod	VERB	_	Mood=Cnd|Number=Sing|Person=1	9	conj	_	_
 15	lhiggey	lhiggey	NOUN	_	_	14	xcomp	_	_
 16	stiagh	stiagh	ADV	_	_	15	advmod	_	_
 17	oo	oo	PRON	_	_	15	obj	_	SpaceAfter=No
@@ -229,7 +229,7 @@
 # text = Yinnagh ish cur ee erash lhee dy bieau!
 # text_ga = Thabharfadh sise an Luch ar ais!
 # text_gd = Gheibheadh ise air ais i ann an ùine gun a bhith fada!
-1	Yinnagh	jean	VERB	_	_	0	root	_	_
+1	Yinnagh	jean	VERB	_	Mood=Cnd	0	root	_	_
 2	ish	ee	PRON	_	_	1	nsubj	_	_
 3	cur	cur	NOUN	_	_	1	xcomp	_	_
 4	ee	ee	PRON	_	_	3	obj	_	_
@@ -506,7 +506,7 @@
 3	eh	eh	PRON	_	_	2	nsubj	_	_
 4	jeeaghyn	jeeaghyn	NOUN	_	_	2	xcomp	_	_
 5	nagh	nagh	PART	_	_	6	mark	_	_
-6	beagh	bee	VERB	_	_	4	ccomp	_	_
+6	beagh	bee	VERB	_	Mood=Cnd	4	ccomp	_	_
 7	shen	shen	PRON	_	_	6	nsubj	_	_
 8	taghyrt	taghyrt	NOUN	_	_	6	xcomp	_	_
 9	noadyr	noadyr	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -1068,7 +1068,7 @@
 # text_gd = “Mar sin, cha bu chòir dhut bruidhinn,” ars An t-Adair.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Cha	cha	PART	_	_	3	mark	_	_
-3	lhisagh	lhis	VERB	_	_	0	root	_	_
+3	lhisagh	lhis	VERB	_	Mood=Cnd	0	root	_	_
 4	oo	oo	PRON	_	_	3	nsubj	_	_
 5	loayrt	loayrt	NOUN	_	_	3	xcomp	_	_
 6	eisht	eisht	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -1086,7 +1086,7 @@
 1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Cre	cre	PRON	_	_	0	root	_	_
 3	hon	hon	NOUN	_	_	2	nsubj	_	_
-4	lhisagh	lhis	VERB	_	_	3	acl	_	_
+4	lhisagh	lhis	VERB	_	Mood=Cnd	3	acl	_	_
 5	eh	eh	PRON	_	_	4	nsubj	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	2	punct	_	_
@@ -1102,7 +1102,7 @@
 # text_gd = “Uill bu chòir dhut a ràdh na tha thu a' ciallachadh,” chuir Geàrr a' Mhàirt ri sin.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Eisht	Eisht	ADV	_	_	3	advmod	_	_
-3	lhisagh	lhis	VERB	_	_	0	root	_	_
+3	lhisagh	lhis	VERB	_	Mood=Cnd	0	root	_	_
 4	oo	oo	PRON	_	_	3	nsubj	_	_
 5	gra	gra	NOUN	_	_	3	xcomp	_	_
 6	ny	ny	PRON	_	_	5	obj	_	_
