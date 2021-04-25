@@ -16152,7 +16152,7 @@ msgid "clooieagh_a"
 msgstr "clúmhach_a"
 
 # catkin (used in botanical sense on WP, in plural too)
-# GAOL: clooie_nf+ny_art+kayt_nf
+# GAOL: clooie_nf+ny_art+kayt_nm
 msgid "clooie ny gayt_nf"
 msgstr "caitín_nm"
 
@@ -29779,7 +29779,7 @@ msgstr "eireaballach_a;feamach_a"
 msgid "famman carryn laadee_n"
 msgstr "scuaine vaigíní"
 
-# GAOL: famman_nm+kayt_nf
+# GAOL: famman_nm+kayt_nm
 msgid "famman chiyt_n"
 msgstr "tiomóid_nf"
 
@@ -43715,39 +43715,40 @@ msgstr "cailif_nm"
 msgid "kay phlooghee_nf"
 msgstr "smúitcheo_nm;toitcheo_nm"
 
+# fem. in Phil Kelly but always masc in corpus
 # cognates in HLSM
 # GAOL: ~
-msgid "kayt_nf"
+msgid "kayt_nm"
 msgstr "cat_nm"
 
 # ocelot
-# GAOL: kayt_nf+Americaanagh_a
+# GAOL: kayt_nm+Americaanagh_a
 msgid "kayt Americaanagh_n"
 msgstr "osalat_nm"
 
 # marten
-# GAOL: kayt_nf+billey_nm
+# GAOL: kayt_nm+billey_nm
 msgid "kayt billey_n"
 msgstr "cat crainn"
 
-# GAOL: ~;kayt_nf+-een
+# GAOL: ~;kayt_nm+-een
 msgid "kayteen_nm"
 msgstr "caitín_nm"
 
-# GAOL: ~;kayt_nf+firryn_a
+# GAOL: ~;kayt_nm+firryn_a
 msgid "kayt firryn_n"
 msgstr "cat fireann"
 
 # lit "cat Indiach"
-# GAOL: kayt_nf+Injinagh_a
+# GAOL: kayt_nm+Injinagh_a
 msgid "kayt injinagh_n"
 msgstr "mongús_nm"
 
-# GAOL: ~;kayt_nf+mooir_nf
+# GAOL: ~;kayt_nm+mooir_nf
 msgid "kayt marrey_n"
 msgstr "cat mara"
 
-# GAOL: ~;kayt_nf+-oil
+# GAOL: ~;kayt_nm+-oil
 msgid "kaytoil_a"
 msgstr "catúil_a"
 
@@ -77177,7 +77178,7 @@ msgstr "súileach_a"
 msgid "sooillag lhiantagh_nf"
 msgstr "lionsa tadhaill"
 
-# GAOL: ~;sooill_nf+kayt_nf
+# GAOL: ~;sooill_nf+kayt_nm
 msgid "sooill chayt_nf"
 msgstr "súil chait"
 
