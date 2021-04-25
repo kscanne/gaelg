@@ -20,7 +20,7 @@
 15	va	bee	VERB	_	_	2	conj	_	_
 16	'n	yn	DET	_	_	17	det	_	_
 17	Venrein	benrein	NOUN	_	_	15	nsubj	_	_
-18	ny	ny	DET	_	_	19	nmod:poss	_	_
+18	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	_
 19	tost	tost	NOUN	_	_	15	xcomp:pred	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -600,7 +600,7 @@
 18	va	bee	VERB	_	_	1	conj	_	_
 19	Ealish	Ealish	PROPN	_	_	18	nsubj	_	_
 20	faagit	faagit	ADJ	_	_	18	xcomp:pred	_	_
-21	ny	ny	DET	_	_	22	nmod:poss	_	_
+21	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	_
 22	lomarcan	lomarcan	NOUN	_	_	20	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -738,7 +738,7 @@
 2	hoshiaght	toshiaght	NOUN	_	_	1	nmod	_	_
 3	—	—	PUNCT	_	_	4	punct	_	_
 4	briwnys	briwnys	NOUN	_	_	1	parataxis	_	_
-5	ny	ny	DET	_	_	6	nmod:poss	_	_
+5	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
 6	lurg	lurg	NOUN	_	_	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1164,7 +1164,7 @@
 6	va	bee	VERB	_	_	1	conj	_	_
 7	'n	yn	DET	_	_	8	det	_	_
 8	Venrein	benrein	NOUN	_	_	6	nsubj	_	_
-9	ny	ny	DET	_	_	10	nmod:poss	_	_
+9	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	_
 10	shassoo	shassoo	NOUN	_	_	6	xcomp:pred	_	_
 11-12	rhymboo	_	_	_	_	_	_	_	_
 11	roish	roish	ADP	_	_	12	case	_	_
