@@ -21205,7 +21205,7 @@ gleashtan => gluaisteán
 \n => \n
 <div text="He crashed into a shop window."/> => <div text="He crashed into a shop window."/>
 Huitt => Thit
-e => a
+eh => sé
 gour => i ndiaidh
 e => a
 vullee => mhullaigh
@@ -21429,10 +21429,12 @@ argid => airgead
 . => .
 \n => \n
 <div text="He conciliated in their favour."/> => <div text="He conciliated in their favour."/>
-Voll => Mhol
+Voll => Mheall
 eh => sé
 er => ar
-e heu ad => a dtaobh
+e => a
+heu => thaobh
+ad => iad
 . => .
 \n => \n
 <div text="He committed suicide."/> => <div text="He committed suicide."/>

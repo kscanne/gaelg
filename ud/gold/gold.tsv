@@ -280,7 +280,7 @@
 15	lheh	lheh	NOUN	_	_	13	nmod	_	
 16	,	,	PUNCT	_	_	8	punct	_	,
 17	as	as	CCONJ	_	_	19	cc	_	agus
-18	e	e	DET	_	_	19	nmod:poss	_	a
+18	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	a
 19	ostyllyn	ostyl	NOUN	_	_	8	obl	_	dheisceabail
 20-21	marish	_	_	_	_	_	_	_	
 20	marish	marish	ADP	_	_	21	case	_	leis
@@ -518,7 +518,7 @@
 8	as	as	CCONJ	_	_	9	cc	_	agus
 9	farg	farg	NOUN	_	_	1	obl	_	fearg
 10	ayns	ayns	ADP	_	_	12	case	_	ina
-11	e	e	DET	_	_	12	nmod:poss	_	
+11	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	
 12	cree	cree	NOUN	_	_	9	nmod	_	croí
 13	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -552,7 +552,7 @@
 23	Rachel	Rachel	PROPN	_	_	10	appos	_	Rachel
 24	keayney	keayney	NOUN	_	_	23	acl	_	caoineadh
 25	son	son	ADP	_	_	27	case	_	dá
-26	e	e	DET	_	_	27	nmod:poss	_	
+26	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	27	nmod:poss	_	
 27	cloan	cloan	NOUN	_	_	24	obl	_	clann
 28	,	,	PUNCT	_	_	31	punct	_	,
 29-31	er-yn-oyr	_	_	_	_	_	_	_	
@@ -722,7 +722,7 @@
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	lhie	lhie	VERB	_	_	0	root	_	leag
 3	eh	eh	PRON	_	_	2	nsubj	_	sé
-4	e	e	DET	_	_	5	nmod:poss	_	a
+4	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	a
 5	laueyn	laue	NOUN	_	_	2	obj	_	lámha
 6-7	er	_	_	_	_	_	_	_	
 6	er	er	ADP	_	_	7	case	_	air
@@ -734,7 +734,7 @@
 12-13	da	_	_	_	_	_	_	_	
 12	da	da	ADP	_	_	13	case	_	dó
 13	eh	eh	PRON	_	_	10	obl	_	
-14	e	e	DET	_	_	15	nmod:poss	_	
+14	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	15	nmod:poss	_	
 15	churrym	currym	NOUN	_	_	10	obj	_	chúram
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	myr	myr	SCONJ	_	_	18	mark	_	mar a
@@ -866,7 +866,7 @@
 2	dooyrt	abbyr	VERB	_	_	0	root	_	dúirt
 3	eh	eh	PRON	_	_	2	nsubj	_	sé
 4	rish	rish	ADP	_	_	6	case	_	lena
-5	e	e	DET	_	_	6	nmod:poss	_	
+5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	
 6	inneen	inneen	NOUN	_	_	2	obl	_	iníon
 7	,	,	PUNCT	_	_	8	punct	_	,
 8	Cur	cur	VERB	_	_	2	parataxis	_	Tabhair
@@ -1494,7 +1494,7 @@
 15	Valearagh	Balearagh	ADJ	_	_	14	amod	_	Bhailéaracha
 16	foays	foays	NOUN	_	_	12	obj	_	tairbhe
 17	da	da	ADP	_	_	19	case	_	dá
-18	e	e	DET	_	_	19	nmod:poss	_	
+18	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	
 19	charrrey	carrey	NOUN	_	Typo=Yes	12	obl	_	charrrey
 20	lurg	lurg	ADP	_	_	22	case	_	i ndiaidh
 21-22	da	_	_	_	_	_	_	_	
@@ -1573,10 +1573,10 @@
 6	da	da	ADP	_	_	7	case	_	dó
 7	eh	eh	PRON	_	_	3	obl	_	
 8	mychione	mychione	ADP	_	_	10	case	_	faoina
-9	e	e	DET	_	_	10	nmod:poss	_	
+9	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	
 10	mac	mac	NOUN	_	_	4	nmod	_	mac
 11	as	as	CCONJ	_	_	13	cc	_	agus
-12	e	e	DET	_	_	13	nmod:poss	_	a
+12	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	a
 13	hinneenyn	inneen	NOUN	_	_	10	conj	_	hiníonacha
 14	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -1813,7 +1813,7 @@
 2	Mnr	Mnr	NOUN	_	_	1	nsubj	_	An tUas
 3	Shynnagh	Shynnagh	PROPN	_	_	2	flat	_	Sionnach
 4	er	er	ADP	_	_	6	case	_	ar
-5	e	e	DET	_	_	6	nmod:poss	_	a
+5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	a
 6	ven	ben	NOUN	_	_	1	obl	_	bhean
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	ren	jean	VERB	_	_	1	conj	_	a rinne
@@ -1909,7 +1909,7 @@
 3	va	bee	VERB	_	_	9	advcl	_	bhí
 4	Marika	Marika	PROPN	_	_	3	nsubj	_	Marika
 5	er	er	ADP	_	_	7	case	_	os a comhair
-6	e	e	DET	_	_	7	nmod:poss	_	
+6	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	
 7	beealloo	beealloo	NOUN	_	_	3	xcomp:pred	_	
 8	,	,	PUNCT	_	_	3	punct	_	,
 9	c'raad	c'raad	PRON	_	_	0	root	_	cá raibh
@@ -1977,7 +1977,7 @@
 16	Chiarn	chiarn	NOUN	_	_	14	nmod	_	Tiarna
 17	,	,	PUNCT	_	_	20	punct	_	,
 18	as	as	CCONJ	_	_	20	cc	_	agus
-19	e	e	DET	_	_	20	nmod:poss	_	a theach
+19	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	20	nmod:poss	_	a theach
 20	hie	thie	NOUN	_	_	14	conj	_	
 21	hene	hene	PRON	_	_	20	nmod	_	féin
 22	,	,	PUNCT	_	_	24	punct	_	,
@@ -2003,7 +2003,7 @@
 # text_ga = agus sheol a phobal tríd an bhfásach, óir maireann a bhuanghrá go brách.
 # text_en = To him which led his people through the wilderness: for his mercy endureth for ever.
 1	Ren	jean	VERB	_	_	0	root	_	Rinne
-2	e	e	DET	_	_	3	nmod:poss	_	a
+2	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	3	nmod:poss	_	a
 3	phobble	pobble	NOUN	_	_	6	obj	_	phobal
 4	hene	hene	PRON	_	_	3	nmod	_	féin
 5	y	y	ADP	_	_	6	mark	_	a
@@ -2014,7 +2014,7 @@
 10	:	:	PUNCT	_	_	12	punct	_	:
 11	son	son	SCONJ	_	_	12	mark	_	óir tá
 12	ta	bee	VERB	_	_	1	advcl	_	
-13	e	e	DET	_	_	14	nmod:poss	_	a
+13	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	nmod:poss	_	a
 14	vyghin	myghin	NOUN	_	_	12	nsubj	_	thrócaire
 15	farraghtyn	farraghtyn	NOUN	_	_	12	xcomp	_	go brách
 16	son	son	ADP	_	_	18	case	_	
@@ -2094,7 +2094,7 @@
 5	eh	eh	PRON	_	_	3	obl	_	
 6	as	as	CCONJ	_	_	7	cc	_	agus
 7	sheeyney	sheeyney	NOUN	_	_	3	conj	_	síneadh
-8	e	e	DET	_	_	9	nmod:poss	_	a
+8	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	a
 9	laue	laue	NOUN	_	_	7	obj	_	lámh
 10-11	huic	_	_	_	_	_	_	_	
 10	hug	hug	ADP	_	_	11	case	_	chuici
@@ -2260,7 +2260,7 @@
 18	dooyrt	abbyr	VERB	_	_	8	conj	_	dúirt
 19	eh	eh	PRON	_	_	18	nsubj	_	sé
 20	rish	rish	ADP	_	_	22	case	_	lena
-21	e	e	DET	_	_	22	nmod:poss	_	
+21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	
 22	charrey	carrey	NOUN	_	_	18	obl	_	chara
 23	ayns	ayns	ADP	_	_	24	case	_	i mbealach
 24	aght	aght	NOUN	_	_	18	obl	_	
@@ -2343,7 +2343,7 @@
 9	oo	oo	PRON	_	_	7	obl	_	
 10	eh	eh	PRON	_	_	7	obj	_	é
 11	gys	gys	ADP	_	_	13	case	_	chuig
-12	e	e	DET	_	_	13	nmod:poss	_	a
+12	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	a
 13	voir	moir	NOUN	_	_	7	obl	_	mháthair
 14	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -2803,10 +2803,10 @@
 1-2	S'messey	_	_	_	_	_	_	_	
 1	S'	she	AUX	_	_	2	cop	_	Is measa
 2	messey	olk	ADJ	_	_	0	root	_	
-3	e	e	DET	_	_	4	nmod:poss	_	a
+3	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	a
 4	vaggyrt	baggyrt	NOUN	_	_	2	csubj:cop	_	bhagairt
 5	na	na	ADP	_	_	7	case	_	ná
-6	e	e	DET	_	_	7	nmod:poss	_	a
+6	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	a
 7	vuilley	builley	NOUN	_	_	2	obl	_	bhuille
 8	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -2969,7 +2969,7 @@
 22	ve	ve	NOUN	_	_	16	xcomp	_	
 23	livreyit	livreyit	ADJ	_	_	22	xcomp:pred	_	fuascailte
 24	veih	veih	ADP	_	_	26	case	_	óna
-25	e	e	DET	_	_	26	nmod:poss	_	
+25	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	26	nmod:poss	_	
 26	vondiaght	bondiaght	NOUN	_	_	23	obl	_	dhaoirse
 27	liorish	liorish	ADP	_	_	28	case	_	ag
 28	aghin	aghin	NOUN	_	_	23	obl	_	impí
@@ -3326,7 +3326,7 @@
 14	ny	ny	PART	_	_	15	mark	_	níos airde
 15	syrjey	ard	ADJ	_	_	11	xcomp:pred	_	
 16	na	na	ADP	_	_	18	case	_	ná
-17	e	e	DET	_	_	18	nmod:poss	_	a
+17	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	18	nmod:poss	_	a
 18	hiarn	çhiarn	NOUN	_	_	15	obl	_	thiarna
 19	,	,	PUNCT	_	_	21	punct	_	,
 20	ny	ny	CCONJ	_	_	21	cc	_	ná
@@ -3891,7 +3891,7 @@
 1	Bee	bee	VERB	_	_	0	root	_	Beidh
 2	ee	ee	PRON	_	_	1	nsubj	_	sí
 3	fakin	fakin	NOUN	_	_	1	xcomp	_	ag feiceáil
-4	e	e	DET	_	_	5	nmod:poss	_	a
+4	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	a
 5	vraar	braar	NOUN	_	_	3	obj	_	dheartháir
 6	noght	noght	ADV	_	_	3	advmod	_	anocht
 7	.	.	PUNCT	_	_	1	punct	_	.
@@ -3961,7 +3961,7 @@
 20	eshyn	eh	PRON	_	_	18	nmod	_	
 21	va	bee	VERB	_	_	18	csubj:cleft	_	bhí
 22	Ammizabad	Ammizabad	PROPN	_	_	21	nsubj	_	Ammizabad
-23	e	e	DET	_	_	24	nmod:poss	_	a
+23	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	24	nmod:poss	_	a
 24	vac	mac	NOUN	_	_	22	appos	_	mhac
 25	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -4129,7 +4129,7 @@
 18	hrog	trog	VERB	_	_	2	advcl	_	thóg
 19	shiu	shiu	PRON	_	_	18	nsubj	_	sibh
 20	seose	seose	ADV	_	_	18	advmod	_	suas
-21	e	e	DET	_	_	22	nmod:poss	_	a
+21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	bussal	bussal	NOUN	_	_	18	obj	_	ciarsúr
 23	;	;	PUNCT	_	_	24	punct	_	;
 24	saillym	saillym	VERB	_	_	18	parataxis	_	is mian liom
@@ -4259,7 +4259,7 @@
 2	hug	cur	VERB	_	_	0	root	_	chuir
 3	eh	eh	PRON	_	_	2	nsubj	_	sé
 4	er	er	ADP	_	_	6	case	_	ar
-5	e	e	DET	_	_	6	nmod:poss	_	a
+5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	a
 6	chloan	cloan	NOUN	_	_	2	obl	_	chlann
 7	dy	dy	ADP	_	_	8	case	_	le dul
 8	gholl	goll	NOUN	_	_	2	xcomp	_	
@@ -4561,7 +4561,7 @@
 7	voish	voish	ADP	_	_	8	case	_	ó
 8	Divlyn	Divlyn	PROPN	_	_	5	nmod	_	Bhaile Átha Cliath
 9	as	as	CCONJ	_	_	11	cc	_	agus
-10	e	e	DET	_	_	11	nmod:poss	_	a
+10	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	11	nmod:poss	_	a
 11	caarjyn	carrey	NOUN	_	_	5	conj	_	cairde
 12	jannoo	jannoo	NOUN	_	_	4	xcomp	_	ag déanamh
 13	y	yn	DET	_	_	14	det	_	a
@@ -4834,7 +4834,7 @@
 3	dy	dy	PART	_	_	4	mark	_	go díreach
 4	jeeragh	jeeragh	ADJ	_	_	7	advmod	_	
 5	er	er	ADP	_	_	7	case	_	os a chomhair
-6	e	e	DET	_	_	7	nmod:poss	_	
+6	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	
 7	veealloo	beealloo	NOUN	_	_	8	obl	_	
 8	va	bee	VERB	_	_	0	root	_	bhí
 9	cowrey	cowrey	NOUN	_	_	8	nsubj	_	comhartha
@@ -5042,7 +5042,7 @@
 2	dooyrt	abbyr	VERB	_	_	0	root	_	dúirt
 3	paart	paart	NOUN	_	_	2	nsubj	_	cuid
 4	jeh	jeh	ADP	_	_	6	case	_	dá
-5	e	e	DET	_	_	6	nmod:poss	_	
+5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	
 6	ostyllyn	ostyl	NOUN	_	_	3	nmod	_	dheisceabail
 7	eddyr	eddyr	ADP	_	_	8	case	_	idir
 8-9	ad-hene	_	_	_	_	_	_	_	
@@ -5356,7 +5356,7 @@
 12	as	as	CCONJ	_	_	13	cc	_	agus
 13	ghlack	glack	VERB	_	_	9	conj	_	ghlac
 14	ee	ee	PRON	_	_	13	nsubj	_	sí
-15	e	e	DET	_	_	16	nmod:poss	_	a
+15	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	a
 16	h-ayr	ayr	NOUN	_	_	13	obj	_	hathair
 17	as	as	CCONJ	_	_	18	cc	_	agus
 18	hug	cur	VERB	_	_	9	conj	_	thug
@@ -5478,7 +5478,7 @@
 11	soilshaghey	soilshaghey	NOUN	_	_	9	xcomp	_	foilsithe
 12	dy	dy	PART	_	_	13	mark	_	go bhfuil
 13	vel	bee	VERB	_	_	11	ccomp	_	
-14	e	e	DET	_	_	15	nmod:poss	_	a
+14	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	15	nmod:poss	_	a
 15	chliaghtey-lhee	cliaghtey-lhee	NOUN	_	_	13	nsubj	_	chliaghtey-lhee
 16	corrym	corrym	ADJ	_	_	13	xcomp:pred	_	cothrom
 17	rish	rish	ADP	_	_	18	case	_	le
@@ -5518,10 +5518,10 @@
 3	ad	ad	PRON	_	_	2	nsubj	_	
 4	dagh	dagh	DET	_	_	5	det	_	gach
 5	dooinney	dooinney	NOUN	_	_	2	iobj	_	duine
-6	e	e	DET	_	_	7	nmod:poss	_	a
+6	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	a
 7	chliwe	cliwe	NOUN	_	_	2	obj	_	chlaíomh
 8	er	er	ADP	_	_	10	case	_	ar
-9	e	e	DET	_	_	10	nmod:poss	_	a
+9	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	a
 10	chryss	cryss	NOUN	_	_	2	obl	_	chrios
 11	,	,	PUNCT	_	_	13	punct	_	,
 12	as	as	CCONJ	_	_	13	cc	_	agus
@@ -5529,7 +5529,7 @@
 14	David	David	PROPN	_	_	13	nsubj	_	David
 15	myrgeddin	myrgeddin	ADV	_	_	13	advmod	_	freisin
 16	er	er	ADP	_	_	18	case	_	ar
-17	e	e	DET	_	_	18	nmod:poss	_	a
+17	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	18	nmod:poss	_	a
 18	chliwe	cliwe	NOUN	_	_	13	obl	_	chlaíomh
 19	:	:	PUNCT	_	_	21	punct	_	:
 20	as	as	CCONJ	_	_	21	cc	_	agus
@@ -5620,7 +5620,7 @@
 6	agh	agh	CCONJ	_	_	7	cc	_	ach
 7	ren	jean	VERB	_	_	1	conj	_	rinne
 8	eh	eh	PRON	_	_	7	nsubj	_	sé
-9	e	e	DET	_	_	10	nmod:poss	_	a dhícheall
+9	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	a dhícheall
 10	chooid	cooid	NOUN	_	_	7	obj	_	
 11	share	mie	ADJ	_	_	10	amod	_	
 12	dy	dy	ADP	_	_	13	case	_	le tarraingt
@@ -5686,7 +5686,7 @@
 6	magh	magh	ADV	_	_	5	advmod	_	
 7-9	my-e-chione	_	_	_	_	_	_	_	
 7	my	my	ADP	_	_	9	case	_	faoi
-8	e	e	DET	_	_	9	nmod:poss	_	
+8	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	
 9	chione	kione	NOUN	_	_	5	obl	_	
 10	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -6130,7 +6130,7 @@
 35	er	er	ADP	_	_	36	case	_	ar
 36	hannaghtyn	tannaghtyn	NOUN	_	_	33	xcomp	_	fhanacht
 37	lesh	lesh	ADP	_	_	39	case	_	lena
-38	e	e	DET	_	_	39	nmod:poss	_	
+38	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	39	nmod:poss	_	
 39	chremmey	cremmey	NOUN	_	_	36	obl	_	cháineadh
 40	ayns	ayns	ADP	_	_	41	case	_	i
 41	Tinvaal	Tinvaal	PROPN	_	_	36	obl	_	Tinvaal
@@ -6352,7 +6352,7 @@
 20	shen	shen	PRON	_	_	19	fixed	_	
 21	dy	dy	PART	_	_	22	mark	_	go raibh
 22	row	bee	VERB	_	_	1	conj	_	
-23	e	e	DET	_	_	24	nmod:poss	_	a
+23	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	24	nmod:poss	_	a
 24	noidyn	noid	NOUN	_	_	22	nsubj	_	naimhde
 25	ayns	ayns	ADP	_	_	26	case	_	faoi eagla
 26	aggle	aggle	NOUN	_	_	22	xcomp:pred	_	
@@ -6418,7 +6418,7 @@
 8	er	er	ADP	_	_	9	case	_	ormsa
 9	mish	mee	PRON	_	_	1	conj	_	
 10	ta	bee	VERB	_	_	9	csubj:cleft	_	tá
-11	e	e	DET	_	_	12	nmod:poss	_	a
+11	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	a
 12	chree's	cree	NOUN	_	_	10	nsubj	_	chroí is
 13	soit	soit	ADJ	_	_	10	xcomp:pred	_	suite
 14	.	.	PUNCT	_	_	1	punct	_	.
@@ -6675,7 +6675,7 @@
 18	Clague	Clague	PROPN	_	_	16	flat	_	Clague
 19	,	,	PUNCT	_	_	13	punct	_	,
 20	er	er	ADP	_	_	22	case	_	ar
-21	e	e	DET	_	_	22	nmod:poss	_	a
+21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	lhiabbee	lhiabbee	NOUN	_	_	8	xcomp:pred	_	leaba
 23	baase	baase	NOUN	_	_	22	nmod	_	bás
 24	,	,	PUNCT	_	_	25	punct	_	,
@@ -6797,7 +6797,7 @@
 12	n'	ny	DET	_	_	13	nmod:poss	_	
 13	yannoo	jannoo	NOUN	_	_	8	xcomp	_	
 14	er	er	ADP	_	_	16	case	_	ar a son
-15	e	e	DET	_	_	16	nmod:poss	_	
+15	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	
 16	son	son	NOUN	_	_	13	obl	_	
 17	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -6919,7 +6919,7 @@
 2	chooilley	chooilley	DET	_	_	1	fixed	_	
 3	ghooinney	dooinney	NOUN	_	_	0	root	_	dhuine
 4	er	er	ADP	_	_	6	case	_	ar a shon
-5	e	e	DET	_	_	6	nmod:poss	_	
+5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	
 6	hon	son	NOUN	_	_	3	nmod	_	
 7	hene	hene	PRON	_	_	6	nmod	_	féin
 8	as	as	CCONJ	_	_	9	cc	_	agus
@@ -7094,7 +7094,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	,
 13	dys	dys	ADP	_	_	14	case	_	le
 14	jesheenaghey	jesheenaghey	NOUN	_	_	2	advcl	_	maisiú
-15	e	e	DET	_	_	16	nmod:poss	_	a
+15	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	a
 16	baaish	baaish	NOUN	_	_	14	obj	_	báis
 17	eddin	eddin	NOUN	_	_	16	nmod	_	éadan
 18	ayns	ayns	ADP	_	_	19	case	_	i
@@ -7513,7 +7513,7 @@
 23	chyndaa	chyndaa	NOUN	_	_	19	conj	_	iompú
 24	reesht	reesht	ADV	_	_	23	advmod	_	arís
 25	rere	rere	ADP	_	_	27	case	_	de réir
-26	e	e	DET	_	_	27	nmod:poss	_	a
+26	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	27	nmod:poss	_	a
 27	combaaseyn	combaase	NOUN	_	_	23	obl	_	compáis
 28	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -7624,7 +7624,7 @@
 9	As	as	CCONJ	_	_	10	cc	_	Agus
 10	insh-jee	insh	VERB	_	_	2	conj	_	insígí
 11	magh	magh	ADV	_	_	10	advmod	_	amach
-12	e	e	DET	_	_	13	nmod:poss	_	a
+12	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	a
 13	ghoo	goo	NOUN	_	_	10	obj	_	cháil
 14	;	;	PUNCT	_	_	17	punct	_	;
 15	Son	son	SCONJ	_	_	17	mark	_	Ar son
@@ -7643,7 +7643,7 @@
 26	booise	booise	NOUN	_	_	17	obl	_	buíochas
 27	da	da	ADP	_	_	29	case	_	dá
 28-29	'ennym	_	_	_	_	_	_	_	
-28	e	e	DET	_	_	29	nmod:poss	_	
+28	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	29	nmod:poss	_	
 29	ennym	ennym	NOUN	_	_	26	nmod	_	ainm
 30	noo	noo	ADJ	_	_	29	amod	_	naofa
 31	.	.	PUNCT	_	_	2	punct	_	.
