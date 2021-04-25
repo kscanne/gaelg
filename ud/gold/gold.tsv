@@ -3034,7 +3034,7 @@
 8	adsyn	ad	PRON	_	_	5	obl	_	
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	Chamoo	chamoo	CCONJ	_	_	11	cc	_	Agus ní
-11	insh-yms	insh	VERB	_	_	5	parataxis	_	inseoidh mé
+11	insh-yms	insh	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	5	parataxis	_	inseoidh mé
 12-13	diuish	_	_	_	_	_	_	_	
 12	da	da	ADP	_	_	13	case	_	daoibhse
 13	shiuish	shiu	PRON	_	_	11	obl	_	
@@ -3650,7 +3650,7 @@
 3	saase	saase	NOUN	_	_	6	obl	_	áis
 4	shoh	shoh	DET	_	_	3	det	_	seo
 5	,	,	PUNCT	_	_	3	punct	_	,
-6	ver-ym	cur	VERB	_	_	0	root	_	cuirfidh mé
+6	ver-ym	cur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	cuirfidh mé
 7	ad	ad	PRON	_	_	6	obj	_	iad
 8	fo	fo	ADP	_	_	9	case	_	faoi
 9	coadey	coadey	NOUN	_	_	6	obl	_	cosaint
@@ -4624,7 +4624,7 @@
 # text = Foddee dy screeuym mychione nyn ngoair, ny smoo jeeragh, goair my ven.
 1	Foddee	fod	VERB	_	_	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go
-3	screeuym	screeu	VERB	_	_	1	ccomp	_	scríobhfaidh mé
+3	screeuym	screeu	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	1	ccomp	_	scríobhfaidh mé
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
 5	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	6	nmod:poss	_	bhur
 6	ngoair	goayr	NOUN	_	_	3	obl	_	ngabhair
@@ -5556,7 +5556,7 @@
 # text_ga = Buailfidh mé muintir na cathrach seo, idir dhuine agus bheithíoch, le plá scanrúil: gheobhaidh siad bás.
 # text_en = And I will smite the inhabitants of this city, both man and beast: they shall die of a great pestilence.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
-2	bwoaill-yms	bwoaill	VERB	_	_	0	root	_	buailfidh mé
+2	bwoaill-yms	bwoaill	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	buailfidh mé
 3	cummaltee	cummaltagh	NOUN	_	_	2	obj	_	áitritheoirí
 4	yn	yn	DET	_	_	5	det	_	an
 5	ard-valley	ard-valley	NOUN	_	_	3	nmod	_	chathair
@@ -5942,7 +5942,7 @@
 6	gyn	gyn	ADP	_	_	7	case	_	gan athair
 7	ayr	ayr	NOUN	_	_	5	nmod	_	
 8	,	,	PUNCT	_	_	9	punct	_	,
-9	freill-yms	freill	VERB	_	_	1	parataxis	_	coimeádfaidh mé
+9	freill-yms	freill	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	1	parataxis	_	coimeádfaidh mé
 10	ad	ad	PRON	_	_	9	nsubj	_	iad
 11	bio	bio	ADJ	_	_	9	xcomp	_	beo
 12	:	:	PUNCT	_	_	14	punct	_	:
@@ -5977,7 +5977,7 @@
 11	shen	shen	PRON	_	_	1	parataxis	_	dá bharr sin
 12	y	yn	DET	_	_	13	det	_	
 13	fa	fa	NOUN	_	_	11	nsubj	_	
-14	ver-ym	cur	VERB	_	_	13	acl	_	tabharfaidh mé
+14	ver-ym	cur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	13	acl	_	tabharfaidh mé
 15	yn	yn	DET	_	_	16	det	_	an
 16	cappan	cappan	NOUN	_	_	14	obj	_	cupán
 17-18	ecksh	_	_	_	_	_	_	_	
@@ -6188,7 +6188,7 @@
 # sent_id = aa_233
 # text = Fuirreeym ayns-shoh.
 # text_ga = Fanfaidh mé anseo.
-1	Fuirreeym	fuirree	VERB	_	_	0	root	_	Fanfaidh mé
+1	Fuirreeym	fuirree	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	Fanfaidh mé
 2-3	ayns-shoh	_	_	_	_	_	_	_	
 2	ayns	ayns	ADP	_	_	3	case	_	anseo
 3	shoh	shoh	PRON	_	_	1	obl	_	
