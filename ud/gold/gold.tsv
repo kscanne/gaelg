@@ -2318,7 +2318,7 @@
 13	dy	dy	PART	_	_	15	reparandum	_	dá
 14	—	—	PUNCT	_	_	13	punct	_	—
 15	dy	dy	PART	_	_	16	mark	_	go
-16	beigns	bee	VERB	_	_	3	advcl	_	mbeinnse
+16	beigns	bee	VERB	_	Mood=Cnd|Number=Sing|Person=1	3	advcl	_	mbeinnse
 17	y	yn	DET	_	_	18	det	_	an
 18	mooadys	mooadys	NOUN	_	_	16	xcomp:pred	_	méid
 19	kiart	kiart	ADJ	_	_	18	amod	_	ceart
