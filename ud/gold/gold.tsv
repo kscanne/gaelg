@@ -140,7 +140,7 @@
 10	as	as	CCONJ	_	_	11	cc	_	agus
 11	va	bee	VERB	_	_	1	conj	_	bhí mé i mo
 12	mee	mee	PRON	_	_	11	nsubj	_	
-13	my	my	DET	_	_	14	nmod:poss	_	
+13	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	14	nmod:poss	_	
 14	hoie	soie	NOUN	_	_	11	xcomp:pred	_	shuí
 15	lurg	lurg	ADP	_	_	16	case	_	i ndiaidh
 16	tammylt	tammylt	NOUN	_	_	11	obl	_	tamaill
@@ -304,7 +304,7 @@
 36	ghra	gra	NOUN	_	_	32	xcomp	_	
 37-39	my-mychione's	_	_	_	_	_	_	_	
 37	my	my	ADP	_	_	39	case	_	fúmsa
-38	my	my	DET	_	_	39	nmod:poss	_	
+38	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	39	nmod:poss	_	
 39	chione's	chione	NOUN	_	_	36	obl	_	
 40	,	,	PUNCT	_	_	41	punct	_	,
 41	quoi	quoi	PRON	_	_	36	parataxis	_	cé
@@ -475,7 +475,7 @@
 28	dy	dy	ADP	_	_	29	case	_	le gabháil
 29	ghoaill	goaill	NOUN	_	_	26	xcomp	_	
 30	ersooyl	ersooyl	ADV	_	_	29	advmod	_	chun siúil
-31	my	my	DET	_	_	32	nmod:poss	_	m'anam
+31	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	32	nmod:poss	_	m'anam
 32	vioys	bioys	NOUN	_	_	29	obj	_	
 33	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -874,10 +874,10 @@
 10	arrym	arrym	NOUN	_	_	8	obj	_	onóir
 11	da	da	ADP	_	_	13	case	_	do
 12-13	dt'ayr	_	_	_	_	_	_	_	
-12	dt'	dty	DET	_	_	13	nmod:poss	_	d'athair
+12	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	13	nmod:poss	_	d'athair
 13	ayr	ayr	NOUN	_	_	8	obl	_	
 14	as	as	CCONJ	_	_	16	cc	_	agus
-15	dty	dty	DET	_	_	16	nmod:poss	_	do
+15	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	16	nmod:poss	_	do
 16-19	voir-'sy-leigh	_	_	_	_	_	_	_	
 16	voir	moir	NOUN	_	_	13	conj	_	mháthair chéile
 17	ayns	ayns	ADP	_	_	19	case	_	
@@ -888,10 +888,10 @@
 22	ta	bee	VERB	_	_	21	acl:relcl	_	atá
 23	nish	nish	ADV	_	_	22	advmod	_	anois
 24-25	dt'ayr	_	_	_	_	_	_	_	
-24	dt'	dty	DET	_	_	25	nmod:poss	_	d'athair
+24	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	25	nmod:poss	_	d'athair
 25	ayr	ayr	NOUN	_	_	22	xcomp:pred	_	
 26	as	as	CCONJ	_	_	28	cc	_	agus
-27	dty	dty	DET	_	_	28	nmod:poss	_	do
+27	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	28	nmod:poss	_	do
 28	voir	moir	NOUN	_	_	25	conj	_	mháthair
 29	,	,	PUNCT	_	_	21	punct	_	,
 30	dy	dy	PART	_	_	31	mark	_	gur féidir liom
@@ -1209,7 +1209,7 @@
 # text = Cha row my voddey coontey monney jeh.
 1	Cha	cha	PART	_	_	2	mark	_	Ní raibh
 2	row	bee	VERB	_	_	0	root	_	
-3	my	my	DET	_	_	4	nmod:poss	_	mo
+3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	mo
 4	voddey	moddey	NOUN	_	_	2	nsubj	_	mhadra
 5	coontey	coontey	NOUN	_	_	2	xcomp	_	tógtha leis
 6	monney	monney	NOUN	_	_	5	obj	_	
@@ -1443,7 +1443,7 @@
 6	mish	mee	PRON	_	_	5	nsubj	_	mise
 7	,	,	PUNCT	_	_	10	punct	_	,
 8	as	as	CCONJ	_	_	10	cc	_	agus
-9	my	my	DET	_	_	10	nmod:poss	_	mo
+9	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	10	nmod:poss	_	mo
 10	chloan	cloan	NOUN	_	_	6	conj	_	chlann
 11-12	ta'n	_	_	_	_	_	_	_	
 11	ta	bee	VERB	_	_	10	acl:relcl	_	atá an
@@ -1670,7 +1670,7 @@
 26	as	as	CCONJ	_	_	27	cc	_	agus
 27	cre	cre	PRON	_	_	19	conj	_	céard atá
 28	ta	bee	VERB	_	_	27	csubj:cleft	_	
-29	my	my	DET	_	_	30	nmod:poss	_	mo theach
+29	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	30	nmod:poss	_	mo theach
 30	hie	thie	NOUN	_	_	28	xcomp:pred	_	
 31	,	,	PUNCT	_	_	33	punct	_	,
 32	dy	dy	PART	_	_	33	mark	_	go bhfuil
@@ -1682,7 +1682,7 @@
 37	yannoo	jannoo	NOUN	_	_	33	xcomp	_	
 38	wheesh	wheesh	NOUN	_	_	37	obj	_	an oiread
 39	er	er	ADP	_	_	41	case	_	ar mo shon
-40	my	my	DET	_	_	41	nmod:poss	_	
+40	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	41	nmod:poss	_	
 41	hon	son	NOUN	_	_	37	obl	_	
 42	?	?	PUNCT	_	_	19	punct	_	?
 
@@ -1941,7 +1941,7 @@
 14	er	er	ADP	_	_	15	case	_	tar éis gabháil
 15	ghoaill	goaill	NOUN	_	_	12	xcomp	_	
 16	ersooyl	ersooyl	ADV	_	_	15	advmod	_	ar siúl
-17	dty	dty	DET	_	_	18	nmod:poss	_	i do
+17	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	18	nmod:poss	_	i do
 18	pheccaghyn	peccah	NOUN	_	_	15	obj	_	pheacaí
 19	,	,	PUNCT	_	_	21	punct	_	,
 20	as	as	CCONJ	_	_	21	cc	_	agus
@@ -2061,7 +2061,7 @@
 2	eh	eh	PRON	_	_	1	nsubj	_	sé
 3	scruit	scruit	ADJ	_	_	1	xcomp:pred	_	scríofa
 4	er	er	ADP	_	_	6	case	_	ar mo shon
-5	my	my	DET	_	_	6	nmod:poss	_	
+5	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	
 6	hon	son	NOUN	_	_	1	obl	_	
 7	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -2273,7 +2273,7 @@
 30	vuc-awin	muc-awin	NOUN	_	_	28	nsubj	_	béar
 31	sonjeragh	sonjeragh	NOUN	_	_	28	xcomp	_	ag cogarnaíl
 32	ayns	ayns	ADP	_	_	34	case	_	i
-33	dty	dty	DET	_	_	34	nmod:poss	_	do
+33	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	34	nmod:poss	_	do
 34	chleaysh	cleaysh	NOUN	_	_	31	obl	_	chluas
 35	?	?	PUNCT	_	_	27	punct	_	?
 36	”	”	PUNCT	_	_	27	punct	_	”
@@ -2494,7 +2494,7 @@
 24	dooyrt	abbyr	VERB	_	_	2	conj	_	dúradar
 25	ad	ad	PRON	_	_	24	nsubj	_	
 26	,	,	PUNCT	_	_	28	punct	_	,
-27	Dty	dty	DET	_	_	28	nmod:poss	_	Do
+27	Dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	28	nmod:poss	_	Do
 28	vraar	braar	NOUN	_	_	24	parataxis	_	dheartháir
 29	Ben-hadad	Ben-hadad	PROPN	_	_	28	appos	_	Bein Hadad
 30	.	.	PUNCT	_	_	2	punct	_	.
@@ -2525,14 +2525,14 @@
 5	eh	eh	PRON	_	_	2	obl	_	
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Bee	bee	VERB	_	_	2	parataxis	_	Bí
-8	dty	dty	DET	_	_	9	nmod:poss	_	i do thost
+8	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	9	nmod:poss	_	i do thost
 9	host	tost	NOUN	_	_	7	xcomp:pred	_	
 10	,	,	PUNCT	_	_	11	punct	_	,
 11	cur	cur	VERB	_	_	7	conj	_	cuir
-12	dty	dty	DET	_	_	13	nmod:poss	_	do
+12	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	13	nmod:poss	_	do
 13	laue	laue	NOUN	_	_	11	nsubj	_	lámh
 14	er	er	ADP	_	_	16	case	_	ar do
-15	dty	dty	DET	_	_	16	nmod:poss	_	
+15	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	16	nmod:poss	_	
 16	veeal	beeal	NOUN	_	_	11	obl	_	bhéal
 17	,	,	PUNCT	_	_	19	punct	_	,
 18	as	as	CCONJ	_	_	19	cc	_	agus
@@ -2559,7 +2559,7 @@
 36	oo	oo	PRON	_	_	34	obl	_	
 37	dy	dy	ADP	_	_	38	case	_	a bheith
 38	ve	ve	NOUN	_	_	34	csubj:cop	_	
-39	dty	dty	DET	_	_	40	nmod:poss	_	i do
+39	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	40	nmod:poss	_	i do
 40	haggyrt	saggyrt	NOUN	_	_	38	xcomp:pred	_	shagart
 41	da	da	ADP	_	_	42	case	_	do
 42	thie	thie	NOUN	_	_	40	nmod	_	teach
@@ -2569,7 +2569,7 @@
 46	ny	ny	CCONJ	_	_	48	cc	_	nó
 47	dy	dy	ADP	_	_	48	case	_	a bheith
 48	ve	ve	NOUN	_	_	38	conj	_	
-49	dty	dty	DET	_	_	50	nmod:poss	_	i do
+49	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	50	nmod:poss	_	i do
 50	haggyrt	saggyrt	NOUN	_	_	48	xcomp:pred	_	shagart
 51	da	da	ADP	_	_	52	case	_	do
 52	tribe	tribe	NOUN	_	_	50	nmod	_	treibh
@@ -2672,7 +2672,7 @@
 2	'n	yn	DET	_	_	3	det	_	
 3	raad	raad	NOUN	_	_	1	nsubj	_	
 4	ta	bee	VERB	_	_	3	acl:relcl	_	
-5	dty	dty	DET	_	_	6	nmod:poss	_	do
+5	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	6	nmod:poss	_	do
 6	ghraih	graih	NOUN	_	_	4	nsubj	_	ghrá
 7	er	er	ADP	_	_	8	case	_	tar éis gabháil
 8	ghoaill	goaill	NOUN	_	_	4	xcomp	_	
@@ -3929,7 +3929,7 @@
 10-11	dou	_	_	_	_	_	_	_	
 10	da	da	ADP	_	_	11	case	_	dom
 11	mee	mee	PRON	_	_	9	obl	_	
-12	dty	dty	DET	_	_	13	nmod:poss	_	do
+12	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	13	nmod:poss	_	do
 13	lattyssyn	slattys	NOUN	_	_	9	obj	_	reachtanna
 14	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -4136,7 +4136,7 @@
 25	shiu	shiu	PRON	_	_	24	obj	_	sibh
 26	dy	dy	ADP	_	_	27	case	_	le tógáil
 27	hroggal	troggal	NOUN	_	_	24	xcomp	_	
-28	my	my	DET	_	_	29	nmod:poss	_	má
+28	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	29	nmod:poss	_	má
 29	ghliooneen's	gliooneen	NOUN	_	_	27	obj	_	ghliooneen's
 30	.	.	PUNCT	_	_	24	punct	_	.
 31	”	”	PUNCT	_	_	18	punct	_	”
@@ -4500,10 +4500,10 @@
 68	row	bee	VERB	_	_	55	ccomp	_	
 69	ad	ad	PRON	_	_	68	nsubj	_	siad
 70	ec	ec	ADP	_	_	72	case	_	ag
-71	my	my	DET	_	_	72	nmod:poss	_	mo
+71	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	72	nmod:poss	_	mo
 72	vummig	mummig	NOUN	_	_	68	xcomp:pred	_	mháthair
 73	as	as	CCONJ	_	_	75	cc	_	agus
-74	my	my	DET	_	_	75	nmod:poss	_	m'athair
+74	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	75	nmod:poss	_	m'athair
 75	yishag	jishag	NOUN	_	_	72	conj	_	
 76-77	'sy	_	_	_	_	_	_	_	
 76	ayns	ayns	ADP	_	_	78	case	_	sa
@@ -4615,7 +4615,7 @@
 3	mee	mee	PRON	_	_	2	nsubj	_	mé
 4	rieau	rieau	ADV	_	_	2	advmod	_	riamh
 5	ayns	ayns	ADP	_	_	7	case	_	i
-6	my	my	DET	_	_	7	nmod:poss	_	mo
+6	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	7	nmod:poss	_	mo
 7	vea	bea	NOUN	_	_	2	obl	_	bheatha
 8	eh	eh	PRON	_	_	2	obj	_	é
 9	.	.	PUNCT	_	_	2	punct	_	.
@@ -4634,7 +4634,7 @@
 10	jeeragh	jeeragh	ADJ	_	_	1	advmod	_	díreach
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	goair	goayr	NOUN	_	_	6	appos	_	gabhair
-13	my	my	DET	_	_	14	nmod:poss	_	mo
+13	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	14	nmod:poss	_	mo
 14	ven	ben	NOUN	_	_	12	nmod	_	bhean
 15	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -4657,7 +4657,7 @@
 12-13	t'ayns	_	_	_	_	_	_	_	
 12	t'	bee	VERB	_	_	10	acl:relcl	_	atá i
 13	ayns	ayns	ADP	_	_	15	case	_	
-14	dty	dty	DET	_	_	15	nmod:poss	_	do
+14	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	15	nmod:poss	_	do
 15	laueyn	laue	NOUN	_	_	12	xcomp:pred	_	lámha
 16	?	?	PUNCT	_	_	2	punct	_	?
 
@@ -4749,7 +4749,7 @@
 21	er	er	ADP	_	_	22	case	_	
 22	cheu-sthie	cheu-sthie	NOUN	_	_	20	xcomp:pred	_	taobh istigh
 23	jeh	jeh	ADP	_	_	25	case	_	de
-24	dty	dty	DET	_	_	25	nmod:poss	_	do
+24	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	25	nmod:poss	_	do
 25	yiattyn	giat	NOUN	_	_	22	nmod	_	gheataí
 26	,	,	PUNCT	_	_	27	punct	_	,
 27	dy	dy	ADP	_	_	28	case	_	le déanamh
@@ -4772,14 +4772,14 @@
 42	t'	bee	VERB	_	_	15	advcl	_	
 43	ou	ou	PRON	_	_	42	nsubj	_	
 44	uss	oo	PRON	_	_	43	fixed	_	
-45	dty	dty	DET	_	_	46	nmod:poss	_	i do
+45	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	46	nmod:poss	_	i do
 46	phobble	pobble	NOUN	_	_	42	xcomp:pred	_	phobal
 47	casherick	casherick	ADJ	_	_	46	amod	_	naofa
 48-49	da'n	_	_	_	_	_	_	_	
 48	da	da	ADP	_	_	50	case	_	don
 49	yn	yn	DET	_	_	50	det	_	
 50	Chiarn	chiarn	NOUN	_	_	46	nmod	_	Tiarna
-51	dty	dty	DET	_	_	52	nmod:poss	_	do
+51	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	52	nmod:poss	_	do
 52	Yee	Jee	PROPN	_	_	50	appos	_	Dhia
 53	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -4867,7 +4867,7 @@
 1	O	o	INTJ	_	_	2	discourse	_	Ó
 2	chyndaa	chyndaa	VERB	_	_	0	root	_	iompaigh
 3	ersooyl	ersooyl	ADV	_	_	2	advmod	_	ar siúl
-4	my	my	DET	_	_	5	nmod:poss	_	mo
+4	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	mo
 5	hooillyn	sooill	NOUN	_	_	2	obj	_	shúile
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	nagh	nagh	PART	_	_	8	mark	_	nach dtabharfaidh
@@ -4883,7 +4883,7 @@
 17	y	y	ADP	_	_	18	case	_	a
 18	vioghey	bioghey	NOUN	_	_	15	xcomp	_	bheochan
 19	ayns	ayns	ADP	_	_	21	case	_	i
-20	dty	dty	DET	_	_	21	nmod:poss	_	do
+20	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	21	nmod:poss	_	do
 21	raad	raad	NOUN	_	_	18	obl	_	bhealach
 22	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -5148,26 +5148,26 @@
 11	uss	oo	PRON	_	_	4	parataxis	_	tusa
 12	,	,	PUNCT	_	_	15	punct	_	,
 13	as	as	CCONJ	_	_	15	cc	_	agus
-14	dty	dty	DET	_	_	15	nmod:poss	_	do
+14	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	15	nmod:poss	_	do
 15	vac	mac	NOUN	_	_	11	conj	_	mhac
 16	,	,	PUNCT	_	_	19	punct	_	,
 17	as	as	CCONJ	_	_	19	cc	_	agus
 18-19	dt'inneen	_	_	_	_	_	_	_	
-18	dt'	dty	DET	_	_	19	nmod:poss	_	d'iníon
+18	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	19	nmod:poss	_	d'iníon
 19	inneen	inneen	NOUN	_	_	11	conj	_	
 20	,	,	PUNCT	_	_	22	punct	_	,
 21-22	dt'ermooinjerey	_	_	_	_	_	_	_	
-21	dt'	dty	DET	_	_	22	nmod:poss	_	dt'ermooinjerey
+21	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	22	nmod:poss	_	dt'ermooinjerey
 22	ermooinjerey	fermooinjerey	NOUN	_	_	11	conj	_	
 23	,	,	PUNCT	_	_	26	punct	_	,
 24	as	as	CCONJ	_	_	26	cc	_	agus
 25-26	dt'inney	_	_	_	_	_	_	_	
-25	dt'	dty	DET	_	_	26	nmod:poss	_	do chailín aimsire
+25	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	26	nmod:poss	_	do chailín aimsire
 26	inney	inney	NOUN	_	_	11	conj	_	
 27	veyl	meyl	NOUN	_	_	26	nmod	_	
 28	,	,	PUNCT	_	_	30	punct	_	,
 29-30	dt'ollagh	_	_	_	_	_	_	_	
-29	dt'	dty	DET	_	_	30	nmod:poss	_	d'eallach
+29	dt'	dty	DET	_	Number=Sing|Person=2|Poss=Yes	30	nmod:poss	_	d'eallach
 30	ollagh	ollagh	NOUN	_	_	11	conj	_	
 31	,	,	PUNCT	_	_	34	punct	_	,
 32	as	as	CCONJ	_	_	34	cc	_	agus
@@ -5178,7 +5178,7 @@
 36	er	er	ADP	_	_	37	case	_	
 37	cheusthie	cheusthie	NOUN	_	_	35	xcomp:pred	_	taobh istigh
 38	jeh	jeh	ADP	_	_	40	case	_	de
-39	dty	dty	DET	_	_	40	nmod:poss	_	do
+39	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	40	nmod:poss	_	do
 40	ghiattyn	ghiat	NOUN	_	_	37	nmod	_	gheataí
 41	.	.	PUNCT	_	_	4	punct	_	.
 
@@ -5222,7 +5222,7 @@
 # text_en = But my neighbours mocked me, and said, This man is not yet afraid to be put to death for this matter: who fled away; and yet, lo, he burieth the dead again.
 1	Agh	agh	CCONJ	_	_	2	cc	_	Ach
 2	ren	jean	VERB	_	_	0	root	_	rinne
-3	my	my	DET	_	_	4	nmod:poss	_	mo
+3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	mo
 4	naboonyn	naboo	NOUN	_	_	2	nsubj	_	chomharsana
 5	faghid	faghid	NOUN	_	_	2	obj	_	magaidh
 6-7	jeem	_	_	_	_	_	_	_	
@@ -5412,7 +5412,7 @@
 # sent_id = aa_203
 # text = Ren my ven yn soo shen jea.
 1	Ren	jean	VERB	_	_	0	root	_	Rinne
-2	my	my	DET	_	_	3	nmod:poss	_	mo
+2	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	mo
 3	ven	ben	NOUN	_	_	1	nsubj	_	bhean
 4	yn	yn	DET	_	_	5	det	_	an
 5	soo	soo	NOUN	_	_	1	obj	_	sú
@@ -5726,9 +5726,9 @@
 17	ren	jean	VERB	_	_	6	conj	_	
 18	y	yn	DET	_	_	19	det	_	an
 19	Chiarn	chiarn	NOUN	_	_	17	nsubj	_	Tiarna
-20	dty	dty	DET	_	_	21	nmod:poss	_	do
+20	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	21	nmod:poss	_	do
 21	Yee	Jee	PROPN	_	_	19	appos	_	Dhia
-22	dty	dty	DET	_	_	23	nmod:poss	_	do
+22	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	23	nmod:poss	_	do
 23	livrey	livrey	NOUN	_	_	17	obj	_	sheachadadh
 24	:	:	PUNCT	_	_	25	punct	_	:
 25-27	shen-y-fa	_	_	_	_	_	_	_	
@@ -5742,7 +5742,7 @@
 32	red	red	NOUN	_	_	30	obj	_	rud
 33	shoh	shoh	DET	_	_	32	det	_	seo
 34	er	er	ADP	_	_	36	case	_	ar do
-35	dty	dty	DET	_	_	36	nmod:poss	_	
+35	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	36	nmod:poss	_	
 36	churrym	currym	NOUN	_	_	30	obl	_	chúram
 37	jiu	jiu	ADV	_	_	28	advmod	_	inniu
 38	.	.	PUNCT	_	_	2	punct	_	.
@@ -5896,10 +5896,10 @@
 11	vel	bee	VERB	_	_	9	acl	_	
 12	mee	mee	PRON	_	_	11	nsubj	_	mé
 13	cur	cur	NOUN	_	_	11	xcomp	_	ag cur
-14	my	my	DET	_	_	15	nmod:poss	_	mo
+14	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	15	nmod:poss	_	mo
 15	roih	roih	NOUN	_	_	13	obj	_	láimhe
 16	mygeayrt	mygeayrt	ADP	_	_	18	case	_	timpeall
-17	dty	dty	DET	_	_	18	nmod:poss	_	do
+17	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	18	nmod:poss	_	do
 18	vouin	bouin	NOUN	_	_	13	obl	_	bhásta
 19	,	,	PUNCT	_	_	2	punct	_	,
 20	"	"	PUNCT	_	_	2	punct	_	"
@@ -5924,7 +5924,7 @@
 38	mee	mee	PRON	_	_	35	xcomp:pred	_	
 39	er	er	ADP	_	_	40	case	_	ar
 40	tappey	tappey	NOUN	_	_	35	obl	_	stuaim
-41	dty	dty	DET	_	_	42	nmod:poss	_	do
+41	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	42	nmod:poss	_	do
 42	lossyrane	lossyrane	NOUN	_	_	40	nmod	_	lasairéan
 43	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -5936,7 +5936,7 @@
 2-3	dooys	_	_	_	_	_	_	_	
 2	da	da	ADP	_	_	3	case	_	domsa
 3	mish	mee	PRON	_	_	1	obl	_	
-4	dty	dty	DET	_	_	5	nmod:poss	_	do
+4	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	do
 5	chloan	cloan	NOUN	_	_	1	obj	_	chlann
 6-7	gyn-ayr	_	_	_	_	_	_	_	
 6	gyn	gyn	ADP	_	_	7	case	_	gan athair
@@ -5949,7 +5949,7 @@
 13	as	as	CCONJ	_	_	14	cc	_	agus
 14	lhig	lhig	VERB	_	_	1	conj	_	lig
 15	da	da	ADP	_	_	17	case	_	do
-16	dty	dty	DET	_	_	17	nmod:poss	_	do
+16	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	17	nmod:poss	_	do
 17	vraane-treoghe	ben-treoghe	NOUN	_	_	14	obl	_	bhaintreacha
 18	treishteil	treishteil	NOUN	_	_	14	xcomp	_	muinín
 19-20	ayn-yms	_	_	_	_	_	_	_	
@@ -5970,7 +5970,7 @@
 5	immeeaght	immeeaght	NOUN	_	_	1	xcomp	_	
 6	ayns	ayns	ADP	_	_	7	case	_	i
 7	raad	raad	NOUN	_	_	5	obl	_	mbealach
-8	dty	dty	DET	_	_	9	nmod:poss	_	do
+8	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	9	nmod:poss	_	do
 9	huyr	shuyr	NOUN	_	_	7	nmod	_	dheirfiúr
 10	,	,	PUNCT	_	_	11	punct	_	,
 11-13	shen-y-fa	_	_	_	_	_	_	_	
@@ -5984,7 +5984,7 @@
 17	ec	ec	ADP	_	_	18	case	_	aicise
 18	ish	ee	PRON	_	_	16	nmod	_	
 19	ayns	ayns	ADP	_	_	21	case	_	i
-20	dty	dty	DET	_	_	21	nmod:poss	_	do
+20	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	21	nmod:poss	_	do
 21	laue	laue	NOUN	_	_	14	obl	_	lámh
 22	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6399,7 +6399,7 @@
 2	'n	yn	DET	_	_	3	det	_	
 3	ynsagh	ynsagh	NOUN	_	_	1	nsubj	_	t-oideachas
 4	ayns	ayns	ADP	_	_	6	case	_	i
-5	my	my	DET	_	_	6	nmod:poss	_	mo
+5	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	mo
 6	ghooghys	dooghys	NOUN	_	_	1	xcomp:pred	_	dhúchas
 7	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6410,7 +6410,7 @@
 1	Ta	bee	VERB	_	_	0	root	_	Tá
 2	mish	mee	PRON	_	_	1	nsubj	_	mise
 3	lesh	lesh	ADP	_	_	5	case	_	le
-4	my	my	DET	_	_	5	nmod:poss	_	mo
+4	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	mo
 5	ghraih	graih	NOUN	_	_	1	xcomp:pred	_	ghrá
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	as	as	CCONJ	_	_	9	cc	_	agus
@@ -6462,7 +6462,7 @@
 # text_ga = "Gabh mo leithscéal," arsa Joe go gruama.
 1	"	"	PUNCT	_	_	2	punct	_	"
 2	Gow	gow	VERB	_	_	0	root	_	Gabh
-3	my	my	DET	_	_	4	nmod:poss	_	mo
+3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	mo
 4	leshtal	leshtal	NOUN	_	_	2	obj	_	leithscéal
 5	,	,	PUNCT	_	_	2	punct	_	,
 6	"	"	PUNCT	_	_	2	punct	_	"
@@ -6509,7 +6509,7 @@
 # text_en = I felt conscious of youth because I remembered so little.
 1	Dennee	ennee	VERB	_	_	0	root	_	Mhothaigh
 2	mee	mee	PRON	_	_	1	nsubj	_	mé
-3	my	my	DET	_	_	4	nmod:poss	_	m'óige
+3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	m'óige
 4	aegid	aegid	NOUN	_	_	1	obj	_	
 5	er	er	ADP	_	_	6	case	_	mar gheall ar an
 6-7	coontey'n	_	_	_	_	_	_	_	
@@ -7217,7 +7217,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	as	as	CCONJ	_	_	11	cc	_	agus
 11	bee	bee	VERB	_	_	7	conj	_	bí
-12	dty	dty	DET	_	_	13	nmod:poss	_	i do
+12	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	13	nmod:poss	_	i do
 13	chaptan	captan	NOUN	_	_	11	xcomp:pred	_	chaptaen
 14-15	harrin	_	_	_	_	_	_	_	
 14	harrish	harrish	ADP	_	_	15	case	_	tharainn
