@@ -84945,13 +84945,13 @@ dt'eaddagh => do chuid éadaí
 \n => \n
 <div text="Put it by."/> => <div text="Put it by."/>
 Cur => Cuir
-eh => sé
+eh => é
 ry-lhiattee => i leataobh
 . => .
 \n => \n
 <div text="Put it beside the other one."/> => <div text="Put it beside the other one."/>
 Cur => Cuir
-eh => sé
+eh => é
 liorish => leis
 y => an
 fer => gceann
