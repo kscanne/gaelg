@@ -2103,7 +2103,7 @@
 
 # sent_id = aa_081
 # text = Adsyn ayns baljyn as baljyn beggey syn Ellan ren goaill ayrn sy cho-hirrey Ellanyn my Vlaa, t'ad fuirraght d'eddyn magh quoi vees ny cosneyderyn.
-1	Adsyn	adsyn	PRON	_	_	0	root	_	Iadsan
+1	Adsyn	ad	PRON	_	_	0	root	_	Iadsan
 2	ayns	ayns	ADP	_	_	3	case	_	i
 3	baljyn	balley	NOUN	_	_	1	nmod	_	mbailte
 4	as	as	CCONJ	_	_	5	cc	_	agus
