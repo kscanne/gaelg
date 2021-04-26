@@ -6506,7 +6506,7 @@
 # sent_id = aa_249
 # text = Dennee mee my aegid er coontey'n veggan cooinaghtyn v'aym.
 # text_en = I felt conscious of youth because I remembered so little.
-1	Dennee	ennee	VERB	_	_	0	root	_	Mhothaigh
+1	Dennee	ennee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Mhothaigh
 2	mee	mee	PRON	_	_	1	nsubj	_	mé
 3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	m'óige
 4	aegid	aegid	NOUN	_	_	1	obj	_	
