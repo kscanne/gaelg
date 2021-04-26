@@ -377,7 +377,7 @@
 # text_ga = “Is trua gur luaigh mé Dineá!” a dúirt sí léi féin go brónach.
 # text_gd = “B' fheàrr leam nach robh mi air luaidh a thoirt air Dìnea!” ars ise rithe fhèin ann an guth tiamhaidh.
 1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Saillym	saillym	VERB	_	_	0	root	_	_
+2	Saillym	saillym	VERB	_	Mood=Ind|Tense=Pres	0	root	_	_
 3	nagh	nagh	PART	_	_	4	mark	_	_
 4	row	bee	VERB	_	Mood=Ind|Tense=Past	2	ccomp	_	_
 5	mee	mee	PRON	_	_	4	nsubj	_	_
@@ -658,7 +658,7 @@
 11	er	er	ADP	_	_	12	case	_	_
 12	eh	eh	PRON	_	_	8	obl	_	_
 13	,	,	PUNCT	_	_	3	punct	_	_
-14	foddee	fod	VERB	_	_	0	root	_	_
+14	foddee	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	_
 15	oo	oo	PRON	_	_	14	nsubj	_	_
 16	çheet	çheet	NOUN	_	_	14	xcomp	_	_
 17	neose	neose	ADV	_	_	16	advmod	_	SpaceAfter=No

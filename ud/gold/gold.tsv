@@ -751,7 +751,7 @@
 # sent_id = aa_031
 # text = Cha noddym geddyn barriaght er!
 1	Cha	cha	PART	_	_	2	mark	_	Ní féidir liom
-2	noddym	fod	VERB	_	_	0	root	_	
+2	noddym	fod	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	
 3	geddyn	geddyn	NOUN	_	_	2	xcomp	_	ag fáil
 4	barriaght	barriaght	NOUN	_	_	3	obj	_	bua
 5-6	er	_	_	_	_	_	_	_	
@@ -895,7 +895,7 @@
 28	voir	moir	NOUN	_	_	25	conj	_	mháthair
 29	,	,	PUNCT	_	_	21	punct	_	,
 30	dy	dy	PART	_	_	31	mark	_	gur féidir liom
-31	voddym	fod	VERB	_	_	8	ccomp	_	
+31	voddym	fod	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	8	ccomp	_	
 32	goo	goo	NOUN	_	_	35	obj	_	dea-chlú
 33	mie	mie	ADJ	_	_	32	amod	_	
 34	y	y	ADP	_	_	35	mark	_	a
@@ -1257,7 +1257,7 @@
 10	ennym	ennym	NOUN	_	_	6	nsubj	_	t-ainm
 11	shen	shen	DET	_	_	10	det	_	sin
 12	”	”	PUNCT	_	_	6	punct	_	”
-13	as	as	VERB	_	_	6	parataxis	_	agus
+13	as	as	VERB	_	Mood=Ind|Tense=Past	6	parataxis	_	arsa
 14	Cú	Cú	PROPN	_	_	13	nsubj	_	Cú
 15	Chulainn	Chulainn	PROPN	_	_	14	flat	_	Chulainn
 
@@ -1716,7 +1716,7 @@
 23	shin	shin	PRON	_	_	21	nmod	_	
 24	hene	hene	PRON	_	_	23	nmod	_	
 25-27	er-lhiam	_	_	_	_	_	_	_	
-25	er	er	VERB	_	_	1	advcl	_	dar liom
+25	er	er	VERB	_	Mood=Ind|Tense=Pres	1	advcl	_	dar liom
 26	lesh	lesh	ADP	_	_	27	case	_	
 27	mee	mee	PRON	_	_	25	obl	_	
 28	.	.	PUNCT	_	_	1	punct	_	.
@@ -3015,7 +3015,7 @@
 3	Samuel	Samuel	PROPN	_	_	2	nsubj	_	Samúéil
 4	,	,	PUNCT	_	_	6	punct	_	,
 5	Kys	kys	ADV	_	_	6	advmod	_	Conas
-6	oddym	fod	VERB	_	_	2	parataxis	_	is féidir liom
+6	oddym	fod	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	2	parataxis	_	is féidir liom
 7	goll	goll	NOUN	_	_	6	xcomp	_	dul
 8	?	?	PUNCT	_	_	2	punct	_	?
 
@@ -3371,7 +3371,7 @@
 18	mian	mian	NOUN	_	_	16	nsubj	_	mian
 19	,	,	PUNCT	_	_	16	punct	_	,
 20	cha	cha	PART	_	_	21	mark	_	ní féidir liomsa
-21	noddyms	fod	VERB	_	_	3	conj	_	
+21	noddyms	fod	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	3	conj	_	
 22	hene	hene	PRON	_	_	21	nmod	_	féin
 23	scuirr	scuirr	NOUN	_	_	21	xcomp	_	stop
 24	edyr	edyr	ADV	_	_	21	advmod	_	ar chor ar bith
@@ -3557,7 +3557,7 @@
 16	earish	earish	NOUN	_	_	14	nsubj	_	aimsir
 17	,	,	PUNCT	_	_	14	punct	_	,
 18	dy	dy	PART	_	_	19	mark	_	gur féidir libh
-19	vod	fod	VERB	_	_	9	advcl	_	
+19	vod	fod	VERB	_	Mood=Ind|Tense=Fut	9	advcl	_	
 20	shiu	shiu	PRON	_	_	19	nsubj	_	
 21	cooinaghtyn	cooinaghtyn	NOUN	_	_	19	xcomp	_	cuimhneamh
 22	dy	dy	PART	_	_	23	mark	_	gur inis
@@ -3576,7 +3576,7 @@
 # text_ga = Níl léamh ná scríobh aige.
 # text_en = He can neither read nor write.
 1	Cha	cha	PART	_	_	2	mark	_	Ní féidir leis
-2	nod	fod	VERB	_	_	0	root	_	
+2	nod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
 3	eh	eh	PRON	_	_	2	nsubj	_	
 4	lhaih	lhaih	NOUN	_	_	2	xcomp	_	léamh
 5	ny	ny	CCONJ	_	_	6	cc	_	ná
@@ -4119,7 +4119,7 @@
 9	toshiaght	toshiaght	NOUN	_	_	2	obj	_	tús
 10	,	,	PUNCT	_	_	2	punct	_	,
 11	”	”	PUNCT	_	_	2	punct	_	”
-12	as	as	VERB	_	_	2	parataxis	_	arsa
+12	as	as	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	arsa
 13	y	yn	DET	_	_	14	det	_	an
 14	Marquise	Marquise	PROPN	_	_	12	nsubj	_	Marquise
 15	,	,	PUNCT	_	_	18	punct	_	,
@@ -4131,7 +4131,7 @@
 21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	bussal	bussal	NOUN	_	_	18	obj	_	ciarsúr
 23	;	;	PUNCT	_	_	24	punct	_	;
-24	saillym	saillym	VERB	_	_	18	parataxis	_	is mian liom
+24	saillym	saillym	VERB	_	Mood=Ind|Tense=Pres	18	parataxis	_	is mian liom
 25	shiu	shiu	PRON	_	_	24	obj	_	sibh
 26	dy	dy	ADP	_	_	27	case	_	le tógáil
 27	hroggal	troggal	NOUN	_	_	24	xcomp	_	
@@ -4321,7 +4321,7 @@
 # sent_id = aa_164
 # text = Foddee dy row eh Eairkag, agh cha nel shin shickyr mychione shen.
 # text_ga = B'fhéidir gur earc é, ach nílimid cinnte faoi sin.
-1	Foddee	fod	VERB	_	_	0	root	_	D'fhéadfaí
+1	Foddee	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go raibh
 3	row	bee	VERB	_	Mood=Ind|Tense=Past	1	ccomp	_	
 4	eh	eh	PRON	_	_	3	nsubj	_	sé
@@ -4412,7 +4412,7 @@
 29	eh	eh	PRON	_	_	24	obj	_	é
 30	,	,	PUNCT	_	_	32	punct	_	,
 31	dy	dy	PART	_	_	32	mark	_	gur féidir linn
-32	vod	fod	VERB	_	_	15	advcl	_	
+32	vod	fod	VERB	_	Mood=Ind|Tense=Fut	15	advcl	_	
 33	mayd	mayd	PRON	_	_	32	nsubj	_	
 34	clashtyn	clashtyn	NOUN	_	_	32	xcomp	_	cloisteáil
 35	,	,	PUNCT	_	_	37	punct	_	,
@@ -4621,7 +4621,7 @@
 
 # sent_id = aa_173
 # text = Foddee dy screeuym mychione nyn ngoair, ny smoo jeeragh, goair my ven.
-1	Foddee	fod	VERB	_	_	0	root	_	D'fhéadfaí
+1	Foddee	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go
 3	screeuym	screeu	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	1	ccomp	_	scríobhfaidh mé
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
@@ -4759,7 +4759,7 @@
 31	eh	eh	PRON	_	_	28	obl	_	
 32	,	,	PUNCT	_	_	34	punct	_	,
 33	ny	ny	CCONJ	_	_	34	cc	_	nó
-34	foddee	fod	VERB	_	_	15	conj	_	d'fhéadfá
+34	foddee	fod	VERB	_	Mood=Ind|Tense=Fut	15	conj	_	d'fhéadfá
 35	oo	oo	PRON	_	_	34	nsubj	_	
 36	creck	creck	NOUN	_	_	34	xcomp	_	díol
 37	eh	eh	PRON	_	_	36	obj	_	é
@@ -4889,7 +4889,7 @@
 # sent_id = aa_186
 # text = Strooys dy row aggle orroo nagh jinnagh sleih elley toiggal eh.’
 # text_ga = Measaim go raibh eagla orthu nach dtuigfeadh daoine eile é.'
-1	Strooys	strooys	VERB	_	_	0	root	_	Is dóigh liom
+1	Strooys	strooys	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	Is dóigh liom
 2	dy	dy	PART	_	_	3	mark	_	go raibh
 3	row	bee	VERB	_	Mood=Ind|Tense=Past	1	ccomp	_	
 4	aggle	aggle	NOUN	_	_	3	nsubj	_	eagla
@@ -5125,7 +5125,7 @@
 12	siyr	siyr	NOUN	_	_	10	obj	_	deifir
 13	!	!	PUNCT	_	_	3	punct	_	!
 14	”	”	PUNCT	_	_	3	punct	_	”
-15	as	as	VERB	_	_	3	parataxis	_	arsa
+15	as	as	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	arsa
 16	fer	fer	NOUN	_	_	15	nsubj	_	ceann
 17	elley	elley	ADJ	_	_	16	amod	_	eile
 18	.	.	PUNCT	_	_	3	punct	_	.
@@ -5472,7 +5472,7 @@
 6	er	er	ADP	_	_	7	case	_	ar
 7	shickyraghey	shickyraghey	NOUN	_	_	2	nmod	_	cinntiú
 8	dy	dy	PART	_	_	9	mark	_	gur féidir leis
-9	vod	fod	VERB	_	_	1	ccomp	_	
+9	vod	fod	VERB	_	Mood=Ind|Tense=Fut	1	ccomp	_	
 10	eh	eh	PRON	_	_	9	nsubj	_	
 11	soilshaghey	soilshaghey	NOUN	_	_	9	xcomp	_	foilsithe
 12	dy	dy	PART	_	_	13	mark	_	go bhfuil
@@ -5610,7 +5610,7 @@
 # sent_id = aa_212
 # text = Dobbyr da tuittym neealloo agh ren eh e chooid share dy hayrn yn dooan magh.
 # text_ga = Dóbair dó titim i bhfanntais ach rinne sé a dhícheall tarraingt an duáin amach.
-1	Dobbyr	dobbyr	VERB	_	_	0	root	_	Dóbair
+1	Dobbyr	dobbyr	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Dóbair
 2-3	da	_	_	_	_	_	_	_	
 2	da	da	ADP	_	_	3	case	_	dó
 3	eh	eh	PRON	_	_	1	obl	_	
@@ -6465,7 +6465,7 @@
 4	leshtal	leshtal	NOUN	_	_	2	obj	_	leithscéal
 5	,	,	PUNCT	_	_	2	punct	_	,
 6	"	"	PUNCT	_	_	2	punct	_	"
-7	as	as	VERB	_	_	2	parataxis	_	arsa
+7	as	as	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	arsa
 8	Joe	Joe	PROPN	_	_	7	nsubj	_	Joe
 9	dy	dy	PART	_	_	10	mark	_	go
 10	treih	treih	ADJ	_	_	7	advmod	_	gruama
@@ -6726,7 +6726,7 @@
 25	cha	cha	ADV	_	_	26	advmod	_	chomh
 26	shickyr	shickyr	ADJ	_	_	23	amod	_	cinnte
 27	nagh	nagh	PART	_	_	28	mark	_	nach féidir leis
-28	vod	fod	VERB	_	_	26	advcl	_	
+28	vod	fod	VERB	_	Mood=Ind|Tense=Fut	26	advcl	_	
 29	eh	eh	PRON	_	_	28	nsubj	_	
 30	ve	ve	NOUN	_	_	28	xcomp	_	a bheith
 31	er	er	ADP	_	_	33	case	_	á
@@ -6830,7 +6830,7 @@
 11	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	ina
 12	fraue	fraue	NOUN	_	_	8	xcomp:pred	_	fréamh
 13	nagh	nagh	PART	_	_	14	mark	_	nár fhéad
-14	dod	fod	VERB	_	_	12	acl:relcl	_	
+14	dod	fod	VERB	_	Mood=Ind|Tense=Past	12	acl:relcl	_	
 15	ve	ve	NOUN	_	_	14	xcomp	_	a bheith
 16-17	ayn	_	_	_	_	_	_	_	
 16	ayns	ayns	ADP	_	_	17	case	_	ann
@@ -6855,7 +6855,7 @@
 4	Yishag	jishag	NOUN	_	_	7	vocative	_	Athair
 5	,	,	PUNCT	_	_	4	punct	_	,
 6	nagh	nagh	PART	_	_	7	mark	_	nach féidir leat
-7	vod	fod	VERB	_	_	0	root	_	
+7	vod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
 8	oo	oo	PRON	_	_	7	nsubj	_	
 9	jannoo	jannoo	NOUN	_	_	7	xcomp	_	déanamh
 10	red	red	NOUN	_	_	9	obj	_	rud ar bith
@@ -6868,7 +6868,7 @@
 # text_en = “Couldn't we make a dash for it, Dad?
 1	‘	‘	PUNCT	_	_	3	punct	_	‘
 2	Nagh	nagh	PART	_	_	3	mark	_	Nach féidir
-3	vod	fod	VERB	_	_	0	root	_	
+3	vod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
 4	shin	shin	PRON	_	_	3	nsubj	_	muid
 5	cur	cur	NOUN	_	_	3	xcomp	_	ag tabhairt
 6	eab	eab	NOUN	_	_	5	obj	_	iarracht
@@ -7223,7 +7223,7 @@
 15	shin	shin	PRON	_	_	11	obl	_	
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	dy	dy	PART	_	_	18	mark	_	gur féidir linn
-18	vod	fod	VERB	_	_	11	advcl	_	
+18	vod	fod	VERB	_	Mood=Ind|Tense=Fut	11	advcl	_	
 19	mayd	mayd	PRON	_	_	18	nsubj	_	
 20	caggey	caggey	NOUN	_	_	18	xcomp	_	cogadh
 21	rish	rish	ADP	_	_	22	case	_	leis
@@ -7283,7 +7283,7 @@
 12	biallys	biallys	NOUN	_	_	11	obj	_	géilleadh
 13	,	,	PUNCT	_	_	15	punct	_	,
 14	dy	dy	PART	_	_	15	mark	_	go bhféadfadh
-15	vod	fod	VERB	_	_	11	advcl	_	
+15	vod	fod	VERB	_	Mood=Ind|Tense=Fut	11	advcl	_	
 16	adsyn	ad	PRON	_	_	15	nsubj	_	siadsan
 17	neesht	neesht	ADV	_	_	15	advmod	_	freisin
 18	trooid	trooid	ADP	_	_	20	case	_	tríd
@@ -7302,8 +7302,7 @@
 
 # sent_id = ab_001
 # text = Ayns soilshey meein ny greiney, fastyr beg souree, va'n chiark roie dy maynrey mygeayrt yn gharey mess lesh ny ein eck.
-# text_en = In the soft summer evening sunlight, the hen ran happily round the
-# orchard with her chicks.
+# text_en = In the soft summer evening sunlight, the hen ran happily round the orchard with her chicks.
 1	Ayns	ayns	ADP	_	_	2	case	_	I
 2	soilshey	soilshey	NOUN	_	_	11	obl	_	solas
 3	meein	meein	ADJ	_	_	2	amod	_	mín
