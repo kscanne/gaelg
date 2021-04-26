@@ -3142,12 +3142,12 @@
 # text = Mannagh vowmayd red erbee taitnyssagh, yiowmayd ec y chooid sloo reddyn noa.”
 # text_ga = Mura bhfaghaimís rudaí taitneamhacha, casfar rudaí nua orainn ar a laghad."
 1	Mannagh	mannagh	SCONJ	_	_	2	mark	_	Mura
-2	vowmayd	fow	VERB	_	_	7	advcl	_	gheobhaimid
+2	vowmayd	fow	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	7	advcl	_	gheobhaimid
 3	red	red	NOUN	_	_	2	obj	_	rud ar bith
 4	erbee	erbee	ADJ	_	_	3	amod	_	
 5	taitnyssagh	taitnyssagh	ADJ	_	_	3	amod	_	taitneamhach
 6	,	,	PUNCT	_	_	2	punct	_	,
-7	yiowmayd	fow	VERB	_	_	0	root	_	gheobhaimid
+7	yiowmayd	fow	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	gheobhaimid
 8	ec	ec	ADP	_	_	10	case	_	ar a laghad
 9	y	yn	DET	_	_	10	det	_	
 10	chooid	cooid	NOUN	_	_	7	obl	_	
