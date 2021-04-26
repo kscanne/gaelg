@@ -69,7 +69,7 @@
 # text_ga = Agus d'fháisc sí í féin ní ba ghaire do thaobh Eilís le linn na cainte sin.
 # text_gd = Agus phàisg i i fhèin na b' fhaisg air cliathaich Ealasaid mar a bha i a' bruidhinn.
 1	As	as	CCONJ	_	_	2	cc	_	_
-2	hraast	traast	VERB	_	_	0	root	_	_
+2	hraast	traast	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 3	ee	ee	PRON	_	_	2	nsubj	_	_
 4	ee	ee	PRON	_	_	2	obj	_	_
 5	hene	hene	PRON	_	_	4	nmod	_	_
@@ -96,7 +96,7 @@
 4	gra	gra	NOUN	_	_	2	xcomp	_	_
 5	shoh	shoh	PRON	_	_	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	yeeagh	jeeagh	VERB	_	_	0	root	_	_
+7	yeeagh	jeeagh	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 8	ee	ee	PRON	_	_	7	nsubj	_	_
 9	sheese	sheese	ADV	_	_	7	advmod	_	_
 10	er	er	ADP	_	_	12	case	_	_
@@ -104,7 +104,7 @@
 12	laueyn	laue	NOUN	_	_	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	as	as	CCONJ	_	_	15	cc	_	_
-15	ghow	gow	VERB	_	_	7	conj	_	_
+15	ghow	gow	VERB	_	Mood=Ind|Tense=Past	7	conj	_	_
 16	ee	ee	PRON	_	_	15	nsubj	_	_
 17	yindys	yindys	NOUN	_	_	15	obj	_	_
 18	dy	dy	ADP	_	_	19	case	_	_
@@ -203,7 +203,7 @@
 4	lhaih	lhaih	NOUN	_	_	2	xcomp	_	_
 5	skeealyn-ferrish	skeeal-ferrish	NOUN	_	_	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	heill	sheill	VERB	_	_	0	root	_	_
+7	heill	sheill	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 8	mee	mee	PRON	_	_	7	nsubj	_	_
 9	nagh	nagh	PART	_	_	10	mark	_	_
 10	ren	jean	VERB	_	Mood=Ind|Tense=Past	7	ccomp	_	_
@@ -322,7 +322,7 @@
 # text_ga = Agus bhain siad scealpóg aisti ar gach aon taobh in éineacht.
 # text_gd = Agus stob an dithis aca i air gach cliathaich aig an aon àm.
 1	As	as	CCONJ	_	_	2	cc	_	_
-2	ving	ming	VERB	_	_	0	root	_	_
+2	ving	ming	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 3	ad	ad	PRON	_	_	2	nsubj	_	_
 4	ee	ee	PRON	_	_	2	obj	_	_
 5	er	er	ADP	_	_	8	case	_	_
@@ -362,7 +362,7 @@
 6	slooyn	sloo	NOUN	_	_	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
 8	”	”	PUNCT	_	_	3	punct	_	_
-9	vrish	brish	VERB	_	_	3	parataxis	_	_
+9	vrish	brish	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	_
 10	y	yn	DET	_	_	11	det	_	_
 11	Gryphon	Gryphon	PROPN	_	_	9	nsubj	_	_
 12	stiagh	stiagh	ADV	_	_	9	advmod	_	_
@@ -404,7 +404,7 @@
 2	Aarnieu	aarnieu	PROPN	_	_	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
 4	”	”	PUNCT	_	_	2	punct	_	_
-5	screeagh	screeagh	VERB	_	_	2	parataxis	_	_
+5	screeagh	screeagh	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	_
 6	y	yn	DET	_	_	7	det	_	_
 7	Calmane	calmane	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -413,7 +413,7 @@
 # text = Lhig Ealish magh screeagh beg dy ghearey.
 # text_ga = Lig Eilís scread gháire aisti.
 # text_gd = Leig Ealasaid aiste sgread-ghàire beag.
-1	Lhig	lhig	VERB	_	_	0	root	_	_
+1	Lhig	lhig	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 2	Ealish	Ealish	PROPN	_	_	1	nsubj	_	_
 3	magh	magh	ADV	_	_	1	advmod	_	_
 4	screeagh	screeagh	NOUN	_	_	1	obj	_	_
@@ -513,7 +513,7 @@
 10	;	;	PUNCT	_	_	13	punct	_	_
 11	myr	myr	ADP	_	_	13	advmod	_	_
 12	shen	shen	PRON	_	_	11	fixed	_	_
-13	ghow	gow	VERB	_	_	2	parataxis	_	_
+13	ghow	gow	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	_
 14	ee	ee	PRON	_	_	13	nsubj	_	_
 15	toshiaght	toshiaght	NOUN	_	_	13	obj	_	_
 16	dy	dy	ADP	_	_	17	case	_	_
@@ -539,7 +539,7 @@
 # text_gd = “Cha deach mise thuige,” ars an Turtair-mheallta le osna.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Cha	cha	PART	_	_	3	mark	_	_
-3	jagh	gow	VERB	_	_	0	root	_	_
+3	jagh	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 4	mish	mee	PRON	_	_	3	nsubj	_	_
 5	rieau	rieau	ADV	_	_	3	advmod	_	_
 6-7	huggey	_	_	_	_	_	_	_	SpaceAfter=No
@@ -651,7 +651,7 @@
 6	y	yn	DET	_	_	7	det	_	_
 7	fys	fys	NOUN	_	_	5	nmod	_	_
 8-10	t'ayd	_	_	_	_	_	_	_	_
-8	t'	t'	VERB	_	_	7	acl:relcl	_	_
+8	t'	bee	VERB	_	Mood=Ind|Tense=Pres	7	acl:relcl	_	_
 9	ec	ec	ADP	_	_	10	case	_	_
 10	oo	oo	PRON	_	_	8	xcomp:pred	_	_
 11-12	er	_	_	_	_	_	_	_	SpaceAfter=No
@@ -677,7 +677,7 @@
 # text = Doshil y Lugh Vagheragh e sooillyn dy moal.
 # text_ga = D'oscail an Luch Chodlamáin a dhá súil go mall.
 # text_gd = Dh'fhosgail Dallag-an-fheòir a sùilean gu slaodach.
-1	Doshil	foshil	VERB	_	_	0	root	_	_
+1	Doshil	foshil	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 2	y	yn	DET	_	_	3	det	_	_
 3	Lugh	lugh	NOUN	_	_	1	nsubj	_	_
 4	Vagheragh	magher	NOUN	_	_	3	nmod	_	_
@@ -716,7 +716,7 @@
 # text = Smooinee er, veen: cha nee agh paitçhey ish!
 # text_ga = Smaoinigh, a chroí: níl inti ach leanbh!
 # text_gd = Smaoinich, a ghràidh: chan eil innte ach caileag!
-1	Smooinee	smooinee	VERB	_	_	0	root	_	_
+1	Smooinee	smooinee	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2-3	er	_	_	_	_	_	_	_	SpaceAfter=No
 2	er	er	ADP	_	_	3	case	_	_
 3	eh	eh	PRON	_	_	1	obl	_	_
@@ -746,7 +746,7 @@
 # text = Jean gimman er oaie, ghooinney veen!
 # text_ga = Tiomáin leat, a mhic!
 # text_gd = Lean ort, a charaid!
-1	Jean	jean	VERB	_	_	0	root	_	_
+1	Jean	jean	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	gimman	imman	NOUN	_	_	1	xcomp	_	_
 3	er	er	ADP	_	_	4	case	_	_
 4	oaie	oaie	NOUN	_	_	2	obl	_	SpaceAfter=No
@@ -822,7 +822,7 @@
 7	ersooyl	ersooyl	ADV	_	_	2	advmod	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
 9	”	”	PUNCT	_	_	2	punct	_	_
-10	dyll	yllee	VERB	_	_	2	parataxis	_	_
+10	dyll	yllee	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	_
 11	y	yn	DET	_	_	12	det	_	_
 12	Venrein	benrein	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -831,13 +831,13 @@
 # text = Roie dy valley dy çhelleeragh as cur lhiat dou piyr dy laueanyn as feayragan!
 # text_ga = Rith abhaile láithreach agus tabhair chugam péire lámhainní agus fean!
 # text_gd = Ruith dhachaigh anns a' bhad, agus faigh dhomh paidhir mhiotagan agus gaotharan!
-1	Roie	roie	VERB	_	_	0	root	_	_
+1	Roie	roie	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	dy	dy	ADP	_	_	3	case	_	_
 3	valley	balley	NOUN	_	_	1	obl	_	_
 4	dy	dy	PART	_	_	5	mark	_	_
 5	çhelleeragh	çhelleeragh	ADJ	_	_	1	advmod	_	_
 6	as	as	CCONJ	_	_	7	cc	_	_
-7	cur	cur	VERB	_	_	1	conj	_	_
+7	cur	cur	VERB	_	Mood=Imp|Number=Sing|Person=2	1	conj	_	_
 8-9	lhiat	_	_	_	_	_	_	_	_
 8	lesh	lesh	ADP	_	_	9	case	_	_
 9	oo	oo	PRON	_	_	7	obl	_	_
@@ -866,7 +866,7 @@
 8	eh	eh	PRON	_	_	6	xcomp:pred	_	_
 9	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
 10	”	”	PUNCT	_	_	4	punct	_	_
-11	dreggyr	freggyr	VERB	_	_	4	parataxis	_	_
+11	dreggyr	freggyr	VERB	_	Mood=Ind|Tense=Past	4	parataxis	_	_
 12	y	yn	DET	_	_	13	det	_	_
 13	Mwaagh	mwaagh	NOUN	_	_	11	nsubj	_	_
 14	Vart	Mart	PROPN	_	_	13	nmod	_	_
@@ -895,7 +895,7 @@
 14	“	“	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	agh	agh	CCONJ	_	_	17	cc	_	_
 16	cha	cha	PART	_	_	17	mark	_	_
-17	nel	bee	VERB	_	_	3	conj	_	_
+17	nel	bee	VERB	_	Mood=Ind|Tense=Pres	3	conj	_	_
 18	mee	mee	PRON	_	_	17	nsubj	_	_
 19	er	er	ADP	_	_	20	case	_	_
 20	ngeddyn	geddyn	NOUN	_	_	17	xcomp	_	_
@@ -926,7 +926,7 @@
 15	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 16	”	”	PUNCT	_	_	2	punct	_	_
 17	as	as	CCONJ	_	_	18	cc	_	_
-18	hiyree	siyree	VERB	_	_	2	conj	_	_
+18	hiyree	siyree	VERB	_	Mood=Ind|Tense=Past	2	conj	_	_
 19	ish	ee	PRON	_	_	18	nsubj	_	_
 20	magh	magh	ADV	_	_	18	advmod	_	_
 21	ass	ass	ADP	_	_	23	case	_	_
@@ -938,7 +938,7 @@
 # text = Yeeagh Ealish ooilley mygeayrt y voayrd, agh cha row veg er agh tey.
 # text_ga = D'fhéach Eilís ar fud an bhoird, ach ní raibh dada air ach tae.
 # text_gd = Thug Ealasaid sùil mun cuairt air a' bhòrd, ach cha robh càil air ach teatha.
-1	Yeeagh	jeeagh	VERB	_	_	0	root	_	_
+1	Yeeagh	jeeagh	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 2	Ealish	Ealish	PROPN	_	_	1	nsubj	_	_
 3	ooilley	ooilley	ADV	_	_	6	advmod	_	_
 4	mygeayrt	mygeayrt	ADP	_	_	6	case	_	_
@@ -992,7 +992,7 @@
 7	sheshey	sheshey	NOUN	_	_	5	nmod	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
 9	”	”	PUNCT	_	_	3	punct	_	_
-10	dyll	yllee	VERB	_	_	3	parataxis	_	_
+10	dyll	yllee	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	_
 11	y	yn	DET	_	_	12	det	_	_
 12	Gryphon	Gryphon	PROPN	_	_	10	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
@@ -1017,11 +1017,11 @@
 1	“	“	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Oh	oh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	gow	gow	VERB	_	_	0	root	_	_
+4	gow	gow	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 5	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	_
 6	leshtal	leshtal	NOUN	_	_	4	obj	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	4	punct	_	_
-8	dyll	yllee	VERB	_	_	4	parataxis	_	_
+8	dyll	yllee	VERB	_	Mood=Ind|Tense=Past	4	parataxis	_	_
 9	Ealish	Ealish	PROPN	_	_	8	nsubj	_	_
 10	dy	dy	PART	_	_	11	mark	_	_
 11	siyragh	siyragh	ADJ	_	_	8	advmod	_	SpaceAfter=No
@@ -1142,7 +1142,7 @@
 11	brash	brash	ADJ	_	_	10	amod	_	SpaceAfter=No
 12	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
 13	”	”	PUNCT	_	_	3	punct	_	_
-14	vrie	brie	VERB	_	_	3	parataxis	_	_
+14	vrie	brie	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	_
 15	y	yn	DET	_	_	16	det	_	_
 16	Far-Ligganagh	Far-Ligganagh	NOUN	_	_	14	nsubj	_	_
 17	Marrey	mooir	NOUN	_	_	16	nmod	_	SpaceAfter=No
@@ -1155,7 +1155,7 @@
 # text = Yeeagh Ealish seose, as va'n Venrein ny shassoo rhymboo as e roihaghyn fillit as ish grouigey goll rish sterrym-taarnee.
 # text_ga = D'fhéach Eilís suas, agus cé a bheadh ina seasamh ansin os a gcomhair ach an Bhanríon, a dhá lámh crosáilte aici agus místá mar a bheadh stoirm toirní uirthi.
 # text_gd = Sheall Ealasaid suas, agus nach ann a bha a' Bhànrigh air am beulaibh, le a gàirdeanan paisgte, agus greann oirre mar an doineann.
-1	Yeeagh	jeeagh	VERB	_	_	0	root	_	_
+1	Yeeagh	jeeagh	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 2	Ealish	Ealish	PROPN	_	_	1	nsubj	_	_
 3	seose	seose	ADV	_	_	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -1185,7 +1185,7 @@
 # text = Hoie ad sheese dy çhelleeragh, ayns kiarkyl mooar as y Lugh sy vean.
 # text_ga = Shuigh gach uile dhuine láithreach i bhfáinne mór agus an Luch sa lár.
 # text_gd = Shuidh iad uile anns a' bhad, cruinn còmhla mun cuairt air an Luch a bha sa mheadhan.
-1	Hoie	soie	VERB	_	_	0	root	_	_
+1	Hoie	soie	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 2	ad	ad	PRON	_	_	1	nsubj	_	_
 3	sheese	sheese	ADV	_	_	1	advmod	_	_
 4	dy	dy	PART	_	_	5	mark	_	_
