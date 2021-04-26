@@ -2,7 +2,7 @@
 # text = T'ad faagail bee ec oaieyn ny merriu.
 1-2	T'ad	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá siad
-2	ad	ad	PRON	_	_	1	nsubj	_	
+2	ad	ad	PRON	_	Number=Plur|Person=3	1	nsubj	_	
 3	faagail	faagail	NOUN	_	_	1	xcomp	_	fágáil
 4	bee	bee	NOUN	_	_	3	obj	_	bia
 5	ec	ec	ADP	_	_	6	case	_	ag
@@ -23,7 +23,7 @@
 5	ve	ve	NOUN	_	_	1	xcomp	_	bheith
 6-7	eu	_	_	_	_	_	_	_	
 6	ec	ec	ADP	_	_	7	case	_	agaibh
-7	shiu	shiu	PRON	_	_	5	xcomp:pred	_	
+7	shiu	shiu	PRON	_	Number=Plur|Person=2	5	xcomp:pred	_	
 8	nagh	nagh	PART	_	_	12	mark	_	nach
 9	nee	she	AUX	_	_	12	cop	_	
 10	er	er	ADP	_	_	12	case	_	ar
@@ -31,11 +31,11 @@
 12	ghraih	graih	NOUN	_	_	3	acl	_	ghrá
 13-14	euish	_	_	_	_	_	_	_	
 13	ec	ec	ADP	_	_	14	case	_	agaibhse
-14	shiuish	shiu	PRON	_	_	12	nmod	_	
+14	shiuish	shiu	PRON	_	Number=Plur|Person=2|PronType=Emp	12	nmod	_	
 15	ta	bee	VERB	_	Mood=Ind|Tense=Pres	12	csubj:cleft	_	tá
-16	mee	mee	PRON	_	_	15	nsubj	_	mé
+16	mee	mee	PRON	_	Number=Sing|Person=1	15	nsubj	_	mé
 17	jannoo	jannoo	NOUN	_	_	15	xcomp	_	ag déanamh
-18	shoh	shoh	PRON	_	_	17	obj	_	seo
+18	shoh	shoh	PRON	_	PronType=Dem	17	obj	_	seo
 19	,	,	PUNCT	_	_	20	punct	_	,
 20-21	ta'n	_	_	_	_	_	_	_	
 20	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá an
@@ -58,8 +58,8 @@
 36	raaidyn	raad	NOUN	_	_	27	obl	_	bóithre
 37-38	eu	_	_	_	_	_	_	_	
 37	ec	ec	ADP	_	_	38	case	_	agaibh
-38	shiu	shiu	PRON	_	_	36	nmod	_	
-39	hene	hene	PRON	_	_	38	nmod	_	féin
+38	shiu	shiu	PRON	_	Number=Plur|Person=2	36	nmod	_	
+39	hene	hene	PRON	_	Reflex=Yes	38	nmod	_	féin
 40	,	,	PUNCT	_	_	42	punct	_	,
 41	O	o	INTJ	_	_	42	discourse	_	Ó
 42	hie	thie	NOUN	_	_	27	vocative	_	theach
@@ -73,7 +73,7 @@
 2	valley	balley	NOUN	_	_	0	root	_	
 3-4	lhee	_	_	_	_	_	_	_	
 3	lesh	lesh	ADP	_	_	4	case	_	léi
-4	ee	ee	PRON	_	_	2	obl	_	
+4	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	2	obl	_	
 5	dy	dy	PART	_	_	6	mark	_	go mall
 6	moal	moal	ADJ	_	_	2	advmod	_	
 7	.	.	PUNCT	_	_	2	punct	_	.
@@ -82,7 +82,7 @@
 # text = T'eh mooadaghey liorish fraueyn aerag ta çheet dy ve kirp choonee.
 1-2	T'eh	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	mooadaghey	mooadaghey	NOUN	_	_	1	xcomp	_	méadaithe
 4	liorish	liorish	ADP	_	_	5	case	_	ag
 5	fraueyn	fraue	NOUN	_	_	3	obl	_	fréamhacha
@@ -123,13 +123,13 @@
 5	ayr	ayr	NOUN	_	_	3	nsubj	_	t-athair
 6-7	echey	_	_	_	_	_	_	_	
 6	ec	ec	ADP	_	_	7	case	_	aige
-7	eh	eh	PRON	_	_	5	nmod	_	
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nmod	_	
 8	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_006
 # text = Ren mee drappal seose trooid uinnag ayns ny cleaghyn as va mee my hoie lurg tammylt er y towl jaagh.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
-2	mee	mee	PRON	_	_	1	nsubj	_	mé
+2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	drappal	drappal	NOUN	_	_	1	xcomp	_	dreapadh
 4	seose	seose	ADV	_	_	3	advmod	_	suas
 5	trooid	trooid	ADP	_	_	6	case	_	trí
@@ -139,7 +139,7 @@
 9	cleaghyn	clea	NOUN	_	_	6	nmod	_	díonta
 10	as	as	CCONJ	_	_	11	cc	_	agus
 11	va	bee	VERB	_	Mood=Ind|Tense=Past	1	conj	_	bhí mé i mo
-12	mee	mee	PRON	_	_	11	nsubj	_	
+12	mee	mee	PRON	_	Number=Sing|Person=1	11	nsubj	_	
 13	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	14	nmod:poss	_	
 14	hoie	soie	NOUN	_	_	11	xcomp:pred	_	shuí
 15	lurg	lurg	ADP	_	_	16	case	_	i ndiaidh
@@ -153,16 +153,16 @@
 # sent_id = aa_007
 # text = Myr shoh, t'ou toiggal, cha nel eh agh jannoo ny strimmey as jannoo shickyr dy vel ny coloayrtyssyn jeant as dy vel dy chooilley red aarloo son ymmyd, cre erbee y scenario vees taghyrt.
 1	Myr	myr	ADP	_	_	4	advmod	_	Mar seo
-2	shoh	shoh	PRON	_	_	1	fixed	_	
+2	shoh	shoh	PRON	_	PronType=Dem	1	fixed	_	
 3	,	,	PUNCT	_	_	1	punct	_	,
 4-5	t'ou	_	_	_	_	_	_	_	
 4	t'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá tú
-5	ou	ou	PRON	_	_	4	nsubj	_	
+5	ou	ou	PRON	_	Number=Sing|Person=2	4	nsubj	_	
 6	toiggal	toiggal	NOUN	_	_	4	xcomp	_	ag tuiscint
 7	,	,	PUNCT	_	_	9	punct	_	,
 8	cha	cha	PART	_	_	9	mark	_	níl
 9	nel	bee	VERB	_	Mood=Ind|Tense=Pres	4	parataxis	_	
-10	eh	eh	PRON	_	_	9	nsubj	_	sé
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	sé
 11	agh	agh	ADP	_	_	12	case	_	ach
 12	jannoo	jannoo	NOUN	_	_	9	xcomp	_	ag déanamh
 13	ny	ny	PART	_	_	14	mark	_	níos troime
@@ -208,7 +208,7 @@
 # text = Agh roish shen, haink drogh naight son Eleanor - va'n ayr eck caillit ayns mooirchoor er Langness.
 1	Agh	agh	CCONJ	_	_	3	cc	_	Ach
 2	roish	roish	ADP	_	_	3	case	_	roimhe
-3	shen	shen	PRON	_	_	5	obl	_	sin
+3	shen	shen	PRON	_	PronType=Dem	5	obl	_	sin
 4	,	,	PUNCT	_	_	3	punct	_	,
 5	haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	tháinig
 6	drogh	drogh	ADJ	_	_	7	amod	_	drochscéala
@@ -222,7 +222,7 @@
 13	ayr	ayr	NOUN	_	_	11	nsubj	_	t-athair
 14-15	eck	_	_	_	_	_	_	_	
 14	ec	ec	ADP	_	_	15	case	_	aici
-15	ee	ee	PRON	_	_	13	nmod	_	
+15	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	13	nmod	_	
 16	caillit	caillit	ADJ	_	_	11	xcomp:pred	_	caillte
 17	ayns	ayns	ADP	_	_	18	case	_	i
 18	mooirchoor	mooirchoor	NOUN	_	_	16	obl	_	longbhris
@@ -262,7 +262,7 @@
 # text_ga = Aon lá amháin agus é i leataobh ag guí agus na deisceabail in éin eacht leis, d'fhiafraigh sé díobh: "Cé hé a deir na sluaite mise?"
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	tháinig
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4-5	gy-kione	_	_	_	_	_	_	_	
 4	gy	gy	ADP	_	_	5	case	_	chun críche
 5	kione	kione	NOUN	_	_	2	obl	_	
@@ -270,7 +270,7 @@
 7	myr	myr	SCONJ	_	_	8	mark	_	mar
 8-9	v'eh	_	_	_	_	_	_	_	
 8	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	advcl	_	bhí sé
-9	eh	eh	PRON	_	_	8	nsubj	_	
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	
 10	ec	ec	ADP	_	_	11	case	_	ag
 11	padjer	padjer	NOUN	_	_	8	xcomp	_	paidre
 12	ayns	ayns	ADP	_	_	13	case	_	in áit
@@ -284,14 +284,14 @@
 19	ostyllyn	ostyl	NOUN	_	_	8	obl	_	dheisceabail
 20-21	marish	_	_	_	_	_	_	_	
 20	marish	marish	ADP	_	_	21	case	_	leis
-21	eh	eh	PRON	_	_	19	nmod	_	
+21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nmod	_	
 22	:	:	PUNCT	_	_	24	punct	_	:
 23	dy	dy	PART	_	_	24	mark	_	gur
 24	denee	fenee	VERB	_	Mood=Ind|Tense=Past	2	ccomp	_	d'fhiafraigh
-25	eh	eh	PRON	_	_	24	nsubj	_	sé
+25	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	24	nsubj	_	sé
 26-27	jeu	_	_	_	_	_	_	_	
 26	jeh	jeh	ADP	_	_	27	case	_	díobh
-27	ad	ad	PRON	_	_	24	obl	_	
+27	ad	ad	PRON	_	Number=Plur|Person=3	24	obl	_	
 28	,	,	PUNCT	_	_	29	punct	_	,
 29	gra	gra	NOUN	_	_	24	advcl	_	a rá
 30	,	,	PUNCT	_	_	31	punct	_	,
@@ -308,7 +308,7 @@
 39	chione's	chione	NOUN	_	_	36	obl	_	
 40	,	,	PUNCT	_	_	41	punct	_	,
 41	quoi	quoi	PRON	_	_	36	parataxis	_	cé
-42	mee	mee	PRON	_	_	41	nsubj	_	mé
+42	mee	mee	PRON	_	Number=Sing|Person=1	41	nsubj	_	mé
 43	?	?	PUNCT	_	_	2	punct	_	?
 
 # sent_id = aa_013
@@ -316,7 +316,7 @@
 # text_ga = Nach bhfuil tú sásta?
 1	Nagh	nagh	PART	_	_	2	mark	_	Nach bhfuil
 2	vel	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-3	oo	oo	PRON	_	_	2	nsubj	_	tú
+3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
 4	maynrey	maynrey	ADJ	_	_	3	xcomp:pred	_	sásta
 5	?	?	PUNCT	_	_	2	punct	_	?
 
@@ -336,7 +336,7 @@
 10	fa	fa	NOUN	_	_	8	nsubj	_	
 11-12	v'ou	_	_	_	_	_	_	_	
 11	v'	bee	VERB	_	Mood=Ind|Tense=Past	10	acl	_	
-12	ou	ou	PRON	_	_	11	nsubj	_	
+12	ou	ou	PRON	_	Number=Sing|Person=2	11	nsubj	_	
 13	gearree	yeearree	NOUN	_	_	11	xcomp	_	ag iarraidh
 14	goll	goll	NOUN	_	_	13	xcomp	_	dul
 15	jiu	jiu	ADV	_	_	14	advmod	_	inniu
@@ -354,7 +354,7 @@
 3	mie	mie	ADJ	_	_	2	amod	_	maith
 4-5	aym	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	agam
-5	mee	mee	PRON	_	_	1	obl	_	
+5	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 6	er	er	ADP	_	_	8	case	_	ar
 7	y	yn	DET	_	_	8	det	_	an
 8	freggyrt	freggyrt	NOUN	_	_	2	nmod	_	freagra
@@ -367,17 +367,17 @@
 14	,	,	PUNCT	_	_	16	punct	_	,
 15	agh	agh	CCONJ	_	_	16	cc	_	ach
 16	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	tá
-17	mee	mee	PRON	_	_	16	nsubj	_	mé
+17	mee	mee	PRON	_	Number=Sing|Person=1	16	nsubj	_	mé
 18	geearree	yeearree	NOUN	_	_	16	xcomp	_	ag iarraidh
 19	geaishtagh	eaishtagh	NOUN	_	_	18	xcomp	_	éisteacht
 20-21	rish	_	_	_	_	_	_	_	
 20	rish	rish	ADP	_	_	21	case	_	le
-21	eh	eh	PRON	_	_	19	obl	_	
+21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	obl	_	
 22-23	veih'n	_	_	_	_	_	_	_	
 22	veih	veih	ADP	_	_	24	case	_	ón
 23	yn	yn	DET	_	_	24	det	_	
 24	dooinney	dooinney	NOUN	_	_	19	obl	_	duine
-25	hene	hene	PRON	_	_	24	nmod	_	féin
+25	hene	hene	PRON	_	Reflex=Yes	24	nmod	_	féin
 26	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_016
@@ -423,7 +423,7 @@
 # text = As ren ad toshiaght dy vriaght nyn mast' oc hene, quoi jeu yinnagh shoh.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	thosaigh siad ag
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	toshiaght	toshiaght	NOUN	_	_	2	obj	_	
 5	dy	dy	ADP	_	_	6	case	_	
 6	vriaght	briaght	NOUN	_	_	4	xcomp	_	fhiosrú
@@ -431,21 +431,21 @@
 8	mast'	mastey	NOUN	_	_	6	obl	_	
 9-10	oc	_	_	_	_	_	_	_	
 9	ec	ec	ADP	_	_	10	case	_	
-10	ad	ad	PRON	_	_	8	nmod	_	
-11	hene	hene	PRON	_	_	10	nmod	_	féin
+10	ad	ad	PRON	_	Number=Plur|Person=3	8	nmod	_	
+11	hene	hene	PRON	_	Reflex=Yes	10	nmod	_	féin
 12	,	,	PUNCT	_	_	13	punct	_	,
 13	quoi	quoi	PRON	_	_	6	ccomp	_	cé
 14-15	jeu	_	_	_	_	_	_	_	
 14	jeh	jeh	ADP	_	_	15	case	_	díobh
-15	ad	ad	PRON	_	_	13	obl	_	
+15	ad	ad	PRON	_	Number=Plur|Person=3	13	obl	_	
 16	yinnagh	jean	VERB	_	Mood=Cnd	13	acl:relcl	_	dhéanfadh
-17	shoh	shoh	PRON	_	_	16	obj	_	seo
+17	shoh	shoh	PRON	_	PronType=Dem	16	obj	_	seo
 18	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_019
 # text = Ta mee er chlashtyn jeh cooyl-chassid sleih: as ta aggle er dy chooilley heu choud as t'ad cur nyn ghing cooidjagh, as goaill coyrle dy ghoaill ersooyl my vioys.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	mee	mee	PRON	_	_	1	nsubj	_	mé
+2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	er	er	ADP	_	_	4	case	_	tar éis cloisteáil
 4	chlashtyn	clashtyn	NOUN	_	_	1	xcomp	_	
 5	jeh	jeh	ADP	_	_	6	case	_	de
@@ -463,7 +463,7 @@
 17	as	as	SCONJ	_	_	16	fixed	_	
 18-19	t'ad	_	_	_	_	_	_	_	
 18	t'	bee	VERB	_	Mood=Ind|Tense=Pres	10	advcl	_	tá siad
-19	ad	ad	PRON	_	_	18	nsubj	_	
+19	ad	ad	PRON	_	Number=Plur|Person=3	18	nsubj	_	
 20	cur	cur	NOUN	_	_	18	xcomp	_	ag cur
 21	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	ghing	kione	NOUN	_	_	20	obj	_	gcinn
@@ -508,11 +508,11 @@
 # text = Ren ee cummal rish dy hooyl as farg ayns e cree.
 # text_ga = Lean sí ar aghaidh ag siúl agus fearg ina croí.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
-2	ee	ee	PRON	_	_	1	nsubj	_	sí
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	sí
 3	cummal	cummal	NOUN	_	_	1	xcomp	_	ina cónaí
 4-5	rish	_	_	_	_	_	_	_	
 4	rish	rish	ADP	_	_	5	case	_	leis
-5	eh	eh	PRON	_	_	3	obl	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	obl	_	
 6	dy	dy	ADP	_	_	7	case	_	de
 7	hooyl	shooyl	NOUN	_	_	3	xcomp	_	shiúl
 8	as	as	CCONJ	_	_	9	cc	_	agus
@@ -527,7 +527,7 @@
 # text_ga = Is mar seo a deir an Tiarna: Cluineadh guth i Rámá, caoineadh agus gol géar; is í Ráchael í ag caoineadh a clainne mar nach bhfuil siad ann.
 # text_en = Thus saith the LORD; A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not.
 1	Myr	myr	ADP	_	_	3	advmod	_	Mar seo atá an
-2	shoh	shoh	PRON	_	_	1	fixed	_	
+2	shoh	shoh	PRON	_	PronType=Dem	1	fixed	_	
 3-4	ta'n	_	_	_	_	_	_	_	
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
 4	'n	yn	DET	_	_	5	det	_	
@@ -564,7 +564,7 @@
 34	veg	veg	NOUN	_	_	33	nsubj	_	dada
 35-36	jeu	_	_	_	_	_	_	_	
 35	jeh	jeh	ADP	_	_	36	case	_	díobh
-36	ad	ad	PRON	_	_	34	nmod	_	
+36	ad	ad	PRON	_	Number=Plur|Person=3	34	nmod	_	
 37	faagit	faagit	ADJ	_	_	34	xcomp:pred	_	fágtha
 38	.	.	PUNCT	_	_	3	punct	_	.
 
@@ -590,7 +590,7 @@
 # text_ga = Agus nuair a chuaigh Abrám isteach san Éigipt chonaic na hÉigiptigh go raibh an bhean an-sciamhach.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	tháinig
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4-5	gy-kione	_	_	_	_	_	_	_	
 4	gy	gy	ADP	_	_	5	case	_	chun críche
 5	kione	kione	NOUN	_	_	2	obl	_	
@@ -613,7 +613,7 @@
 21	ven	ben	NOUN	_	_	15	obj	_	bhean
 22	dy	dy	PART	_	_	23	mark	_	go raibh
 23	row	bee	VERB	_	Mood=Ind|Tense=Past	21	acl:relcl	_	
-24	ee	ee	PRON	_	_	23	nsubj	_	sí
+24	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	23	nsubj	_	sí
 25	feer	feer	ADV	_	_	26	advmod	_	fíorálainn
 26	aalin	aalin	ADJ	_	_	23	xcomp:pred	_	
 27	.	.	PUNCT	_	_	2	punct	_	.
@@ -624,7 +624,7 @@
 # text_en = And they shall answer and say, Our hands have not shed this blood, neither have our eyes seen it.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
-3	ad	ad	PRON	_	_	2	nsubj	_	siad
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	siad
 4	gra	gra	NOUN	_	_	2	xcomp	_	a rá
 5	,	,	PUNCT	_	_	7	punct	_	,
 6	Cha	cha	PART	_	_	7	mark	_	Níl
@@ -633,7 +633,7 @@
 9	laueyn	laue	NOUN	_	_	7	nsubj	_	
 10-11	ain	_	_	_	_	_	_	_	
 10	ec	ec	ADP	_	_	11	case	_	againn
-11	shin	shin	PRON	_	_	9	nmod	_	
+11	shin	shin	PRON	_	Number=Plur|Person=1	9	nmod	_	
 12	er	er	ADP	_	_	13	case	_	tar éis doirteadh
 13	gheayrtey	deayrtey	NOUN	_	_	7	xcomp	_	
 14	yn	yn	DET	_	_	15	det	_	an
@@ -646,10 +646,10 @@
 21	sooillyn	sooill	NOUN	_	_	19	nsubj	_	
 22-23	ain	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	againn
-23	shin	shin	PRON	_	_	21	nmod	_	
+23	shin	shin	PRON	_	Number=Plur|Person=1	21	nmod	_	
 24	er	er	ADP	_	_	25	case	_	tar éis feiceáil
 25	vakin	fakin	NOUN	_	_	19	xcomp	_	
-26	eh	eh	PRON	_	_	25	obj	_	é
+26	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	25	obj	_	é
 27	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_026
@@ -661,7 +661,7 @@
 5	skee	skee	ADJ	_	_	3	xcomp:pred	_	
 6-7	jeu	_	_	_	_	_	_	_	
 6	jeh	jeh	ADP	_	_	7	case	_	díobh
-7	ad	ad	PRON	_	_	5	obl	_	
+7	ad	ad	PRON	_	Number=Plur|Person=3	5	obl	_	
 8	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_027
@@ -674,7 +674,7 @@
 6	aynshen	aynshen	ADV	_	_	5	advmod	_	ansin
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	vrie	brie	VERB	_	Mood=Ind|Tense=Past	1	conj	_	d'fhiafraigh
-9	eh	eh	PRON	_	_	8	nsubj	_	sé
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10-11	jeh'n	_	_	_	_	_	_	_	
 10	jeh	jeh	ADP	_	_	12	case	_	den
 11	yn	yn	DET	_	_	12	det	_	
@@ -682,7 +682,7 @@
 13	c'red	c'red	PRON	_	_	8	ccomp	_	céard a bhí sé
 14-15	v'eh	_	_	_	_	_	_	_	
 14	v'	bee	VERB	_	Mood=Ind|Tense=Past	13	acl:relcl	_	
-15	eh	eh	PRON	_	_	14	nsubj	_	
+15	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	
 16	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_028
@@ -708,12 +708,12 @@
 # text = Ve orrym tughtey eh.
 1-2	Ve	_	_	_	_	_	_	_	
 1	Va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3-4	orrym	_	_	_	_	_	_	_	
 3	er	er	ADP	_	_	4	case	_	orm
-4	mee	mee	PRON	_	_	1	xcomp:pred	_	
+4	mee	mee	PRON	_	Number=Sing|Person=1	1	xcomp:pred	_	
 5	tughtey	tughtey	NOUN	_	_	1	xcomp	_	toghadh
-6	eh	eh	PRON	_	_	5	obj	_	é
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obj	_	é
 7	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_030
@@ -721,19 +721,19 @@
 # text_ga = Leag sé a lámha air agus thug orduithe dó mar a d'aithin an Tiarna trí Mhaois.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	lhie	lhie	VERB	_	Mood=Ind|Tense=Past	0	root	_	leag
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	a
 5	laueyn	laue	NOUN	_	_	2	obj	_	lámha
 6-7	er	_	_	_	_	_	_	_	
 6	er	er	ADP	_	_	7	case	_	air
-7	eh	eh	PRON	_	_	2	obl	_	
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	obl	_	
 8	,	,	PUNCT	_	_	10	punct	_	,
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	livrey	livrey	VERB	_	Mood=Ind|Tense=Past	2	conj	_	d'fhuascail
-11	eh	eh	PRON	_	_	10	nsubj	_	sé
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	sé
 12-13	da	_	_	_	_	_	_	_	
 12	da	da	ADP	_	_	13	case	_	dó
-13	eh	eh	PRON	_	_	10	obl	_	
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	10	obl	_	
 14	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	15	nmod:poss	_	
 15	churrym	currym	NOUN	_	_	10	obj	_	chúram
 16	,	,	PUNCT	_	_	18	punct	_	,
@@ -756,7 +756,7 @@
 4	barriaght	barriaght	NOUN	_	_	3	obj	_	bua
 5-6	er	_	_	_	_	_	_	_	
 5	er	er	ADP	_	_	6	case	_	air
-6	eh	eh	PRON	_	_	3	obl	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	obl	_	
 7	!	!	PUNCT	_	_	2	punct	_	!
 
 # sent_id = aa_032
@@ -764,29 +764,29 @@
 1	My	my	SCONJ	_	_	2	mark	_	Má
 2-3	t'ad	_	_	_	_	_	_	_	
 2	t'	bee	VERB	_	Mood=Ind|Tense=Pres	13	advcl	_	tá siad
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	credjal	credjal	NOUN	_	_	2	xcomp	_	ag creidiúint
 5	dy	dy	PART	_	_	6	mark	_	go
 6	yinnagh	jean	VERB	_	Mood=Cnd	4	ccomp	_	ndéanfadh
 7	saase	saase	NOUN	_	_	6	nsubj	_	modh
 8	ennagh	ennagh	ADJ	_	_	7	amod	_	éigin
-9	ad	ad	PRON	_	_	11	obj	_	iad
+9	ad	ad	PRON	_	Number=Plur|Person=3	11	obj	_	iad
 10	y	y	ADP	_	_	11	mark	_	a
 11	chooney	cooney	NOUN	_	_	6	xcomp	_	chabhrú
 12	,	,	PUNCT	_	_	2	punct	_	,
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
-14	ad	ad	PRON	_	_	13	nsubj	_	siad
+14	ad	ad	PRON	_	Number=Plur|Person=3	13	nsubj	_	siad
 15	ymmyd	ymmyd	NOUN	_	_	13	obj	_	úsáid
 16-17	jeh	_	_	_	_	_	_	_	
 16	jeh	jeh	ADP	_	_	17	case	_	de
-17	eh	eh	PRON	_	_	13	obl	_	
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	13	obl	_	
 18	.	.	PUNCT	_	_	13	punct	_	.
 
 # sent_id = aa_033
 # text = V'eh aalin dy liooar.
 1-2	V'eh	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	aalin	aalin	ADJ	_	_	1	xcomp:pred	_	álainn
 4	dy	dy	PART	_	_	5	mark	_	go leor
 5	liooar	liooar	ADJ	_	_	3	advmod	_	
@@ -799,7 +799,7 @@
 3	ny	ny	DET	_	_	4	det	_	na n-aingeal
 4	ainleyn	ainle	NOUN	_	_	2	nsubj	_	
 5	bannee	bannee	ADJ	_	_	4	amod	_	beannaithe
-6	shen	shen	PRON	_	_	2	obj	_	sin
+6	shen	shen	PRON	_	PronType=Dem	2	obj	_	sin
 7	Lesh	lesh	ADP	_	_	8	case	_	Le
 8	bingys	bingys	NOUN	_	_	22	obj	_	binneas
 9	boggey	boggey	NOUN	_	_	8	nmod	_	bogadh
@@ -864,13 +864,13 @@
 # text_en = And he said to his daughter, Honour thy father and thy mother in law, which are now thy parents, that I may hear good report of thee.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	dúirt
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	rish	rish	ADP	_	_	6	case	_	lena
 5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	
 6	inneen	inneen	NOUN	_	_	2	obl	_	iníon
 7	,	,	PUNCT	_	_	8	punct	_	,
 8	Cur	cur	VERB	_	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	Tabhair
-9	uss	oo	PRON	_	_	8	nsubj	_	
+9	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	8	nsubj	_	
 10	arrym	arrym	NOUN	_	_	8	obj	_	onóir
 11	da	da	ADP	_	_	13	case	_	do
 12-13	dt'ayr	_	_	_	_	_	_	_	
@@ -884,7 +884,7 @@
 18	yn	yn	DET	_	_	19	det	_	
 19	leigh	leigh	NOUN	_	_	16	nmod	_	
 20	,	,	PUNCT	_	_	21	punct	_	,
-21	ad	ad	PRON	_	_	13	appos	_	iad
+21	ad	ad	PRON	_	Number=Plur|Person=3	13	appos	_	iad
 22	ta	bee	VERB	_	Mood=Ind|Tense=Pres	21	acl:relcl	_	atá
 23	nish	nish	ADV	_	_	22	advmod	_	anois
 24-25	dt'ayr	_	_	_	_	_	_	_	
@@ -902,20 +902,20 @@
 35	chlashtyn	clashtyn	NOUN	_	_	31	xcomp	_	chloisteáil
 36-37	jeed	_	_	_	_	_	_	_	
 36	jeh	jeh	ADP	_	_	37	case	_	díot
-37	oo	oo	PRON	_	_	35	obl	_	
+37	oo	oo	PRON	_	Number=Sing|Person=2	35	obl	_	
 38	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_038
 # text = As chroym eh sheese reesht, as scrieu eh er y laare.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	chroym	croym	VERB	_	Mood=Ind|Tense=Past	0	root	_	chrom
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	sheese	sheese	ADV	_	_	2	advmod	_	síos
 5	reesht	reesht	ADV	_	_	2	advmod	_	arís
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	scrieu	scrieu	VERB	_	Mood=Ind|Tense=Past	2	conj	_	scríobh
-9	eh	eh	PRON	_	_	8	nsubj	_	sé
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10	er	er	ADP	_	_	12	case	_	ar
 11	y	yn	DET	_	_	12	det	_	an
 12	laare	laare	NOUN	_	_	8	obl	_	urlár
@@ -929,13 +929,13 @@
 3	Fer-ny-gherjagh	fer-ny-gherjagh	PROPN	_	_	2	nsubj	_	An tAbhcóide
 4	,	,	PUNCT	_	_	5	punct	_	,
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	tá
-6	shen	shen	PRON	_	_	5	nsubj	_	sin
+6	shen	shen	PRON	_	PronType=Dem	5	nsubj	_	sin
 7	,	,	PUNCT	_	_	5	punct	_	,
 8	yn	yn	DET	_	_	9	det	_	an
 9	Spyrryd	spyrryd	NOUN	_	_	3	appos	_	Spiorad Naomh
 10	Noo	noo	ADJ	_	_	9	amod	_	
 11	,	,	PUNCT	_	_	12	punct	_	,
-12	eh	eh	PRON	_	_	3	appos	_	sé
+12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	appos	_	sé
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	12	acl:relcl	_	an
 14	yn	yn	DET	_	_	15	det	_	an
 15	Ayr	ayr	PROPN	_	_	13	nsubj	_	tAthair
@@ -946,19 +946,19 @@
 20	ennym	ennym	NOUN	_	_	17	obl	_	ainm
 21-22	aym's	_	_	_	_	_	_	_	
 21	ec	ec	ADP	_	_	22	case	_	agamsa
-22	mish	mee	PRON	_	_	20	nmod	_	
+22	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	20	nmod	_	
 23	,	,	PUNCT	_	_	24	punct	_	,
 24	gynsaghey	ynsaghey	NOUN	_	_	2	xcomp	_	ag múineadh
 25-26	diu	_	_	_	_	_	_	_	
 25	da	da	ADP	_	_	26	case	_	daoibh
-26	shiu	shiu	PRON	_	_	24	obl	_	
+26	shiu	shiu	PRON	_	Number=Plur|Person=2	24	obl	_	
 27	dy	dy	DET	_	_	29	det	_	gach uile
 28	chooilley	chooilley	DET	_	_	27	fixed	_	
 29	nhee	nhee	NOUN	_	_	24	obj	_	ní
 30	,	,	PUNCT	_	_	31	punct	_	,
 31	as	as	CCONJ	_	_	32	cc	_	agus
 32	tayrnee	tayrn	VERB	_	Mood=Ind|Tense=Fut	2	conj	_	tarraingeoidh
-33	eh	eh	PRON	_	_	32	nsubj	_	sé
+33	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	32	nsubj	_	sé
 34	dy	dy	DET	_	_	36	det	_	gach uile
 35	chooilley	chooilley	DET	_	_	34	fixed	_	
 36	nhee	nhee	NOUN	_	_	32	obj	_	rud
@@ -970,12 +970,12 @@
 41	cre	cre	PRON	_	_	32	advcl	_	cibé rud
 42	erbee	erbee	ADJ	_	_	41	amod	_	
 43	ta	bee	VERB	_	Mood=Ind|Tense=Pres	41	acl:relcl	_	atá
-44	mish	mee	PRON	_	_	43	nsubj	_	mise
+44	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	43	nsubj	_	mise
 45	er	er	ADP	_	_	46	case	_	tar éis rá
 46	ghra	gra	NOUN	_	_	43	xcomp	_	
 47-48	riu	_	_	_	_	_	_	_	
 47	rish	rish	ADP	_	_	48	case	_	libh
-48	shiu	shiu	PRON	_	_	46	obl	_	
+48	shiu	shiu	PRON	_	Number=Plur|Person=2	46	obl	_	
 49	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_040
@@ -1007,7 +1007,7 @@
 24	mullee	mullagh	NOUN	_	_	23	nmod	_	mullaigh
 25-26	echey	_	_	_	_	_	_	_	
 25	ec	ec	ADP	_	_	26	case	_	aige
-26	eh	eh	PRON	_	_	23	nmod	_	
+26	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	nmod	_	
 27	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_041
@@ -1055,21 +1055,21 @@
 39	yn	yn	DET	_	_	40	det	_	an
 40	joarree	joarree	NOUN	_	_	2	obl	_	teorann
 41	as	as	CCONJ	_	_	42	cc	_	agus
-42	eshyn	eh	PRON	_	_	40	conj	_	eisean
+42	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	40	conj	_	eisean
 43	va	bee	VERB	_	Mood=Ind|Tense=Past	42	acl:relcl	_	a bhí
 44	ruggit	ruggit	ADJ	_	_	43	xcomp:pred	_	beirthe
 45	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	46	nmod:poss	_	ina measc
 46-48	mast'oc	_	_	_	_	_	_	_	
 46	mast'	mastey	NOUN	_	_	44	obl	_	
 47	ec	ec	ADP	_	_	48	case	_	
-48	ad	ad	PRON	_	_	46	nmod	_	
+48	ad	ad	PRON	_	Number=Plur|Person=3	46	nmod	_	
 49	;	;	PUNCT	_	_	52	punct	_	;
 50	yn	yn	DET	_	_	52	det	_	an
 51	derrey	derrey	NUM	_	_	52	amod	_	dara
 52	lieh	lieh	NOUN	_	_	2	parataxis	_	leath
 53-54	jeu	_	_	_	_	_	_	_	
 53	jeh	jeh	ADP	_	_	54	case	_	díobh
-54	ad	ad	PRON	_	_	52	nmod	_	
+54	ad	ad	PRON	_	Number=Plur|Person=3	52	nmod	_	
 55	jeeragh	jeeragh	ADV	_	_	57	advmod	_	díreach
 56	er	er	ADP	_	_	57	case	_	ar
 57	cronk	cronk	NOUN	_	_	52	nmod	_	cnoc
@@ -1105,7 +1105,7 @@
 # text = T'eh ny phaarteeas jeh'n rheynnag theayagh as arryltagh.
 1-2	T'eh	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	ina
 4	phaarteeas	paarteeas	NOUN	_	_	1	xcomp:pred	_	phaarteeas
 5-6	jeh'n	_	_	_	_	_	_	_	
@@ -1143,7 +1143,7 @@
 21	chiarail	kiarail	NOUN	_	_	29	nsubj	_	aire
 22-23	echey	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	aige
-23	eh	eh	PRON	_	_	21	nmod	_	
+23	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	21	nmod	_	
 24	dys	dys	ADP	_	_	26	case	_	go dtí
 25	ny	ny	DET	_	_	26	det	_	na
 26	cair-screeuyn	cair-screeu	NOUN	_	_	29	obj	_	cair-screeuyn
@@ -1179,7 +1179,7 @@
 # text_ga = Táimid mar ábhar aithise go dearfa ag ár gcomharsana; is ceap magaidh agus scige sinn dá mbíonn inár dtimpeall.
 # text_en = We are become a reproach to our neighbours, a scorn and derision to them that are round about us.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	shiu	shiu	PRON	_	_	1	nsubj	_	sibh
+2	shiu	shiu	PRON	_	Number=Plur|Person=2	1	nsubj	_	sibh
 3	er	er	ADP	_	_	4	case	_	tar éis teacht
 4	jeet	çheet	NOUN	_	_	1	xcomp	_	
 5	dy	dy	ADP	_	_	6	case	_	chun bheith
@@ -1196,13 +1196,13 @@
 16	faghid	faghid	NOUN	_	_	14	conj	_	fonóid
 17-18	dauesyn	_	_	_	_	_	_	_	
 17	da	da	ADP	_	_	18	case	_	dóibhsean
-18	adsyn	ad	PRON	_	_	14	nmod	_	
+18	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	14	nmod	_	
 19	ta	bee	VERB	_	Mood=Ind|Tense=Pres	18	acl:relcl	_	atá
 20-23	mygeayrt-y-mooin	_	_	_	_	_	_	_	
 20	mygeayrt	mygeayrt	ADP	_	_	23	case	_	inár dtimpeall
 21	y	y	ADP	_	_	20	fixed	_	
 22	mysh	mysh	ADP	_	_	20	fixed	_	
-23	shin	shin	PRON	_	_	19	xcomp:pred	_	
+23	shin	shin	PRON	_	Number=Plur|Person=1	19	xcomp:pred	_	
 24	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_045
@@ -1215,7 +1215,7 @@
 6	monney	monney	NOUN	_	_	5	obj	_	
 7-8	jeh	_	_	_	_	_	_	_	
 7	jeh	jeh	ADP	_	_	8	case	_	
-8	eh	eh	PRON	_	_	5	obj	_	
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obj	_	
 9	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_046
@@ -1267,15 +1267,15 @@
 2	She	she	AUX	_	_	4	cop	_	Is
 3-4	rhyt's	_	_	_	_	_	_	_	
 3	rish	rish	ADP	_	_	4	case	_	leatsa
-4	uss	oo	PRON	_	_	0	root	_	
+4	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	0	root	_	
 5	eisht	eisht	ADV	_	_	4	advmod	_	ansin
 6	ta	bee	VERB	_	Mood=Ind|Tense=Pres	4	acl:relcl	_	tá
-7	mee	mee	PRON	_	_	6	nsubj	_	mé
+7	mee	mee	PRON	_	Number=Sing|Person=1	6	nsubj	_	mé
 8	loayrt	loayrt	NOUN	_	_	6	xcomp	_	ag labhairt
 9	nish	nish	ADV	_	_	6	advmod	_	anois
 10	tra	tra	SCONJ	_	_	11	mark	_	nuair atá
 11	ta	bee	VERB	_	Mood=Ind|Tense=Pres	4	advcl	_	
-12	mee	mee	PRON	_	_	11	nsubj	_	mé
+12	mee	mee	PRON	_	Number=Sing|Person=1	11	nsubj	_	mé
 13	loayrt	loayrt	NOUN	_	_	11	xcomp	_	ag labhairt
 14	rish	rish	ADP	_	_	16	case	_	leis
 15	y	yn	DET	_	_	16	det	_	na
@@ -1298,7 +1298,7 @@
 11	shirrey	shirrey	NOUN	_	_	1	advcl	_	ag iarraidh
 12-13	er	_	_	_	_	_	_	_	
 12	er	er	ADP	_	_	13	case	_	air
-13	eh	eh	PRON	_	_	11	obl	_	
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	obl	_	
 14	pointeil	pointeil	NOUN	_	_	11	xcomp	_	ceapadh
 15	Bing	bing	NOUN	_	_	14	obj	_	Roghchoiste
 16	Reiht	reiht	ADJ	_	_	15	amod	_	
@@ -1317,13 +1317,13 @@
 # sent_id = aa_050
 # text = Ren eh gearey choud as v'eh jeeaghyn cour y tholtan.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	gearey	gearey	NOUN	_	_	1	obj	_	gáire
 4	choud	choud	SCONJ	_	_	6	mark	_	chomh fada agus
 5	as	as	SCONJ	_	_	4	fixed	_	
 6-7	v'eh	_	_	_	_	_	_	_	
 6	v'	bee	VERB	_	Mood=Ind|Tense=Past	1	advcl	_	bhí sé
-7	eh	eh	PRON	_	_	6	nsubj	_	
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	
 8	jeeaghyn	jeeaghyn	NOUN	_	_	6	xcomp	_	ag féachaint
 9	cour	cour	ADP	_	_	11	case	_	i gcomhair
 10	y	yn	DET	_	_	11	det	_	na
@@ -1341,7 +1341,7 @@
 6	!	!	PUNCT	_	_	2	punct	_	!
 7	’	’	PUNCT	_	_	2	punct	_	’
 8	yinnagh	jean	VERB	_	Mood=Cnd	2	parataxis	_	ndéanfaidís
-9	ad	ad	PRON	_	_	8	nsubj	_	
+9	ad	ad	PRON	_	Number=Plur|Person=3	8	nsubj	_	
 10	yllagh	yllagh	NOUN	_	_	8	xcomp	_	béic
 11	magh	magh	ADV	_	_	10	advmod	_	amach
 12	,	,	PUNCT	_	_	13	punct	_	,
@@ -1357,7 +1357,7 @@
 21	roihaghyn	roih	NOUN	_	_	19	obj	_	lámha
 22-23	oc	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	acu
-23	ad	ad	PRON	_	_	21	nmod	_	
+23	ad	ad	PRON	_	Number=Plur|Person=3	21	nmod	_	
 24	.	.	PUNCT	_	_	8	punct	_	.
 
 # sent_id = aa_052
@@ -1373,10 +1373,10 @@
 8	myr	myr	SCONJ	_	_	10	mark	_	mar
 9	dy	dy	PART	_	_	10	mark	_	go
 10	beagh	bee	VERB	_	Mood=Cnd	4	advcl	_	mbeadh
-11	shiu	shiu	PRON	_	_	10	nsubj	_	sibh
+11	shiu	shiu	PRON	_	Number=Plur|Person=2	10	nsubj	_	sibh
 12	dy	dy	ADP	_	_	13	case	_	á dtarraingt
 13	hayrn	tayrn	NOUN	_	_	10	xcomp	_	
-14	ad	ad	PRON	_	_	13	obj	_	
+14	ad	ad	PRON	_	Number=Plur|Person=3	13	obj	_	
 15	ass	ass	ADP	_	_	17	case	_	as
 16	yn	yn	DET	_	_	17	det	_	an
 17	aile	aile	NOUN	_	_	13	obl	_	tine
@@ -1400,7 +1400,7 @@
 1	Share	mie	ADJ	_	_	0	root	_	Is fearr
 2-3	lhiam	_	_	_	_	_	_	_	
 2	lesh	lesh	ADP	_	_	3	case	_	liom
-3	mee	mee	PRON	_	_	1	obl	_	
+3	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 4	,	,	PUNCT	_	_	5	punct	_	,
 5	foddee	foddee	ADV	_	_	1	advmod	_	b'fhéidir
 6	,	,	PUNCT	_	_	5	punct	_	,
@@ -1416,7 +1416,7 @@
 16	assee	assee	NOUN	_	_	15	obj	_	dochair
 17-18	da	_	_	_	_	_	_	_	
 17	da	da	ADP	_	_	18	case	_	dó
-18	eh	eh	PRON	_	_	15	obl	_	
+18	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	15	obl	_	
 19	beggan	beggan	NOUN	_	_	15	obl	_	beagán ar bheagán
 20	er	er	ADP	_	_	21	case	_	
 21	veggan	beggan	NOUN	_	_	19	nmod	_	
@@ -1440,7 +1440,7 @@
 3	ner	ner	NOUN	_	_	1	obl	_	
 4	,	,	PUNCT	_	_	5	punct	_	,
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá
-6	mish	mee	PRON	_	_	5	nsubj	_	mise
+6	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	5	nsubj	_	mise
 7	,	,	PUNCT	_	_	10	punct	_	,
 8	as	as	CCONJ	_	_	10	cc	_	agus
 9	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	10	nmod:poss	_	mo
@@ -1453,7 +1453,7 @@
 15	chur	cur	NOUN	_	_	11	xcomp	_	
 16-17	dou	_	_	_	_	_	_	_	
 16	da	da	ADP	_	_	17	case	_	dom
-17	mee	mee	PRON	_	_	15	obl	_	
+17	mee	mee	PRON	_	Number=Sing|Person=1	15	obl	_	
 18	,	,	PUNCT	_	_	10	punct	_	,
 19	son	son	ADP	_	_	20	case	_	ar son
 20	cowraghyn	cowrey	NOUN	_	_	5	obl	_	comharthaí
@@ -1478,7 +1478,7 @@
 # text = V'eh toiggal dy row Alan toilliu ny laghyn-seyrey as dy jinnagh y ghrian Valearagh foays da e charrrey lurg da ve kianglit laa lurg laa gys sevreain y valley mooar.
 1-2	V'eh	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	toiggal	toiggal	NOUN	_	_	1	xcomp	_	tuiscint
 4	dy	dy	PART	_	_	5	mark	_	go raibh
 5	row	bee	VERB	_	Mood=Ind|Tense=Past	3	ccomp	_	
@@ -1499,7 +1499,7 @@
 20	lurg	lurg	ADP	_	_	22	case	_	i ndiaidh
 21-22	da	_	_	_	_	_	_	_	
 21	da	da	ADP	_	_	20	fixed	_	dó
-22	eh	eh	PRON	_	_	23	obl	_	
+22	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	obl	_	
 23	ve	ve	NOUN	_	_	12	advcl	_	a bheith
 24	kianglit	kianglit	ADJ	_	_	23	xcomp:pred	_	ceangailte
 25	laa	laa	NOUN	_	_	23	obl	_	lá
@@ -1537,14 +1537,14 @@
 # text = Shen va'n vea aym, rish bleeantyn.
 # text_ga = Ba é sin mo shaol, le blianta.
 # text_en = That was my life, for years.
-1	Shen	shen	PRON	_	_	0	root	_	Sin
+1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Sin
 2-3	va'n	_	_	_	_	_	_	_	
 2	va	bee	VERB	_	Mood=Ind|Tense=Past	1	csubj:cleft	_	bhí an
 3	'n	yn	DET	_	_	4	det	_	
 4	vea	bea	NOUN	_	_	2	nsubj	_	bheatha
 5-6	aym	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agam
-6	mee	mee	PRON	_	_	4	nmod	_	
+6	mee	mee	PRON	_	Number=Sing|Person=1	4	nmod	_	
 7	,	,	PUNCT	_	_	9	punct	_	,
 8	rish	rish	ADP	_	_	9	case	_	le
 9	bleeantyn	blein	NOUN	_	_	2	obl	_	blianta
@@ -1571,7 +1571,7 @@
 5	beg	beg	ADJ	_	_	4	amod	_	
 6-7	da	_	_	_	_	_	_	_	
 6	da	da	ADP	_	_	7	case	_	dó
-7	eh	eh	PRON	_	_	3	obl	_	
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	obl	_	
 8	mychione	mychione	ADP	_	_	10	case	_	faoina
 9	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	
 10	mac	mac	NOUN	_	_	4	nmod	_	mac
@@ -1585,10 +1585,10 @@
 # text_ga = Bhí orm fágáil go moch de bhrí go raibh fíorthuirse orm.
 1-2	V'eh	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí orm
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3-4	orrym	_	_	_	_	_	_	_	
 3	er	er	ADP	_	_	4	case	_	
-4	mee	mee	PRON	_	_	1	xcomp:pred	_	
+4	mee	mee	PRON	_	Number=Sing|Person=1	1	xcomp:pred	_	
 5	faagail	faagail	NOUN	_	_	1	xcomp	_	fágáil
 6	dy	dy	PART	_	_	7	mark	_	go moch
 7	moghey	moghey	ADJ	_	_	5	advmod	_	
@@ -1597,7 +1597,7 @@
 10	fa	fa	NOUN	_	_	1	obl	_	
 11	dy	dy	PART	_	_	12	mark	_	go
 12	row	bee	VERB	_	Mood=Ind|Tense=Past	10	acl	_	raibh
-13	mee	mee	PRON	_	_	12	nsubj	_	mé
+13	mee	mee	PRON	_	Number=Sing|Person=1	12	nsubj	_	mé
 14	feer	feer	ADV	_	_	15	advmod	_	fíorthuirseach
 15	skee	skee	ADJ	_	_	12	xcomp:pred	_	
 16	.	.	PUNCT	_	_	1	punct	_	.
@@ -1633,7 +1633,7 @@
 # text = T'eh ny ghooinney lieh-hooillagh.
 1-2	T'eh	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	ina
 4	ghooinney	dooinney	NOUN	_	_	1	xcomp:pred	_	fhear
 5	lieh-hooillagh	lieh-hooillagh	ADJ	_	_	4	amod	_	leathshúileach
@@ -1650,7 +1650,7 @@
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	hoie	soie	VERB	_	Mood=Ind|Tense=Past	2	conj	_	shuigh
-9	eh	eh	PRON	_	_	8	nsubj	_	sé
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10	kiongoyrt	kiongoyrt	ADP	_	_	13	case	_	os comhair
 11	rish	rish	ADP	_	_	10	fixed	_	
 12	y	yn	DET	_	_	13	det	_	an
@@ -1658,10 +1658,10 @@
 14	,	,	PUNCT	_	_	16	punct	_	,
 15	as	as	CCONJ	_	_	16	cc	_	agus
 16	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	2	conj	_	dúirt
-17	eh	eh	PRON	_	_	16	nsubj	_	sé
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	sé
 18	,	,	PUNCT	_	_	19	punct	_	,
 19	Quoi	quoi	PRON	_	_	16	parataxis	_	Cé
-20	mish	mee	PRON	_	_	19	nsubj	_	mise
+20	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	19	nsubj	_	mise
 21	,	,	PUNCT	_	_	23	punct	_	,
 22	O	o	INTJ	_	_	23	discourse	_	Ó
 23	Hiarn	çhiarn	NOUN	_	_	19	vocative	_	Thiarna
@@ -1675,7 +1675,7 @@
 31	,	,	PUNCT	_	_	33	punct	_	,
 32	dy	dy	PART	_	_	33	mark	_	go bhfuil
 33	vel	bee	VERB	_	Mood=Ind|Tense=Pres	19	ccomp	_	
-34	oo	oo	PRON	_	_	33	nsubj	_	tú
+34	oo	oo	PRON	_	Number=Sing|Person=2	33	nsubj	_	tú
 35	er	er	ADP	_	_	36	case	_	tar éis déanamh
 36-37	n'yannoo	_	_	_	_	_	_	_	
 36	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	37	nmod:poss	_	
@@ -1694,7 +1694,7 @@
 3	reiltys	reiltys	NOUN	_	_	1	nsubj	_	rialtas
 4-5	ain	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	againn
-5	shin	shin	PRON	_	_	3	nmod	_	
+5	shin	shin	PRON	_	Number=Plur|Person=1	3	nmod	_	
 6	ny	ny	PART	_	_	7	mark	_	níos mó
 7	smoo	mooar	ADJ	_	_	8	advmod	_	
 8	boirrit	boirrit	ADJ	_	_	1	xcomp:pred	_	buartha
@@ -1713,12 +1713,12 @@
 21	ashoon	ashoon	NOUN	_	_	17	obl	_	náisiún
 22-24	ain-hene	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	againn féin
-23	shin	shin	PRON	_	_	21	nmod	_	
-24	hene	hene	PRON	_	_	23	nmod	_	
+23	shin	shin	PRON	_	Number=Plur|Person=1	21	nmod	_	
+24	hene	hene	PRON	_	Reflex=Yes	23	nmod	_	
 25-27	er-lhiam	_	_	_	_	_	_	_	
 25	er	er	VERB	_	Mood=Ind|Tense=Pres	1	advcl	_	dar liom
 26	lesh	lesh	ADP	_	_	27	case	_	
-27	mee	mee	PRON	_	_	25	obl	_	
+27	mee	mee	PRON	_	Number=Sing|Person=1	25	obl	_	
 28	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_066
@@ -1756,7 +1756,7 @@
 # text = T'eh grait dy vel y Paggad Bree cur ny shlee na jeih as feed millioon punt sy vlein da tarmaynys Vannin.
 1-2	T'eh	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	grait	grait	ADJ	_	_	2	xcomp:pred	_	ráite
 4	dy	dy	PART	_	_	5	mark	_	go bhfuil
 5	vel	bee	VERB	_	Mood=Ind|Tense=Pres	3	ccomp	_	
@@ -1786,12 +1786,12 @@
 1	Lurg	lurg	ADP	_	_	3	case	_	I ndiaidh
 2-3	da	_	_	_	_	_	_	_	
 2	da	da	ADP	_	_	1	fixed	_	dó
-3	eh	eh	PRON	_	_	4	obl	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	4	obl	_	
 4	roshtyn	roshtyn	NOUN	_	_	7	advcl	_	sroicheadh
 5	yn	yn	DET	_	_	6	det	_	an
 6	thie	thie	NOUN	_	_	4	obj	_	tí
 7	honnick	faik	VERB	_	Mood=Ind|Tense=Past	0	root	_	chonaic
-8	eh	eh	PRON	_	_	7	nsubj	_	sé
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	sé
 9	carrey	carrey	NOUN	_	_	7	obj	_	cara
 10	elley	elley	ADJ	_	_	9	amod	_	eile
 11	ass	ass	ADP	_	_	12	case	_	as
@@ -1817,7 +1817,7 @@
 6	ven	ben	NOUN	_	_	1	obl	_	bhean
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	ren	jean	VERB	_	Mood=Ind|Tense=Past	1	conj	_	a rinne
-9	ee	ee	PRON	_	_	8	nsubj	_	sí
+9	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	8	nsubj	_	sí
 10	mongey	mongey	NOUN	_	_	8	obj	_	meangadh
 11	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -1827,7 +1827,7 @@
 # text_en = They are brought down and fallen: but we are risen, and stand upright.
 1-2	T'adsyn	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá siadsan
-2	adsyn	ad	PRON	_	_	1	nsubj	_	
+2	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	1	nsubj	_	
 3	er	er	ADP	_	_	5	case	_	á gcur
 4	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	
 5	goyrt	coyrt	NOUN	_	_	1	xcomp	_	
@@ -1841,7 +1841,7 @@
 12	:	:	PUNCT	_	_	14	punct	_	:
 13	agh	agh	CCONJ	_	_	14	cc	_	ach
 14	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	tá
-15	shinyn	shin	PRON	_	_	14	nsubj	_	sinne
+15	shinyn	shin	PRON	_	Number=Plur|Person=1|PronType=Emp	14	nsubj	_	sinne
 16	er	er	ADP	_	_	17	case	_	tar éis tógáil
 17	droggal	troggal	NOUN	_	_	14	xcomp	_	
 18	,	,	PUNCT	_	_	20	punct	_	,
@@ -1864,14 +1864,14 @@
 7	eash	eash	NOUN	_	_	3	nmod	_	
 8	tra	tra	SCONJ	_	_	9	mark	_	nuair a
 9	ghow	gow	VERB	_	Mood=Ind|Tense=Past	1	advcl	_	thosaigh sé ag
-10	eh	eh	PRON	_	_	9	nsubj	_	
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	
 11	toshiaght	toshiaght	NOUN	_	_	9	obj	_	
 12	dy	dy	ADP	_	_	13	case	_	
 13	reill	reill	NOUN	_	_	9	xcomp	_	rialú
 14	;	;	PUNCT	_	_	16	punct	_	;
 15	as	as	CCONJ	_	_	16	cc	_	agus
 16	ren	jean	VERB	_	Mood=Ind|Tense=Past	1	conj	_	rinne
-17	eh	eh	PRON	_	_	16	nsubj	_	sé
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	sé
 18	reill	reill	NOUN	_	_	16	obj	_	rialú
 19	un	un	NUM	_	_	20	nummod	_	aon
 20	vleïn	bleïn	NOUN	_	_	18	nmod	_	bhliain
@@ -1926,10 +1926,10 @@
 1	As	as	CCONJ	_	_	5	cc	_	Agus
 2-3	rish	_	_	_	_	_	_	_	
 2	rish	rish	ADP	_	_	3	case	_	leis
-3	eh	eh	PRON	_	_	5	obl	_	
-4	hene	hene	PRON	_	_	3	nmod	_	féin
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obl	_	
+4	hene	hene	PRON	_	Reflex=Yes	3	nmod	_	féin
 5	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	a dúirt
-6	eh	eh	PRON	_	_	5	nsubj	_	sé
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	sé
 7	,	,	PUNCT	_	_	8	punct	_	,
 8-10	Cur-my-ner	_	_	_	_	_	_	_	
 8	Cur	cur	VERB	_	Mood=Imp|Number=Sing|Person=2	5	parataxis	_	Féach
@@ -1937,7 +1937,7 @@
 10	ner	ner	NOUN	_	_	8	obl	_	
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	ta	bee	VERB	_	Mood=Ind|Tense=Pres	8	parataxis	_	tá
-13	mee	mee	PRON	_	_	12	nsubj	_	mé
+13	mee	mee	PRON	_	Number=Sing|Person=1	12	nsubj	_	mé
 14	er	er	ADP	_	_	15	case	_	tar éis gabháil
 15	ghoaill	goaill	NOUN	_	_	12	xcomp	_	
 16	ersooyl	ersooyl	ADV	_	_	15	advmod	_	ar siúl
@@ -1946,7 +1946,7 @@
 19	,	,	PUNCT	_	_	21	punct	_	,
 20	as	as	CCONJ	_	_	21	cc	_	agus
 21	nee'm	jean	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	12	conj	_	déanfaidh mé
-22	oo	oo	PRON	_	_	24	obj	_	thú
+22	oo	oo	PRON	_	Number=Sing|Person=2	24	obj	_	thú
 23	y	y	ADP	_	_	24	mark	_	a
 24	choodaghey	coodaghey	NOUN	_	_	21	xcomp	_	chlúdach
 25	lesh	lesh	ADP	_	_	26	case	_	le
@@ -1958,7 +1958,7 @@
 # text_ga = Seo cur síos ar an saothar éigeantach a rinne Solamh a thobhach do thógáil Teampall an Tiarna, a phálás féin, an Mileo, balla Iarúsailéim, Házór, Migideo, Geizir
 # text_en = And this is the reason of the levy which king Solomon raised; for to build the house of the LORD, and his own house, and Millo, and the wall of Jerusalem, and Hazor, and Megiddo, and Gezer.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
-2	shoh	shoh	PRON	_	_	0	root	_	seo
+2	shoh	shoh	PRON	_	PronType=Dem	0	root	_	seo
 3	va	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí
 4	oyr	oyr	NOUN	_	_	3	nsubj	_	cúis
 5	y	yn	DET	_	_	6	det	_	an
@@ -1979,7 +1979,7 @@
 18	as	as	CCONJ	_	_	20	cc	_	agus
 19	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	20	nmod:poss	_	a theach
 20	hie	thie	NOUN	_	_	14	conj	_	
-21	hene	hene	PRON	_	_	20	nmod	_	féin
+21	hene	hene	PRON	_	Reflex=Yes	20	nmod	_	féin
 22	,	,	PUNCT	_	_	24	punct	_	,
 23	as	as	CCONJ	_	_	24	cc	_	agus
 24	Millo	Millo	PROPN	_	_	14	conj	_	Mileo
@@ -2005,7 +2005,7 @@
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
 2	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	3	nmod:poss	_	a
 3	phobble	pobble	NOUN	_	_	6	obj	_	phobal
-4	hene	hene	PRON	_	_	3	nmod	_	féin
+4	hene	hene	PRON	_	Reflex=Yes	3	nmod	_	féin
 5	y	y	ADP	_	_	6	mark	_	a
 6	leeideil	leeideil	NOUN	_	_	1	xcomp	_	threorú
 7	trooid	trooid	ADP	_	_	9	case	_	tríd
@@ -2030,9 +2030,9 @@
 2	shey	shey	NUM	_	_	3	nummod	_	sé
 3	laa	laa	NOUN	_	_	4	obl:tmod	_	lá
 4	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	íosfaidh
-5	shiu	shiu	PRON	_	_	4	nsubj	_	sibh
+5	shiu	shiu	PRON	_	Number=Plur|Person=2	4	nsubj	_	sibh
 6	chaglym	chaglym	NOUN	_	_	4	xcomp	_	cruinnithe
-7	eh	eh	PRON	_	_	6	obj	_	é
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	obj	_	é
 8	,	,	PUNCT	_	_	19	punct	_	,
 9	agh	agh	CCONJ	_	_	19	cc	_	ach
 10	er	er	ADP	_	_	13	case	_	ar
@@ -2049,7 +2049,7 @@
 20	veg	veg	NOUN	_	_	19	nsubj	_	faic
 21-22	jeh	_	_	_	_	_	_	_	
 21	jeh	jeh	ADP	_	_	22	case	_	de
-22	eh	eh	PRON	_	_	20	nmod	_	
+22	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	20	nmod	_	
 23	ry	ry	ADP	_	_	24	case	_	ar fáil
 24	gheddyn	geddyn	NOUN	_	_	19	xcomp	_	
 25	.	.	PUNCT	_	_	4	punct	_	.
@@ -2058,7 +2058,7 @@
 # text = Te scruit er my hon.
 1-2	Te	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	scruit	scruit	ADJ	_	_	1	xcomp:pred	_	scríofa
 4	er	er	ADP	_	_	6	case	_	ar mo shon
 5	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	
@@ -2070,7 +2070,7 @@
 1	Tra	tra	SCONJ	_	_	2	mark	_	Nuair a bhí sé
 2-3	v'eh	_	_	_	_	_	_	_	
 2	v'	bee	VERB	_	Mood=Ind|Tense=Past	9	advcl	_	
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	ergerrey	ergerrey	ADP	_	_	6	case	_	i gcóngar
 5	da	da	ADP	_	_	4	fixed	_	dó
 6	croymmey	croymmey	NOUN	_	_	2	xcomp:pred	_	cromadh
@@ -2087,23 +2087,23 @@
 # text = Ren eh troggal er as sheeyney e laue huic.
 # text_ga = D'éirigh sé ina sheasamh agus shín sé a lámh chuici.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	troggal	troggal	NOUN	_	_	1	xcomp	_	tógáil
 4-5	er	_	_	_	_	_	_	_	
 4	er	er	ADP	_	_	5	case	_	air
-5	eh	eh	PRON	_	_	3	obl	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	obl	_	
 6	as	as	CCONJ	_	_	7	cc	_	agus
 7	sheeyney	sheeyney	NOUN	_	_	3	conj	_	síneadh
 8	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	a
 9	laue	laue	NOUN	_	_	7	obj	_	lámh
 10-11	huic	_	_	_	_	_	_	_	
 10	hug	hug	ADP	_	_	11	case	_	chuici
-11	ee	ee	PRON	_	_	7	obl	_	
+11	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	7	obl	_	
 12	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_081
 # text = Adsyn ayns baljyn as baljyn beggey syn Ellan ren goaill ayrn sy cho-hirrey Ellanyn my Vlaa, t'ad fuirraght d'eddyn magh quoi vees ny cosneyderyn.
-1	Adsyn	ad	PRON	_	_	0	root	_	Iadsan
+1	Adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	0	root	_	Iadsan
 2	ayns	ayns	ADP	_	_	3	case	_	i
 3	baljyn	balley	NOUN	_	_	1	nmod	_	mbailte
 4	as	as	CCONJ	_	_	5	cc	_	agus
@@ -2126,7 +2126,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	,
 20-21	t'ad	_	_	_	_	_	_	_	
 20	t'	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá siad
-21	ad	ad	PRON	_	_	20	nsubj	_	
+21	ad	ad	PRON	_	Number=Plur|Person=3	20	nsubj	_	
 22	fuirraght	fuirraght	NOUN	_	_	20	xcomp	_	ag fanacht
 23-24	d'eddyn	_	_	_	_	_	_	_	
 23	d'	dy	ADP	_	_	24	case	_	le fáil
@@ -2154,7 +2154,7 @@
 11	;	;	PUNCT	_	_	4	punct	_	;
 12	foast	foast	ADV	_	_	13	advmod	_	fós
 13	bee	bee	VERB	_	Mood=Ind|Tense=Fut	0	root	_	beidh
-14	eh	eh	PRON	_	_	13	nsubj	_	sé
+14	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	sé
 15	ayns	ayns	ADP	_	_	16	case	_	i
 16	fea	fea	NOUN	_	_	13	xcomp:pred	_	suaimhneas
 17	.	.	PUNCT	_	_	13	punct	_	.
@@ -2178,7 +2178,7 @@
 # sent_id = aa_084
 # text = Shoh eiraght cloan Venjamin, cordail rish nyn gynneeyn.
 # text_ga = Sin í oidhreacht chlann Bhiniáimin de réir a bhfiní.
-1	Shoh	shoh	PRON	_	_	0	root	_	Seo
+1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo
 2	eiraght	eiraght	NOUN	_	_	1	nsubj	_	oidhreacht
 3	cloan	cloan	NOUN	_	_	2	nmod	_	clann
 4	Venjamin	Benjamin	PROPN	_	_	3	nmod	_	Bhiniáimin
@@ -2206,11 +2206,11 @@
 # text = Myrane lesh shen, t'eh er goaill paart lesh Aegid Chochaarjys Seyr ny h-Oarpey veih'n vlein 2003 as lesh Kernow X veih'n vlein 2007.
 1	Myrane	myrane	ADP	_	_	3	case	_	Mar aon leis
 2	lesh	lesh	ADP	_	_	1	fixed	_	
-3	shen	shen	PRON	_	_	5	obl	_	sin
+3	shen	shen	PRON	_	PronType=Dem	5	obl	_	sin
 4	,	,	PUNCT	_	_	3	punct	_	,
 5-6	t'eh	_	_	_	_	_	_	_	
 5	t'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá sé
-6	eh	eh	PRON	_	_	5	nsubj	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	
 7	er	er	ADP	_	_	8	case	_	air
 8	goaill	goaill	NOUN	_	_	5	xcomp	_	ag gabháil
 9	paart	paart	NOUN	_	_	8	obj	_	páirte
@@ -2241,7 +2241,7 @@
 1	Tra	tra	SCONJ	_	_	2	mark	_	Nuair a bhí sé
 2-3	v'eh	_	_	_	_	_	_	_	
 2	v'	bee	VERB	_	Mood=Ind|Tense=Past	8	advcl	_	
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4-5	er-sooyl	_	_	_	_	_	_	_	
 4	er	er	ADP	_	_	5	case	_	imithe
 5	sooyl	sooyl	NOUN	_	_	2	obl	_	
@@ -2258,7 +2258,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	as	as	CCONJ	_	_	18	cc	_	agus
 18	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	8	conj	_	dúirt
-19	eh	eh	PRON	_	_	18	nsubj	_	sé
+19	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	sé
 20	rish	rish	ADP	_	_	22	case	_	lena
 21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	
 22	charrey	carrey	NOUN	_	_	18	obl	_	chara
@@ -2290,7 +2290,7 @@
 8	,	,	PUNCT	_	_	6	punct	_	,
 9-10	t'ad	_	_	_	_	_	_	_	
 9	t'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá siad
-10	ad	ad	PRON	_	_	9	nsubj	_	
+10	ad	ad	PRON	_	Number=Plur|Person=3	9	nsubj	_	
 11	gra	gra	NOUN	_	_	9	xcomp	_	ag rá
 12	‘	‘	PUNCT	_	_	13	punct	_	‘
 13	zee	zee	X	_	_	11	obj	_	zee
@@ -2306,14 +2306,14 @@
 3	vie	mie	ADJ	_	_	0	root	_	mhaith
 4-5	lhiam	_	_	_	_	_	_	_	
 4	lesh	lesh	ADP	_	_	5	case	_	liom
-5	mee	mee	PRON	_	_	3	obl	_	
+5	mee	mee	PRON	_	Number=Sing|Person=1	3	obl	_	
 6	dy	dy	PART	_	_	7	mark	_	go mór
 7	mooar	mooar	ADJ	_	_	3	advmod	_	
 8	gynsaghey	ynsaghey	NOUN	_	_	3	csubj:cop	_	ag múineadh
 9	clickyn	click	NOUN	_	_	8	obj	_	cleasa
 10-11	da	_	_	_	_	_	_	_	
 10	da	da	ADP	_	_	11	case	_	dó
-11	eh	eh	PRON	_	_	8	obl	_	
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	obl	_	
 12	,	,	PUNCT	_	_	16	punct	_	,
 13	dy	dy	PART	_	_	15	reparandum	_	dá
 14	—	—	PUNCT	_	_	13	punct	_	—
@@ -2322,7 +2322,7 @@
 17	y	yn	DET	_	_	18	det	_	an
 18	mooadys	mooadys	NOUN	_	_	16	xcomp:pred	_	méid
 19	kiart	kiart	ADJ	_	_	18	amod	_	ceart
-20	shen	shen	PRON	_	_	22	obj	_	sin
+20	shen	shen	PRON	_	PronType=Dem	22	obj	_	sin
 21	y	y	ADP	_	_	22	mark	_	a
 22	yannoo	jannoo	NOUN	_	_	18	acl	_	dhéanamh
 23	!	!	PUNCT	_	_	16	punct	_	!
@@ -2333,15 +2333,15 @@
 # text_en = And he said to a lad, Carry him to his mother.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	dúirt
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	rish	rish	ADP	_	_	5	case	_	le
 5	scollag	scollag	NOUN	_	_	2	obl	_	dalta
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Cur	cur	VERB	_	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	Tabhair
 8-9	lhiat	_	_	_	_	_	_	_	
 8	lesh	lesh	ADP	_	_	9	case	_	leat
-9	oo	oo	PRON	_	_	7	obl	_	
-10	eh	eh	PRON	_	_	7	obj	_	é
+9	oo	oo	PRON	_	Number=Sing|Person=2	7	obl	_	
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obj	_	é
 11	gys	gys	ADP	_	_	13	case	_	chuig
 12	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	a
 13	voir	moir	NOUN	_	_	7	obl	_	mháthair
@@ -2358,7 +2358,7 @@
 5	mie	mie	ADJ	_	_	0	root	_	
 6-7	lhein	_	_	_	_	_	_	_	
 6	lesh	lesh	ADP	_	_	7	case	_	linn
-7	shin	shin	PRON	_	_	5	obl	_	
+7	shin	shin	PRON	_	Number=Plur|Person=1	5	obl	_	
 8	goll	goll	NOUN	_	_	5	csubj:cop	_	dul ar
 9	er	er	ADP	_	_	10	case	_	
 10	turrys	turrys	NOUN	_	_	8	obl	_	turas
@@ -2371,7 +2371,7 @@
 17	roar	roar	NOUN	_	_	8	obl	_	rothar
 18-19	ain	_	_	_	_	_	_	_	
 18	ec	ec	ADP	_	_	19	case	_	againn
-19	shin	shin	PRON	_	_	17	nmod	_	
+19	shin	shin	PRON	_	Number=Plur|Person=1	17	nmod	_	
 20	.	.	PUNCT	_	_	5	punct	_	.
 
 # sent_id = aa_092
@@ -2379,7 +2379,7 @@
 1	Fy	fy	ADP	_	_	2	case	_	Faoi dheireadh
 2	yerrey	jerrey	NOUN	_	_	3	obl	_	
 3	hooar	fow	VERB	_	Mood=Ind|Tense=Past	0	root	_	fuaireadar
-4	ad	ad	PRON	_	_	3	nsubj	_	
+4	ad	ad	PRON	_	Number=Plur|Person=3	3	nsubj	_	
 5	magh	magh	ADV	_	_	3	advmod	_	amach
 6	liorish	liorish	ADP	_	_	7	case	_	ag
 7	peeikearyn	peeikear	NOUN	_	_	3	obl	_	spiairí
@@ -2436,14 +2436,14 @@
 24	Tarmaynys	tarmaynys	NOUN	_	_	23	nmod	_	Eacnamaíochta
 25	er	er	ADP	_	_	26	case	_	ar
 26	veeraghey	feeraghey	NOUN	_	_	20	xcomp	_	bhfíorú
-27	shen	shen	PRON	_	_	26	obj	_	sin
+27	shen	shen	PRON	_	PronType=Dem	26	obj	_	sin
 28	,	,	PUNCT	_	_	31	punct	_	,
 29	as	as	CCONJ	_	_	31	cc	_	agus
 30	cha	cha	PART	_	_	31	mark	_	níl
 31	nel	bee	VERB	_	Mood=Ind|Tense=Pres	20	conj	_	
 32	y	yn	DET	_	_	33	det	_	an
 33	Rheynn	rheynn	NOUN	_	_	31	nsubj	_	Roinn
-34	eh	eh	PRON	_	_	36	obj	_	é
+34	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	36	obj	_	é
 35	y	y	ADP	_	_	36	mark	_	an
 36	nobbal	obbal	NOUN	_	_	31	xcomp	_	séanadh
 37	noadyr	noadyr	ADV	_	_	31	advmod	_	ach an oiread
@@ -2456,10 +2456,10 @@
 3	briaght	briaght	NOUN	_	_	1	xcomp	_	ag fiafraí
 4-5	jee	_	_	_	_	_	_	_	
 4	jeh	jeh	ADP	_	_	5	case	_	di
-5	ee	ee	PRON	_	_	3	obl	_	
-6	hene	hene	PRON	_	_	5	nmod	_	féin
+5	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	3	obl	_	
+6	hene	hene	PRON	_	Reflex=Yes	5	nmod	_	féin
 7	row	bee	VERB	_	Mood=Ind|Tense=Past	3	ccomp	_	an raibh
-8	shoh	shoh	PRON	_	_	7	nsubj	_	seo
+8	shoh	shoh	PRON	_	PronType=Dem	7	nsubj	_	seo
 9	firrinagh	firrinagh	ADJ	_	_	7	xcomp:pred	_	fírinneach
 10	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -2478,11 +2478,11 @@
 9	erbee	erbee	ADJ	_	_	8	amod	_	ar bith
 10-11	voish	_	_	_	_	_	_	_	
 10	voish	voish	ADP	_	_	11	case	_	uaidh
-11	eh	eh	PRON	_	_	7	obl	_	
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obl	_	
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	as	as	CCONJ	_	_	14	cc	_	agus
 14	ghow	gow	VERB	_	Mood=Ind|Tense=Past	2	conj	_	ghabhadar
-15	ad	ad	PRON	_	_	14	nsubj	_	
+15	ad	ad	PRON	_	Number=Plur|Person=3	14	nsubj	_	
 16	dy	dy	PART	_	_	17	mark	_	go luath
 17	leah	leah	ADJ	_	_	14	advmod	_	
 18	greme	greme	NOUN	_	_	14	obj	_	greim
@@ -2492,7 +2492,7 @@
 22	;	;	PUNCT	_	_	24	punct	_	;
 23	as	as	CCONJ	_	_	24	cc	_	agus
 24	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	2	conj	_	dúradar
-25	ad	ad	PRON	_	_	24	nsubj	_	
+25	ad	ad	PRON	_	Number=Plur|Person=3	24	nsubj	_	
 26	,	,	PUNCT	_	_	28	punct	_	,
 27	Dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	28	nmod:poss	_	Do
 28	vraar	braar	NOUN	_	_	24	parataxis	_	dheartháir
@@ -2510,7 +2510,7 @@
 7	towse	towse	NOUN	_	_	5	obl	_	
 8-9	ayn	_	_	_	_	_	_	_	
 8	ayns	ayns	ADP	_	_	9	case	_	ann
-9	eh	eh	PRON	_	_	2	xcomp:pred	_	
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	xcomp:pred	_	
 10	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_097
@@ -2519,10 +2519,10 @@
 # text_en = And they said unto him, Hold thy peace, lay thine hand upon thy mouth, and go with us, and be to us a father and a priest: is it better for thee to be a priest unto the house of one man, or that thou be a priest unto a tribe and a family in Israel?
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	dúradar
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4-5	rish	_	_	_	_	_	_	_	
 4	rish	rish	ADP	_	_	5	case	_	leis
-5	eh	eh	PRON	_	_	2	obl	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	obl	_	
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Bee	bee	VERB	_	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	Bí
 8	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	9	nmod:poss	_	i do thost
@@ -2539,14 +2539,14 @@
 19	tar	tar	VERB	_	Mood=Imp|Number=Sing|Person=2	7	conj	_	tar
 20-21	mârin	_	_	_	_	_	_	_	
 20	marish	marish	ADP	_	_	21	case	_	in éineacht linn
-21	shin	shin	PRON	_	_	19	obl	_	
+21	shin	shin	PRON	_	Number=Plur|Person=1	19	obl	_	
 22	,	,	PUNCT	_	_	24	punct	_	,
 23	as	as	CCONJ	_	_	24	cc	_	agus
 24	bee	bee	VERB	_	Mood=Imp|Number=Sing|Person=2	7	conj	_	beidh
-25	oo	oo	PRON	_	_	24	nsubj	_	tú
+25	oo	oo	PRON	_	Number=Sing|Person=2	24	nsubj	_	tú
 26-27	dooin	_	_	_	_	_	_	_	
 26	da	da	ADP	_	_	27	case	_	dúinn
-27	shin	shin	PRON	_	_	24	obl	_	
+27	shin	shin	PRON	_	Number=Plur|Person=1	24	obl	_	
 28	son	son	ADP	_	_	29	case	_	mar
 29	ayr	ayr	NOUN	_	_	24	xcomp:pred	_	athair
 30	as	as	CCONJ	_	_	31	cc	_	agus
@@ -2556,7 +2556,7 @@
 34	share	mie	ADJ	_	_	31	amod	_	is fearr
 35-36	dhyt	_	_	_	_	_	_	_	
 35	da	da	ADP	_	_	36	case	_	duit
-36	oo	oo	PRON	_	_	34	obl	_	
+36	oo	oo	PRON	_	Number=Sing|Person=2	34	obl	_	
 37	dy	dy	ADP	_	_	38	case	_	a bheith
 38	ve	ve	NOUN	_	_	34	csubj:cop	_	
 39	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	40	nmod:poss	_	i do
@@ -2599,7 +2599,7 @@
 16	son	son	SCONJ	_	_	17	mark	_	óir tá sé
 17-18	t'eh	_	_	_	_	_	_	_	
 17	t'	bee	VERB	_	Mood=Ind|Tense=Pres	3	advcl	_	
-18	eh	eh	PRON	_	_	17	nsubj	_	
+18	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	
 19	er	er	ADP	_	_	20	case	_	ar
 20-21	n'okley	_	_	_	_	_	_	_	
 20	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	21	nmod:poss	_	n'okley
@@ -2632,7 +2632,7 @@
 3	keyl	keyl	ADJ	_	_	2	amod	_	caol
 4	–	–	PUNCT	_	_	5	punct	_	–
 5	tayrtyn	tayrtyn	NOUN	_	_	2	parataxis	_	gabháil
-6	eh	eh	PRON	_	_	5	obj	_	é
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obj	_	é
 7	lesh	lesh	ADP	_	_	8	case	_	le
 8	ooilley	ooilley	NOUN	_	_	6	nmod	_	gach ceann de na
 9	ny	ny	DET	_	_	10	det	_	
@@ -2640,7 +2640,7 @@
 11-13	v'echey	_	_	_	_	_	_	_	
 11	v'	bee	VERB	_	Mood=Ind|Tense=Past	10	acl:relcl	_	a bhí aige
 12	ec	ec	ADP	_	_	13	case	_	
-13	eh	eh	PRON	_	_	11	xcomp:pred	_	
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	xcomp:pred	_	
 14	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_100
@@ -2648,12 +2648,12 @@
 # text_ga = Ná déan conradh ar bith leo, ná lena ndéithe.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
 2	jean	jean	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	dhéanfaidh
-3	oo	oo	PRON	_	_	2	nsubj	_	tú
+3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
 4	conaant	conaant	NOUN	_	_	2	obj	_	conradh
 5	erbee	erbee	ADJ	_	_	4	amod	_	ar bith
 6-7	roosyn	_	_	_	_	_	_	_	
 6	rish	rish	ADP	_	_	7	case	_	leosan
-7	adsyn	ad	PRON	_	_	2	obl	_	
+7	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	2	obl	_	
 8	,	,	PUNCT	_	_	12	punct	_	,
 9	ny	ny	CCONJ	_	_	12	cc	_	nó
 10	rish	rish	ADP	_	_	12	case	_	leis
@@ -2661,7 +2661,7 @@
 12	jeeghyn	jee	NOUN	_	_	7	conj	_	déithe
 13-14	oc	_	_	_	_	_	_	_	
 13	ec	ec	ADP	_	_	14	case	_	acu
-14	ad	ad	PRON	_	_	12	nmod	_	
+14	ad	ad	PRON	_	Number=Plur|Person=3	12	nmod	_	
 15	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_101
@@ -2678,7 +2678,7 @@
 8	ghoaill	goaill	NOUN	_	_	4	xcomp	_	
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	O	o	INTJ	_	_	11	discourse	_	Ó
-11	uss	oo	PRON	_	_	1	vocative	_	tusa
+11	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	1	vocative	_	tusa
 12-13	s'aalin	_	_	_	_	_	_	_	
 12	s'	she	PART	_	_	13	mark	_	is áille
 13	aalin	aalin	ADJ	_	_	11	amod	_	
@@ -2693,7 +2693,7 @@
 # text_en = He joined five curtains to one another and the other five curtains he joined to one another.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	rinne
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	loopey	loopey	NOUN	_	_	2	xcomp	_	loopey
 5	queig	queig	NUM	_	_	6	nummod	_	cúig
 6	curtanyn	curtan	NOUN	_	_	4	obj	_	cuirtíní
@@ -2706,7 +2706,7 @@
 13	curtanyn	curtan	NOUN	_	_	15	obj	_	cuirtíní
 14	elley	elley	ADJ	_	_	13	amod	_	eile
 15	loop	loop	VERB	_	Mood=Ind|Tense=Past	2	conj	_	loop
-16	eh	eh	PRON	_	_	15	nsubj	_	sé
+16	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	sé
 17	dy	dy	ADP	_	_	18	case	_	le chéile
 18	cheilley	cheilley	NOUN	_	_	15	obl	_	
 19	.	.	PUNCT	_	_	2	punct	_	.
@@ -2721,7 +2721,7 @@
 6	Roish	Roish	PROPN	_	_	5	flat	_	Roimhe
 7	,	,	PUNCT	_	_	8	punct	_	,
 8	hooar	fow	VERB	_	Mood=Ind|Tense=Past	1	parataxis	_	fuair
-9	eh	eh	PRON	_	_	8	nsubj	_	sé
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10	baase	baase	NOUN	_	_	8	obj	_	bás
 11	ayns	ayns	ADP	_	_	12	case	_	in
 12	Thie-Lheihys	thie-lheihys	NOUN	_	_	8	obl	_	Ospidéal
@@ -2737,7 +2737,7 @@
 22	-	-	PUNCT	_	_	23	punct	_	-
 23-24	v'eh	_	_	_	_	_	_	_	
 23	v'	bee	VERB	_	Mood=Ind|Tense=Past	8	parataxis	_	bhí sé
-24	eh	eh	PRON	_	_	23	nsubj	_	
+24	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	
 25	feddynit	feddynit	ADJ	_	_	23	xcomp:pred	_	faighte
 26	dy	dy	PART	_	_	27	mark	_	go raibh
 27	row	bee	VERB	_	Mood=Ind|Tense=Past	25	ccomp	_	
@@ -2750,8 +2750,8 @@
 33	'uill	fuill	NOUN	_	_	28	nmod	_	fhuil
 34-35	echey	_	_	_	_	_	_	_	
 34	ec	ec	ADP	_	_	35	case	_	aige
-35	eh	eh	PRON	_	_	33	nmod	_	
-36	eh	eh	PRON	_	_	38	obj	_	é
+35	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	33	nmod	_	
+36	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	38	obj	_	é
 37	y	y	ADP	_	_	38	mark	_	a
 38	varroo	marroo	NOUN	_	_	27	xcomp	_	mharú
 39	.	.	PUNCT	_	_	1	punct	_	.
@@ -2762,7 +2762,7 @@
 # text_en = And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	loayr	loayr	VERB	_	Mood=Ind|Tense=Past	0	root	_	labhraíodar
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	rish	rish	ADP	_	_	5	case	_	le
 5	Moses	Moses	PROPN	_	_	2	obl	_	Maois
 6	,	,	PUNCT	_	_	7	punct	_	,
@@ -2775,7 +2775,7 @@
 12	coyrt	coyrt	NOUN	_	_	9	xcomp	_	cur
 13-14	lhieu	_	_	_	_	_	_	_	
 13	lesh	lesh	ADP	_	_	14	case	_	leo
-14	ad	ad	PRON	_	_	12	obl	_	
+14	ad	ad	PRON	_	Number=Plur|Person=3	12	obl	_	
 15	foddey	foddey	ADV	_	_	16	advmod	_	i bhfad níos mó
 16	smoo	mooar	ADJ	_	_	12	amod	_	
 17	ny	ny	SCONJ	_	_	18	mark	_	ná
@@ -2846,7 +2846,7 @@
 31	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	32	nmod:poss	_	ina
 32	drostey	trostey	NOUN	_	_	26	obl	_	dtroscadh
 33	as	as	SCONJ	_	_	34	mark	_	agus
-34	ad	ad	PRON	_	_	5	advcl	_	iad
+34	ad	ad	PRON	_	Number=Plur|Person=3	5	advcl	_	iad
 35	gymmyrkey	ymmyrkey	NOUN	_	_	34	xcomp	_	ag iompar
 36	feanish	feanish	NOUN	_	_	35	obj	_	fianaise
 37-38	noi'n	_	_	_	_	_	_	_	
@@ -2884,7 +2884,7 @@
 68	raad	raad	ADV	_	_	69	advmod	_	
 69-70	t'ee	_	_	_	_	_	_	_	
 69	t'	bee	VERB	_	Mood=Ind|Tense=Pres	67	acl:relcl	_	atá sí
-70	ee	ee	PRON	_	_	69	nsubj	_	
+70	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	69	nsubj	_	
 71	goll	goll	NOUN	_	_	69	xcomp	_	á labhairt
 72	er	er	ADP	_	_	73	case	_	
 73	loayrt	loayrt	NOUN	_	_	71	xcomp	_	
@@ -2898,7 +2898,7 @@
 # text = V'ad ooilley ayns fardail.
 1-2	V'ad	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí siad
-2	ad	ad	PRON	_	_	1	nsubj	_	
+2	ad	ad	PRON	_	Number=Plur|Person=3	1	nsubj	_	
 3	ooilley	ooilley	ADJ	_	_	2	amod	_	uile
 4	ayns	ayns	ADP	_	_	5	case	_	in aisce
 5	fardail	fardail	NOUN	_	_	1	xcomp:pred	_	
@@ -2912,10 +2912,10 @@
 2	cramman	cramman	NOUN	_	_	1	nsubj	_	cnaipe
 3-4	echey	_	_	_	_	_	_	_	
 3	ec	ec	ADP	_	_	4	case	_	aige
-4	eh	eh	PRON	_	_	1	xcomp:pred	_	
+4	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	
 5-6	dou	_	_	_	_	_	_	_	
 5	da	da	ADP	_	_	6	case	_	dom
-6	mee	mee	PRON	_	_	1	obl	_	
+6	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 7	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_109
@@ -2925,7 +2925,7 @@
 1	As	as	CCONJ	_	_	14	cc	_	Agus
 2-3	harroosyn	_	_	_	_	_	_	_	
 2	harrish	harrish	ADP	_	_	3	case	_	tharstusan
-3	adsyn	ad	PRON	_	_	14	xcomp:pred	_	
+3	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	14	xcomp:pred	_	
 4	va	bee	VERB	_	Mood=Ind|Tense=Past	3	acl:relcl	_	bhí
 5	mysh	mysh	ADP	_	_	6	case	_	faoi
 6	obbyr	obbyr	NOUN	_	_	4	xcomp:pred	_	obair
@@ -2950,13 +2950,13 @@
 3	mennick	mennick	ADJ	_	_	5	advmod	_	minic
 4	as	as	SCONJ	_	_	5	mark	_	agus
 5	oddagh	fod	VERB	_	Mood=Cnd	11	advcl	_	d'fhéadfadh
-6	eh	eh	PRON	_	_	5	nsubj	_	sé
-7	shen	shen	PRON	_	_	9	obj	_	sin
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	sé
+7	shen	shen	PRON	_	PronType=Dem	9	obj	_	sin
 8	y	y	ADP	_	_	9	mark	_	a
 9	yannoo	jannoo	NOUN	_	_	5	xcomp	_	dhéanamh
 10	,	,	PUNCT	_	_	5	punct	_	,
 11	yinnagh	jean	VERB	_	Mood=Cnd	0	root	_	dhéanfadh
-12	eh	eh	PRON	_	_	11	nsubj	_	sé
+12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	sé
 13	gliooney	gliooney	NOUN	_	_	11	xcomp	_	sléachtadh
 14	sheese	sheese	ADV	_	_	13	advmod	_	síos
 15	as	as	CCONJ	_	_	16	cc	_	agus
@@ -2988,7 +2988,7 @@
 41	raad	raad	ADV	_	_	42	advmod	_	áit a raibh sé
 42-43	v'eh	_	_	_	_	_	_	_	
 42	v'	bee	VERB	_	Mood=Ind|Tense=Past	40	acl:relcl	_	
-43	eh	eh	PRON	_	_	42	nsubj	_	
+43	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	42	nsubj	_	
 44	goit	goit	ADJ	_	_	41	amod	_	gafa
 45	dy	dy	PART	_	_	46	mark	_	go
 46	molteyragh	molteyragh	ADJ	_	_	41	amod	_	mealltach
@@ -3004,7 +3004,7 @@
 4	jeig	jeig	NOUN	_	_	2	compound	_	déag
 5-6	echey	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	aige
-6	eh	eh	PRON	_	_	1	xcomp:pred	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	
 7	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_112
@@ -3028,23 +3028,23 @@
 3	Yeesey	Yeesey	PROPN	_	_	2	nsubj	_	Íosa
 4	as	as	CCONJ	_	_	5	cc	_	agus
 5	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	2	conj	_	dúirt
-6	eh	eh	PRON	_	_	5	nsubj	_	sé
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	sé
 7-8	roosyn	_	_	_	_	_	_	_	
 7	rish	rish	ADP	_	_	8	case	_	leosan
-8	adsyn	ad	PRON	_	_	5	obl	_	
+8	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	5	obl	_	
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	Chamoo	chamoo	CCONJ	_	_	11	cc	_	Agus ní
 11	insh-yms	insh	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	5	parataxis	_	inseoidh mé
 12-13	diuish	_	_	_	_	_	_	_	
 12	da	da	ADP	_	_	13	case	_	daoibhse
-13	shiuish	shiu	PRON	_	_	11	obl	_	
+13	shiuish	shiu	PRON	_	Number=Plur|Person=2|PronType=Emp	11	obl	_	
 14	liorish	liorish	ADP	_	_	15	case	_	aige
 15-16	cre'n	_	_	_	_	_	_	_	
 15	cre	cre	PRON	_	_	11	ccomp	_	cén
 16	'n	yn	DET	_	_	17	det	_	
 17	phooar	pooar	NOUN	_	_	15	nsubj	_	t-údarás
 18	ta	bee	VERB	_	Mood=Ind|Tense=Pres	17	acl	_	atá
-19	mee	mee	PRON	_	_	18	nsubj	_	mé
+19	mee	mee	PRON	_	Number=Sing|Person=1	18	nsubj	_	mé
 20	dy	dy	ADP	_	_	21	case	_	ag déanamh
 21	yannoo	jannoo	NOUN	_	_	18	xcomp	_	
 22	ny	ny	DET	_	_	23	det	_	na
@@ -3062,7 +3062,7 @@
 4	gorrym	gorrym	ADJ	_	_	3	amod	_	gorma
 5-6	eck	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	aici
-6	ee	ee	PRON	_	_	3	nmod	_	
+6	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	3	nmod	_	
 7	soilshean	soilshean	NOUN	_	_	1	xcomp	_	ag soilsiú
 8	dy	dy	PART	_	_	9	mark	_	go
 9	barriaghtagh	barriaghtagh	ADJ	_	_	7	advmod	_	caithréimeach
@@ -3082,7 +3082,7 @@
 # text_ga = Uime sin tugadh Gilgeál ar an áit go dtí an lá atá inniu ann.
 # text_en = Wherefore the name of the place is called Gilgal unto this day.
 1-3	Shen-y-fa	_	_	_	_	_	_	_	
-1	Shen	shen	PRON	_	_	0	root	_	Dá bhrí sin
+1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Dá bhrí sin
 2	y	yn	DET	_	_	3	det	_	
 3	fa	fa	NOUN	_	_	1	nsubj	_	
 4-5	ta'n	_	_	_	_	_	_	_	
@@ -3097,7 +3097,7 @@
 12-14	t'ayn	_	_	_	_	_	_	_	
 12	t'	bee	VERB	_	Mood=Ind|Tense=Pres	11	acl:relcl	_	atá ann
 13	ayns	ayns	ADP	_	_	14	case	_	
-14	eh	eh	PRON	_	_	12	xcomp:pred	_	
+14	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	12	xcomp:pred	_	
 15	jiu	jiu	ADV	_	_	12	advmod	_	inniu
 16	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -3109,7 +3109,7 @@
 3-5	t'ayn	_	_	_	_	_	_	_	
 3	t'	bee	VERB	_	Mood=Ind|Tense=Pres	2	csubj:cleft	_	atá ann
 4	ayns	ayns	ADP	_	_	5	case	_	
-5	eh	eh	PRON	_	_	3	xcomp:pred	_
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	xcomp:pred	_
 6	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_118
@@ -3122,7 +3122,7 @@
 4	thooilley	thooilley	NOUN	_	_	2	nmod	_	tuile
 5-6	echey	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	aige
-6	eh	eh	PRON	_	_	4	nmod	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nmod	_	
 7	ard-valley	ard-valley	NOUN	_	_	10	obj	_	cathair
 8	Yee	Jee	PROPN	_	_	7	nmod	_	Dé
 9	y	y	ADP	_	_	10	mark	_	a
@@ -3172,7 +3172,7 @@
 # text = T'ee goll er loayrt, er y chooid smoo, 'sy Velaroosh, 'sy Roosh, 'syn Ookraan as 'sy Pholynn.
 1-2	T'ee	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sí
-2	ee	ee	PRON	_	_	1	nsubj	_	
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	
 3	goll	goll	NOUN	_	_	1	xcomp	_	á labhairt
 4	er	er	ADP	_	_	5	case	_	
 5	loayrt	loayrt	NOUN	_	_	3	xcomp	_	
@@ -3207,7 +3207,7 @@
 # text = Haink eh stiagh yn kiarroo.
 # text_en = He came in fourth.
 1	Haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	Tháinig
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	stiagh	stiagh	ADV	_	_	1	advmod	_	isteach
 4	yn	yn	DET	_	_	5	det	_	an
 5	kiarroo	kiarroo	NOUN	_	_	1	obl	_	ceathrú
@@ -3219,12 +3219,12 @@
 2	1908	1908	NUM	_	_	4	obl	_	1908
 3	,	,	PUNCT	_	_	2	punct	_	,
 4	hie	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	chuaigh
-5	eh	eh	PRON	_	_	4	nsubj	_	sé
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	sé
 6	gys	gys	ADP	_	_	7	case	_	go
 7	Divlyn	Divlyn	PROPN	_	_	4	obl	_	Baile Átha Cliath
 8	as	as	CCONJ	_	_	9	cc	_	agus
 9	hie	gow	VERB	_	Mood=Ind|Tense=Past	4	conj	_	chuaigh
-10	eh	eh	PRON	_	_	9	nsubj	_	sé
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	sé
 11	stiagh	stiagh	ADV	_	_	9	advmod	_	isteach
 12	ayns	ayns	ADP	_	_	14	case	_	sna
 13	ny	ny	DET	_	_	14	det	_	
@@ -3236,7 +3236,7 @@
 # text = Cha nel mee geearree feddyn magh dy firrinagh agh jus jannoo coloayrtys cooyrtoil.
 1	Cha	cha	PART	_	_	2	mark	_	Níl
 2	nel	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-3	mee	mee	PRON	_	_	2	nsubj	_	mé
+3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	mé
 4	geearree	yeearree	NOUN	_	_	2	xcomp	_	ag iarraidh
 5	feddyn	feddyn	NOUN	_	_	4	xcomp	_	fáil amach
 6	magh	magh	ADV	_	_	5	advmod	_	
@@ -3293,7 +3293,7 @@
 # text_en = It consists of a brain, spinal cord and nerves.
 1-2	T'eh	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-2	eh	eh	PRON	_	_	1	nsubj	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	
 3	goaill	goaill	NOUN	_	_	1	xcomp	_	ag gabháil
 4	stiagh	stiagh	ADV	_	_	3	advmod	_	isteach
 5	inçhyn	inçhyn	NOUN	_	_	3	obj	_	inchinn
@@ -3313,11 +3313,11 @@
 2	firrinagh	firrinagh	ADJ	_	_	4	advmod	_	
 3	firrinagh	firrinagh	ADJ	_	_	2	fixed	_	fírinneach
 4	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	atá
-5	mee	mee	PRON	_	_	4	nsubj	_	mé
+5	mee	mee	PRON	_	Number=Sing|Person=1	4	nsubj	_	mé
 6	gra	gra	NOUN	_	_	4	xcomp	_	a rá
 7-8	riu	_	_	_	_	_	_	_	
 7	rish	rish	ADP	_	_	8	case	_	libh
-8	shiu	shiu	PRON	_	_	6	obl	_	
+8	shiu	shiu	PRON	_	Number=Plur|Person=2	6	obl	_	
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	Cha	cha	PART	_	_	11	mark	_	Níl
 11	vel	bee	VERB	_	Mood=Ind|Tense=Pres	6	parataxis	_	
@@ -3330,7 +3330,7 @@
 18	hiarn	çhiarn	NOUN	_	_	15	obl	_	thiarna
 19	,	,	PUNCT	_	_	21	punct	_	,
 20	ny	ny	CCONJ	_	_	21	cc	_	ná
-21	eshyn	eh	PRON	_	_	13	conj	_	eisean
+21	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	13	conj	_	eisean
 22-23	t'er	_	_	_	_	_	_	_	
 22	t'	bee	VERB	_	Mood=Ind|Tense=Pres	21	acl:relcl	_	atá á
 23	er	er	ADP	_	_	25	case	_	
@@ -3340,11 +3340,11 @@
 27	ny	ny	PART	_	_	28	mark	_	níos airde
 28	syrjey	ard	ADJ	_	_	11	xcomp:pred	_	
 29	na	na	ADP	_	_	30	case	_	ná
-30	eshyn	eh	PRON	_	_	28	obl	_	eisean
+30	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	28	obl	_	eisean
 31	ren	jean	VERB	_	Mood=Ind|Tense=Past	30	acl:relcl	_	a rinne
 32	y	y	ADP	_	_	33	mark	_	a
 33	choyrt	coyrt	NOUN	_	_	31	xcomp	_	chuir
-34	eh	eh	PRON	_	_	33	obj	_	sé
+34	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	33	obj	_	sé
 35	.	.	PUNCT	_	_	4	punct	_	.
 
 # sent_id = aa_129
@@ -3353,13 +3353,13 @@
 1	Wahll	wahll	INTJ	_	_	3	discourse	_	Bhuel
 2	,	,	PUNCT	_	_	1	punct	_	,
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá
-4	mee	mee	PRON	_	_	3	nsubj	_	mé
+4	mee	mee	PRON	_	Number=Sing|Person=1	3	nsubj	_	mé
 5	toiggal	toiggal	NOUN	_	_	3	xcomp	_	ag tuiscint
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Alan	Alan	PROPN	_	_	3	vocative	_	Alan
 8	,	,	PUNCT	_	_	9	punct	_	,
 9	ta	bee	VERB	_	Mood=Ind|Tense=Pres	3	parataxis	_	tá
-10	mee	mee	PRON	_	_	9	nsubj	_	mé
+10	mee	mee	PRON	_	Number=Sing|Person=1	9	nsubj	_	mé
 11	toiggal	toiggal	NOUN	_	_	9	xcomp	_	ag tuiscint
 12	,	,	PUNCT	_	_	13	punct	_	,
 13	agh	agh	CCONJ	_	_	16	cc	_	ach
@@ -3372,12 +3372,12 @@
 19	,	,	PUNCT	_	_	16	punct	_	,
 20	cha	cha	PART	_	_	21	mark	_	ní féidir liomsa
 21	noddyms	fod	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	3	conj	_	
-22	hene	hene	PRON	_	_	21	nmod	_	féin
+22	hene	hene	PRON	_	Reflex=Yes	21	nmod	_	féin
 23	scuirr	scuirr	NOUN	_	_	21	xcomp	_	stop
 24	edyr	edyr	ADV	_	_	21	advmod	_	ar chor ar bith
 25	;	;	PUNCT	_	_	26	punct	_	;
 26	ta	bee	VERB	_	Mood=Ind|Tense=Pres	21	parataxis	_	bím
-27	mee	mee	PRON	_	_	26	nsubj	_	
+27	mee	mee	PRON	_	Number=Sing|Person=1	26	nsubj	_	
 28	kynjagh	kynjagh	ADJ	_	_	26	advmod	_	i gcónaí
 29	geiyrt	eiyrt	NOUN	_	_	26	xcomp	_	ag leanúint
 30	er	er	ADP	_	_	31	case	_	ar
@@ -3390,7 +3390,7 @@
 # text = V'ad cha boght as lugh killagh, beaghey veih'n laue gys y veeal agh by vessey foast ny va ry heet.
 1-2	V'ad	_	_	_	_	_	_	_	
 1	V'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí siad
-2	ad	ad	PRON	_	_	1	nsubj	_	
+2	ad	ad	PRON	_	Number=Plur|Person=3	1	nsubj	_	
 3	cha	cha	ADV	_	_	4	advmod	_	chomh
 4	boght	boght	ADJ	_	_	1	xcomp:pred	_	bocht
 5	as	as	ADP	_	_	6	case	_	le
@@ -3425,9 +3425,9 @@
 4	,	,	PUNCT	_	_	5	punct	_	,
 5-6	v'eh	_	_	_	_	_	_	_	
 5	v'	bee	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	bhí sé
-6	eh	eh	PRON	_	_	5	nsubj	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	
 7	toilçhin	toilçhin	NOUN	_	_	5	xcomp	_	tuilleamh
-8	eh	eh	PRON	_	_	7	obj	_	é
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obj	_	é
 9	.	.	PUNCT	_	_	3	punct	_	.
 
 # sent_id = aa_132
@@ -3435,8 +3435,8 @@
 # text_ga = Ní raibh tú sa seomra ranga.
 1	Cha	cha	PART	_	_	2	mark	_	Ní raibh
 2	row	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	
-3	oo	oo	PRON	_	_	2	nsubj	_	tú
-4	hene	hene	PRON	_	_	3	nmod	_	féin
+3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
+4	hene	hene	PRON	_	Reflex=Yes	3	nmod	_	féin
 5	ayns	ayns	ADP	_	_	7	case	_	sa
 6	y	yn	DET	_	_	7	det	_	
 7	çhamyr-vrastyl	shamyr-vrastyl	NOUN	_	_	2	xcomp:pred	_	seomra ranga
@@ -3446,13 +3446,13 @@
 # text = Ta mish as Roxy geaishtagh riu ayns y gharey.
 # text_ga = Tá mise agus Roxy ag éisteacht libh sa ghairdín.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	mish	mee	PRON	_	_	1	nsubj	_	mise
+2	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	1	nsubj	_	mise
 3	as	as	CCONJ	_	_	4	cc	_	agus
 4	Roxy	Roxy	PROPN	_	_	2	conj	_	Roxy
 5	geaishtagh	eaishtagh	NOUN	_	_	1	xcomp	_	éisteacht
 6-7	riu	_	_	_	_	_	_	_	
 6	rish	rish	ADP	_	_	7	case	_	libh
-7	shiu	shiu	PRON	_	_	5	obl	_	
+7	shiu	shiu	PRON	_	Number=Plur|Person=2	5	obl	_	
 8	ayns	ayns	ADP	_	_	10	case	_	sa
 9	y	yn	DET	_	_	10	det	_	
 10	gharey	garey	NOUN	_	_	5	obl	_	gharraí
@@ -3510,7 +3510,7 @@
 23	credjal	credjal	NOUN	_	_	2	xcomp	_	creidiúint
 24-25	ayn	_	_	_	_	_	_	_	
 24	ayns	ayns	ADP	_	_	25	case	_	ann
-25	eh	eh	PRON	_	_	23	obl	_	
+25	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	obl	_	
 26	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_136
@@ -3524,11 +3524,11 @@
 6	foshlit	foshlit	ADJ	_	_	2	xcomp:pred	_	oscailte
 7-8	da	_	_	_	_	_	_	_	
 7	da	da	ADP	_	_	8	case	_	dó
-8	eh	eh	PRON	_	_	6	obl	_	
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	obl	_	
 9	tra	tra	SCONJ	_	_	10	mark	_	nuair a bhí sé
 10-11	v'eh	_	_	_	_	_	_	_	
 10	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	advcl	_	
-11	eh	eh	PRON	_	_	10	nsubj	_	
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	
 12	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	ina
 13	aegid	aegid	NOUN	_	_	10	xcomp:pred	_	óige
 14	.	.	PUNCT	_	_	2	punct	_	.
@@ -3542,14 +3542,14 @@
 3	reddyn	red	NOUN	_	_	0	root	_	rudaí
 4	shoh	shoh	DET	_	_	3	det	_	seo
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	3	acl:relcl	_	tá
-6	mish	mee	PRON	_	_	5	nsubj	_	mise
+6	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	5	nsubj	_	mise
 7	er	er	ADP	_	_	8	case	_	tar éis insint
 8-9	n'insh	_	_	_	_	_	_	_	
 8	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	
 9	insh	insh	NOUN	_	_	5	xcomp	_	
 10-11	diu	_	_	_	_	_	_	_	
 10	da	da	ADP	_	_	11	case	_	daoibh
-11	shiu	shiu	PRON	_	_	9	obl	_	
+11	shiu	shiu	PRON	_	Number=Plur|Person=2	9	obl	_	
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	tra	tra	SCONJ	_	_	14	mark	_	nuair a
 14	hig	tar	VERB	_	Mood=Ind|Tense=Fut	19	advcl	_	thiocfaidh
@@ -3558,17 +3558,17 @@
 17	,	,	PUNCT	_	_	14	punct	_	,
 18	dy	dy	PART	_	_	19	mark	_	gur féidir libh
 19	vod	fod	VERB	_	Mood=Ind|Tense=Fut	9	advcl	_	
-20	shiu	shiu	PRON	_	_	19	nsubj	_	
+20	shiu	shiu	PRON	_	Number=Plur|Person=2	19	nsubj	_	
 21	cooinaghtyn	cooinaghtyn	NOUN	_	_	19	xcomp	_	cuimhneamh
 22	dy	dy	PART	_	_	23	mark	_	gur inis
 23	dinsh	insh	VERB	_	Mood=Ind|Tense=Past	21	ccomp	_	
-24	mee	mee	PRON	_	_	23	nsubj	_	mé
+24	mee	mee	PRON	_	Number=Sing|Person=1	23	nsubj	_	mé
 25-26	diu	_	_	_	_	_	_	_	
 25	da	da	ADP	_	_	26	case	_	daoibh
-26	shiu	shiu	PRON	_	_	23	obl	_	
+26	shiu	shiu	PRON	_	Number=Plur|Person=2	23	obl	_	
 27-28	jeu	_	_	_	_	_	_	_	
 27	jeh	jeh	ADP	_	_	28	case	_	díobh
-28	ad	ad	PRON	_	_	23	obl	_	
+28	ad	ad	PRON	_	Number=Plur|Person=3	23	obl	_	
 29	.	.	PUNCT	_	_	5	punct	_	.
 
 # sent_id = aa_138
@@ -3577,7 +3577,7 @@
 # text_en = He can neither read nor write.
 1	Cha	cha	PART	_	_	2	mark	_	Ní féidir leis
 2	nod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	lhaih	lhaih	NOUN	_	_	2	xcomp	_	léamh
 5	ny	ny	CCONJ	_	_	6	cc	_	ná
 6	screeu	screeu	NOUN	_	_	4	conj	_	scríobh
@@ -3634,7 +3634,7 @@
 # text_ga = ‘Táim ag caint faoin saol.
 1	‘	‘	PUNCT	_	_	2	punct	_	‘
 2	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-3	mee	mee	PRON	_	_	2	nsubj	_	mé
+3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	mé
 4	loayrt	loayrt	NOUN	_	_	2	xcomp	_	ag labhairt
 5	mychione	mychione	ADP	_	_	7	case	_	faoin
 6	y	yn	DET	_	_	7	det	_	
@@ -3650,7 +3650,7 @@
 4	shoh	shoh	DET	_	_	3	det	_	seo
 5	,	,	PUNCT	_	_	3	punct	_	,
 6	ver-ym	cur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	cuirfidh mé
-7	ad	ad	PRON	_	_	6	obj	_	iad
+7	ad	ad	PRON	_	Number=Plur|Person=3	6	obj	_	iad
 8	fo	fo	ADP	_	_	9	case	_	faoi
 9	coadey	coadey	NOUN	_	_	6	obl	_	cosaint
 10	Yee	Jee	PROPN	_	_	9	nmod	_	Dhia
@@ -3675,8 +3675,8 @@
 8	chur	cur	NOUN	_	_	6	xcomp	_	
 9-10	orrym	_	_	_	_	_	_	_	
 9	er	er	ADP	_	_	10	case	_	orm
-10	mee	mee	PRON	_	_	8	obl	_	
-11	shoh	shoh	PRON	_	_	8	obj	_	é seo
+10	mee	mee	PRON	_	Number=Sing|Person=1	8	obl	_	
+11	shoh	shoh	PRON	_	PronType=Dem	8	obj	_	é seo
 12	.	.	PUNCT	_	_	4	punct	_	.
 
 # sent_id = aa_144
@@ -3686,7 +3686,7 @@
 3	pabyryn	pabyr	NOUN	_	_	7	obl	_	nuachtáin
 4	naight	naight	NOUN	_	_	3	nmod	_	
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá
-6	shiu	shiu	PRON	_	_	5	nsubj	_	sibh
+6	shiu	shiu	PRON	_	Number=Plur|Person=2	5	nsubj	_	sibh
 7	lhaih	lhaih	NOUN	_	_	5	xcomp	_	ag léamh
 8	ram	ram	NOUN	_	_	7	obj	_	a lán
 9	boghtynid	boghtynid	NOUN	_	_	8	nmod	_	seafóide
@@ -3725,12 +3725,12 @@
 4	aggle	aggle	NOUN	_	_	1	xcomp:pred	_	
 5	as	as	CCONJ	_	_	6	cc	_	agus
 6	ren	jean	VERB	_	Mood=Ind|Tense=Past	1	conj	_	rinne
-7	eh	eh	PRON	_	_	6	nsubj	_	sé
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	sé
 8	chyndaa	chyndaa	NOUN	_	_	6	xcomp	_	iompú
 9	mygeayrt	mygeayrt	ADV	_	_	8	advmod	_	timpeall
 10	as	as	CCONJ	_	_	11	cc	_	agus
 11	hie	gow	VERB	_	Mood=Ind|Tense=Past	1	conj	_	chuaigh
-12	eh	eh	PRON	_	_	11	nsubj	_	sé
+12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	sé
 13	dys	dys	ADP	_	_	15	case	_	go dtí an
 14	yn	yn	DET	_	_	15	det	_	
 15	ghiat	giat	NOUN	_	_	11	obl	_	geata
@@ -3745,7 +3745,7 @@
 
 # sent_id = aa_146
 # text = Shoh kindagh rish argane va currit da reiltys Vannin ec colught Manx Ices Ltd (as adsyn er nyn maroo nish) er yn oyr dy vel sleih nish lowit riojag veih'n Hostyn bunnys gyn bainney y chreck ayns Mannin, agh cha nel sleih ayns Mannin lowit yn lheid cheddin y yannoo.
-1	Shoh	shoh	PRON	_	_	0	root	_	Seo
+1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo
 2	kindagh	kindagh	ADP	_	_	4	case	_	mar gheall ar
 3	rish	rish	ADP	_	_	2	fixed	_	
 4	argane	argane	NOUN	_	_	1	nmod	_	chíréib
@@ -3761,7 +3761,7 @@
 14	Ltd	Ltd	PROPN	_	_	12	flat	_	Ltd
 15	(	(	PUNCT	_	_	17	punct	_	(
 16	as	as	SCONJ	_	_	17	mark	_	agus
-17	adsyn	ad	PRON	_	_	5	advcl	_	iadsan
+17	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	5	advcl	_	iadsan
 18	er	er	ADP	_	_	20	case	_	á
 19	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	20	nmod:poss	_	
 20	maroo	marroo	NOUN	_	_	17	xcomp	_	
@@ -3837,7 +3837,7 @@
 # text = Shoh yn leigh mychione ny beiyn, as mychione ny eeanlee, as mychione dy chooilley chretoor bio ta snaue ayns ny ushtaghyn, as dy chooilley chretoor ta snaue er yn ooir.
 # text_ga = Sin é an dlí i dtaobh na n-ainmhithe go léir, na n-éan go léir, na ndúl beo go léir a shnámhann sna huiscí, agus na míol go léir a shnámhann ar talamh,
 # text_en = This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:
-1	Shoh	shoh	PRON	_	_	0	root	_	Seo
+1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo
 2	yn	yn	DET	_	_	3	det	_	an
 3	leigh	leigh	NOUN	_	_	1	nsubj	_	dlí
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
@@ -3878,7 +3878,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	,
 3	cha	cha	PART	_	_	4	mark	_	ní raibh
 4	row	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	
-5	shin	shin	PRON	_	_	4	nsubj	_	muid
+5	shin	shin	PRON	_	Number=Plur|Person=1	4	nsubj	_	muid
 6	jannoo	jannoo	NOUN	_	_	4	xcomp	_	ag déanamh
 7	red	red	NOUN	_	_	6	obj	_	rud ar bith
 8	erbee	erbee	ADJ	_	_	7	amod	_	
@@ -3888,7 +3888,7 @@
 # sent_id = aa_151
 # text = Bee ee fakin e vraar noght.
 1	Bee	bee	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Beidh
-2	ee	ee	PRON	_	_	1	nsubj	_	sí
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	sí
 3	fakin	fakin	NOUN	_	_	1	xcomp	_	ag feiceáil
 4	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	a
 5	vraar	braar	NOUN	_	_	3	obj	_	dheartháir
@@ -3900,14 +3900,14 @@
 # text_en = I'm not allowed to do it, you know.
 1	Cha	cha	PART	_	_	2	mark	_	Níl
 2	nel	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-3	mee	mee	PRON	_	_	2	nsubj	_	bheidh
+3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	bheidh
 4	lowit	lowit	ADJ	_	_	3	xcomp:pred	_	ceadaithe
 5	jannoo	jannoo	NOUN	_	_	4	xcomp	_	é sin a dhéanamh
-6	shen	shen	PRON	_	_	5	obj	_	
+6	shen	shen	PRON	_	PronType=Dem	5	obj	_	
 7	,	,	PUNCT	_	_	8	punct	_	,
 8-9	t'ou	_	_	_	_	_	_	_	
 8	t'	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	tá tú
-9	ou	ou	PRON	_	_	8	nsubj	_	
+9	ou	ou	PRON	_	Number=Sing|Person=2	8	nsubj	_	
 10	toiggal	toiggal	NOUN	_	_	8	xcomp	_	ag tuiscint
 11	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -3917,8 +3917,8 @@
 # text_en = Thou art good, and doest good; teach me thy statutes.
 1-2	T'ou	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá tusa
-2	ou	ou	PRON	_	_	1	nsubj	_	
-3	uss	oo	PRON	_	_	2	fixed	_	
+2	ou	ou	PRON	_	Number=Sing|Person=2	1	nsubj	_	
+3	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	2	fixed	_	
 4	mie	mie	ADJ	_	_	1	xcomp:pred	_	maith
 5	as	as	CCONJ	_	_	6	cc	_	agus
 6	graysoil	graysoil	ADJ	_	_	4	conj	_	grástúil
@@ -3927,7 +3927,7 @@
 9	ynsee	ynsee	VERB	_	Mood=Imp|Number=Sing|Person=2	1	parataxis	_	múin
 10-11	dou	_	_	_	_	_	_	_	
 10	da	da	ADP	_	_	11	case	_	dom
-11	mee	mee	PRON	_	_	9	obl	_	
+11	mee	mee	PRON	_	Number=Sing|Person=1	9	obl	_	
 12	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	13	nmod:poss	_	do
 13	lattyssyn	slattys	NOUN	_	_	9	obj	_	reachtanna
 14	.	.	PUNCT	_	_	1	punct	_	.
@@ -3937,7 +3937,7 @@
 # text_ga = Ba é an Banáiá seo curadh an tríochad, agus ba é a bhí i gceannas an tríochad agus a roinne. Aimízeábád a mhac.
 # text_en = This is that Benaiah, who was mighty among the thirty, and above the thirty: and in his course was Ammizabad his son.
 1-2	Shoh'n	_	_	_	_	_	_	_	
-1	Shoh	shoh	PRON	_	_	0	root	_	Seo é an
+1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo é an
 2	'n	yn	DET	_	_	3	det	_	
 3	Benaiah	Benaiah	PROPN	_	_	1	nsubj	_	Banáiá
 4	cheddin	cheddin	ADJ	_	_	3	amod	_	céanna
@@ -3957,7 +3957,7 @@
 18	choorse	coorse	NOUN	_	_	1	conj	_	chúrsa
 19-20	echeysyn	_	_	_	_	_	_	_	
 19	ec	ec	ADP	_	_	20	case	_	aigesean
-20	eshyn	eh	PRON	_	_	18	nmod	_	
+20	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	18	nmod	_	
 21	va	bee	VERB	_	Mood=Ind|Tense=Past	18	csubj:cleft	_	bhí
 22	Ammizabad	Ammizabad	PROPN	_	_	21	nsubj	_	Ammizabad
 23	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	24	nmod:poss	_	a
@@ -3969,7 +3969,7 @@
 # text_ga = Tá sé ar intinn agam, dá bhrí sin, a bheith ag cur na nithe seo de shíor i gcuimhne daoibh, cé go bhfuil sibh eolach orthu agus go bhfuil sibh daingnithe san fhírinne atá agaibh.
 # text_en = Wherefore I will not be negligent to put you always in remembrance of these things, though ye know them, and be established in the present truth.
 1-3	Shen-y-fa	_	_	_	_	_	_	_	
-1	Shen	shen	PRON	_	_	0	root	_	Dá bhrí sin
+1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Dá bhrí sin
 2	y	yn	DET	_	_	3	det	_	
 3	fa	fa	NOUN	_	_	1	nsubj	_	
 4	cha	cha	PART	_	_	5	mark	_	ní
@@ -3977,7 +3977,7 @@
 6	meerioosagh	meerioosagh	ADJ	_	_	5	xcomp:pred	_	mí-aireach
 7	dy	dy	ADP	_	_	8	case	_	le tabhairt
 8	chur	cur	NOUN	_	_	5	xcomp	_	
-9	shiu	shiu	PRON	_	_	8	obj	_	sibh
+9	shiu	shiu	PRON	_	Number=Plur|Person=2	8	obj	_	sibh
 10	ayns	ayns	ADP	_	_	11	case	_	i
 11	cooinaghtyn	cooinaghtyn	NOUN	_	_	8	obl	_	cuimhneamh
 12	kinjagh	kinjagh	ADV	_	_	8	advmod	_	i gcónaí
@@ -3992,15 +3992,15 @@
 21	fys	fys	NOUN	_	_	20	nsubj	_	fios
 22-23	eu	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	agaibh
-23	shiu	shiu	PRON	_	_	20	xcomp:pred	_	
+23	shiu	shiu	PRON	_	Number=Plur|Person=2	20	xcomp:pred	_	
 24-25	orroo	_	_	_	_	_	_	_	
 24	er	er	ADP	_	_	25	case	_	orthu
-25	ad	ad	PRON	_	_	20	obl	_	
+25	ad	ad	PRON	_	Number=Plur|Person=3	20	obl	_	
 26	,	,	PUNCT	_	_	29	punct	_	,
 27	as	as	CCONJ	_	_	29	cc	_	agus
 28	dy	dy	PART	_	_	29	mark	_	go bhfuil
 29	vel	bee	VERB	_	Mood=Ind|Tense=Pres	20	conj	_	
-30	shiu	shiu	PRON	_	_	29	nsubj	_	sibh
+30	shiu	shiu	PRON	_	Number=Plur|Person=2	29	nsubj	_	sibh
 31	er	er	ADP	_	_	32	case	_	tar éis a bheith á
 32	ve	ve	NOUN	_	_	29	xcomp	_	
 33	er	er	ADP	_	_	35	case	_	
@@ -4011,11 +4011,11 @@
 37	yn	yn	DET	_	_	38	det	_	
 38	irriney	firriney	NOUN	_	_	35	obl	_	fhírinne
 39	ta	bee	VERB	_	Mood=Ind|Tense=Pres	38	acl:relcl	_	táimid
-40	shin	shin	PRON	_	_	39	nsubj	_	
+40	shin	shin	PRON	_	Number=Plur|Person=1	39	nsubj	_	
 41	loayrt	loayrt	NOUN	_	_	39	xcomp	_	ag labhairt
 42-43	jeh	_	_	_	_	_	_	_	
 42	jeh	jeh	ADP	_	_	43	case	_	de
-43	eh	eh	PRON	_	_	41	obl	_	
+43	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	41	obl	_	
 44	.	.	PUNCT	_	_	5	punct	_	.
 
 # sent_id = aa_156
@@ -4039,14 +4039,14 @@
 17	cummal	cummal	NOUN	_	_	14	xcomp	_	ina gcónaí
 18-19	ayn	_	_	_	_	_	_	_	
 18	ayns	ayns	ADP	_	_	19	case	_	ann
-19	eh	eh	PRON	_	_	17	obl	_	
+19	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	17	obl	_	
 20	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_157
 # text = Ta mee geaishtagh yn çhiaghtin shoh.
 # text_ga = Tá mé ag éisteacht an tseachtain seo.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	mee	mee	PRON	_	_	1	nsubj	_	mé
+2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	geaishtagh	eaishtagh	NOUN	_	_	1	xcomp	_	ag éisteacht
 4	yn	yn	DET	_	_	5	det	_	an
 5	çhiaghtin	shiaghtin	NOUN	_	_	3	obl:tmod	_	tseachtain
@@ -4059,10 +4059,10 @@
 # text_en = Then I brought up the princes of Judah upon the wall, and appointed two great companies of them that gave thanks, whereof one went on the right hand upon the wall toward the dung gate:
 1	Eisht	eisht	ADV	_	_	2	advmod	_	Ansin
 2	hug	cur	VERB	_	Mood=Ind|Tense=Past	0	root	_	thug
-3	mee	mee	PRON	_	_	2	nsubj	_	mé
+3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	mé
 4-5	lhiam	_	_	_	_	_	_	_	
 4	lesh	lesh	ADP	_	_	5	case	_	liom
-5	mee	mee	PRON	_	_	2	obl	_	
+5	mee	mee	PRON	_	Number=Sing|Person=1	2	obl	_	
 6	seose	seose	ADV	_	_	2	advmod	_	suas
 7	princeyn	prince	NOUN	_	_	2	obj	_	prionsaí
 8	Yudah	Judah	PROPN	_	_	7	nmod	_	Iúdá
@@ -4072,7 +4072,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	as	as	CCONJ	_	_	14	cc	_	agus
 14	phoint	point	VERB	_	Mood=Ind|Tense=Past	2	conj	_	cheap
-15	mee	mee	PRON	_	_	14	nsubj	_	mé
+15	mee	mee	PRON	_	Number=Sing|Person=1	14	nsubj	_	mé
 16	daa	daa	NUM	_	_	17	nummod	_	dá
 17	heshaght	sheshaght	NOUN	_	_	14	obj	_	shlua
 18	vooar	mooar	ADJ	_	_	17	amod	_	mór
@@ -4085,7 +4085,7 @@
 25	ayrn	ayrn	NOUN	_	_	2	parataxis	_	cuid
 26-27	jeu	_	_	_	_	_	_	_	
 26	jeh	jeh	ADP	_	_	27	case	_	díobh
-27	ad	ad	PRON	_	_	25	nmod	_	
+27	ad	ad	PRON	_	Number=Plur|Person=3	25	nmod	_	
 28	hie	gow	VERB	_	Mood=Ind|Tense=Past	25	acl:relcl	_	a chuaigh
 29	gys	gys	ADP	_	_	31	case	_	go dtí an
 30	y	yn	DET	_	_	31	det	_	
@@ -4112,10 +4112,10 @@
 4	graih	graih	NOUN	_	_	2	nsubj	_	grá
 5-6	eu	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agaibh
-6	shiu	shiu	PRON	_	_	4	nmod	_	
+6	shiu	shiu	PRON	_	Number=Plur|Person=2	4	nmod	_	
 7-8	urree	_	_	_	_	_	_	_	
 7	er	er	ADP	_	_	8	case	_	uirthi
-8	ee	ee	PRON	_	_	4	nmod	_	
+8	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	4	nmod	_	
 9	toshiaght	toshiaght	NOUN	_	_	2	obj	_	tús
 10	,	,	PUNCT	_	_	2	punct	_	,
 11	”	”	PUNCT	_	_	2	punct	_	”
@@ -4126,13 +4126,13 @@
 16	“	“	PUNCT	_	_	18	punct	_	“
 17	tra	tra	SCONJ	_	_	18	mark	_	nuair a
 18	hrog	trog	VERB	_	Mood=Ind|Tense=Past	2	advcl	_	thóg
-19	shiu	shiu	PRON	_	_	18	nsubj	_	sibh
+19	shiu	shiu	PRON	_	Number=Plur|Person=2	18	nsubj	_	sibh
 20	seose	seose	ADV	_	_	18	advmod	_	suas
 21	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	22	nmod:poss	_	a
 22	bussal	bussal	NOUN	_	_	18	obj	_	ciarsúr
 23	;	;	PUNCT	_	_	24	punct	_	;
 24	saillym	saillym	VERB	_	Mood=Ind|Tense=Pres	18	parataxis	_	is mian liom
-25	shiu	shiu	PRON	_	_	24	obj	_	sibh
+25	shiu	shiu	PRON	_	Number=Plur|Person=2	24	obj	_	sibh
 26	dy	dy	ADP	_	_	27	case	_	le tógáil
 27	hroggal	troggal	NOUN	_	_	24	xcomp	_	
 28	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	29	nmod:poss	_	má
@@ -4146,7 +4146,7 @@
 # text_en = He will neither eat nor drink.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
 2	jean	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	dhéanfaidh
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	gee	ee	NOUN	_	_	2	xcomp	_	ag ithe
 5	ny	ny	CCONJ	_	_	6	cc	_	ná
 6	giu	iu	NOUN	_	_	4	conj	_	ól
@@ -4178,7 +4178,7 @@
 18	1216	1216	NUM	_	_	17	appos	_	1216
 19	,	,	PUNCT	_	_	21	punct	_	,
 20	as	as	SCONJ	_	_	21	mark	_	agus
-21	eh	eh	PRON	_	_	1	advcl	_	é
+21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	advcl	_	é
 22	cur	cur	NOUN	_	_	21	xcomp	_	ag cur
 23	Divlyn	Divlyn	PROPN	_	_	22	obj	_	Baile Átha Cliath
 24	ayns	ayns	ADP	_	_	25	case	_	in ionad
@@ -4211,17 +4211,17 @@
 # text_en = They profess that they know God; but in works they deny him, being abominable, and disobedient, and unto every good work reprobate.
 1-2	T'ad	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá siad
-2	ad	ad	PRON	_	_	1	nsubj	_	
+2	ad	ad	PRON	_	Number=Plur|Person=3	1	nsubj	_	
 3	goaill	goaill	NOUN	_	_	1	xcomp	_	ag gabháil
 4-5	orroo	_	_	_	_	_	_	_	
 4	er	er	ADP	_	_	5	case	_	orthu
-5	ad	ad	PRON	_	_	3	obl	_	
+5	ad	ad	PRON	_	Number=Plur|Person=3	3	obl	_	
 6	dy	dy	PART	_	_	7	mark	_	go bhfuil
 7	vel	bee	VERB	_	Mood=Ind|Tense=Pres	3	ccomp	_	
 8	tushtey	tushtey	NOUN	_	_	7	nsubj	_	tuiscint
 9-10	oc	_	_	_	_	_	_	_	
 9	ec	ec	ADP	_	_	10	case	_	acu
-10	ad	ad	PRON	_	_	8	nmod	_	
+10	ad	ad	PRON	_	Number=Plur|Person=3	8	nmod	_	
 11	dy	dy	ADP	_	_	12	case	_	dá
 12	Yee	Jee	PROPN	_	_	8	nmod	_	nDia
 13	;	;	PUNCT	_	_	18	punct	_	;
@@ -4231,9 +4231,9 @@
 17	obbraghyn	obbyr	NOUN	_	_	18	obl	_	oibreacha
 18-19	t'ad	_	_	_	_	_	_	_	
 18	t'	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	atá siad
-19	ad	ad	PRON	_	_	18	nsubj	_	
+19	ad	ad	PRON	_	Number=Plur|Person=3	18	nsubj	_	
 20	gobbal	obbal	NOUN	_	_	18	xcomp	_	ag diúltú
-21	eh	eh	PRON	_	_	20	obj	_	é
+21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	20	obj	_	é
 22	,	,	PUNCT	_	_	23	punct	_	,
 23	feohdoil	feohdoil	ADJ	_	_	20	conj	_	gráiniúil
 24	as	as	CCONJ	_	_	25	cc	_	agus
@@ -4256,7 +4256,7 @@
 # text_en = And he caused his children to pass through the fire in the valley of the son of Hinnom: also he observed times, and used enchantments, and used witchcraft, and dealt with a familiar spirit, and with wizards: he wrought much evil in the sight of the LORD, to provoke him to anger.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	hug	cur	VERB	_	Mood=Ind|Tense=Past	0	root	_	chuir
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	er	er	ADP	_	_	6	case	_	ar
 5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	a
 6	chloan	cloan	NOUN	_	_	2	obl	_	chlann
@@ -4273,25 +4273,25 @@
 17	:	:	PUNCT	_	_	19	punct	_	:
 18	myrgeddin	myrgeddin	ADV	_	_	19	advmod	_	freisin
 19	hug	cur	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	thug
-20	eh	eh	PRON	_	_	19	nsubj	_	sé
+20	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	sé
 21	geill	geill	NOUN	_	_	19	obj	_	aire
 22	da	da	ADP	_	_	23	case	_	dó
 23	traaghyn	traa	NOUN	_	_	19	obl	_	amanna
 24	,	,	PUNCT	_	_	26	punct	_	,
 25	as	as	CCONJ	_	_	26	cc	_	agus
 26	deiyr	eiyr	VERB	_	Mood=Ind|Tense=Past	19	conj	_	lean
-27	eh	eh	PRON	_	_	26	nsubj	_	sé
+27	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	26	nsubj	_	sé
 28	er	er	ADP	_	_	29	case	_	ar
 29	obbeeys	obbeeys	NOUN	_	_	26	obl	_	draíocht
 30	,	,	PUNCT	_	_	32	punct	_	,
 31	as	as	CCONJ	_	_	32	cc	_	agus
 32	chliaghtee	cliaghtee	VERB	_	Mood=Ind|Tense=Past	19	conj	_	d'úsáid
-33	eh	eh	PRON	_	_	32	nsubj	_	sé
+33	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	32	nsubj	_	sé
 34	buitcheraght	buitcheraght	NOUN	_	_	32	obj	_	asarlaíocht
 35	,	,	PUNCT	_	_	37	punct	_	,
 36	as	as	CCONJ	_	_	37	cc	_	agus
 37	ren	jean	VERB	_	Mood=Ind|Tense=Past	19	conj	_	rinne
-38	eh	eh	PRON	_	_	37	nsubj	_	sé
+38	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	37	nsubj	_	sé
 39	dellal	dellal	NOUN	_	_	37	xcomp	_	déileáil
 40	rish	rish	ADP	_	_	41	case	_	le
 41	spyrrydyn-faishnee	spyrryd-faishnee	NOUN	_	_	39	obl	_	spyrrydyn-faishnee
@@ -4301,8 +4301,8 @@
 45	fir-obbee	fer-obbee	NOUN	_	_	41	conj	_	draíodóirí
 46	:	:	PUNCT	_	_	47	punct	_	:
 47	d'obbree	obbree	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	d'oibrigh
-48	eh	eh	PRON	_	_	47	nsubj	_	sé
-49	shen	shen	PRON	_	_	47	obj	_	sin
+48	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	47	nsubj	_	sé
+49	shen	shen	PRON	_	PronType=Dem	47	obj	_	sin
 50	ny	ny	PART	_	_	51	mark	_	a bhí
 51	va	bee	VERB	_	Mood=Ind|Tense=Past	49	acl:relcl	_	
 52	olk	olk	ADJ	_	_	51	xcomp:pred	_	olc
@@ -4313,7 +4313,7 @@
 57	,	,	PUNCT	_	_	59	punct	_	,
 58	dy	dy	ADP	_	_	59	case	_	de
 59	vrasnaghey	brasnaghey	NOUN	_	_	47	xcomp	_	bhrostú
-60	eh	eh	PRON	_	_	59	obj	_	sé
+60	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	59	obj	_	sé
 61	gys	gys	ADP	_	_	62	case	_	go
 62	corree	corree	NOUN	_	_	59	obl	_	fearg
 63	.	.	PUNCT	_	_	2	punct	_	.
@@ -4324,16 +4324,16 @@
 1	Foddee	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	D'fhéadfaí
 2	dy	dy	PART	_	_	3	mark	_	go raibh
 3	row	bee	VERB	_	Mood=Ind|Tense=Past	1	ccomp	_	
-4	eh	eh	PRON	_	_	3	nsubj	_	sé
+4	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	sé
 5	Eairkag	eairkag	NOUN	_	_	3	xcomp:pred	_	ina Earc
 6	,	,	PUNCT	_	_	9	punct	_	,
 7	agh	agh	CCONJ	_	_	9	cc	_	ach
 8	cha	cha	PART	_	_	9	mark	_	nílimid
 9	nel	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	
-10	shin	shin	PRON	_	_	9	nsubj	_	
+10	shin	shin	PRON	_	Number=Plur|Person=1	9	nsubj	_	
 11	shickyr	shickyr	ADJ	_	_	9	xcomp:pred	_	cinnte
 12	mychione	mychione	ADP	_	_	13	case	_	faoi
-13	shen	shen	PRON	_	_	11	obl	_	sin
+13	shen	shen	PRON	_	PronType=Dem	11	obl	_	sin
 14	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_165
@@ -4343,7 +4343,7 @@
 3	vie	mie	ADJ	_	_	2	amod	_	
 4-5	orrym	_	_	_	_	_	_	_	
 4	er	er	ADP	_	_	5	case	_	orm
-5	mee	mee	PRON	_	_	1	obl	_	
+5	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	chaarjyn	carrey	NOUN	_	_	1	vocative	_	chairde
 8	Ghaeil	Gael	PROPN	_	_	7	nmod	_	Ghaeil
@@ -4359,7 +4359,7 @@
 4	er	er	ADP	_	_	6	case	_	ar a son
 5	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	6	nmod:poss	_	
 6	son	son	NOUN	_	_	2	xcomp:pred	_	
-7	hene	hene	PRON	_	_	6	nmod	_	féin
+7	hene	hene	PRON	_	Reflex=Yes	6	nmod	_	féin
 8	,	,	PUNCT	_	_	9	punct	_	,
 9	cha	cha	PART	_	_	13	mark	_	ní
 10	nee	she	AUX	_	_	13	cop	_	
@@ -4380,7 +4380,7 @@
 1	Chamoo	chamoo	CCONJ	_	_	2	cc	_	Agus níl sé
 2-3	te	_	_	_	_	_	_	_	
 2	t'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	cheu	cheu	NOUN	_	_	2	xcomp:pred	_	taobh
 5	elley	elley	ADJ	_	_	4	amod	_	eile
 6-7	jeh'n	_	_	_	_	_	_	_	
@@ -4390,7 +4390,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	dy	dy	PART	_	_	11	mark	_	dá
 11	niarragh	abbyr	VERB	_	Mood=Cnd	2	advcl	_	ndéarfá
-12	oo	oo	PRON	_	_	11	nsubj	_	
+12	oo	oo	PRON	_	Number=Sing|Person=2	11	nsubj	_	
 13	,	,	PUNCT	_	_	14	punct	_	,
 14	Quoi	quoi	PRON	_	_	15	nsubj	_	Cé
 15	hed	gow	VERB	_	Mood=Ind|Tense=Fut	11	parataxis	_	a rachaidh
@@ -4405,20 +4405,20 @@
 24	choyrt	coyrt	NOUN	_	_	15	xcomp	_	
 25-26	lesh	_	_	_	_	_	_	_	
 25	lesh	lesh	ADP	_	_	26	case	_	leis
-26	eh	eh	PRON	_	_	24	obl	_	
+26	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	24	obl	_	
 27-28	hooin	_	_	_	_	_	_	_	
 27	hug	hug	ADP	_	_	28	case	_	chugainn
-28	shin	shin	PRON	_	_	24	obl	_	
-29	eh	eh	PRON	_	_	24	obj	_	é
+28	shin	shin	PRON	_	Number=Plur|Person=1	24	obl	_	
+29	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	24	obj	_	é
 30	,	,	PUNCT	_	_	32	punct	_	,
 31	dy	dy	PART	_	_	32	mark	_	gur féidir linn
 32	vod	fod	VERB	_	Mood=Ind|Tense=Fut	15	advcl	_	
-33	mayd	mayd	PRON	_	_	32	nsubj	_	
+33	mayd	mayd	PRON	_	Number=Plur|Person=1	32	nsubj	_	
 34	clashtyn	clashtyn	NOUN	_	_	32	xcomp	_	cloisteáil
 35	,	,	PUNCT	_	_	37	punct	_	,
 36	as	as	CCONJ	_	_	37	cc	_	agus
 37	jannoo	jannoo	NOUN	_	_	34	conj	_	é á dhéanamh
-38	eh	eh	PRON	_	_	34	obj	_	
+38	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	34	obj	_	
 39	?	?	PUNCT	_	_	15	punct	_	?
 
 # sent_id = aa_168
@@ -4459,7 +4459,7 @@
 31	fys	fys	NOUN	_	_	30	obj	_	fios
 32-33	oc	_	_	_	_	_	_	_	
 32	ec	ec	ADP	_	_	33	case	_	acu
-33	ad	ad	PRON	_	_	30	obl	_	
+33	ad	ad	PRON	_	Number=Plur|Person=3	30	obl	_	
 34	er	er	ADP	_	_	36	case	_	ar na
 35	ny	ny	DET	_	_	36	det	_	
 36	focklyn	fockle	NOUN	_	_	31	nmod	_	focail
@@ -4480,10 +4480,10 @@
 51	cooinaghtyn	cooinaghtyn	NOUN	_	_	50	nsubj	_	comóradh
 52-53	aym's	_	_	_	_	_	_	_	
 52	ec	ec	ADP	_	_	53	case	_	agamsa
-53	mish	mee	PRON	_	_	50	xcomp:pred	_	
+53	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	50	xcomp:pred	_	
 54	tra	tra	SCONJ	_	_	55	mark	_	nuair a
 55	dynsee	ynsee	VERB	_	Mood=Ind|Tense=Past	50	advcl	_	d'fhoghlaim
-56	mee	mee	PRON	_	_	55	nsubj	_	mé
+56	mee	mee	PRON	_	Number=Sing|Person=1	55	nsubj	_	mé
 57	raaghyn	raa	NOUN	_	_	55	obj	_	focail
 58	lheid	lheid	ADP	_	_	60	case	_	leithéid
 59	as	as	SCONJ	_	_	58	fixed	_	agus
@@ -4497,7 +4497,7 @@
 66	moal	moal	ADJ	_	_	60	conj	_	bocht
 67	dy	dy	PART	_	_	68	mark	_	go raibh
 68	row	bee	VERB	_	Mood=Ind|Tense=Past	55	ccomp	_	
-69	ad	ad	PRON	_	_	68	nsubj	_	siad
+69	ad	ad	PRON	_	Number=Plur|Person=3	68	nsubj	_	siad
 70	ec	ec	ADP	_	_	72	case	_	ag
 71	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	72	nmod:poss	_	mo
 72	vummig	mummig	NOUN	_	_	68	xcomp:pred	_	mháthair
@@ -4510,7 +4510,7 @@
 78	Vaarle	Baarle	PROPN	_	_	68	obl	_	Bhéarla
 79-80	oc	_	_	_	_	_	_	_	
 79	ec	ec	ADP	_	_	80	case	_	acu
-80	ad	ad	PRON	_	_	78	nmod	_	
+80	ad	ad	PRON	_	Number=Plur|Person=3	78	nmod	_	
 81-83	er-dy-rieau	_	_	_	_	_	_	_	
 81	er	er	ADP	_	_	68	advmod	_	riamh anall
 82	dy	dy	ADP	_	_	81	fixed	_	
@@ -4532,9 +4532,9 @@
 98	,	,	PUNCT	_	_	100	punct	_	,
 99	my	my	SCONJ	_	_	100	mark	_	má dhéanann
 100	nee	jean	VERB	_	Mood=Ind|Tense=Fut	86	advcl	_	
-101	ad	ad	PRON	_	_	100	nsubj	_	siad
+101	ad	ad	PRON	_	Number=Plur|Person=3	100	nsubj	_	siad
 102	clashtyn	clashtyn	NOUN	_	_	100	xcomp	_	ag cloisteáil
-103	ad	ad	PRON	_	_	102	obj	_	iad
+103	ad	ad	PRON	_	Number=Plur|Person=3	102	obj	_	iad
 104	edyr	edyr	ADV	_	_	102	advmod	_	ar chor ar bith
 105	?	?	PUNCT	_	_	30	punct	_	?
 
@@ -4546,7 +4546,7 @@
 3	carbeigagh	carbeigagh	ADJ	_	_	2	amod	_	múcasach
 4-5	echey	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	aige
-5	eh	eh	PRON	_	_	1	xcomp:pred	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	
 6	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_170
@@ -4579,7 +4579,7 @@
 # sent_id = aa_171
 # text = Honnick eh çheu-sthie jeh'n waane mygeayrt-ymysh shiaght mraane nyn soie er y laare jeeaghyn er lesh sooillyn faitagh.
 1	Honnick	faik	VERB	_	Mood=Ind|Tense=Past	0	root	_	Chonaic
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	çheu-sthie	çheu-sthie	ADP	_	_	6	case	_	taobh istigh
 4-5	jeh'n	_	_	_	_	_	_	_	
 4	jeh	jeh	ADP	_	_	3	fixed	_	den
@@ -4599,7 +4599,7 @@
 17	jeeaghyn	jeeaghyn	NOUN	_	_	11	xcomp	_	ag féachaint
 18-19	er	_	_	_	_	_	_	_	
 18	er	er	ADP	_	_	19	case	_	air
-19	eh	eh	PRON	_	_	17	obl	_	
+19	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	17	obl	_	
 20	lesh	lesh	ADP	_	_	21	case	_	le
 21	sooillyn	sooill	NOUN	_	_	17	obl	_	súile
 22	faitagh	faitagh	ADJ	_	_	21	amod	_	faiteacha
@@ -4611,12 +4611,12 @@
 # text_en = I never saw him in my life.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
 2	n'aik	faik	VERB	_	Mood=Ind|Tense=Past	0	root	_	fhaca
-3	mee	mee	PRON	_	_	2	nsubj	_	mé
+3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	mé
 4	rieau	rieau	ADV	_	_	2	advmod	_	riamh
 5	ayns	ayns	ADP	_	_	7	case	_	i
 6	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	7	nmod:poss	_	mo
 7	vea	bea	NOUN	_	_	2	obl	_	bheatha
-8	eh	eh	PRON	_	_	2	obj	_	é
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	obj	_	é
 9	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_173
@@ -4646,12 +4646,12 @@
 3	fer	fer	NOUN	_	_	2	nsubj	_	fear
 4-5	rish	_	_	_	_	_	_	_	
 4	rish	rish	ADP	_	_	5	case	_	leis
-5	eh	eh	PRON	_	_	2	obl	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	obl	_	
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Cre	cre	PRON	_	_	2	parataxis	_	Cad iad na
 8	ny	ny	DET	_	_	9	det	_	
 9	lhottyn	lhott	NOUN	_	_	7	nmod	_	crainn
-10	ad	ad	PRON	_	_	7	nsubj	_	iad
+10	ad	ad	PRON	_	Number=Plur|Person=3	7	nsubj	_	iad
 11	shoh	shoh	DET	_	_	10	det	_	seo
 12-13	t'ayns	_	_	_	_	_	_	_	
 12	t'	bee	VERB	_	Mood=Ind|Tense=Pres	10	acl:relcl	_	atá i
@@ -4668,7 +4668,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	,
 4-5	t'ou	_	_	_	_	_	_	_	
 4	t'	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	tá tú
-5	ou	ou	PRON	_	_	4	nsubj	_	
+5	ou	ou	PRON	_	Number=Sing|Person=2	4	nsubj	_	
 6	gaase	aase	NOUN	_	_	4	xcomp	_	ag fás
 7	ro	ro	ADV	_	_	8	advmod	_	ró
 8	shenn	shenn	ADJ	_	_	6	xcomp	_	sean
@@ -4679,14 +4679,14 @@
 1	“	“	PUNCT	_	_	2	punct	_	“
 2-3	T'eh	_	_	_	_	_	_	_	
 2	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sé
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	ennoil	ennoil	ADJ	_	_	2	xcomp:pred	_	álainn
 5	er	er	ADP	_	_	7	case	_	de bhrí
 6	y	yn	DET	_	_	7	det	_	
 7	fa	fa	NOUN	_	_	2	obl	_	
 8	dy	dy	PART	_	_	9	mark	_	go bhfuil
 9	vel	bee	VERB	_	Mood=Ind|Tense=Pres	7	acl	_	
-10	eh	eh	PRON	_	_	9	nsubj	_	sé
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	sé
 11	cho	cho	ADV	_	_	12	advmod	_	chomh
 12	graihoil	graihoil	ADJ	_	_	9	xcomp:pred	_	grámhar
 13	.	.	PUNCT	_	_	2	punct	_	.
@@ -4697,7 +4697,7 @@
 1	PAAIE	PAAIE	PROPN	_	_	0	root	_	PAAIE
 2	:	:	PUNCT	_	_	3	punct	_	:
 3	Nee'm	jean	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	1	parataxis	_	Déanfaidh mé
-4	shen	shen	PRON	_	_	6	obj	_	sin
+4	shen	shen	PRON	_	PronType=Dem	6	obj	_	sin
 5	y	y	ADP	_	_	6	mark	_	a
 6	yannoo	jannoo	NOUN	_	_	3	xcomp	_	dhéanamh
 7	,	,	PUNCT	_	_	8	punct	_	,
@@ -4710,7 +4710,7 @@
 1	‘	‘	PUNCT	_	_	2	punct	_	‘
 2	Cuin	cuin	PRON	_	_	0	root	_	Cathain
 3	vees	bee	VERB	_	Mood=Ind|Tense=Fut	2	acl	_	a bheidh
-4	ee	ee	PRON	_	_	3	nsubj	_	sí
+4	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	sí
 5	back	back	ADV	_	_	3	xcomp:pred	_	ar ais
 6	?	?	PUNCT	_	_	2	punct	_	?
 7	’	’	PUNCT	_	_	2	punct	_	’
@@ -4724,7 +4724,7 @@
 # text_en = Ye shall not eat of any thing that dieth of itself: thou shalt give it unto the stranger that is in thy gates, that he may eat it; or thou mayest sell it unto an alien: for thou art an holy people unto the LORD thy God.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
 2	jean	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	dhéanfaidh
-3	shiu	shiu	PRON	_	_	2	nsubj	_	sibh
+3	shiu	shiu	PRON	_	Number=Plur|Person=2	2	nsubj	_	sibh
 4	gee	ee	NOUN	_	_	2	xcomp	_	ag ithe
 5	red	red	NOUN	_	_	4	obj	_	rud ar bith
 6	erbee	erbee	ADJ	_	_	5	amod	_	
@@ -4733,12 +4733,12 @@
 9	baase	baase	NOUN	_	_	8	obj	_	
 10-11	jeh	_	_	_	_	_	_	_	
 10	jeh	jeh	ADP	_	_	11	case	_	de
-11	eh	eh	PRON	_	_	8	obl	_	
-12	hene	hene	PRON	_	_	11	nmod	_	féin
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	obl	_	
+12	hene	hene	PRON	_	Reflex=Yes	11	nmod	_	féin
 13	:	:	PUNCT	_	_	15	punct	_	:
-14	shen	shen	PRON	_	_	15	obj	_	sin
+14	shen	shen	PRON	_	PronType=Dem	15	obj	_	sin
 15	ver	cur	VERB	_	Mood=Ind|Tense=Fut	2	parataxis	_	tabharfaidh
-16	shiu	shiu	PRON	_	_	15	nsubj	_	sibh
+16	shiu	shiu	PRON	_	Number=Plur|Person=2	15	nsubj	_	sibh
 17-18	da'n	_	_	_	_	_	_	_	
 17	da	da	ADP	_	_	19	case	_	don
 18	yn	yn	DET	_	_	19	det	_	
@@ -4756,21 +4756,21 @@
 29	ymmyd	ymmyd	NOUN	_	_	28	obj	_	úsáide
 30-31	jeh	_	_	_	_	_	_	_	
 30	jeh	jeh	ADP	_	_	31	case	_	de
-31	eh	eh	PRON	_	_	28	obl	_	
+31	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	28	obl	_	
 32	,	,	PUNCT	_	_	34	punct	_	,
 33	ny	ny	CCONJ	_	_	34	cc	_	nó
 34	foddee	fod	VERB	_	Mood=Ind|Tense=Fut	15	conj	_	d'fhéadfá
-35	oo	oo	PRON	_	_	34	nsubj	_	
+35	oo	oo	PRON	_	Number=Sing|Person=2	34	nsubj	_	
 36	creck	creck	NOUN	_	_	34	xcomp	_	díol
-37	eh	eh	PRON	_	_	36	obj	_	é
+37	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	36	obj	_	é
 38	rish	rish	ADP	_	_	39	case	_	le
 39	joarree	joarree	NOUN	_	_	36	obl	_	deoraí
 40	:	:	PUNCT	_	_	41	punct	_	:
 41	son	son	SCONJ	_	_	42	mark	_	óir tá tusa
 42-43	t'ou	_	_	_	_	_	_	_	
 42	t'	bee	VERB	_	Mood=Ind|Tense=Pres	15	advcl	_	
-43	ou	ou	PRON	_	_	42	nsubj	_	
-44	uss	oo	PRON	_	_	43	fixed	_	
+43	ou	ou	PRON	_	Number=Sing|Person=2	42	nsubj	_	
+44	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	43	fixed	_	
 45	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	46	nmod:poss	_	i do
 46	phobble	pobble	NOUN	_	_	42	xcomp:pred	_	phobal
 47	casherick	casherick	ADJ	_	_	46	amod	_	naofa
@@ -4804,21 +4804,21 @@
 4	myghin	myghin	NOUN	_	_	3	obj	_	trócaire
 5-6	orrin	_	_	_	_	_	_	_	
 5	er	er	ADP	_	_	6	case	_	orainn
-6	shin	shin	PRON	_	_	3	obl	_	
+6	shin	shin	PRON	_	Number=Plur|Person=1	3	obl	_	
 7	Chreest	Creest	PROPN	_	_	9	vocative	_	Chríost
 8	,	,	PUNCT	_	_	7	punct	_	,
 9	jean	jean	VERB	_	Mood=Imp|Number=Sing|Person=2	3	parataxis	_	déan
 10	myghin	myghin	NOUN	_	_	9	obj	_	trócaire
 11-12	orrin	_	_	_	_	_	_	_	
 11	er	er	ADP	_	_	12	case	_	orainn
-12	shin	shin	PRON	_	_	9	obl	_	
+12	shin	shin	PRON	_	Number=Plur|Person=1	9	obl	_	
 13	.	.	PUNCT	_	_	3	punct	_	.
 
 # sent_id = aa_182
 # text = Nee oo dy feer vie gyn ourys.
 # text_ga = Déanfaidh tú go han-mhaith gan amhras.
 1	Nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Déanfaidh
-2	oo	oo	PRON	_	_	1	nsubj	_	tú
+2	oo	oo	PRON	_	Number=Sing|Person=2	1	nsubj	_	tú
 3	dy	dy	PART	_	_	5	mark	_	go fíor
 4	feer	feer	ADV	_	_	5	advmod	_	
 5	vie	mie	ADJ	_	_	1	advmod	_	mhaith
@@ -4844,17 +4844,17 @@
 # text_ga = And on that, he lifted a stone and he threw that over the mountain.
 1	As	as	CCONJ	_	_	3	cc	_	Agus
 2	er	er	ADP	_	_	3	case	_	air sin
-3	shen	shen	PRON	_	_	5	obl	_	
+3	shen	shen	PRON	_	PronType=Dem	5	obl	_	
 4	,	,	PUNCT	_	_	3	punct	_	,
 5	ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	rinne
-6	eh	eh	PRON	_	_	5	nsubj	_	sé
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	sé
 7	troggal	troggal	NOUN	_	_	5	xcomp	_	tógáil
 8	clagh	clagh	NOUN	_	_	7	obj	_	cloiche
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	ren	jean	VERB	_	Mood=Ind|Tense=Past	5	conj	_	rinne
-11	eh	eh	PRON	_	_	10	nsubj	_	sé
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	sé
 12	ceau	ceau	NOUN	_	_	10	xcomp	_	ag caitheamh
-13	shen	shen	PRON	_	_	12	obj	_	sin
+13	shen	shen	PRON	_	PronType=Dem	12	obj	_	sin
 14	harrish	harrish	ADP	_	_	16	case	_	thar
 15	y	yn	DET	_	_	16	det	_	an
 16	clieau	slieau	NOUN	_	_	12	obl	_	sliabh
@@ -4871,14 +4871,14 @@
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	nagh	nagh	PART	_	_	8	mark	_	nach dtabharfaidh
 8	der	cur	VERB	_	Mood=Ind|Tense=Fut	2	advcl	_	
-9	ad	ad	PRON	_	_	8	nsubj	_	siad
+9	ad	ad	PRON	_	Number=Plur|Person=3	8	nsubj	_	siad
 10	geill	geill	NOUN	_	_	8	obj	_	aire
 11	da	da	ADP	_	_	12	case	_	do
 12	fardail	fardail	NOUN	_	_	8	obl	_	fardail
 13	:	:	PUNCT	_	_	14	punct	_	:
 14	as	as	CCONJ	_	_	15	cc	_	agus
 15	jean	jean	VERB	_	Mood=Imp|Number=Sing|Person=2	2	conj	_	dhéanfaidh
-16	mish	mee	PRON	_	_	18	obj	_	mise
+16	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	18	obj	_	mise
 17	y	y	ADP	_	_	18	case	_	a
 18	vioghey	bioghey	NOUN	_	_	15	xcomp	_	bheochan
 19	ayns	ayns	ADP	_	_	21	case	_	i
@@ -4895,13 +4895,13 @@
 4	aggle	aggle	NOUN	_	_	3	nsubj	_	eagla
 5-6	orroo	_	_	_	_	_	_	_	
 5	er	er	ADP	_	_	6	case	_	orthu
-6	ad	ad	PRON	_	_	3	xcomp:pred	_	
+6	ad	ad	PRON	_	Number=Plur|Person=3	3	xcomp:pred	_	
 7	nagh	nagh	PART	_	_	8	mark	_	nach
 8	jinnagh	jean	VERB	_	Mood=Cnd	3	ccomp	_	ndéanfadh
 9	sleih	sleih	NOUN	_	_	8	nsubj	_	slua
 10	elley	elley	ADJ	_	_	9	amod	_	eile
 11	toiggal	toiggal	NOUN	_	_	8	xcomp	_	tuiscint
-12	eh	eh	PRON	_	_	11	obj	_	é
+12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	obj	_	é
 13	.	.	PUNCT	_	_	1	punct	_	.
 14	’	’	PUNCT	_	_	1	punct	_	’
 
@@ -4910,10 +4910,10 @@
 # text_ga = Agus dúirt sé leo: "Cá bhfuil bhur gcreideamh?"
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	dúirt
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4-5	roo	_	_	_	_	_	_	_	
 4	rish	rish	ADP	_	_	5	case	_	leo
-5	ad	ad	PRON	_	_	2	obl	_	
+5	ad	ad	PRON	_	Number=Plur|Person=3	2	obl	_	
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Cre	cre	ADV	_	_	8	advmod	_	Cá
 8	vel	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	bhfuil
@@ -4921,7 +4921,7 @@
 10	credjue	credjue	NOUN	_	_	8	nsubj	_	creideamh
 11-12	eu	_	_	_	_	_	_	_	
 11	ec	ec	ADP	_	_	12	case	_	agaibh
-12	shiu	shiu	PRON	_	_	10	nmod	_	
+12	shiu	shiu	PRON	_	Number=Plur|Person=2	10	nmod	_	
 13	?	?	PUNCT	_	_	2	punct	_	?
 
 # sent_id = aa_188
@@ -4930,13 +4930,13 @@
 # text_en = And they removed from Jotbathah, and encamped at Ebronah.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	scugh	scugh	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhogadar
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	veih	veih	ADP	_	_	5	case	_	ó
 5	Jotbathah	Jotbathah	PROPN	_	_	2	obl	_	Jotbathah
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	as	as	CCONJ	_	_	8	cc	_	agus
 8	ren	jean	VERB	_	Mood=Ind|Tense=Past	2	conj	_	rinneadar
-9	ad	ad	PRON	_	_	8	nsubj	_	
+9	ad	ad	PRON	_	Number=Plur|Person=3	8	nsubj	_	
 10	campal	campal	NOUN	_	_	8	xcomp	_	campála
 11	ec	ec	ADP	_	_	12	case	_	ag
 12	Ebronah	Ebronah	PROPN	_	_	10	obl	_	Ebronah
@@ -4972,7 +4972,7 @@
 24	lhig	lhig	VERB	_	Mood=Imp|Number=Sing|Person=2	5	conj	_	lig
 25-26	daue	_	_	_	_	_	_	_	
 25	da	da	ADP	_	_	26	case	_	dóibh
-26	ad	ad	PRON	_	_	24	obl	_	
+26	ad	ad	PRON	_	Number=Plur|Person=3	24	obl	_	
 27	ve	ve	NOUN	_	_	24	xcomp	_	a bheith
 28	son	son	ADP	_	_	29	case	_	ar son
 29	cowraghyn	cowrey	NOUN	_	_	27	xcomp:pred	_	comharthaí
@@ -5028,7 +5028,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	,
 7	cha	cha	PART	_	_	8	mark	_	níl
 8	nel	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	
-9	mee	mee	PRON	_	_	8	nsubj	_	mé
+9	mee	mee	PRON	_	Number=Sing|Person=1	8	nsubj	_	mé
 10	feayr	feayr	ADJ	_	_	8	xcomp:pred	_	fuar
 11	edyr	edyr	ADV	_	_	8	advmod	_	ar chor ar bith
 12	.	.	PUNCT	_	_	2	punct	_	.
@@ -5045,27 +5045,27 @@
 6	ostyllyn	ostyl	NOUN	_	_	3	nmod	_	dheisceabail
 7	eddyr	eddyr	ADP	_	_	8	case	_	idir
 8-9	ad-hene	_	_	_	_	_	_	_	
-8	ad	ad	PRON	_	_	2	obl	_	iad féin
-9	hene	hene	PRON	_	_	8	nmod	_	
+8	ad	ad	PRON	_	Number=Plur|Person=3	2	obl	_	iad féin
+9	hene	hene	PRON	_	Reflex=Yes	8	nmod	_	
 10	,	,	PUNCT	_	_	11	punct	_	,
 11	Cre	cre	PRON	_	_	2	parataxis	_	Céard
-12	shoh	shoh	PRON	_	_	11	nsubj	_	seo
+12	shoh	shoh	PRON	_	PronType=Dem	11	nsubj	_	seo
 13-14	t'eh	_	_	_	_	_	_	_	
 13	t'	bee	VERB	_	Mood=Ind|Tense=Pres	12	acl:relcl	_	tá sé
-14	eh	eh	PRON	_	_	13	nsubj	_	
+14	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	
 15	dy	dy	ADP	_	_	16	case	_	ag rá
 16	ghra	gra	NOUN	_	_	13	xcomp	_	
 17-18	rooin	_	_	_	_	_	_	_	
 17	rish	rish	ADP	_	_	18	case	_	linn
-18	shin	shin	PRON	_	_	16	obl	_	
+18	shin	shin	PRON	_	Number=Plur|Person=1	16	obl	_	
 19	,	,	PUNCT	_	_	20	punct	_	,
 20	Tammylt	tammylt	NOUN	_	_	16	parataxis	_	Tamall
 21	beg	beg	ADJ	_	_	20	amod	_	beag
 22	as	as	CCONJ	_	_	24	cc	_	agus
 23	cha	cha	PART	_	_	24	mark	_	ní fhaca
 24	vaik	faik	VERB	_	Mood=Ind|Tense=Past	20	conj	_	
-25	shiu	shiu	PRON	_	_	24	nsubj	_	sibh
-26	mee	mee	PRON	_	_	24	obj	_	mé
+25	shiu	shiu	PRON	_	Number=Plur|Person=2	24	nsubj	_	sibh
+26	mee	mee	PRON	_	Number=Sing|Person=1	24	obj	_	mé
 27	:	:	PUNCT	_	_	29	punct	_	:
 28	as	as	CCONJ	_	_	29	cc	_	agus
 29	reesht	reesht	ADV	_	_	20	conj	_	arís
@@ -5075,8 +5075,8 @@
 33	,	,	PUNCT	_	_	35	punct	_	,
 34	as	as	CCONJ	_	_	35	cc	_	agus
 35	hee	faik	VERB	_	Mood=Ind|Tense=Fut	20	conj	_	feicfidh
-36	shiu	shiu	PRON	_	_	35	nsubj	_	sibh
-37	mee	mee	PRON	_	_	35	obj	_	mé
+36	shiu	shiu	PRON	_	Number=Plur|Person=2	35	nsubj	_	sibh
+37	mee	mee	PRON	_	Number=Sing|Person=1	35	obj	_	mé
 38	:	:	PUNCT	_	_	43	punct	_	:
 39	as	as	CCONJ	_	_	43	cc	_	agus
 40	,	,	PUNCT	_	_	43	punct	_	,
@@ -5086,11 +5086,11 @@
 43	oyr	oyr	NOUN	_	_	20	conj	_	
 44	dy	dy	PART	_	_	45	mark	_	go bhfuil
 45	vel	bee	VERB	_	Mood=Ind|Tense=Pres	43	acl	_	
-46	mee	mee	PRON	_	_	45	nsubj	_	mé
+46	mee	mee	PRON	_	Number=Sing|Person=1	45	nsubj	_	mé
 47	goll	goll	NOUN	_	_	45	xcomp	_	ag dul
 48-49	roym	_	_	_	_	_	_	_	
 48	roish	roish	ADP	_	_	49	case	_	romham
-49	mee	mee	PRON	_	_	47	obl	_	
+49	mee	mee	PRON	_	Number=Sing|Person=1	47	obl	_	
 50	gys	gys	ADP	_	_	52	case	_	go dtí an
 51	yn	yn	DET	_	_	52	det	_	
 52	Ayr	ayr	NOUN	_	_	47	obl	_	tAthair
@@ -5106,7 +5106,7 @@
 6	lhiabbee	lhiabbee	NOUN	_	_	2	nmod	_	leaba
 7-8	foue	_	_	_	_	_	_	_	
 7	fo	fo	ADP	_	_	8	case	_	fúthu
-8	ad	ad	PRON	_	_	2	nmod	_	
+8	ad	ad	PRON	_	Number=Plur|Person=3	2	nmod	_	
 9	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_194
@@ -5114,14 +5114,14 @@
 1	“	“	PUNCT	_	_	3	punct	_	“
 2	Cha	cha	PART	_	_	3	mark	_	Ní
 3	roshee	rosh	VERB	_	Mood=Ind|Tense=Fut	0	root	_	sroichfidh
-4	uss	oo	PRON	_	_	3	nsubj	_	tusa
+4	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	3	nsubj	_	tusa
 5	y	yn	DET	_	_	7	det	_	an
 6	nah	nah	ADJ	_	_	7	amod	_	dara
 7	valley	balley	NOUN	_	_	3	obj	_	bhaile
 8	noght	noght	ADV	_	_	3	advmod	_	anocht
 9	mannagh	mannagh	SCONJ	_	_	10	mark	_	mura
 10	nee	jean	VERB	_	Mood=Ind|Tense=Fut	3	advcl	_	n-íosfaidh
-11	oo	oo	PRON	_	_	10	nsubj	_	tú
+11	oo	oo	PRON	_	Number=Sing|Person=2	10	nsubj	_	tú
 12	siyr	siyr	NOUN	_	_	10	obj	_	deifir
 13	!	!	PUNCT	_	_	3	punct	_	!
 14	”	”	PUNCT	_	_	3	punct	_	”
@@ -5135,16 +5135,16 @@
 # text_en = In it thou shalt do no manner of Work, thou, and thy Son, and thy Daughter, thy Man-Servant, and thy Maid-Servant, thy Cattle and the Stranger that is within thy Gates.
 1-2	Er	_	_	_	_	_	_	_	
 1	Er	er	ADP	_	_	2	case	_	Air
-2	eh	eh	PRON	_	_	4	obl	_	
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	4	obl	_	
 3	cha	cha	PART	_	_	4	mark	_	ní
 4	jean	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	dhéanfaidh
-5	oo	oo	PRON	_	_	4	nsubj	_	tú
+5	oo	oo	PRON	_	Number=Sing|Person=2	4	nsubj	_	tú
 6	monney	monney	NOUN	_	_	4	obj	_	mórán
 7	erbee	erbee	ADJ	_	_	6	amod	_	ar bith
 8	dy	dy	ADP	_	_	9	case	_	oibre
 9	obbyr	obbyr	NOUN	_	_	6	nmod	_	
 10	,	,	PUNCT	_	_	11	punct	_	,
-11	uss	oo	PRON	_	_	4	parataxis	_	tusa
+11	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	4	parataxis	_	tusa
 12	,	,	PUNCT	_	_	15	punct	_	,
 13	as	as	CCONJ	_	_	15	cc	_	agus
 14	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	15	nmod:poss	_	do
@@ -5226,11 +5226,11 @@
 5	faghid	faghid	NOUN	_	_	2	obj	_	magaidh
 6-7	jeem	_	_	_	_	_	_	_	
 6	jeh	jeh	ADP	_	_	7	case	_	díom
-7	mee	mee	PRON	_	_	2	obl	_	
+7	mee	mee	PRON	_	Number=Sing|Person=1	2	obl	_	
 8	,	,	PUNCT	_	_	10	punct	_	,
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	2	conj	_	dúradar
-11	ad	ad	PRON	_	_	10	nsubj	_	
+11	ad	ad	PRON	_	Number=Plur|Person=3	10	nsubj	_	
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	Cha	cha	PART	_	_	14	mark	_	Níl
 14	vel	bee	VERB	_	Mood=Ind|Tense=Pres	10	parataxis	_	
@@ -5242,7 +5242,7 @@
 20	shoh	shoh	DET	_	_	19	det	_	seo
 21	dy	dy	PART	_	_	22	mark	_	go
 22	bee	bee	VERB	_	Mood=Ind|Tense=Fut	14	ccomp	_	mbeidh
-23	eh	eh	PRON	_	_	22	nsubj	_	sé
+23	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	sé
 24	er	er	ADP	_	_	26	case	_	á chur
 25	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	26	nmod:poss	_	
 26	choyrt	coyrt	NOUN	_	_	22	xcomp	_	
@@ -5254,7 +5254,7 @@
 32	shoh	shoh	DET	_	_	31	det	_	seo
 33	;	;	PUNCT	_	_	34	punct	_	;
 34	hea	çhea	VERB	_	Mood=Ind|Tense=Past	14	parataxis	_	theith
-35	eh	eh	PRON	_	_	34	nsubj	_	sé
+35	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	34	nsubj	_	sé
 36	ersooyl	ersooyl	ADV	_	_	34	advmod	_	ar siúl
 37	;	;	PUNCT	_	_	39	punct	_	;
 38	as	as	CCONJ	_	_	39	cc	_	agus
@@ -5265,7 +5265,7 @@
 42	,	,	PUNCT	_	_	43	punct	_	,
 43-44	t'eh	_	_	_	_	_	_	_	
 43	t'	bee	VERB	_	Mood=Ind|Tense=Pres	39	ccomp	_	tá sé
-44	eh	eh	PRON	_	_	43	nsubj	_	
+44	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	43	nsubj	_	
 45	goanluckey	oanluckey	NOUN	_	_	43	xcomp	_	ag adhlacadh
 46	ny	ny	DET	_	_	47	det	_	na marbh
 47	merriu	marroo	NOUN	_	_	45	obj	_	
@@ -5276,7 +5276,7 @@
 # text = She boandyrey mish ayns Glaschu.
 1	She	she	AUX	_	_	2	cop	_	Is
 2	boandyrey	boandyrey	NOUN	_	_	0	root	_	boandyrey
-3	mish	mee	PRON	_	_	2	nsubj	_	mise
+3	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	2	nsubj	_	mise
 4	ayns	ayns	ADP	_	_	5	case	_	i
 5	Glaschu	Glaschu	PROPN	_	_	2	nmod	_	Glaschú
 6	.	.	PUNCT	_	_	2	punct	_	.
@@ -5291,7 +5291,7 @@
 6-8	v'ayn	_	_	_	_	_	_	_	
 6	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí ann
 7	ayns	ayns	ADP	_	_	8	case	_	
-8	eh	eh	PRON	_	_	6	xcomp:pred	_
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	xcomp:pred	_
 9	yn	yn	DET	_	_	10	det	_	an
 10	oie	oie	NOUN	_	_	6	obl	_	oíche
 11	shen	shen	DET	_	_	10	det	_	sin
@@ -5323,7 +5323,7 @@
 35	as	as	CCONJ	_	_	36	cc	_	agus
 36-37	v'eh	_	_	_	_	_	_	_	
 36	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	conj	_	bhí sé
-37	eh	eh	PRON	_	_	36	nsubj	_	
+37	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	36	nsubj	_	
 38	goll	goll	NOUN	_	_	36	xcomp	_	á thionól
 39	er	er	ADP	_	_	40	case	_	
 40	cummal	cummal	NOUN	_	_	38	xcomp	_	
@@ -5345,8 +5345,8 @@
 3	mie	mie	ADJ	_	_	0	root	_	
 4-5	lhien	_	_	_	_	_	_	_	
 4	lesh	lesh	ADP	_	_	5	case	_	linn
-5	shin	shin	PRON	_	_	3	obl	_	
-6	eh	eh	PRON	_	_	3	nsubj	_	é
+5	shin	shin	PRON	_	Number=Plur|Person=1	3	obl	_	
+6	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	é
 7	,	,	PUNCT	_	_	3	punct	_	,
 8	”	”	PUNCT	_	_	3	punct	_	”
 9	dreggyr	freggyr	VERB	_	Mood=Ind|Tense=Past	3	parataxis	_	d'fhreagair
@@ -5354,22 +5354,22 @@
 11	,	,	PUNCT	_	_	13	punct	_	,
 12	as	as	CCONJ	_	_	13	cc	_	agus
 13	ghlack	glack	VERB	_	Mood=Ind|Tense=Past	9	conj	_	ghlac
-14	ee	ee	PRON	_	_	13	nsubj	_	sí
+14	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	13	nsubj	_	sí
 15	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	a
 16	h-ayr	ayr	NOUN	_	_	13	obj	_	hathair
 17	as	as	CCONJ	_	_	18	cc	_	agus
 18	hug	cur	VERB	_	Mood=Ind|Tense=Past	9	conj	_	thug
-19	ee	ee	PRON	_	_	18	nsubj	_	sí
+19	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	18	nsubj	_	sí
 20	paag	paag	NOUN	_	_	18	obj	_	póg
 21-22	da	_	_	_	_	_	_	_	
 21	da	da	ADP	_	_	22	case	_	dó
-22	eh	eh	PRON	_	_	18	obl	_	
+22	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	18	obl	_	
 23	.	.	PUNCT	_	_	3	punct	_	.
 
 # sent_id = aa_201
 # text = Myr shen, ghow Perick toshiaght shirrey raad thie elley, as ren eh markiagh trooid straidyn nagh row eh er n'akin rieau roie.
 1	Myr	myr	ADP	_	_	4	advmod	_	Mar sin
-2	shen	shen	PRON	_	_	1	fixed	_	
+2	shen	shen	PRON	_	PronType=Dem	1	fixed	_	
 3	,	,	PUNCT	_	_	1	punct	_	,
 4	ghow	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	ghabh
 5	Perick	Perick	PROPN	_	_	4	nsubj	_	Pádraig
@@ -5381,13 +5381,13 @@
 11	,	,	PUNCT	_	_	13	punct	_	,
 12	as	as	CCONJ	_	_	13	cc	_	agus
 13	ren	jean	VERB	_	Mood=Ind|Tense=Past	4	conj	_	rinne
-14	eh	eh	PRON	_	_	13	nsubj	_	sé
+14	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	sé
 15	markiagh	markiagh	NOUN	_	_	13	obj	_	ag marcaíocht
 16	trooid	trooid	ADP	_	_	17	case	_	tríd
 17	straidyn	straid	NOUN	_	_	15	nmod	_	sráideanna
 18	nagh	nagh	PART	_	_	19	mark	_	nach raibh
 19	row	bee	VERB	_	Mood=Ind|Tense=Past	17	acl	_	
-20	eh	eh	PRON	_	_	19	nsubj	_	sé
+20	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	sé
 21	er	er	ADP	_	_	23	case	_	tar éis feiceáil
 22-23	n'akin	_	_	_	_	_	_	_	
 22	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	23	nmod:poss	_	
@@ -5400,10 +5400,10 @@
 # text = Venn eh rhym aght ennagh.
 # text_en = Obviously struck some kind of chord.
 1	Venn	benn	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhain
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3-4	rhym	_	_	_	_	_	_	_	
 3	rish	rish	ADP	_	_	4	case	_	liom
-4	mee	mee	PRON	_	_	1	obl	_	
+4	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 5	aght	aght	NOUN	_	_	1	obl	_	bhealach
 6	ennagh	ennagh	ADJ	_	_	5	amod	_	éigin
 7	.	.	PUNCT	_	_	1	punct	_	.
@@ -5430,7 +5430,7 @@
 6	gobbraghey	obbraghey	NOUN	_	_	1	xcomp	_	ag obair
 7-8	urree	_	_	_	_	_	_	_	
 7	er	er	ADP	_	_	8	case	_	uirthi
-8	ee	ee	PRON	_	_	6	obl	_	
+8	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	6	obl	_	
 9	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_205
@@ -5444,9 +5444,9 @@
 7	coardailys	coardailys	NOUN	_	_	1	xcomp:pred	_	
 8-9	rish	_	_	_	_	_	_	_	
 8	rish	rish	ADP	_	_	9	case	_	leis
-9	eh	eh	PRON	_	_	7	nmod	_	
+9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nmod	_	
 10	ayns	ayns	ADP	_	_	11	case	_	anseo
-11	shoh	shoh	PRON	_	_	1	obl	_	
+11	shoh	shoh	PRON	_	PronType=Dem	1	obl	_	
 12	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_206
@@ -5473,7 +5473,7 @@
 7	shickyraghey	shickyraghey	NOUN	_	_	2	nmod	_	cinntiú
 8	dy	dy	PART	_	_	9	mark	_	gur féidir leis
 9	vod	fod	VERB	_	Mood=Ind|Tense=Fut	1	ccomp	_	
-10	eh	eh	PRON	_	_	9	nsubj	_	
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	
 11	soilshaghey	soilshaghey	NOUN	_	_	9	xcomp	_	foilsithe
 12	dy	dy	PART	_	_	13	mark	_	go bhfuil
 13	vel	bee	VERB	_	Mood=Ind|Tense=Pres	11	ccomp	_	
@@ -5501,7 +5501,7 @@
 4	co-rollageyssyn	co-rollageys	NOUN	_	_	2	nmod	_	réaltraí
 5	caslagh	caslagh	ADJ	_	_	4	amod	_	corna
 6	barrit	barrit	ADJ	_	_	4	amod	_	barrach
-7	eh	eh	PRON	_	_	2	nmod	_	é
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nmod	_	é
 8	Raad	raad	NOUN	_	_	2	nsubj	_	Bealach na Bó Finne
 9	Mooar	mooar	ADJ	_	_	8	amod	_	
 10	Ree	ree	NOUN	_	_	8	nmod	_	
@@ -5514,7 +5514,7 @@
 # text_en = And they girded on every man his sword; and David also girded on his sword: and there went up after David about four hundred men; and two hundred abode by the stuff.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	hug	cur	VERB	_	Mood=Ind|Tense=Past	0	root	_	chuireadar
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	dagh	dagh	DET	_	_	5	det	_	gach
 5	dooinney	dooinney	NOUN	_	_	2	iobj	_	duine
 6	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	a
@@ -5567,7 +5567,7 @@
 11	baagh	baagh	NOUN	_	_	9	conj	_	ainmhí
 12	;	;	PUNCT	_	_	13	punct	_	;
 13	yiow	fow	VERB	_	Mood=Ind|Tense=Fut	2	parataxis	_	gheobhaidh
-14	ad	ad	PRON	_	_	13	nsubj	_	siad
+14	ad	ad	PRON	_	Number=Plur|Person=3	13	nsubj	_	siad
 15	baase	baase	NOUN	_	_	13	obj	_	bás
 16	liorish	liorish	ADP	_	_	17	case	_	ag
 17	cragh	cragh	NOUN	_	_	13	obl	_	creach
@@ -5613,12 +5613,12 @@
 1	Dobbyr	dobbyr	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Dóbair
 2-3	da	_	_	_	_	_	_	_	
 2	da	da	ADP	_	_	3	case	_	dó
-3	eh	eh	PRON	_	_	1	obl	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	obl	_	
 4	tuittym	tuittym	NOUN	_	_	1	xcomp	_	titim
 5	neealloo	neealloo	ADV	_	_	4	advmod	_	i bhfanntais
 6	agh	agh	CCONJ	_	_	7	cc	_	ach
 7	ren	jean	VERB	_	Mood=Ind|Tense=Past	1	conj	_	rinne
-8	eh	eh	PRON	_	_	7	nsubj	_	sé
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	sé
 9	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	a dhícheall
 10	chooid	cooid	NOUN	_	_	7	obj	_	
 11	share	mie	ADJ	_	_	10	amod	_	
@@ -5693,7 +5693,7 @@
 # text = T'ee soit ayns jiass ny çheerey.
 1-2	T'ee	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sí
-2	ee	ee	PRON	_	_	1	nsubj	_	
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	
 3	soit	soit	ADJ	_	_	1	xcomp:pred	_	suite
 4	ayns	ayns	ADP	_	_	5	case	_	i
 5	jiass	jiass	NOUN	_	_	3	obl	_	ndeisceart
@@ -5707,13 +5707,13 @@
 # text_en = And thou shalt remember that thou wast a bondman in the land of Egypt, and the LORD thy God redeemed thee: therefore I command thee this thing to day.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
-3	oo	oo	PRON	_	_	2	nsubj	_	tú
+3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
 4	cooinaghtyn	cooinaghtyn	NOUN	_	_	2	obj	_	cuimhneamh
 5	dy	dy	PART	_	_	6	mark	_	go
 6-7	r'ou	_	_	_	_	_	_	_	
 6	r'	bee	VERB	_	Mood=Ind|Tense=Past	2	ccomp	_	raibh tú
-7	ou	ou	PRON	_	_	6	nsubj	_	
-8	hene	hene	PRON	_	_	7	nmod	_	féin
+7	ou	ou	PRON	_	Number=Sing|Person=2	6	nsubj	_	
+8	hene	hene	PRON	_	Reflex=Yes	7	nmod	_	féin
 9	ayns	ayns	ADP	_	_	10	case	_	i
 10	bondiaght	bondiaght	NOUN	_	_	6	xcomp:pred	_	daoirse
 11	ayns	ayns	ADP	_	_	12	case	_	i dtír
@@ -5731,11 +5731,11 @@
 23	livrey	livrey	NOUN	_	_	17	obj	_	sheachadadh
 24	:	:	PUNCT	_	_	25	punct	_	:
 25-27	shen-y-fa	_	_	_	_	_	_	_	
-25	shen	shen	PRON	_	_	2	parataxis	_	dá bhrí sin
+25	shen	shen	PRON	_	PronType=Dem	2	parataxis	_	dá bhrí sin
 26	y	yn	DET	_	_	27	det	_	
 27	fa	fa	NOUN	_	_	25	nsubj	_	
 28	ta	bee	VERB	_	Mood=Ind|Tense=Pres	27	acl	_	tá
-29	mee	mee	PRON	_	_	28	nsubj	_	mé
+29	mee	mee	PRON	_	Number=Sing|Person=1	28	nsubj	_	mé
 30	coyrt	coyrt	NOUN	_	_	28	xcomp	_	cur
 31	yn	yn	DET	_	_	32	det	_	an
 32	red	red	NOUN	_	_	30	obj	_	rud
@@ -5751,8 +5751,8 @@
 # text_ga = Croith orm híosóip agus glanfar mé; nigh mé agus is gile mé ná an sneachta.
 # text_en = Purge me with hyssop, and I shall be clean: wash me, and I shall be whiter than snow.
 1	Nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Déanfaidh
-2	oo	oo	PRON	_	_	1	nsubj	_	tú
-3	mish	mee	PRON	_	_	5	obj	_	mise
+2	oo	oo	PRON	_	Number=Sing|Person=2	1	nsubj	_	tú
+3	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	5	obj	_	mise
 4	y	y	ADP	_	_	5	mark	_	a
 5	ghlenney	glenney	NOUN	_	_	1	xcomp	_	ghlanadh
 6	lesh	lesh	ADP	_	_	7	case	_	le
@@ -5763,9 +5763,9 @@
 11	glen	glen	ADJ	_	_	10	xcomp:pred	_	glan
 12	:	:	PUNCT	_	_	13	punct	_	:
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	1	parataxis	_	an
-14	oo	oo	PRON	_	_	13	nsubj	_	tú
+14	oo	oo	PRON	_	Number=Sing|Person=2	13	nsubj	_	tú
 15-16	m'y	_	_	_	_	_	_	_	
-15	m'	mee	PRON	_	_	17	obj	_	mo
+15	m'	mee	PRON	_	Number=Sing|Person=1	17	obj	_	mo
 16	y	y	ADP	_	_	17	mark	_	
 17	niee	niee	NOUN	_	_	13	xcomp	_	ní
 18	,	,	PUNCT	_	_	20	punct	_	,
@@ -5785,12 +5785,12 @@
 2	tra	tra	SCONJ	_	_	3	mark	_	nuair a
 3-4	v'ad	_	_	_	_	_	_	_	
 3	v'	bee	VERB	_	Mood=Ind|Tense=Past	8	advcl	_	bhí siad
-4	ad	ad	PRON	_	_	3	nsubj	_	
+4	ad	ad	PRON	_	Number=Plur|Person=3	3	nsubj	_	
 5	er	er	ADP	_	_	6	case	_	tar éis gabháil
 6	ghoaill	goaill	NOUN	_	_	3	xcomp	_	
 7	arrane-moyllee	arrane-moyllee	NOUN	_	_	6	obj	_	laoi
 8	hie	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	chuadar
-9	ad	ad	PRON	_	_	8	nsubj	_	
+9	ad	ad	PRON	_	Number=Plur|Person=3	8	nsubj	_	
 10	magh	magh	ADV	_	_	8	advmod	_	amach
 11	gys	gys	ADP	_	_	12	case	_	go
 12	cronk	cronk	NOUN	_	_	8	obl	_	cnoc
@@ -5801,16 +5801,16 @@
 # sent_id = aa_220
 # text = Myr shoh ta shin feme yn aa-hickyrys shen; ta shin feme jannoo shickyr dy bee Chellinsh Vannin as colughtyn chellinsh elley ayns shen 'sy traa ry heet, er-yn-oyr dy vel wheesh argid er ve baiht trooid ny bleeantyn.
 1	Myr	myr	ADP	_	_	3	advmod	_	Mar seo atá
-2	shoh	shoh	PRON	_	_	1	fixed	_	
+2	shoh	shoh	PRON	_	PronType=Dem	1	fixed	_	
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-4	shin	shin	PRON	_	_	3	nsubj	_	muid
+4	shin	shin	PRON	_	Number=Plur|Person=1	3	nsubj	_	muid
 5	feme	feme	NOUN	_	_	3	xcomp	_	ag teastáil
 6	yn	yn	DET	_	_	7	det	_	an
 7	aa-hickyrys	aa-hickyrys	NOUN	_	_	5	obj	_	aa-hickyrys
 8	shen	shen	DET	_	_	7	det	_	sin
 9	;	;	PUNCT	_	_	10	punct	_	;
 10	ta	bee	VERB	_	Mood=Ind|Tense=Pres	3	parataxis	_	táimid
-11	shin	shin	PRON	_	_	10	nsubj	_	
+11	shin	shin	PRON	_	Number=Plur|Person=1	10	nsubj	_	
 12	feme	feme	NOUN	_	_	10	xcomp	_	ag teastáil
 13	jannoo	jannoo	NOUN	_	_	12	xcomp	_	ag déanamh
 14	shickyr	shickyr	ADJ	_	_	13	xcomp	_	cinnte
@@ -5823,7 +5823,7 @@
 21	chellinsh	chellinsh	NOUN	_	_	20	nmod	_	teileachumarsáide
 22	elley	elley	ADJ	_	_	20	amod	_	eile
 23	ayns	ayns	ADP	_	_	24	case	_	ansin
-24	shen	shen	PRON	_	_	16	xcomp:pred	_	
+24	shen	shen	PRON	_	PronType=Dem	16	xcomp:pred	_	
 25-26	'sy	_	_	_	_	_	_	_	
 25	ayns	ayns	ADP	_	_	27	case	_	san
 26	yn	yn	DET	_	_	27	det	_	
@@ -5851,7 +5851,7 @@
 # text = T'ee cummal ayns ynnydyn çheh, agh t'ee garraghey veih'n Affrick Hwoaie dys ny h-Ellanyn Goaldagh 'sy touree.
 1-2	T'ee	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá sí
-2	ee	ee	PRON	_	_	1	nsubj	_	
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	
 3	cummal	cummal	NOUN	_	_	1	xcomp	_	ina cónaí
 4	ayns	ayns	ADP	_	_	5	case	_	in
 5	ynnydyn	ynnyd	NOUN	_	_	3	obl	_	ionaid
@@ -5860,7 +5860,7 @@
 8	agh	agh	CCONJ	_	_	9	cc	_	ach
 9-10	t'ee	_	_	_	_	_	_	_	
 9	t'	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	tá sí
-10	ee	ee	PRON	_	_	9	nsubj	_	
+10	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	9	nsubj	_	
 11	garraghey	karraghey	NOUN	_	_	9	xcomp	_	ag aistriú
 12-13	veih'n	_	_	_	_	_	_	_	
 12	veih	veih	ADP	_	_	14	case	_	ón
@@ -5885,7 +5885,7 @@
 2	Yiarrins	abbyr	VERB	_	Mood=Cnd|Number=Sing|Person=1	0	root	_	Déarfainnse
 3	dy	dy	PART	_	_	4	mark	_	go bhfuil
 4	vel	bee	VERB	_	Mood=Ind|Tense=Pres	2	ccomp	_	
-5	oo	oo	PRON	_	_	4	nsubj	_	tú
+5	oo	oo	PRON	_	Number=Sing|Person=2	4	nsubj	_	tú
 6	smooinaghtyn	smooinaghtyn	NOUN	_	_	4	xcomp	_	ag smaoineamh
 7-8	cre'n	_	_	_	_	_	_	_	
 7	cre	cre	PRON	_	_	6	ccomp	_	cén fáth
@@ -5893,7 +5893,7 @@
 9	fa	fa	NOUN	_	_	7	nsubj	_	
 10	nagh	nagh	PART	_	_	11	mark	_	nach bhfuil
 11	vel	bee	VERB	_	Mood=Ind|Tense=Pres	9	acl	_	
-12	mee	mee	PRON	_	_	11	nsubj	_	mé
+12	mee	mee	PRON	_	Number=Sing|Person=1	11	nsubj	_	mé
 13	cur	cur	NOUN	_	_	11	xcomp	_	ag cur
 14	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	15	nmod:poss	_	mo
 15	roih	roih	NOUN	_	_	13	obj	_	láimhe
@@ -5914,13 +5914,13 @@
 30	yn	yn	DET	_	_	31	det	_	an
 31	oyr	oyr	NOUN	_	_	21	parataxis	_	chúis
 32	er	er	ADP	_	_	33	case	_	air sin
-33	shen	shen	PRON	_	_	31	nmod	_	
+33	shen	shen	PRON	_	PronType=Dem	31	nmod	_	
 34	dy	dy	PART	_	_	35	mark	_	go bhfuil
 35	vel	bee	VERB	_	Mood=Ind|Tense=Pres	31	csubj:cop	_	
 36	drogh-ourys	drogh-ourys	NOUN	_	_	35	nsubj	_	drochamhras
 37-38	aym	_	_	_	_	_	_	_	
 37	ec	ec	ADP	_	_	38	case	_	agam
-38	mee	mee	PRON	_	_	35	xcomp:pred	_	
+38	mee	mee	PRON	_	Number=Sing|Person=1	35	xcomp:pred	_	
 39	er	er	ADP	_	_	40	case	_	ar
 40	tappey	tappey	NOUN	_	_	35	obl	_	stuaim
 41	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	42	nmod:poss	_	do
@@ -5934,7 +5934,7 @@
 1	Faag	faag	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Fág
 2-3	dooys	_	_	_	_	_	_	_	
 2	da	da	ADP	_	_	3	case	_	domsa
-3	mish	mee	PRON	_	_	1	obl	_	
+3	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	1	obl	_	
 4	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	5	nmod:poss	_	do
 5	chloan	cloan	NOUN	_	_	1	obj	_	chlann
 6-7	gyn-ayr	_	_	_	_	_	_	_	
@@ -5942,7 +5942,7 @@
 7	ayr	ayr	NOUN	_	_	5	nmod	_	
 8	,	,	PUNCT	_	_	9	punct	_	,
 9	freill-yms	freill	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	1	parataxis	_	coimeádfaidh mé
-10	ad	ad	PRON	_	_	9	nsubj	_	iad
+10	ad	ad	PRON	_	Number=Plur|Person=3	9	nsubj	_	iad
 11	bio	bio	ADJ	_	_	9	xcomp	_	beo
 12	:	:	PUNCT	_	_	14	punct	_	:
 13	as	as	CCONJ	_	_	14	cc	_	agus
@@ -5953,7 +5953,7 @@
 18	treishteil	treishteil	NOUN	_	_	14	xcomp	_	muinín
 19-20	ayn-yms	_	_	_	_	_	_	_	
 19	ayns	ayns	ADP	_	_	20	case	_	ionam
-20	mish	mee	PRON	_	_	18	obl	_	
+20	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	18	obl	_	
 21	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_224
@@ -5962,7 +5962,7 @@
 # text_en = Thou hast walked in the way of thy sister; therefore will I give her cup into thine hand.
 1-2	T'ou	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá tú
-2	ou	ou	PRON	_	_	1	nsubj	_	
+2	ou	ou	PRON	_	Number=Sing|Person=2	1	nsubj	_	
 3	er	er	ADP	_	_	4	case	_	tar éis imeacht
 4-5	n'immeeaght	_	_	_	_	_	_	_	
 4	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	
@@ -5973,7 +5973,7 @@
 9	huyr	shuyr	NOUN	_	_	7	nmod	_	dheirfiúr
 10	,	,	PUNCT	_	_	11	punct	_	,
 11-13	shen-y-fa	_	_	_	_	_	_	_	
-11	shen	shen	PRON	_	_	1	parataxis	_	dá bharr sin
+11	shen	shen	PRON	_	PronType=Dem	1	parataxis	_	dá bharr sin
 12	y	yn	DET	_	_	13	det	_	
 13	fa	fa	NOUN	_	_	11	nsubj	_	
 14	ver-ym	cur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	13	acl	_	tabharfaidh mé
@@ -5981,7 +5981,7 @@
 16	cappan	cappan	NOUN	_	_	14	obj	_	cupán
 17-18	ecksh	_	_	_	_	_	_	_	
 17	ec	ec	ADP	_	_	18	case	_	aicise
-18	ish	ee	PRON	_	_	16	nmod	_	
+18	ish	ee	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Emp	16	nmod	_	
 19	ayns	ayns	ADP	_	_	21	case	_	i
 20	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	21	nmod:poss	_	do
 21	laue	laue	NOUN	_	_	14	obl	_	lámh
@@ -5995,12 +5995,12 @@
 4	erbee	erbee	ADJ	_	_	3	amod	_	ar bith
 5-6	aym	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agam
-6	mee	mee	PRON	_	_	2	xcomp:pred	_	
+6	mee	mee	PRON	_	Number=Sing|Person=1	2	xcomp:pred	_	
 7	y	yn	DET	_	_	8	det	_	an
 8	co-earrooder	co-earrooder	NOUN	_	_	12	obj	_	ríomhaire
 9-10	aym	_	_	_	_	_	_	_	
 9	ec	ec	ADP	_	_	10	case	_	agam
-10	mee	mee	PRON	_	_	8	nmod	_	
+10	mee	mee	PRON	_	Number=Sing|Person=1	8	nmod	_	
 11	y	y	ADP	_	_	12	mark	_	a
 12	chur	cur	NOUN	_	_	2	xcomp	_	chur
 13	fo	fo	ADP	_	_	14	case	_	faoi
@@ -6039,15 +6039,15 @@
 10	obbyr	obbyr	NOUN	_	_	8	obj	_	obair
 11-12	t’ou	_	_	_	_	_	_	_	
 11	t'	bee	VERB	_	Mood=Ind|Tense=Pres	10	acl:relcl	_	tá tusa
-12	ou	ou	PRON	_	_	11	nsubj	_	
-13	uss	oo	PRON	_	_	12	fixed	_	
+12	ou	ou	PRON	_	Number=Sing|Person=2	11	nsubj	_	
+13	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	12	fixed	_	
 14	er	er	ADP	_	_	16	case	_	tar éis déanamh
 15-16	n’yannoo	_	_	_	_	_	_	_	
 15	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	
 16	yannoo	jannoo	NOUN	_	_	11	xcomp	_	
 17-18	maroo	_	_	_	_	_	_	_	
 17	marish	marish	ADP	_	_	18	case	_	in éineacht leo
-18	ad	ad	PRON	_	_	16	obl	_	
+18	ad	ad	PRON	_	Number=Plur|Person=3	16	obl	_	
 19	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_228
@@ -6069,16 +6069,16 @@
 13	aegey	aeg	ADJ	_	_	12	amod	_	óga
 14-15	ocsyn	_	_	_	_	_	_	_	
 14	ec	ec	ADP	_	_	15	case	_	acusan
-15	adsyn	ad	PRON	_	_	12	nmod	_	
+15	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	12	nmod	_	
 16	,	,	PUNCT	_	_	17	punct	_	,
 17	jir	abbyr	VERB	_	Mood=Ind|Tense=Fut	1	parataxis	_	déarfaidh
-18	ad	ad	PRON	_	_	17	nsubj	_	siad
+18	ad	ad	PRON	_	Number=Plur|Person=3	17	nsubj	_	siad
 19-20	rhyt's	_	_	_	_	_	_	_	
 19	rish	rish	ADP	_	_	20	case	_	leatsa
-20	uss	oo	PRON	_	_	17	obl	_	
+20	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	17	obl	_	
 21	,	,	PUNCT	_	_	22	punct	_	,
 22	Vel	bee	VERB	_	Mood=Ind|Tense=Pres	17	parataxis	_	An bhfuil
-23	uss	oo	PRON	_	_	22	nsubj	_	tusa
+23	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	22	nsubj	_	tusa
 24	er	er	ADP	_	_	25	case	_	tar éis teacht
 25	jeet	çheet	NOUN	_	_	22	xcomp	_	
 26	dy	dy	ADP	_	_	27	case	_	le gabháil
@@ -6125,7 +6125,7 @@
 32	as	as	CCONJ	_	_	33	cc	_	agus
 33-34	t'eh	_	_	_	_	_	_	_	
 33	t'	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	tá sé
-34	eh	eh	PRON	_	_	33	nsubj	_	
+34	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	33	nsubj	_	
 35	er	er	ADP	_	_	36	case	_	ar
 36	hannaghtyn	tannaghtyn	NOUN	_	_	33	xcomp	_	fhanacht
 37	lesh	lesh	ADP	_	_	39	case	_	lena
@@ -6169,7 +6169,7 @@
 4	Fraser	Fraser	PROPN	_	_	3	nsubj	_	Fraser
 5-6	orroo	_	_	_	_	_	_	_	
 5	er	er	ADP	_	_	6	case	_	orthu
-6	ad	ad	PRON	_	_	3	obl	_	
+6	ad	ad	PRON	_	Number=Plur|Person=3	3	obl	_	
 7	reesht	reesht	ADV	_	_	3	advmod	_	arís
 8	,	,	PUNCT	_	_	10	punct	_	,
 9	cha	cha	PART	_	_	10	mark	_	ní raibh
@@ -6190,7 +6190,7 @@
 1	Fuirreeym	fuirree	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	Fanfaidh mé
 2-3	ayns-shoh	_	_	_	_	_	_	_	
 2	ayns	ayns	ADP	_	_	3	case	_	anseo
-3	shoh	shoh	PRON	_	_	1	obl	_	
+3	shoh	shoh	PRON	_	PronType=Dem	1	obl	_	
 4	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_234
@@ -6203,7 +6203,7 @@
 3	cliaghtey	cliaghtey	NOUN	_	_	1	nsubj	_	cleachtadh
 4-5	echey	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	aige
-5	eh	eh	PRON	_	_	3	nmod	_	
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nmod	_	
 6	shooyl	shooyl	NOUN	_	_	1	xcomp:pred	_	ag siúl
 7	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6231,15 +6231,15 @@
 4	enney	enney	NOUN	_	_	3	nsubj	_	aithne
 5-6	aym's	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agamsa
-6	mish	mee	PRON	_	_	3	xcomp:pred	_	
+6	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	3	xcomp:pred	_	
 7-8	er	_	_	_	_	_	_	_	
 7	er	er	ADP	_	_	8	case	_	air
-8	eh	eh	PRON	_	_	3	obl	_	
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	obl	_	
 9	:	:	PUNCT	_	_	12	punct	_	:
 10	agh	agh	CCONJ	_	_	12	cc	_	ach
 11	dy	dy	PART	_	_	12	mark	_	go
 12	beagh	bee	VERB	_	Mood=Cnd	20	advcl	_	mbeadh
-13	eh	eh	PRON	_	_	12	nsubj	_	sé
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	sé
 14	er	er	ADP	_	_	16	case	_	á fhoilsiú
 15	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	
 16	hoilshaghey	soilshaghey	NOUN	_	_	12	xcomp	_	
@@ -6247,11 +6247,11 @@
 18	Israel	Israel	PROPN	_	_	16	obl	_	Iosrael
 19	,	,	PUNCT	_	_	20	punct	_	,
 20-22	shen-y-fa	_	_	_	_	_	_	_	
-20	shen	shen	PRON	_	_	3	conj	_	dá bhrí sin
+20	shen	shen	PRON	_	PronType=Dem	3	conj	_	dá bhrí sin
 21	y	yn	DET	_	_	22	det	_	
 22	fa	fa	NOUN	_	_	20	nsubj	_	
 23	haink	tar	VERB	_	Mood=Ind|Tense=Past	22	acl	_	tháinig
-24	mish	mee	PRON	_	_	23	nsubj	_	mise
+24	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	23	nsubj	_	mise
 25	bashtey	bashtey	NOUN	_	_	23	xcomp	_	baisteadh
 26	lesh	lesh	ADP	_	_	27	case	_	le huisce
 27	ushtey	ushtey	NOUN	_	_	25	obl	_	
@@ -6266,7 +6266,7 @@
 5	gur	cur	NOUN	_	_	1	xcomp	_	
 6-7	roish	_	_	_	_	_	_	_	
 6	roish	roish	ADP	_	_	7	case	_	roimh
-7	eh	eh	PRON	_	_	5	obl	_	
+7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obl	_	
 8	dy	dy	ADP	_	_	9	case	_	le méadú
 9	vooadaghey	mooadaghey	NOUN	_	_	5	xcomp	_	
 10	yn	yn	DET	_	_	11	det	_	an
@@ -6295,10 +6295,10 @@
 2	treisht	treisht	NOUN	_	_	0	root	_	
 3-4	lhiam	_	_	_	_	_	_	_	
 3	lesh	lesh	ADP	_	_	4	case	_	
-4	mee	mee	PRON	_	_	2	obl	_	
+4	mee	mee	PRON	_	Number=Sing|Person=1	2	obl	_	
 5	dy	dy	PART	_	_	6	mark	_	go bhfuil
 6	vel	bee	VERB	_	Mood=Ind|Tense=Pres	2	csubj:cop	_	
-7	shiu	shiu	PRON	_	_	6	nsubj	_	sibh
+7	shiu	shiu	PRON	_	Number=Plur|Person=2	6	nsubj	_	sibh
 8	braew	braew	ADJ	_	_	6	xcomp:pred	_	breá
 9	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -6307,7 +6307,7 @@
 1	Agh	agh	CCONJ	_	_	2	cc	_	Ach
 2-3	v'eh	_	_	_	_	_	_	_	
 2	v'	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhí sé
-3	eh	eh	PRON	_	_	2	nsubj	_	
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	ina
 5	vraghtan	braghtan	NOUN	_	_	2	xcomp:pred	_	cheapaire
 6	er	er	ADP	_	_	8	case	_	ar a laghad
@@ -6317,8 +6317,8 @@
 10	,	,	PUNCT	_	_	12	punct	_	,
 11	as	as	CCONJ	_	_	12	cc	_	agus
 12	ghow	gow	VERB	_	Mood=Ind|Tense=Past	2	conj	_	ghabh
-13	eh	eh	PRON	_	_	12	nsubj	_	sé
-14	eh	eh	PRON	_	_	12	obj	_	é
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	sé
+14	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	12	obj	_	é
 15	gyn	gyn	ADP	_	_	16	case	_	gan
 16	doalchraueeaght	doalchraueeaght	NOUN	_	_	12	obl	_	biogóideacht
 17	erbee	erbee	ADJ	_	_	16	amod	_	ar bith
@@ -6329,10 +6329,10 @@
 # text_ga = Rinne sé ar aon dul i nglóir leis na naoimh é, agus mhóraigh é le scanradh a chur ar a naimhde.
 # text_en = He made him equal in glory to the holy ones, and made him great, to the terror of his enemies.
 1	Hug	cur	VERB	_	Mood=Ind|Tense=Past	0	root	_	Chuir
-2	eh	eh	PRON	_	_	1	nsubj	_	sé
+2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3-4	er	_	_	_	_	_	_	_	
 3	er	er	ADP	_	_	4	case	_	air
-4	eh	eh	PRON	_	_	1	obl	_	
+4	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	obl	_	
 5	dy	dy	ADP	_	_	6	case	_	a bheith
 6	ve	ve	NOUN	_	_	1	xcomp	_	
 7	casley	casley	ADJ	_	_	6	xcomp:pred	_	cosúil
@@ -6343,12 +6343,12 @@
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	as	as	CCONJ	_	_	14	cc	_	agus
 14	hrog	trog	VERB	_	Mood=Ind|Tense=Past	1	conj	_	thóg
-15	eh	eh	PRON	_	_	14	obj	_	sé
+15	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	14	obj	_	sé
 16	gys	gys	ADP	_	_	17	case	_	go
 17	ard-ooashley	ard-ooashley	NOUN	_	_	14	obl	_	maorgacht
 18	,	,	PUNCT	_	_	19	punct	_	,
 19	myr	myr	ADP	_	_	22	advmod	_	mar sin
-20	shen	shen	PRON	_	_	19	fixed	_	
+20	shen	shen	PRON	_	PronType=Dem	19	fixed	_	
 21	dy	dy	PART	_	_	22	mark	_	go raibh
 22	row	bee	VERB	_	Mood=Ind|Tense=Past	1	conj	_	
 23	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	24	nmod:poss	_	a
@@ -6357,13 +6357,13 @@
 26	aggle	aggle	NOUN	_	_	22	xcomp:pred	_	
 27-28	roish	_	_	_	_	_	_	_	
 27	roish	roish	ADP	_	_	28	case	_	roimhe
-28	eh	eh	PRON	_	_	22	obl	_	
+28	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	22	obl	_	
 29	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_242
 # text = As shen yn aght ta ymmodee Manninee smooinaghtyn foastagh, ga dy vel Celtiaghys cheet dy ve ny stroshey ec y traa t'ayn.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
-2	shen	shen	PRON	_	_	0	root	_	sin
+2	shen	shen	PRON	_	PronType=Dem	0	root	_	sin
 3	yn	yn	DET	_	_	4	det	_	an
 4	aght	aght	NOUN	_	_	2	nsubj	_	dóigh a bhfuil
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	4	acl	_	
@@ -6387,7 +6387,7 @@
 23-25	t'ayn	_	_	_	_	_	_	_	
 23	t'	bee	VERB	_	Mood=Ind|Tense=Pres	22	acl:relcl	_	atá ann
 24	ayns	ayns	ADP	_	_	25	case	_	
-25	eh	eh	PRON	_	_	23	xcomp:pred	_	
+25	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	xcomp:pred	_	
 26	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_243
@@ -6407,7 +6407,7 @@
 # text_ga = Le mo ghrá-sa mise, agus mise a mhiansan.
 # text_en = I am my beloved's, and his desire is toward me.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	mish	mee	PRON	_	_	1	nsubj	_	mise
+2	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	1	nsubj	_	mise
 3	lesh	lesh	ADP	_	_	5	case	_	le
 4	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	mo
 5	ghraih	graih	NOUN	_	_	1	xcomp:pred	_	ghrá
@@ -6415,7 +6415,7 @@
 7	as	as	CCONJ	_	_	9	cc	_	agus
 8-9	orrym's	_	_	_	_	_	_	_	
 8	er	er	ADP	_	_	9	case	_	ormsa
-9	mish	mee	PRON	_	_	1	conj	_	
+9	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	1	conj	_	
 10	ta	bee	VERB	_	Mood=Ind|Tense=Pres	9	csubj:cleft	_	tá
 11	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	a
 12	chree's	cree	NOUN	_	_	10	nsubj	_	chroí is
@@ -6426,7 +6426,7 @@
 # text = Chloie ee y notey aggairagh.
 # text_en = She played the wrong note.
 1	Chloie	cloie	VERB	_	Mood=Ind|Tense=Past	0	root	_	D'imir
-2	ee	ee	PRON	_	_	1	nsubj	_	sí
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	sí
 3	y	yn	DET	_	_	4	det	_	an
 4	notey	notey	NOUN	_	_	1	obj	_	nóta
 5	aggairagh	aggairagh	ADJ	_	_	4	amod	_	bréagach
@@ -6448,11 +6448,11 @@
 10	theihll	seihll	NOUN	_	_	7	nmod	_	domhain
 11-12	t'ou	_	_	_	_	_	_	_	
 11	t'	bee	VERB	_	Mood=Ind|Tense=Pres	7	acl	_	atá tú
-12	ou	ou	PRON	_	_	11	nsubj	_	
+12	ou	ou	PRON	_	Number=Sing|Person=2	11	nsubj	_	
 13	gyllagh	yllagh	NOUN	_	_	11	xcomp	_	ag béicíl
 14	magh	magh	ADV	_	_	13	advmod	_	amach
 15	myr	myr	ADP	_	_	13	advmod	_	mar sin
-16	shen	shen	PRON	_	_	15	fixed	_	
+16	shen	shen	PRON	_	PronType=Dem	15	fixed	_	
 17	?	?	PUNCT	_	_	5	punct	_	?
 18	"	"	PUNCT	_	_	5	punct	_	"
 
@@ -6494,7 +6494,7 @@
 19	argid	argid	NOUN	_	_	18	nmod	_	airgid
 20-21	oc	_	_	_	_	_	_	_	
 20	ec	ec	ADP	_	_	21	case	_	acu
-21	ad	ad	PRON	_	_	17	xcomp:pred	_	
+21	ad	ad	PRON	_	Number=Plur|Person=3	17	xcomp:pred	_	
 22	as	as	CCONJ	_	_	23	cc	_	agus
 23	babbanyn-tawlish	babban-tawlish	NOUN	_	_	18	conj	_	babbanyn-tawlish
 24	(	(	PUNCT	_	_	25	punct	_	(
@@ -6507,7 +6507,7 @@
 # text = Dennee mee my aegid er coontey'n veggan cooinaghtyn v'aym.
 # text_en = I felt conscious of youth because I remembered so little.
 1	Dennee	ennee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Mhothaigh
-2	mee	mee	PRON	_	_	1	nsubj	_	mé
+2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	m'óige
 4	aegid	aegid	NOUN	_	_	1	obj	_	
 5	er	er	ADP	_	_	6	case	_	mar gheall ar an
@@ -6519,7 +6519,7 @@
 10-12	v'aym	_	_	_	_	_	_	_	
 10	v'	bee	VERB	_	Mood=Ind|Tense=Past	8	acl:relcl	_	a bhí agam
 11	ec	ec	ADP	_	_	12	case	_	
-12	mee	mee	PRON	_	_	10	xcomp:pred	_	
+12	mee	mee	PRON	_	Number=Sing|Person=1	10	xcomp:pred	_	
 13	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_250
@@ -6557,9 +6557,9 @@
 9	smoo	mooar	ADJ	_	_	8	amod	_	is mó
 10-11	ayn	_	_	_	_	_	_	_	
 10	ayns	ayns	ADP	_	_	11	case	_	ann
-11	eh	eh	PRON	_	_	2	obl	_	
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	obl	_	
 12	as	as	SCONJ	_	_	13	mark	_	agus
-13	eh	eh	PRON	_	_	2	advcl	_	é
+13	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	advcl	_	é
 14	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	15	nmod:poss	_	ina luí
 15	lhie	lhie	NOUN	_	_	13	xcomp:pred	_	
 16	45	45	NUM	_	_	17	nummod	_	45
@@ -6615,8 +6615,8 @@
 10	chredjue	credjue	NOUN	_	_	7	obl	_	chreideamh
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	ymmyrk-jee	ymmyrk	VERB	_	Mood=Imp|Number=Plur|Person=2	1	conj	_	iompraígí
-13	shiu	shiu	PRON	_	_	12	obl	_	sibh
-14	hene	hene	PRON	_	_	13	nmod	_	féin
+13	shiu	shiu	PRON	_	Number=Plur|Person=2	12	obl	_	sibh
+14	hene	hene	PRON	_	Reflex=Yes	13	nmod	_	féin
 15	myr	myr	ADP	_	_	16	case	_	mar
 16	deiney	dooinney	NOUN	_	_	12	obl	_	daoine
 17	,	,	PUNCT	_	_	18	punct	_	,
@@ -6654,7 +6654,7 @@
 # text_en = When he came the second time, the old parson, whose name was John Clague, was on his death-bed, and Shepherd taught the church choir to sing a funeral psalm for the parson.
 1	Tra	tra	SCONJ	_	_	2	mark	_	Nuair a
 2	haink	tar	VERB	_	Mood=Ind|Tense=Past	8	advcl	_	tháinig
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	yn	yn	DET	_	_	5	det	_	an
 5	nah	nah	ADJ	_	_	6	amod	_	dara
 6	cheayrt	keayrt	NOUN	_	_	2	obl	_	uair
@@ -6668,7 +6668,7 @@
 13	ennym	ennym	NOUN	_	_	11	nmod	_	ainm
 14-15	echey	_	_	_	_	_	_	_	
 14	ec	ec	ADP	_	_	15	case	_	aige
-15	eh	eh	PRON	_	_	13	nmod	_	
+15	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nmod	_	
 16	Juan	Juan	PROPN	_	_	13	appos	_	Seán
 17	y	yn	DET	_	_	16	flat	_	an
 18	Clague	Clague	PROPN	_	_	16	flat	_	Clague
@@ -6712,8 +6712,8 @@
 13	as	as	CCONJ	_	_	16	cc	_	agus
 14	dy	dy	PART	_	_	16	mark	_	gur
 15	nee	she	AUX	_	_	16	cop	_	
-16	eshyn	eh	PRON	_	_	9	conj	_	eisean
-17	eh	eh	PRON	_	_	16	nsubj	_	é
+16	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	9	conj	_	eisean
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	é
 18-19	t'er	_	_	_	_	_	_	_	
 18	t'	bee	VERB	_	Mood=Ind|Tense=Pres	17	acl:relcl	_	atá tar éis déanamh
 19	er	er	ADP	_	_	20	case	_	
@@ -6727,7 +6727,7 @@
 26	shickyr	shickyr	ADJ	_	_	23	amod	_	cinnte
 27	nagh	nagh	PART	_	_	28	mark	_	nach féidir leis
 28	vod	fod	VERB	_	Mood=Ind|Tense=Fut	26	advcl	_	
-29	eh	eh	PRON	_	_	28	nsubj	_	
+29	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	28	nsubj	_	
 30	ve	ve	NOUN	_	_	28	xcomp	_	a bheith
 31	er	er	ADP	_	_	33	case	_	á
 32	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	33	nmod:poss	_	
@@ -6737,7 +6737,7 @@
 36	kys	kys	ADV	_	_	38	advmod	_	conas
 37	dy	dy	PART	_	_	38	mark	_	go
 38	jean	jean	VERB	_	Mood=Ind|Tense=Fut	9	conj	_	ndéanfaidh
-39	eh	eh	PRON	_	_	38	nsubj	_	sé
+39	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	38	nsubj	_	sé
 40	yn	yn	DET	_	_	41	det	_	an
 41	pobble	pobble	NOUN	_	_	43	obj	_	pobal
 42	y	y	ADP	_	_	43	mark	_	a
@@ -6753,7 +6753,7 @@
 1	Agh	agh	CCONJ	_	_	3	cc	_	Ach
 2	cha	cha	PART	_	_	3	mark	_	ní dhearna
 3	ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	
-4	ad	ad	PRON	_	_	3	nsubj	_	siad
+4	ad	ad	PRON	_	Number=Plur|Person=3	3	nsubj	_	siad
 5	geaishtagh	eaishtagh	NOUN	_	_	3	xcomp	_	ag éisteacht
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	ny	ny	CCONJ	_	_	8	cc	_	ná
@@ -6781,10 +6781,10 @@
 # text_en = And she told her all that the man had done to her.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dinsh	insh	VERB	_	Mood=Ind|Tense=Past	0	root	_	d'inis
-3	ee	ee	PRON	_	_	2	nsubj	_	sí
+3	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	sí
 4-5	jee	_	_	_	_	_	_	_	
 4	jeh	jeh	ADP	_	_	5	case	_	di
-5	ee	ee	PRON	_	_	2	obl	_	
+5	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	2	obl	_	
 6	ooilley	ooilley	NOUN	_	_	2	obj	_	gach a raibh an
 7	ny	ny	PART	_	_	8	mark	_	
 8-9	va'n	_	_	_	_	_	_	_	
@@ -6805,7 +6805,7 @@
 # text_en = And he answered sadly: “No.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dreggyr	freggyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	d'fhreagair
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	dy	dy	PART	_	_	5	mark	_	go brónach
 5	trimshagh	trimshagh	ADJ	_	_	2	advmod	_	
 6	:	:	PUNCT	_	_	9	punct	_	:
@@ -6834,7 +6834,7 @@
 15	ve	ve	NOUN	_	_	14	xcomp	_	a bheith
 16-17	ayn	_	_	_	_	_	_	_	
 16	ayns	ayns	ADP	_	_	17	case	_	ann
-17	eh	eh	PRON	_	_	15	xcomp:pred	_	
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	15	xcomp:pred	_	
 18	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	ina aonar
 19	lomarcan	lomarcan	NOUN	_	_	15	obl	_	
 20	,	,	PUNCT	_	_	22	punct	_	,
@@ -6856,7 +6856,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	,
 6	nagh	nagh	PART	_	_	7	mark	_	nach féidir leat
 7	vod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
-8	oo	oo	PRON	_	_	7	nsubj	_	
+8	oo	oo	PRON	_	Number=Sing|Person=2	7	nsubj	_	
 9	jannoo	jannoo	NOUN	_	_	7	xcomp	_	déanamh
 10	red	red	NOUN	_	_	9	obj	_	rud ar bith
 11	erbee	erbee	ADJ	_	_	10	amod	_	
@@ -6869,14 +6869,14 @@
 1	‘	‘	PUNCT	_	_	3	punct	_	‘
 2	Nagh	nagh	PART	_	_	3	mark	_	Nach féidir
 3	vod	fod	VERB	_	Mood=Ind|Tense=Fut	0	root	_	
-4	shin	shin	PRON	_	_	3	nsubj	_	muid
+4	shin	shin	PRON	_	Number=Plur|Person=1	3	nsubj	_	muid
 5	cur	cur	NOUN	_	_	3	xcomp	_	ag tabhairt
 6	eab	eab	NOUN	_	_	5	obj	_	iarracht
 7	er	er	ADP	_	_	8	case	_	ar
 8	ratçhal	ratçhal	NOUN	_	_	5	xcomp	_	rásaíocht
 9-10	roin	_	_	_	_	_	_	_	
 9	roish	roish	ADP	_	_	10	case	_	romhainn
-10	shin	shin	PRON	_	_	8	obl	_	
+10	shin	shin	PRON	_	Number=Plur|Person=1	8	obl	_	
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	Yishag	jishag	NOUN	_	_	3	vocative	_	Athair
 13	?	?	PUNCT	_	_	3	punct	_	?
@@ -6906,7 +6906,7 @@
 19	shoh	shoh	DET	_	_	18	det	_	seo
 20	,	,	PUNCT	_	_	21	punct	_	,
 21	bee	bee	VERB	_	Mood=Ind|Tense=Fut	2	parataxis	_	beidh
-22	shen	shen	PRON	_	_	21	nsubj	_	sin
+22	shen	shen	PRON	_	PronType=Dem	21	nsubj	_	sin
 23	neu-ghlen	neu-ghlen	ADJ	_	_	21	xcomp:pred	_	neamhghlan
 24	?	?	PUNCT	_	_	2	punct	_	?
 
@@ -6920,7 +6920,7 @@
 4	er	er	ADP	_	_	6	case	_	ar a shon
 5	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	
 6	hon	son	NOUN	_	_	3	nmod	_	
-7	hene	hene	PRON	_	_	6	nmod	_	féin
+7	hene	hene	PRON	_	Reflex=Yes	6	nmod	_	féin
 8	as	as	CCONJ	_	_	9	cc	_	agus
 9	Jee	Jee	PROPN	_	_	3	conj	_	Dia
 10	son	son	ADP	_	_	11	case	_	ar son
@@ -6976,14 +6976,14 @@
 1	Hem	gow	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Rachaidh mé
 2-3	roym	_	_	_	_	_	_	_	
 2	roish	roish	ADP	_	_	3	case	_	romham
-3	mee	mee	PRON	_	_	1	obl	_	
+3	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 4-5	da'n	_	_	_	_	_	_	_	
 4	da	da	ADP	_	_	6	case	_	don
 5	yn	yn	DET	_	_	6	det	_	
 6	thie	thie	NOUN	_	_	1	obl	_	teach
 7-8	echey	_	_	_	_	_	_	_	
 7	ec	ec	ADP	_	_	8	case	_	aige
-8	eh	eh	PRON	_	_	6	nmod	_	
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nmod	_	
 9	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_268
@@ -7029,10 +7029,10 @@
 10	,	,	PUNCT	_	_	12	punct	_	,
 11	as	as	CCONJ	_	_	12	cc	_	agus
 12	ghow	gow	VERB	_	Mood=Ind|Tense=Past	1	conj	_	ghabhadar
-13	ad	ad	PRON	_	_	12	nsubj	_	
+13	ad	ad	PRON	_	Number=Plur|Person=3	12	nsubj	_	
 14	ymmyd	ymmyd	NOUN	_	_	12	obj	_	úsáid
 15	jeh	jeh	ADP	_	_	16	case	_	de
-16	shoh	shoh	PRON	_	_	12	obl	_	seo
+16	shoh	shoh	PRON	_	PronType=Dem	12	obl	_	seo
 17	dy	dy	ADP	_	_	18	case	_	le sroicheadh
 18	roshtyn	roshtyn	NOUN	_	_	12	xcomp	_	
 19	y	yn	DET	_	_	20	det	_	na
@@ -7089,7 +7089,7 @@
 9	arrane	arrane	NOUN	_	_	2	obl	_	amhrán
 10-11	jee	_	_	_	_	_	_	_	
 10	jeh	jeh	ADP	_	_	11	case	_	di
-11	ee	ee	PRON	_	_	2	obl	_	
+11	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	2	obl	_	
 12	,	,	PUNCT	_	_	13	punct	_	,
 13	dys	dys	ADP	_	_	14	case	_	le
 14	jesheenaghey	jesheenaghey	NOUN	_	_	2	advcl	_	maisiú
@@ -7107,10 +7107,10 @@
 25	ynnod	ynnod	NOUN	_	_	29	obl	_	ionad
 26-27	oc	_	_	_	_	_	_	_	
 26	ec	ec	ADP	_	_	27	case	_	acu
-27	ad	ad	PRON	_	_	25	nmod	_	
+27	ad	ad	PRON	_	Number=Plur|Person=3	25	nmod	_	
 28	,	,	PUNCT	_	_	25	punct	_	,
 29	cheau	ceau	VERB	_	Mood=Ind|Tense=Past	2	conj	_	chaith
-30	ish	ee	PRON	_	_	29	nsubj	_	sise
+30	ish	ee	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Emp	29	nsubj	_	sise
 31	foast	foast	ADV	_	_	29	advmod	_	fós
 32	ny	ny	DET	_	_	33	det	_	ina
 33	slonganyn	slongan	NOUN	_	_	29	obj	_	fleasca
@@ -7121,7 +7121,7 @@
 38	annymoil	annymoil	ADJ	_	_	37	amod	_	anamúil
 39-40	huick	_	_	_	_	_	_	_	
 39	hug	hug	ADP	_	_	40	case	_	chuici
-40	ee	ee	PRON	_	_	36	obl	_	
+40	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	36	obl	_	
 41-42	'sy	_	_	_	_	_	_	_	
 41	ayns	ayns	ADP	_	_	43	case	_	sa
 42	yn	yn	DET	_	_	43	det	_	
@@ -7207,12 +7207,12 @@
 # text_en = And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	0	root	_	dúradar
-3	ad	ad	PRON	_	_	2	nsubj	_	
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	
 4	rish	rish	ADP	_	_	5	case	_	le
 5	Jephthah	Jephthah	PROPN	_	_	2	obl	_	Iaftá
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Tar	tar	VERB	_	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	Tar
-8	uss	oo	PRON	_	_	7	nsubj	_	tusa
+8	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	7	nsubj	_	tusa
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	as	as	CCONJ	_	_	11	cc	_	agus
 11	bee	bee	VERB	_	Mood=Imp|Number=Sing|Person=2	7	conj	_	bí
@@ -7220,11 +7220,11 @@
 13	chaptan	captan	NOUN	_	_	11	xcomp:pred	_	chaptaen
 14-15	harrin	_	_	_	_	_	_	_	
 14	harrish	harrish	ADP	_	_	15	case	_	tharainn
-15	shin	shin	PRON	_	_	11	obl	_	
+15	shin	shin	PRON	_	Number=Plur|Person=1	11	obl	_	
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	dy	dy	PART	_	_	18	mark	_	gur féidir linn
 18	vod	fod	VERB	_	Mood=Ind|Tense=Fut	11	advcl	_	
-19	mayd	mayd	PRON	_	_	18	nsubj	_	
+19	mayd	mayd	PRON	_	Number=Plur|Person=1	18	nsubj	_	
 20	caggey	caggey	NOUN	_	_	18	xcomp	_	cogadh
 21	rish	rish	ADP	_	_	22	case	_	leis
 22	cloan	cloan	NOUN	_	_	20	obl	_	na hAmónaigh
@@ -7254,15 +7254,15 @@
 # text = Hrog ee eh dy tappee as hyndaa ee mygeayrt eh.
 # text_ga = Thóg sí é go tapa agus chas sí thart é.
 1	Hrog	trog	VERB	_	Mood=Ind|Tense=Past	0	root	_	Thóg
-2	ee	ee	PRON	_	_	1	nsubj	_	sí
-3	eh	eh	PRON	_	_	1	obj	_	é
+2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	sí
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	obj	_	é
 4	dy	dy	PART	_	_	5	mark	_	gan mhoill
 5	tappee	tappee	ADJ	_	_	1	advmod	_	
 6	as	as	CCONJ	_	_	7	cc	_	agus
 7	hyndaa	çhyndaa	VERB	_	Mood=Ind|Tense=Past	1	conj	_	thiontaigh
-8	ee	ee	PRON	_	_	7	nsubj	_	sí
+8	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	sí
 9	mygeayrt	mygeayrt	ADV	_	_	7	advmod	_	timpeall
-10	eh	eh	PRON	_	_	7	obj	_	é
+10	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obj	_	é
 11	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = ab_000
@@ -7272,10 +7272,10 @@
 1	Dy	dy	PART	_	_	2	mark	_	Go deimhin
 2	jarroo	jarroo	ADJ	_	_	6	advmod	_	
 3	myr	myr	ADP	_	_	6	advmod	_	mar sin
-4	shen	shen	PRON	_	_	3	fixed	_	
+4	shen	shen	PRON	_	PronType=Dem	3	fixed	_	
 5	cha	cha	PART	_	_	6	mark	_	níl
 6	vel	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-7	ad	ad	PRON	_	_	6	nsubj	_	siad
+7	ad	ad	PRON	_	Number=Plur|Person=3	6	nsubj	_	siad
 8	shoh	shoh	DET	_	_	7	det	_	seo
 9	nish	nish	ADV	_	_	6	advmod	_	anois
 10	er	er	ADP	_	_	11	case	_	tar éis cur
@@ -7284,7 +7284,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	,
 14	dy	dy	PART	_	_	15	mark	_	go bhféadfadh
 15	vod	fod	VERB	_	Mood=Ind|Tense=Fut	11	advcl	_	
-16	adsyn	ad	PRON	_	_	15	nsubj	_	siadsan
+16	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	15	nsubj	_	siadsan
 17	neesht	neesht	ADV	_	_	15	advmod	_	freisin
 18	trooid	trooid	ADP	_	_	20	case	_	tríd
 19	y	yn	DET	_	_	20	det	_	a
@@ -7294,7 +7294,7 @@
 23	hoilshaghey	soilshaghey	NOUN	_	_	15	advcl	_	
 24-25	diuish	_	_	_	_	_	_	_	
 24	da	da	ADP	_	_	25	case	_	daoibhse
-25	shiuish	shiu	PRON	_	_	23	obl	_	
+25	shiuish	shiu	PRON	_	Number=Plur|Person=2|PronType=Emp	23	obl	_	
 26	myghin	myghin	NOUN	_	_	28	obj	_	trócaire
 27	y	y	ADP	_	_	28	mark	_	a
 28	gheddyn	geddyn	NOUN	_	_	15	xcomp	_	fháil
@@ -7329,7 +7329,7 @@
 23	ein	eean	NOUN	_	_	14	obl	_	éin
 24-25	eck	_	_	_	_	_	_	_	
 24	ec	ec	ADP	_	_	25	case	_	aici
-25	ee	ee	PRON	_	_	23	nmod	_	
+25	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	23	nmod	_	
 26	.	.	PUNCT	_	_	11	punct	_	.
 
 # sent_id = ab_002
@@ -7341,7 +7341,7 @@
 5	abbyrlhit	abbyrlhit	NOUN	_	_	3	nmod	_	aibítir
 6	ny	ny	DET	_	_	7	det	_	na
 7	Gaelgey	Gaelg	PROPN	_	_	5	nmod	_	Manainnise
-8	ee	ee	PRON	_	_	3	nmod	_	sí
+8	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	3	nmod	_	sí
 9	renniagh	renniagh	NOUN	_	_	3	nsubj	_	raithneach
 10	(	(	PUNCT	_	_	11	punct	_	(
 11	R	R	SYM	_	_	9	appos	_	R
@@ -7363,7 +7363,7 @@
 # text_en = But they shall fly upon the shoulders of the Philistines toward the west; they shall spoil them of the east together: they shall lay their hand upon Edom and Moab; and the children of Ammon shall obey them.
 1	Agh	agh	CCONJ	_	_	2	cc	_	Ach
 2	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
-3	ad	ad	PRON	_	_	2	nsubj	_	siad
+3	ad	ad	PRON	_	Number=Plur|Person=3	2	nsubj	_	siad
 4	getlagh	etlagh	NOUN	_	_	2	xcomp	_	ag eitilt
 5	er	er	ADP	_	_	6	case	_	ar
 6	geayltyn	geaylin	NOUN	_	_	4	obl	_	guaillí
@@ -7374,9 +7374,9 @@
 11	sheear	sheear	NOUN	_	_	4	obl	_	iarthar
 12	;	;	PUNCT	_	_	13	punct	_	;
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	2	conj	_	déanfaidh
-14	ad	ad	PRON	_	_	13	nsubj	_	siad
+14	ad	ad	PRON	_	Number=Plur|Person=3	13	nsubj	_	siad
 15	spooilley	spooilley	NOUN	_	_	13	xcomp	_	scriosta
-16	adsyn	ad	PRON	_	_	15	obj	_	siadsan
+16	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	15	obj	_	siadsan
 17-18	jeh'n	_	_	_	_	_	_	_	
 17	jeh	jeh	ADP	_	_	19	case	_	den
 18	yn	yn	DET	_	_	19	det	_	
@@ -7384,7 +7384,7 @@
 20	cooidjagh	cooidjagh	ADV	_	_	15	advmod	_	le chéile
 21	:	:	PUNCT	_	_	22	punct	_	:
 22	nee	jean	VERB	_	Mood=Ind|Tense=Fut	2	conj	_	déanfaidh
-23	ad	ad	PRON	_	_	22	nsubj	_	siad
+23	ad	ad	PRON	_	Number=Plur|Person=3	22	nsubj	_	siad
 24	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	25	nmod:poss	_	a
 25	laue	laue	NOUN	_	_	27	obj	_	lámh
 26	y	y	ADP	_	_	27	mark	_	a
@@ -7401,7 +7401,7 @@
 37	biallys	biallys	NOUN	_	_	34	obj	_	géilleadh
 38-39	daue	_	_	_	_	_	_	_	
 38	da	da	ADP	_	_	39	case	_	dóibh
-39	ad	ad	PRON	_	_	34	obl	_	
+39	ad	ad	PRON	_	Number=Plur|Person=3	34	obl	_	
 40	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = ab_004
@@ -7409,10 +7409,10 @@
 # text_en = They have been in existence since 1 April 1996, under the provisions of the Local Government etc. (Scotland) Act 1994.
 1-2	T'ad	_	_	_	_	_	_	_	
 1	T'	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá siad
-2	ad	ad	PRON	_	_	1	nsubj	_	
+2	ad	ad	PRON	_	Number=Plur|Person=3	1	nsubj	_	
 3-4	ayn	_	_	_	_	_	_	_	
 3	ayns	ayns	ADP	_	_	4	case	_	ann
-4	eh	eh	PRON	_	_	1	xcomp:pred	_	
+4	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	
 5	neayr's	neayr's	ADP	_	_	6	case	_	ó
 6	1	1	NUM	_	_	1	obl	_	1
 7	Averil	Averil	PROPN	_	_	6	flat	_	Aibreán
@@ -7438,11 +7438,11 @@
 5	argid	argid	NOUN	_	_	4	obj	_	airgid
 6	,	,	PUNCT	_	_	2	punct	_	,
 7	jarrood	jarrood	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	dearmad
-8	eh	eh	PRON	_	_	7	obj	_	é
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	obj	_	é
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	cha	cha	PART	_	_	11	mark	_	ní bheidh
 11	bee	bee	VERB	_	Mood=Ind|Tense=Fut	7	parataxis	_	
-12	eh	eh	PRON	_	_	11	nsubj	_	sé
+12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	sé
 13	jeant	jeant	ADJ	_	_	11	xcomp:pred	_	déanta
 14	.	.	PUNCT	_	_	7	punct	_	.
 
@@ -7451,8 +7451,8 @@
 1	Goll	goll	ADP	_	_	3	case	_	Cosúil
 2-3	rooin	_	_	_	_	_	_	_	
 2	rish	rish	ADP	_	_	1	fixed	_	linn
-3	shin	shin	PRON	_	_	7	obl	_	
-4	hene	hene	PRON	_	_	3	nmod	_	féin
+3	shin	shin	PRON	_	Number=Plur|Person=1	7	obl	_	
+4	hene	hene	PRON	_	Reflex=Yes	3	nmod	_	féin
 5	,	,	PUNCT	_	_	7	punct	_	,
 6	cha	cha	PART	_	_	7	mark	_	níl
 7	nel	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
@@ -7460,7 +7460,7 @@
 9	argid	argid	NOUN	_	_	8	nmod	_	airgid
 10-11	echey	_	_	_	_	_	_	_	
 10	ec	ec	ADP	_	_	11	case	_	aige
-11	eh	eh	PRON	_	_	7	xcomp:pred	_	
+11	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	xcomp:pred	_	
 12	as	as	CCONJ	_	_	20	cc	_	agus
 13	,	,	PUNCT	_	_	16	punct	_	,
 14	er	er	ADP	_	_	16	case	_	dá bharr sin
@@ -7472,7 +7472,7 @@
 20	vie	mie	ADJ	_	_	7	conj	_	mhaith
 21-22	lesh	_	_	_	_	_	_	_	
 21	lesh	lesh	ADP	_	_	22	case	_	leis
-22	eh	eh	PRON	_	_	20	obl	_	
+22	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	20	obl	_	
 23	cur	cur	NOUN	_	_	20	csubj:cop	_	cur
 24	Britaanish	Britaanish	PROPN	_	_	23	obj	_	Briotáinise
 25	er	er	ADP	_	_	26	case	_	ar
@@ -7502,7 +7502,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	,
 16-17	t'ee	_	_	_	_	_	_	_	
 16	t'	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá sí
-17	ee	ee	PRON	_	_	16	nsubj	_	
+17	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	16	nsubj	_	
 18	kinjagh	kinjagh	ADV	_	_	16	advmod	_	i gcónaí
 19	cassey	cassey	NOUN	_	_	16	xcomp	_	casta
 20	mygeayrt	mygeayrt	ADV	_	_	19	advmod	_	timpeall
@@ -7519,9 +7519,9 @@
 # text = Cha dannee shin ayns shen rish feer foddey.
 1	Cha	cha	PART	_	_	2	mark	_	Ní
 2	dannee	tannee	VERB	_	Mood=Ind|Tense=Past	0	root	_	fhanfaidh
-3	shin	shin	PRON	_	_	2	nsubj	_	muid
+3	shin	shin	PRON	_	Number=Plur|Person=1	2	nsubj	_	muid
 4	ayns	ayns	ADP	_	_	5	case	_	ansin
-5	shen	shen	PRON	_	_	2	obl	_	
+5	shen	shen	PRON	_	PronType=Dem	2	obl	_	
 6	rish	rish	ADP	_	_	7	case	_	le
 7	feer	feer	ADV	_	_	8	advmod	_	an-fhada
 8	foddey	foddey	ADJ	_	_	2	obl	_	
@@ -7542,16 +7542,16 @@
 11	chray	cray	NOUN	_	_	9	nmod	_	chré
 12-13	t'ad	_	_	_	_	_	_	_	
 12	t'	bee	VERB	_	Mood=Ind|Tense=Pres	9	acl:relcl	_	a bhfuil siad
-13	ad	ad	PRON	_	_	12	nsubj	_	
+13	ad	ad	PRON	_	Number=Plur|Person=3	12	nsubj	_	
 14	jannoo	jannoo	NOUN	_	_	12	xcomp	_	ag déanamh
 15	ymmyd	ymmyd	NOUN	_	_	14	obj	_	úsáide
 16-17	jeh	_	_	_	_	_	_	_	
 16	jeh	jeh	ADP	_	_	17	case	_	de
-17	eh	eh	PRON	_	_	14	obl	_	
+17	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	14	obl	_	
 18	,	,	PUNCT	_	_	23	punct	_	,
 19	as	as	CCONJ	_	_	23	cc	_	agus
 20	myr	myr	ADP	_	_	23	advmod	_	mar sin
-21	shen	shen	PRON	_	_	20	fixed	_	
+21	shen	shen	PRON	_	PronType=Dem	20	fixed	_	
 22	,	,	PUNCT	_	_	23	punct	_	,
 23	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	conj	_	tá
 24	saaseyn	saase	NOUN	_	_	23	nsubj	_	modhanna
@@ -7572,7 +7572,7 @@
 # text_en = And he shall break down the house, the stones of it, and the timber thereof, and all the morter of the house; and he shall carry them forth out of the city into an unclean place.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
-3	eh	eh	PRON	_	_	2	nsubj	_	sé
+3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
 4	yn	yn	DET	_	_	5	det	_	an
 5	thie	thie	NOUN	_	_	7	obj	_	teach
 6	y	y	ADP	_	_	7	mark	_	a
@@ -7593,11 +7593,11 @@
 21	:	:	PUNCT	_	_	23	punct	_	:
 22	as	as	CCONJ	_	_	23	cc	_	agus
 23	ver	cur	VERB	_	Mood=Ind|Tense=Fut	2	conj	_	tabharfaidh
-24	eh	eh	PRON	_	_	23	nsubj	_	sé
+24	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	sé
 25-26	lesh	_	_	_	_	_	_	_	
 25	lesh	lesh	ADP	_	_	26	case	_	leis
-26	eh	eh	PRON	_	_	23	obl	_	
-27	ad	ad	PRON	_	_	23	obj	_	iad
+26	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	23	obl	_	
+27	ad	ad	PRON	_	Number=Plur|Person=3	23	obj	_	iad
 28	magh	magh	ADV	_	_	23	advmod	_	amach
 29	ass	ass	ADP	_	_	31	case	_	as
 30	yn	yn	DET	_	_	31	det	_	an
@@ -7633,7 +7633,7 @@
 19	stooamey	stooamey	ADJ	_	_	17	conj	_	maisithe
 20-21	t'eh	_	_	_	_	_	_	_	
 20	t'	bee	VERB	_	Mood=Ind|Tense=Pres	17	csubj:cop	_	a bhfuil sé
-21	eh	eh	PRON	_	_	20	nsubj	_	
+21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	20	nsubj	_	
 22	dy	dy	ADP	_	_	23	case	_	ag labhairt
 23	loayrt	loayrt	NOUN	_	_	20	xcomp:pred	_	
 24	,	,	PUNCT	_	_	25	punct	_	,
@@ -7652,7 +7652,7 @@
 1	She	she	AUX	_	_	2	cop	_	Is
 2	bunstoo	bunstoo	NOUN	_	_	0	root	_	riandúil
 3	lorgagh	lorgagh	ADJ	_	_	2	amod	_	
-4	eh	eh	PRON	_	_	5	nmod	_	é
+4	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nmod	_	é
 5	yiarn	yiarn	NOUN	_	_	2	nsubj	_	iarann
 6	son	son	ADP	_	_	8	case	_	ar son
 7	dagh	dagh	DET	_	_	9	det	_	gach uile
@@ -7667,7 +7667,7 @@
 # text = Ta mee gynsagh dy moal myrgeddin.
 # text_ga = Tá mé ag foghlaim go mall freisin.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
-2	mee	mee	PRON	_	_	1	nsubj	_	mé
+2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	gynsagh	ynsagh	NOUN	_	_	1	xcomp	_	ag múineadh
 4	dy	dy	PART	_	_	5	mark	_	go mall
 5	moal	moal	ADJ	_	_	3	advmod	_	
