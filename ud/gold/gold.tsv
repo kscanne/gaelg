@@ -3109,7 +3109,7 @@
 3-5	t'ayn	_	_	_	_	_	_	_	
 3	t'	bee	VERB	_	Mood=Ind|Tense=Pres	2	csubj:cleft	_	atá ann
 4	ayns	ayns	ADP	_	_	5	case	_	
-5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	xcomp:pred	_
+5	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	xcomp:pred	_	
 6	.	.	PUNCT	_	_	2	punct	_	.
 
 # sent_id = aa_118
@@ -5291,7 +5291,7 @@
 6-8	v'ayn	_	_	_	_	_	_	_	
 6	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí ann
 7	ayns	ayns	ADP	_	_	8	case	_	
-8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	xcomp:pred	_
+8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	xcomp:pred	_	
 9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	oie	oie	NOUN	_	_	6	obl	_	oíche
 11	shen	shen	DET	_	_	10	det	_	sin
@@ -5772,7 +5772,7 @@
 19	as	as	CCONJ	_	_	20	cc	_	agus
 20	bee'm	bee	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	13	conj	_	beidh
 21	ny	ny	PART	_	_	22	mark	_	níos gile
-22	s'gilley	gial	ADJ	_	Degree=Cmp,Sup	20	xcomp:pred	_	_	
+22	s'gilley	gial	ADJ	_	Degree=Cmp,Sup	20	xcomp:pred	_	
 23	na	na	ADP	_	_	24	case	_	ná
 24	sniaghtey	sniaghtey	NOUN	_	_	22	obl	_	sneachta
 25	.	.	PUNCT	_	_	1	punct	_	.
