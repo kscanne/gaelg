@@ -166,7 +166,7 @@
 11	agh	agh	ADP	_	_	12	case	_	ach
 12	jannoo	jannoo	NOUN	_	_	9	xcomp	_	ag déanamh
 13	ny	ny	PART	_	_	14	mark	_	níos troime
-14	strimmey	trome	ADJ	_	_	12	xcomp	_	
+14	strimmey	trome	ADJ	_	Degree=Cmp,Sup	12	xcomp	_	
 15	as	as	CCONJ	_	_	16	cc	_	agus
 16	jannoo	jannoo	NOUN	_	_	12	conj	_	déanamh
 17	shickyr	shickyr	ADJ	_	_	16	xcomp	_	cinnte
@@ -847,7 +847,7 @@
 21	Miyoshi	Miyoshi	PROPN	_	_	19	conj	_	Miyoshi
 22	foddey	foddey	ADV	_	_	24	advmod	_	i bhfad
 23	ny	ny	PART	_	_	24	mark	_	níos éasca
-24	sassey	aashagh	ADJ	_	_	17	amod	_	
+24	sassey	aashagh	ADJ	_	Degree=Cmp,Sup	17	amod	_	
 25	credjue	credjue	NOUN	_	_	24	xcomp	_	creidimh
 26	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -1559,7 +1559,7 @@
 5	gearaghtee	gearaghtee	NOUN	_	_	1	obj	_	gáire
 6	mooar	mooar	ADJ	_	_	5	amod	_	mór
 7	foddey	foddey	ADJ	_	_	5	amod	_	fada
-8	booie	booiagh	ADJ	_	_	5	amod	_	sásta
+8	booie	booie	ADJ	_	_	5	amod	_	sásta
 9	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_059
@@ -3324,7 +3324,7 @@
 12	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	an
 13	charvaant	sharvaant	NOUN	_	_	11	nsubj	_	seirbhíseach
 14	ny	ny	PART	_	_	15	mark	_	níos airde
-15	syrjey	ard	ADJ	_	_	11	xcomp:pred	_	
+15	syrjey	ard	ADJ	_	Degree=Cmp,Sup	11	xcomp:pred	_	
 16	na	na	ADP	_	_	18	case	_	ná
 17	e	e	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	18	nmod:poss	_	a
 18	hiarn	çhiarn	NOUN	_	_	15	obl	_	thiarna
@@ -3407,7 +3407,7 @@
 15	veeal	beeal	NOUN	_	_	9	obl	_	bhéil
 16	agh	agh	CCONJ	_	_	18	cc	_	ach
 17	by	she	AUX	_	_	18	cop	_	ba
-18	vessey	olk	ADJ	_	_	1	conj	_	mheasa
+18	vessey	olk	ADJ	_	Degree=Cmp,Sup	1	conj	_	mheasa
 19	foast	foast	ADV	_	_	18	advmod	_	fós
 20	ny	ny	SCONJ	_	_	21	mark	_	a raibh
 21	va	bee	VERB	_	Mood=Ind|Tense=Past	18	csubj:cop	_	
@@ -6380,7 +6380,7 @@
 16	dy	dy	ADP	_	_	17	case	_	
 17	ve	ve	NOUN	_	_	15	xcomp	_	
 18	ny	ny	PART	_	_	19	mark	_	níos treise
-19	stroshey	troshagh	ADJ	_	_	17	xcomp:pred	_	
+19	stroshey	troshagh	ADJ	_	Degree=Cmp,Sup	17	xcomp:pred	_	
 20	ec	ec	ADP	_	_	22	case	_	ag an am
 21	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	traa	traa	NOUN	_	_	17	obl:tmod	_	
