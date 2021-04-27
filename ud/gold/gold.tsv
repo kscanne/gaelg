@@ -27,7 +27,7 @@
 8	nagh	nagh	PART	_	_	12	mark	_	nach
 9	nee	she	AUX	_	_	12	cop	_	
 10	er	er	ADP	_	_	12	case	_	ar
-11	y	yn	DET	_	_	12	det	_	an
+11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	ghraih	graih	NOUN	_	_	3	acl	_	ghrá
 13-14	euish	_	_	_	_	_	_	_	
 13	ec	ec	ADP	_	_	14	case	_	agaibhse
@@ -39,7 +39,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	,
 20-21	ta'n	_	_	_	_	_	_	_	
 20	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá an
-21	'n	yn	DET	_	_	22	det	_	
+21	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	Chiarn	chiarn	NOUN	_	_	20	nsubj	_	Tiarna
 23	Jee	Jee	PROPN	_	_	22	appos	_	Dia
 24	dy	dy	ADP	_	_	25	case	_	ag rá
@@ -104,7 +104,7 @@
 4	cho-vreneenyn	co-vreneen	NOUN	_	_	2	nmod	_	mhóilíní
 5	ushtey	ushtey	NOUN	_	_	4	nmod	_	uisce
 6	ayns	ayns	ADP	_	_	8	case	_	sa
-7	y	yn	DET	_	_	8	det	_	
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	
 8	vine	bine	NOUN	_	_	1	obl	_	bhraon
 9	sloo	beg	ADJ	_	_	8	amod	_	is lú
 10-11	d'ushtey	_	_	_	_	_	_	_	
@@ -119,7 +119,7 @@
 2	dooinney-ooasle	dooinney-ooasle	NOUN	_	_	0	root	_	duine uasal
 3-4	va'n	_	_	_	_	_	_	_	
 3	va	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí an
-4	'n	yn	DET	_	_	5	det	_	
+4	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	ayr	ayr	NOUN	_	_	3	nsubj	_	t-athair
 6-7	echey	_	_	_	_	_	_	_	
 6	ec	ec	ADP	_	_	7	case	_	aige
@@ -145,7 +145,7 @@
 15	lurg	lurg	ADP	_	_	16	case	_	i ndiaidh
 16	tammylt	tammylt	NOUN	_	_	11	obl	_	tamaill
 17	er	er	ADP	_	_	19	case	_	ar
-18	y	yn	DET	_	_	19	det	_	an
+18	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	towl	towl	NOUN	_	_	14	obl	_	bpoll
 20	jaagh	jaagh	NOUN	_	_	19	nmod	_	deataigh
 21	.	.	PUNCT	_	_	1	punct	_	.
@@ -187,7 +187,7 @@
 32	,	,	PUNCT	_	_	33	punct	_	,
 33	cre	cre	PRON	_	_	25	advcl	_	cibé
 34	erbee	erbee	ADJ	_	_	33	amod	_	
-35	y	yn	DET	_	_	36	det	_	an
+35	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	an
 36	scenario	scenario	NOUN	_	_	33	nsubj	_	scenario
 37	vees	bee	VERB	_	Mood=Ind|Tense=Fut	36	acl:relcl	_	a bheidh
 38	taghyrt	taghyrt	NOUN	_	_	37	xcomp	_	ag tarlú
@@ -198,7 +198,7 @@
 # text_ga = Tá an leabhar as cló.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	lioar	lioar	NOUN	_	_	1	nsubj	_	leabhar
 4	ass	ass	ADP	_	_	5	case	_	as
 5	clou	clou	NOUN	_	_	1	xcomp:pred	_	cló
@@ -218,7 +218,7 @@
 10	-	-	PUNCT	_	_	11	punct	_	-
 11-12	va'n	_	_	_	_	_	_	_	
 11	va	bee	VERB	_	Mood=Ind|Tense=Past	5	parataxis	_	bhí an
-12	'n	yn	DET	_	_	13	det	_	
+12	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	
 13	ayr	ayr	NOUN	_	_	11	nsubj	_	t-athair
 14-15	eck	_	_	_	_	_	_	_	
 14	ec	ec	ADP	_	_	15	case	_	aici
@@ -235,7 +235,7 @@
 1	Nish	nish	ADV	_	_	3	advmod	_	Anois
 2	,	,	PUNCT	_	_	1	punct	_	,
 3	gow	gow	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	gabh
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	baagh	baagh	NOUN	_	_	3	obj	_	t-ainmhí
 6	braew	braew	ADJ	_	_	5	amod	_	breá
 7	shoh	shoh	DET	_	_	5	det	_	seo
@@ -251,7 +251,7 @@
 6	beg	beg	ADJ	_	_	5	amod	_	beag
 7-8	jeh'n	_	_	_	_	_	_	_	
 7	jeh	jeh	ADP	_	_	9	case	_	den
-8	yn	yn	DET	_	_	9	det	_	
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	
 9	towse	towse	NOUN	_	_	5	nmod	_	tomhas
 10	share	mie	ADJ	_	_	9	amod	_	is fearr
 11	.	.	PUNCT	_	_	1	punct	_	.
@@ -298,7 +298,7 @@
 31	Cre	cre	PRON	_	_	29	parataxis	_	Céard
 32-33	ta'n	_	_	_	_	_	_	_	
 32	ta	bee	VERB	_	Mood=Ind|Tense=Pres	31	acl:relcl	_	atá an
-33	'n	yn	DET	_	_	34	det	_	
+33	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	
 34	pobble	pobble	NOUN	_	_	32	nsubj	_	pobal
 35	dy	dy	ADP	_	_	36	case	_	ag rá
 36	ghra	gra	NOUN	_	_	32	xcomp	_	
@@ -332,7 +332,7 @@
 7	agh	agh	CCONJ	_	_	8	cc	_	ach
 8-9	cre'n	_	_	_	_	_	_	_	
 8	cre	cre	PRON	_	_	2	conj	_	cén fáth a raibh tú
-9	'n	yn	DET	_	_	10	det	_	
+9	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	fa	fa	NOUN	_	_	8	nsubj	_	
 11-12	v'ou	_	_	_	_	_	_	_	
 11	v'	bee	VERB	_	Mood=Ind|Tense=Past	10	acl	_	
@@ -356,12 +356,12 @@
 4	ec	ec	ADP	_	_	5	case	_	agam
 5	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 6	er	er	ADP	_	_	8	case	_	ar
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	freggyrt	freggyrt	NOUN	_	_	2	nmod	_	freagra
 9	kiart	kiart	ADJ	_	_	8	amod	_	ceart
 10-11	da'n	_	_	_	_	_	_	_	
 10	da	da	ADP	_	_	12	case	_	don
-11	yn	yn	DET	_	_	12	det	_	
+11	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	
 12	feysht	feysht	NOUN	_	_	8	nmod	_	ceiste
 13	shen	shen	DET	_	_	12	det	_	sin
 14	,	,	PUNCT	_	_	16	punct	_	,
@@ -375,7 +375,7 @@
 21	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	obl	_	
 22-23	veih'n	_	_	_	_	_	_	_	
 22	veih	veih	ADP	_	_	24	case	_	ón
-23	yn	yn	DET	_	_	24	det	_	
+23	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	
 24	dooinney	dooinney	NOUN	_	_	19	obl	_	duine
 25	hene	hene	PRON	_	Reflex=Yes	24	nmod	_	féin
 26	.	.	PUNCT	_	_	1	punct	_	.
@@ -383,14 +383,14 @@
 # sent_id = aa_016
 # text = Nee yn lhieggey lowal da troggal boalley rish y phurt sthie.
 1	Nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	An é
-2	yn	yn	DET	_	_	3	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	lhieggey	lhieggey	NOUN	_	_	1	nsubj	_	leagan
 4	lowal	lowal	NOUN	_	_	1	xcomp	_	ceadaithe
 5	da	da	ADP	_	_	6	case	_	do
 6	troggal	troggal	NOUN	_	_	4	xcomp	_	tógáil
 7	boalley	boalley	NOUN	_	_	6	obj	_	balla
 8	rish	rish	ADP	_	_	10	case	_	leis
-9	y	yn	DET	_	_	10	det	_	an
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	phurt	purt	NOUN	_	_	7	nmod	_	phort
 11	sthie	sthie	ADJ	_	_	10	amod	_	istigh
 12	.	.	PUNCT	_	_	1	punct	_	.
@@ -406,12 +406,12 @@
 7	thooillaghyn	thooilley	NOUN	_	_	1	obl	_	tuilte
 8-9	sy	_	_	_	_	_	_	_	
 8	ayns	ayns	ADP	_	_	11	case	_	sa
-9	yn	yn	DET	_	_	11	det	_	
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	
 10	chied	kied	NUM	_	_	11	amod	_	chéad
 11	vee	mee	NOUN	_	_	1	obl	_	mhí
 12-13	jeh'n	_	_	_	_	_	_	_	
 12	jeh	jeh	ADP	_	_	14	case	_	den
-13	yn	yn	DET	_	_	14	det	_	
+13	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	
 14	vlein	blein	NOUN	_	_	11	nmod	_	bhliain
 15	feed	feed	NUM	_	_	16	nummod	_	fichead
 16	cheead	keead	NUM	_	_	14	appos	_	chéad
@@ -491,7 +491,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	,
 9	caabil	caabil	NOUN	_	_	7	conj	_	caabil
 10	,	,	PUNCT	_	_	12	punct	_	,
-11	yn	yn	DET	_	_	12	det	_	an
+11	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	ym-hayrn	ym-hayrn	NOUN	_	_	7	conj	_	imtharraingt
 13	,	,	PUNCT	_	_	14	punct	_	,
 14	aer	aer	NOUN	_	_	7	conj	_	aer
@@ -530,7 +530,7 @@
 2	shoh	shoh	PRON	_	PronType=Dem	1	fixed	_	
 3-4	ta'n	_	_	_	_	_	_	_	
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
-4	'n	yn	DET	_	_	5	det	_	
+4	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	Chiarn	chiarn	NOUN	_	_	3	nsubj	_	Tiarna
 6	dy	dy	ADP	_	_	7	case	_	le rá
 7	ghra	gra	NOUN	_	_	3	xcomp	_	
@@ -557,7 +557,7 @@
 28	,	,	PUNCT	_	_	31	punct	_	,
 29-31	er-yn-oyr	_	_	_	_	_	_	_	
 29	er	er	ADP	_	_	31	case	_	de bhrí
-30	yn	yn	DET	_	_	31	det	_	
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	
 31	oyr	oyr	NOUN	_	_	24	obl	_	
 32	nagh	nagh	PART	_	_	33	mark	_	nach raibh
 33	row	bee	VERB	_	Mood=Ind|Tense=Past	31	acl	_	
@@ -574,7 +574,7 @@
 2	cabdil	cabdil	NOUN	_	_	1	nsubj	_	caibidil
 3-4	'sy	_	_	_	_	_	_	_	
 3	ayns	ayns	ADP	_	_	5	case	_	sa
-4	yn	yn	DET	_	_	5	det	_	
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	lioar	lioar	NOUN	_	_	2	nmod	_	leabhar
 6	shen	shen	DET	_	_	5	det	_	sin
 7	enmysit	enmysit	ADJ	_	_	1	xcomp:pred	_	ainmnithe
@@ -609,7 +609,7 @@
 18-19	my-ner	_	_	_	_	_	_	_	
 18	my	my	ADP	_	_	19	case	_	faoi deara
 19	ner	ner	NOUN	_	_	15	obl	_	
-20	yn	yn	DET	_	_	21	det	_	an
+20	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	an
 21	ven	ben	NOUN	_	_	15	obj	_	bhean
 22	dy	dy	PART	_	_	23	mark	_	go raibh
 23	row	bee	VERB	_	Mood=Ind|Tense=Past	21	acl:relcl	_	
@@ -636,7 +636,7 @@
 11	shin	shin	PRON	_	Number=Plur|Person=1	9	nmod	_	
 12	er	er	ADP	_	_	13	case	_	tar éis doirteadh
 13	gheayrtey	deayrtey	NOUN	_	_	7	xcomp	_	
-14	yn	yn	DET	_	_	15	det	_	an
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	an
 15	uill	fuill	NOUN	_	_	13	obj	_	fhuil
 16	shoh	shoh	DET	_	_	15	det	_	seo
 17	,	,	PUNCT	_	_	19	punct	_	,
@@ -655,7 +655,7 @@
 # sent_id = aa_026
 # text = Bee yn guilley feer skee jeu.
 1	Bee	bee	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Beidh
-2	yn	yn	DET	_	_	3	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	guilley	guilley	NOUN	_	_	1	nsubj	_	buachaill
 4	feer	feer	ADV	_	_	5	advmod	_	an-tuirseach
 5	skee	skee	ADJ	_	_	3	xcomp:pred	_	
@@ -677,7 +677,7 @@
 9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10-11	jeh'n	_	_	_	_	_	_	_	
 10	jeh	jeh	ADP	_	_	12	case	_	den
-11	yn	yn	DET	_	_	12	det	_	
+11	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	
 12	thalhear	thalhear	NOUN	_	_	8	obl	_	táilliúir
 13	c'red	c'red	PRON	_	_	8	ccomp	_	céard a bhí sé
 14-15	v'eh	_	_	_	_	_	_	_	
@@ -739,7 +739,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	myr	myr	SCONJ	_	_	18	mark	_	mar a
 18	hug	cur	VERB	_	Mood=Ind|Tense=Past	2	advcl	_	thug
-19	y	yn	DET	_	_	20	det	_	an
+19	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	an
 20	Chiarn	chiarn	NOUN	_	_	18	nsubj	_	Tiarna
 21	sarey	sarey	NOUN	_	_	18	obj	_	ordú
 22	,	,	PUNCT	_	_	24	punct	_	,
@@ -825,7 +825,7 @@
 # text_en = The main romance remains just on the believable side of ridiculous, in a grand teenage gestures sort of way; Takagi and Miyoshi are much more credible.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	ard-chooish	ard-chooish	NOUN	_	_	1	nsubj	_	príomhábhar
 4	ghraih	graih	NOUN	_	_	3	nmod	_	ghrá
 5	kiart	kiart	ADV	_	_	1	advmod	_	ceart
@@ -881,7 +881,7 @@
 16-19	voir-'sy-leigh	_	_	_	_	_	_	_	
 16	voir	moir	NOUN	_	_	13	conj	_	mháthair chéile
 17	ayns	ayns	ADP	_	_	19	case	_	
-18	yn	yn	DET	_	_	19	det	_	
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	
 19	leigh	leigh	NOUN	_	_	16	nmod	_	
 20	,	,	PUNCT	_	_	21	punct	_	,
 21	ad	ad	PRON	_	Number=Plur|Person=3	13	appos	_	iad
@@ -917,7 +917,7 @@
 8	scrieu	scrieu	VERB	_	Mood=Ind|Tense=Past	2	conj	_	scríobh
 9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10	er	er	ADP	_	_	12	case	_	ar
-11	y	yn	DET	_	_	12	det	_	an
+11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	laare	laare	NOUN	_	_	8	obl	_	urlár
 13	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -931,18 +931,18 @@
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	tá
 6	shen	shen	PRON	_	PronType=Dem	5	nsubj	_	sin
 7	,	,	PUNCT	_	_	5	punct	_	,
-8	yn	yn	DET	_	_	9	det	_	an
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	Spyrryd	spyrryd	NOUN	_	_	3	appos	_	Spiorad Naomh
 10	Noo	noo	ADJ	_	_	9	amod	_	
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	3	appos	_	sé
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	12	acl:relcl	_	an
-14	yn	yn	DET	_	_	15	det	_	an
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	an
 15	Ayr	ayr	PROPN	_	_	13	nsubj	_	tAthair
 16	y	y	ADP	_	_	17	mark	_	a
 17	choyrt	coyrt	NOUN	_	_	13	xcomp	_	chuir
 18	ayns	ayns	ADP	_	_	20	case	_	san
-19	yn	yn	DET	_	_	20	det	_	
+19	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	
 20	ennym	ennym	NOUN	_	_	17	obl	_	ainm
 21-22	aym's	_	_	_	_	_	_	_	
 21	ec	ec	ADP	_	_	22	case	_	agamsa
@@ -991,14 +991,14 @@
 8	skian	skian	NOUN	_	_	2	obj	_	sciathán
 9	harrish	harrish	ADP	_	_	10	case	_	thar
 10	ynnyd	ynnyd	NOUN	_	_	2	obl	_	ionad
-11	yn	yn	DET	_	_	12	det	_	an
+11	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	arg	arg	NOUN	_	_	10	nmod	_	fhearg
 13	,	,	PUNCT	_	_	15	punct	_	,
 14	as	as	CCONJ	_	_	15	cc	_	agus
 15	choodee	coodee	VERB	_	Mood=Ind|Tense=Past	2	conj	_	chlúdaigh
 16	ny	ny	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	na
 17	cherubim	cherub	NOUN	_	_	15	nsubj	_	ceiribíní
-18	yn	yn	DET	_	_	19	det	_	an
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	arg	arg	NOUN	_	_	15	obj	_	fhearg
 20	,	,	PUNCT	_	_	23	punct	_	,
 21	as	as	CCONJ	_	_	23	cc	_	agus
@@ -1034,7 +1034,7 @@
 19	cheu	cheu	NOUN	_	_	16	obl	_	taobh
 20-21	jeh'n	_	_	_	_	_	_	_	
 20	jeh	jeh	ADP	_	_	22	case	_	den
-21	yn	yn	DET	_	_	22	det	_	
+21	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	arg	arg	NOUN	_	_	19	nmod	_	fhearg
 23	,	,	PUNCT	_	_	24	punct	_	,
 24	kiongoyrt	kiongoyrt	ADP	_	_	27	case	_	os comhair
@@ -1048,11 +1048,11 @@
 32	gymmyrkey	ymmyrkey	NOUN	_	_	31	xcomp	_	ag iompar
 33	arg	arg	NOUN	_	_	32	obj	_	áirc
 34	conaant	conaant	NOUN	_	_	33	nmod	_	conradh
-35	y	yn	DET	_	_	36	det	_	an
+35	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	an
 36	Chiarn	chiarn	NOUN	_	_	34	nmod	_	Tiarna
 37	,	,	PUNCT	_	_	38	punct	_	,
 38	chammah	chammah	ADP	_	_	40	case	_	chomh maith
-39	yn	yn	DET	_	_	40	det	_	an
+39	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	an
 40	joarree	joarree	NOUN	_	_	2	obl	_	teorann
 41	as	as	CCONJ	_	_	42	cc	_	agus
 42	eshyn	eh	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Emp	40	conj	_	eisean
@@ -1064,7 +1064,7 @@
 47	ec	ec	ADP	_	_	48	case	_	
 48	ad	ad	PRON	_	Number=Plur|Person=3	46	nmod	_	
 49	;	;	PUNCT	_	_	52	punct	_	;
-50	yn	yn	DET	_	_	52	det	_	an
+50	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	52	det	_	an
 51	derrey	derrey	NUM	_	_	52	amod	_	dara
 52	lieh	lieh	NOUN	_	_	2	parataxis	_	leath
 53-54	jeu	_	_	_	_	_	_	_	
@@ -1076,7 +1076,7 @@
 58	Gerizim	Gerizim	PROPN	_	_	57	nmod	_	Girizím
 59	,	,	PUNCT	_	_	62	punct	_	,
 60	as	as	CCONJ	_	_	62	cc	_	agus
-61	y	yn	DET	_	_	62	det	_	an
+61	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	62	det	_	an
 62	lieh	lieh	NOUN	_	_	52	conj	_	leath
 63	elley	elley	ADJ	_	_	62	amod	_	eile
 64	jeeragh	jeeragh	ADV	_	_	66	advmod	_	díreach
@@ -1088,7 +1088,7 @@
 70	va	bee	VERB	_	Mood=Ind|Tense=Past	2	advcl	_	bhí
 71	Moses	Moses	PROPN	_	_	70	nsubj	_	Maois
 72	sharvaant	sharvaant	NOUN	_	_	71	appos	_	searbhónta
-73	y	yn	DET	_	_	74	det	_	an
+73	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	74	det	_	an
 74	Chiarn	chiarn	NOUN	_	_	72	nmod	_	Tiarna
 75	roïe	roïe	ADV	_	_	70	advmod	_	roimhe sin
 76	er	er	ADP	_	_	77	case	_	tar éis tabhairt
@@ -1110,7 +1110,7 @@
 4	phaarteeas	paarteeas	NOUN	_	_	1	xcomp:pred	_	phaarteeas
 5-6	jeh'n	_	_	_	_	_	_	_	
 5	jeh	jeh	ADP	_	_	7	case	_	den
-6	yn	yn	DET	_	_	7	det	_	
+6	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	rheynnag	rheynnag	NOUN	_	_	4	nmod	_	earnáil
 8	theayagh	theayagh	ADJ	_	_	7	amod	_	poiblí
 9	as	as	CCONJ	_	_	10	cc	_	agus
@@ -1121,7 +1121,7 @@
 # text = Ta'n Paarteeas ny ard-stiureyder jeh Cummey Screeuit Bun-towshanagh ny Cornish, cair-screeu va skeaylt magh ayns 2008 as y chiarail echey dys ny cair-screeuyn elley y chur ry-cheilley, as er son ymmyd ny Cornish er cowraghyn raaidey, ayns docamadyn oikoil, as ayns scrutaghtyn scoill.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Paarteeas	paarteeas	NOUN	_	_	1	nsubj	_	Paarteeas
 4	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	na
 5	ard-stiureyder	ard-stiureyder	NOUN	_	_	1	xcomp:pred	_	ard-stiureyder
@@ -1139,7 +1139,7 @@
 17	ayns	ayns	ADP	_	_	18	case	_	i
 18	2008	2008	NUM	_	_	14	obl	_	2008
 19	as	as	CCONJ	_	_	21	cc	_	agus
-20	y	yn	DET	_	_	21	det	_	a
+20	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	a
 21	chiarail	kiarail	NOUN	_	_	29	nsubj	_	aire
 22-23	echey	_	_	_	_	_	_	_	
 22	ec	ec	ADP	_	_	23	case	_	aige
@@ -1230,7 +1230,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	,
 8	lurg	lurg	ADP	_	_	9	case	_	i ndiaidh
 9	shekel	shekel	NOUN	_	_	6	nmod	_	seicil
-10	yn	yn	DET	_	_	11	det	_	an
+10	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	ynnyd	ynnyd	NOUN	_	_	9	nmod	_	ionad
 12	casherick	casherick	ADJ	_	_	11	amod	_	naofa
 13	,	,	PUNCT	_	_	15	punct	_	,
@@ -1253,7 +1253,7 @@
 6	yindyssagh	yindyssagh	ADJ	_	_	0	root	_	
 7	er	er	ADP	_	_	8	case	_	ar fad
 8	fud	fud	NOUN	_	_	6	obl	_	
-9	yn	yn	DET	_	_	10	det	_	an
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	ennym	ennym	NOUN	_	_	6	nsubj	_	t-ainm
 11	shen	shen	DET	_	_	10	det	_	sin
 12	”	”	PUNCT	_	_	6	punct	_	”
@@ -1278,7 +1278,7 @@
 12	mee	mee	PRON	_	Number=Sing|Person=1	11	nsubj	_	mé
 13	loayrt	loayrt	NOUN	_	_	11	xcomp	_	ag labhairt
 14	rish	rish	ADP	_	_	16	case	_	leis
-15	y	yn	DET	_	_	16	det	_	na
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	na
 16	fer	fer	NOUN	_	_	13	obl	_	fir
 17	.	.	PUNCT	_	_	4	punct	_	.
 18	”	”	PUNCT	_	_	4	punct	_	”
@@ -1291,7 +1291,7 @@
 4	treealtys	treealtys	NOUN	_	_	1	obj	_	moladh
 5	roish	roish	ADP	_	_	6	case	_	roimh
 6	Tinvaal	Tinvaal	PROPN	_	_	1	obl	_	Tinvaal
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	vee	mee	NOUN	_	_	1	obl:tmod	_	mhí
 9	shoh	shoh	DET	_	_	8	det	_	seo
 10	,	,	PUNCT	_	_	11	punct	_	,
@@ -1310,7 +1310,7 @@
 22	bun-troggalys	bun-troggalys	NOUN	_	_	19	obl	_	bonneagar
 23-24	'syn	_	_	_	_	_	_	_	
 23	ayns	ayns	ADP	_	_	25	case	_	san
-24	yn	yn	DET	_	_	25	det	_	
+24	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	
 25	Ellan	ellan	NOUN	_	_	22	nmod	_	Oileán
 26	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -1326,7 +1326,7 @@
 7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	
 8	jeeaghyn	jeeaghyn	NOUN	_	_	6	xcomp	_	ag féachaint
 9	cour	cour	ADP	_	_	11	case	_	i gcomhair
-10	y	yn	DET	_	_	11	det	_	na
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	na
 11	tholtan	tholtan	NOUN	_	_	6	obl	_	fothraigh
 12	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -1349,7 +1349,7 @@
 14	mygeayrt	mygeayrt	ADV	_	_	13	advmod	_	timpeall
 15-16	'sy	_	_	_	_	_	_	_	
 15	ayns	ayns	ADP	_	_	17	case	_	sa
-16	yn	yn	DET	_	_	17	det	_	
+16	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	
 17	chaaidje	caaidje	NOUN	_	_	13	obl	_	chaighean
 18	as	as	CCONJ	_	_	19	cc	_	agus
 19	craa	craa	NOUN	_	_	13	conj	_	ag croith
@@ -1378,7 +1378,7 @@
 13	hayrn	tayrn	NOUN	_	_	10	xcomp	_	
 14	ad	ad	PRON	_	Number=Plur|Person=3	13	obj	_	
 15	ass	ass	ADP	_	_	17	case	_	as
-16	yn	yn	DET	_	_	17	det	_	an
+16	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 17	aile	aile	NOUN	_	_	13	obl	_	tine
 18	;	;	PUNCT	_	_	19	punct	_	;
 19	coyrt	coyrt	NOUN	_	_	4	xcomp	_	cuir
@@ -1386,11 +1386,11 @@
 21	eer	eer	ADV	_	_	24	advmod	_	fiú
 22-23	da'n	_	_	_	_	_	_	_	
 22	da	da	ADP	_	_	24	case	_	don
-23	yn	yn	DET	_	_	24	det	_	
+23	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	
 24	gharmad	garmad	NOUN	_	_	19	obl	_	éide
 25	sollit	sollit	ADJ	_	_	24	amod	_	truaillithe
 26	liorish	liorish	ADP	_	_	28	case	_	ag
-27	yn	yn	DET	_	_	28	det	_	an
+27	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	an
 28	eill	feill	NOUN	_	_	25	obl	_	fheoil
 29	.	.	PUNCT	_	_	4	punct	_	.
 
@@ -1404,7 +1404,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	,
 5	foddee	foddee	ADV	_	_	1	advmod	_	b'fhéidir
 6	,	,	PUNCT	_	_	5	punct	_	,
-7	yn	yn	DET	_	_	8	det	_	an
+7	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	aght	aght	NOUN	_	_	1	nsubj	_	bealach
 9	so-chredjue	so-chredjue	ADJ	_	_	8	amod	_	inchreidte
 10	ta	bee	VERB	_	Mood=Ind|Tense=Pres	8	acl:relcl	_	atá
@@ -1422,7 +1422,7 @@
 21	veggan	beggan	NOUN	_	_	19	nmod	_	
 22	,	,	PUNCT	_	_	26	punct	_	,
 23	gyn	gyn	ADP	_	_	26	case	_	gan
-24	y	yn	DET	_	_	25	det	_	an
+24	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	an
 25	skeeal	skeeal	NOUN	_	_	26	nsubj	_	scéal
 26	çheet	çheet	NOUN	_	_	10	advcl	_	teacht chun bheith
 27	dy	dy	ADP	_	_	28	case	_	
@@ -1447,7 +1447,7 @@
 10	chloan	cloan	NOUN	_	_	6	conj	_	chlann
 11-12	ta'n	_	_	_	_	_	_	_	
 11	ta	bee	VERB	_	Mood=Ind|Tense=Pres	10	acl:relcl	_	atá an
-12	'n	yn	DET	_	_	13	det	_	
+12	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	
 13	Chiarn	chiarn	NOUN	_	_	11	nsubj	_	Tiarna
 14	er	er	ADP	_	_	15	case	_	tar éis tabhairt
 15	chur	cur	NOUN	_	_	11	xcomp	_	
@@ -1489,7 +1489,7 @@
 10	as	as	CCONJ	_	_	12	cc	_	agus
 11	dy	dy	PART	_	_	12	mark	_	go ndéanfadh
 12	jinnagh	jean	VERB	_	Mood=Cnd	5	conj	_	
-13	y	yn	DET	_	_	14	det	_	an
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	ghrian	grian	NOUN	_	_	12	nsubj	_	ghrian
 15	Valearagh	Balearagh	ADJ	_	_	14	amod	_	Bhailéaracha
 16	foays	foays	NOUN	_	_	12	obj	_	tairbhe
@@ -1507,7 +1507,7 @@
 27	laa	laa	NOUN	_	_	25	nmod	_	lae
 28	gys	gys	ADP	_	_	29	case	_	go
 29	sevreain	sevreain	NOUN	_	_	24	obl	_	scaoll
-30	y	yn	DET	_	_	31	det	_	an
+30	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	an
 31	valley	balley	NOUN	_	_	29	nmod	_	bhaile
 32	mooar	mooar	ADJ	_	_	31	amod	_	mhóir
 33	.	.	PUNCT	_	_	1	punct	_	.
@@ -1540,7 +1540,7 @@
 1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Sin
 2-3	va'n	_	_	_	_	_	_	_	
 2	va	bee	VERB	_	Mood=Ind|Tense=Past	1	csubj:cleft	_	bhí an
-3	'n	yn	DET	_	_	4	det	_	
+3	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	
 4	vea	bea	NOUN	_	_	2	nsubj	_	bheatha
 5-6	aym	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agam
@@ -1554,7 +1554,7 @@
 # text = Ren fer y faasaag gearaghtee mooar foddey booie.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
 2	fer	fer	NOUN	_	_	1	nsubj	_	fear
-3	y	yn	DET	_	_	4	det	_	an
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	faasaag	faasaag	NOUN	_	_	2	nmod	_	féasóg
 5	gearaghtee	gearaghtee	NOUN	_	_	1	obj	_	gáire
 6	mooar	mooar	ADJ	_	_	5	amod	_	mór
@@ -1593,7 +1593,7 @@
 6	dy	dy	PART	_	_	7	mark	_	go moch
 7	moghey	moghey	ADJ	_	_	5	advmod	_	
 8	er	er	ADP	_	_	10	case	_	toisc
-9	y	yn	DET	_	_	10	det	_	
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	fa	fa	NOUN	_	_	1	obl	_	
 11	dy	dy	PART	_	_	12	mark	_	go
 12	row	bee	VERB	_	Mood=Ind|Tense=Past	10	acl	_	raibh
@@ -1610,7 +1610,7 @@
 4	tannysagh	tannysagh	ADJ	_	_	3	amod	_	faoi thionóntacht
 5	cosnit	cosnit	ADJ	_	_	1	xcomp:pred	_	faighte
 6	ec	ec	ADP	_	_	8	case	_	ag
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	phartee	partee	NOUN	_	_	5	obl	_	pháirtí
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	va	bee	VERB	_	Mood=Ind|Tense=Past	1	conj	_	bhí
@@ -1618,7 +1618,7 @@
 12	ennagh	ennagh	ADJ	_	_	11	amod	_	éigin
 13	currit	currit	ADJ	_	_	10	xcomp:pred	_	tugtha
 14	ec	ec	ADP	_	_	16	case	_	ag
-15	y	yn	DET	_	_	16	det	_	an
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	an
 16	phartee	partee	NOUN	_	_	13	obl	_	pháirtí
 17	ayns	ayns	ADP	_	_	18	case	_	i
 18	Ard-whaiyl	ard-whaiyl	NOUN	_	_	13	obl	_	Parlaimint
@@ -1645,7 +1645,7 @@
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	tháinig
 3	David	David	PROPN	_	_	2	nsubj	_	David
-4	y	yn	DET	_	_	5	det	_	an
+4	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	ree	ree	NOUN	_	_	3	appos	_	rí
 6	,	,	PUNCT	_	_	8	punct	_	,
 7	as	as	CCONJ	_	_	8	cc	_	agus
@@ -1653,7 +1653,7 @@
 9	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	sé
 10	kiongoyrt	kiongoyrt	ADP	_	_	13	case	_	os comhair
 11	rish	rish	ADP	_	_	10	fixed	_	
-12	y	yn	DET	_	_	13	det	_	an
+12	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	an
 13	Chiarn	chiarn	NOUN	_	_	8	obl	_	Tiarna
 14	,	,	PUNCT	_	_	16	punct	_	,
 15	as	as	CCONJ	_	_	16	cc	_	agus
@@ -1690,7 +1690,7 @@
 # text = Ta'n reiltys ain ny smoo boirrit er aghtyn as cliaghtaghyn reiltys yn R.U. dy chur scansh da nyn ashoon ain-hene er-lhiam.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	reiltys	reiltys	NOUN	_	_	1	nsubj	_	rialtas
 4-5	ain	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	againn
@@ -1703,7 +1703,7 @@
 11	as	as	CCONJ	_	_	12	cc	_	agus
 12	cliaghtaghyn	cliaghtey	NOUN	_	_	10	conj	_	cleachtaí
 13	reiltys	reiltys	NOUN	_	_	10	nmod	_	rialtas
-14	yn	yn	DET	_	_	15	det	_	an
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	an
 15	R.U.	R.U.	PROPN	_	_	13	nmod	_	R
 16	dy	dy	ADP	_	_	20	case	_	le cur
 17	chur	cur	NOUN	_	_	1	xcomp	_	
@@ -1725,7 +1725,7 @@
 # text = Ta bun y vlaa, marish ny braghtyn, yn-ee, agh ta dhossan dy vlaagyn neuappee ayns mean y vuinney nagh vel yn-ee ayns shenn vlaaghyn.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
 2	bun	bun	NOUN	_	_	1	nsubj	_	bun
-3	y	yn	DET	_	_	4	det	_	an
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	vlaa	blaa	NOUN	_	_	2	nmod	_	bhlátha
 5	,	,	PUNCT	_	_	8	punct	_	,
 6	marish	marish	ADP	_	_	8	case	_	leis
@@ -1742,7 +1742,7 @@
 17	neuappee	neuappee	ADJ	_	_	16	amod	_	neamhaibí
 18	ayns	ayns	ADP	_	_	19	case	_	i
 19	mean	mean	NOUN	_	_	13	xcomp:pred	_	lár
-20	y	yn	DET	_	_	21	det	_	an
+20	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	an
 21	vuinney	buinney	NOUN	_	_	19	nmod	_	bhachlóg
 22	nagh	nagh	PART	_	_	23	mark	_	nach bhfuil
 23	vel	bee	VERB	_	Mood=Ind|Tense=Pres	16	acl:relcl	_	
@@ -1760,7 +1760,7 @@
 3	grait	grait	ADJ	_	_	2	xcomp:pred	_	ráite
 4	dy	dy	PART	_	_	5	mark	_	go bhfuil
 5	vel	bee	VERB	_	Mood=Ind|Tense=Pres	3	ccomp	_	
-6	y	yn	DET	_	_	7	det	_	an
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	an
 7	Paggad	paggad	NOUN	_	_	5	nsubj	_	Paicéad
 8	Bree	bree	NOUN	_	_	7	nmod	_	Fuinnimh
 9	cur	cur	NOUN	_	_	5	xcomp	_	cur
@@ -1774,7 +1774,7 @@
 17	punt	punt	NOUN	_	_	9	obj	_	punt
 18-19	sy	_	_	_	_	_	_	_	
 18	ayns	ayns	ADP	_	_	20	case	_	sa
-19	yn	yn	DET	_	_	20	det	_	
+19	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	
 20	vlein	blein	NOUN	_	_	9	obl	_	bhliain
 21	da	da	ADP	_	_	22	case	_	do
 22	tarmaynys	tarmaynys	NOUN	_	_	9	obl	_	geilleagar
@@ -1788,7 +1788,7 @@
 2	da	da	ADP	_	_	1	fixed	_	dó
 3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	4	obl	_	
 4	roshtyn	roshtyn	NOUN	_	_	7	advcl	_	sroicheadh
-5	yn	yn	DET	_	_	6	det	_	an
+5	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	an
 6	thie	thie	NOUN	_	_	4	obj	_	tí
 7	honnick	faik	VERB	_	Mood=Ind|Tense=Past	0	root	_	chonaic
 8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	sé
@@ -1961,7 +1961,7 @@
 2	shoh	shoh	PRON	_	PronType=Dem	0	root	_	seo
 3	va	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí
 4	oyr	oyr	NOUN	_	_	3	nsubj	_	cúis
-5	y	yn	DET	_	_	6	det	_	an
+5	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	an
 6	cheesh	keesh	NOUN	_	_	4	nmod	_	cháin
 7	hrog	trog	VERB	_	Mood=Ind|Tense=Past	6	acl:relcl	_	thóg
 8	ree	ree	NOUN	_	_	7	nsubj	_	rí
@@ -1973,7 +1973,7 @@
 13	troggal	troggal	NOUN	_	_	2	parataxis	_	tógáil
 14-15	thie'n	_	_	_	_	_	_	_	
 14	thie	thie	NOUN	_	_	13	nmod	_	teach an
-15	'n	yn	DET	_	_	16	det	_	
+15	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	
 16	Chiarn	chiarn	NOUN	_	_	14	nmod	_	Tiarna
 17	,	,	PUNCT	_	_	20	punct	_	,
 18	as	as	CCONJ	_	_	20	cc	_	agus
@@ -2009,7 +2009,7 @@
 5	y	y	ADP	_	_	6	mark	_	a
 6	leeideil	leeideil	NOUN	_	_	1	xcomp	_	threorú
 7	trooid	trooid	ADP	_	_	9	case	_	tríd
-8	yn	yn	DET	_	_	9	det	_	an
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	aasagh	faasagh	NOUN	_	_	6	obl	_	fhásach
 10	:	:	PUNCT	_	_	12	punct	_	:
 11	son	son	SCONJ	_	_	12	mark	_	óir tá
@@ -2036,12 +2036,12 @@
 8	,	,	PUNCT	_	_	19	punct	_	,
 9	agh	agh	CCONJ	_	_	19	cc	_	ach
 10	er	er	ADP	_	_	13	case	_	ar
-11	y	yn	DET	_	_	13	det	_	an
+11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	an
 12	chiaghtoo	shiaghtoo	NUM	_	_	13	amod	_	seachtú
 13	laa	laa	NOUN	_	_	19	obl:tmod	_	lá
 14-15	ta'n	_	_	_	_	_	_	_	
 14	ta	bee	VERB	_	Mood=Ind|Tense=Pres	13	csubj:cleft	_	atá an
-15	'n	yn	DET	_	_	16	det	_	
+15	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	
 16	doonaght	doonaght	NOUN	_	_	14	nsubj	_	tsabóid
 17	,	,	PUNCT	_	_	13	punct	_	,
 18	cha	cha	PART	_	_	19	mark	_	ní bheidh
@@ -2111,14 +2111,14 @@
 6	beggey	beg	ADJ	_	_	5	amod	_	beaga
 7-8	syn	_	_	_	_	_	_	_	
 7	ayns	ayns	ADP	_	_	9	case	_	san
-8	yn	yn	DET	_	_	9	det	_	
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	
 9	Ellan	ellan	NOUN	_	_	3	nmod	_	Oileán
 10	ren	jean	VERB	_	Mood=Ind|Tense=Past	1	acl:relcl	_	a rinne
 11	goaill	goaill	NOUN	_	_	10	xcomp	_	gabháil
 12	ayrn	ayrn	NOUN	_	_	11	obj	_	páirt
 13-14	sy	_	_	_	_	_	_	_	
 13	ayns	ayns	ADP	_	_	15	case	_	sa
-14	yn	yn	DET	_	_	15	det	_	
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	
 15	cho-hirrey	co-hirrey	NOUN	_	_	11	obl	_	chomórtas
 16	Ellanyn	ellan	NOUN	_	_	11	appos	_	Oileáin
 17	my	my	ADP	_	_	18	case	_	faoi Bhláth
@@ -2149,7 +2149,7 @@
 6	leah	leah	ADJ	_	_	5	amod	_	luath
 7	berraghtyn	berraghtyn	NOUN	_	_	4	xcomp	_	breith
 8	er	er	ADP	_	_	10	case	_	ar
-9	yn	yn	DET	_	_	10	det	_	an
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	ynrick	ynrick	NOUN	_	_	7	obl	_	ionraic
 11	;	;	PUNCT	_	_	4	punct	_	;
 12	foast	foast	ADV	_	_	13	advmod	_	fós
@@ -2170,7 +2170,7 @@
 6	er	er	ADP	_	_	7	case	_	ar
 7	Jee	Jee	PROPN	_	_	5	obl	_	Di
 8	ayns	ayns	ADP	_	_	10	case	_	sa
-9	y	yn	DET	_	_	10	det	_	
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	Phadjer	padjer	NOUN	_	_	5	obl	_	Phaidir
 11	shoh	shoh	DET	_	_	10	det	_	seo
 12	?	?	PUNCT	_	_	1	punct	_	?
@@ -2197,7 +2197,7 @@
 4	elley	elley	ADJ	_	_	2	amod	_	eile
 5	cheet	cheet	NOUN	_	_	1	xcomp	_	ag teacht
 6	liorish	liorish	ADP	_	_	8	case	_	ag
-7	y	yn	DET	_	_	8	det	_	na
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	na
 8	Credjue	credjue	NOUN	_	_	5	obl	_	Creidimh
 9	shoh	shoh	DET	_	_	8	det	_	seo
 10	?	?	PUNCT	_	_	1	punct	_	?
@@ -2222,7 +2222,7 @@
 15	h-Oarpey	Oarpey	PROPN	_	_	12	nmod	_	hEorpa
 16-17	veih'n	_	_	_	_	_	_	_	
 16	veih	veih	ADP	_	_	18	case	_	ón
-17	yn	yn	DET	_	_	18	det	_	
+17	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	
 18	vlein	blein	NOUN	_	_	8	obl	_	bhliain
 19	2003	2003	NUM	_	_	18	appos	_	2003
 20	as	as	CCONJ	_	_	22	cc	_	agus
@@ -2231,7 +2231,7 @@
 23	X	X	X	_	_	22	flat	_	X
 24-25	veih'n	_	_	_	_	_	_	_	
 24	veih	veih	ADP	_	_	26	case	_	ón
-25	yn	yn	DET	_	_	26	det	_	
+25	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	
 26	vlein	blein	NOUN	_	_	8	obl	_	bhliain
 27	2007	2007	NUM	_	_	26	appos	_	2007
 28	.	.	PUNCT	_	_	5	punct	_	.
@@ -2248,12 +2248,12 @@
 6	ass	ass	ADP	_	_	7	case	_	as amharc
 7	shilley	shilley	NOUN	_	_	2	obl	_	
 8	haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	ar tháinig
-9	yn	yn	DET	_	_	10	det	_	an
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	troailtagh	troailtagh	NOUN	_	_	8	nsubj	_	paisinéir
 11	elley	elley	ADJ	_	_	10	amod	_	eile
 12	sheese	sheese	ADV	_	_	8	advmod	_	síos
 13	ass	ass	ADP	_	_	15	case	_	as
-14	y	yn	DET	_	_	15	det	_	an
+14	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	an
 15	villey	billey	NOUN	_	_	8	obl	_	chrann
 16	,	,	PUNCT	_	_	18	punct	_	,
 17	as	as	CCONJ	_	_	18	cc	_	agus
@@ -2269,7 +2269,7 @@
 27	Cre	cre	PRON	_	_	18	parataxis	_	Cad a
 28-29	va'n	_	_	_	_	_	_	_	
 28	va	bee	VERB	_	Mood=Ind|Tense=Past	27	acl:relcl	_	bhí an
-29	'n	yn	DET	_	_	30	det	_	
+29	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	
 30	vuc-awin	muc-awin	NOUN	_	_	28	nsubj	_	béar
 31	sonjeragh	sonjeragh	NOUN	_	_	28	xcomp	_	ag cogarnaíl
 32	ayns	ayns	ADP	_	_	34	case	_	i
@@ -2319,7 +2319,7 @@
 14	—	—	PUNCT	_	_	13	punct	_	—
 15	dy	dy	PART	_	_	16	mark	_	go
 16	beigns	bee	VERB	_	Mood=Cnd|Number=Sing|Person=1	3	advcl	_	mbeinnse
-17	y	yn	DET	_	_	18	det	_	an
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	an
 18	mooadys	mooadys	NOUN	_	_	16	xcomp:pred	_	méid
 19	kiart	kiart	ADJ	_	_	18	amod	_	ceart
 20	shen	shen	PRON	_	PronType=Dem	22	obj	_	sin
@@ -2364,10 +2364,10 @@
 10	turrys	turrys	NOUN	_	_	8	obl	_	turas
 11	liauyr	liauyr	ADJ	_	_	10	amod	_	fada
 12	ayns	ayns	ADP	_	_	14	case	_	sa Fhrainc
-13	y	yn	DET	_	_	14	det	_	
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	
 14	Rank	Frank	PROPN	_	_	10	nmod	_	
 15	er	er	ADP	_	_	17	case	_	ar
-16	y	yn	DET	_	_	17	det	_	an
+16	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 17	roar	roar	NOUN	_	_	8	obl	_	rothar
 18-19	ain	_	_	_	_	_	_	_	
 18	ec	ec	ADP	_	_	19	case	_	againn
@@ -2419,7 +2419,7 @@
 7	drogh-reirey	drogh-reirey	NOUN	_	_	6	nsubj	_	drochriarachán
 8	ec	ec	ADP	_	_	9	case	_	ag
 9	ynnyd	ynnyd	NOUN	_	_	7	nmod	_	ionad
-10	y	yn	DET	_	_	11	det	_	an
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	yig	gig	NOUN	_	_	9	nmod	_	ghig
 12	er	er	ADP	_	_	13	case	_	ar
 13	chostal	costal	NOUN	_	_	6	xcomp	_	chosaint
@@ -2430,7 +2430,7 @@
 18	-	-	PUNCT	_	_	20	punct	_	-
 19	cha	cha	PART	_	_	20	mark	_	níl
 20	nel	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	
-21	y	yn	DET	_	_	22	det	_	an
+21	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	an
 22	Rheynn	rheynn	NOUN	_	_	20	nsubj	_	Roinn
 23	Lhiasaghey	lhiasaghey	NOUN	_	_	22	nmod	_	Leasú
 24	Tarmaynys	tarmaynys	NOUN	_	_	23	nmod	_	Eacnamaíochta
@@ -2441,7 +2441,7 @@
 29	as	as	CCONJ	_	_	31	cc	_	agus
 30	cha	cha	PART	_	_	31	mark	_	níl
 31	nel	bee	VERB	_	Mood=Ind|Tense=Pres	20	conj	_	
-32	y	yn	DET	_	_	33	det	_	an
+32	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	an
 33	Rheynn	rheynn	NOUN	_	_	31	nsubj	_	Roinn
 34	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	36	obj	_	é
 35	y	y	ADP	_	_	36	mark	_	an
@@ -2487,7 +2487,7 @@
 17	leah	leah	ADJ	_	_	14	advmod	_	
 18	greme	greme	NOUN	_	_	14	obj	_	greim
 19	er	er	ADP	_	_	21	case	_	ar
-20	yn	yn	DET	_	_	21	det	_	an
+20	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	an
 21	ockle	fockle	NOUN	_	_	14	obl	_	fhocal
 22	;	;	PUNCT	_	_	24	punct	_	;
 23	as	as	CCONJ	_	_	24	cc	_	agus
@@ -2620,7 +2620,7 @@
 35	"	"	PUNCT	_	_	25	punct	_	"
 36-37	da'n	_	_	_	_	_	_	_	
 36	da	da	ADP	_	_	38	case	_	don
-37	yn	yn	DET	_	_	38	det	_	
+37	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	
 38	arryssagh	arryssagh	NOUN	_	_	25	obl	_	aithríoch
 39	firrinagh	firrinagh	ADJ	_	_	38	amod	_	fírinneach
 40	.	.	PUNCT	_	_	1	punct	_	.
@@ -2669,7 +2669,7 @@
 # text_ga = Cá ndeachaigh do ghrá uait, a phlúr na mban
 1-2	Cre'n	_	_	_	_	_	_	_	
 1	Cre	cre	PRON	_	_	0	root	_	Cá bhfuil
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	raad	raad	NOUN	_	_	1	nsubj	_	
 4	ta	bee	VERB	_	Mood=Ind|Tense=Pres	3	acl:relcl	_	
 5	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	6	nmod:poss	_	do
@@ -2727,7 +2727,7 @@
 12	Thie-Lheihys	thie-lheihys	NOUN	_	_	8	obl	_	Ospidéal
 13	Noble	Noble	PROPN	_	_	12	flat	_	Noble
 14	er	er	ADP	_	_	17	case	_	ar
-15	yn	yn	DET	_	_	17	det	_	an
+15	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 16	çheyoo	sheyoo	NUM	_	_	17	amod	_	séú
 17	laa	laa	NOUN	_	_	8	obl	_	lá
 18	jeig	jeig	NOUN	_	_	16	compound	_	déag
@@ -2746,7 +2746,7 @@
 30	liooar	liooar	ADJ	_	_	28	amod	_	
 31-32	syn	_	_	_	_	_	_	_	
 31	ayns	ayns	ADP	_	_	33	case	_	san
-32	yn	yn	DET	_	_	33	det	_	
+32	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	
 33	'uill	fuill	NOUN	_	_	28	nmod	_	fhuil
 34-35	echey	_	_	_	_	_	_	_	
 34	ec	ec	ADP	_	_	35	case	_	aige
@@ -2770,7 +2770,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	,
 9-10	Ta'n	_	_	_	_	_	_	_	
 9	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	7	parataxis	_	Tá an
-10	'n	yn	DET	_	_	11	det	_	
+10	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	
 11	pobble	pobble	NOUN	_	_	9	nsubj	_	pobal
 12	coyrt	coyrt	NOUN	_	_	9	xcomp	_	cur
 13-14	lhieu	_	_	_	_	_	_	_	
@@ -2783,12 +2783,12 @@
 19	ymmyrchagh	ymmyrchagh	ADJ	_	_	18	xcomp:pred	_	riachtanach
 20	son	son	ADP	_	_	21	case	_	ar son
 21	shirveish	shirveish	NOUN	_	_	19	obl	_	seirbhís
-22	yn	yn	DET	_	_	23	det	_	an
+22	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	an
 23	obbyr	obbyr	NOUN	_	_	21	nmod	_	obair
 24	,	,	PUNCT	_	_	25	punct	_	,
 25-26	ta'n	_	_	_	_	_	_	_	
 25	ta	bee	VERB	_	Mood=Ind|Tense=Pres	23	acl:relcl	_	tá an
-26	'n	yn	DET	_	_	27	det	_	
+26	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	
 27	Chiarn	chiarn	NOUN	_	_	25	nsubj	_	Tiarna
 28	er	er	ADP	_	_	29	case	_	tar éis ordú
 29	harey	sarey	NOUN	_	_	25	xcomp	_	
@@ -2814,7 +2814,7 @@
 # text = Ayns y Thalloo Vretnagh ta ny smoo na feed oltey cronnal jeh Cymdeithas yr Iaith Gymraeg (Sheshaght yn Ghlare Vretnagh, CIG) er cheau kiare oor as feed nyn drostey as ad gymmyrkey feanish noi'n reiltys Vretnagh ta cur lesh slattys noa stiagh mychione plannal thieyn nagh vel, cordail rish CIG, goaill stiagh kiarailyn dy liooar dy choadey yn Vretnish ayns buill raad t'ee goll er loayrt myr çhengey yn theay.
 # text_en = In Wales more than twenty prominent members of Cymdeithas yr Iaith Gymraeg (the Welsh Language Society, CIG) have spent twenty-four hours on hunger strike in protest against the Welsh governments’ new planning bill, which CIG claim does not include sufficient provisions to protect Welsh-speaking communities.
 1	Ayns	ayns	ADP	_	_	3	case	_	Sa
-2	y	yn	DET	_	_	3	det	_	
+2	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Thalloo	thalloo	PROPN	_	_	5	obl	_	Talamh
 4	Vretnagh	Bretnagh	ADJ	_	_	3	amod	_	Bhreatnach
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	tá
@@ -2831,7 +2831,7 @@
 16	Gymraeg	Gymraeg	PROPN	_	_	13	flat:foreign	_	Gymraeg
 17	(	(	PUNCT	_	_	18	punct	_	(
 18	Sheshaght	sheshaght	NOUN	_	_	13	appos	_	Cumann
-19	yn	yn	DET	_	_	20	det	_	an
+19	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	an
 20	Ghlare	glare	NOUN	_	_	18	nmod	_	Chaint
 21	Vretnagh	Bretnagh	ADJ	_	_	20	amod	_	Bhreatnach
 22	,	,	PUNCT	_	_	23	punct	_	,
@@ -2851,7 +2851,7 @@
 36	feanish	feanish	NOUN	_	_	35	obj	_	fianaise
 37-38	noi'n	_	_	_	_	_	_	_	
 37	noi	noi	ADP	_	_	39	case	_	in aghaidh an
-38	'n	yn	DET	_	_	39	det	_	
+38	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	
 39	reiltys	reiltys	NOUN	_	_	35	obl	_	rialtais
 40	Vretnagh	Bretnagh	ADJ	_	_	39	amod	_	Bhreatnacha
 41	ta	bee	VERB	_	Mood=Ind|Tense=Pres	39	acl:relcl	_	tá
@@ -2877,7 +2877,7 @@
 61	liooar	liooar	ADJ	_	_	59	amod	_	
 62	dy	dy	ADP	_	_	63	case	_	le cosaint
 63	choadey	coadey	NOUN	_	_	57	xcomp	_	
-64	yn	yn	DET	_	_	65	det	_	an
+64	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	65	det	_	an
 65	Vretnish	Bretnish	PROPN	_	_	63	obj	_	Bhreatnais
 66	ayns	ayns	ADP	_	_	67	case	_	in
 67	buill	boayl	NOUN	_	_	63	obl	_	áiteanna
@@ -2890,7 +2890,7 @@
 73	loayrt	loayrt	NOUN	_	_	71	xcomp	_	
 74	myr	myr	ADP	_	_	75	case	_	mar
 75	çhengey	çhengey	NOUN	_	_	73	obl	_	teanga
-76	yn	yn	DET	_	_	77	det	_	an
+76	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	77	det	_	an
 77	theay	theay	NOUN	_	_	75	nmod	_	pobal
 78	.	.	PUNCT	_	_	5	punct	_	.
 
@@ -2933,7 +2933,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	,
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	messyn	mess	NOUN	_	_	3	conj	_	torthaí
-11	y	yn	DET	_	_	12	det	_	an
+11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	thallooin	thalloo	NOUN	_	_	10	nmod	_	talaimh
 13	,	,	PUNCT	_	_	10	punct	_	,
 14	va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhí
@@ -2963,7 +2963,7 @@
 16	goaill	goaill	NOUN	_	_	13	conj	_	gabháil
 17	padjer	padjer	NOUN	_	_	16	obj	_	paidir
 18	rish	rish	ADP	_	_	20	case	_	leis
-19	y	yn	DET	_	_	20	det	_	an
+19	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	an
 20	Chiarn	chiarn	NOUN	_	_	16	obl	_	Tiarna
 21	dy	dy	ADP	_	_	22	case	_	a bheith
 22	ve	ve	NOUN	_	_	16	xcomp	_	
@@ -2983,7 +2983,7 @@
 36	ny	ny	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	na
 37	Moidyn	moidyn	NOUN	_	_	35	nmod	_	Maighdine
 38	er	er	ADP	_	_	40	case	_	ar
-39	y	yn	DET	_	_	40	det	_	an
+39	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	an
 40	Vanishter	manishter	NOUN	_	_	34	xcomp:pred	_	Mhainistir
 41	raad	raad	ADV	_	_	42	advmod	_	áit a raibh sé
 42-43	v'eh	_	_	_	_	_	_	_	
@@ -3041,7 +3041,7 @@
 14	liorish	liorish	ADP	_	_	15	case	_	aige
 15-16	cre'n	_	_	_	_	_	_	_	
 15	cre	cre	PRON	_	_	11	ccomp	_	cén
-16	'n	yn	DET	_	_	17	det	_	
+16	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	
 17	phooar	pooar	NOUN	_	_	15	nsubj	_	t-údarás
 18	ta	bee	VERB	_	Mood=Ind|Tense=Pres	17	acl	_	atá
 19	mee	mee	PRON	_	Number=Sing|Person=1	18	nsubj	_	mé
@@ -3083,16 +3083,16 @@
 # text_en = Wherefore the name of the place is called Gilgal unto this day.
 1-3	Shen-y-fa	_	_	_	_	_	_	_	
 1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Dá bhrí sin
-2	y	yn	DET	_	_	3	det	_	
+2	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	fa	fa	NOUN	_	_	1	nsubj	_	
 4-5	ta'n	_	_	_	_	_	_	_	
 4	ta	bee	VERB	_	Mood=Ind|Tense=Pres	3	acl	_	tá an
-5	'n	yn	DET	_	_	6	det	_	
+5	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	
 6	ynnyd	ynnyd	NOUN	_	_	4	nsubj	_	t-ionad
 7	enmyssit	enmyssit	ADJ	_	_	4	xcomp:pred	_	ainmnithe
 8	Gilgal	Gilgal	PROPN	_	_	7	xcomp	_	Gilgeál
 9	gys	gys	ADP	_	_	11	case	_	go dtí an
-10	y	yn	DET	_	_	11	det	_	
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	
 11	laa	laa	NOUN	_	_	4	obl	_	lá
 12-14	t'ayn	_	_	_	_	_	_	_	
 12	t'	bee	VERB	_	Mood=Ind|Tense=Pres	11	acl:relcl	_	atá ann
@@ -3118,7 +3118,7 @@
 # text_en = There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.
 1	Nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	Déanfaidh
 2	ushtaghyn	ushtey	NOUN	_	_	1	nsubj	_	uiscí
-3	y	yn	DET	_	_	4	det	_	na
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	na
 4	thooilley	thooilley	NOUN	_	_	2	nmod	_	tuile
 5-6	echey	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	aige
@@ -3132,7 +3132,7 @@
 13	ynnyd	ynnyd	NOUN	_	_	1	parataxis	_	ionad
 14	casherick	casherick	ADJ	_	_	13	amod	_	naofa
 15	cabbane-agglish	cabbane-agglish	NOUN	_	_	13	nmod	_	taibearnacal
-16	yn	yn	DET	_	_	17	det	_	an
+16	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 17	Jee	Jee	PROPN	_	_	15	nmod	_	Dé
 18	smoo	mooar	ADJ	_	_	15	amod	_	is airde
 19	ard	ard	ADJ	_	_	15	amod	_	
@@ -3149,7 +3149,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	,
 7	yiowmayd	fow	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	gheobhaimid
 8	ec	ec	ADP	_	_	10	case	_	ar a laghad
-9	y	yn	DET	_	_	10	det	_	
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	chooid	cooid	NOUN	_	_	7	obl	_	
 11	sloo	beg	ADJ	_	_	10	amod	_	
 12	reddyn	red	NOUN	_	_	7	obj	_	rudaí
@@ -3178,28 +3178,28 @@
 5	loayrt	loayrt	NOUN	_	_	3	xcomp	_	
 6	,	,	PUNCT	_	_	9	punct	_	,
 7	er	er	ADP	_	_	9	case	_	ar
-8	y	yn	DET	_	_	9	det	_	an
+8	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	chooid	cooid	NOUN	_	_	5	obl	_	chuid
 10	smoo	mooar	ADJ	_	_	9	amod	_	is mó
 11	,	,	PUNCT	_	_	9	punct	_	,
 12-13	'sy	_	_	_	_	_	_	_	
 12	ayns	ayns	ADP	_	_	14	case	_	sa
-13	yn	yn	DET	_	_	14	det	_	
+13	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	
 14	Velaroosh	Belaroosh	PROPN	_	_	5	obl	_	Bhealarúis
 15	,	,	PUNCT	_	_	18	punct	_	,
 16-17	'sy	_	_	_	_	_	_	_	
 16	ayns	ayns	ADP	_	_	18	case	_	sa
-17	yn	yn	DET	_	_	18	det	_	
+17	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	
 18	Roosh	Roosh	PROPN	_	_	14	conj	_	Rúis
 19	,	,	PUNCT	_	_	22	punct	_	,
 20-21	'syn	_	_	_	_	_	_	_	
 20	ayns	ayns	ADP	_	_	22	case	_	san
-21	yn	yn	DET	_	_	22	det	_	
+21	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	Ookraan	Ookraan	PROPN	_	_	14	conj	_	Úcráin
 23	as	as	CCONJ	_	_	26	cc	_	agus
 24-25	'sy	_	_	_	_	_	_	_	
 24	ayns	ayns	ADP	_	_	26	case	_	sa
-25	yn	yn	DET	_	_	26	det	_	
+25	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	
 26	Pholynn	Polynn	PROPN	_	_	14	conj	_	Pholainn
 27	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -3209,7 +3209,7 @@
 1	Haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	Tháinig
 2	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	sé
 3	stiagh	stiagh	ADV	_	_	1	advmod	_	isteach
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	kiarroo	kiarroo	NOUN	_	_	1	obl	_	ceathrú
 6	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -3260,7 +3260,7 @@
 7	cummal	cummal	NOUN	_	_	1	xcomp	_	ina gcónaí
 8-9	'sy	_	_	_	_	_	_	_	
 8	ayns	ayns	ADP	_	_	10	case	_	sa
-9	yn	yn	DET	_	_	10	det	_	
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	chaayr	caayr	NOUN	_	_	7	obl	_	chathair
 11	chammah	chammah	ADV	_	_	1	advmod	_	chomh maith
 12	,	,	PUNCT	_	_	13	punct	_	,
@@ -3281,7 +3281,7 @@
 2	mennick	mennick	ADJ	_	_	3	advmod	_	
 3-4	ta'n	_	_	_	_	_	_	_	
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	bíonn an
-4	'n	yn	DET	_	_	5	det	_	
+4	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	rio	rio	NOUN	_	_	3	nsubj	_	t-oighear
 6	trooid-hoilshagh	trooid-hoilshagh	ADJ	_	_	3	xcomp:pred	_	tréshoilseach
 7	er	er	ADP	_	_	8	case	_	ar
@@ -3321,7 +3321,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	Cha	cha	PART	_	_	11	mark	_	Níl
 11	vel	bee	VERB	_	Mood=Ind|Tense=Pres	6	parataxis	_	
-12	y	yn	DET	_	_	13	det	_	an
+12	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	an
 13	charvaant	sharvaant	NOUN	_	_	11	nsubj	_	seirbhíseach
 14	ny	ny	PART	_	_	15	mark	_	níos airde
 15	syrjey	ard	ADJ	_	_	11	xcomp:pred	_	
@@ -3367,7 +3367,7 @@
 15-16	s'mooar	_	_	_	_	_	_	_	
 15	s'	she	AUX	_	_	16	cop	_	is mór
 16	mooar	mooar	ADJ	_	_	21	advcl	_	
-17	y	yn	DET	_	_	18	det	_	a
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	a
 18	mian	mian	NOUN	_	_	16	nsubj	_	mian
 19	,	,	PUNCT	_	_	16	punct	_	,
 20	cha	cha	PART	_	_	21	mark	_	ní féidir liomsa
@@ -3400,10 +3400,10 @@
 9	beaghey	beaghey	NOUN	_	_	1	advcl	_	maireachtáil
 10-11	veih'n	_	_	_	_	_	_	_	
 10	veih	veih	ADP	_	_	12	case	_	ón
-11	yn	yn	DET	_	_	12	det	_	
+11	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	
 12	laue	laue	NOUN	_	_	9	obl	_	lámh
 13	gys	gys	ADP	_	_	15	case	_	go dtí an
-14	y	yn	DET	_	_	15	det	_	
+14	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	
 15	veeal	beeal	NOUN	_	_	9	obl	_	bhéil
 16	agh	agh	CCONJ	_	_	18	cc	_	ach
 17	by	she	AUX	_	_	18	cop	_	ba
@@ -3438,7 +3438,7 @@
 3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
 4	hene	hene	PRON	_	Reflex=Yes	3	nmod	_	féin
 5	ayns	ayns	ADP	_	_	7	case	_	sa
-6	y	yn	DET	_	_	7	det	_	
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	çhamyr-vrastyl	shamyr-vrastyl	NOUN	_	_	2	xcomp:pred	_	seomra ranga
 8	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -3454,7 +3454,7 @@
 6	rish	rish	ADP	_	_	7	case	_	libh
 7	shiu	shiu	PRON	_	Number=Plur|Person=2	5	obl	_	
 8	ayns	ayns	ADP	_	_	10	case	_	sa
-9	y	yn	DET	_	_	10	det	_	
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	gharey	garey	NOUN	_	_	5	obl	_	gharraí
 11	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -3466,7 +3466,7 @@
 2	va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhí
 3-4	ooilley'n	_	_	_	_	_	_	_	
 3	ooilley	ooilley	NOUN	_	_	2	nsubj	_	iomlán an
-4	'n	yn	DET	_	_	5	det	_	
+4	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	pobble	pobble	NOUN	_	_	3	nmod	_	pobal
 6	er	er	ADP	_	_	8	case	_	á dtionól
 7	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	8	nmod:poss	_	
@@ -3475,7 +3475,7 @@
 10	Jeremiah	Jeremiah	PROPN	_	_	8	obl	_	Irimia
 11	ayns	ayns	ADP	_	_	12	case	_	i dteach
 12	thie	thie	NOUN	_	_	8	obl	_	
-13	yn	yn	DET	_	_	14	det	_	an
+13	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	Chiarn	chiarn	NOUN	_	_	12	nmod	_	Tiarna
 15	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -3553,7 +3553,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	tra	tra	SCONJ	_	_	14	mark	_	nuair a
 14	hig	tar	VERB	_	Mood=Ind|Tense=Fut	19	advcl	_	thiocfaidh
-15	yn	yn	DET	_	_	16	det	_	an
+15	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	an
 16	earish	earish	NOUN	_	_	14	nsubj	_	aimsir
 17	,	,	PUNCT	_	_	14	punct	_	,
 18	dy	dy	PART	_	_	19	mark	_	gur féidir libh
@@ -3604,11 +3604,11 @@
 1	As	as	CCONJ	_	_	3	cc	_	Agus
 2	son	son	ADP	_	_	3	case	_	ar son
 3	lheead	lheead	NOUN	_	_	12	obl	_	leithead
-4	y	yn	DET	_	_	5	det	_	an
+4	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	chooyrt	cooyrt	NOUN	_	_	3	nmod	_	chúirt
 6	,	,	PUNCT	_	_	9	punct	_	,
 7	er	er	ADP	_	_	9	case	_	ar
-8	y	yn	DET	_	_	9	det	_	an
+8	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	cheu	cheu	NOUN	_	_	12	obl	_	taobh thiar
 10	heear	sheear	ADJ	_	_	9	amod	_	
 11	,	,	PUNCT	_	_	9	punct	_	,
@@ -3637,7 +3637,7 @@
 3	mee	mee	PRON	_	Number=Sing|Person=1	2	nsubj	_	mé
 4	loayrt	loayrt	NOUN	_	_	2	xcomp	_	ag labhairt
 5	mychione	mychione	ADP	_	_	7	case	_	faoin
-6	y	yn	DET	_	_	7	det	_	
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	theihll	seihll	NOUN	_	_	4	obl	_	domhain
 8	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -3645,7 +3645,7 @@
 # text = Liorish yn saase shoh, ver-ym ad fo coadey Yee dy chooilley voghrey as fastyr.
 # text_en = By this means, I shall put them under God’s protection every morning and evening.
 1	Liorish	liorish	ADP	_	_	3	case	_	Ag
-2	yn	yn	DET	_	_	3	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	saase	saase	NOUN	_	_	6	obl	_	áis
 4	shoh	shoh	DET	_	_	3	det	_	seo
 5	,	,	PUNCT	_	_	3	punct	_	,
@@ -3695,10 +3695,10 @@
 12	apartheid	apartheid	NOUN	_	_	9	nmod	_	apartheid
 13	"	"	PUNCT	_	_	12	punct	_	"
 14	as	as	CCONJ	_	_	16	cc	_	agus
-15	y	yn	DET	_	_	16	det	_	a
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	a
 16	lhied	lhied	NOUN	_	_	12	conj	_	leithéid
 17	as	as	CCONJ	_	_	19	cc	_	agus
-18	yn	yn	DET	_	_	19	det	_	an
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	drogh-ghellal	drogh-ghellal	NOUN	_	_	12	conj	_	drochíde
 20	ta	bee	VERB	_	Mood=Ind|Tense=Pres	19	acl:relcl	_	atá
 21	ny	ny	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	na daoine
@@ -3711,7 +3711,7 @@
 28	baney	bane	ADJ	_	_	27	amod	_	bána
 29-30	'syn	_	_	_	_	_	_	_	
 29	ayns	ayns	ADP	_	_	31	case	_	san
-30	yn	yn	DET	_	_	31	det	_	
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	
 31	Africkey	Africkey	PROPN	_	_	24	obl	_	Afraic
 32	.	.	PUNCT	_	_	5	punct	_	.
 
@@ -3732,9 +3732,9 @@
 11	hie	gow	VERB	_	Mood=Ind|Tense=Past	1	conj	_	chuaigh
 12	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	sé
 13	dys	dys	ADP	_	_	15	case	_	go dtí an
-14	yn	yn	DET	_	_	15	det	_	
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	
 15	ghiat	giat	NOUN	_	_	11	obl	_	geata
-16	y	yn	DET	_	_	17	det	_	an
+16	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 17	raad	raad	NOUN	_	_	11	obl	_	bealach
 18	elley	elley	ADJ	_	_	17	amod	_	eile
 19	mygeayrt	mygeayrt	ADP	_	_	21	case	_	timpeall
@@ -3768,7 +3768,7 @@
 21	nish	nish	ADV	_	_	20	advmod	_	anois
 22	)	)	PUNCT	_	_	17	punct	_	)
 23	er	er	ADP	_	_	25	case	_	de bhrí
-24	yn	yn	DET	_	_	25	det	_	
+24	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	
 25	oyr	oyr	NOUN	_	_	6	obl	_	
 26	dy	dy	PART	_	_	27	mark	_	go bhfuil
 27	vel	bee	VERB	_	Mood=Ind|Tense=Pres	25	acl	_	
@@ -3778,7 +3778,7 @@
 31	riojag	riojag	NOUN	_	_	39	obj	_	uachtar reoite
 32-33	veih'n	_	_	_	_	_	_	_	
 32	veih	veih	ADP	_	_	34	case	_	ón
-33	yn	yn	DET	_	_	34	det	_	
+33	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	
 34	Hostyn	Sostyn	PROPN	_	_	31	nmod	_	Shasana
 35	bunnys	bunnys	ADV	_	_	37	advmod	_	beagnach
 36	gyn	gyn	ADP	_	_	37	case	_	gan
@@ -3795,7 +3795,7 @@
 47	ayns	ayns	ADP	_	_	48	case	_	i
 48	Mannin	Mannin	PROPN	_	_	46	nmod	_	Manainn
 49	lowit	lowit	ADJ	_	_	45	xcomp:pred	_	ceadaithe
-50	yn	yn	DET	_	_	51	det	_	an
+50	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	51	det	_	an
 51	lheid	lheid	NOUN	_	_	54	obj	_	leithéid
 52	cheddin	cheddin	ADJ	_	_	51	amod	_	chéanna
 53	y	y	ADP	_	_	54	mark	_	a
@@ -3838,7 +3838,7 @@
 # text_ga = Sin é an dlí i dtaobh na n-ainmhithe go léir, na n-éan go léir, na ndúl beo go léir a shnámhann sna huiscí, agus na míol go léir a shnámhann ar talamh,
 # text_en = This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:
 1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo
-2	yn	yn	DET	_	_	3	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	leigh	leigh	NOUN	_	_	1	nsubj	_	dlí
 4	mychione	mychione	ADP	_	_	6	case	_	faoi
 5	ny	ny	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	na hainmhithe
@@ -3868,7 +3868,7 @@
 29	ta	bee	VERB	_	Mood=Ind|Tense=Pres	28	acl:relcl	_	tá
 30	snaue	snaue	NOUN	_	_	29	xcomp	_	snámh
 31	er	er	ADP	_	_	33	case	_	ar
-32	yn	yn	DET	_	_	33	det	_	an
+32	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	an
 33	ooir	ooir	NOUN	_	_	30	obl	_	talamh
 34	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -3938,7 +3938,7 @@
 # text_en = This is that Benaiah, who was mighty among the thirty, and above the thirty: and in his course was Ammizabad his son.
 1-2	Shoh'n	_	_	_	_	_	_	_	
 1	Shoh	shoh	PRON	_	PronType=Dem	0	root	_	Seo é an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Benaiah	Benaiah	PROPN	_	_	1	nsubj	_	Banáiá
 4	cheddin	cheddin	ADJ	_	_	3	amod	_	céanna
 5	va	bee	VERB	_	Mood=Ind|Tense=Past	3	acl:relcl	_	a bhí
@@ -3953,7 +3953,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	,
 15	as	as	CCONJ	_	_	18	cc	_	agus
 16	ayns	ayns	ADP	_	_	18	case	_	sa
-17	y	yn	DET	_	_	18	det	_	
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	
 18	choorse	coorse	NOUN	_	_	1	conj	_	chúrsa
 19-20	echeysyn	_	_	_	_	_	_	_	
 19	ec	ec	ADP	_	_	20	case	_	aigesean
@@ -3970,7 +3970,7 @@
 # text_en = Wherefore I will not be negligent to put you always in remembrance of these things, though ye know them, and be established in the present truth.
 1-3	Shen-y-fa	_	_	_	_	_	_	_	
 1	Shen	shen	PRON	_	PronType=Dem	0	root	_	Dá bhrí sin
-2	y	yn	DET	_	_	3	det	_	
+2	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	fa	fa	NOUN	_	_	1	nsubj	_	
 4	cha	cha	PART	_	_	5	mark	_	ní
 5	beem's	bee	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	3	acl	_	bheidh mé
@@ -4008,7 +4008,7 @@
 35	hickyraghey	shickyraghey	NOUN	_	_	32	xcomp	_	dhaingniú
 36-37	'syn	_	_	_	_	_	_	_	
 36	ayns	ayns	ADP	_	_	38	case	_	san
-37	yn	yn	DET	_	_	38	det	_	
+37	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	
 38	irriney	firriney	NOUN	_	_	35	obl	_	fhírinne
 39	ta	bee	VERB	_	Mood=Ind|Tense=Pres	38	acl:relcl	_	táimid
 40	shin	shin	PRON	_	Number=Plur|Person=1	39	nsubj	_	
@@ -4048,7 +4048,7 @@
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
 2	mee	mee	PRON	_	Number=Sing|Person=1	1	nsubj	_	mé
 3	geaishtagh	eaishtagh	NOUN	_	_	1	xcomp	_	ag éisteacht
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	çhiaghtin	shiaghtin	NOUN	_	_	3	obl:tmod	_	tseachtain
 6	shoh	shoh	DET	_	_	5	det	_	seo
 7	.	.	PUNCT	_	_	1	punct	_	.
@@ -4067,7 +4067,7 @@
 7	princeyn	prince	NOUN	_	_	2	obj	_	prionsaí
 8	Yudah	Judah	PROPN	_	_	7	nmod	_	Iúdá
 9	er	er	ADP	_	_	11	case	_	ar
-10	y	yn	DET	_	_	11	det	_	an
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	voalley	boalley	NOUN	_	_	2	obl	_	bhalla
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	as	as	CCONJ	_	_	14	cc	_	agus
@@ -4080,7 +4080,7 @@
 20	choyrt	coyrt	NOUN	_	_	17	xcomp	_	
 21	booise	booise	NOUN	_	_	20	obj	_	buíochais
 22	,	,	PUNCT	_	_	23	punct	_	,
-23	yn	yn	DET	_	_	25	det	_	an
+23	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	an
 24	derrey	derrey	NUM	_	_	25	nummod	_	dara
 25	ayrn	ayrn	NOUN	_	_	2	parataxis	_	cuid
 26-27	jeu	_	_	_	_	_	_	_	
@@ -4088,16 +4088,16 @@
 27	ad	ad	PRON	_	Number=Plur|Person=3	25	nmod	_	
 28	hie	gow	VERB	_	Mood=Ind|Tense=Past	25	acl:relcl	_	a chuaigh
 29	gys	gys	ADP	_	_	31	case	_	go dtí an
-30	y	yn	DET	_	_	31	det	_	
+30	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	
 31	laue	laue	NOUN	_	_	28	obl	_	lámh dheas
 32	yesh	jesh	ADJ	_	_	31	amod	_	
 33	er	er	ADP	_	_	35	case	_	ar
-34	y	yn	DET	_	_	35	det	_	an
+34	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	an
 35	voalley	boalley	NOUN	_	_	28	obl	_	bhalla
 36	,	,	PUNCT	_	_	38	punct	_	,
 37	lesh	lesh	ADP	_	_	38	case	_	le
 38	giat	giat	NOUN	_	_	28	obl	_	geata
-39	yn	yn	DET	_	_	40	det	_	an
+39	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	an
 40	eoylley	eoylley	NOUN	_	_	38	nmod	_	aoiligh
 41	:	:	PUNCT	_	_	2	punct	_	:
 
@@ -4108,7 +4108,7 @@
 # text_fr = Votre passion pour elle, dit la marquise, a commencé en ramassant son mouchoir; je veux que vous ramassiez ma jarretière.
 1	“	“	PUNCT	_	_	2	punct	_	“
 2	Ghow	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	Ghabh
-3	yn	yn	DET	_	_	4	det	_	an
+3	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	graih	graih	NOUN	_	_	2	nsubj	_	grá
 5-6	eu	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agaibh
@@ -4120,7 +4120,7 @@
 10	,	,	PUNCT	_	_	2	punct	_	,
 11	”	”	PUNCT	_	_	2	punct	_	”
 12	as	as	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	arsa
-13	y	yn	DET	_	_	14	det	_	an
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	Marquise	Marquise	PROPN	_	_	12	nsubj	_	Marquise
 15	,	,	PUNCT	_	_	18	punct	_	,
 16	“	“	PUNCT	_	_	18	punct	_	“
@@ -4160,7 +4160,7 @@
 2	lhieggan	lhieggan	NOUN	_	_	1	nsubj	_	leagan
 3-4	jeh'n	_	_	_	_	_	_	_	
 3	jeh	jeh	ADP	_	_	5	case	_	den
-4	yn	yn	DET	_	_	5	det	_	
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	Çhiart	kiart	NOUN	_	_	2	nmod	_	Chairt
 6	Vooar	mooar	ADJ	_	_	5	amod	_	Mhór
 7	(	(	PUNCT	_	_	8	punct	_	(
@@ -4173,7 +4173,7 @@
 14	magh	magh	ADV	_	_	13	advmod	_	amach
 15-16	'sy	_	_	_	_	_	_	_	
 15	ayns	ayns	ADP	_	_	17	case	_	sa bhliain
-16	yn	yn	DET	_	_	17	det	_	
+16	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	
 17	vlein	blein	NOUN	_	_	13	obl:tmod	_	
 18	1216	1216	NUM	_	_	17	appos	_	1216
 19	,	,	PUNCT	_	_	21	punct	_	,
@@ -4185,7 +4185,7 @@
 25	ynnyd	ynnyd	NOUN	_	_	22	obl	_	
 26	Lunnin	Lunnin	PROPN	_	_	25	nmod	_	Londain
 27	as	as	CCONJ	_	_	29	cc	_	agus
-28	yn	yn	DET	_	_	29	det	_	an
+28	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	an
 29	Agglish	agglish	NOUN	_	_	23	conj	_	Eaglais
 30	Yernagh	Yernagh	ADJ	_	_	29	amod	_	Éireannach
 31	ayns	ayns	ADP	_	_	32	case	_	in ionad
@@ -4200,7 +4200,7 @@
 40	bunnit	bunnit	ADJ	_	_	37	xcomp:pred	_	bunaithe
 41-42	'sy	_	_	_	_	_	_	_	
 41	ayns	ayns	ADP	_	_	43	case	_	sa bhliain
-42	yn	yn	DET	_	_	43	det	_	
+42	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	
 43	vlein	blein	NOUN	_	_	40	obl:tmod	_	
 44	1297	1297	NUM	_	_	43	appos	_	1297
 45	.	.	PUNCT	_	_	1	punct	_	.
@@ -4263,7 +4263,7 @@
 7	dy	dy	ADP	_	_	8	case	_	le dul
 8	gholl	goll	NOUN	_	_	2	xcomp	_	
 9	trooid	trooid	ADP	_	_	11	case	_	tríd
-10	yn	yn	DET	_	_	11	det	_	an
+10	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	aile	aile	NOUN	_	_	8	obl	_	tine
 12	,	,	PUNCT	_	_	14	punct	_	,
 13	ayns	ayns	ADP	_	_	14	case	_	i
@@ -4308,7 +4308,7 @@
 52	olk	olk	ADJ	_	_	51	xcomp:pred	_	olc
 53	ayns	ayns	ADP	_	_	54	case	_	i bhfianaise
 54	shilley	shilley	NOUN	_	_	52	obl	_	
-55	yn	yn	DET	_	_	56	det	_	an
+55	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	56	det	_	an
 56	Chiarn	chiarn	NOUN	_	_	54	nmod	_	Tiarna
 57	,	,	PUNCT	_	_	59	punct	_	,
 58	dy	dy	ADP	_	_	59	case	_	de
@@ -4385,7 +4385,7 @@
 5	elley	elley	ADJ	_	_	4	amod	_	eile
 6-7	jeh'n	_	_	_	_	_	_	_	
 6	jeh	jeh	ADP	_	_	8	case	_	den
-7	yn	yn	DET	_	_	8	det	_	
+7	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	
 8	aarkey	faarkey	NOUN	_	_	4	nmod	_	fharraige
 9	,	,	PUNCT	_	_	11	punct	_	,
 10	dy	dy	PART	_	_	11	mark	_	dá
@@ -4395,7 +4395,7 @@
 14	Quoi	quoi	PRON	_	_	15	nsubj	_	Cé
 15	hed	gow	VERB	_	Mood=Ind|Tense=Fut	11	parataxis	_	a rachaidh
 16	harrish	harrish	ADP	_	_	18	case	_	thar
-17	y	yn	DET	_	_	18	det	_	an
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	an
 18	cheayn	keayn	NOUN	_	_	15	obl	_	fharraige
 19	er	er	ADP	_	_	21	case	_	ar ár son
 20	nyn	nyn	DET	_	Number=Plur|Person=1|Poss=Yes	21	nmod:poss	_	
@@ -4446,7 +4446,7 @@
 19	Lancashire	Lancashire	PROPN	_	_	18	nmod	_	Lancashire
 20-21	'sy	_	_	_	_	_	_	_	
 20	ayns	ayns	ADP	_	_	22	case	_	ar dtús
-21	yn	yn	DET	_	_	22	det	_	
+21	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	toshiaght	toshiaght	NOUN	_	_	16	obl	_	
 23	ansherbee	ansherbee	ADV	_	_	16	advmod	_	ar aon chuma
 24	,	,	PUNCT	_	_	26	punct	_	,
@@ -4489,7 +4489,7 @@
 59	as	as	SCONJ	_	_	58	fixed	_	agus
 60-62	fud-y-cheilley	_	_	_	_	_	_	_	
 60	fud	fud	NOUN	_	_	57	nmod	_	trína chéile
-61	y	yn	DET	_	_	62	det	_	
+61	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	62	det	_	
 62	cheilley	cheilley	NOUN	_	_	60	nmod	_	
 63	,	,	PUNCT	_	_	64	punct	_	,
 64	jarrood	jarrood	NOUN	_	_	60	conj	_	dearmaid
@@ -4506,7 +4506,7 @@
 75	yishag	jishag	NOUN	_	_	72	conj	_	
 76-77	'sy	_	_	_	_	_	_	_	
 76	ayns	ayns	ADP	_	_	78	case	_	sa
-77	yn	yn	DET	_	_	78	det	_	
+77	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	78	det	_	
 78	Vaarle	Baarle	PROPN	_	_	68	obl	_	Bhéarla
 79-80	oc	_	_	_	_	_	_	_	
 79	ec	ec	ADP	_	_	80	case	_	acu
@@ -4519,7 +4519,7 @@
 85	agh	agh	CCONJ	_	_	86	cc	_	ach
 86	quoi	quoi	PRON	_	_	50	conj	_	cé
 87	mastey	mastey	ADP	_	_	89	case	_	i measc
-88	yn	yn	DET	_	_	89	det	_	na daoine óga
+88	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	89	det	_	na daoine óga
 89	sleih	sleih	NOUN	_	_	86	nmod	_	
 90	aegey	aeg	ADJ	_	_	89	amod	_	
 91	ta	bee	VERB	_	Mood=Ind|Tense=Pres	86	acl:relcl	_	atá
@@ -4563,14 +4563,14 @@
 10	e	e	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	11	nmod:poss	_	a
 11	caarjyn	carrey	NOUN	_	_	5	conj	_	cairde
 12	jannoo	jannoo	NOUN	_	_	4	xcomp	_	ag déanamh
-13	y	yn	DET	_	_	14	det	_	a
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	a
 14	lheid	lheid	NOUN	_	_	12	obj	_	leithéid
 15	rish	rish	ADP	_	_	16	case	_	le
 16	shiartanse	shiartanse	NOUN	_	_	12	obl	_	roinnt blianta
 17	dy	dy	ADP	_	_	18	case	_	
 18	vleeantyn	blein	NOUN	_	_	16	nmod	_	
 19	lesh	lesh	ADP	_	_	21	case	_	leis
-20	y	yn	DET	_	_	21	det	_	an
+20	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	an
 21	voggyl	moggyl	NOUN	_	_	12	obl	_	líonra
 22	Gaelagh	Gaelagh	ADJ	_	_	21	amod	_	Gaelach
 23	GAELIC-L	GAELIC-L	PROPN	_	_	21	appos	_	GAELIC-L
@@ -4583,7 +4583,7 @@
 3	çheu-sthie	çheu-sthie	ADP	_	_	6	case	_	taobh istigh
 4-5	jeh'n	_	_	_	_	_	_	_	
 4	jeh	jeh	ADP	_	_	3	fixed	_	den
-5	yn	yn	DET	_	_	6	det	_	
+5	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	
 6	waane	bwaane	NOUN	_	_	1	obl	_	bhothán
 7-9	mygeayrt-ymysh	_	_	_	_	_	_	_	
 7	mygeayrt	mygeayrt	ADP	_	_	10	advmod	_	ina thimpeall
@@ -4594,7 +4594,7 @@
 12	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	13	nmod:poss	_	ina suí
 13	soie	soie	NOUN	_	_	11	xcomp	_	
 14	er	er	ADP	_	_	16	case	_	ar
-15	y	yn	DET	_	_	16	det	_	an
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	an
 16	laare	laare	NOUN	_	_	13	obl	_	urlár
 17	jeeaghyn	jeeaghyn	NOUN	_	_	11	xcomp	_	ag féachaint
 18-19	er	_	_	_	_	_	_	_	
@@ -4682,7 +4682,7 @@
 3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	
 4	ennoil	ennoil	ADJ	_	_	2	xcomp:pred	_	álainn
 5	er	er	ADP	_	_	7	case	_	de bhrí
-6	y	yn	DET	_	_	7	det	_	
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	fa	fa	NOUN	_	_	2	obl	_	
 8	dy	dy	PART	_	_	9	mark	_	go bhfuil
 9	vel	bee	VERB	_	Mood=Ind|Tense=Pres	7	acl	_	
@@ -4741,7 +4741,7 @@
 16	shiu	shiu	PRON	_	Number=Plur|Person=2	15	nsubj	_	sibh
 17-18	da'n	_	_	_	_	_	_	_	
 17	da	da	ADP	_	_	19	case	_	don
-18	yn	yn	DET	_	_	19	det	_	
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	
 19	joarree	joarree	NOUN	_	_	15	obl	_	deoraí
 20-21	t'er	_	_	_	_	_	_	_	
 20	t'	bee	VERB	_	Mood=Ind|Tense=Pres	19	acl:relcl	_	atá ar
@@ -4776,7 +4776,7 @@
 47	casherick	casherick	ADJ	_	_	46	amod	_	naofa
 48-49	da'n	_	_	_	_	_	_	_	
 48	da	da	ADP	_	_	50	case	_	don
-49	yn	yn	DET	_	_	50	det	_	
+49	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	
 50	Chiarn	chiarn	NOUN	_	_	46	nmod	_	Tiarna
 51	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	52	nmod:poss	_	do
 52	Yee	Jee	PROPN	_	_	50	appos	_	Dhia
@@ -4787,7 +4787,7 @@
 1	Cre	cre	PRON	_	_	0	root	_	Céard
 2-3	ta'n	_	_	_	_	_	_	_	
 2	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	acl:relcl	_	atá an
-3	'n	yn	DET	_	_	4	det	_	
+3	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	
 4	Courey	courey	NOUN	_	_	2	nsubj	_	Courey
 5	er	er	ADP	_	_	6	case	_	air
 6	cheu	cheu	NOUN	_	_	4	nmod	_	taobh
@@ -4856,7 +4856,7 @@
 12	ceau	ceau	NOUN	_	_	10	xcomp	_	ag caitheamh
 13	shen	shen	PRON	_	PronType=Dem	12	obj	_	sin
 14	harrish	harrish	ADP	_	_	16	case	_	thar
-15	y	yn	DET	_	_	16	det	_	an
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	an
 16	clieau	slieau	NOUN	_	_	12	obl	_	sliabh
 17	.	.	PUNCT	_	_	5	punct	_	.
 
@@ -4917,7 +4917,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	Cre	cre	ADV	_	_	8	advmod	_	Cá
 8	vel	bee	VERB	_	Mood=Ind|Tense=Pres	2	parataxis	_	bhfuil
-9	y	yn	DET	_	_	10	det	_	an
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	credjue	credjue	NOUN	_	_	8	nsubj	_	creideamh
 11-12	eu	_	_	_	_	_	_	_	
 11	ec	ec	ADP	_	_	12	case	_	agaibh
@@ -4955,17 +4955,17 @@
 7	soilshaghyn	soilshey	NOUN	_	_	5	obl	_	soilse
 8	ve	ve	NOUN	_	_	5	xcomp	_	a bheith
 9	ayns	ayns	ADP	_	_	11	case	_	san
-10	yn	yn	DET	_	_	11	det	_	
+10	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	
 11	ayr	ayr	NOUN	_	_	8	xcomp:pred	_	athair
 12	fo	fo	ADP	_	_	13	case	_	faoi
 13	niau	niau	NOUN	_	_	11	nmod	_	neamh
 14	,	,	PUNCT	_	_	15	punct	_	,
 15	dy	dy	ADP	_	_	16	case	_	go
 16	scarrey	scarrey	NOUN	_	_	8	xcomp	_	scartha
-17	yn	yn	DET	_	_	18	det	_	an
+17	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	an
 18	laa	laa	NOUN	_	_	16	obj	_	lá
 19	veih	veih	ADP	_	_	21	case	_	ón
-20	yn	yn	DET	_	_	21	det	_	
+20	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	
 21	oie	oie	NOUN	_	_	16	obl	_	oíche
 22	:	:	PUNCT	_	_	23	punct	_	:
 23	as	as	CCONJ	_	_	24	cc	_	agus
@@ -4993,28 +4993,28 @@
 # text = Ta'n çheer çhemmit liorish Mooir Bering, y Vooir Chaspagh, y Vooir Valtagh, y Vooir Ghoo, as Mooir yn Arctagh.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	çheer	çheer	NOUN	_	_	1	nsubj	_	tír
 4	çhemmit	çhemmit	ADJ	_	_	1	xcomp:pred	_	teorainn ar theorainn le
 5	liorish	liorish	ADP	_	_	6	case	_	
 6	Mooir	mooir	NOUN	_	_	4	obl	_	Muir
 7	Bering	Bering	PROPN	_	_	6	nmod	_	Bheiring
 8	,	,	PUNCT	_	_	10	punct	_	,
-9	y	yn	DET	_	_	10	det	_	an
+9	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	Vooir	mooir	NOUN	_	_	6	conj	_	Mhuir
 11	Chaspagh	Caspagh	ADJ	_	_	10	amod	_	Chaisp
 12	,	,	PUNCT	_	_	14	punct	_	,
-13	y	yn	DET	_	_	14	det	_	an
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	Vooir	mooir	NOUN	_	_	6	conj	_	Mhuir Bhailt
 15	Valtagh	Baltagh	ADJ	_	_	14	amod	_	
 16	,	,	PUNCT	_	_	18	punct	_	,
-17	y	yn	DET	_	_	18	det	_	an
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	an
 18	Vooir	mooir	NOUN	_	_	6	conj	_	Mhuir
 19	Ghoo	doo	ADJ	_	_	18	amod	_	Dhubh
 20	,	,	PUNCT	_	_	21	punct	_	,
 21	as	as	CCONJ	_	_	22	cc	_	agus
 22	Mooir	mooir	NOUN	_	_	6	conj	_	Mara
-23	yn	yn	DET	_	_	24	det	_	an
+23	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	an
 24	Arctagh	Arctagh	PROPN	_	_	22	nmod	_	Artaigh
 25	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -5082,7 +5082,7 @@
 40	,	,	PUNCT	_	_	43	punct	_	,
 41-43	Er-yn-oyr	_	_	_	_	_	_	_	
 41	Er	er	ADP	_	_	43	case	_	De bhrí
-42	yn	yn	DET	_	_	43	det	_	
+42	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	
 43	oyr	oyr	NOUN	_	_	20	conj	_	
 44	dy	dy	PART	_	_	45	mark	_	go bhfuil
 45	vel	bee	VERB	_	Mood=Ind|Tense=Pres	43	acl	_	
@@ -5092,7 +5092,7 @@
 48	roish	roish	ADP	_	_	49	case	_	romham
 49	mee	mee	PRON	_	Number=Sing|Person=1	47	obl	_	
 50	gys	gys	ADP	_	_	52	case	_	go dtí an
-51	yn	yn	DET	_	_	52	det	_	
+51	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	52	det	_	
 52	Ayr	ayr	NOUN	_	_	47	obl	_	tAthair
 53	?	?	PUNCT	_	_	11	punct	_	?
 
@@ -5115,7 +5115,7 @@
 2	Cha	cha	PART	_	_	3	mark	_	Ní
 3	roshee	rosh	VERB	_	Mood=Ind|Tense=Fut	0	root	_	sroichfidh
 4	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	3	nsubj	_	tusa
-5	y	yn	DET	_	_	7	det	_	an
+5	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	an
 6	nah	nah	ADJ	_	_	7	amod	_	dara
 7	valley	balley	NOUN	_	_	3	obj	_	bhaile
 8	noght	noght	ADV	_	_	3	advmod	_	anocht
@@ -5170,7 +5170,7 @@
 30	ollagh	ollagh	NOUN	_	_	11	conj	_	
 31	,	,	PUNCT	_	_	34	punct	_	,
 32	as	as	CCONJ	_	_	34	cc	_	agus
-33	y	yn	DET	_	_	34	det	_	an
+33	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	an
 34	joarree	joarree	NOUN	_	_	11	conj	_	deoraí
 35-36	t'er	_	_	_	_	_	_	_	
 35	t'	bee	VERB	_	Mood=Ind|Tense=Pres	34	acl:relcl	_	atá ar
@@ -5190,17 +5190,17 @@
 4	,	,	PUNCT	_	_	8	punct	_	,
 5	lheid	lheid	ADP	_	_	8	case	_	leithéid
 6	as	as	SCONJ	_	_	5	fixed	_	agus
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	turtyl	turtyl	NOUN	_	_	2	nmod	_	turtair
 9	,	,	PUNCT	_	_	11	punct	_	,
-10	y	yn	DET	_	_	11	det	_	an
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	sharkagh	sharkagh	NOUN	_	_	8	conj	_	siorc
 12	,	,	PUNCT	_	_	14	punct	_	,
-13	y	yn	DET	_	_	14	det	_	an
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	meeyl	meeyl	NOUN	_	_	8	conj	_	míol mór
 15	mooar	mooar	ADJ	_	_	14	amod	_	
 16	as	as	CCONJ	_	_	18	cc	_	agus
-17	y	yn	DET	_	_	18	det	_	an
+17	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	an
 18	doraid	doraid	NOUN	_	_	8	conj	_	dorád
 19	,	,	PUNCT	_	_	8	punct	_	,
 20-21	ry-akin	_	_	_	_	_	_	_	
@@ -5209,7 +5209,7 @@
 22	magh	magh	ADV	_	_	21	advmod	_	amach
 23-24	veih'n	_	_	_	_	_	_	_	
 23	veih	veih	ADP	_	_	25	case	_	ón
-24	yn	yn	DET	_	_	25	det	_	
+24	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	
 25	choose	coose	NOUN	_	_	21	obl	_	chósta
 26	dy	dy	PART	_	_	27	mark	_	go minic
 27	mennick	mennick	ADJ	_	_	21	advmod	_	
@@ -5237,7 +5237,7 @@
 15	foast	foast	ADV	_	_	14	advmod	_	fós
 16	aggle	aggle	NOUN	_	_	14	nsubj	_	eagla
 17	er	er	ADP	_	_	19	case	_	ar
-18	y	yn	DET	_	_	19	det	_	na
+18	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	na
 19	dooinney	dooinney	NOUN	_	_	14	xcomp:pred	_	fir
 20	shoh	shoh	DET	_	_	19	det	_	seo
 21	dy	dy	PART	_	_	22	mark	_	go
@@ -5249,7 +5249,7 @@
 27	gy	gy	ADP	_	_	28	case	_	chun báis
 28	baase	baase	NOUN	_	_	26	obl	_	
 29	son	son	ADP	_	_	31	case	_	ar son na
-30	yn	yn	DET	_	_	31	det	_	
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	
 31	obbyr	obbyr	NOUN	_	_	26	obl	_	hoibre
 32	shoh	shoh	DET	_	_	31	det	_	seo
 33	;	;	PUNCT	_	_	34	punct	_	;
@@ -5286,13 +5286,13 @@
 1	She	she	AUX	_	_	2	cop	_	Is
 2	Giense	giense	NOUN	_	_	0	root	_	Céilí
 3	Geuree	geurey	NOUN	_	_	2	nmod	_	Geimhridh
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	scoill	scoill	NOUN	_	_	2	nmod	_	scoil
 6-8	v'ayn	_	_	_	_	_	_	_	
 6	v'	bee	VERB	_	Mood=Ind|Tense=Past	2	csubj:cleft	_	a bhí ann
 7	ayns	ayns	ADP	_	_	8	case	_	
 8	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	6	xcomp:pred	_
-9	yn	yn	DET	_	_	10	det	_	an
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	oie	oie	NOUN	_	_	6	obl	_	oíche
 11	shen	shen	DET	_	_	10	det	_	sin
 12	–	–	PUNCT	_	_	13	punct	_	–
@@ -5303,20 +5303,20 @@
 17	daunsyn	daunsyn	NOUN	_	_	15	nmod	_	damhsa
 18-19	sy	_	_	_	_	_	_	_	
 18	ayns	ayns	ADP	_	_	20	case	_	sa
-19	yn	yn	DET	_	_	20	det	_	
+19	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	
 20	çhamyr-lheihltys	shamyr-lheihltys	NOUN	_	_	17	nmod	_	çhamyr-lheihltys
 21	,	,	PUNCT	_	_	22	punct	_	,
 22	braghtanyn-pronnag	braghtan-pronnag	NOUN	_	_	17	conj	_	braghtanyn-pronnag
 23	mooie	mooie	ADV	_	_	25	case	_	amuigh
 24	er	er	ADP	_	_	23	fixed	_	ar
 25	close	close	NOUN	_	_	22	nmod	_	clós
-26	y	yn	DET	_	_	27	det	_	na
+26	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	na
 27	scoill	scoill	NOUN	_	_	25	nmod	_	scoile
 28	as	as	CCONJ	_	_	29	cc	_	agus
 29	casino	casino	NOUN	_	_	17	conj	_	casino
 30-31	sy	_	_	_	_	_	_	_	
 30	ayns	ayns	ADP	_	_	32	case	_	sa
-31	yn	yn	DET	_	_	32	det	_	
+31	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	
 32	çhamyr	shamyr	NOUN	_	_	29	nmod	_	seomra
 33	C.F.	C.F.	NOUN	_	_	32	nmod	_	C.F.
 34	,	,	PUNCT	_	_	36	punct	_	,
@@ -5331,7 +5331,7 @@
 42	hroggal	troggal	NOUN	_	_	40	xcomp	_	
 43	argid	argid	NOUN	_	_	42	obj	_	airgid
 44	son	son	ADP	_	_	46	case	_	don
-45	y	yn	DET	_	_	46	det	_	
+45	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	
 46	Halley	halley	NOUN	_	_	43	nmod	_	Halla
 47	Spoyrt	spoyrt	NOUN	_	_	46	nmod	_	Spóirt
 48	noa	noa	ADJ	_	_	46	amod	_	nua
@@ -5413,7 +5413,7 @@
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
 2	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	mo
 3	ven	ben	NOUN	_	_	1	nsubj	_	bhean
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	soo	soo	NOUN	_	_	1	obj	_	sú
 6	shen	shen	DET	_	_	5	det	_	sin
 7	jea	jea	ADV	_	_	1	advmod	_	inné
@@ -5423,7 +5423,7 @@
 # text = Ta'n Shalee Çhengaghyn Himalayagh gobbraghey urree.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Shalee	shalee	NOUN	_	_	1	nsubj	_	Tionscadal
 4	Çhengaghyn	çhengey	NOUN	_	_	3	nmod	_	Teangacha
 5	Himalayagh	Himalayagh	ADJ	_	_	4	amod	_	Himalayagh
@@ -5453,7 +5453,7 @@
 # text = Va'n çhionnal geamagh, “Ny jean!
 1-2	Va'n	_	_	_	_	_	_	_	
 1	Va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	çhionnal	çhionnal	NOUN	_	_	1	nsubj	_	tionól
 4	geamagh	eamagh	NOUN	_	_	1	xcomp	_	ag glaoch
 5	,	,	PUNCT	_	_	8	punct	_	,
@@ -5467,7 +5467,7 @@
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
 2	feme	feme	NOUN	_	_	1	nsubj	_	gá
 3	ec	ec	ADP	_	_	5	case	_	ag
-4	y	yn	DET	_	_	5	det	_	an
+4	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	thielheihys	thielheihys	NOUN	_	_	1	xcomp:pred	_	ospidéal
 6	er	er	ADP	_	_	7	case	_	ar
 7	shickyraghey	shickyraghey	NOUN	_	_	2	nmod	_	cinntiú
@@ -5488,7 +5488,7 @@
 22	elley	elley	ADJ	_	_	21	amod	_	eile
 23	,	,	PUNCT	_	_	26	punct	_	,
 24	er	er	ADP	_	_	26	case	_	ar a laghad
-25	y	yn	DET	_	_	26	det	_	
+25	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	
 26	chooid	cooid	NOUN	_	_	13	obl	_	
 27	sloo	beg	ADJ	_	_	26	amod	_	
 28	.	.	PUNCT	_	_	1	punct	_	.
@@ -5546,7 +5546,7 @@
 32	daa	daa	NUM	_	_	33	nummod	_	dhá chéad
 33	cheead	keead	NUM	_	_	31	nsubj	_	
 34	marish	marish	ADP	_	_	36	case	_	leis
-35	y	yn	DET	_	_	36	det	_	an
+35	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	an
 36	stoo	stoo	NOUN	_	_	31	obl	_	ábhar
 37	.	.	PUNCT	_	_	2	punct	_	.
 
@@ -5557,7 +5557,7 @@
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	bwoaill-yms	bwoaill	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	buailfidh mé
 3	cummaltee	cummaltagh	NOUN	_	_	2	obj	_	áitritheoirí
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	ard-valley	ard-valley	NOUN	_	_	3	nmod	_	chathair
 6	shoh	shoh	DET	_	_	5	det	_	seo
 7	,	,	PUNCT	_	_	9	punct	_	,
@@ -5578,7 +5578,7 @@
 # text = Ta'n claare SAVE ('Shickraghey tooilley feeuid as fondid') kiarail spaarail queig as feed millioon punt harrish ny queig bleeaney ta ry-heet.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	claare	claare	NOUN	_	_	1	nsubj	_	clár
 4	SAVE	SAVE	PROPN	_	_	3	appos	_	SAVE
 5	(	(	PUNCT	_	_	7	punct	_	(
@@ -5624,7 +5624,7 @@
 11	share	mie	ADJ	_	_	10	amod	_	
 12	dy	dy	ADP	_	_	13	case	_	le tarraingt
 13	hayrn	tayrn	NOUN	_	_	7	xcomp	_	
-14	yn	yn	DET	_	_	15	det	_	an
+14	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	an
 15	dooan	dooan	NOUN	_	_	13	obj	_	duán
 16	magh	magh	ADV	_	_	13	advmod	_	amach
 17	.	.	PUNCT	_	_	1	punct	_	.
@@ -5633,14 +5633,14 @@
 # text = Haink y Chreestiaght er y theihll 'sy chied eash myr shaghrynys credjue Ewagh.
 # text_en = Christianity began as a Jewish sect in the mid-1st century.
 1	Haink	tar	VERB	_	Mood=Ind|Tense=Past	0	root	_	Tháinig
-2	y	yn	DET	_	_	3	det	_	an
+2	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	Chreestiaght	Creestiaght	PROPN	_	_	1	nsubj	_	Chríostaíocht
 4	er	er	ADP	_	_	6	case	_	ar
-5	y	yn	DET	_	_	6	det	_	an
+5	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	an
 6	theihll	seihll	NOUN	_	_	1	obl	_	domhain
 7-8	'sy	_	_	_	_	_	_	_	
 7	ayns	ayns	ADP	_	_	9	case	_	sa
-8	yn	yn	DET	_	_	10	det	_	
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 9	chied	kied	NUM	_	_	10	nummod	_	chéad
 10	eash	eash	NOUN	_	_	1	obl:tmod	_	aois
 11	myr	myr	ADP	_	_	12	case	_	mar
@@ -5653,7 +5653,7 @@
 # text = Va preeu-valley yn reeriaght soit er Ellan Noo Perick, raad dy row Cashtal Phurt ny h-Inshey troggit er boayl mannishter Cheltiagh.
 1	Va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	Bhí
 2	preeu-valley	preeu-valley	NOUN	_	_	1	nsubj	_	príomhbhaile
-3	yn	yn	DET	_	_	4	det	_	an
+3	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	reeriaght	reeriaght	NOUN	_	_	2	nmod	_	ríocht
 5	soit	soit	ADJ	_	_	1	xcomp:pred	_	suite
 6	er	er	ADP	_	_	7	case	_	ar
@@ -5723,7 +5723,7 @@
 15	as	as	CCONJ	_	_	17	cc	_	agus
 16	dy	dy	PART	_	_	17	mark	_	go ndearna
 17	ren	jean	VERB	_	Mood=Ind|Tense=Past	6	conj	_	
-18	y	yn	DET	_	_	19	det	_	an
+18	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	Chiarn	chiarn	NOUN	_	_	17	nsubj	_	Tiarna
 20	dty	dty	DET	_	Number=Sing|Person=2|Poss=Yes	21	nmod:poss	_	do
 21	Yee	Jee	PROPN	_	_	19	appos	_	Dhia
@@ -5732,12 +5732,12 @@
 24	:	:	PUNCT	_	_	25	punct	_	:
 25-27	shen-y-fa	_	_	_	_	_	_	_	
 25	shen	shen	PRON	_	PronType=Dem	2	parataxis	_	dá bhrí sin
-26	y	yn	DET	_	_	27	det	_	
+26	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	
 27	fa	fa	NOUN	_	_	25	nsubj	_	
 28	ta	bee	VERB	_	Mood=Ind|Tense=Pres	27	acl	_	tá
 29	mee	mee	PRON	_	Number=Sing|Person=1	28	nsubj	_	mé
 30	coyrt	coyrt	NOUN	_	_	28	xcomp	_	cur
-31	yn	yn	DET	_	_	32	det	_	an
+31	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	an
 32	red	red	NOUN	_	_	30	obj	_	rud
 33	shoh	shoh	DET	_	_	32	det	_	seo
 34	er	er	ADP	_	_	36	case	_	ar do
@@ -5805,7 +5805,7 @@
 3	ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	
 4	shin	shin	PRON	_	Number=Plur|Person=1	3	nsubj	_	muid
 5	feme	feme	NOUN	_	_	3	xcomp	_	ag teastáil
-6	yn	yn	DET	_	_	7	det	_	an
+6	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	an
 7	aa-hickyrys	aa-hickyrys	NOUN	_	_	5	obj	_	aa-hickyrys
 8	shen	shen	DET	_	_	7	det	_	sin
 9	;	;	PUNCT	_	_	10	punct	_	;
@@ -5826,14 +5826,14 @@
 24	shen	shen	PRON	_	PronType=Dem	16	xcomp:pred	_	
 25-26	'sy	_	_	_	_	_	_	_	
 25	ayns	ayns	ADP	_	_	27	case	_	san
-26	yn	yn	DET	_	_	27	det	_	
+26	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	
 27	traa	traa	NOUN	_	_	16	obl	_	am
 28	ry	ry	ADP	_	_	29	case	_	le teacht
 29	heet	çheet	NOUN	_	_	27	nmod	_	
 30	,	,	PUNCT	_	_	33	punct	_	,
 31-33	er-yn-oyr	_	_	_	_	_	_	_	
 31	er	er	ADP	_	_	33	case	_	de bhrí
-32	yn	yn	DET	_	_	33	det	_	
+32	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	
 33	oyr	oyr	NOUN	_	_	10	obl	_	
 34	dy	dy	PART	_	_	35	mark	_	go bhfuil
 35	vel	bee	VERB	_	Mood=Ind|Tense=Pres	33	acl	_	
@@ -5864,7 +5864,7 @@
 11	garraghey	karraghey	NOUN	_	_	9	xcomp	_	ag aistriú
 12-13	veih'n	_	_	_	_	_	_	_	
 12	veih	veih	ADP	_	_	14	case	_	ón
-13	yn	yn	DET	_	_	14	det	_	
+13	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	
 14	Affrick	Affrick	PROPN	_	_	11	obl	_	Afraic
 15	Hwoaie	twoaie	ADJ	_	_	14	amod	_	Thuaidh
 16	dys	dys	ADP	_	_	18	case	_	go dtí
@@ -5873,7 +5873,7 @@
 19	Goaldagh	Goaldagh	ADJ	_	_	18	amod	_	Briotanach
 20-21	'sy	_	_	_	_	_	_	_	
 20	ayns	ayns	ADP	_	_	22	case	_	sa
-21	yn	yn	DET	_	_	22	det	_	
+21	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	touree	sourey	NOUN	_	_	11	obl:tmod	_	tsamhraidh
 23	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -5889,7 +5889,7 @@
 6	smooinaghtyn	smooinaghtyn	NOUN	_	_	4	xcomp	_	ag smaoineamh
 7-8	cre'n	_	_	_	_	_	_	_	
 7	cre	cre	PRON	_	_	6	ccomp	_	cén fáth
-8	'n	yn	DET	_	_	9	det	_	
+8	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	
 9	fa	fa	NOUN	_	_	7	nsubj	_	
 10	nagh	nagh	PART	_	_	11	mark	_	nach bhfuil
 11	vel	bee	VERB	_	Mood=Ind|Tense=Pres	9	acl	_	
@@ -5903,7 +5903,7 @@
 19	,	,	PUNCT	_	_	2	punct	_	,
 20	"	"	PUNCT	_	_	2	punct	_	"
 21	dooyrt	abbyr	VERB	_	Mood=Ind|Tense=Past	2	parataxis	_	a dúirt
-22	y	yn	DET	_	_	23	det	_	an
+22	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	an
 23	Vendiuic	bendiuic	NOUN	_	_	21	nsubj	_	Bhandiúc
 24	,	,	PUNCT	_	_	26	punct	_	,
 25	lurg	lurg	ADP	_	_	26	case	_	i ndiaidh
@@ -5911,7 +5911,7 @@
 27	:	:	PUNCT	_	_	29	punct	_	:
 28	"	"	PUNCT	_	_	29	punct	_	"
 29	she	she	AUX	_	_	31	cop	_	is é
-30	yn	yn	DET	_	_	31	det	_	an
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	an
 31	oyr	oyr	NOUN	_	_	21	parataxis	_	chúis
 32	er	er	ADP	_	_	33	case	_	air sin
 33	shen	shen	PRON	_	PronType=Dem	31	nmod	_	
@@ -5974,10 +5974,10 @@
 10	,	,	PUNCT	_	_	11	punct	_	,
 11-13	shen-y-fa	_	_	_	_	_	_	_	
 11	shen	shen	PRON	_	PronType=Dem	1	parataxis	_	dá bharr sin
-12	y	yn	DET	_	_	13	det	_	
+12	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	
 13	fa	fa	NOUN	_	_	11	nsubj	_	
 14	ver-ym	cur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	13	acl	_	tabharfaidh mé
-15	yn	yn	DET	_	_	16	det	_	an
+15	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	an
 16	cappan	cappan	NOUN	_	_	14	obj	_	cupán
 17-18	ecksh	_	_	_	_	_	_	_	
 17	ec	ec	ADP	_	_	18	case	_	aicise
@@ -5996,7 +5996,7 @@
 5-6	aym	_	_	_	_	_	_	_	
 5	ec	ec	ADP	_	_	6	case	_	agam
 6	mee	mee	PRON	_	Number=Sing|Person=1	2	xcomp:pred	_	
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	co-earrooder	co-earrooder	NOUN	_	_	12	obj	_	ríomhaire
 9-10	aym	_	_	_	_	_	_	_	
 9	ec	ec	ADP	_	_	10	case	_	agam
@@ -6013,14 +6013,14 @@
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
 2	maidjey	maidjey	NOUN	_	_	1	nsubj	_	maide
 3	,	,	PUNCT	_	_	5	punct	_	,
-4	y	yn	DET	_	_	5	det	_	na
+4	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	na
 5	cammag	cammag	NOUN	_	_	2	appos	_	camógaíochta
 6	,	,	PUNCT	_	_	5	punct	_	,
 7	ymmydit	ymmydit	ADJ	_	_	1	xcomp:pred	_	úsáidte
 8	dy	dy	ADP	_	_	9	case	_	go
 9-10	woalley'n	_	_	_	_	_	_	_	
 9	woalley	bwoalley	NOUN	_	_	7	xcomp	_	balla an
-10	'n	yn	DET	_	_	11	det	_	
+10	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	
 11	crig	crig	NOUN	_	_	9	obj	_	liathróid
 12	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6032,10 +6032,10 @@
 3	chooilley	chooilley	DET	_	_	2	fixed	_	
 4	pheiagh	peiagh	NOUN	_	_	1	nsubj	_	dhuine
 5	ayns	ayns	ADP	_	_	7	case	_	sa
-6	y	yn	DET	_	_	7	det	_	
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	valley	balley	NOUN	_	_	4	nmod	_	bhaile
 8	moylley	moylley	NOUN	_	_	1	xcomp	_	moladh
-9	yn	yn	DET	_	_	10	det	_	an
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	an
 10	obbyr	obbyr	NOUN	_	_	8	obj	_	obair
 11-12	t’ou	_	_	_	_	_	_	_	
 11	t'	bee	VERB	_	Mood=Ind|Tense=Pres	10	acl:relcl	_	tá tusa
@@ -6092,7 +6092,7 @@
 # text_en = East Douglas MHK Chris Robertshaw has already suggested the strategy had been advanced without consultation, and has continued his criticism in Tynwald.
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá
 2	Oltey	oltey	NOUN	_	_	1	nsubj	_	Baill
-3	yn	yn	DET	_	_	4	det	_	an
+3	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	Chiare	kiare	NUM	_	_	2	nmod	_	Cheathrair
 5	as	as	CCONJ	_	_	6	cc	_	agus
 6	Feed	feed	NUM	_	_	4	conj	_	Fiche
@@ -6111,13 +6111,13 @@
 18	hannah	hannah	ADV	_	_	16	advmod	_	cheana
 19	dy	dy	PART	_	_	20	mark	_	go bhfuil
 20	vel	bee	VERB	_	Mood=Ind|Tense=Pres	17	acl	_	
-21	yn	yn	DET	_	_	22	det	_	an
+21	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	an
 22	strateysh	strateysh	NOUN	_	_	20	nsubj	_	straitéis
 23	er	er	ADP	_	_	24	case	_	tar éis a bheith
 24	ve	ve	NOUN	_	_	20	xcomp	_	
 25	currit	currit	ADJ	_	_	24	xcomp:pred	_	curtha
 26	er	er	ADP	_	_	28	case	_	ar aghaidh
-27	y	yn	DET	_	_	28	det	_	
+27	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	
 28	hoshiaght	toshiaght	NOUN	_	_	25	obl	_	
 29	gyn	gyn	ADP	_	_	30	case	_	gan
 30	coyrle	coyrle	NOUN	_	_	25	obl	_	comhairle
@@ -6141,7 +6141,7 @@
 # text_en = She is past her prime.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	ard	ard	ADJ	_	_	4	amod	_	ard
 4	vlaa	blaa	NOUN	_	_	1	nsubj	_	bhláth
 5	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	ina diaidh
@@ -6179,7 +6179,7 @@
 13	son	son	ADP	_	_	14	case	_	ar son
 14	cur	cur	NOUN	_	_	10	xcomp	_	cur suas
 15	seose	seose	ADV	_	_	14	advmod	_	
-16	y	yn	DET	_	_	17	det	_	an
+16	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	an
 17	cheayrt	keayrt	NOUN	_	_	10	obl	_	uair
 18	shoh	shoh	DET	_	_	17	det	_	seo
 19	.	.	PUNCT	_	_	10	punct	_	.
@@ -6199,7 +6199,7 @@
 # text_en = He is in the habit of walking.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	cliaghtey	cliaghtey	NOUN	_	_	1	nsubj	_	cleachtadh
 4-5	echey	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	aige
@@ -6212,11 +6212,11 @@
 # text_ga = Thit an dá chruinniú ar aon lá amháin.
 # text_en = The two meetings clashed.
 1	Huitt	tuitt	VERB	_	Mood=Ind|Tense=Past	0	root	_	Thit
-2	yn	yn	DET	_	_	4	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 3	daa	daa	NUM	_	_	4	nummod	_	dá
 4	haglym	çhaglym	NOUN	_	_	1	nsubj	_	chruinniú
 5	ec	ec	ADP	_	_	8	case	_	san am céanna
-6	yn	yn	DET	_	_	8	det	_	
+6	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	
 7	un	un	NUM	_	_	8	nummod	_	
 8	traa	traa	NOUN	_	_	1	obl:tmod	_	
 9	.	.	PUNCT	_	_	1	punct	_	.
@@ -6248,7 +6248,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	,
 20-22	shen-y-fa	_	_	_	_	_	_	_	
 20	shen	shen	PRON	_	PronType=Dem	3	conj	_	dá bhrí sin
-21	y	yn	DET	_	_	22	det	_	
+21	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	fa	fa	NOUN	_	_	20	nsubj	_	
 23	haink	tar	VERB	_	Mood=Ind|Tense=Past	22	acl	_	tháinig
 24	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	23	nsubj	_	mise
@@ -6269,7 +6269,7 @@
 7	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	5	obl	_	
 8	dy	dy	ADP	_	_	9	case	_	le méadú
 9	vooadaghey	mooadaghey	NOUN	_	_	5	xcomp	_	
-10	yn	yn	DET	_	_	11	det	_	an
+10	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	magher-etlee	magher-etlee	NOUN	_	_	9	obj	_	aerfort
 12	ec	ec	ADP	_	_	13	case	_	ag
 13	Roonysvaie	Roonysvaie	PROPN	_	_	11	nmod	_	Roonysvaie
@@ -6283,7 +6283,7 @@
 2	aggyrtys	aggyrtys	NOUN	_	_	1	nsubj	_	éileamh
 3	mooar	mooar	ADJ	_	_	2	amod	_	mór
 4	er	er	ADP	_	_	6	case	_	ar
-5	y	yn	DET	_	_	6	det	_	an
+5	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	an
 6	chooid	cooid	NOUN	_	_	1	xcomp:pred	_	chuid
 7	shoh	shoh	DET	_	_	6	det	_	seo
 8	.	.	PUNCT	_	_	1	punct	_	.
@@ -6311,7 +6311,7 @@
 4	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	ina
 5	vraghtan	braghtan	NOUN	_	_	2	xcomp:pred	_	cheapaire
 6	er	er	ADP	_	_	8	case	_	ar a laghad
-7	y	yn	DET	_	_	8	det	_	
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	
 8	chooid	cooid	NOUN	_	_	2	obl	_	
 9	sloo	beg	ADJ	_	_	8	amod	_	
 10	,	,	PUNCT	_	_	12	punct	_	,
@@ -6364,7 +6364,7 @@
 # text = As shen yn aght ta ymmodee Manninee smooinaghtyn foastagh, ga dy vel Celtiaghys cheet dy ve ny stroshey ec y traa t'ayn.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	shen	shen	PRON	_	PronType=Dem	0	root	_	sin
-3	yn	yn	DET	_	_	4	det	_	an
+3	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	aght	aght	NOUN	_	_	2	nsubj	_	dóigh a bhfuil
 5	ta	bee	VERB	_	Mood=Ind|Tense=Pres	4	acl	_	
 6	ymmodee	ymmodee	NOUN	_	_	5	nsubj	_	mórán
@@ -6382,7 +6382,7 @@
 18	ny	ny	PART	_	_	19	mark	_	níos treise
 19	stroshey	troshagh	ADJ	_	_	17	xcomp:pred	_	
 20	ec	ec	ADP	_	_	22	case	_	ag an am
-21	y	yn	DET	_	_	22	det	_	
+21	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	
 22	traa	traa	NOUN	_	_	17	obl:tmod	_	
 23-25	t'ayn	_	_	_	_	_	_	_	
 23	t'	bee	VERB	_	Mood=Ind|Tense=Pres	22	acl:relcl	_	atá ann
@@ -6395,7 +6395,7 @@
 # text_ga = Tá an mhúinteoireacht sa dúchas agam.
 1-2	Ta’n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	ynsagh	ynsagh	NOUN	_	_	1	nsubj	_	t-oideachas
 4	ayns	ayns	ADP	_	_	6	case	_	i
 5	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	mo
@@ -6427,7 +6427,7 @@
 # text_en = She played the wrong note.
 1	Chloie	cloie	VERB	_	Mood=Ind|Tense=Past	0	root	_	D'imir
 2	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	sí
-3	y	yn	DET	_	_	4	det	_	an
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	notey	notey	NOUN	_	_	1	obj	_	nóta
 5	aggairagh	aggairagh	ADJ	_	_	4	amod	_	bréagach
 6	.	.	PUNCT	_	_	1	punct	_	.
@@ -6440,11 +6440,11 @@
 4	,	,	PUNCT	_	_	2	punct	_	,
 5-6	cre'n	_	_	_	_	_	_	_	
 5	cre	cre	PRON	_	_	0	root	_	cén fáth
-6	'n	yn	DET	_	_	7	det	_	
+6	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	
 7	fa	fa	NOUN	_	_	5	nsubj	_	
 8-9	'sy	_	_	_	_	_	_	_	
 8	ayns	ayns	ADP	_	_	10	case	_	sa
-9	yn	yn	DET	_	_	10	det	_	
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	theihll	seihll	NOUN	_	_	7	nmod	_	domhain
 11-12	t'ou	_	_	_	_	_	_	_	
 11	t'	bee	VERB	_	Mood=Ind|Tense=Pres	7	acl	_	atá tú
@@ -6513,7 +6513,7 @@
 5	er	er	ADP	_	_	6	case	_	mar gheall ar an
 6-7	coontey'n	_	_	_	_	_	_	_	
 6	coontey	coontey	NOUN	_	_	1	obl	_	
-7	'n	yn	DET	_	_	8	det	_	
+7	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	
 8	veggan	beggan	NOUN	_	_	6	nmod	_	bheagán
 9	cooinaghtyn	cooinaghtyn	NOUN	_	_	8	nmod	_	cuimhní
 10-12	v'aym	_	_	_	_	_	_	_	
@@ -6548,11 +6548,11 @@
 # text_en = Its administrative seat and largest town is Świecie, which lies 45 km (28 mi) north of Toruń and 45 km (28 mi) north-east of Bydgoszcz.
 1	She	she	AUX	_	_	2	cop	_	Is
 2	Świecie	Świecie	PROPN	_	_	0	root	_	Świecie
-3	y	yn	DET	_	_	4	det	_	an
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	toiag	soiag	NOUN	_	_	2	nsubj	_	suíochán
 5	reirey	reirey	NOUN	_	_	4	nmod	_	riar
 6	as	as	CCONJ	_	_	8	cc	_	agus
-7	y	yn	DET	_	_	8	det	_	an
+7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	balley	balley	NOUN	_	_	4	conj	_	baile
 9	smoo	mooar	ADJ	_	_	8	amod	_	is mó
 10-11	ayn	_	_	_	_	_	_	_	
@@ -6590,13 +6590,13 @@
 # text = Ren y gard siyr stiagh gys Nuada yn ree.
 # text_ga = Bhrostaigh an coimeádaí isteach chuig Nuada, an rí.
 1	Ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	Rinne
-2	y	yn	DET	_	_	3	det	_	an
+2	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	gard	gard	NOUN	_	_	1	nsubj	_	garda
 4	siyr	siyr	NOUN	_	_	1	obj	_	deifir
 5	stiagh	stiagh	ADV	_	_	1	advmod	_	isteach
 6	gys	gys	ADP	_	_	7	case	_	chuig
 7	Nuada	Nuada	PROPN	_	_	1	obl	_	Nuada
-8	yn	yn	DET	_	_	9	det	_	an rí
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an rí
 9	ree	ree	NOUN	_	_	7	appos	_	
 10	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6611,7 +6611,7 @@
 7	shickyr	shickyr	ADJ	_	_	6	xcomp:pred	_	cinnte
 8-9	'sy	_	_	_	_	_	_	_	
 8	ayns	ayns	ADP	_	_	10	case	_	sa
-9	yn	yn	DET	_	_	10	det	_	
+9	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	chredjue	credjue	NOUN	_	_	7	obl	_	chreideamh
 11	,	,	PUNCT	_	_	12	punct	_	,
 12	ymmyrk-jee	ymmyrk	VERB	_	Mood=Imp|Number=Plur|Person=2	1	conj	_	iompraígí
@@ -6629,7 +6629,7 @@
 # text_en = The Garavogue (Irish: An Gharbhóg) is a short and small river located in County Sligo, Ireland.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Gharbhóg	Gharbhóg	PROPN	_	_	1	nsubj	_	Gharbhóg
 4	(	(	PUNCT	_	_	7	punct	_	(
 5	Baarle	Baarle	PROPN	_	_	7	dep	_	Béarla
@@ -6655,13 +6655,13 @@
 1	Tra	tra	SCONJ	_	_	2	mark	_	Nuair a
 2	haink	tar	VERB	_	Mood=Ind|Tense=Past	8	advcl	_	tháinig
 3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	nah	nah	ADJ	_	_	6	amod	_	dara
 6	cheayrt	keayrt	NOUN	_	_	2	obl	_	uair
 7	,	,	PUNCT	_	_	2	punct	_	,
 8-9	va'n	_	_	_	_	_	_	_	
 8	va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhí an
-9	'n	yn	DET	_	_	10	det	_	
+9	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	chenn	shenn	ADJ	_	_	11	amod	_	tsean
 11	haggyrt	saggyrt	NOUN	_	_	8	nsubj	_	shagart
 12	,	,	PUNCT	_	_	13	punct	_	,
@@ -6689,7 +6689,7 @@
 33	chiaulleeagh	kiaulleeagh	NOUN	_	_	28	xcomp	_	chanadh
 34	psaum	psaum	NOUN	_	_	33	obj	_	psaum
 35	oanluckee	oanluckey	NOUN	_	_	34	nmod	_	adhlactha
-36	yn	yn	DET	_	_	37	det	_	an
+36	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	an
 37	taggyrt	saggyrt	NOUN	_	_	35	nmod	_	sagart
 38	.	.	PUNCT	_	_	8	punct	_	.
 
@@ -6704,9 +6704,9 @@
 5	,	,	PUNCT	_	_	9	punct	_	,
 6	dy	dy	PART	_	_	9	mark	_	gurb é
 7	nee	she	AUX	_	_	9	cop	_	
-8	yn	yn	DET	_	_	9	det	_	an
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	Chiarn	chiarn	NOUN	_	_	1	ccomp	_	Tiarna
-10	y	yn	DET	_	_	11	det	_	an
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	Ree	ree	NOUN	_	_	9	nsubj	_	Rí
 12	:	:	PUNCT	_	_	16	punct	_	:
 13	as	as	CCONJ	_	_	16	cc	_	agus
@@ -6720,7 +6720,7 @@
 20-21	n'yannoo	_	_	_	_	_	_	_	
 20	n'	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	21	nmod:poss	_	
 21	yannoo	jannoo	NOUN	_	_	18	xcomp	_	
-22	yn	yn	DET	_	_	23	det	_	an
+22	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	an
 23	seihll	seihll	NOUN	_	_	21	obj	_	saol
 24	runt	runt	ADJ	_	_	23	amod	_	cruinn
 25	cha	cha	ADV	_	_	26	advmod	_	chomh
@@ -6738,7 +6738,7 @@
 37	dy	dy	PART	_	_	38	mark	_	go
 38	jean	jean	VERB	_	Mood=Ind|Tense=Fut	9	conj	_	ndéanfaidh
 39	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	38	nsubj	_	sé
-40	yn	yn	DET	_	_	41	det	_	an
+40	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	an
 41	pobble	pobble	NOUN	_	_	43	obj	_	pobal
 42	y	y	ADP	_	_	43	mark	_	a
 43	vriwnys	briwnys	NOUN	_	_	38	xcomp	_	bhreithiúnas
@@ -6789,7 +6789,7 @@
 7	ny	ny	PART	_	_	8	mark	_	
 8-9	va'n	_	_	_	_	_	_	_	
 8	va	bee	VERB	_	Mood=Ind|Tense=Past	6	acl:relcl	_	
-9	'n	yn	DET	_	_	10	det	_	
+9	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	
 10	dooinney	dooinney	NOUN	_	_	8	nsubj	_	fear
 11	er	er	ADP	_	_	13	case	_	tar éis déanamh
 12-13	n'yannoo	_	_	_	_	_	_	_	
@@ -6842,7 +6842,7 @@
 22	ta	bee	VERB	_	Mood=Ind|Tense=Pres	8	conj	_	atá
 23	gymmyrkey	ymmyrkey	NOUN	_	_	22	xcomp	_	ag iompar
 24	toan	toan	NOUN	_	_	23	obj	_	ton
-25	yn	yn	DET	_	_	26	det	_	an
+25	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	an
 26	'ockle	fockle	NOUN	_	_	24	nmod	_	fhocail
 27	.	.	PUNCT	_	_	8	punct	_	.
 
@@ -6935,12 +6935,12 @@
 3	soie	soie	NOUN	_	_	9	obl	_	suite
 4	Jerrey	jerrey	NOUN	_	_	3	nmod	_	Deireadh Fómhair
 5	Fouyir	fouyr	NOUN	_	_	4	nmod	_	
-6	y	yn	DET	_	_	7	det	_	an
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	an
 7	whaiyl	quaiyl	NOUN	_	_	3	nmod	_	chúirt
 8	,	,	PUNCT	_	_	3	punct	_	,
 9	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
 10	caairlagh	caairlagh	NOUN	_	_	9	nsubj	_	cathaoirleach
-11	y	yn	DET	_	_	12	det	_	an
+11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	an
 12	ving	bing	NOUN	_	_	10	nmod	_	choiste
 13	shirrey	shirrey	NOUN	_	_	9	xcomp	_	ag iarraidh
 14	er	er	ADP	_	_	15	case	_	ar
@@ -6956,7 +6956,7 @@
 24	ghoaill	goaill	NOUN	_	_	21	xcomp	_	
 25	ayns	ayns	ADP	_	_	26	case	_	i
 26	laue	laue	NOUN	_	_	24	obl	_	lámh
-27	y	yn	DET	_	_	28	det	_	an
+27	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	an
 28	ronsaght	ronsaght	NOUN	_	_	24	obj	_	taighde
 29	.	.	PUNCT	_	_	9	punct	_	.
 
@@ -6966,7 +6966,7 @@
 2	Orry	Orry	PROPN	_	_	1	nsubj	_	Orry
 3-4	veih'n	_	_	_	_	_	_	_	
 3	veih	veih	ADP	_	_	5	case	_	ón
-4	yn	yn	DET	_	_	5	det	_	
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	
 5	twoaie	twoaie	NOUN	_	_	1	obl	_	aire
 6	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -6979,7 +6979,7 @@
 3	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
 4-5	da'n	_	_	_	_	_	_	_	
 4	da	da	ADP	_	_	6	case	_	don
-5	yn	yn	DET	_	_	6	det	_	
+5	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	
 6	thie	thie	NOUN	_	_	1	obl	_	teach
 7-8	echey	_	_	_	_	_	_	_	
 7	ec	ec	ADP	_	_	8	case	_	aige
@@ -6990,7 +6990,7 @@
 # text = Ta'n R161 ny raad ardjynagh ayns Nerin ta kiangley Cionn Átha Gad, Coontae ny h-Eearvee lesh yn Ooive ayns Coontae ny Mee.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	R161	R161	PROPN	_	_	1	nsubj	_	R161
 4	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	na
 5	raad	raad	NOUN	_	_	1	xcomp:pred	_	mbóthar
@@ -7007,7 +7007,7 @@
 16	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	17	det	_	na
 17	h-Eearvee	Eearvee	PROPN	_	_	15	nmod	_	hIarmhí
 18	lesh	lesh	ADP	_	_	20	case	_	leis
-19	yn	yn	DET	_	_	20	det	_	an
+19	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	an
 20	Ooive	Ooive	PROPN	_	_	10	obl	_	Uaimh
 21	ayns	ayns	ADP	_	_	22	case	_	i
 22	Coontae	coontae	NOUN	_	_	20	nmod	_	Contae na Mí
@@ -7035,7 +7035,7 @@
 16	shoh	shoh	PRON	_	PronType=Dem	12	obl	_	seo
 17	dy	dy	ADP	_	_	18	case	_	le sroicheadh
 18	roshtyn	roshtyn	NOUN	_	_	12	xcomp	_	
-19	y	yn	DET	_	_	20	det	_	na
+19	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	na
 20	traie	traie	NOUN	_	_	18	obj	_	trá
 21	.	.	PUNCT	_	_	1	punct	_	.
 
@@ -7046,7 +7046,7 @@
 2	1903	1903	NUM	_	_	4	obl	_	1903
 3	,	,	PUNCT	_	_	2	punct	_	,
 4	hie	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	ghabh
-5	yn	yn	DET	_	_	6	det	_	an
+5	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	an
 6	Eaghtyrane	eaghtyrane	NOUN	_	_	4	nsubj	_	tUachtarán
 7	Theodore	Theodore	PROPN	_	_	6	appos	_	Theodore
 8	Roosevelt	Roosevelt	PROPN	_	_	7	flat	_	Roosevelt
@@ -7062,7 +7062,7 @@
 # text = Ta'n Lioar-lhaih ry gheddyn voish ny buill cheddin son £8.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	Lioar-lhaih	lioar-lhaih	NOUN	_	_	1	nsubj	_	Lioar-lhaih
 4	ry	ry	ADP	_	_	5	case	_	ar fáil
 5	gheddyn	geddyn	NOUN	_	_	1	xcomp:pred	_	
@@ -7080,7 +7080,7 @@
 # text_en = And still the poet made for her little chaplets of song, to deck her forehead in the courts of Time: and still she wore instead the worthless garlands, that boisterous citizens flung to her in the ways, made out of perishable things.
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	ren	jean	VERB	_	Mood=Ind|Tense=Past	0	root	_	rinne
-3	y	yn	DET	_	_	4	det	_	an
+3	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	bard	bard	NOUN	_	_	2	nsubj	_	file
 5	foast	foast	ADV	_	_	2	advmod	_	fós
 6	atteeyn	attey	NOUN	_	_	2	obj	_	corónacha
@@ -7103,7 +7103,7 @@
 22	as	as	CCONJ	_	_	29	cc	_	agus
 23-24	'syn	_	_	_	_	_	_	_	
 23	ayns	ayns	ADP	_	_	25	case	_	san
-24	yn	yn	DET	_	_	25	det	_	
+24	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	
 25	ynnod	ynnod	NOUN	_	_	29	obl	_	ionad
 26-27	oc	_	_	_	_	_	_	_	
 26	ec	ec	ADP	_	_	27	case	_	acu
@@ -7124,7 +7124,7 @@
 40	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	36	obl	_	
 41-42	'sy	_	_	_	_	_	_	_	
 41	ayns	ayns	ADP	_	_	43	case	_	sa
-42	yn	yn	DET	_	_	43	det	_	
+42	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	
 43	raad	raad	NOUN	_	_	36	obl	_	ród
 44	,	,	PUNCT	_	_	45	punct	_	,
 45	jeant	jeant	ADJ	_	_	33	amod	_	déanta
@@ -7136,14 +7136,14 @@
 # sent_id = aa_273
 # text = She yn Vritaan y lieh-innys smoo 'sy Rank.
 1	She	she	AUX	_	_	3	cop	_	Is é
-2	yn	yn	DET	_	_	3	det	_	an
+2	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	an
 3	Vritaan	Britaan	PROPN	_	_	0	root	_	Bhriotáin
-4	y	yn	DET	_	_	5	det	_	an
+4	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	lieh-innys	lieh-innys	NOUN	_	_	3	nsubj	_	leithinis
 6	smoo	mooar	ADJ	_	_	5	amod	_	is mó
 7-8	'sy	_	_	_	_	_	_	_	
 7	ayns	ayns	ADP	_	_	9	case	_	sa
-8	yn	yn	DET	_	_	9	det	_	
+8	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	
 9	Rank	Frank	PROPN	_	_	5	nmod	_	Fhrainc
 10	.	.	PUNCT	_	_	3	punct	_	.
 
@@ -7163,26 +7163,26 @@
 9	,	,	PUNCT	_	_	10	punct	_	,
 10-11	ta'n	_	_	_	_	_	_	_	
 10	ta	bee	VERB	_	Mood=Ind|Tense=Pres	1	parataxis	_	tá an
-11	'n	yn	DET	_	_	12	det	_	
+11	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	
 12	Chiarn	chiarn	NOUN	_	_	10	nsubj	_	Tiarna
 13	dy	dy	ADP	_	_	14	case	_	le rá
 14	ghra	gra	NOUN	_	_	10	xcomp	_	
 15	,	,	PUNCT	_	_	17	punct	_	,
 16	dy	dy	PART	_	_	17	mark	_	go
 17	jean	jean	VERB	_	Mood=Ind|Tense=Fut	7	acl	_	ndéanfaidh
-18	yn	yn	DET	_	_	19	det	_	an
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	erroo	erroo	NOUN	_	_	17	nsubj	_	t-aireamh
 20	berraghtyn	berraghtyn	NOUN	_	_	17	xcomp	_	breith
 21	er	er	ADP	_	_	23	case	_	ar
-22	y	yn	DET	_	_	23	det	_	an
+22	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	an
 23	beaynee	beaynee	NOUN	_	_	20	obl	_	buanaí
 24	,	,	PUNCT	_	_	25	punct	_	,
 25	as	as	CCONJ	_	_	27	cc	_	agus
-26	y	yn	DET	_	_	27	det	_	an
+26	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	an
 27	stampeyder	stampeyder	NOUN	_	_	19	conj	_	stampálaí
 28	feeyney	feeyn	NOUN	_	_	27	nmod	_	fíona
 29	er	er	ADP	_	_	31	case	_	ar
-30	yn	yn	DET	_	_	31	det	_	an
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	an
 31	correyder	correyder	NOUN	_	_	27	orphan	_	síoladóir
 32	;	;	PUNCT	_	_	34	punct	_	;
 33	as	as	CCONJ	_	_	34	cc	_	agus
@@ -7245,7 +7245,7 @@
 9	vel	bee	VERB	_	Mood=Ind|Tense=Pres	6	acl:relcl	_	
 10	fo	fo	ADP	_	_	11	case	_	faoi
 11	stiuredys	stiureydys	NOUN	_	_	9	xcomp:pred	_	stiuredys
-12	y	yn	DET	_	_	13	det	_	an
+12	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	an
 13	choonceil	coonceil	NOUN	_	_	11	nmod	_	chomhairle
 14	choontae	coontae	NOUN	_	_	13	nmod	_	chontae
 15	.	.	PUNCT	_	_	1	punct	_	.
@@ -7287,7 +7287,7 @@
 16	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	15	nsubj	_	siadsan
 17	neesht	neesht	ADV	_	_	15	advmod	_	freisin
 18	trooid	trooid	ADP	_	_	20	case	_	tríd
-19	y	yn	DET	_	_	20	det	_	a
+19	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	a
 20	vyghin	myghin	NOUN	_	_	23	obj	_	thrócaire
 21	er	er	ADP	_	_	23	case	_	á thaispeáint
 22	ny	ny	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	23	nmod:poss	_	
@@ -7315,13 +7315,13 @@
 10	,	,	PUNCT	_	_	7	punct	_	,
 11-12	va'n	_	_	_	_	_	_	_	
 11	va	bee	VERB	_	Mood=Ind|Tense=Past	0	root	_	bhí an
-12	'n	yn	DET	_	_	13	det	_	
+12	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	
 13	chiark	kiark	NOUN	_	_	11	nsubj	_	chearc
 14	roie	roie	NOUN	_	_	11	xcomp	_	ag rith
 15	dy	dy	PART	_	_	16	mark	_	go
 16	maynrey	maynrey	ADJ	_	_	14	advmod	_	sona
 17	mygeayrt	mygeayrt	ADP	_	_	19	case	_	timpeall
-18	yn	yn	DET	_	_	19	det	_	an
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	an
 19	gharey	garey	NOUN	_	_	14	obl	_	gharraí
 20	mess	mess	NOUN	_	_	19	nmod	_	toraidh
 21	lesh	lesh	ADP	_	_	23	case	_	leis
@@ -7351,7 +7351,7 @@
 15	,	,	PUNCT	_	_	18	punct	_	,
 16-17	rere'n	_	_	_	_	_	_	_	
 16	rere	rere	ADP	_	_	18	case	_	de réir an
-17	'n	yn	DET	_	_	18	det	_	
+17	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	
 18	abbyrlhit	abbyrlhit	NOUN	_	_	3	obl	_	aibítir
 19	Romanagh	Romanagh	ADJ	_	_	18	amod	_	Rómhánach
 20	jeianagh	jeianagh	ADJ	_	_	19	advmod	_	deireanach
@@ -7370,7 +7370,7 @@
 7	ny	ny	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	na bhFilistíneach
 8	Philistinee	Philistine	PROPN	_	_	6	nmod	_	
 9	lesh	lesh	ADP	_	_	11	case	_	leis
-10	y	yn	DET	_	_	11	det	_	an
+10	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	an
 11	sheear	sheear	NOUN	_	_	4	obl	_	iarthar
 12	;	;	PUNCT	_	_	13	punct	_	;
 13	nee	jean	VERB	_	Mood=Ind|Tense=Fut	2	conj	_	déanfaidh
@@ -7379,7 +7379,7 @@
 16	adsyn	ad	PRON	_	Number=Plur|Person=3|PronType=Emp	15	obj	_	siadsan
 17-18	jeh'n	_	_	_	_	_	_	_	
 17	jeh	jeh	ADP	_	_	19	case	_	den
-18	yn	yn	DET	_	_	19	det	_	
+18	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	
 19	shiar	shiar	NOUN	_	_	16	nmod	_	oirthear
 20	cooidjagh	cooidjagh	ADV	_	_	15	advmod	_	le chéile
 21	:	:	PUNCT	_	_	22	punct	_	:
@@ -7464,7 +7464,7 @@
 12	as	as	CCONJ	_	_	20	cc	_	agus
 13	,	,	PUNCT	_	_	16	punct	_	,
 14	er	er	ADP	_	_	16	case	_	dá bharr sin
-15	y	yn	DET	_	_	16	det	_	
+15	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	
 16	hon	son	NOUN	_	_	20	obl	_	
 17	shen	shen	DET	_	_	16	det	_	
 18	,	,	PUNCT	_	_	19	punct	_	,
@@ -7486,18 +7486,18 @@
 # text_en = The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits.
 1-2	Ta'n	_	_	_	_	_	_	_	
 1	Ta	bee	VERB	_	Mood=Ind|Tense=Pres	0	root	_	Tá an
-2	'n	yn	DET	_	_	3	det	_	
+2	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	
 3	gheay	geay	NOUN	_	_	1	nsubj	_	ghaoth
 4	goll	goll	NOUN	_	_	1	xcomp	_	ag dul
 5	lesh	lesh	ADP	_	_	7	case	_	leis
-6	y	yn	DET	_	_	7	det	_	an
+6	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	an
 7	jiass	jiass	NOUN	_	_	4	obl	_	deisceart
 8	,	,	PUNCT	_	_	10	punct	_	,
 9	as	as	CCONJ	_	_	10	cc	_	agus
 10	chyndaa	chyndaa	NOUN	_	_	4	conj	_	iompú
 11	mygeayrt	mygeayrt	ADV	_	_	10	advmod	_	timpeall
 12	gys	gys	ADP	_	_	14	case	_	go dtí an
-13	y	yn	DET	_	_	14	det	_	
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	
 14	twoaie	twoaie	NOUN	_	_	10	obl	_	tuaisceart
 15	,	,	PUNCT	_	_	16	punct	_	,
 16-17	t'ee	_	_	_	_	_	_	_	
@@ -7533,10 +7533,10 @@
 2	troyn	tro	NOUN	_	_	1	nsubj	_	tréithe
 3	as	as	CCONJ	_	_	4	cc	_	agus
 4	dooghys	dooghys	NOUN	_	_	2	conj	_	dúchas
-5	y	yn	DET	_	_	6	det	_	na
+5	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	na
 6	pasheydys	pasheydys	NOUN	_	_	2	nmod	_	potaireachta
 7	rere	rere	ADP	_	_	9	case	_	de réir
-8	y	yn	DET	_	_	9	det	_	an
+8	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	an
 9	sorçh	sorçh	NOUN	_	_	1	xcomp:pred	_	cineál
 10	dy	dy	ADP	_	_	11	case	_	de
 11	chray	cray	NOUN	_	_	9	nmod	_	chré
@@ -7573,7 +7573,7 @@
 1	As	as	CCONJ	_	_	2	cc	_	Agus
 2	nee	jean	VERB	_	Mood=Ind|Tense=Fut	0	root	_	déanfaidh
 3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	sé
-4	yn	yn	DET	_	_	5	det	_	an
+4	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	an
 5	thie	thie	NOUN	_	_	7	obj	_	teach
 6	y	y	ADP	_	_	7	mark	_	a
 7	lhieggal	lhieggal	NOUN	_	_	2	xcomp	_	leagan
@@ -7582,13 +7582,13 @@
 10	claghyn	clagh	NOUN	_	_	5	conj	_	
 11	,	,	PUNCT	_	_	14	punct	_	,
 12	as	as	CCONJ	_	_	14	cc	_	agus
-13	y	yn	DET	_	_	14	det	_	an
+13	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	an
 14	fuygh	fuygh	NOUN	_	_	5	conj	_	adhmaid
 15	,	,	PUNCT	_	_	17	punct	_	,
 16	as	as	CCONJ	_	_	17	cc	_	agus
 17	ooilley	ooilley	NOUN	_	_	5	conj	_	uile
 18	mortar	mortar	NOUN	_	_	17	nmod	_	moirtéar
-19	y	yn	DET	_	_	20	det	_	an
+19	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	an
 20	thie	thie	NOUN	_	_	18	nmod	_	tí
 21	:	:	PUNCT	_	_	23	punct	_	:
 22	as	as	CCONJ	_	_	23	cc	_	agus
@@ -7600,7 +7600,7 @@
 27	ad	ad	PRON	_	Number=Plur|Person=3	23	obj	_	iad
 28	magh	magh	ADV	_	_	23	advmod	_	amach
 29	ass	ass	ADP	_	_	31	case	_	as
-30	yn	yn	DET	_	_	31	det	_	an
+30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	an
 31	ard-valley	ard-valley	NOUN	_	_	23	obl	_	chathair
 32	,	,	PUNCT	_	_	34	punct	_	,
 33	gys	gys	ADP	_	_	34	case	_	go dtí
@@ -7612,7 +7612,7 @@
 # text = O moyllee'jee yn Chiarn t'ayns niau, As insh-jee magh e ghoo; Son s'mie as stooamey t'eh dy loayrt, Ayns booise da 'ennym noo.
 1	O	o	INTJ	_	_	2	discourse	_	Ó
 2	moyllee'jee	moyll	VERB	_	Mood=Imp|Number=Plur|Person=2	0	root	_	molaigí
-3	yn	yn	DET	_	_	4	det	_	an
+3	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	an
 4	Chiarn	chiarn	NOUN	_	_	2	obj	_	Tiarna
 5-6	t'ayns	_	_	_	_	_	_	_	
 5	t'	bee	VERB	_	Mood=Ind|Tense=Pres	4	acl:relcl	_	atá i
