@@ -5772,7 +5772,7 @@
 19	as	as	CCONJ	_	_	20	cc	_	agus
 20	bee'm	bee	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	13	conj	_	beidh
 21	ny	ny	PART	_	_	22	mark	_	níos gile
-22	s'gilley	gial	ADJ	_	_	20	xcomp:pred	_	_	
+22	s'gilley	gial	ADJ	_	Degree=Cmp,Sup	20	xcomp:pred	_	_	
 23	na	na	ADP	_	_	24	case	_	ná
 24	sniaghtey	sniaghtey	NOUN	_	_	22	obl	_	sneachta
 25	.	.	PUNCT	_	_	1	punct	_	.
