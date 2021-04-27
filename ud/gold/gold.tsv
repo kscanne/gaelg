@@ -5666,8 +5666,8 @@
 13	row	bee	VERB	_	Mood=Ind|Tense=Past	11	acl	_	
 14	Cashtal	cashtal	NOUN	_	_	13	nsubj	_	Caisleán
 15	Phurt	purt	NOUN	_	_	14	nmod	_	Phort
-16	ny	ny	DET	_	_	17	det	_	na
-17	h-Inshey	innis	NOUN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	15	nmod	_	hInse
+16	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	17	det	_	na
+17	h-Inshey	innis	NOUN	_	_	15	nmod	_	hInse
 18	troggit	troggit	ADJ	_	_	13	xcomp:pred	_	tógtha
 19	er	er	ADP	_	_	20	case	_	ar
 20	boayl	boayl	NOUN	_	_	18	obl	_	ball
@@ -5697,8 +5697,8 @@
 3	soit	soit	ADJ	_	_	1	xcomp:pred	_	suite
 4	ayns	ayns	ADP	_	_	5	case	_	i
 5	jiass	jiass	NOUN	_	_	3	obl	_	ndeisceart
-6	ny	ny	DET	_	_	7	det	_	na
-7	çheerey	çheer	NOUN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	5	nmod	_	tíre
+6	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	7	det	_	na
+7	çheerey	çheer	NOUN	_	_	5	nmod	_	tíre
 8	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_217
@@ -6683,8 +6683,8 @@
 27	Shepherd	Shepherd	PROPN	_	_	26	nsubj	_	Shepherd
 28	gynsaghey	ynsaghey	NOUN	_	_	26	xcomp	_	múineadh
 29	sheshaght-chiaullee	sheshaght-chiaullee	NOUN	_	_	28	obj	_	banna ceoil
-30	ny	ny	DET	_	_	31	det	_	na
-31	killagh	keeill	NOUN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	29	nmod	_	cille
+30	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	31	det	_	na
+31	killagh	keeill	NOUN	_	_	29	nmod	_	cille
 32	dy	dy	ADP	_	_	33	case	_	de
 33	chiaulleeagh	kiaulleeagh	NOUN	_	_	28	xcomp	_	chanadh
 34	psaum	psaum	NOUN	_	_	33	obj	_	psaum
@@ -7004,15 +7004,15 @@
 13	Gad	Gad	PROPN	_	_	11	flat	_	Gad
 14	,	,	PUNCT	_	_	15	punct	_	,
 15	Coontae	coontae	NOUN	_	_	11	appos	_	Contae
-16	ny	ny	DET	_	_	17	det	_	na
-17	h-Eearvee	Eearvee	PROPN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	15	nmod	_	hIarmhí
+16	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	17	det	_	na
+17	h-Eearvee	Eearvee	PROPN	_	_	15	nmod	_	hIarmhí
 18	lesh	lesh	ADP	_	_	20	case	_	leis
 19	yn	yn	DET	_	_	20	det	_	an
 20	Ooive	Ooive	PROPN	_	_	10	obl	_	Uaimh
 21	ayns	ayns	ADP	_	_	22	case	_	i
 22	Coontae	coontae	NOUN	_	_	20	nmod	_	Contae na Mí
-23	ny	ny	DET	_	_	24	det	_	
-24	Mee	Mee	PROPN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	22	nmod	_	
+23	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	24	det	_	
+24	Mee	Mee	PROPN	_	_	22	nmod	_	
 25	.	.	PUNCT	_	_	1	punct	_	.
 
 # sent_id = aa_269
@@ -7306,8 +7306,8 @@
 1	Ayns	ayns	ADP	_	_	2	case	_	I
 2	soilshey	soilshey	NOUN	_	_	11	obl	_	solas
 3	meein	meein	ADJ	_	_	2	amod	_	mín
-4	ny	ny	DET	_	_	5	det	_	na
-5	greiney	grian	NOUN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	2	nmod	_	gréine
+4	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	5	det	_	na
+5	greiney	grian	NOUN	_	_	2	nmod	_	gréine
 6	,	,	PUNCT	_	_	7	punct	_	,
 7	fastyr	fastyr	NOUN	_	_	11	obl	_	tráthnóna
 8	beg	beg	ADJ	_	_	7	amod	_	beag
@@ -7339,8 +7339,8 @@
 3	lettyr	lettyr	NOUN	_	_	0	root	_	litir
 4	jeig	jeig	NOUN	_	_	2	compound	_	déag
 5	abbyrlhit	abbyrlhit	NOUN	_	_	3	nmod	_	aibítir
-6	ny	ny	DET	_	_	7	det	_	na
-7	Gaelgey	Gaelg	PROPN	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	5	nmod	_	Manainnise
+6	ny	ny	DET	_	Case=Gen|Definite=Def|Number=Sing|PronType=Art	7	det	_	na
+7	Gaelgey	Gaelg	PROPN	_	_	5	nmod	_	Manainnise
 8	ee	ee	PRON	_	Gender=Fem|Number=Sing|Person=3	3	nmod	_	sí
 9	renniagh	renniagh	NOUN	_	_	3	nsubj	_	raithneach
 10	(	(	PUNCT	_	_	11	punct	_	(
