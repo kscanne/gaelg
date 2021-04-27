@@ -2680,7 +2680,7 @@
 10	O	o	INTJ	_	_	11	discourse	_	Ó
 11	uss	oo	PRON	_	Number=Sing|Person=2|PronType=Emp	1	vocative	_	tusa
 12-13	s'aalin	_	_	_	_	_	_	_	
-12	s'	she	PART	_	_	13	mark	_	is áille
+12	s'	she	AUX	_	_	13	mark	_	is áille
 13	aalin	aalin	ADJ	_	_	11	amod	_	
 14	ta	bee	VERB	_	Mood=Ind|Tense=Pres	11	acl:relcl	_	atá
 15	mastey	mastey	ADP	_	_	16	case	_	i measc
