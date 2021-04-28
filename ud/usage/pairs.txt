@@ -18413,8 +18413,8 @@ atchimagh => uafásach
 . => .
 \n => \n
 <div text="Fear won't permit me to speak to her."/> => <div text="Fear won't permit me to speak to her."/>
-Cha => Níor
-lhig => lig
+Cha => Ní
+lhig => ligfidh
 yn => an
 aggle => eagla
 lhiam => dom
@@ -28175,8 +28175,8 @@ roish jannoo eh => é a dhéanamh
 . => .
 \n => \n
 <div text="He is afraid to do it."/> => <div text="He is afraid to do it."/>
-Cha => Níor
-lhig => lig
+Cha => Ní
+lhig => ligfidh
 yn => an
 aggle => eagla
 da => dó
@@ -76114,8 +76114,8 @@ chione => cheann
 . => .
 \n => \n
 <div text="My health forbids my coming."/> => <div text="My health forbids my coming."/>
-Cha => Níor
-lhig => lig
+Cha => Ní
+lhig => ligfidh
 my => mo
 laynt => shláinte
 dou => dom
