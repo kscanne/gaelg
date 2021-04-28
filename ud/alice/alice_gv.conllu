@@ -181,7 +181,7 @@
 11	crankal	crankal	NOUN	_	_	9	xcomp	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	as	as	CCONJ	_	_	14	cc	_	_
-14	oddins	fod	VERB	_	Form=Len|Mood=Cnd|Number=Sing|Person=1	9	conj	_	_
+14	oddins	fod	VERB	_	Form=Emp,Len|Mood=Cnd|Number=Sing|Person=1	9	conj	_	_
 15	lhiggey	lhiggey	NOUN	_	_	14	xcomp	_	_
 16	stiagh	stiagh	ADV	_	_	15	advmod	_	_
 17	oo	oo	PRON	_	Number=Sing|Person=2	15	obj	_	SpaceAfter=No
