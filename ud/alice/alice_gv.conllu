@@ -205,7 +205,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	heill	sheill	VERB	_	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 8	mee	mee	PRON	_	Number=Sing|Person=1	7	nsubj	_	_
-9	nagh	nagh	PART	_	PartType=Cmpl	10	mark	_	_
+9	nagh	nagh	PART	_	PartType=Cmpl|Polarity=Neg	10	mark	_	_
 10	ren	jean	VERB	_	Mood=Ind|Tense=Past	7	ccomp	_	_
 11	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	lheid	lheid	NOUN	_	_	10	nsubj	_	_
@@ -378,7 +378,7 @@
 # text_gd = “B' fheàrr leam nach robh mi air luaidh a thoirt air Dìnea!” ars ise rithe fhèin ann an guth tiamhaidh.
 1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Saillym	saillym	VERB	_	Mood=Ind|Tense=Pres	0	root	_	_
-3	nagh	nagh	PART	_	PartType=Cmpl	4	mark	_	_
+3	nagh	nagh	PART	_	PartType=Cmpl|Polarity=Neg	4	mark	_	_
 4	row	bee	VERB	_	Mood=Ind|Tense=Past	2	ccomp	_	_
 5	mee	mee	PRON	_	Number=Sing|Person=1	4	nsubj	_	_
 6	er	er	ADP	_	_	7	case	_	_
@@ -505,7 +505,7 @@
 2	v'	bee	VERB	_	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	jeeaghyn	jeeaghyn	NOUN	_	_	2	xcomp	_	_
-5	nagh	nagh	PART	_	PartType=Cmpl	6	mark	_	_
+5	nagh	nagh	PART	_	PartType=Cmpl|Polarity=Neg	6	mark	_	_
 6	beagh	bee	VERB	_	Mood=Cnd	4	ccomp	_	_
 7	shen	shen	PRON	_	PronType=Dem	6	nsubj	_	_
 8	taghyrt	taghyrt	NOUN	_	_	6	xcomp	_	_
@@ -538,7 +538,7 @@
 # text_ga = “Ní dheachaigh mé riamh chuige,” a dúirt an Turtar Bréige agus lig sé osna.
 # text_gd = “Cha deach mise thuige,” ars an Turtair-mheallta le osna.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Cha	cha	PART	_	PartType=Vb	3	mark	_	_
+2	Cha	cha	PART	_	PartType=Vb|Polarity=Neg	3	mark	_	_
 3	jagh	gow	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
 4	mish	mee	PRON	_	Number=Sing|Person=1|PronType=Emp	3	nsubj	_	_
 5	rieau	rieau	ADV	_	_	3	advmod	_	_
@@ -723,7 +723,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	veen	meen	NOUN	_	Form=Len	1	vocative	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	10	punct	_	_
-7	cha	cha	PART	_	_	10	mark	_	_
+7	cha	cha	PART	_	Polarity=Neg	10	mark	_	_
 8	nee	she	AUX	_	_	10	cop	_	_
 9	agh	agh	ADP	_	_	10	case	_	_
 10	paitçhey	paitçhey	NOUN	_	_	1	parataxis	_	_
@@ -775,7 +775,7 @@
 # text_ga = “Nach uafásach barbartha a bhí sí!” a ghlaoigh Eilís.
 # text_gd = “Abair borb!” arsa Ealasaid.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Nagh	she	AUX	_	_	3	cop	_	_
+2	Nagh	she	AUX	_	Polarity=Neg	3	cop	_	_
 3	oaldey	oaldey	ADJ	_	_	0	root	_	_
 4	agglagh	agglagh	ADV	_	_	3	advmod	_	_
 5	shen	shen	PRON	_	PronType=Dem	3	nsubj	_	SpaceAfter=No
@@ -894,7 +894,7 @@
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	“	“	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	agh	agh	CCONJ	_	_	17	cc	_	_
-16	cha	cha	PART	_	PartType=Vb	17	mark	_	_
+16	cha	cha	PART	_	PartType=Vb|Polarity=Neg	17	mark	_	_
 17	nel	bee	VERB	_	Mood=Ind|Tense=Pres	3	conj	_	_
 18	mee	mee	PRON	_	Number=Sing|Person=1	17	nsubj	_	_
 19	er	er	ADP	_	_	20	case	_	_
@@ -946,7 +946,7 @@
 6	voayrd	boayrd	NOUN	_	Form=Len	1	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	agh	agh	CCONJ	_	_	10	cc	_	_
-9	cha	cha	PART	_	PartType=Vb	10	mark	_	_
+9	cha	cha	PART	_	PartType=Vb|Polarity=Neg	10	mark	_	_
 10	row	bee	VERB	_	Mood=Ind|Tense=Past	1	conj	_	_
 11	veg	veg	NOUN	_	_	10	nsubj	_	_
 12-13	er	_	_	_	_	_	_	_	_
@@ -1067,7 +1067,7 @@
 # text_ga = “Níor cheart duit a bheith ag caint mar sin,” arsa an Haitéir.
 # text_gd = “Mar sin, cha bu chòir dhut bruidhinn,” ars An t-Adair.
 1	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Cha	cha	PART	_	PartType=Vb	3	mark	_	_
+2	Cha	cha	PART	_	PartType=Vb|Polarity=Neg	3	mark	_	_
 3	lhisagh	lhis	VERB	_	Mood=Cnd	0	root	_	_
 4	oo	oo	PRON	_	Number=Sing|Person=2	3	nsubj	_	_
 5	loayrt	loayrt	NOUN	_	_	3	xcomp	_	_
