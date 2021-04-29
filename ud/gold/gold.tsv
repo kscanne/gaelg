@@ -314,7 +314,7 @@
 # sent_id = aa_013
 # text = Nagh vel oo maynrey?
 # text_ga = Nach bhfuil tú sásta?
-1	Nagh	nagh	PART	_	_	2	mark	_	Nach bhfuil
+1	Nagh	nagh	PART	_	PartType=Vb	2	mark	_	Nach bhfuil
 2	vel	bee	VERB	_	Form=Ecl|Mood=Ind|Tense=Pres	0	root	_	
 3	oo	oo	PRON	_	Number=Sing|Person=2	2	nsubj	_	tú
 4	maynrey	maynrey	ADJ	_	_	3	xcomp:pred	_	sásta
@@ -559,7 +559,7 @@
 29	er	er	ADP	_	_	31	case	_	de bhrí
 30	yn	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	
 31	oyr	oyr	NOUN	_	_	24	obl	_	
-32	nagh	nagh	PART	_	_	33	mark	_	nach raibh
+32	nagh	nagh	PART	_	PartType=Vb	33	mark	_	nach raibh
 33	row	bee	VERB	_	Mood=Ind|Tense=Past	31	acl	_	
 34	veg	veg	NOUN	_	_	33	nsubj	_	dada
 35-36	jeu	_	_	_	_	_	_	_	
@@ -1744,7 +1744,7 @@
 19	mean	mean	NOUN	_	_	13	xcomp:pred	_	lár
 20	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	an
 21	vuinney	buinney	NOUN	_	Form=Len	19	nmod	_	bhachlóg
-22	nagh	nagh	PART	_	_	23	mark	_	nach bhfuil
+22	nagh	nagh	PART	_	PartType=Vb	23	mark	_	nach bhfuil
 23	vel	bee	VERB	_	Form=Ecl|Mood=Ind|Tense=Pres	16	acl:relcl	_	
 24	yn-ee	yn-ee	ADJ	_	_	23	xcomp:pred	_	inite
 25	ayns	ayns	ADP	_	_	27	case	_	i
@@ -2863,7 +2863,7 @@
 47	mychione	mychione	ADP	_	_	48	case	_	faoi
 48	plannal	plannal	NOUN	_	_	44	nmod	_	pleanáil
 49	thieyn	thie	NOUN	_	_	48	nmod	_	tithe
-50	nagh	nagh	PART	_	_	51	mark	_	nach bhfuil
+50	nagh	nagh	PART	_	PartType=Vb	51	mark	_	nach bhfuil
 51	vel	bee	VERB	_	Form=Ecl|Mood=Ind|Tense=Pres	44	acl:relcl	_	
 52	,	,	PUNCT	_	_	53	punct	_	,
 53	cordail	cordail	NOUN	_	_	51	advcl	_	de réir
@@ -4869,7 +4869,7 @@
 4	my	my	DET	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	mo
 5	hooillyn	sooill	NOUN	_	Form=Len	2	obj	_	shúile
 6	,	,	PUNCT	_	_	8	punct	_	,
-7	nagh	nagh	PART	_	_	8	mark	_	nach dtabharfaidh
+7	nagh	nagh	PART	_	PartType=Cmpl	8	mark	_	nach dtabharfaidh
 8	der	cur	VERB	_	Mood=Ind|Tense=Fut	2	advcl	_	
 9	ad	ad	PRON	_	Number=Plur|Person=3	8	nsubj	_	siad
 10	geill	geill	NOUN	_	_	8	obj	_	aire
@@ -4896,7 +4896,7 @@
 5-6	orroo	_	_	_	_	_	_	_	
 5	er	er	ADP	_	_	6	case	_	orthu
 6	ad	ad	PRON	_	Number=Plur|Person=3	3	xcomp:pred	_	
-7	nagh	nagh	PART	_	_	8	mark	_	nach
+7	nagh	nagh	PART	_	PartType=Cmpl	8	mark	_	nach
 8	jinnagh	jean	VERB	_	Mood=Cnd	3	ccomp	_	ndéanfadh
 9	sleih	sleih	NOUN	_	_	8	nsubj	_	slua
 10	elley	elley	ADJ	_	_	9	amod	_	eile
@@ -5385,7 +5385,7 @@
 15	markiagh	markiagh	NOUN	_	_	13	obj	_	ag marcaíocht
 16	trooid	trooid	ADP	_	_	17	case	_	tríd
 17	straidyn	straid	NOUN	_	_	15	nmod	_	sráideanna
-18	nagh	nagh	PART	_	_	19	mark	_	nach raibh
+18	nagh	nagh	PART	_	PartType=Vb	19	mark	_	nach raibh
 19	row	bee	VERB	_	Mood=Ind|Tense=Past	17	acl	_	
 20	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	sé
 21	er	er	ADP	_	_	23	case	_	tar éis feiceáil
@@ -5891,7 +5891,7 @@
 7	cre	cre	PRON	_	_	6	ccomp	_	cén fáth
 8	'n	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	
 9	fa	fa	NOUN	_	_	7	nsubj	_	
-10	nagh	nagh	PART	_	_	11	mark	_	nach bhfuil
+10	nagh	nagh	PART	_	PartType=Vb	11	mark	_	nach bhfuil
 11	vel	bee	VERB	_	Form=Ecl|Mood=Ind|Tense=Pres	9	acl	_	
 12	mee	mee	PRON	_	Number=Sing|Person=1	11	nsubj	_	mé
 13	cur	cur	NOUN	_	_	11	xcomp	_	ag cur
@@ -6725,7 +6725,7 @@
 24	runt	runt	ADJ	_	_	23	amod	_	cruinn
 25	cha	cha	ADV	_	_	26	advmod	_	chomh
 26	shickyr	shickyr	ADJ	_	_	23	amod	_	cinnte
-27	nagh	nagh	PART	_	_	28	mark	_	nach féidir leis
+27	nagh	nagh	PART	_	PartType=Cmpl	28	mark	_	nach féidir leis
 28	vod	fod	VERB	_	Form=Ecl|Mood=Ind|Tense=Fut	26	advcl	_	
 29	eh	eh	PRON	_	Gender=Masc|Number=Sing|Person=3	28	nsubj	_	
 30	ve	ve	NOUN	_	_	28	xcomp	_	a bheith
@@ -6829,7 +6829,7 @@
 10	vreear	breear	NOUN	_	Form=Len	9	nmod	_	bhriathar
 11	ny	ny	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	ina
 12	fraue	fraue	NOUN	_	_	8	xcomp:pred	_	fréamh
-13	nagh	nagh	PART	_	_	14	mark	_	nár fhéad
+13	nagh	nagh	PART	_	PartType=Vb	14	mark	_	nár fhéad
 14	dod	fod	VERB	_	Mood=Ind|Tense=Past	12	acl:relcl	_	
 15	ve	ve	NOUN	_	_	14	xcomp	_	a bheith
 16-17	ayn	_	_	_	_	_	_	_	
@@ -6854,7 +6854,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	,
 4	Yishag	jishag	NOUN	_	Form=Len	7	vocative	_	Athair
 5	,	,	PUNCT	_	_	4	punct	_	,
-6	nagh	nagh	PART	_	_	7	mark	_	nach féidir leat
+6	nagh	nagh	PART	_	PartType=Vb	7	mark	_	nach féidir leat
 7	vod	fod	VERB	_	Form=Ecl|Mood=Ind|Tense=Fut	0	root	_	
 8	oo	oo	PRON	_	Number=Sing|Person=2	7	nsubj	_	
 9	jannoo	jannoo	NOUN	_	_	7	xcomp	_	déanamh
@@ -6867,7 +6867,7 @@
 # text = ‘Nagh vod shin cur eab er ratçhal roin, Yishag?
 # text_en = “Couldn't we make a dash for it, Dad?
 1	‘	‘	PUNCT	_	_	3	punct	_	‘
-2	Nagh	nagh	PART	_	_	3	mark	_	Nach féidir
+2	Nagh	nagh	PART	_	PartType=Vb	3	mark	_	Nach féidir
 3	vod	fod	VERB	_	Form=Ecl|Mood=Ind|Tense=Fut	0	root	_	
 4	shin	shin	PRON	_	Number=Plur|Person=1	3	nsubj	_	muid
 5	cur	cur	NOUN	_	_	3	xcomp	_	ag tabhairt
@@ -7241,7 +7241,7 @@
 5	nyn	nyn	DET	_	Number=Plur|Person=3|Poss=Yes	6	nmod:poss	_	a
 6	lughtyn-reilley	lught-reilley	NOUN	_	_	1	xcomp:pred	_	n-údaráis
 7	unnaneagh	unnaneagh	ADJ	_	_	6	amod	_	uatha
-8	nagh	nagh	PART	_	_	9	mark	_	nach bhfuil
+8	nagh	nagh	PART	_	PartType=Vb	9	mark	_	nach bhfuil
 9	vel	bee	VERB	_	Form=Ecl|Mood=Ind|Tense=Pres	6	acl:relcl	_	
 10	fo	fo	ADP	_	_	11	case	_	faoi
 11	stiuredys	stiureydys	NOUN	_	_	9	xcomp:pred	_	stiuredys
