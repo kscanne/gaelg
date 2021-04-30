@@ -1,4 +1,5 @@
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
+UDIRISH=${HOME}/gaeilge/parsail/treebank
 DIST=${HOME}/seal/UD_Manx-Cadhan
 
 # NEVER EDIT THESE MANUALLY; make fixes in the various input files
@@ -17,27 +18,17 @@ all.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl ali
 	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) | perl dupecheck.pl > $@
 	chmod 444 $@
 
-tagdict.tsv: ${GA2GV}/GV.txt tag2ud.pl extras.tsv numbers.tsv all.conllu alts.tsv
-	cat ${GA2GV}/GV.txt | perl tag2ud.pl | sort -u | sort -k1,1 > $@
-
-udpipe-dict.tsv: tagdict.tsv
-	cat tagdict.tsv | sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed '/|/s/^\([^\t]*\)\t\([^|]*\)|\([^\t]*\)\t\(.*\)$$/\1\t\2\t\4\n\1\t\3\t\4/'| sed 's/$$/\t_\t_/' > $@
-
-numbers.tsv: ${GA2GV}/GV.txt ${GA2GV}/focloir.txt getnums.sh
-	bash getnums.sh > $@
-
-alts.tsv: ${GA2GV}/focloir.txt
-	cat ${GA2GV}/focloir.txt | egrep -v '0$$' | egrep -v ' ' | cut -f 1,4 | sed 's/[0-9]_/_/' | sed 's/_prep/|ADP/g; s/_v/|VERB/g; s/_n[a-z]*/|NOUN/g; s/_adv/|ADV/g; s/_a/|ADJ/g; s/_pronm/|ADP/g; s/_conj/|SCONJ/g; s/_interr/|PRON/g; s/_pn/|PRON/g; s/_card/|NUM/g; s/_excl/|INTJ/g; s/_poss/|DET/g' | egrep -v "^([A-Za-zÇç'-]+\|[A-Z]+)[^A-Z]\1$$" | sort -u | sort -k1,1 > $@
-	sed -i '/^[A-ZÇ]/s/|NOUN/|PROPN/g' $@
+tagdict.tsv: $(GA2GV)/GV.txt $(UDIRISH)/tag2ud.pl moretags.tsv
+	(cat $(GA2GV)/GV.txt | perl $(UDIRISH)/tag2ud.pl | egrep -v "^[bdm]'"; cat moretags.tsv) | sort -u | sort -k1,1 > $@
 
 gv.udpipe: gv_cadhan-ud-test.conllu
 	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --train $@
 
-gv-dict.udpipe: gv_cadhan-ud-test.conllu udpipe-dict.tsv
-	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --tagger "dictionary_file=udpipe-dict.tsv" --train $@
+gv-dict.udpipe: gv_cadhan-ud-test.conllu tagdict.tsv
+	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --tagger "dictionary_file=tagdict.tsv" --train $@
 
-gv-best.udpipe: all.conllu udpipe-dict.tsv gv.vec
-	cat all.conllu | udpipe --tokenizer "epochs=50" --tagger "dictionary_file=udpipe-dict.tsv" --parser "embedding_form_file=gv.vec" --train $@
+gv-best.udpipe: all.conllu tagdict.tsv gv.vec
+	cat all.conllu | udpipe --tokenizer "epochs=50" --tagger "dictionary_file=tagdict.tsv" --parser "embedding_form_file=gv.vec" --train $@
 
 gv.vec: ${HOME}/seal/idirlamha/gv/word2vec/gv.vec
 	cp ${HOME}/seal/idirlamha/gv/word2vec/gv.vec $@
@@ -56,7 +47,7 @@ corpus.txt:
 # of editing edit.tsv, tagged.tsv, or pedit.tsv!
 clean: 
 	rm -f corpus.txt ig-output.txt draft.tsv edit.tsv tagged.tsv pedit.tsv
-	rm -f alts.tsv numbers.tsv tagdict.tsv gold-corpus.txt gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu udpipe-dict.tsv all.conllu
+	rm -f gold-corpus.txt gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu tagdict.tsv all.conllu
 	rm -f *.udpipe gv.vec
 
 FORCE:
@@ -84,4 +75,7 @@ FORCE:
 #
 #ig-output.txt: corpus.txt
 #	cat corpus.txt | sed 's/.*/<div text="&"\/>&/' | bash ${HOME}/seal/caighdean/tiomanai.sh -x > $@
-
+#
+#alts.tsv: ${GA2GV}/focloir.txt
+#	cat ${GA2GV}/focloir.txt | egrep -v '0$$' | egrep -v ' ' | cut -f 1,4 | sed 's/[0-9]_/_/' | sed 's/_prep/|ADP/g; s/_v/|VERB/g; s/_n[a-z]*/|NOUN/g; s/_adv/|ADV/g; s/_a/|ADJ/g; s/_pronm/|ADP/g; s/_conj/|SCONJ/g; s/_interr/|PRON/g; s/_pn/|PRON/g; s/_card/|NUM/g; s/_excl/|INTJ/g; s/_poss/|DET/g' | egrep -v "^([A-Za-zÇç'-]+\|[A-Z]+)[^A-Z]\1$$" | sort -u | sort -k1,1 > $@
+#	sed -i '/^[A-ZÇ]/s/|NOUN/|PROPN/g' $@

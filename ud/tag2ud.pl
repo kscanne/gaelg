@@ -2,47 +2,98 @@
 
 use strict;
 use warnings;
+use utf8;
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my %tags = (
-	'1' => 'PART',	# <U>
-	'8' => 'DET',	# <T>
-	'12' => 'ADP',	# <S>
-	'16' => 'PRON',	# <P>
-	'20' => 'ADP',	# <O>
-	'22' => 'ADP',	# <O em="y">
-	'24' => 'ADV',	# <R>
-	'28' => 'SCONJ',	# <C>
-	'32' => 'PRON',	# <Q>
-	'36' => 'INTJ',	# <I>
-	'40' => 'DET',	# <D>
-	'64' => 'NOUN',	# <N pl="n" gnt="n">
-	'72' => 'NOUN',	# <N pl="n" gnt="n" gnd="f">
-	'76' => 'NOUN',	# <N pl="n" gnt="n" gnd="m">
-	'80' => 'NOUN',	# <N pl="n" gnt="y">
-	'88' => 'NOUN',	# <N pl="n" gnt="y" gnd="f">
-	'92' => 'NOUN',	# <N pl="n" gnt="y" gnd="m">
-	'96' => 'NOUN',	# <N pl="y" gnt="n">
-	'104' => 'NOUN',	# <N pl="y" gnt="n" gnd="f">
-	'108' => 'NOUN',	# <N pl="y" gnt="n" gnd="m">
-	'128' => 'ADJ',	# <A pl="n" gnt="n">
-	'152' => 'ADJ',	# <A pl="n" gnt="y" gnd="f">
-	'156' => 'ADJ',	# <A pl="n" gnt="y" gnd="m">
-	'160' => 'ADJ',	# <A pl="y" gnt="n">
-	'200' => 'VERB',	# <V p="y" t="ord">
-	'203' => 'VERB',	# <V p="y" t="caite">
-	'204' => 'VERB',	# <V p="y" t="fáist">
-	'206' => 'VERB',	# <V p="y" t="coinn">
+	'1' => 'PART~_',	# <U>
+	'4' => 'PART~_',	# <U>
+	'8' => 'DET~_',	# <T>
+	'12' => 'ADP~_',	# <S>
+	'16' => 'PRON~_',	# <P>
+	'18' => 'PRON~_',	# <P h="y">
+	'20' => 'ADP~_',	# <O>
+	'22' => 'ADP~_',	# <O em="y">
+	'24' => 'ADV~_',	# <R>
+	'28' => 'SCONJ~_',	# <C>
+	'32' => 'PRON~_',	# <Q>
+	'36' => 'INTJ~_',	# <I>
+	'40' => 'DET~_',	# <D>
+	'64' => 'NOUN~Case=NomAcc|Number=Sing',	# <N pl="n" gnt="n">
+	'65' => 'NOUN~Case=Dat|Number=Sing',	# <N pl="n" gnt="d">
+	'66' => 'NOUN~Case=NomAcc|Form=HPref|Number=Sing', # <N pl="n" gnt="n" h="y">
+	'67' => 'NOUN~Case=Dat|Form=HPref|Number=Sing', # <N pl="n" gnt="d" h="y">
+	'72' => 'NOUN~Case=NomAcc|Gender=Fem|Number=Sing',	# <N pl="n" gnt="n" gnd="f">
+	'74' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Fem|Number=Sing', # <N pl="n" gnt="n" gnd="f" h="y">
+	'76' => 'NOUN~Case=NomAcc|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m">
+	'78' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m" h="y">
+	'80' => 'NOUN~Case=Gen|Number=Sing',	# <N pl="n" gnt="y">
+	'88' => 'NOUN~Case=Gen|Gender=Fem|Number=Sing',	# <N pl="n" gnt="y" gnd="f">
+	'90' => 'NOUN~Case=Gen|Form=HPref|Gender=Fem|Number=Sing',	# <N pl="n" gnt="y" gnd="f" h="y">
+	'92' => 'NOUN~Case=Gen|Gender=Masc|Number=Sing',	# <N pl="n" gnt="y" gnd="m">
+	'94' => 'NOUN~Case=Gen|Form=HPref|Gender=Masc|Number=Sing',	# <N pl="n" gnt="y" gnd="m" h="y">
+	'96' => 'NOUN~Case=NomAcc|Number=Plur',	# <N pl="y" gnt="n">
+	'97' => 'NOUN~Case=Dat|Number=Plur', # <N pl="y" gnt="d">
+	'98' => 'NOUN~Case=NomAcc|Form=HPref|Number=Plur',	# <N pl="y" gnt="n" h="y">
+	'99' => 'NOUN~Case=Dat|Form=HPref|Number=Plur', # <N pl="y" gnt="d" h="y">
+	'104' => 'NOUN~Case=NomAcc|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f">
+	'106' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f" h="y">
+	'108' => 'NOUN~Case=NomAcc|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m">
+	'110' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m" h="y">
+	'112' => 'NOUN~Case=Gen|Number=Plur',	# <N pl="y" gnt="y">
+	'114' => 'NOUN~Case=Gen|Form=HPref|Number=Plur',	# <N pl="y" gnt="y" h="y">
+	'120' => 'NOUN~Case=Gen|Gender=Fem|Number=Plur',	# <N pl="y" gnt="y" gnd="f">
+	'122' => 'NOUN~Case=Gen|Form=HPref|Gender=Fem|Number=Plur',	# <N pl="y" gnt="y" gnd="f" h="y">
+	'124' => 'NOUN~Case=Gen|Gender=Masc|Number=Plur',	# <N pl="y" gnt="y" gnd="m">
+	'126' => 'NOUN~Case=Gen|Form=HPref|Gender=Masc|Number=Plur',	# <N pl="y" gnt="y" gnd="m" h="y">
+	'127' => '!!!!',	# <F>   SKIP...
+	'128' => 'ADJ~Case=NomAcc|Number=Sing',	# <A pl="n" gnt="n">
+	'130' => 'ADJ~Degree=Pos|Form=HPref',	# <A pl="n" gnt="n" h="y">
+	'152' => 'ADJ~Case=Gen|Gender=Fem|Number=Sing',	# <A pl="n" gnt="y" gnd="f">
+	'156' => 'ADJ~Case=Gen|Gender=Masc|Number=Sing',	# <A pl="n" gnt="y" gnd="m">
+	'160' => 'ADJ~Number=Plur',	# <A pl="y" gnt="n">
+	'193' => 'VERB~Mood=Ind|Person=0|Tense=Pres',	# <V p="n" t="láith">
+	'194' => 'AUX~_',	# <V cop="y">
+	'195' => 'VERB~Mood=Ind|Person=0|Tense=Past',	# <V p="n" t="caite">
+	'196' => 'VERB~Mood=Ind|Person=0|Tense=Fut',	# <V p="n" t="fáist">
+	'197' => 'VERB~Aspect=Imp|Person=0|Tense=Past',	# <V p="n" t="gnáth">
+	'198' => 'VERB~Mood=Cnd|Person=0',	# <V p="n" t="coinn">
+#	'199' => 'VERB',	# <V p="n" t="foshuit">
+	'200' => 'VERB~Mood=Imp',	# <V p="y" t="ord">
+	'201' => 'VERB~Mood=Ind|Tense=Pres',	# <V p="y" t="láith">
+	'203' => 'VERB~Mood=Ind|Tense=Past',	# <V p="y" t="caite">
+	'204' => 'VERB~Mood=Ind|Tense=Fut',	# <V p="y" t="fáist">
+	'205' => 'VERB~Aspect=Imp|Tense=Past',	# <V p="y" t="gnáth">
+	'206' => 'VERB~Mood=Cnd',	# <V p="y" t="coinn">
+	'207' => 'VERB~Mood=Sub',	# <V p="y" t="foshuit">
 );
 
 # for POS; keys are word, vals are hash with POS's as keys
 my %pos;
 # for stems; keys are "word|POS", vals are hashes with possible stems as keys
 my %stem;
-my %overridden;
+my %toskip;  # IG headwords we don't want as stems, e.g. "dámáistí"
+
+sub add_feature {
+    (my $tag, my $newfeature, my $newfeatureval) = @_;
+	(my $upos, my $featstring) = $tag =~ m/^([A-Z]+)~(.+)$/;
+    my %tb_dict;
+	unless ($featstring eq '_') {
+    	for my $f (split(/\|/,$featstring)) {
+      	  (my $k, my $v) = split(/=/,$f);
+      	  $tb_dict{$k} = $v;
+		}
+	}
+   	$tb_dict{$newfeature} = $newfeatureval;
+	my @ans;
+	for my $k (sort keys %tb_dict) {
+		push @ans, $k.'='.$tb_dict{$k};
+	}
+    return $upos.'~'.join('|',@ans);
+}
 
 sub add_one {
 	(my $w, my $t, my $s) = @_;
@@ -61,75 +112,26 @@ sub add_one {
 	}
 }
 
-sub add_from_file {
-	(my $fn) = @_;
-	open(EXTRAS, "<:utf8", $fn) or die "Could not open $fn: $!";
-	while (<EXTRAS>) {
+sub read_skip {
+	open(SKIP, "<:utf8", "skip.txt") or die "Could not open skip.txt: $!";
+	while (<SKIP>) {
 		chomp;
-		(my $w, my $st, my $tag) = split(/\t/);
-		add_one($w,$tag,$st);
+		$toskip{$_} = 1;
 	}
-	close EXTRAS;
+	close SKIP;
 }
 
-sub add_oveerrides {
-	open(EXTRAS, "<:utf8", 'stem-override.tsv') or die "Could not open stem-override.tsv: $!";
-	while (<EXTRAS>) {
-		chomp;
-		(my $w, my $st, my $tag) = split(/\t/);
-		add_one($w,$tag,$st);
-		$overridden{"$w|$tag"} = 1;
-	}
-	close EXTRAS;
-}
+read_skip();
 
-sub add_gold_tags {
-	open(GOLD, "<:utf8", "all.conllu") or die "Could not open all.conllu: $!";
-	while (<GOLD>) {
-		chomp;
-		next if (m/^$/);
-		next if (m/^#/);
-		next if (m/^[0-9]+-/);
-		my @all = split(/\t/);
-		add_one($all[1],$all[3],$all[2]);
-	}
-	close GOLD;
-}
-
-sub kill_alt_stems {
-	my %tabla;
-	open(ALTS, "<:utf8", "alts.tsv") or die "Could not open alts.tsv: $!";
-	# there are a few words in focloir.txt that are alts of distinct headwords
-	# so this loop will overwrite the previously seen preferred word...
-	# at the moment this doesn't matter since in no case do the multiple
-	# preferred words share an inflected form
-	# Get this list with:
-	# $ cat alts.tsv | cut -f 1 | fr | egrep -v ' 1 '
-	while (<ALTS>) {
-		chomp;
-		(my $alt, my $preferred) = split(/\t/);
-		$preferred =~ s/\|.*//;
-		$tabla{$alt} = $preferred;
-	}
-	close ALTS;
-	# recall keys look like "daayl|NOUN"
-	for my $k (keys %stem) {
-		(my $w, my $t) = split(/\|/,$k);
-		my %tokill;
-		for my $s (keys %{$stem{$k}}) {
-			$tokill{$s}=1 if (exists($tabla{"$s|$t"}) and exists($stem{$k}->{$tabla{"$s|$t"}}));
-		}
-		for my $x (keys %tokill) {
-			delete $stem{$k}->{$x};
-		}
-	}
-}
-
-
-add_oveerrides();
-
-# pipe GV.txt through this (see makefile)
+# pipe GA.txt through this (see makefile)
+my %nonproper = (
+# Irish...
+'Aifreann' => 1, 'Bíobla' => 1, 'Fínín' => 1, 'Gaeilgeoir' => 1, 'Gael' => 1, 'Naitsí' => 1, 'Poncán' => 1,
+# Manx...
+'dellal-L' => 1, 'lheiney-T' => 1, 'meir-Voirrey' => 1, 'post-L' => 1, 'scell-X' => 1,
+);
 my $new_word_p = 1;
+my $not_headword_p = 0;
 my $st;
 my $offset = 0;   # how many inflected forms into this headword are we
 my $verb_p = 0;
@@ -139,12 +141,29 @@ while (<STDIN>) {
 	chomp;
 	if ($_ eq '-') {
 		$new_word_p = 1;
+		$not_headword_p = 0;
 	}
-	elsif (m/ (ad|oo|shin) / or m/^xx /) {
-		next;
-		$offset++;
+	# pronouns don't occur in Irish
+	elsif (m/^xx / or m/ 127$/ or m/ (ad|oo|shin) /) {
+		if ($new_word_p==1) {
+			$new_word_p = 0;
+			$offset = 0;
+			$not_headword_p = 1;
+		}
+		else {
+			$offset++;
+		}
+	}
+	elsif (exists($toskip{$_}) and $new_word_p==1) {
+		$new_word_p = 0;
+		$offset = 0;
+		$not_headword_p = 1;
 	}
 	else {
+		if ($not_headword_p) {
+			$offset++;
+			next;
+		}
 		m/^(.+) ([0-9]+)/;
 		my $focal = $1;
 		my $tag = $tags{$2};
@@ -152,14 +171,53 @@ while (<STDIN>) {
 			$new_word_p = 0;
 			$st = $focal;
 			$offset = 0;
-			$verb_p = ($tag eq 'VERB');
+			$verb_p = ($tag =~ m/^VERB~/);
 		}
-		# dot after cap to skip dellal-L_nm, post-L, lheiney-T, scell-X
-		$tag = 'PROPN' if ($tag eq 'NOUN' and $focal =~ m/[A-Z]./ and $focal !~ m/-(Voirr|Lyn)/);
-		$tag = 'ADV' if ($tag eq 'PRON' and $focal =~ m/^(kys)$/);
-		$tag = 'DET' if ($tag eq 'ADJ' and $focal =~ m/^(dagh|shoh|shen)$/);
-		$tag = 'PRON' if ($tag eq 'ADJ' and $focal =~ m/^(hene)$/); # follow GD
-		$tag = 'CCONJ' if ($tag eq 'SCONJ' and $focal =~ m/^(agh|as|chamoo|er-nonney|ny)$/);
+		if ($tag =~ m/^(ADP|AUX|DET|PRON)~/) {  # handled in moretags.tsv now
+			$offset++;
+			next;
+		}
+		# anything with a cap treated as PROPN, except for
+		# nationalities like Sasanach, Francach, etc.
+		# and stuff in the hash nonproper above...
+		if ($tag =~ m/^NOUN~/ and $focal =~ m/[A-Z]/ and !exists($nonproper{$st}) and ($st =~ /^(Atlantach|Ceatharlach|Luimneach|Sligeach)$/ or $st !~ m/ach$/)) {
+			$tag =~ s/^NOUN/PROPN/;
+		}
+		if ($verb_p) {  # add Person= feature if needed
+			# MAJOR MAGIC NUMBER SITCH!!
+			if (($offset>=32 and $offset<=37)or($offset>=44 and $offset<=49)) {
+				# Person=1, Number=Sing
+				$tag = add_feature($tag, 'Person', '1');
+				$tag = add_feature($tag, 'Number', 'Sing');
+			}
+			elsif ($offset>=65 and $offset<=70) {
+				# Person=2, Number=Sing
+				$tag = add_feature($tag, 'Person', '2');
+				$tag = add_feature($tag, 'Number', 'Sing');
+			}
+			elsif ($offset>=94 and $offset<=113) {
+				# Person=1, Number=Plur
+				$tag = add_feature($tag, 'Person', '1');
+				$tag = add_feature($tag, 'Number', 'Plur');
+			}
+			elsif ($offset>=114 and $offset<=117) {
+				# Person=2, Number=Plur
+				$tag = add_feature($tag, 'Person', '2');
+				$tag = add_feature($tag, 'Number', 'Plur');
+			}
+			elsif (($offset>=135 and $offset<=138)or($offset>=142 and $offset<=144)or($offset>=148 and $offset<=153)) {
+				# Person=3, Number=Plur
+				$tag = add_feature($tag, 'Person', '3');
+				$tag = add_feature($tag, 'Number', 'Plur');
+			}
+			#elsif (($offset>=156 and $offset<=162)or($offset>=166 and $offset<=176)) {
+				# Person=0
+			#	$tag = add_feature($tag, 'Person', '0');
+			#}
+		}
+		$tag = 'DET~_' if ($tag =~ m/^ADJ~/ and $focal =~ m/^(gach|seo|sin|dagh|shoh|shen)$/);
+		$tag = 'PRON~Reflexive=Yes' if ($tag =~ m/^ADJ~/ and $focal =~ m/^(féin|hene)$/);
+		$tag =~ s/^S/C/ if ($tag =~ m/^SCONJ~/ and $focal =~ m/^(ach|agus|nó|agh|as|ny)$/);
 
 		$vn = $focal if ($verb_p and $offset==1);   # ugh magic numbers
 		$pp = $focal if ($verb_p and $offset==16);   # ugh magic numbers
@@ -169,23 +227,21 @@ while (<STDIN>) {
 		elsif ($verb_p and $offset >= 16 and $offset <= 31) {
 			add_one($focal,$tag, $pp);
 		}
-		elsif (!exists($overridden{"$focal|$tag"})) {
+		else {
 			add_one($focal,$tag, $st);
 		}
 		$offset++;
 	}
 }
 
-add_from_file('extras.tsv');
-add_from_file('numbers.tsv');
-add_gold_tags();
-kill_alt_stems();
-
+# k's are surface forms
 for my $k (sort keys %pos) {
-	my $tags = $pos{$k};
+	# tag is a combo POS~Feature=X
 	for my $tag (sort keys %{$pos{$k}}) {
-		my $allstems = join('|',sort keys %{$stem{"$k|$tag"}});
-		print "$k\t$allstems\t$tag\n";
+		(my $pos, my $feats) = $tag =~ m/^([A-Z]+)~(.+)$/;
+		for my $lemma (sort keys %{$stem{"$k|$tag"}}) {
+			print "$k\t$lemma\t$pos\t_\t$feats\n";
+		}
 	}
 }
 exit 0;
