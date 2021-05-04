@@ -13438,9 +13438,9 @@ Lioas_n	0	1	0
 lion_nm	0	0	leion_nm
 Lion_nm	0	0	0
 lionn-doo_nm	0	1	lioon doo_nm
-liooar_a	0	1	0
+liooar_a	0	0	0
 lioon doo_nm	0	1	0
-lioor_a	0	1	liooar_a
+lioor_a	0	0	liooar_a
 lior_nf	0	0	lioar_nf
 lioree_pronm	lioreeish	0	0
 liorin_pronm	liorinyn	0	0
@@ -17811,7 +17811,6 @@ reajaght_nf	0	0	0
 reajyssagh_a	0	0	0
 realgar_nm	0	0	0
 ream_nm	0	0	0
-ream magnaidagh_n	0	0	0
 reamys_nm	0	0	0
 reamys-aer_nm	0	1	0
 reamys marrey_n	0	0	0

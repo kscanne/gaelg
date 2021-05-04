@@ -66359,18 +66359,15 @@ msgstr "rialgar_nm"
 
 # 1. kingdom, realm 2. ream (paper) 3. regime
 # HLSM links ME. reame/reaume (meaning "realm") for sense 1
+# sense 2 is just Fargher, presumably from Irish
 # cf. rheam_nm
 # GAOL: réam_nm
 msgid "ream_nm"
 msgstr "ríocht_nf;réam_nm;réimeas_nm"
 
-# GAOL: ream_nm+magnaidagh_a
-msgid "ream magnaidagh_n"
-msgstr "réimse maighnéadach"
-
 # focal doiléir (or f.f. if cognate with réimse, etc.)
-# SCC links with "rúm"; no etym in HLSM
-# HLSM says "cf [ream] above"
+# SCC links with "rúm"; no etym in HLSM, but says "cf [ream] above"
+# In Bible, generally means "saoirse", in newer texts, "spás"
 # GAOL: ream_nm+-ys
 msgid "reamys_nm"
 msgstr "spás_nm;saoirse1_nf"
