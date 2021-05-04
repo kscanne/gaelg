@@ -1,5 +1,4 @@
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
-UDIRISH=${HOME}/gaeilge/parsail/treebank
 DIST=${HOME}/seal/UD_Manx-Cadhan
 
 # NEVER EDIT THESE MANUALLY; make fixes in the various input files
@@ -18,8 +17,8 @@ all.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl ali
 	(cat gold/gold.tsv | perl gold/todist.pl; cat alice/alice_gv.conllu; cat usage/parsed.conllu | perl usage/todist.pl) | perl dupecheck.pl > $@
 	chmod 444 $@
 
-tagdict.tsv: $(GA2GV)/GV.txt $(UDIRISH)/tag2ud.pl moretags.tsv
-	(cat $(GA2GV)/GV.txt | perl $(UDIRISH)/tag2ud.pl | egrep -v "^[bdm]'"; cat moretags.tsv) | sort -u | sort -k1,1 > $@
+tagdict.tsv: $(GA2GV)/GV.txt tag2ud.pl moretags.tsv
+	(cat $(GA2GV)/GV.txt | perl tag2ud.pl | egrep -v "^[bdm]'"; cat moretags.tsv) | sort -u | sort -k1,1 > $@
 
 gv.udpipe: gv_cadhan-ud-test.conllu
 	cat gv_cadhan-ud-test.conllu | udpipe --tokenizer "epochs=25" --train $@
