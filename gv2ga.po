@@ -30041,8 +30041,8 @@ msgid "far-olts_nm"
 msgstr "próistéis_nf"
 
 # vn. of farree below
-# HLSM links gd
-# GAOL: gd:faireachdainn_nf
+# HLSM links gd:faireachdainn_nf but see email from CPD 2021-05-18
+# GAOL:
 msgid "farraghtyn_nm"
 msgstr "maireachtáil_nf"
 
