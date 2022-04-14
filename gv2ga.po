@@ -28248,7 +28248,7 @@ msgid "er-creau_adv"
 msgstr "ar crith"
 
 # er-croo lesh = crawling with, alive with, teeming with
-# GAOL: er_prep+croo_nm
+# GAOL: er_prep+crooag_nf
 msgid "er-croo_adv"
 msgstr "dubh;ar sceith"
 
