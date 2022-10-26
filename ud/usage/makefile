@@ -18,6 +18,15 @@ Usage: pairs.txt ${HOME}/seal/caighdean/detokenize.pl
 #usage.conllu: parsed.conllu
 #	cat parsed.conllu | perl todist.pl > $@
 
+# make dist does a new split into train/test
+dist: parsed-checked-test.conllu parsed-checked-train.conllu
+
+#parsed-checked.conllu: parsed.conllu
+#	cat parsed.conllu | perl todist.pl > $@
+
+#parsed-checked-test.conllu parsed-checked-train.conllu: parsed-checked.conllu
+#	perl ${HOME}/gaeilge/parsail/treebank/sample.pl parsed-checked.conllu 50 0
+
 parsed.json: parsed.conllu conllu2json.pl ${HOME}/gaeilge/ga2gv/ga2gv/focloir.txt addenda.txt
 	cat parsed.conllu | perl conllu2json.pl > $@
 
