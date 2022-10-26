@@ -1,14 +1,21 @@
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 DIST=${HOME}/seal/UD_Manx-Cadhan
 
-# NEVER EDIT THESE MANUALLY; make fixes in the various input files
-gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu: all.conllu
-	rm -f gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
-	cp all.conllu gv_cadhan-ud-test.conllu
-	touch gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
-	chmod 444 gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu
-	cp -f gv_cadhan-ud-test.conllu gv_cadhan-ud-dev.conllu gv_cadhan-ud-train.conllu $(DIST)
-	chmod 644 $(DIST)/gv_cadhan-ud-test.conllu $(DIST)/gv_cadhan-ud-dev.conllu $(DIST)/gv_cadhan-ud-train.conllu
+dist: gv_cadhan-ud-test.conllu gv_cadhan-ud-train.conllu
+	cp -f gv_cadhan-ud-test.conllu gv_cadhan-ud-train.conllu $(DIST)
+	chmod 644 $(DIST)/gv_cadhan-ud-test.conllu $(DIST)/gv_cadhan-ud-train.conllu
+
+# NEVER EDIT THIS MANUALLY; make fixes in the various input files
+gv_cadhan-ud-test.conllu: gold/gold-test.conllu gold/todist.pl usage/parsed-test.conllu alice/alice_gv-test.conllu
+	rm -f $@
+	(cat gold/gold-test.conllu | perl gold/todist.pl; cat alice/alice_gv-test.conllu usage/parsed-test.conllu) | perl dupecheck.pl > $@
+	chmod 444 $@
+
+# NEVER EDIT THIS MANUALLY; make fixes in the various input files
+gv_cadhan-ud-train.conllu: gold/gold-train.conllu gold/todist.pl usage/parsed-train.conllu alice/alice_gv-train.conllu
+	rm -f $@
+	(cat gold/gold-train.conllu | perl gold/todist.pl; cat alice/alice_gv-train.conllu usage/parsed-train.conllu) | perl dupecheck.pl > $@
+	chmod 444 $@
 
 # NEVER EDIT THIS MANUALLY; make fixes in the various input files
 all.conllu: gold/gold.tsv gold/todist.pl usage/parsed.conllu usage/todist.pl alice/alice_gv.conllu
