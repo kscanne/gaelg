@@ -190,7 +190,7 @@
 20	fys	fys	NOUN	_	_	19	nsubj	_	_
 21-22	ayd	_	_	_	_	_	_	_	SpaceAfter=No
 21	ec	ec	ADP	_	_	22	case	_	_
-22	oo	oo	PRON	_	Number=Sing|Person=2	19	obl	_	_
+22	oo	oo	PRON	_	Number=Sing|Person=2	19	xcomp:pred	_	_
 23	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = alice_07
