@@ -2277,7 +2277,7 @@
 31	fys	fys	NOUN	_	_	30	obj	_	fios
 32-33	oc	_	_	_	_	_	_	_	
 32	ec	ec	ADP	_	_	33	case	_	acu
-33	ad	ad	PRON	_	Number=Plur|Person=3	30	obl	_	
+33	ad	ad	PRON	_	Number=Plur|Person=3	30	xcomp:pred	_	
 34	er	er	ADP	_	_	36	case	_	ar na
 35	ny	yn	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	
 36	focklyn	fockle	NOUN	_	_	31	nmod	_	focail
@@ -2574,7 +2574,7 @@
 3	mie	mie	ADJ	_	_	2	amod	_	maith
 4-5	aym	_	_	_	_	_	_	_	
 4	ec	ec	ADP	_	_	5	case	_	agam
-5	mee	mee	PRON	_	Number=Sing|Person=1	1	obl	_	
+5	mee	mee	PRON	_	Number=Sing|Person=1	1	xcomp:pred	_	
 6	er	er	ADP	_	_	8	case	_	ar
 7	y	yn	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	an
 8	freggyrt	freggyrt	NOUN	_	_	2	nmod	_	freagra
