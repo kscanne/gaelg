@@ -4912,7 +4912,7 @@ msgstr "at_v"
 
 # GAOL: att_n+cuishley_nf
 msgid "att cuishley_n"
-msgstr "aineoras_nm"
+msgstr "ainéaras_nm"
 
 # HLSM: "?E. 'hat'"
 # focal doiléir
@@ -7766,9 +7766,9 @@ msgstr "beoite_a"
 # HLSM @viol too
 # Fargher spells "biol" (and fem.) @ violin, viol, etc.
 # it's "y viol" @ Isaiah 5:12, so that could be "viol_nm" or "biol_nf"
-# GAOL: bíol_nm
+# GAOL: víol_nm
 msgid "biol_nf"
-msgstr "veidhlín_nm;fidil_nf;bíol_nm"
+msgstr "veidhlín_nm;fidil_nf;víol_nm"
 
 # GAOL: biol_nf+cloieder_nm
 msgid "biol-chloieder_nm"
@@ -12391,7 +12391,7 @@ msgstr "comhaireamh_nm"
 
 # GAOL: ~
 msgid "californium_nm"
-msgstr "calafóirniam_nm"
+msgstr "calafoirniam_nm"
 
 # GAOL: ~
 msgid "callee_nm"
@@ -14969,11 +14969,11 @@ msgstr "seabhdar_nm"
 
 # GAOL: ~;chron-+oaylleeagh_a
 msgid "chron-oaylleeagh_a"
-msgstr "cróineolaíoch_a"
+msgstr "croineolaíoch_a"
 
 # GAOL: ~;chron-+oaylleeaght_nf
 msgid "chron-oaylleeaght_nf"
-msgstr "cróineolaíocht_nf"
+msgstr "croineolaíocht_nf"
 
 # GAOL: ~
 msgid "çhuintys_nm"
@@ -28986,7 +28986,7 @@ msgstr "iúr_nm"
 
 # GAOL: ~
 msgid "eucalyptus_nf"
-msgstr "eoclaip_nf"
+msgstr "eocalaip_nf"
 
 # focal.ie
 # GAOL: ~;eukaryote_nm+-agh
@@ -34553,7 +34553,7 @@ msgstr "fungas_nm"
 
 # GAOL: fungys_nm+nieu_nf
 msgid "fungys-nieu_nm"
-msgstr "fungaicíd_nf"
+msgstr "fuingicíd_nf"
 
 # GAOL: ~
 msgid "furnish_nf"
@@ -48582,7 +48582,7 @@ msgstr "leasainm_nm"
 # "euphemistic"; not in corpus, cf. prev.
 # GAOL: lhiass-ennym_nm+-agh
 msgid "lhiass-ennymagh_a"
-msgstr "sofhriotlach_a"
+msgstr "sofhriotalach_a"
 
 # GAOL: lhiass-+shuyr_nf
 msgid "lhiass-huyr_nf"
@@ -57631,7 +57631,7 @@ msgstr "traidisiúnaí_nm"
 # 1. intransitive (verb) - breear(yn) ~ -> multi-gv
 # GAOL: neu-+caghlaa_v
 msgid "neuchaghlaaee_a"
-msgstr "neamh-aistreach_a;do-athraithe_a"
+msgstr "neamhaistreach_a;do-athraithe_a"
 
 # cairagh_a = ceart/cóir
 # HLSM with hyphen
