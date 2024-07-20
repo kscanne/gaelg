@@ -260,43 +260,52 @@ while (<STDIN>) {
 			add_one($focal,$tag, $st);
 		}
 		elsif ($tag =~ m/^ADJ~/) {
+			my $lenited_p = 0;
+			$lenited_p = 1 if ($tag =~ m/Form=Len/);
+			my $unlenitedlenitable_p = 0;
+			$unlenitedlenitable_p = 1 if ($tag !~ m/Form=Len/ and $focal =~ m/^([BbCcDdFfGgMmPpTt]|[Ss][lnraeiouáéíóú])/);
 			if ($tag =~ m/Number=Plur/) {
 				$tag = add_feature($tag, 'Case', 'Nom');
 				$tag = add_feature($tag, 'Gender', 'Masc');
 				$tag = add_feature($tag, 'NounType', 'Slender');
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($unlenitedlenitable_p);
 				$tag =~ s/Gender=Masc/Gender=Fem/;
-				add_one($focal,$tag, $st);
-				$tag =~ s/NounType=Slender/NounType=NotSlender/;
-				add_one($focal,$tag, $st);
-				$tag =~ s/Gender=Fem/Gender=Masc/;
-				add_one($focal,$tag, $st);
-				$tag =~ s/Case=Nom/Case=Gen/;
-				$tag =~ s/NounType=NotSlender/NounType=Strong/;
-				add_one($focal,$tag, $st);
-				$tag =~ s/Gender=Masc/Gender=Fem/;
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($unlenitedlenitable_p);
+				unless ($lenited_p) {
+					$tag =~ s/NounType=Slender/NounType=NotSlender/;
+					add_one($focal,$tag, $st);
+					$tag =~ s/Gender=Fem/Gender=Masc/;
+					add_one($focal,$tag, $st);
+					$tag =~ s/Case=Nom/Case=Gen/;
+					$tag =~ s/NounType=NotSlender/NounType=Strong/;
+					add_one($focal,$tag, $st);
+					$tag =~ s/Gender=Masc/Gender=Fem/;
+					add_one($focal,$tag, $st);
+				}
 			}
 			elsif ($tag =~ m/Case=Nom.*Number=Sing/) {
 				$tag = add_feature($tag, 'Gender', 'Masc');
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($lenited_p);
 				$tag =~ s/Gender=Masc/Gender=Fem/;
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($unlenitedlenitable_p);
 				$tag =~ s/Case=Nom/Case=Gen/;
 				$tag =~ s/Number=Sing/Number=Plur/;
 				$tag = add_feature($tag, 'NounType', 'Weak');
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($lenited_p);
 				$tag =~ s/Gender=Fem/Gender=Masc/;
-				add_one($focal,$tag, $st);
+				add_one($focal,$tag, $st) unless ($lenited_p);
 				$tag =~ s/\|Gender=.+$//;
 				$tag =~ s/Case=Gen/Degree=Pos/;
 				add_one($focal,$tag, $st);
 			}
 			else { # genitive singular masc/fem
-				add_one($focal,$tag, $st);
-				if ($tag =~ m/Case=Gen.*Gender=Fem/) {
+				if ($tag =~ m/Case=Gen.*Gender=Masc/) {
+					add_one($focal,$tag, $st) unless ($unlenitedlenitable_p);
+				}
+				elsif ($tag =~ m/Case=Gen.*Gender=Fem/) {
+					add_one($focal,$tag, $st) unless ($lenited_p);
 					$tag =~ s/\|Gender=Fem.*$//;
-					$tag =~ s/Case=Gen/Degree=Cmp,Sup/;
+					$tag =~ s/Case=Gen/Degree=Cmp,Sup/; # can be lenited in past
 					add_one($focal,$tag, $st);
 				}
 			}
