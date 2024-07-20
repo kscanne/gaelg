@@ -22,27 +22,27 @@ my %tags = (
 	'32' => 'PRON~_',	# <Q>
 	'36' => 'INTJ~_',	# <I>
 	'40' => 'DET~_',	# <D>
-	'64' => 'NOUN~Case=NomAcc|Number=Sing',	# <N pl="n" gnt="n">
+	'64' => 'NOUN~Case=Nom|Number=Sing',	# <N pl="n" gnt="n">
 	'65' => 'NOUN~Case=Dat|Number=Sing',	# <N pl="n" gnt="d">
-	'66' => 'NOUN~Case=NomAcc|Form=HPref|Number=Sing', # <N pl="n" gnt="n" h="y">
+	'66' => 'NOUN~Case=Nom|Form=HPref|Number=Sing', # <N pl="n" gnt="n" h="y">
 	'67' => 'NOUN~Case=Dat|Form=HPref|Number=Sing', # <N pl="n" gnt="d" h="y">
-	'72' => 'NOUN~Case=NomAcc|Gender=Fem|Number=Sing',	# <N pl="n" gnt="n" gnd="f">
-	'74' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Fem|Number=Sing', # <N pl="n" gnt="n" gnd="f" h="y">
-	'76' => 'NOUN~Case=NomAcc|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m">
-	'78' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m" h="y">
+	'72' => 'NOUN~Case=Nom|Gender=Fem|Number=Sing',	# <N pl="n" gnt="n" gnd="f">
+	'74' => 'NOUN~Case=Nom|Form=HPref|Gender=Fem|Number=Sing', # <N pl="n" gnt="n" gnd="f" h="y">
+	'76' => 'NOUN~Case=Nom|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m">
+	'78' => 'NOUN~Case=Nom|Form=HPref|Gender=Masc|Number=Sing',	# <N pl="n" gnt="n" gnd="m" h="y">
 	'80' => 'NOUN~Case=Gen|Number=Sing',	# <N pl="n" gnt="y">
 	'88' => 'NOUN~Case=Gen|Gender=Fem|Number=Sing',	# <N pl="n" gnt="y" gnd="f">
 	'90' => 'NOUN~Case=Gen|Form=HPref|Gender=Fem|Number=Sing',	# <N pl="n" gnt="y" gnd="f" h="y">
 	'92' => 'NOUN~Case=Gen|Gender=Masc|Number=Sing',	# <N pl="n" gnt="y" gnd="m">
 	'94' => 'NOUN~Case=Gen|Form=HPref|Gender=Masc|Number=Sing',	# <N pl="n" gnt="y" gnd="m" h="y">
-	'96' => 'NOUN~Case=NomAcc|Number=Plur',	# <N pl="y" gnt="n">
+	'96' => 'NOUN~Case=Nom|Number=Plur',	# <N pl="y" gnt="n">
 	'97' => 'NOUN~Case=Dat|Number=Plur', # <N pl="y" gnt="d">
-	'98' => 'NOUN~Case=NomAcc|Form=HPref|Number=Plur',	# <N pl="y" gnt="n" h="y">
+	'98' => 'NOUN~Case=Nom|Form=HPref|Number=Plur',	# <N pl="y" gnt="n" h="y">
 	'99' => 'NOUN~Case=Dat|Form=HPref|Number=Plur', # <N pl="y" gnt="d" h="y">
-	'104' => 'NOUN~Case=NomAcc|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f">
-	'106' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f" h="y">
-	'108' => 'NOUN~Case=NomAcc|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m">
-	'110' => 'NOUN~Case=NomAcc|Form=HPref|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m" h="y">
+	'104' => 'NOUN~Case=Nom|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f">
+	'106' => 'NOUN~Case=Nom|Form=HPref|Gender=Fem|Number=Plur',	# <N pl="y" gnt="n" gnd="f" h="y">
+	'108' => 'NOUN~Case=Nom|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m">
+	'110' => 'NOUN~Case=Nom|Form=HPref|Gender=Masc|Number=Plur',	# <N pl="y" gnt="n" gnd="m" h="y">
 	'112' => 'NOUN~Case=Gen|Number=Plur',	# <N pl="y" gnt="y">
 	'114' => 'NOUN~Case=Gen|Form=HPref|Number=Plur',	# <N pl="y" gnt="y" h="y">
 	'120' => 'NOUN~Case=Gen|Gender=Fem|Number=Plur',	# <N pl="y" gnt="y" gnd="f">
@@ -50,7 +50,7 @@ my %tags = (
 	'124' => 'NOUN~Case=Gen|Gender=Masc|Number=Plur',	# <N pl="y" gnt="y" gnd="m">
 	'126' => 'NOUN~Case=Gen|Form=HPref|Gender=Masc|Number=Plur',	# <N pl="y" gnt="y" gnd="m" h="y">
 	'127' => '!!!!',	# <F>   SKIP...
-	'128' => 'ADJ~Case=NomAcc|Number=Sing',	# <A pl="n" gnt="n">
+	'128' => 'ADJ~Case=Nom|Number=Sing',	# <A pl="n" gnt="n">
 	'130' => 'ADJ~Degree=Pos|Form=HPref',	# <A pl="n" gnt="n" h="y">
 	'152' => 'ADJ~Case=Gen|Gender=Fem|Number=Sing',	# <A pl="n" gnt="y" gnd="f">
 	'156' => 'ADJ~Case=Gen|Gender=Masc|Number=Sing',	# <A pl="n" gnt="y" gnd="m">
@@ -135,6 +135,8 @@ my $not_headword_p = 0;
 my $st;
 my $offset = 0;   # how many inflected forms into this headword are we
 my $verb_p = 0;
+my $plural = undef;
+my $weakpl = undef;
 my $vn;
 my $pp;
 while (<STDIN>) {
@@ -170,12 +172,23 @@ while (<STDIN>) {
 		if ($new_word_p==1) {
 			$new_word_p = 0;
 			$st = $focal;
+			$plural = undef;
+			$weakpl = undef;
 			$offset = 0;
 			$verb_p = ($tag =~ m/^VERB~/);
 		}
 		if ($tag =~ m/^(ADP|AUX|DET|PRON)~/) {  # handled in moretags.tsv now
 			$offset++;
 			next;
+		}
+		if ($focal =~ m/^(n[AEIOUÁÉÍÓÚ]|n-[aeiouáéíóú]|m[Bb]|g[Cc]|n[DdGg]|bh[Ff]|b[Pp]|d[Tt])/) {
+			$tag = add_feature($tag, 'Form', 'Ecl');
+		}
+		elsif ($focal =~ m/^[BbCcDdFfGgMmPpSsTt]h/ and $st !~ m/^.h/) {
+			$tag = add_feature($tag, 'Form', 'Len');
+		}
+		elsif ($focal =~ m/^h[AEIOUÁÉÍÓÚaeiouáéíóú]/ and $st !~ m/^h/) {
+			$tag = add_feature($tag, 'Form', 'HPref');
 		}
 		# anything with a cap treated as PROPN, except for
 		# nationalities like Sasanach, Francach, etc.
@@ -226,6 +239,67 @@ while (<STDIN>) {
 		}
 		elsif ($verb_p and $offset >= 16 and $offset <= 31) {
 			add_one($focal,$tag, $pp);
+		}
+		elsif ($tag =~ m/^NOUN~/) {
+			if (!defined($plural) and $tag =~ m/Number=Plur/) {
+				$plural = $focal;
+			}
+			if ($tag =~ m/Case=Gen.*Number=Plur/) {
+				if (!defined($weakpl)) {
+					$weakpl = ($focal ne $plural);
+				}
+				if ($weakpl) {
+					$tag = add_feature($tag, 'NounType', 'Weak');
+				}
+				else {
+					$tag = add_feature($tag, 'NounType', 'Strong');
+				}
+			}
+			add_one($focal,$tag, $st);
+			$tag = add_feature($tag, 'Definite', 'Def');
+			add_one($focal,$tag, $st);
+		}
+		elsif ($tag =~ m/^ADJ~/) {
+			if ($tag =~ m/Number=Plur/) {
+				$tag = add_feature($tag, 'Case', 'Nom');
+				$tag = add_feature($tag, 'Gender', 'Masc');
+				$tag = add_feature($tag, 'NounType', 'Slender');
+				add_one($focal,$tag, $st);
+				$tag =~ s/Gender=Masc/Gender=Fem/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/NounType=Slender/NounType=NotSlender/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/Gender=Fem/Gender=Masc/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/Case=Nom/Case=Gen/;
+				$tag =~ s/NounType=NotSlender/NounType=Strong/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/Gender=Masc/Gender=Fem/;
+				add_one($focal,$tag, $st);
+			}
+			elsif ($tag =~ m/Case=Nom.*Number=Sing/) {
+				$tag = add_feature($tag, 'Gender', 'Masc');
+				add_one($focal,$tag, $st);
+				$tag =~ s/Gender=Masc/Gender=Fem/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/Case=Nom/Case=Gen/;
+				$tag =~ s/Number=Sing/Number=Plur/;
+				$tag = add_feature($tag, 'NounType', 'Weak');
+				add_one($focal,$tag, $st);
+				$tag =~ s/Gender=Fem/Gender=Masc/;
+				add_one($focal,$tag, $st);
+				$tag =~ s/\|Gender=.+$//;
+				$tag =~ s/Case=Gen/Degree=Pos/;
+				add_one($focal,$tag, $st);
+			}
+			else { # genitive singular masc/fem
+				add_one($focal,$tag, $st);
+				if ($tag =~ m/Case=Gen.*Gender=Fem/) {
+					$tag =~ s/\|Gender=Fem.*$//;
+					$tag =~ s/Case=Gen/Degree=Cmp,Sup/;
+					add_one($focal,$tag, $st);
+				}
+			}
 		}
 		else {
 			add_one($focal,$tag, $st);
