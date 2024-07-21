@@ -298,7 +298,7 @@ while (<STDIN>) {
 				$tag =~ s/Case=Gen/Degree=Pos/;
 				add_one($focal,$tag, $st);
 			}
-			else { # genitive singular masc/fem
+			elsif ($tag =~ m/Case=Gen.*Number=Sing/) {
 				if ($tag =~ m/Case=Gen.*Gender=Masc/) {
 					add_one($focal,$tag, $st) unless ($unlenitedlenitable_p);
 				}
@@ -308,6 +308,9 @@ while (<STDIN>) {
 					$tag =~ s/Case=Gen/Degree=Cmp,Sup/; # can be lenited in past
 					add_one($focal,$tag, $st);
 				}
+			}
+			else { # code=130, Degree=Pos|Form=HPref
+				add_one($focal,$tag, $st);
 			}
 		}
 		else {
