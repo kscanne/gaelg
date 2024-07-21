@@ -156,7 +156,7 @@ while (<STDIN>) {
 			$offset++;
 		}
 	}
-	elsif (exists($toskip{$_}) and $new_word_p==1) {
+	elsif ((exists($toskip{$_}) or m/ (65|97)$/) and $new_word_p==1) {
 		$new_word_p = 0;
 		$offset = 0;
 		$not_headword_p = 1;
