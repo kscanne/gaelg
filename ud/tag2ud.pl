@@ -203,7 +203,7 @@ while (<STDIN>) {
 				$tag = add_feature($tag, 'Person', '1');
 				$tag = add_feature($tag, 'Number', 'Sing');
 			}
-			elsif ($offset>=65 and $offset<=70) {
+			elsif ($offset==52 or ($offset>=65 and $offset<=70)) { # imperative, imperfect, conditional
 				# Person=2, Number=Sing
 				$tag = add_feature($tag, 'Person', '2');
 				$tag = add_feature($tag, 'Number', 'Sing');
@@ -235,7 +235,22 @@ while (<STDIN>) {
 		$vn = $focal if ($verb_p and $offset==1);   # ugh magic numbers
 		$pp = $focal if ($verb_p and $offset==16);   # ugh magic numbers
 		if ($verb_p and $offset >= 1 and $offset <= 15) {
-			add_one($focal,$tag, $vn);
+			add_one($focal,$tag, $vn);  # add with Case/Gender/Number
+			my $origtag = $tag;
+			$tag = add_feature($tag, 'Definite', 'Def');
+			add_one($focal,$tag, $vn);  # add with Case/Gender/Number/Definite
+			$tag = $origtag;
+			if ($tag =~ m/Case=Nom/) {
+				$tag =~ s/Case=Nom\|//;
+				$tag =~ s/Gender=.+$/VerbForm=Vnoun/; # keeps Form if there
+				add_one($focal,$tag,$vn) unless ($tag =~ m/[^a-z]Form=/); # ag cur
+				$tag =~ s/=Vnoun/=Inf/;
+				# if eclipsed must be Definite=Def "á n-achtáil"
+				# note that prefix-h can be Def or Indef (rud éigin le hithe)
+				add_one($focal,$tag,$vn) unless ($tag =~ m/Form=Ecl/);
+				$tag = add_feature($tag, 'Definite', 'Def');
+				add_one($focal,$tag,$vn);
+			}
 		}
 		elsif ($verb_p and $offset >= 16 and $offset <= 31) {
 			add_one($focal,$tag, $pp);
@@ -313,7 +328,7 @@ while (<STDIN>) {
 				add_one($focal,$tag, $st);
 			}
 		}
-		else {
+		else { # not vadj, vn, NOUN, ADJ
 			add_one($focal,$tag, $st);
 		}
 		$offset++;
