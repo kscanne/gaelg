@@ -9,6 +9,7 @@ binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my %tags = (
+	'0' => 'X~_',	# placeholder
 	'1' => 'PART~_',	# <U>
 	'4' => 'PART~_',	# <U>
 	'8' => 'DET~_',	# <T>
@@ -55,13 +56,14 @@ my %tags = (
 	'152' => 'ADJ~Case=Gen|Gender=Fem|Number=Sing',	# <A pl="n" gnt="y" gnd="f">
 	'156' => 'ADJ~Case=Gen|Gender=Masc|Number=Sing',	# <A pl="n" gnt="y" gnd="m">
 	'160' => 'ADJ~Number=Plur',	# <A pl="y" gnt="n">
+	'192' => 'VERB~Mood=Imp|Person=0',	# <V p="n" t="ord">
 	'193' => 'VERB~Mood=Ind|Person=0|Tense=Pres',	# <V p="n" t="láith">
 	'194' => 'AUX~_',	# <V cop="y">
 	'195' => 'VERB~Mood=Ind|Person=0|Tense=Past',	# <V p="n" t="caite">
 	'196' => 'VERB~Mood=Ind|Person=0|Tense=Fut',	# <V p="n" t="fáist">
 	'197' => 'VERB~Aspect=Imp|Person=0|Tense=Past',	# <V p="n" t="gnáth">
 	'198' => 'VERB~Mood=Cnd|Person=0',	# <V p="n" t="coinn">
-#	'199' => 'VERB',	# <V p="n" t="foshuit">
+	'199' => 'VERB~Mood=Sub|Person=0',	# <V p="n" t="foshuit">
 	'200' => 'VERB~Mood=Imp',	# <V p="y" t="ord">
 	'201' => 'VERB~Mood=Ind|Tense=Pres',	# <V p="y" t="láith">
 	'203' => 'VERB~Mood=Ind|Tense=Past',	# <V p="y" t="caite">
@@ -76,6 +78,7 @@ my %pos;
 # for stems; keys are "word|POS", vals are hashes with possible stems as keys
 my %stem;
 my %toskip;  # IG headwords we don't want as stems, e.g. "dámáistí"
+my $mode = 0; # 0==GA.txt (words and numbers), 1=athfhocail (w/ standard/lemma)
 
 sub add_feature {
     (my $tag, my $newfeature, my $newfeatureval) = @_;
@@ -95,6 +98,8 @@ sub add_feature {
     return $upos.'~'.join('|',@ans);
 }
 
+# pass word/tag/lemma and adds to both %pos and %stem hashes
+# which are used at the end for printing out dict
 sub add_one {
 	(my $w, my $t, my $s) = @_;
 	if (exists($pos{$w})) {
@@ -123,7 +128,7 @@ sub read_skip {
 
 read_skip();
 
-# pipe GA.txt through this (see makefile)
+# pipe GA.txt or athfhocail through this (see makefile)
 my %nonproper = (
 # Irish...
 'Aifreann' => 1, 'Bíobla' => 1, 'Fínín' => 1, 'Gaeilgeoir' => 1, 'Gael' => 1, 'Naitsí' => 1, 'Poncán' => 1,
@@ -141,12 +146,21 @@ my $vn;
 my $pp;
 while (<STDIN>) {
 	chomp;
-	if ($_ eq '-') {
+	my $line = $_;
+	$mode = 1 if ($line =~ m/\t/);
+	if ($line eq '-') {
 		$new_word_p = 1;
 		$not_headword_p = 0;
 	}
-	# pronouns don't occur in Irish
-	elsif (m/^xx / or m/ 127$/ or m/ (ad|oo|shin) /) {
+	# * examples with two spaces happen in GV.txt (verbs + oo, etc.)
+    #   and also in athfhocail  "teine-abhar ábhar tine" e.g.
+	#   Can't use either for tagdict of course.
+	# * 127 occurs for OD77b stuff, for example (e.g. ata, eisc, inne)
+	# as the first word of an entry (=> will skip all inflections)
+	# and also with some verb tenses in the middle of an entry
+	# (in which case it just skips those)
+	# * xx occurs as first word for stuff like "atáimid", "bhfaighidh", etc.
+	elsif ($line =~ m/^xx / or $line =~ m/ 127$/ or $line =~ m/^[^\t]+ [^\t]+ /) {
 		if ($new_word_p==1) {
 			$new_word_p = 0;
 			$offset = 0;
@@ -156,7 +170,8 @@ while (<STDIN>) {
 			$offset++;
 		}
 	}
-	elsif ((exists($toskip{$_}) or m/ (65|97)$/) and $new_word_p==1) {
+	# more stuff to skip: 65/97 are datives
+	elsif ((exists($toskip{$line}) or $line =~ m/ (65|97)$/) and $new_word_p==1) {
 		$new_word_p = 0;
 		$offset = 0;
 		$not_headword_p = 1;
@@ -166,12 +181,35 @@ while (<STDIN>) {
 			$offset++;
 			next;
 		}
-		m/^(.+) ([0-9]+)/;
-		my $focal = $1;
-		my $tag = $tags{$2};
+		my $focal;
+		my $tag;
+		if ($mode==0) {
+			$line =~ m/^(.+) ([0-9]+)$/;
+			$focal = $1;
+			$tag = $tags{$2};
+		}
+		elsif ($mode==1) {
+			$line =~ m/^([^ ]+) .+\t([^ ]+) ([0-9]+)$/;
+			$focal = $1;
+			$st = $2;
+			my $tagnum = $3;
+			# future self: yes I'm throwing info away to reconsruct below
+			$tagnum = 200+($tagnum % 8) if ($tagnum>207);
+			if (exists($tags{$tagnum})) {
+				$tag = $tags{$tagnum};
+			}
+			else {
+				print STDERR "Problem converting numerical tag $tagnum on this line: $line\n";
+				exit(1);
+			}
+		}
+		else {
+			print STDERR "Error: unexpected mode $mode\n";
+			exit(1);
+		}
 		if ($new_word_p==1) {
 			$new_word_p = 0;
-			$st = $focal;
+			$st = $focal if ($mode==0);
 			$plural = undef;
 			$weakpl = undef;
 			$offset = 0;
@@ -253,9 +291,13 @@ while (<STDIN>) {
 			}
 		}
 		elsif ($verb_p and $offset >= 16 and $offset <= 31) {
-			add_one($focal,$tag, $pp);
+			add_one($focal, $tag, $pp);
+			if ($tag =~ m/Number=Plur$/) {
+				$tag =~ s/Number=Plur/VerbForm=Part/;
+				add_one($focal, $tag, $pp);
+			}
 		}
-		elsif ($tag =~ m/^NOUN~/) {
+		elsif ($tag =~ m/^(PROPN|NOUN)~/) {
 			if (!defined($plural) and $tag =~ m/Number=Plur/) {
 				$plural = $focal;
 			}
@@ -270,6 +312,7 @@ while (<STDIN>) {
 					$tag = add_feature($tag, 'NounType', 'Strong');
 				}
 			}
+			# if PROPN, should only write w/o Def in select cases...
 			add_one($focal,$tag, $st);
 			$tag = add_feature($tag, 'Definite', 'Def');
 			add_one($focal,$tag, $st);
