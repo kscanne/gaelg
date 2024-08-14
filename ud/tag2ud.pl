@@ -142,12 +142,17 @@ my $offset = 0;   # how many inflected forms into this headword are we
 my $verb_p = 0;
 my $plural = undef;
 my $weakpl = undef;
+my $focal;
 my $vn;
 my $pp;
 while (<STDIN>) {
 	chomp;
 	my $line = $_;
-	$mode = 1 if ($line =~ m/\t/);
+	my $skipcheck = $line;
+	if ($line =~ m/\t/) {
+		$mode = 1;
+		$skipcheck =~ s/^.+\t//;
+	}
 	if ($line eq '-') {
 		$new_word_p = 1;
 		$not_headword_p = 0;
@@ -159,8 +164,9 @@ while (<STDIN>) {
 	# as the first word of an entry (=> will skip all inflections)
 	# and also with some verb tenses in the middle of an entry
 	# (in which case it just skips those)
-	# * xx occurs as first word for stuff like "atáimid", "bhfaighidh", etc.
-	elsif ($line =~ m/^xx / or $line =~ m/ 127$/ or $line =~ m/^[^\t]+ [^\t]+ /) {
+	# * 0 only occurs in athfhocail, for stuff like "bhfaighidh", etc.
+	# * xx occurs as first word in GA.txt for similar stuff:"bhfaighidh", etc.
+	elsif (($line =~ m/^xx / and $mode==0) or $line =~ m/ (0|127)$/ or $line =~ m/^[^\t]+ [^\t]+ /) {
 		if ($new_word_p==1) {
 			$new_word_p = 0;
 			$offset = 0;
@@ -171,7 +177,7 @@ while (<STDIN>) {
 		}
 	}
 	# more stuff to skip: 65/97 are datives
-	elsif ((exists($toskip{$line}) or $line =~ m/ (65|97)$/) and $new_word_p==1) {
+	elsif ((exists($toskip{$skipcheck}) or $line =~ m/ (65|97)$/) and $new_word_p==1) {
 		$new_word_p = 0;
 		$offset = 0;
 		$not_headword_p = 1;
@@ -181,7 +187,6 @@ while (<STDIN>) {
 			$offset++;
 			next;
 		}
-		my $focal;
 		my $tag;
 		if ($mode==0) {
 			$line =~ m/^(.+) ([0-9]+)$/;
@@ -219,6 +224,10 @@ while (<STDIN>) {
 			$offset++;
 			next;
 		}
+		if ($focal eq 'xx') { # only gets here for mode==1
+			$offset++;
+			next;
+		}
 		if ($focal =~ m/^(n[AEIOUÁÉÍÓÚ]|n-[aeiouáéíóú]|m[Bb]|g[Cc]|n[DdGg]|bh[Ff]|b[Pp]|d[Tt])/) {
 			$tag = add_feature($tag, 'Form', 'Ecl');
 		}
@@ -231,7 +240,7 @@ while (<STDIN>) {
 		# anything with a cap treated as PROPN, except for
 		# nationalities like Sasanach, Francach, etc.
 		# and stuff in the hash nonproper above...
-		if ($tag =~ m/^NOUN~/ and $focal =~ m/[A-Z]/ and !exists($nonproper{$st}) and ($st =~ /^(Atlantach|Ceatharlach|Luimneach|Sligeach)$/ or $st !~ m/ach$/)) {
+		if ($tag =~ m/^NOUN~/ and $focal =~ m/[A-ZÁÉÍÓÚ]/ and !exists($nonproper{$st}) and ($st =~ /^(Atlantach|Ceatharlach|Luimneach|Sligeach)$/ or $st !~ m/ach$/)) {
 			$tag =~ s/^NOUN/PROPN/;
 		}
 		if ($verb_p) {  # add Person= feature if needed
