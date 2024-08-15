@@ -129,11 +129,18 @@ sub read_skip {
 read_skip();
 
 # pipe GA.txt or athfhocail through this (see makefile)
+
+# nouns that have a capital that I want to assign NOUN, not PROPN
 my %nonproper = (
 # Irish...
-'Aifreann' => 1, 'Bíobla' => 1, 'Fínín' => 1, 'Gaeilgeoir' => 1, 'Gael' => 1, 'Naitsí' => 1, 'Poncán' => 1,
+'Aifreann' => 1, 'Béarlóir' => 1, 'Bíobla' => 1, 'Bráman' => 1, 'Breatnaiseoir' => 1, 'Búdaí' => 1, 'Cóir-Thrádáil'=>1, 'Críostaí'=>1, 'dea-Ghael' => 1, 'Falangaí'=>1, 'Fínín' => 1, 'fíor-Ghael'=>1, 'Forann'=>1, 'Frainciseoir' => 1, 'Gaeilgeoir' => 1, 'Gael' => 1, 'Gall'=>1, 'Gall-Ghael'=>1, 'Gréagóir'=> 1, 'iar-Aire'=>1, 'iar-Phríomh-Aire'=>1, 'iar-Uachtarán'=>1, 'Laidineoir'=> 1, 'Lár-Limistéar'=>1, 'L-phláta'=>1, 'Luath-Óige'=>1, 'Móróg'=>1, 'Naitsí' => 1, 'Neamh-Chríostaí'=>1, 'Nósadóir' => 1, 'nua-Naitsí'=>1, 'Páiseadóir' => 1, 'Piocht'=>1, 'Poncán' => 1, 'Rúisiseoir'=>1, 'Sabóidire'=>1, 'Saorstátaire'=>1, 'Saraistín'=>1, 'Sean-Airteagal'=>1, 'Sean-Ghall'=>1, 'Sean-Ghael'=>1, 'sean-Pharlaimint'=>1, 'Séicire'=>1, 'Sior'=>1, 'Sóivéid'=>1, 'Stát-Pháirtí'=>1, 'Teamplóir' => 1, 'Trípháirtíocht'=>1, 'Úcráiniseoir'=>1, 'Vandal'=>1, 'Vicipéideoir'=>1, 'X-chrómasóm'=>1, 'Y-chrómasóm'=>1,
 # Manx...
 'dellal-L' => 1, 'lheiney-T' => 1, 'meir-Voirrey' => 1, 'post-L' => 1, 'scell-X' => 1,
+);
+# nouns ending in -a[e]ch, -[áoóú]ch that should be PROPN, not NOUN
+# Nationalities are currently NOUN (since not Definite by default)
+my %properach = (
+'Atlantach' => 1, 'Ceatharlach' => 1, 'Domhnach' => 1, 'Gaelbhratach' => 1, 'Grásach' => 1, 'Luimneach' => 1, 'Naomhtheaghlach' => 1, 'Peintiteoch'=>1, 'Seisreach' => 1, 'Sligeach' => 1,
 );
 my $new_word_p = 1;
 my $not_headword_p = 0;
@@ -240,7 +247,7 @@ while (<STDIN>) {
 		# anything with a cap treated as PROPN, except for
 		# nationalities like Sasanach, Francach, etc.
 		# and stuff in the hash nonproper above...
-		if ($tag =~ m/^NOUN~/ and $focal =~ m/[A-ZÁÉÍÓÚ]/ and !exists($nonproper{$st}) and ($st =~ /^(Atlantach|Ceatharlach|Luimneach|Sligeach)$/ or $st !~ m/ach$/)) {
+		if ($tag =~ m/^NOUN~/ and $focal =~ m/[A-ZÁÉÍÓÚ]/ and !exists($nonproper{$st}) and (exists($properach{$st}) or $st !~ m/(ae?|[áóú]|[eí]o)ch$/)) {
 			$tag =~ s/^NOUN/PROPN/;
 		}
 		if ($verb_p) {  # add Person= feature if needed
