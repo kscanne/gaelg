@@ -332,6 +332,13 @@ while (<STDIN>) {
 				add_one($focal, $tag, $pp);
 			}
 		}
+		elsif ($verb_p and $offset >= 32) {
+			add_one($focal, $tag, $st);
+			# could require initial bcdfgpt to be mutated
+			# but there's also non-std "ná fuil", "ná taithíonn", srl.
+			$tag = add_feature($tag, 'Polarity', 'Neg');
+			add_one($focal, $tag, $st);
+		}
 		elsif ($tag =~ m/^(PROPN|NOUN)~/) {
 			if (!defined($plural) and $tag =~ m/Number=Plur/) {
 				$plural = $focal;
@@ -408,7 +415,7 @@ while (<STDIN>) {
 				add_one($focal,$tag, $st);
 			}
 		}
-		else { # not vadj, vn, NOUN, ADJ
+		else { # not VERB, NOUN, ADJ
 			add_one($focal,$tag, $st);
 		}
 		$offset++;
