@@ -78,6 +78,7 @@ my %pos;
 # for stems; keys are "word|POS", vals are hashes with possible stems as keys
 my %stem;
 my %toskip;  # IG headwords we don't want as stems, e.g. "dámáistí"
+my %indef_gen_ok;  # mostly languages
 my $mode = 0; # 0==GA.txt (words and numbers), 1=athfhocail (w/ standard/lemma)
 
 sub add_feature {
@@ -127,6 +128,24 @@ sub read_skip {
 }
 
 read_skip();
+
+sub read_langs {
+	open(TEANGACHA, "<:utf8", "teangacha.txt") or die "Could not open teangacha.txt: $!";
+	while (<TEANGACHA>) {
+		chomp;
+		$indef_gen_ok{$_} = 1;
+	}
+	close TEANGACHA;
+}
+# read others from "properButIndefinite"?
+$indef_gen_ok{'Aidbhint'} = 1; # féilire Aidbhinte
+$indef_gen_ok{'Aifreann'} = 1; # leabhar Aifrinn
+$indef_gen_ok{'Breatimeacht'} = 1; # cúrsaí Breatimeachta
+$indef_gen_ok{'Críostaíocht'} = 1; # teagasc Críostaíochta
+$indef_gen_ok{'Gaeltacht'} = 1; # fear Gaeltachta
+$indef_gen_ok{'Galltacht'} = 1; # ceantar Galltachta
+
+read_langs();
 
 # pipe GA.txt or athfhocail through this (see makefile)
 
@@ -329,7 +348,9 @@ while (<STDIN>) {
 				}
 			}
 			# if PROPN, should only write w/o Def in select cases...
-			add_one($focal,$tag, $st);
+			if ($tag =~ m/^NOUN/ or ($tag =~ m/^PROPN.*Case=Gen/ and exists($indef_gen_ok{$st}))) {
+				add_one($focal,$tag, $st);
+			}
 			$tag = add_feature($tag, 'Definite', 'Def');
 			add_one($focal,$tag, $st);
 		}
